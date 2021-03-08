@@ -13,7 +13,7 @@
           {{ if and (ne .link "") (ne .link "#") }}
           <a href="{{ .link }}"><img src="" alt="" class="img-fluid"></a>
           {{ else }}
-          <img src="{{ .logo | relURL }}" alt="" class="img-fluid">
+          <img src="{{ .logo }}" alt="" class="img-fluid">
           {{ end }}
         </div>
         {{ end }}
