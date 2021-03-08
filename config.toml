@@ -3,7 +3,7 @@
 baseURL = "https://devday4w.com/"
 title = "Dev Day 4 Women"
 enableRobotsTXT = true
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "es"
 
 theme = "dd4w"
 # post pagination
@@ -74,16 +74,16 @@ logo = "/images/logo-monochrome.svg"
 home = "Home"
 
 # Meta data
-description = """DevDay 4 Women es otro fantástico evento de Software Guru."""
+description = """Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software."""
 images = ["/images/blog/dd4w.jpg"]
-twitter_user = ""
+twitter_user = "RevistaSG"
 email = "eventos@sg.com.mx"
 author = "Software Guru"
 
-# Google Analitycs
-google_analitycs_id = "UA-165970215-1" # your id
-# search for blog page
-search = true
+start_date = "2021-04-14T11:00-05:00"
+end_date = "2021-04-15T19:00-05:00"
+
+
 
 disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru."""
 
@@ -95,9 +95,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "live"
-link = "/live"
+enable = true
+label = "Regístrate"
+link = "https://www.eventbrite.com.mx/e/dev-day-4-women-presentado-por-accenture-tickets-144095309951"
 
 
 
