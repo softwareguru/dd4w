@@ -9,6 +9,7 @@ theme = "dd4w"
 # post pagination
 paginate = "8"
 
+googleAnalytics = "UA-21077034-24"
 
 # output
 [outputs]
