@@ -1,0 +1,67 @@
+############################# banner ################################
+banner:
+  enable : true
+  title : "DEV DAY 4 WOMEN VIRTUAL PRESENTADO POR ACCENTURE"
+ 
+  img: "/images/background-ccoss.jpg" 
+  date_time: "14 Y 15 DE ABRIL, 2021"
+  bg_image: ""
+
+  venue : "JUNT@S LIDERANDO LA TRANSFORMACIÓN DIGITAL"
+  where : " 14 Y 15 DE ABRIL, 2021 | EVENTO VIRTUAL | DONDEQUIERA QUE TE ENCUENTRES"
+  button:
+    enable : true
+    label : "Envía una Propuesta"
+    link : "https://convoca.dev/dev-day-4-women-marzo-2021/cfp"
+
+
+############################## Event ##############################
+event_info:
+  enable : true
+  title : "DOS DÍAS DE APRENDIZAJE PARA DESARROLLADORAS"
+
+  description : >
+   Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software. La edición Abril 2021 es presentada por Accenture México, se combinarán conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
+   
+  description1: >
+
+   DD4W se realizará el próximo 14 y 15 de abril del 2021.
+
+   Esta edición la enfocaremos en compartir y conocer esas historias de mujeres exitosas que en tiempo de pandemia siguen dando lo mejor de sí, transformando su forma de trabajo, y logrando nuevas metas en el entorno actual.
+
+  description2: >
+   Incluiremos contenidos sobre tendencias tecnológicas, compartiremos retos y experiencias de mujeres en STEAM, también el evento incluirá espacio de virtuales para networking.
+
+  description3: >
+
+   Además tendrás la oportunidad de tener contacto directo con representantes de Accenture y conocer las oportunidades laborales que ofrecen actualmente para chicas en la industria.
+  
+  present_by: Presentado por
+  image : "/images/logos/accenture.png"
+
+
+####################### Speakers #############################
+speakers:
+  enable : false
+  title : "Keynote speakers"
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : true
+  # pricing data comes from "pricing.yml" file
+
+
+############################### Blog ######################################
+blog:
+  enable : true
+  title : "Noticias recientes"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # blog content comes from "content/blog" folder
+
+
+

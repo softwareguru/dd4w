@@ -1,0 +1,134 @@
+
+######################## default configuration ####################
+baseURL = "https://devday4w.com/"
+title = "Dev Day 4 Women"
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+
+theme = "dd4w"
+# post pagination
+paginate = "8"
+
+
+# output
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "/plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "/plugins/themefisher-font/themefisher-font.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "/plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "/plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"
+[[params.plugins.js]]
+link="https://kit.fontawesome.com/4a6d2efc2e.js"
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+  name = "Programa 2021"
+  URL = "/program"
+  weight = 2
+
+
+  #[[menu.main]]
+  #name = "Speakers"
+  #URL = "/speakers"
+  #weight = 2
+
+ 
+  #[[menu.main]]
+  #name = "Kit virtual"
+  #URL = "/kit-virtual"
+  #weight = 3
+
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 4
+
+  [[menu.main]]
+  name = "FAQ"
+  URL = "/faq"
+  weight = 5
+
+
+
+#################### default parameters ################################
+[params]
+logo = "/images/logo-monochrome.svg"
+home = "Home"
+
+# Meta data
+description = """DevDay 4 Women es otro fantástico evento de Software Guru."""
+images = ["/images/blog/dd4w.jpg"]
+twitter_user = ""
+email = "eventos@sg.com.mx"
+author = "Software Guru"
+
+# Google Analitycs
+google_analitycs_id = "UA-165970215-1" # your id
+# search for blog page
+search = true
+
+disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru."""
+
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "live"
+link = "/live"
+
+
+
+############################# social icon ############################
+
+[[params.social]]
+icon = "tf-ion-social-twitter"
+link = "https://twitter.com/RevistaSG"
+
+[[params.social]]
+icon = "tf-ion-social-facebook"
+link = "https://www.facebook.com/softwareguru"
+
+[[params.social]]
+icon = "fas fa-envelope"
+link = "mailto:eventos@sg.com.mx"
+
+
+[[params.footer_previous]]
+name = "Acerca de"
+link = "https://sg.com.mx/sg4w"
+
+[[params.footer_previous]]
+name = "Código de Conducta"
+link = "/coc/"
+
+[[params.footer_resources]] 
+name = "Email"
+link = "mailto:eventos@sg.com.mx"
+
+
+
+
+

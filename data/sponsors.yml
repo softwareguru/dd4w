@@ -1,0 +1,39 @@
+enable :  true
+title : "Presentado por"
+sponsor_group:
+
+  - title : ""
+    slug : "silver"
+    sponsor:
+      - logo : "/images/logos/accenture.png"
+        link : "https://www.accenture.com/mx-es" 
+
+
+  - title : "Apoyado por"
+    slug : "community"
+    sponsor:
+      - logo : "/images/logos/hora-del-codigo-logo.png"
+        link : "https://hourofcode.com/es"
+      - logo : "/images/logos/AMITI-WIT.jpg"
+        link : "https://www.facebook.com/AMITI.WIT.mx"
+      - logo : "/images/logos/Women-in-Voice.png"
+        link : "https://womeninvoice.org/"
+      - logo : "/images/logos/women-in-data.png"
+        link : "https://twitter.com/CommunityWi"   
+      - logo : "/images/logos/Laboratoria.png"
+        link : "https://www.laboratoria.la/"
+      - logo : "/images/logos/WWCode-CDMX.jpeg"
+        link : "https://twitter.com/wwcodemty"     
+
+  - title : "Organizado por"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/sg4w.png"
+        link : "https://sg.com.mx/sg4w" 
+      - logo : "/images/logos/sg.jpg"
+        link : "https://sg.com.mx/"
+      
+
+ 
+                  
+ 
