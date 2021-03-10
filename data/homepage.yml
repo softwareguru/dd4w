@@ -5,10 +5,8 @@ banner:
  
   img: "/images/background-ccoss.jpg" 
   date_time: "14 Y 15 DE ABRIL, 2021"
-  bg_image: ""
-
-  venue : "JUNT@S LIDERANDO LA TRANSFORMACIÓN DIGITAL"
-  where : " 14 Y 15 DE ABRIL, 2021 | EVENTO VIRTUAL | DONDEQUIERA QUE TE ENCUENTRES"
+  venue : "Just@s liderando la Trasformación Digital"
+  where : " 14 y 15 de abril, 2021 | Evento virtual"
   button:
     enable : true
     label : "Envía una Propuesta"
@@ -21,7 +19,7 @@ event_info:
   title : "DOS DÍAS DE APRENDIZAJE PARA DESARROLLADORAS"
 
   description : >
-   Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software. La edición Abril 2021 es presentada por Accenture México, se combinarán conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
+   Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software. La edición abril 2021 es presentada por Accenture México, se combinarán conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
    
   description1: >
 
@@ -37,7 +35,7 @@ event_info:
    Además tendrás la oportunidad de tener contacto directo con representantes de Accenture y conocer las oportunidades laborales que ofrecen actualmente para chicas en la industria.
   
   present_by: Presentado por
-  image : "/images/logos/accenture.png"
+  image : "/images/logos/accenture-logo.png"
 
 
 ####################### Speakers #############################

@@ -3,9 +3,9 @@ title : "Presentado por"
 sponsor_group:
 
   - title : ""
-    slug : "silver"
+    slug : "platinum"
     sponsor:
-      - logo : "/images/logos/accenture.png"
+      - logo : "/images/logos/accenture-logo.png"
         link : "https://www.accenture.com/mx-es" 
 
 
@@ -17,13 +17,12 @@ sponsor_group:
       - logo : "/images/logos/AMITI-WIT.jpg"
         link : "https://www.facebook.com/AMITI.WIT.mx"
       - logo : "/images/logos/Women-in-Voice.png"
-        link : "https://womeninvoice.org/"
-      - logo : "/images/logos/women-in-data.png"
-        link : "https://twitter.com/CommunityWi"   
+        link : "https://womeninvoice.org/" 
+      - logo : "/images/logos/WWCode-CDMX.jpeg"
+        link : "https://twitter.com/wwcodemty"  
       - logo : "/images/logos/Laboratoria.png"
         link : "https://www.laboratoria.la/"
-      - logo : "/images/logos/WWCode-CDMX.jpeg"
-        link : "https://twitter.com/wwcodemty"     
+   
 
   - title : "Organizado por"
     slug : "gold"

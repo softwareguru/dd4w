@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="footer-strip">
 			<div>
-				<h3 class="mb-3" style="">{{ .Site.Title | markdownify }}</h3>
+				<h3 class="mb-3">{{ .Site.Title | markdownify }}</h3>
 
 				<ul class="list-inline footer-socials">
 					{{ range .Site.Params.social }}
@@ -45,6 +45,9 @@
 			{{ . }}  
 		</div>			
         {{ end }}
+		
+
+		
 	</div>
 </footer>
 
