@@ -19,9 +19,13 @@ sponsor_group:
       - logo : "/images/logos/Women-in-Voice.png"
         link : "https://womeninvoice.org/" 
       - logo : "/images/logos/WWCode-CDMX.jpeg"
-        link : "https://twitter.com/wwcodemty"  
+        link : "https://twitter.com/wwcodemty"
+      - logo : "/images/logos/media-chicas.png"
+        link : "https://www.mediachicas.org/"
       - logo : "/images/logos/Laboratoria.png"
         link : "https://www.laboratoria.la/"
+      - logo : "/images/logos/WWCode-Merida.jpg"
+        link : "https://www.womenwhocode.com/merida" 
    
 
   - title : "Organizado por"
