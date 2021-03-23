@@ -26,6 +26,12 @@ sponsor_group:
         link : "https://www.laboratoria.la/"
       - logo : "/images/logos/WWCode-Merida.jpg"
         link : "https://www.womenwhocode.com/merida" 
+      - logo : "/images/logos/IconMunity.jpg"
+        link : "https://opencollective.com/iconmunity" 
+      - logo : "/images/logos/Pyladies-mx.png"
+        link : "https://twitter.com/MxPyladies?s=20" 
+      - logo : "/images/logos/las-de-sistemas.jpg"
+        link : "https://lasdesistemas.org/" 
    
 
   - title : "Organizado por"
