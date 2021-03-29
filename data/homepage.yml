@@ -9,9 +9,10 @@ banner:
   where : " 14 y 15 de abril, 2021 | Evento virtual"
   button:
     enable : true
-    label : "Envía una Propuesta"
-    link : "https://convoca.dev/dev-day-4-women-marzo-2021/cfp"
+    label : "#"
+    link : ""
 
+    ### el botón modal se encuentra en el index.html ######
 
 ############################## Event ##############################
 event_info:
