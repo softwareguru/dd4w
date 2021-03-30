@@ -8,6 +8,17 @@ sponsor_group:
       - logo : "/images/logos/accenture-logo.png"
         link : "https://www.accenture.com/mx-es" 
 
+  - title : "Partners"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/AWS.png"
+        link : "https://aws.amazon.com/es/local/latin-america/"
+      - logo : "/images/logos/googlecloud.png"
+        link : "https://cloud.google.com/"
+      - logo : "/images/logos/microsoft.png"
+        link : "https://www.microsoft.com/es-mx"
+      - logo : "/images/logos/SAP.png"
+        link : "https://www.sap.com/latinamerica/about.html"
 
   - title : "Apoyado por"
     slug : "community"
@@ -36,6 +47,8 @@ sponsor_group:
         link : "https://www.facebook.com/WiDSCommunity/" 
       - logo : "/images/logos/sicyt.png"
         link : "https://sicyt.jalisco.gob.mx/" 
+      - logo : "/images/logos/logo-mujeres.png"
+        link : "http://masmujeresux.mx.s3-website-us-east-1.amazonaws.com/" 
    
 
   - title : "Organizado por"
