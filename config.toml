@@ -40,16 +40,16 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Programa 2021"
-  URL = "/program"
-  weight = 2
-
-
   #[[menu.main]]
-  #name = "Speakers"
-  #URL = "/speakers"
+  #name = "Programa 2021"
+  #URL = "/program"
   #weight = 2
+
+
+  [[menu.main]]
+  name = "Speakers"
+  URL = "/speakers"
+  weight = 2
 
  
   #[[menu.main]]
