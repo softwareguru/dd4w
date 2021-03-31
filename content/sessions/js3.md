@@ -1,0 +1,19 @@
+---
+id: js3
+title: Technology Vision 2021
+speakers:
+  - Viridiana Zurita 
+
+time_start: 2021-04-15T12:15:00-05:00
+time_end:   2021-04-15T12:45:00-05:00
+
+language: 
+guide:
+day_num: 2
+slides: 
+video: 
+
+---
+
+¿Cómo convencer a los líderes de contratarme? ¿Qué poner en mi experiencia y mis cualidades? Si acabas de graduarte o estás a un paso de hacerlo y te has hecho estas preguntas, ésta es tu plática. Te brindamos consejos de valor sobre cómo hacer tu CV para aplicar a grandes empresas y grandes empleos.
+

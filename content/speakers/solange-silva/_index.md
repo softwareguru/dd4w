@@ -1,5 +1,5 @@
 ---
-title: "Solange Silvia"
+title: "Solange Silva"
 date: 2021-03-30T10:12:40-06:00
 image : /images/speakers/solange-silvia.jpg
 designation: Solutions Architect en BizPro de México

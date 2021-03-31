@@ -2,7 +2,7 @@
 title: "Gloria Zúñiga Chávez"
 date: 2021-03-29T16:46:48-06:00
 image : /images/speakers/gloria-zuñiga.jpg
-designation: Project Manager, Scrum Master y Office Manager en Praxis Ixmiquilpan
+designation: Project Manager, Scrum Master y Office Manager en Praxis
 country: 
 twitter: 
 linkedin: 

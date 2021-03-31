@@ -1,5 +1,5 @@
 ---
-title: "Mayra Guillen"
+title: "Mayra Guillén"
 date: 2021-03-29T18:52:33-06:00
 image : /images/speakers/mayra-guillen.jpg
 designation: Líder de Reclutamiento en Accenture México

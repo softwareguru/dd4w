@@ -38,7 +38,7 @@
                   <div class="time">
                     <h4 id="time-{{.Params.id}}" class="text-color">
                     </h4>
-                    <div class="utc-time font-italic">
+                    <div class="utc-time font-italic" style="color: black;">
                       {{ with .Params.time_start | time  }}
                       {{ .UTC.Format "(15:04" }}
                       {{ end }}

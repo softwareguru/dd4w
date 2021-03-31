@@ -1,5 +1,5 @@
 ---
-title: "Karla Garcia"
+title: "Karla García"
 date: 2021-03-29T18:49:39-06:00
 image : /images/speakers/karla-garcia.jpg
 designation: Software Engineer - DigitalOnUs y UNAM

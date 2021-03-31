@@ -11,6 +11,11 @@ paginate = "8"
 
 googleAnalytics = "G-HV96ZN2N60"
 
+[taxonomies]
+tag = "tags"
+category = "categories"
+speaker = "speakers"
+
 # output
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -40,10 +45,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 ############################## navigation ###############################
 [menu]
 
-  #[[menu.main]]
-  #name = "Programa 2021"
-  #URL = "/program"
-  #weight = 2
+  [[menu.main]]
+  name = "Agenda"
+  URL = "/program"
+  weight = 2
 
 
   [[menu.main]]
