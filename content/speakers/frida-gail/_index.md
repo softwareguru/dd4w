@@ -1,7 +1,7 @@
 ---
 title: "Frida Gail"
 date: 2021-03-30T13:36:55-06:00
-image : /images/speakers/speaker.jpg
+image : /images/speakers/frida-gail.png
 designation: Sr. Embedded Eng Supervisor
 country: 
 twitter: 

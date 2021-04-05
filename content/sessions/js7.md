@@ -12,7 +12,7 @@ guide:
 day_num: 2
 slides: 
 video: 
-
+draft: true
 ---
 
 
