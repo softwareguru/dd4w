@@ -4,8 +4,8 @@ date: 2021-03-29T18:47:10-06:00
 image : /images/speakers/karem-quiroz.jpg
 designation: Full Stack Developer
 country: 
-twitter: 
-linkedin: 
+twitter: https://twitter.com/codekacode
+linkedin: https://www.linkedin.com/in/karem-quiroz/
 github: 
 ---
 

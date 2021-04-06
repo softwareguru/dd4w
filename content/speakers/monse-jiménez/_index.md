@@ -2,9 +2,9 @@
 title: "Monse Jiménez"
 date: 2021-03-29T18:55:34-06:00
 image : /images/speakers/monse-jimenez.jpg
-designation: 
+designation: Líder de Business Agility en Accenture México
 country: 
-twitter: 
+twitter: https://twitter.com/Accenture_MX
 linkedin: 
 github: 
 ---

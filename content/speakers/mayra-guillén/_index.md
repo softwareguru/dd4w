@@ -4,7 +4,7 @@ date: 2021-03-29T18:52:33-06:00
 image : /images/speakers/mayra-guillen.jpg
 designation: Líder de Reclutamiento en Accenture México
 country: 
-twitter: 
+twitter: https://www.linkedin.com/in/gloriazunigachavez/
 linkedin: 
 github: 
 ---

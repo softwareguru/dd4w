@@ -4,8 +4,8 @@ date: 2021-03-30T13:15:52-06:00
 image : /images/speakers/sol-estrada.jpg
 designation: Agile Coach en Globant - Directora de Women Who Code MX
 country: 
-twitter: 
-linkedin: 
+twitter: https://twitter.com/solestradaso?lang=en
+linkedin: https://www.linkedin.com/in/sol-estrada-soto-5060814a/?originalSubdomain=mx
 github: 
 ---
 

@@ -4,7 +4,7 @@ date: 2021-03-30T10:15:04-06:00
 image : /images/speakers/viridiana-zurita.png
 designation: Líder de Tecnología en Accenture México
 country: 
-twitter: 
+twitter: https://twitter.com/Accenture_MX
 linkedin: 
 github: 
 ---

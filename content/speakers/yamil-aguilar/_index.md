@@ -4,8 +4,8 @@ date: 2021-03-30T10:17:26-06:00
 image : /images/speakers/yamil-aguilar.jpg
 designation: QA Engineer
 country: 
-twitter: 
-linkedin: 
+twitter: https://twitter.com/yamilaguilar?lang=en
+linkedin: https://www.linkedin.com/in/yamil-aguilar-371b382b/?originalSubdomain=mx 
 github: 
 ---
 

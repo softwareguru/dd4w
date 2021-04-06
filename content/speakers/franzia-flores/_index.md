@@ -4,8 +4,8 @@ date: 2021-03-29T16:46:48-06:00
 image : /images/speakers/franzia-flores.png
 designation: Product Designer @ Bunsan
 country: 
-twitter: 
-linkedin: 
+twitter: https://twitter.com/franziaconz?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+linkedin: https://www.linkedin.com/in/franziaflores/?originalSubdomain=mx
 github: 
 ---
 

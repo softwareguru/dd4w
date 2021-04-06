@@ -5,7 +5,7 @@ image : /images/speakers/gloria-zuñiga.jpg
 designation: Project Manager, Scrum Master y Office Manager en Praxis
 country: 
 twitter: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/gloriazunigachavez/
 github: 
 ---
 

@@ -4,8 +4,8 @@ date: 2021-03-30T13:08:43-06:00
 image : /images/speakers/laura-frias.jpg
 designation: Territory Manager @ AWS
 country: 
-twitter: 
-linkedin: 
+twitter: https://twitter.com/lauriutz?lang=en
+linkedin: https://www.linkedin.com/in/laurafrias/
 github: 
 ---
 

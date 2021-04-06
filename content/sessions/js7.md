@@ -1,6 +1,6 @@
 ---
 id: js7
-title: Mentorias wwcode
+title: Mentorias Facilitadas por Women Who Code MTY
 speakers:
   - 
 
@@ -14,5 +14,13 @@ slides:
 video: 
 draft: true
 ---
+
+Espacio donde nos acompañaran expertas en temas de tecnología que respondera a tus dudas, este espacio es facilitado por el equipo de Women Who Code MTY
+Algunos de los temas que se tocaran so:
+- Cómo convertirte en Tech Lead?
+- Técnicas de Project management
+- Diferencias entre UX y Service Design
+- Cloud
+- Ciberseguridad
 
 

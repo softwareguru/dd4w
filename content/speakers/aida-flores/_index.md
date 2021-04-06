@@ -4,7 +4,7 @@ date: 2021-03-31T11:56:36-06:00
 image : /images/speakers/aida-flores.jpg
 designation: Líder de Diversidad e Inclusión en Accenture México
 country: 
-twitter: 
+twitter: https://twitter.com/Accenture_MX
 linkedin: 
 github: 
 ---

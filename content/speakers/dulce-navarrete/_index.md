@@ -4,7 +4,7 @@ date: 2021-03-29T16:46:48-06:00
 image : /images/speakers/dulce-navarrete.jpg
 designation: Consultor especialista en temas de BPM, Mentora en Technovation Girls México
 country: 
-twitter: 
+twitter: https://twitter.com/dulnav?lang=en
 linkedin: 
 github: 
 ---

@@ -4,7 +4,7 @@ date: 2021-03-30T12:55:42-06:00
 image : /images/speakers/ivanni-tayabas.jpg
 designation: Directora de AMITI WIT
 country: 
-twitter: 
+twitter: https://twitter.com/ivannitayabas?lang=en
 linkedin: 
 github: 
 ---

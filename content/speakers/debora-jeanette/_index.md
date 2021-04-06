@@ -4,7 +4,7 @@ date: 2021-03-31T14:32:54-06:00
 image : /images/speakers/debora-jeanette.jpg
 designation: QA Engineer & Front-end Developer
 country: 
-twitter: 
+twitter: https://twitter.com/kikytech
 linkedin: 
 github: 
 ---

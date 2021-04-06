@@ -5,7 +5,7 @@ image : /images/speakers/andrea-silva.jpg
 designation: Product Owner Delivery @ Zigatta
 country: 
 twitter: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/andrea-sm/?originalSubdomain=mx
 github: 
 ---
 
