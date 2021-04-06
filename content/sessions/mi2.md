@@ -2,7 +2,7 @@
 id: mi2
 title: "Si no es ahora, ¿cuándo?: El impacto del Covid-19 en las mujeres"
 speakers:
-  - Lorenza Martinez
+  - Lorenza Martínez
 
 time_start: 2021-04-14T11:15:00-05:00
 time_end:   2021-04-14T11:45:00-05:00

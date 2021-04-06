@@ -1,5 +1,5 @@
 ---
-title: "Yesenia Espiritu"
+title: "Yesenia Espíritu"
 date: 2021-04-05T17:52:06-05:00
 image : /images/speakers/yesenia-espiritu.png
 designation: QA Jr @ michelada.io

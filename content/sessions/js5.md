@@ -1,8 +1,8 @@
 ---
 id: js5
-title: Sesion AWS
+title: Sesión AWS
 speakers:
-  - Laura Frias
+  - Laura Frías
 
 time_start: 2021-04-15T13:15:00-05:00
 time_end:   2021-04-15T13:45:00-05:00

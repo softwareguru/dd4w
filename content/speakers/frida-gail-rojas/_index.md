@@ -1,11 +1,11 @@
 ---
-title: "Frida Gail"
+title: "Frida Gail Rojas"
 date: 2021-03-30T13:36:55-06:00
 image : /images/speakers/frida-gail.png
-designation: Sr. Embedded Eng Supervisor
+designation: Supervisora de Ingeniería en Sistemas Embebidos
 country: 
 twitter: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/gailroco/
 github: 
 ---
 

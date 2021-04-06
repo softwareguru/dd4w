@@ -1,5 +1,5 @@
 ---
-title: "Laura Frias"
+title: "Laura Frías"
 date: 2021-03-30T13:08:43-06:00
 image : /images/speakers/laura-frias.jpg
 designation: Territory Manager @ AWS

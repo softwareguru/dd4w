@@ -2,7 +2,7 @@
 id: js6
 title: Nube Para Principiantes, Introducción a Google Cloud Platform.
 speakers:
-  - Pamela Marquez
+  - Pamela Márquez
 
 time_start: 2021-04-15T13:45:00-05:00
 time_end:   2021-04-15T14:15:00-05:00
