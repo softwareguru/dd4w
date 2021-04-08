@@ -2,7 +2,7 @@
 title: "Luz María Gutiérrez"
 date: 2021-04-08T10:32:42-05:00
 image : /images/speakers/luz-maria-gutierrez.png
-designation: Senior Manager
+designation: Senior Manager en Accenture México
 country: 
 twitter: https://twitter.com/Accenture_MX 
 linkedin: 

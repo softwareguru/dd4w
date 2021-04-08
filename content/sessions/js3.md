@@ -15,5 +15,5 @@ video:
 
 ---
 
-¿Cómo convencer a los líderes de contratarme? ¿Qué poner en mi experiencia y mis cualidades? Si acabas de graduarte o estás a un paso de hacerlo y te has hecho estas preguntas, ésta es tu plática. Te brindamos consejos de valor sobre cómo hacer tu CV para aplicar a grandes empresas y grandes empleos.
+El mundo anhela un nuevo estilo de liderazgo. En medio de los desafíos que ha planteado el año 2020, se han puesto de manifiesto dos verdades. Más empresas que nunca han adoptado el axioma de que todas las empresas son tecnológicas y han puesto en marcha una nueva etapa de transformación exponencial, mientras la tecnología no deja de reestructurar las industrias y la experiencia humana. Ahora que empezamos a remodelar la realidad pospandémica, las empresas deben aprender a dominar el cambio. Conoce cuáles serán las tendencias tecnológicas que se deben tomar en cuenta para liderar el cambio.
 
