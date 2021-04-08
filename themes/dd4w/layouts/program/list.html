@@ -1,7 +1,5 @@
 {{ define "main" }}
 
-
-
 <div class="container">
   
   
@@ -52,7 +50,7 @@
                     <h3>
                       <a href="{{ .Permalink }}">{{ .Params.title }}</a>
                     </h3>
-                    {{ if .Params.speakers }}<h6 class="speakers-list">{{ i18n "by" }}
+                    {{ if .Params.speakers }}<h6 class="speakers-list">{{ i18n "" }}
                       {{ delimit .Params.speakers ", " " & " }} </h6>{{ end }}
                   </div>
                 </li>

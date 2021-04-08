@@ -9,6 +9,9 @@ linkedin: https://www.linkedin.com/in/laurafrias/
 github: 
 ---
 
-Desarrollador de negocios de tecnología con experiencia como conferencista para audiencias masivas, evangelización, desarrollo y estrategia de marketing digital. Con habilidades en: análisis, comunicación, negociación, visión estratégica, liderazgo, orientación a resultados.
+Laura Frías es licenciada en Ciencias de la Computación por la Facultad de Ciencias, UNAM y tiene una maestría en Data Analytics por la Escuela de Negocios ISDI.
+Actualmente es parte del equipo de desarrollo de negocios en Amazon Web Services como Territory Manager, colaborando con empresas de México a identificar necesidades tecnológicas en diferentes etapas de adopción en la nube.
 
-9 años de experiencia en empresas nacionales e internacionales del sector educativo, comunicacional y tecnológico; en las áreas de docencia, investigación tecnológica, desarrollo empresarial y medios digitales. Conferencista nacional, participación en congresos, coordinación logística de eventos masivos, relación con iniciativa privada y pública. He obtenido reconocimientos por productividad y alto desempeño.
+Laura cuenta con más de 10 años de experiencia en empresas internacionales de tecnología.
+Ha trabajado como ayudante de profesor en la Universidad Nacional Autónoma de México, evangelista de tecnología en Microsoft donde lideró el desarrollo de aplicaciones como Ticketmaster y RadioCentro; además de impartir cursos, talleres y conferencias conectando con más de 10 mil personas entre estudiantes, desarrolladores, profesionales de tecnología y startups.
+Previo a AWS, formó parte del equipo comercial en Rackspace y Salesforce donde apoyó a más de 50 empresas a transformar sus negocios en la nube.

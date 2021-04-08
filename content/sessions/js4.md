@@ -1,6 +1,6 @@
 ---
 id: js4
-title: Estudio Mujeres en tecnología
+title: Reseteando la cultura tecnológica
 speakers:
   - Monse Jiménez 
 
@@ -14,5 +14,7 @@ slides:
 video: 
 
 ---
+
+La tecnología necesita mujeres. Para atraerlas y retenerlas, la cultura de la tecnología necesita cambiar. Nuestra investigación, en conjunto con Girls Who Code nos muestra cómo llegar ahí y cómo, desde la experiencia de Monse Jiménez, se ha ido implementando una cultura de diversidad en el mundo de la tecnología.
 
 

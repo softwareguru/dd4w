@@ -12,7 +12,7 @@ guide:
 day_num: 2
 slides: 
 video: 
-draft: true
+draft: false
 ---
 
 Espacio donde nos acompañaran expertas en temas de tecnología que respondera a tus dudas, este espacio es facilitado por el equipo de Women Who Code MTY
