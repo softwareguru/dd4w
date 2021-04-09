@@ -9,7 +9,7 @@ theme = "dd4w"
 # post pagination
 paginate = "8"
 
-googleAnalytics = "G-HV96ZN2N60"
+googleAnalytics = "GTM-MXJFH7W"
 
 [taxonomies]
 tag = "tags"
