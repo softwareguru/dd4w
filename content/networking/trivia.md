@@ -4,7 +4,7 @@ date: 2020-10-13T16:23:16-05:00
 image: /images/networking/2.png
 description: 
 button: Unirme a Slack
-link: https://sg4women.slack.com
+link: https://gather.town/app/lPrwwSKm3aZFwO1p/devday4w2021-by-accenture
 draft: false
 ---
 
