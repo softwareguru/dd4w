@@ -62,7 +62,7 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
  
   [[menu.main]]
   name = "Vacantes"
-  URL = "https://www.accenture.com/mx-es/careers?src=PSEARCH&c=mx_brandexpression_11798374&n=psgs_0121&gclid=Cj0KCQjwsLWDBhCmARIsAPSL3_2GpfzpBvSIA1xAnCgZ_m0g1vbSUYnI2A1cEBjaNqxynMTDKjXqPBYaAqDeEALw_wcB"
+  URL = "/vacantes"
   weight = 3
 
   [[menu.main]]
