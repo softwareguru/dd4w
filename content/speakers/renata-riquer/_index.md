@@ -9,3 +9,7 @@ linkedin:
 github: 
 ---
 
+Especialista de Reclutamiento en Accenture México para las divisiones de S&C, Interactive y Funciones Corporativas. Egresada de la Escuela Bancaria y Comercial.
+
+9 años de experiencia en Reclutamiento y Selección con enfoque en consultoría de estrategia, principalmente desarrollando e implementando estrategias de atracción de talento, adicional en la gestión de proyectos de talento.
+

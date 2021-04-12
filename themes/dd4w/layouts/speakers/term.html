@@ -25,6 +25,12 @@
                       <li><a href="{{ . }}" target="_blank"><span class="fab fa-github"></span></a></li>
                       {{ end }}
                       {{ end }}
+
+                      {{ with .Params.facebook }}
+                      {{ if ne . "" }}
+                      <li><a href="{{ . }}" target="_blank"><span class="fab fa-facebook"></span></a></li>
+                      {{ end }}
+                      {{ end }}
                   </ul>
               </div>
           </div>
