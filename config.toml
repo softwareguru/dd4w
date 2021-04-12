@@ -71,7 +71,7 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
   [[menu.main]]
   name = "Kit Virtual"
-  URL = "/kit-virtual"
+  URL = "/kitvirtual"
   weight = 5
 
   [[menu.main]]
