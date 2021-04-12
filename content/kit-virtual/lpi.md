@@ -6,6 +6,6 @@ description: "1 de 100%, 3 de 50%, 50 de 25%. Se rifarán entre todos aquellos q
 image: /images/logos/lpi.png
 link: https://docs.google.com/forms/d/e/1FAIpQLSc-fXefBWSP1YyzyEbumvhSCTOAzfxMbPMxRSo7qDZt9W5OKQ/viewform
 button: Participa
-draft: false
+draft: true
 ---
 

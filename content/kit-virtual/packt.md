@@ -7,6 +7,6 @@ description1: "25% de descuento en mismos libros (impresos) en el website de edi
 image: /images/logos/packt.png
 link: https://www.packtpub.com 
 button: Conocer más
-draft: false
+draft: true
 ---
 

@@ -5,6 +5,6 @@ description: "Gana una membresía anual de aprendizaje y curso en vivo en la pla
 image: /images/logos/abiztar.jpg
 link: https://www.abiztar.com.mx/membresia/
 button: Participa
-draft: false
+draft: true
 ---
 

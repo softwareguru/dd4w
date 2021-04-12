@@ -5,6 +5,6 @@ description: "Toma todos los cursos en línea, en video, que puedas tomar durant
 image: /images/logos/abiztar.jpg
 link: https://1000certificados.com/miscursos/accede-gratis-a-todos-los-cursos-durante-15-dias
 button: SUSCRÍBETE
-draft: false
+draft: true
 ---
 

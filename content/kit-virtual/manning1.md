@@ -6,5 +6,6 @@ description: "Editorial Manning rifa 5 libros: Unified Logging with Fluentd"
 image: /images/logos/manning.png
 link:  http://mng.bz/EE6X 
 button: Conoce más
+draft: true
 ---
 

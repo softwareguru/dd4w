@@ -7,5 +7,6 @@ utilizando el código: ctwopensource20"
 image: /images/logos/manning.png
 link:  http://mng.bz/8Gg5  
 button: Libros disponibles
+draft: true
 ---
 

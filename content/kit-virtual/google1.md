@@ -6,6 +6,6 @@ description: "Participa en el Sprint de contribucion, y participa en la rifa de 
 image: /images/logos/google.png
 link: 
 button: 
-draft: false
+draft: true
 ---
 

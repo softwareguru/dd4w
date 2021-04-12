@@ -9,6 +9,6 @@ description1: "Consulta aquí los cursos: https://bedu.org/cursos/
 image: /images/logos/bedu.png
 link: https://forms.gle/spHq71Wuzow29YCm7
 button: Participa
-draft: false
+draft: true
 ---
 
