@@ -3,8 +3,8 @@ title: "Descuento del 35% en ebooks de Editorial Packt"
 date: 2020-10-17T15:21:52-05:00
 description: 
 image: /images/logos/Pack.png
-link: https://www.packtpub.com/
-button: Conocer más
+link: https://packt.live/3dUymQY
+button: Títulos disponibles
 draft: false
 ---
 
