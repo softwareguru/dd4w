@@ -4,6 +4,8 @@ title: Mentorias Facilitadas por Women Who Code MTY
 speakers:
   - Penélope Ramírez 
   - Luz Aracely De León
+  - Rocío Solís
+  - Alina Poulain
 
 time_start: 2021-04-15T14:15:00-05:00
 time_end:   2021-04-15T15:15:00-05:00

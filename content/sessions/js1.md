@@ -2,7 +2,7 @@
 id: js1
 title: Fireside chat 
 speakers:
-  - Ivanni Tayabas
+  - Corinne Garcia
   - María José Castelazo
   - Luz María Gutiérrez 
 
