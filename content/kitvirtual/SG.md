@@ -10,9 +10,9 @@ draft: false
 
 Participa en la trivia de slack durante el evento y podrás ganar diferentes premios
 
-* 1er lugar - Echo 4Gen o un Echo Dot.
+* 1er lugar - Echo 4Gen.
 * 2do lugar - Amazon Gif Card de $500
-* 3er lugar -   Amazon Gif Card de $500
+* 3er lugar - Amazon Gif Card de $500
 
 
 Pon a prueba tus conocimientos en cultura general, geek, industria y otros temas relacionados. 
