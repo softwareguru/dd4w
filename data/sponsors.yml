@@ -17,6 +17,8 @@ sponsor_group:
         link : "https://cloud.google.com/"
       - logo : "/images/logos/microsoft.png"
         link : "https://www.microsoft.com/es-mx"
+      - logo : "/images/logos/SAP.png"
+        link : "https://www.facebook.com/wwcodemid/"
 
 
   - title : "Apoyado por"
@@ -58,6 +60,7 @@ sponsor_group:
         link : "https://sicyt.jalisco.gob.mx/"
       - logo : "/images/logos/jalisco.png"
         link : "https://sicyt.jalisco.gob.mx/"
+
    
 
   - title : "Organizado por"
