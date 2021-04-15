@@ -4,12 +4,12 @@ title: "Ni el límite es la nube: Trabajar Cloud en una empresa global"
 speakers:
   - Silvia Hernández
 
-time_start: 2021-04-14T13:45:00-05:00
-time_end:   2021-04-14T14:15:00-05:00
+time_start: 2021-04-15T16:30:00-05:00
+time_end:   2021-04-15T17:00:00-05:00
 
 language: 
 guide:
-day_num: 1
+day_num: 2
 slides: 
 video: 
 ---
