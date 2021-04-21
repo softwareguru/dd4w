@@ -10,7 +10,7 @@ time_end:   2021-04-14T15:15:00-05:00
 language: 
 guide:
 day_num: 1
-slides: 
+slides: Angela Gómez - PPT_ AG_La cultura empresarial en el empoderamiento de las próximas líderes del sector tecnológico (1).pdf
 video: 
 draft: false
 ---

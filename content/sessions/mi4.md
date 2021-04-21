@@ -10,7 +10,7 @@ time_end:   2021-04-14T12:45:00-05:00
 language: 
 guide:
 day_num: 1
-slides: 
+slides: Ciberseguridad para tod@s.pptx
 video: 
 ---
 

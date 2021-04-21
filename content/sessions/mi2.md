@@ -10,7 +10,7 @@ time_end:   2021-04-14T11:45:00-05:00
 language: 
 guide:
 day_num: 1
-slides: 
+slides: Lorenza Martínez - Acelerando la equidad de género 2021.pdf
 video: 
 ---
 

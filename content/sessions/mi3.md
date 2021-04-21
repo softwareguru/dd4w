@@ -11,7 +11,7 @@ time_end:   2021-04-14T12:15:00-05:00
 language: 
 guide:
 day_num: 1
-slides: 
+slides: Cinthya - Aida DevDay4w_ GETTING TO EQUAL_100421.pdf
 video: 
 ---
 
