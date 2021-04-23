@@ -11,7 +11,7 @@ language:
 guide:
 day_num: 1
 slides: Lorenza Martínez - Acelerando la equidad de género 2021.pdf
-video: 
+video: https://www.youtube.com/embed/NUNq9DdUMBo
 ---
 
 Exploramos los peligros de no hacer nada resaltando el desproporcionado impacto de la pandemia en las mujeres. El reporte recomienda 10 políticas clave que permitirá construir un mundo mejor, con equidad e inclusión en el corazón de nuestras sociedades.

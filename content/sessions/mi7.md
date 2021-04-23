@@ -11,7 +11,7 @@ language:
 guide:
 day_num: 2
 slides: 
-video: 
+video: https://www.youtube.com/embed/QdLJasS1Dfg
 ---
 
 Hoy en día Cloud se ha vuelto una solución que toda empresa y toda industria necesita. Pero, ¿cómo enfocar mi carrera en Cloud? Te damos consejos y las oportunidades que tienes en una carrera Cloud por medio de la trayectoria y experiencia de una líder de la Nube en una empresa global.

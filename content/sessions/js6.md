@@ -10,8 +10,8 @@ time_end:   2021-04-15T14:15:00-05:00
 language: 
 guide:
 day_num: 2
-slides: 
-video: 
+slides: Nube Para Principiantes, Introducción a Google Cloud Platform.pdf
+video: https://www.youtube.com/embed/aO8sI6WeJng
 
 ---
 

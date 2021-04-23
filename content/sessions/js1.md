@@ -13,7 +13,7 @@ language:
 guide:
 day_num: 2
 slides: 
-video: 
+video: https://www.youtube.com/embed/QmwzROO6JWM
 ---
 
 El papel de la mujer en la industria de TI. Donde 3 prestigiadas mujeres en las TI, compartiran con nosotros un poc de su experiencia en esta área 

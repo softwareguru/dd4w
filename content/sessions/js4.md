@@ -10,8 +10,8 @@ time_end:   2021-04-15T13:15:00-05:00
 language: 
 guide:
 day_num: 2
-slides: 
-video: 
+slides: Reseteando la cultura tecnológica.pptx
+video: https://www.youtube.com/embed/U9JRdMQjWxU
 
 ---
 

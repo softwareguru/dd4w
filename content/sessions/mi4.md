@@ -11,7 +11,7 @@ language:
 guide:
 day_num: 1
 slides: Ciberseguridad para tod@s.pptx
-video: 
+video: https://www.youtube.com/embed/pTw70lUVmZg
 ---
 
 La ciberseguridad siempre ha sido parte vital en todas las empresas. Conoce algunas oportunidades, retos y consejos de una mujer en la práctica de Ciberseguridad.

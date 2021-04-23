@@ -11,7 +11,7 @@ language:
 guide:
 day_num: 1
 slides: Angela Gómez - PPT_ AG_La cultura empresarial en el empoderamiento de las próximas líderes del sector tecnológico (1).pdf
-video: 
+video: https://www.youtube.com/embed/VWuff4x6xgg
 draft: false
 ---
 

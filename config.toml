@@ -49,9 +49,14 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 [menu]
 
   [[menu.main]]
-  name = "Agenda"
-  URL = "/program"
-  weight = 2
+  name = "Sesiones"
+  URL = "/sessions"
+  weight = 1
+
+  #[[menu.main]]
+  #name = "Agenda"
+  #URL = "/program"
+  #weight = 2
 
   [[menu.main]]
   name = "Speakers"
@@ -64,15 +69,15 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   URL = "/vacantes"
   weight = 3
 
-  [[menu.main]]
-  name = "Networking"
-  URL = "/networking"
-  weight = 4
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 4
 
-  [[menu.main]]
-  name = "Kit Virtual"
-  URL = "/kitvirtual"
-  weight = 5
+  #[[menu.main]]
+  #name = "Kit Virtual"
+  #URL = "/kitvirtual"
+  #weight = 5
 
   [[menu.main]]
   name = "FAQ"
