@@ -10,7 +10,7 @@ time_end:   2021-04-14T13:15:00-05:00
 language: 
 guide:
 day_num: 1
-slides: 
+slides: https://view.genial.ly/60732d027704a50d6d555cf1/presentation-vida-exponencial
 video: https://www.youtube.com/embed/IHv6mc7ZBjs
 ---
 

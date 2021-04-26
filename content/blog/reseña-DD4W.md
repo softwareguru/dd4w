@@ -59,14 +59,14 @@ También durante el evento se presentó el estudio ["If not now, when?"](https:/
 
 Actualmente hay cientos de comunidades en el mundo que trabajan día a día por lograr una participación importante de las mujeres en TI. En Dev Day 4 Women pudimos conocer un poco más de algunas que estuvieron invitadas, como:
 
-* Las De Sistemas
-* Women Who Code México
-* Media Chicas
-* Women in Data Science Power and Engineering
-* Más Mujeres en UX México
-* Iconmunity
-* Hackwomen
-* TechQuiero
+* [Las De Sistemas](https://lasdesistemas.org/)
+* Women Who Code [Monterrey](https://twitter.com/wwcodemty), [Mérida](https://twitter.com/WWCodeMID), [Ciudad de México](https://twitter.com/WWCodeCDMX)
+* [Media Chicas](https://www.mediachicas.org/)
+* [Women in Data Science Power and Engineering](https://www.linkedin.com/company/women-in-data-science-power-and-engineering/?originalSubdomain=mx)
+* [Más Mujeres en UX México](http://masmujeresux.mx.s3-website-us-east-1.amazonaws.com/)
+* [Iconmunity](https://opencollective.com/iconmunity)
+* [Hackwomen](https://twitter.com/hack_women?s=21)
+* [TechQuiero](https://www.facebook.com/TechQuiero/)
 
 <h2>Divirtiéndonos y conociéndonos</h2>
 
