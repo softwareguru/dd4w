@@ -10,7 +10,7 @@ time_end:   2021-04-15T17:00:00-05:00
 language: 
 guide:
 day_num: 2
-slides: 
+slides: Ni el limite es la nube. Trabajar Cloud en una empresa global.pdf
 video: https://www.youtube.com/embed/QdLJasS1Dfg
 ---
 

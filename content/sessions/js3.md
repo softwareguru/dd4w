@@ -10,7 +10,7 @@ time_end:   2021-04-15T12:45:00-05:00
 language: 
 guide:
 day_num: 2
-slides: 
+slides: Technology Vision 2021.pdf
 video: https://www.youtube.com/embed/tblCO_1nnRw
 
 ---
