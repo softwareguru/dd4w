@@ -34,6 +34,9 @@ home = ["HTML", "RSS", "JSON"]
 link = "/plugins/bootstrap/css/bootstrap.min.css"
 [[params.plugins.css]]
 link = "/plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.css"
+
 
 # JS Plugins
 [[params.plugins.js]]
@@ -49,25 +52,47 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 [menu]
 
   [[menu.main]]
-  name = "Sesiones"
+  identifier = "program"
+  name = "Programa"
   URL = "/sessions"
   weight = 1
+
+  [[menu.main]]
+    identifier = "program1"
+     name = "Programa Abril 2021"
+    URL = "/sessions"
+    parent = "program"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "program2"
+    name = "Programa Noviembre 2021"
+    url = "/programa-nov"
+    parent = "program"
+    weight = 2
+
+ [[menu.main]]
+    identifier = "program3"
+    name = "Reconocimientos"
+    url = "/awards"
+    parent = "program"
+    weight = 3
 
   #[[menu.main]]
   #name = "Agenda"
   #URL = "/program"
   #weight = 2
 
-  [[menu.main]]
-  name = "Speakers"
-  URL = "/speakers"
-  weight = 2
+  #[[menu.main]]
+  #name = "Speakers"
+  #URL = "/speakers"
+  #weight = 2
 
 
-  [[menu.main]]
-  name = "Vacantes"
-  URL = "/vacantes"
-  weight = 3
+  #[[menu.main]]
+  #name = "Vacantes"
+  #URL = "/vacantes"
+  #weight = 3
 
   #[[menu.main]]
   #name = "Networking"
@@ -113,10 +138,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "En vivo"
 link = "/live"
-
 
 
 ############################# social icon ############################

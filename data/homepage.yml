@@ -1,16 +1,16 @@
 ############################# banner ################################
 banner:
   enable : true
-  title : "DEV DAY 4 WOMEN VIRTUAL PRESENTADO POR ACCENTURE"
+  title : "DEV DAY 4 WOMEN"
  
   img: "/images/background-ccoss.jpg" 
-  date_time: "14 Y 15 DE ABRIL, 2021"
-  venue : "Junt@s liderando la Transformación Digital"
-  where : " 14 y 15 de abril, 2021 | Evento virtual"
+  date_time: "10 y 11 de noviembre 2021"
+  venue : "Mujeres que desarrollan Software Grandioso"
+  where : " 10 y 11 de noviembre 2021"
   button: 
-    enable : true
-    label : "Ver en vivo"
-    link : "/live"
+    enable : false
+    label : "¡No te lo pierdas!"
+    link: 
 
 ############################## Event ##############################
 event_info:
@@ -18,23 +18,23 @@ event_info:
   title : "DOS DÍAS DE APRENDIZAJE PARA DESARROLLADORAS"
 
   description : >
-   Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software. La edición abril 2021 es presentada por Accenture México, se combinarán conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
+    Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software.
+    Se combinan conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking. 
    
   description1: >
 
-   DD4W se realizará el próximo 14 y 15 de abril del 2021.
-
-   Esta edición la enfocaremos en compartir y conocer esas historias de mujeres exitosas que en tiempo de pandemia siguen dando lo mejor de sí, transformando su forma de trabajo, y logrando nuevas metas en el entorno actual.
+    
 
   description2: >
-   Incluiremos contenidos sobre tendencias tecnológicas, compartiremos retos y experiencias de mujeres en STEAM, también el evento incluirá espacio de virtuales para networking.
+
+    A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latam, apartir del 2020 en formato virtual.
+   
 
   description3: >
 
-   Además tendrás la oportunidad de tener contacto directo con representantes de Accenture y conocer las oportunidades laborales que ofrecen actualmente para chicas en la industria.
-  
-  present_by: Presentado por
-  image : "/images/logos/accenture-logo.png"
+   
+  #present_by: Presentado por
+  #image : "/images/logos/accenture-logo.png"
 
 
 ####################### Speakers #############################

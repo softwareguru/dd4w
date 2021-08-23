@@ -11,7 +11,7 @@ type: faq
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-Esta edición es presentada por Accenture México, se realizará en formato virtual durante dos días 14 y 15 de abril 2021. Podrás asistir desde cualquier lugar donde te encuentres.
+La edición de noviembre se realizará en formato virtual durante dos días 10 y 11 de este mes. Podrás asistir desde cualquier lugar donde te encuentres.
 
 <br>
 

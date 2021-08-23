@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+<div class="container">
+  
+  
+  <div class="lead pt-3">
+        {{ .Content }}
+
+        <img src="{{ .Params.Image | relURL }}" class="img-fluid" alt="Responsive image">
+
+        <br><br>
+  </div>
+
+  
+</div>
+
+
+
+{{ end }}
