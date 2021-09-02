@@ -11,6 +11,8 @@ sponsor_group:
         link : "https://www.bbva.mx/"
       - logo : "/images/logos/GFT.png"
         link : "https://www.gft.com/mx/es/index/"
+      - logo : "/images/logos/michelada.png"
+        link : "https://michelada.io/"
 
 
   - title : "Apoyado por"
@@ -44,8 +46,6 @@ sponsor_group:
         link : "https://twitter.com/hack_women?s=21"
       - logo : "/images/logos/WWC_Merida.jpg"
         link : "https://www.facebook.com/wwcodemid/"
-      - logo : "/images/logos/michelada.png"
-        link : "https://michelada.io/"
 
    
 
