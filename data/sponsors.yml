@@ -13,6 +13,8 @@ sponsor_group:
         link : "https://www.gft.com/mx/es/index/"
       - logo : "/images/logos/michelada.png"
         link : "https://michelada.io/"
+      - logo : "/images/logos/yalo.jpg"
+        link : "https://www.yalo.com/"
 
 
   - title : "Apoyado por"

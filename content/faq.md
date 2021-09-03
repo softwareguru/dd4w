@@ -41,8 +41,8 @@ Solo necesitas una computadora con un navegador web actualizado, de preferencia 
 
 <br>
 
-### ¿CÓMO PUEDO CONTACTAR CON OTROS PARTICIPANTES Y PONENTES?¿
-Para manejar esta comunicación estaremos utilizando slack. Te puedes unir desde ahora en Los canales que estaremos manejando son:
+### ¿CÓMO PUEDO CONTACTAR CON OTROS PARTICIPANTES Y PONENTES?
+Para manejar esta comunicación estaremos [utilizando slack.](https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ) Te puedes unir desde ahora en Los canales que estaremos manejando son:
 
 * #general para conversaciones generales (saludos desde X), dinámicas, y temas que no estén atadas a una sesión.
 * #live es donde se estará comentando sobre la sesión en curso.

@@ -6,11 +6,12 @@ banner:
   img: "/images/background-ccoss.jpg" 
   date_time: "10 y 11 de noviembre 2021"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : " 10 y 11 de noviembre 2021"
+  where : "10 y 11 de noviembre 2021 | Evento Online y Gratuito "
+  
   button: 
-    enable : false
-    label : "¡No te lo pierdas!"
-    link: 
+    enable : true
+    label : "¡Manda tu propuesta!"
+    link: https://convoca.dev/dev-day-4-women-noviembre-2021/cfp
 
 ############################## Event ##############################
 event_info:
@@ -27,7 +28,7 @@ event_info:
 
   description2: >
 
-    A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latam, apartir del 2020 en formato virtual.
+    A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica, a partir del 2020 en formato virtual.
    
 
   description3: >

@@ -71,12 +71,12 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
     parent = "program"
     weight = 2
 
- [[menu.main]]
-    identifier = "program3"
-    name = "Reconocimientos"
-    url = "/awards"
-    parent = "program"
-    weight = 3
+
+
+  [[menu.main]]
+  name = "Reconocimientos"
+  URL = "/awards"
+  weight = 3
 
   #[[menu.main]]
   #name = "Agenda"

@@ -15,9 +15,13 @@
 
   <div class="meta">
    
+    <br>
+    <div class="titulo-dd4w">
     <b><p>{{ .venue }}</p></b>
+  </div>
     <br>
     <p>{{ .where }}</p>
+    
 
     {{ if .button.enable }}
     
@@ -25,8 +29,10 @@
     <a href="{{ .link | relURL }}" class="btn btn-banner1 mt-3">{{ .label }}</a>
     {{ end }}
 
-    
+  <br>
     {{ end }}
+    <br>
+  
 
   </div>
 </section>
