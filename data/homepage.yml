@@ -6,7 +6,7 @@ banner:
   img: "/images/background-ccoss.jpg" 
   date_time: "10 y 11 de noviembre 2021"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : "10 y 11 de noviembre 2021 | Evento Online y Gratuito "
+  where : "10 y 11 de noviembre 2021 | Evento Online y Gratuito"
   
   button: 
     enable : true
