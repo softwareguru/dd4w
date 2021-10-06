@@ -19,6 +19,8 @@ sponsor_group:
         link : "https://azure.microsoft.com/es-mx/resources/join-the-azure-developer-community/"
       - logo : "/images/logos/earth-gravity.png"
         link : "http://www.nimblegravity.com/"
+      - logo : "/images/logos/Oracle_Cloud.png"
+        link : "https://www.oracle.com/mx/cloud/"
 
 
   - title : "Apoyado por"
