@@ -17,8 +17,10 @@ sponsor_group:
         link : "https://www.yalo.com/"
       - logo : "/images/logos/microsoft.png"
         link : "https://azure.microsoft.com/es-mx/resources/join-the-azure-developer-community/"
-      - logo : "/images/logos/earth-gravity.png"
-        link : "http://www.nimblegravity.com/"
+      - logo : "/images/logos/EarthRanger.png"
+        link : "https://earthranger.com/"
+      - logo : "/images/logos/Niable.jpg"
+        link : "https://nimblegravity.com/"
       - logo : "/images/logos/Oracle_Cloud.png"
         link : "https://www.oracle.com/mx/cloud/"
 
