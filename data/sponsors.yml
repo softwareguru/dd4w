@@ -23,7 +23,8 @@ sponsor_group:
         link : "https://nimblegravity.com/"
       - logo : "/images/logos/Oracle_Cloud.png"
         link : "https://www.oracle.com/mx/cloud/"
-
+      - logo : "/images/logos/Logo-Poliworks.png"
+        link : "https://www.innovmetric.com/"
 
   - title : "Apoyado por"
     slug : "community"
