@@ -138,9 +138,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "En vivo"
-link = "/live"
+enable = true
+label = "Registro"
+link = "https://www.crowdcast.io/e/dev-day-4-women-noviembre21"
 
 
 ############################# social icon ############################
