@@ -71,16 +71,16 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
     parent = "program"
     weight = 2
 
-
-
   [[menu.main]]
-  name = "Reconocimientos"
-  URL = "/awards"
-  weight = 3
+  name = "Nominaciones"
+  URL = "/nominaciones"
+  weight = 2
+
+
 
   #[[menu.main]]
-  #name = "Agenda"
-  #URL = "/program"
+  #name = "Reconocimientos 2020"
+  #URL = "/awards"
   #weight = 2
 
   #[[menu.main]]
