@@ -25,6 +25,8 @@ sponsor_group:
         link : "https://www.oracle.com/mx/cloud/"
       - logo : "/images/logos/Logo-Poliworks.png"
         link : "https://www.innovmetric.com/"
+      - logo : "/images/logos/lyft-logo.png"
+        link : "https://www.lyft.com/careers"
 
   - title : "Apoyado por"
     slug : "community"
