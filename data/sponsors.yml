@@ -29,6 +29,8 @@ sponsor_group:
         link : "https://www.lyft.com/careers"
       - logo : "/images/logos/Globant-Original.png"
         link : "https://www.globant.com/"
+      - logo : "/images/logos/Softtek-original.png"
+        link : "https://www2.softtek.com/jobs"
 
   - title : "Apoyado por"
     slug : "community"

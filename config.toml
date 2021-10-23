@@ -52,24 +52,24 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 [menu]
 
   [[menu.main]]
-  identifier = "program"
+  #identifier = "program"
   name = "Programa"
-  URL = "/sessions"
+  URL = "/schedule"
   weight = 1
 
-  [[menu.main]]
-    identifier = "program1"
-     name = "Programa Abril 2021"
-    URL = "/sessions"
-    parent = "program"
-    weight = 1
+  #[[menu.main]]
+   # identifier = "program1"
+    #name = "Programa Abril 2021"
+    #URL = "/sessions"
+    #parent = "program"
+    #weight = 1
 
-  [[menu.main]]
-    identifier = "program2"
-    name = "Programa Noviembre 2021"
-    url = "/programa-nov"
-    parent = "program"
-    weight = 2
+  #[[menu.main]]
+   # identifier = "program2"
+    #name = "Programa Noviembre 2021"
+    #url = "/programa-nov"
+    #parent = "program"
+    #weight = 2
 
   [[menu.main]]
   name = "Nominaciones"
@@ -83,10 +83,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/awards"
   #weight = 2
 
-  #[[menu.main]]
-  #name = "Speakers"
-  #URL = "/speakers"
-  #weight = 2
+  [[menu.main]]
+  name = "Speakers"
+  URL = "/speakers"
+  weight = 2
 
 
   #[[menu.main]]
