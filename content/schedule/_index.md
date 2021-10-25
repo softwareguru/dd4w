@@ -21,9 +21,5 @@ blocks:
 ---
 
 
-## Tracks:
-<div class="color-code-list mb-4">
-  <div class="color-code-item" style="background-color: #bc8eff;"><h4 style="color: white;">Sesión</h4></div>
-  <div class="color-code-item" style="background-color: #7b32e9; color: white;"><h4 style="color: white;">Taller</h4></div>
-</div>
+
 
