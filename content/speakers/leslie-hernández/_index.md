@@ -10,3 +10,5 @@ github: ""
 year: "2021"
 ---
 
+¡Hola soy Leslie! Soy originaria de Xalapa, Veracruz. Egresada de la Benemérita Universidad Autónoma de Puebla. Actualmente me encuentro trabajando en Polyworks Mexico en la ciudad de Puebla, llevo 3 años en esta increíble empresa, soy desarrolladora de software y trabajo en el área de frontend y en el área de DevOps. Me gusta conocer nuevas tecnologías y aprender de todo. Disfruto mucho compartir mi experiencia y estoy agradecida por las oportunidades que he tenido a lo largo de mi carrera.
+
