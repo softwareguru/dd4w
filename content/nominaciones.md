@@ -26,7 +26,7 @@ Sororidad: Organización que se enfoca en apoyar niñas y mujeres para que se de
 
 Nomina a tu organización y modelo a seguir.
 
-Las nominaciones cerrarán el 3 de noviembre 2021.
+Las nominaciones cerrarán el 5 de noviembre 2021.
 
 <center>
 <div class = "container">
