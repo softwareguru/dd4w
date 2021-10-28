@@ -1,7 +1,7 @@
 ---
 title: "Yathziry Magaña"
 date: 2021-10-22T15:42:05-05:00
-image : "/images/speakers/speaker.jpg"
+image : "/images/speakers/yathziry-magaña.jpeg"
 designation : "Software QA Engineer  @ Nimble Gravity / Earth Range"
 country: "mx"
 twitter: ""
