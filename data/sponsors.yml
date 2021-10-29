@@ -31,6 +31,9 @@ sponsor_group:
         link : "https://www.globant.com/"
       - logo : "/images/logos/Softtek-original.png"
         link : "https://www2.softtek.com/jobs"
+      - logo : "/images/logos/github.png"
+        link : "https://github.com/"
+
 
   - title : "Apoyado por"
     slug : "community"
@@ -67,6 +70,8 @@ sponsor_group:
         link : "https://twitter.com/phpmx?lang=es"
       - logo : "/images/logos/WIE_logo_purple_RGB_300.jpg"
         link : "https://brand-experience.ieee.org/guidelines/sub-brand-resources/wie/"
+      - logo : "/images/logos/logo-getonboard.png"
+        link : "https://www.getonbrd.com/"
 
    
 
