@@ -33,6 +33,10 @@ sponsor_group:
         link : "https://www2.softtek.com/jobs"
       - logo : "/images/logos/github.png"
         link : "https://github.com/"
+      - logo : "/images/logos/Creditas.png"
+        link : "https://www.creditas.mx/"
+      - logo : "/images/logos/EDICOM_fondoblanco_altacalidad.jpg"
+        link : "https://edicom.mx/"
 
 
   - title : "Apoyado por"
