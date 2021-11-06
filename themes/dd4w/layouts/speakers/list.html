@@ -22,6 +22,27 @@
       </div>
       {{ end }}
     </div>
+
+
+    <center><h1>Líderes de comunidades</h1></center>
+    <br>
+    <div class="speaker-strip">
+      {{ range where .Data.Pages.ByTitle "Params.comunidad" "si"}}  
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="{{.Permalink}}">
+              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+            <p>{{ .Params.Designation}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
   </div>
 </section>
  
