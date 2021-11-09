@@ -10,7 +10,7 @@ draft: false
 
 ¡Convive, juega y diviértete!
 
-El miércoles 14 de abril, a partir de las de 19:40 (hora CDMX) tendremos un espacio virtual en Gather Town al estilo retro 8 bits, donde podrás convivir con otras chicas, representantes de distintas iniciativas y comunidades, ponentes, organizadores y demás participantes. 
+El miércoles 10 de noviembre, a las 14hrs CST, tendremos un espacio virtual en Gather Town al estilo retro 8 bits, donde podrás convivir con otras chicas, representantes de distintas iniciativas y comunidades, ponentes, organizadores y demás participantes. 
 
 Simplemente configura tu avatar y descubre todo lo que preparamos para ti.
 

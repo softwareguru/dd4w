@@ -5,7 +5,7 @@ image: /images/networking/3.png
 description:
 button: Unirme a Gather.town
 link: https://gather.town/app/lPrwwSKm3aZFwO1p/devday4w2021-by-accenture
-draft: false
+draft: true
 ---
 
 Durante Dev Day 4 Women, las chicas de Women Who Code Monterrey facilitarán sesiones de mentoría en temas como Tech Lead, Project management, UX y Service Design, Cloud y Ciberseguridad.

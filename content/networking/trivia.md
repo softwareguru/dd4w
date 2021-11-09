@@ -5,7 +5,7 @@ image: /images/networking/2.png
 description: 
 button: Unirme a Slack
 link: https://gather.town/app/lPrwwSKm3aZFwO1p/devday4w2021-by-accenture
-draft: false
+draft: true
 ---
 
 Participa en la trivia durante el evento y podrás ganar un Echo 4Gen o un Echo Dot.

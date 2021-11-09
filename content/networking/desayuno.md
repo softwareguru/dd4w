@@ -5,7 +5,7 @@ image: /images/networking/6.png
 description: ""
 button: ¡Quiero participar!
 link: mailto:RecruitingTeam.Mexico@accenture.com.
-draft: false
+draft: true
 ---
 
 Participa en la dinámica para ganar uno de los 5 pases para un desayuno virtual exclusivo de networking con algunas prestigiosas mujeres de Accenture México, donde podrás conocer sus experiencias y retos más a fondo.
