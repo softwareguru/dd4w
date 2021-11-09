@@ -4,7 +4,7 @@ date: 2020-10-17T15:21:52-05:00
 description: 
 image: /images/logos/Oracle_Cloud.png
 link: https://bit.ly/DevDay4Women-Oracle
-button: Títulos disponibles
+button: Conocer más
 draft: false
 ---
 
