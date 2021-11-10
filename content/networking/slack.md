@@ -4,7 +4,7 @@ date: 2020-10-13T16:22:17-05:00
 image: /images/networking/1.png
 description: 
 button: Unirme a Slack
-link: "#"
+link: sg4women.slack.com
 draft: false
 ---
 

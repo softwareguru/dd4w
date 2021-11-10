@@ -1,12 +1,16 @@
 ---
-title: "Descuento en cursos Google Cloud en Coursera"
+title: "Gana una Bocina BOSE inalámbrica Soundlink"
 date: 2020-10-08T17:11:50-05:00
 sponsor: 
-description: "50% descuento en tu 1er mes en cursos Google Cloud en Coursera (valid until Dec. 30th, 2020)"
-
-image: /images/logos/google.png
-link: https://www.coursera.org/promo/GoogleCloud 
-button: Conoce más
+description: ""
+image: /images/logos/Softtek-original.png
+link: https://forms.office.com/r/HMn9WHd50W
+button: ¡Quiero participar!
 draft: true
 ---
 
+Conoce más información de nuestras ofertas laborales te invitamos a registrarte para ser de los primeros en enterarte.
+
+Al realizarlo entras a la rifa de una Bocina BOSE.
+
+**Solo para personas en México**
