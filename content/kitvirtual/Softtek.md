@@ -6,7 +6,7 @@ description: ""
 image: /images/logos/Softtek-original.png
 link: https://forms.office.com/r/HMn9WHd50W
 button: ¡Quiero participar!
-draft: true
+draft: false
 ---
 
 Conoce más información de nuestras ofertas laborales te invitamos a registrarte para ser de los primeros en enterarte.
