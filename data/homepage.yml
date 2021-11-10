@@ -10,8 +10,8 @@ banner:
   
   button: 
     enable : true
-    label : "Registro"
-    link: https://www.crowdcast.io/e/dev-day-4-women-noviembre21
+    label : "¡Estamos en vivo!"
+    link: /live
 ############################## Event ##############################
 event_info:
   enable : true
