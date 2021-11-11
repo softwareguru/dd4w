@@ -1,5 +1,5 @@
 ---
-title: "Bonnie Millán"
+title: "Bonnie Milián"
 date: 2021-10-29T17:44:09-05:00
 image : "/images/speakers/bonnie-millán.jpg"
 designation : "Software Engineer en @Yalo"
