@@ -1,13 +1,11 @@
 ---
-title: "Reconocimientos"
+title: "Reconocimientos SG4 Women"
 description: "Conoce a las personas nominadas para ser reconocidos por contribuir al open source."
 
 ---
 
-## Nominaciones y reconocimientos
+Por segundo año, en SG4 Women creemos necesario reconocer a las mujeres en las Tecnologías de la Información (TI) que han logrado una gran carrera, apoyado a otras mujeres en la industria, y hecho una gran diferencia.
 
-La 10ma edición de Dev Day 4 Women, sirvió como plataforma para votar y nominar a mujeres en TI que han logrado una gran carrera, han apoyado a otras mujeres en la industria, y han hecho una gran diferencia.
- 
-Las galardonadas con los reconocimientos fueron:
+
 
 

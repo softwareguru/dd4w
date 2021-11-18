@@ -71,17 +71,17 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
     #parent = "program"
     #weight = 2
 
-  [[menu.main]]
-  name = "Nominaciones"
-  URL = "/nominaciones"
-  weight = 2
-
-
-
   #[[menu.main]]
-  #name = "Reconocimientos 2020"
-  #URL = "/awards"
+  #name = "Nominaciones"
+  #URL = "/nominaciones"
   #weight = 2
+
+
+
+  [[menu.main]]
+  name = "Reconocimientos SG4W"
+  URL = "/awards"
+  weight = 2
 
   [[menu.main]]
   name = "Speakers"
@@ -94,15 +94,16 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/vacantes"
   #weight = 3
 
-  [[menu.main]]
-  name = "Networking"
-  URL = "/networking"
-  weight = 4
+  
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 4
 
-  [[menu.main]]
-  name = "Kit Virtual"
-  URL = "/kitvirtual"
-  weight = 5
+  #[[menu.main]]
+  #name = "Kit Virtual"
+  #URL = "/kitvirtual"
+  #weight = 5
 
   [[menu.main]]
   name = "FAQ"
