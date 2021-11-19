@@ -13,10 +13,10 @@ weight: 4
 
 WWCode México - Women Who Code es una organización sin fines de lucro dedicada a inspirar a las mujeres para sobresalir en carreras tecnológicas. Proporcionamos una vista hacia la tecnología, ayudamos a que las mujeres desarrollen las habilidades necesarias para su avance profesional, y proporcionamos entornos en los que se valora la creación de redes y mentores. 
 
-**Capítulos Ciudad de México, Monterrey, Mérida y Colima**
+**Capítulos Ciudad de México, Monterrey, Mérida y Colima*
 
 
 * [Women Who Code Merida](https://twitter.com/WWCodeMID)
-* [Women Who Code Monterry](https://twitter.com/wwcodemty)
+* [Women Who Code Monterrey](https://twitter.com/wwcodemty)
 * [Women Who Code Ciudad de México](https://twitter.com/WWCodeCDMX)
 * [Women Who Code Colima](https://twitter.com/CodificadasMx)
