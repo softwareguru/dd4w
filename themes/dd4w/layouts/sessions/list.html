@@ -15,7 +15,7 @@
           </tr>
         </thead>
         <tbody>
-    {{ range sort (where $.Site.RegularPages "Section" "sessions") ".Params.time_end" }}
+          {{ range sort .Data.Pages ".Params.time_end" }}
     <tr>
         <td><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></td>
         <td>{{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}</td>

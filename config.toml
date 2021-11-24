@@ -53,8 +53,8 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
   [[menu.main]]
   #identifier = "program"
-  name = "Programa"
-  URL = "/schedule"
+  name = "Sesiones"
+  URL = "/sessions/noviembre-2021/"
   weight = 1
 
   #[[menu.main]]
