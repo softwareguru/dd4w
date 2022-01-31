@@ -75,6 +75,13 @@ En SG4W nos preocupamos por la seguridad e integridad de nuestros asistentes y t
 
 <br>
 
+
+### Política de privacidad de datos
+
+Conoce nuestra [política de privacidad de datos](/politica-de-privacidad)
+
+<br>
+
 ### DIVERSIDAD
 
 SG4W creemos en la difusión del conocimiento de los innovadores. Creemos que la innovación se ve reforzada por una variedad de perspectivas, y nuestro objetivo es crear un ambiente de conferencia inclusiva, respetuosa, que invite a la participación de personas de todas las razas, etnias, géneros, edades, capacidades, las religiones, y la orientación sexual. Puedes revisar nuestra política de diversidad [aquí](/diversidad).
