@@ -51,11 +51,11 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
+  #[[menu.main]]
   #identifier = "program"
-  name = "Sesiones"
-  URL = "/sessions/noviembre-2021/"
-  weight = 1
+  #name = "Sesiones"
+  #URL = "/sessions/noviembre-2021/"
+  #weight = 1
 
   #[[menu.main]]
    # identifier = "program1"
@@ -83,10 +83,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   URL = "/awards"
   weight = 2
 
-  [[menu.main]]
-  name = "Speakers"
-  URL = "/speakers"
-  weight = 2
+  #[[menu.main]]
+  #name = "Speakers"
+  #URL = "/speakers"
+  #weight = 2
 
 
   #[[menu.main]]
@@ -139,7 +139,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "Live"
 link = "/live"
 

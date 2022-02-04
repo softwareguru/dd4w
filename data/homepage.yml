@@ -4,14 +4,14 @@ banner:
   title : "DEV DAY 4 WOMEN"
  
   img: "/images/background-ccoss.jpg" 
-  date_time: "10 y 11 de noviembre 2021"
+  date_time: "6 y 7 de abril 2022"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : "10 y 11 de noviembre 2021 | Evento Online y Gratuito"
+  where : "6 y 7 de abril 2022 | Evento Online y Gratuito"
   
   button: 
     enable : true
-    label : "¡Estamos en vivo!"
-    link: /live
+    label : "Envía tu propuesta de charla"
+    link: https://convoca.dev/dev-day-4-women-abril-2022/
 ############################## Event ##############################
 event_info:
   enable : true
@@ -19,18 +19,18 @@ event_info:
 
   description : >
     Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software.
-    Se combinan conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking. 
    
   description1: >
 
-    
+    Nuestro propósito es desarrollar una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEAM, a través de conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
 
   description2: >
 
     A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica, a partir del 2020 en formato virtual.
-   
-
+    
   description3: >
+
+    La primera edición del año se realizara el próximo 6 y 7 de abril del 2022.
 
    
   #present_by: Presentado por
