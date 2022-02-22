@@ -29,7 +29,7 @@ Debes generar tu pase en:
 
 1. Previo al evento, aparecerá en el sitio web el botón: LIVE. O podrás ingresar a la página:
 2. Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email.
-3. Al introducir tu email, el sistema detectará si ya estás registrada(o) y en caso de ser así te mostrará un botón para recibir un login link por correo. Dale click y recibirás un correo con un enlace para hacer login a Data Days Virtual en Crowdcast (la plataforma que estamos utilizando para la transmisión).
+3. Al introducir tu email, el sistema detectará si ya estás registrada(o) y en caso de ser así te mostrará un botón para recibir un login link por correo. Dale click y recibirás un correo con un enlace para hacer login a Dev Day 4 Women en Crowdcast (la plataforma que estamos utilizando para la transmisión).
 5. Si en el paso 3 el sistema no reconoce tu correo, te pedimos nos contactes: eventos@sg.com.mx
 
 <br>
