@@ -129,7 +129,7 @@ end_date = "2021-04-15T19:00-05:00"
 
 
 
-disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru. (Imágenes propiedad de accenture)."""
+disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru."""
 
 
 # Preloader
@@ -139,9 +139,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "Live"
-link = "/live"
+enable = true
+label = "Registro"
+link = "/registro/"
 
 
 ############################# social icon ############################
@@ -166,6 +166,21 @@ link = "https://sg.com.mx/sg4w"
 [[params.footer_previous]]
 name = "Código de Conducta"
 link = "/coc/"
+
+[[params.footer_previous]]
+name = "DD4W Abril 2021"
+link = "/sessions/abril-2021/"
+
+[[params.footer_previous]]
+name = "DD4W Noviembre 2021"
+link = "/sessions/noviembre-2021/"
+
+
+[[params.footer_sponsorship]] 
+name = "Prospectus"
+link = "/files/DevDay4Women-Virtual-Prospectus-2022.pdf"
+
+
 
 [[params.footer_resources]] 
 name = "Email"

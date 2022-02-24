@@ -19,6 +19,14 @@
 				</ul>
 			</div>
 			<div>
+				<h5>Quiero patrocinar</h5>
+				<ul class="footer_links">
+					{{ range .Site.Params.footer_sponsorship }}
+					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			<div>
 				<h5>Contáctanos</h5>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_resources }}

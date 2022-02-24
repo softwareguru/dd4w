@@ -11,15 +11,17 @@ type: faq
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-La edición de noviembre se realizará en formato virtual durante dos días 10 y 11 de este mes. Podrás asistir desde cualquier lugar donde te encuentres.
+La edición de abril se realizará en formato virtual durante dos días 6 y 7 de este mes. Podrás asistir desde cualquier lugar donde te encuentres.
 
 <br>
 
 ### ¿CUÁL ES EL HORARIO DEL EVENTO?
 
-La agenda Dev Day 4 Women esta muy completa se contaran con dos bloques por día.
+La agenda Dev Day 4 Women esta muy completa se contarán con dos bloques por día.
 
 Es un evento gratuito. Gracias a nuestros patrocinadores.
+
+Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no puedes asistir en vivo, puedes ver las grabaciones.
 
 <br>
 
@@ -45,7 +47,6 @@ Solo necesitas una computadora con un navegador web actualizado, de preferencia 
 Para manejar esta comunicación estaremos [utilizando slack.](https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ) Te puedes unir desde ahora en Los canales que estaremos manejando son:
 
 * #general para conversaciones generales (saludos desde X), dinámicas, y temas que no estén atadas a una sesión.
-* #live es donde se estará comentando sobre la sesión en curso.
 * #support problemas con la herramienta, atención a asistentes y patrocinadores
 * Además cada patrocinador tendrá un canal en slack, quienes estarán organizando interesantes dinámicas, y muchos estarán buscando talento.
 

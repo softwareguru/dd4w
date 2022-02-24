@@ -2,11 +2,10 @@
 banner:
   enable : true
   title : "DEV DAY 4 WOMEN"
- 
-  img: "/images/background-ccoss.jpg" 
+  img: "/images/images/DD4W.png" 
   date_time: "6 y 7 de abril 2022"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : "6 y 7 de abril 2022 | Evento Online y Gratuito"
+  where : "6 y 7 de abril 2022 | Evento Online | Gratuito"
   
   button: 
     enable : true

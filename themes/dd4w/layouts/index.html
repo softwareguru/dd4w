@@ -6,11 +6,10 @@
 {{ with $data.homepage.banner }}
 <section class="section banner" >
 
-  <div class="logo">
+  <div class="logo container">
     <!--<img src="{{ .logo }}">-->
-   
-    <h1>{{ .title }}</h1>
-      
+      <img src="/images/DD4W-logo.png" class="img-fluid" alt="">
+
   </div>
 
   <div class="meta">
@@ -116,15 +115,15 @@
 
 <!-- sponsor -->
 {{ if $data.sponsors }}
-<section class="section-sponsors section">
+<section class="section-sponsors section" style="margin-top: -65px;">
     
     <br><br>
     <div class="container">
       <div class="row section-heading">
         <div class="col-md-8">
-          <div class="heading">
+          <!--<div class="heading">
             <h2 style="margin-bottom: -20%;" >Apoyado por</h2 >
-          </div>
+          </div>-->
         </div>
       </div>
       <br><br>
@@ -132,11 +131,13 @@
         {{ with $data.sponsors }}
         {{ range .sponsor_group }}
         <div class="row mb-5">
-            <div class="col-lg-8" >
+            <div class="heading col-lg-8">
               {{ with .title }}
-                <h4 class="mb-4 letter-spacing text-sm" style="font-size: 20px;">{{ . }}</h4>
+              <h2 style="margin-bottom: -20%;">{{ . }}</h2>
+           
                 {{ end}}
             </div>
+            <br><br><br>
             <div class="sponsor-strip {{ .slug }}">
                 {{ range .sponsor }}
                 <div  class="sponsor-item">
