@@ -9,8 +9,8 @@ sponsor_group:
         link : "https://www.gft.com/mx/es"
       - logo : "/images/logos/Oracle_Cloud.png"
         link : "https://www.oracle.com/mx/cloud/"
-      #- logo : "/images/logos/BBVA.png"
-      #  link : "https://www.bbva.mx/"
+      - logo : "/images/logos/Softtek-original.png"
+        link : "http://www.softtek.co/jobs"
 
 
   - title : "Silver"
