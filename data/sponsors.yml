@@ -26,18 +26,16 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/AMITI-WIT.jpg"
         link : "https://www.facebook.com/AMITI.WIT.mx" 
-      #- logo : "/images/logos/hijas-de-internet.png"
-      #  link : "https://twitter.com/hijasdeinternet"
-      #- logo : "/images/logos/Logo Women in Gamex.jpg"
-      #  link : "https://www.womeningamex.org/"
-      #- logo : "/images/logos/Mentoralia-01 (1).png"
-      #  link : "https://www.mentoralia.org/"
-      #- logo : "/images/logos/php_mex--huichol.png"
-      #  link : "https://twitter.com/phpmx?lang=es"
-      #- logo : "/images/logos/WIE_logo_purple_RGB_300.jpg"
-      #  link : "https://brand-experience.ieee.org/guidelines/sub-brand-resources/wie/"
       - logo : "/images/logos/logo-getonboard.png"
         link : "https://www.getonbrd.com/"
+      - logo : "/images/logos/technoLatinas.png"
+        link : "https://technolatinas.org/"
+      - logo : "/images/logos/Mexicanas Tech.png"
+        link : "https://twitter.com/mexicanastech"
+      - logo : "/images/logos/WBDS-LA.png"
+        link : "https://wbds.la/"
+      - logo : "/images/logos/wids.jpg"
+        link : "https://www.widslima.org/"
 
 
 
