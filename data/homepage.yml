@@ -9,8 +9,8 @@ banner:
   
   button: 
     enable : true
-    label : "Envía tu propuesta de charla"
-    link: https://convoca.dev/dev-day-4-women-abril-2022/
+    label : "Regístrate aquí"
+    link: /registro/
 ############################## Event ##############################
 event_info:
   enable : true
