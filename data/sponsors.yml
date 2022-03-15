@@ -13,6 +13,8 @@ sponsor_group:
         link : "http://www.softtek.co/jobs"
       - logo : "/images/logos/NA-AT.png"
         link : "http://www.na-at.com.mx/carreras"
+      - logo : "/images/logos/accenture-logo.png"
+        link : "https://www.accenture.com/mx-es/careers"
 
 
   - title : "Silver"
