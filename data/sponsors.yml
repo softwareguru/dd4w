@@ -11,6 +11,8 @@ sponsor_group:
         link : "https://www.oracle.com/mx/cloud/"
       - logo : "/images/logos/Softtek-original.png"
         link : "http://www.softtek.co/jobs"
+      - logo : "/images/logos/NA-AT.png"
+        link : "http://www.na-at.com.mx/carreras"
 
 
   - title : "Silver"
