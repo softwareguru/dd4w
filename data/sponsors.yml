@@ -15,7 +15,8 @@ sponsor_group:
         link : "http://www.na-at.com.mx/carreras"
       - logo : "/images/logos/accenture-logo.png"
         link : "https://www.accenture.com/mx-es/careers"
-
+      - logo : "/images/logos/PaloIT.png"
+        link : "https://hubs.li/Q0166FMf0"
 
   - title : "Silver"
     slug : "gold"
