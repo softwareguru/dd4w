@@ -17,6 +17,8 @@ sponsor_group:
         link : "https://www.accenture.com/mx-es/careers"
       - logo : "/images/logos/PaloIT.png"
         link : "https://hubs.li/Q0166FMf0"
+      - logo : "/images/logos/salesloft-logo.jpg"
+        link : "https://salesloft.com/"
 
   - title : "Silver"
     slug : "gold"
