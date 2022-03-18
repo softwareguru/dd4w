@@ -81,18 +81,18 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   [[menu.main]]
   name = "Reconocimientos SG4W"
   URL = "/awards"
+  weight = 3
+
+  [[menu.main]]
+  name = "Speakers"
+  URL = "/speakers"
   weight = 2
 
-  #[[menu.main]]
-  #name = "Speakers"
-  #URL = "/speakers"
-  #weight = 2
 
-
-  #[[menu.main]]
-  #name = "Vacantes"
-  #URL = "/vacantes"
-  #weight = 3
+  [[menu.main]]
+  name = "Agenda"
+  URL = "/agenda"
+  weight = 1
 
   
   #[[menu.main]]

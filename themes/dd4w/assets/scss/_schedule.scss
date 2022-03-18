@@ -103,12 +103,16 @@
 	margin: 0;
 }
 
-.social .session-info {
-	background-color: #965cee;
+.comunidad .session-info {
+	background-color: #f973fd;
 }
 
 .session .session-info {
 	background-color: $primary-color;
+}
+
+.mensaje .session-info {
+	background-color: #f873c5;
 }
 
 .adoption .session-info,
@@ -120,8 +124,12 @@
 	background-color: $gray; 
 }
 
+.break .session-info {
+	background-color: $secondary-color; 
+}
+
 .lightning .session-info {
-	background-color: #80c9fa;
+	background-color: #f8737e;
 	border-radius: 0px;
 }
 

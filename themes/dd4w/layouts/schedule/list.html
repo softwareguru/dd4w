@@ -30,11 +30,11 @@
 
 <div class="container">
     <div class="content my-4">
-        <!--El horario de las sesiones se despliega en tu horario local.-->
+        El horario de las sesiones se despliega en tu horario local.
 
     </div>  
 
-    {{ range .Params.blocks}}
+    {{ range .Params.blocks }}
     <div class="schedule-block">
         <h3><span id="date-{{ .id }}">{{ .time_start }}</span></h3>
         <div class="session-list">
@@ -62,32 +62,32 @@
 </div>
 
 <script>
-    function adjTime(elemId, timeStart, timeEnd, timeBlock) {
-        let dateStart = new Date(Date.parse(timeStart));
-        let dateEnd = new Date(Date.parse(timeEnd));
-        let dateBlock = new Date(Date.parse(timeBlock));
-        let adjString = dateStart.getHours()+":"+(('0'+dateStart.getMinutes()).slice(-2))+"-"+dateEnd.getHours()+":"+(('0'+dateEnd.getMinutes()).slice(-2));
-        if (dateStart.getDay() > dateBlock.getDay()) {
-          adjString += "<br /><em>(+1 day)</em>";
-        }  
-        document.getElementById(elemId).innerHTML=adjString;
-    }
-    function adjBlock(elemId, date1, language) {
-        let parseDate1 = Date.parse(date1);
-        let jsDate1 = new Date(parseDate1);
-        var days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-        let adjString = days[jsDate1.getDay()]+", Noviembre "+jsDate1.getDate();
-        document.getElementById(elemId).innerHTML=adjString;
-    }
-        {{ range .Params.blocks }}
-      {{ $block_start := .time_start | time  }}
-      adjBlock("date-{{ .id }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ humanize .language }}");
-      {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_start" }}
-        {{ $time_start := .Params.time_start | time  }}
-        {{ $time_end := .Params.time_end | time  }}
-        adjTime("time-{{ .Params.id }}", "{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}");
-      {{ end }}  
-    {{ end }}
+  function adjTime(elemId, timeStart, timeEnd, timeBlock) {
+      let dateStart = new Date(Date.parse(timeStart));
+      let dateEnd = new Date(Date.parse(timeEnd));
+      let dateBlock = new Date(Date.parse(timeBlock));
+      let adjString = dateStart.getHours()+":"+(('0'+dateStart.getMinutes()).slice(-2))+"-"+dateEnd.getHours()+":"+(('0'+dateEnd.getMinutes()).slice(-2));
+      if (dateStart.getDay() > dateBlock.getDay()) {
+        adjString += "<br /><em>(+1 day)</em>";
+      }  
+      document.getElementById(elemId).innerHTML=adjString;
+  }
+  function adjBlock(elemId, date1, language) {
+      let parseDate1 = Date.parse(date1);
+      let jsDate1 = new Date(parseDate1);
+      var days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+      let adjString = days[jsDate1.getDay()]+", Abril "+jsDate1.getDate()+"";
+      document.getElementById(elemId).innerHTML=adjString;
+  }
+      {{ range .Params.blocks }}
+    {{ $block_start := .time_start | time  }}
+    adjBlock("date-{{ .id }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ humanize .language }}");
+    {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_start" }}
+      {{ $time_start := .Params.time_start | time  }}
+      {{ $time_end := .Params.time_end | time  }}
+      adjTime("time-{{ .Params.id }}", "{{ $time_start.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $time_end.Format "02 Jan 2006 15:04:05 MST" }}", "{{ $block_start.Format "02 Jan 2006 15:04:05 MST" }}");
+    {{ end }}  
+  {{ end }}
 
 </script>
 
