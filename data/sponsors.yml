@@ -19,6 +19,8 @@ sponsor_group:
         link : "https://hubs.li/Q0166FMf0"
       - logo : "/images/logos/salesloft-logo.jpg"
         link : "https://salesloft.com/"
+      - logo : "/images/logos/logo-twilio-red.png"
+        link : "https://www.twilio.com/es-mx/"
 
   - title : "Silver"
     slug : "gold"
