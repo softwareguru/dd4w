@@ -21,6 +21,8 @@ sponsor_group:
         link : "https://salesloft.com/"
       - logo : "/images/logos/logo-twilio-red.png"
         link : "https://www.twilio.com/es-mx/"
+      - logo : "/images/logos/Globant-Logo.png"
+        link : "https://career.globant.com/search/?createNewAlert=false&q=&optionsFacetsDD_department=&optionsFacetsDD_country=Me"
 
   - title : "Silver"
     slug : "gold"
