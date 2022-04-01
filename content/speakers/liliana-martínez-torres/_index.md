@@ -2,7 +2,7 @@
 title: "Liliana Martínez Torres"
 date: 2022-03-23T12:00:29-06:00
 image : "/images/speakers/liliana-martinez-torres.jpeg"
-designation : "Scrum Master en PALO IT Colombia"
+designation : "Scrum Master en PALO IT México"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/liliana-mart%C3%ADnez-a310ab4a/"
