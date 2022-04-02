@@ -25,6 +25,8 @@ sponsor_group:
         link : "https://career.globant.com/search/?createNewAlert=false&q=&optionsFacetsDD_department=&optionsFacetsDD_country=Me"
       - logo : "/images/logos/Niable.jpg"
         link : "http://www.nimblegravity.com/"
+      - logo : "/images/logos/microsoft.png"
+        link : "https://www.microsoft.com/es-mx/"
 
   - title : "Silver"
     slug : "gold"
