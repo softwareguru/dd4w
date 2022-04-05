@@ -3,8 +3,8 @@ title: "Evaluación"
 date: 2022-04-04T16:23:20-05:00
 image: /images/networking/4.png
 description: 
-button:
-link: 
+button: ¡Quiero participar!
+link: /evaluaciones/
 draft: false
 ---
 

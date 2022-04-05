@@ -10,7 +10,7 @@ banner:
   button: 
     enable : true
     label : "Regístrate aquí"
-    link: /registro/
+    link: /live/
 ############################## Event ##############################
 event_info:
   enable : true
