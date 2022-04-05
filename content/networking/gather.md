@@ -3,8 +3,8 @@ title: "Evento Social"
 date: 2022-04-04T16:23:11-05:00
 image: /images/networking/gather.png
 description: 
-button:
-link: 
+button: Unirme a Gather.town
+link: https://app.gather.town/app/j7Jk7DmNVpygA9zx/devday4women
 draft: false
 ---
 
