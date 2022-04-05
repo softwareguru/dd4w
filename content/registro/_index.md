@@ -5,5 +5,19 @@ draft: false
 description: ""
 ---
 
-
-<iframe width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0" allowtransparency="true" src="https://www.crowdcast.io/e/dd4w-2022?navlinks=false&embed=true" style="border: 1px solid #EEE;border-radius:3px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" allow="microphone; camera;"></iframe>
+<div id="eventbrite-widget-container-275065246557"></div>
+<script src="https://www.eventbrite.com.mx/static/widgets/eb_widgets.js"></script>
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Pedido completo');
+    };
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '275065246557',
+        iframeContainerId: 'eventbrite-widget-container-275065246557',
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>

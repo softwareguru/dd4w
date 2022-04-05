@@ -141,7 +141,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [params.navigation_button]
 enable = true
 label = "Registro"
-link = "https://www.crowdcast.io/e/dd4w-2022/"
+link = "/registro/"
 
 
 ############################# social icon ############################

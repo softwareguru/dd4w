@@ -10,7 +10,7 @@ banner:
   button: 
     enable : true
     label : "Regístrate aquí"
-    link: https://www.crowdcast.io/e/dd4w-2022/
+    link: /registro/
 ############################## Event ##############################
 event_info:
   enable : true
