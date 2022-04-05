@@ -35,6 +35,8 @@ sponsor_group:
         link : "https://www.digitalonus.com/"
       - logo : "/images/logos/Etsy.png"
         link : "https://careers.etsy.com/global/en/search-results?m=3&location=Ciudad%20de%20M%C3%A9xico,%20Mexico"
+      - logo : "/images/logos/Contpaqi.jpeg"
+        link : "https://www.contpaqi.com/"
 
   - title : "Apoyado por"
     slug : "community"

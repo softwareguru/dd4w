@@ -95,15 +95,15 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   weight = 1
 
   
-  #[[menu.main]]
-  #name = "Networking"
-  #URL = "/networking"
-  #weight = 4
+  [[menu.main]]
+  name = "Networking"
+  URL = "/networking"
+  weight = 4
 
-  #[[menu.main]]
-  #name = "Kit Virtual"
-  #URL = "/kitvirtual"
-  #weight = 5
+  [[menu.main]]
+  name = "Kit Virtual"
+  URL = "/kitvirtual"
+  weight = 5
 
   [[menu.main]]
   name = "FAQ"

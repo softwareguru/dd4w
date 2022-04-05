@@ -1,14 +1,14 @@
 ---
 title: "Slack"
-date: 2020-10-13T16:22:17-05:00
+date: 2022-04-04T16:22:17-05:00
 image: /images/networking/1.png
 description: 
 button: Unirme a Slack
-link: https://sg4women.slack.com
+link: https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ
 draft: false
 ---
 
-Únete a la conversación en Slack y no te pierdas ningún detalle.
+Únete a la conversación.
 
-Podrás estar en contacto directo con ponentes, representantes de Accenture y otras comunidades, pero sobre todo intercambiar experiencias con todas las chicas.
+Uniéndote al Slack del evento podrás tener contacto directo con las ponentes e intercambiar ideas con mujeres grandiosas.✨
 

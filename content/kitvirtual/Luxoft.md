@@ -5,7 +5,7 @@ description: ""
 image: /images/logos/LUXOFT.png
 link: https://forms.office.com/pages/responsepage.aspx?id=cTXzkw9Vz0Own80zEzjQhpshyMCd5y5HmQ6bdyOh54ZUMkY3S1JYQ1NKV0FSMUJUVEFRWUswVk5VVi4u
 button: Participa
-draft: false
+draft: true
 ---
 
 Participa en la rifa de una kindle por parte del equipo de Luxoft

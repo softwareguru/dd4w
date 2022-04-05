@@ -1,11 +1,13 @@
 ---
 title: "Kit Virtual"
-date: 2020-10-13T16:14:23-05:00
+date: 2022-04-04T16:14:23-05:00
 image: /images/networking/7.png
 description: ""
 button: Conocer más
-link: https://devday4w.com/kitvirtual/
+link: https://devday4w.com/kitvirtual
 draft: false
 ---
 
-Aprovecha las descuentos y participa en las rifas que los patrocinadores de Dev Day 4 Women tienen para ti.
+Reclama múltiples beneficios que incluye tu kit virtual.
+
+Ebooks, descuentos y rifas son sólo algunos de los beneficios que puedes aprovechar gracias a nuestros patrocinadores.

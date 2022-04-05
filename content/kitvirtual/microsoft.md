@@ -5,7 +5,7 @@ description:
 image: /images/logos/microsoft.png
 link:  https://aka.ms/AAebew1
 button: Conocer más
-draft: false
+draft: true
 ---
 
 Guía de Azure para desarrolladores

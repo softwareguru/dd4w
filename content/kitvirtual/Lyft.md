@@ -5,7 +5,7 @@ description:
 image: /images/logos/lyft-logo.png
 link: https://docs.google.com/forms/d/e/1FAIpQLSf1IFPAO0ycpJJvgAZeRFKtoghvZefQJvrdBm9Rl6mhf2yyyA/viewform
 button: Conocer más
-draft: false
+draft: true
 ---
 
 Si quieres conocer más sobre las posiciones abiertas que tiene en lyft llega la siguiente forma, en  agradecimiento te haremos llegar un pequeño detalle a el domicilio que nos compartas.

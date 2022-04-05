@@ -1,16 +1,14 @@
 ---
-title: "Gana una Bocina BOSE inalámbrica Soundlink"
-date: 2020-10-08T17:11:50-05:00
+title: "Audífonos Gamer"
+date: 2022-04-04T17:11:50-05:00
 sponsor: 
 description: ""
 image: /images/logos/Softtek-original.png
-link: https://forms.office.com/r/HMn9WHd50W
+link: https://forms.office.com/r/9dBZtvWcdW
 button: ¡Quiero participar!
 draft: false
 ---
 
-Conoce más información de nuestras ofertas laborales te invitamos a registrarte para ser de los primeros en enterarte.
+Participa en la rifa de unos Audífonos Gamer.
 
-Al realizarlo entras a la rifa de una Bocina BOSE.
-
-**Solo para personas en México**
+Conoce más información de nuestras ofertas laborales te invitamos a registrarte para ser de los primeros en enterarte. Al realizarlo entras a la rifa de unos Audífonos Gamer

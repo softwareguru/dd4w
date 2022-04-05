@@ -1,13 +1,11 @@
 ---
-title: "Participa en la rifa de de 10 licencias de Globant Campus"
-date: 2020-10-14T14:41:37-05:00
+title: "Participa en la rifa de 20 licencias de Globant Campus"
+date: 2022-04-04T14:41:37-05:00
 description: 
-image: /images/logos/Globant-Original.png
-link: https://docs.google.com/forms/d/e/1FAIpQLSch9xpoG6dmqYbZqQSKCYQ5-sIYd6fhbU5hSvYErDRcYuLpjg/viewform
+image: /images/logos/Globant-Logo.png
+link: https://university.globant.com/university
 button: Participar
 draft: false
 ---
 
-Si quieres más información de nuestras ofertas laborales te invitamos a registrarte para ser de los primeros en enterarte.
-
-Al realizarlo entras a la rifa de un regalo por parte del equipo de Globant
+Gana un acceso a nuestra plataforma de aprendizaje.
