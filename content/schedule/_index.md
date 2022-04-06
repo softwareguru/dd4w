@@ -18,7 +18,7 @@ blocks:
 
 ---
 
-## Tracks:
+## Tipo de sesión:
 
 <div class="color-code-list mb-4">
   <div class="color-code-item" style="background-color: #bc8eff; color: white;">Charla</div>
