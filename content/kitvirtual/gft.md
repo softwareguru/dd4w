@@ -1,5 +1,5 @@
 ---
-title: "¡Participa y gana una bocina Alexa!"
+title: "¡Participa y gana un Echo Dot!"
 date: 2020-10-20T13:47:48-05:00
 image: /images/logos/GFT.png
 link:  https://forms.gle/RCF8uGWzjjEGn3q86
