@@ -140,8 +140,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Registro"
-link = "/registro/"
+label = "Live"
+link = "/live/"
 
 
 ############################# social icon ############################
