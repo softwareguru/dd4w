@@ -1,12 +1,11 @@
 ---
-title: "40% descuento en libros de editorial Manning"
+title: "Descuento MANNING"
 date: 2020-10-17T14:50:33-05:00
-description: "40% de descuento en libros de Editorial Manning (todos los productos y formatos)
-utilizando el código: ctwopensource20"
-
+description: ""
 image: /images/logos/manning.png
-link:  http://mng.bz/8Gg5  
-button: Libros disponibles
-draft: true
+link:  http://mng.bz/pO9E 
+button: Conocer más
+draft: false 
 ---
 
+Descuento del 35% en todos los formatos publicados por Manning Publications. Utiliza el código ctwdevdayw22
