@@ -9,8 +9,8 @@ banner:
   
   button: 
     enable : true
-    label : "Regístrate aquí"
-    link: /live/
+    label : "Ediciones anteriores"
+    link: /sessions/
 ############################## Event ##############################
 event_info:
   enable : true
