@@ -26,14 +26,17 @@ Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no pu
 
 <br>
 
-### ¿QUÉ NECESITO PARA PARTICIPAR?
+### ¿QUÉ NECESITO PARA PARTICIPAR? 
 
-Apartir del  5 de septiembre aparecerá en el sitio web el botón: LIVE. 
-Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresaras el correo con el que te registrate en eventbrite.
+- Apartir del  5 de septiembre aparecerá en el sitio web el botón: LIVE. 
 
-Al introducir tu email, el sistema detectará si ya estás registrada(o) y en caso de ser así te mostrará un botón para recibir un login link por correo. Dale click y recibirás un correo con un enlace para hacer login a Dev Day 4 Women en Crowdcast (la plataforma que estamos utilizando para la transmisión).
+- Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresaras el correo con el que te registrate en eventbrite.
 
-Si en el paso 3 el sistema no reconoce tu correo, te pedimos nos contactes: eventos@sg.com.mx
+- Al introducir tu email, el sistema detectará si ya estás registrada(o) y en caso de ser así te mostrará un botón para recibir un login link por correo. 
+
+- Dale click y recibirás un correo con un enlace para hacer login a Dev Day 4 Women en Crowdcast (la plataforma que estamos utilizando para la transmisión).
+
+***Si en el paso 3 el sistema no reconoce tu correo, te pedimos nos contactes: eventos@sg.com.mx***
 
 
 ### ¿QUÉ NECESITO PARA CONECTARME AL EVENTO?

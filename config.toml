@@ -76,10 +76,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/nominaciones"
   #weight = 2
 
-  [[menu.main]]
-  name = "Sesiones"
-  URL = "/sessions/abril-2022/"
-  weight = 1
+  #[[menu.main]]
+  #name = "Sesiones"
+  #URL = "/sessions/abril-2022/"
+  #weight = 1
 
 
   [[menu.main]]
@@ -186,7 +186,7 @@ link = "/sessions/abril-2022/"
 
 [[params.footer_sponsorship]] 
 name = "Prospectus"
-link = "/files/DevDay4Women-Virtual-Prospectus-2022.pdf"
+link = "/files/DevDay4women virtual Prospectus 2022 H2.pdf"
 
 
 
