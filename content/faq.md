@@ -11,30 +11,29 @@ type: faq
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-La edición de abril se realizará en formato virtual durante dos días 6 y 7 de este mes. Podrás asistir desde cualquier lugar donde te encuentres.
+La edición de septiembre se realizará en formato virtual durante dos días 28 y 29 de este mes. Podrás asistir desde cualquier lugar donde te encuentres.
+
+Es un evento gratuito. Gracias a nuestros patrocinadores.
 
 <br>
 
 ### ¿CUÁL ES EL HORARIO DEL EVENTO?
 
-La agenda Dev Day 4 Women esta muy completa se contarán con dos bloques por día.
-
-Es un evento gratuito. Gracias a nuestros patrocinadores.
+La agenda Dev Day 4 Women esta muy completa se contarán con dos bloques por día, estamos trabajando en la agende del evento.
 
 Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no puedes asistir en vivo, puedes ver las grabaciones.
+
 
 <br>
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR?
 
-Debes generar tu pase en:
+Apartir del  5 de septiembre aparecerá en el sitio web el botón: LIVE. 
+Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresaras el correo con el que te registrate en eventbrite.
 
-1. Previo al evento, aparecerá en el sitio web el botón: LIVE. O podrás ingresar a la página:
-2. Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email.
-3. Al introducir tu email, el sistema detectará si ya estás registrada(o) y en caso de ser así te mostrará un botón para recibir un login link por correo. Dale click y recibirás un correo con un enlace para hacer login a Dev Day 4 Women en Crowdcast (la plataforma que estamos utilizando para la transmisión).
-5. Si en el paso 3 el sistema no reconoce tu correo, te pedimos nos contactes: eventos@sg.com.mx
+Al introducir tu email, el sistema detectará si ya estás registrada(o) y en caso de ser así te mostrará un botón para recibir un login link por correo. Dale click y recibirás un correo con un enlace para hacer login a Dev Day 4 Women en Crowdcast (la plataforma que estamos utilizando para la transmisión).
 
-<br>
+Si en el paso 3 el sistema no reconoce tu correo, te pedimos nos contactes: eventos@sg.com.mx
 
 
 ### ¿QUÉ NECESITO PARA CONECTARME AL EVENTO?

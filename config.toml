@@ -84,7 +84,7 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
 
   [[menu.main]]
   name = "Reconocimientos SG4W"
-  URL = "/awards"
+  URL = "/reconocimientos"
   weight = 3
 
   #[[menu.main]]
@@ -92,10 +92,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   #URL = "/speakers"
   #weight = 2
 
-  #[[menu.main]]
-  #name = "Agenda"
-  #URL = "/agenda"
-  #weight = 1
+  [[menu.main]]
+  name = "Agenda"
+  URL = "/agenda"
+  weight = 1
 
   
   #[[menu.main]]
@@ -142,9 +142,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "Live"
-link = "/live/"
+enable = true
+label = "Registro"
+link = "/registro/"
 
 
 ############################# social icon ############################
@@ -177,6 +177,11 @@ link = "/sessions/abril-2021/"
 [[params.footer_previous]]
 name = "DD4W Noviembre 2021"
 link = "/sessions/noviembre-2021/"
+
+[[params.footer_previous]]
+name = "DD4W Abril 2022"
+link = "/sessions/abril-2022/"
+
 
 
 [[params.footer_sponsorship]] 

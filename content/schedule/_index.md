@@ -2,7 +2,7 @@
 title: "Agenda"
 date: 2021-04-07T14:08:36-06:00
 draft: false
-url: /agenda
+url: 
 
 blocks: 
 

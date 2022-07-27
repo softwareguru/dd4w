@@ -3,14 +3,14 @@ banner:
   enable : true
   title : "DEV DAY 4 WOMEN"
   img: "/images/images/DD4W.png" 
-  date_time: "6 y 7 de abril 2022"
+  date_time: "28 y 29 de septiembre 2022"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : "6 y 7 de abril 2022 | Evento Online | Gratuito"
+  where : "28 y 29 de septiembre 2022 | Evento Online | Gratuito"
   
   button: 
     enable : true
-    label : "Ediciones anteriores"
-    link: /sessions/
+    label : "Participa como conferencista"
+    link: https://convoca.dev/dev-day-4-women-septiembre-2022/cfp
 ############################## Event ##############################
 event_info:
   enable : true
@@ -25,11 +25,12 @@ event_info:
 
   description2: >
 
-    A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica, a partir del 2020 en formato virtual.
+    A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica, a partir del 2020 en formato virtual
     
   description3: >
 
-    La primera edición del año se realizara el próximo 6 y 7 de abril del 2022.
+    Cada año tenemos dos ediciones y la segunda edición del año se realizara el 28 y 29 de septiembre 2022
+
 
    
   #present_by: Presentado por
