@@ -1,7 +1,7 @@
 ---
 title: "Registro"
 date: 2022-07-27T12:04:50-05:00
-draft: false
+draft: true
 ---
 
 <div id="eventbrite-widget-container-391362715417"></div>
