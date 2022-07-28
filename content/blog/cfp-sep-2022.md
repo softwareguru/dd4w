@@ -1,5 +1,5 @@
 ---
-title: "Call For Papers - Dev Day 4 Women Septiembre"
+title: "Call For Proposals - Dev Day 4 Women Septiembre"
 date: 2022-07-27T12:09:03-05:00
 draft: false
 # post thumb
