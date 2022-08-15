@@ -24,6 +24,6 @@ Actualmente estamos trabajando en la mejor agenda para ti, tú puedes formar par
 
 <br>
 
-La fecha límite de recepción de propuestas es el domingo 14 de agosto de 2022.
+La fecha límite de recepción de propuestas es el lunes 22 de agosto 2022.
 
 Si tienes dudas sobre tu charla nos pueden escribir a sg4women@sg.com.mx
