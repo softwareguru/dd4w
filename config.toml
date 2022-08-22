@@ -182,12 +182,9 @@ link = "/sessions/noviembre-2021/"
 name = "DD4W Abril 2022"
 link = "/sessions/abril-2022/"
 
-
-
 [[params.footer_sponsorship]] 
 name = "Prospectus"
 link = "/files/DevDay4women virtual Prospectus 2022 H2.pdf"
-
 
 
 [[params.footer_resources]] 

@@ -3,9 +3,9 @@ banner:
   enable : true
   title : "DEV DAY 4 WOMEN"
   img: "/images/images/DD4W.png" 
-  date_time: "28 y 29 de septiembre 2022"
+  date_time: "27 y 28 de octubre 2022"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : "28 y 29 de septiembre 2022 | Evento Online | Gratuito"
+  where : "27 y 28 de octubre 2022 | Evento Online | Gratuito"
   
   button: 
     enable : true
