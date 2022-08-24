@@ -11,7 +11,7 @@ type: faq
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-La edición de septiembre se realizará en formato virtual durante dos días 28 y 29 de este mes. Podrás asistir desde cualquier lugar donde te encuentres.
+La segunda edición del año se realizará en formato virtual durante dos días 27 y 28 de octubre 2022 Podrás asistir desde cualquier lugar donde te encuentres.
 
 Es un evento gratuito. Gracias a nuestros patrocinadores.
 
@@ -28,7 +28,7 @@ Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no pu
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR? 
 
-- Apartir del  5 de septiembre aparecerá en el sitio web el botón: LIVE. 
+- A partir del 3 de octubre aparecerá en el sitio web el botón: LIVE. 
 
 - Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresaras el correo con el que te registrate en eventbrite.
 

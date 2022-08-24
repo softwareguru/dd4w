@@ -9,7 +9,7 @@ banner:
   
   button: 
     enable : true
-    label : "Participa como conferencista"
+    label : "¡Registrate aquí!"
     link: https://convoca.dev/dev-day-4-women-septiembre-2022/cfp
 ############################## Event ##############################
 event_info:
@@ -29,8 +29,7 @@ event_info:
     
   description3: >
 
-    Cada año tenemos dos ediciones y la segunda edición del año se realizara el 28 y 29 de septiembre 2022
-
+    Cada año tenemos dos ediciones y la segunda edición del año se realizara el 27 y 28 de octubre 2022.
 
    
   #present_by: Presentado por
