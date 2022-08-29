@@ -2,6 +2,14 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
+  - title : "Empresas participantes"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/EDICOM.jpg"
+        link : "https://careers.edicomgroup.com/"  
+      - logo : "/images/logos/logo-negro_watr.png"
+        link : "https://watr.mx/es"
+
 
   - title : "Apoyado por"
     slug : "community"
@@ -46,6 +54,7 @@ sponsor_group:
         link : "https://www.facebook.com/SiriusteamMx"
       - logo : "/images/logos/wie logo veracruz.png"
         link : "https://www.facebook.com/WIEVeracruz"  
+
 
   - title : "Organizado por"
     slug : "gold"
