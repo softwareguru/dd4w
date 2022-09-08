@@ -5,7 +5,7 @@ banner:
   img: "/images/images/DD4W.png" 
   date_time: "27 y 28 de octubre 2022"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : "27 y 28 de octubre 2022 | Evento Online | Gratuito"
+  where : "27 y 28 de octubre 2022 | Edicion Online | Gratuito"
   
   button: 
     enable : true
@@ -17,7 +17,7 @@ event_info:
   title : "DOS DÍAS DE APRENDIZAJE PARA DESARROLLADORAS"
 
   description : >
-    Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software.
+    Esta es una edición online de Dev Day for Women para mujeres involucradas en el desarrollo de software.
    
   description1: >
 
@@ -25,7 +25,7 @@ event_info:
 
   description2: >
 
-    A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica, a partir del 2020 en formato virtual
+    A lo largo de cinco años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica, a partir del 2020.
     
   description3: >
 
