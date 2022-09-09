@@ -4,11 +4,11 @@ date: 2022-07-27T11:45:05-05:00
 draft: false
 ---
 
-Por tercer año consecutivo, en SG4 Wome queremos reconocer a las mujeres en las Tecnologías de la Información (TI) que apoyan e impulsar a más mujeres en la industria, no solo en México si no en toda Latinoamerica.
+Por tercer año consecutivo, en SG4 Women queremos reconocer a las mujeres en las Tecnologías de la Información (TI) apoyando e impulsando a más mujeres en la industria, no solo en México, sino en toda Latinoamérica.
 
 Los reconocimientos de SG4W se dividien en 3 categorias
 
-- Inspiración: mujer con reconocida trayectoria en la industria de TI, que ha inspirado y apoyado a otras mujeres, de manera personal o colaborando en iniciativas u organizaciones que apoyan a las mujeres. Este reconocimiento lo selecciona y entrega SG 4 Women a discreción.
+- Inspiración: Mujer con reconocida trayectoria en la industria de TI, que ha inspirado y apoyado a otras mujeres, de manera personal o colaborando en iniciativas u organizaciones que apoyan a las mujeres. Este reconocimiento lo selecciona y entrega SG 4 Women a discreción.
 
 - Líder emergente: Mujer que de alguna u otra manera está involucrada con las TI’s. Este reconocimiento es elegido por la comunidad.
 

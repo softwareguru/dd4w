@@ -11,9 +11,9 @@ type: faq
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-La segunda edición del año se realizará en formato virtual durante dos días 27 y 28 de octubre 2022 Podrás asistir desde cualquier lugar donde te encuentres.
+La segunda edición del año se realizará en formato virtual durante dos días 27 y 28 de Octubre 2022. Podrás asistir desde cualquier lugar donde te encuentres.
 
-Es un evento gratuito. Gracias a nuestros patrocinadores.
+Gracias a nuestros patrocinadores, es un evento gratuito
 
 <br>
 
@@ -21,20 +21,19 @@ Es un evento gratuito. Gracias a nuestros patrocinadores.
 
 La agenda Dev Day 4 Women esta muy completa se contarán con dos bloques por día, estamos trabajando en la agende del evento.
 
-Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no puedes asistir en vivo, puedes ver las grabaciones.
+Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no puedes asistir en vivo, puedes ver las grabaciones. [Conocer más](https://www.youtube.com/channel/UCGZsBwp-Azah4Wdp9x6EzFQ).
 
 
 <br>
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR? 
 
-- A partir del 3 de octubre aparecerá en el sitio web el botón: LIVE. 
+- A partir del 3 de Octubre aparecerá en el sitio web el botón: LIVE. 
 
-- Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresaras el correo con el que te registrate en eventbrite.
+- Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresarás el correo con el que te registrate en Eventbrite.
 
-- Al introducir tu email, el sistema detectará si ya estás registrada(o) y en caso de ser así te mostrará un botón para recibir un login link por correo. 
+- Al introducir tu e-mail, el sistema detectará si ya estás registrada(o) y en caso de ser así te enviará un correo con el acceso al evento. **En caso contrario, te enviará un correo para que termines tu registro y posteriormente podrás acceder al evento**
 
-- Dale click y recibirás un correo con un enlace para hacer login a Dev Day 4 Women en Crowdcast (la plataforma que estamos utilizando para la transmisión).
 
 ***Si en el paso 3 el sistema no reconoce tu correo, te pedimos nos contactes: eventos@sg.com.mx***
 
@@ -46,17 +45,19 @@ Solo necesitas una computadora con un navegador web actualizado, de preferencia 
 <br>
 
 ### ¿CÓMO PUEDO CONTACTAR CON OTROS PARTICIPANTES Y PONENTES?
-Para manejar esta comunicación estaremos [utilizando slack.](https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ) Te puedes unir desde ahora en Los canales que estaremos manejando son:
+Para manejar esta comunicación estaremos [utilizando slack.](https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ) Te puedes unir desde ahora en los canales que estaremos manejando son:
 
 * #general para conversaciones generales (saludos desde X), dinámicas, y temas que no estén atadas a una sesión.
 * #support problemas con la herramienta, atención a asistentes y patrocinadores
-* Además cada patrocinador tendrá un canal en slack, quienes estarán organizando interesantes dinámicas, y muchos estarán buscando talento.
+* Además cada patrocinador tendrá un canal en slack; **organizarán** interesantes dinámicas, y muchos **de ellos** estarán buscando talento.
 
 <br>
 
 ### ¿LAS GRABACIONES Y SLIDES DE LAS SESIONES SE COMPARTIRÁN?
 
 Todas las sesiones serán grabadas y se compartirán con los asistentes del evento, así como las presentaciones (slides).
+
+Puedes ver las sesiones de la edición anterior [aquí](https://youtube.com/playlist?list=PLnLzwYW6HOC471pWkmJOUEHl4BZjm254K)
 
 <br>
 
@@ -74,7 +75,7 @@ No. Si consideras que puedes aprovechar los contenidos, eres bienvenida.
 
 ### CÓDIGO DE CONDUCTA
 
-En SG4W nos preocupamos por la seguridad e integridad de nuestros asistentes y todos los involucrados en nuestros eventos, para lo cuál, te dejamos un código de conducta que seguimos, si quieres leer más acerca de el, puedes hacer [click aquí](/coc).
+En SG4W nos preocupamos por la seguridad e integridad de todos los involucrados en nuestros eventos, para lo cuál, te dejamos nuestro código de conducta léelo [aquí](/coc).
 
 <br>
 
