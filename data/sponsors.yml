@@ -11,6 +11,11 @@ sponsor_group:
         link : "https://watr.mx/es"
       - logo : "/images/logos/Brillio_logoRGB.png"
         link : "https://careers.brillio.com/"
+      - logo : "/images/logos/nextiva_logo_rgb.jpg"
+        link : "https://www.instagram.com/nextiva_mexico/"
+      - logo : "/images/logos/Improving.png"
+        link : "https://improving.com/careers"
+
 
 
 
@@ -56,8 +61,15 @@ sponsor_group:
       #- logo : "/images/logos/LOGO SIRIUS MEXICO S_F.png"
       #  link : "https://www.facebook.com/SiriusteamMx"
       - logo : "/images/logos/wie logo veracruz.png"
-        link : "https://www.facebook.com/WIEVeracruz"  
-
+        link : "https://www.facebook.com/WIEVeracruz" 
+      - logo : "/images/logos/web3latinas.png"
+        link : "https://twitter.com/Web3Latinas_"
+      - logo : "/images/logos/py_01.png"
+        link : "https://cbba.pyladies.com/ "
+      - logo : "/images/logos/muejeres-computacion.jpg"
+        link : "https://sites.google.com/view/amexcompmujeres"
+      - logo : "/images/logos/Nancy Salazar_Logo.png"
+        link : "https://www.nancynsalazar.tech/ "
 
   - title : "Organizado por"
     slug : "gold"
