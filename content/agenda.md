@@ -1,9 +1,13 @@
 ---
 title: "Agenda"
 date: 2022-07-27T11:39:45-05:00
-draft: false
+draft: true
 ---
 
+
+<section class="section banner" >
+
+</section>
 
 Actualmente estamos trabajando en la mejor agenda para ti, tú puedes formar parte del evento compartiendo tu conocimiento te invitamos a compartir tu conocimiento.
 

@@ -24,8 +24,8 @@
     {{ with $data.sponsors.sponsorship }}
     <div class="row">
       <div class="col-lg-12">
-        <!--<h5 class="mt-5 mb-4">{{ .title }}</h5>
-        <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="blank">{{ .label }}</a>-->
+        <h5 class="mt-5 mb-4">{{ .title }}</h5>
+        <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="blank">{{ .title }}</a>
         <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="_blank">{{ .label }} <i class="fas fa-arrow-circle-right"></i></a>
       </div>
     </div>

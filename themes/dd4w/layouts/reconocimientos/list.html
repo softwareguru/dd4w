@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="section banner reconocimiento">
+
+  <div class="container">
+    <div class="agenda opt img-fluiud">
+      <h1>RECONOCIMIENTO SG4W</h1>
+      <br><br>
+     <h2>Queremos reconocer a las mujeres en las Tecnologías de la Información</h2>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col mb-4">
+        <div class="card h-100 agenda card titulos">
+          <div class="card-body">
+            <h2 class="card-title ">Inspiración</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100 agenda card card titulos">
+          <div class="card-body">
+            <h2 class="card-title">Líder emergente</h2>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100 agenda card card titulos">
+          <div class="card-body">
+            <h2 class="card-title">Soloridad</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="/images/FOTO-RECONOCIMIENTOS.png" alt="" class="img-fluid img agenda"> 
+</section>
+
+<section class="section">
+  <div class="container">
+      <article>
+        {{ .Content }}
+      </article>
+  </div>
+</section>
+{{ end }}

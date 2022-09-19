@@ -1,7 +1,7 @@
 ---
 title: "Reconocimientos"
 date: 2022-07-27T11:45:05-05:00
-draft: false
+draft: true
 ---
 
 Por tercer año consecutivo, en SG4 Women queremos reconocer a las mujeres en las Tecnologías de la Información (TI) apoyando e impulsando a más mujeres en la industria, no solo en México, sino en toda Latinoamérica.

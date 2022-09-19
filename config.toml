@@ -87,10 +87,10 @@ link="https://kit.fontawesome.com/4a6d2efc2e.js"
   URL = "/reconocimientos"
   weight = 3
 
-  #[[menu.main]]
-  #name = "Speakers"
-  #URL = "/speakers"
-  #weight = 2
+  [[menu.main]]
+  name = "Speakers"
+  URL = "/speakers"
+  weight = 2
 
   [[menu.main]]
   name = "Agenda"
@@ -181,6 +181,16 @@ link = "/sessions/noviembre-2021/"
 [[params.footer_previous]]
 name = "DD4W Abril 2022"
 link = "/sessions/abril-2022/"
+
+[[params.footer_previous]]
+name = "Reconocimientos 2020"
+link = "/reconocimientos-2020/"
+
+[[params.footer_previous]]
+name = "Reconocimientos 2021"
+link = "/reconocimientos-2021/"
+
+
 
 [[params.footer_sponsorship]] 
 name = "Prospectus"
