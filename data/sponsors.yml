@@ -12,7 +12,8 @@ sponsor_group:
         link : "https://improving.com/careers"
       - logo : "/images/logos/Softtek-original.png"
         link : "http://www.softtek.com/jobs"
-
+      - logo : "/images/logos/mobiik.png"
+        link : "https://www.mobiik.com/"
 
 
   - title : "Gold" 
@@ -22,6 +23,9 @@ sponsor_group:
         link : "https://careers.edicomgroup.com/"  
       - logo : "/images/logos/nextiva_logo_rgb.jpg"
         link : "https://www.instagram.com/nextiva_mexico/"
+      - logo : "/images/logos/TechMachindra_sito.png"
+        link : "https://www.digitalonus.com/join-us/"
+
 
   - title : "Silver" 
     slug : "gold"

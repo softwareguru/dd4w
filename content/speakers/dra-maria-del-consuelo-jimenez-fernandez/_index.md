@@ -3,7 +3,7 @@ title: "Dra María Del Consuelo Jiménez Fernández"
 date: 2022-09-18T00:20:56-05:00
 images: 
  - "/images/speakers/2022-h2/consuelo-jimenez.png"
-designation : "Investigadora y docente, presidenta del grupo CIEM de mujeres investigadoras, científicas de la UDEM"
+designation : "Consultora y docente,  presidenta del grupo CIEM de mujeres científicas, investigadoras y emprendedoras de la UDEM"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/mar%C3%ADa-del-consuelo-jim%C3%A9nez-fern%C3%A1ndez-482815b2/"

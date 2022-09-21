@@ -3,7 +3,7 @@ title: "Lucia Bustamante"
 date: 2022-09-18T00:26:03-05:00
 images: 
  - "/images/speakers/2022-h2/lucia-bustamante.png"
-designation : "Fundadora de Mujeres IT, Lead Product Designer en TheoremOne"
+designation : "Design Manager en TheoremOne"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/luciabustamante/"

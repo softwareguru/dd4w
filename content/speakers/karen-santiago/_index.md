@@ -3,7 +3,7 @@ title: "Karen Santiago"
 date: 2022-09-18T00:27:08-05:00
 images: 
  - "/images/speakers/2022-h2/karen-santiago.png"
-designation : "Resident in PolyWorks México"
+designation : ""
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/karen-santiago-305a45137/ "
