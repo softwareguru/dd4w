@@ -6,7 +6,7 @@ images:
 designation : "Technical Account Advisor - Google"
 country: "mx"
 twitter: ""
-linkedin: "http://www.linkedin.com/in/ruth-goreti-gonzalez"
+linkedin: "https://www.linkedin.com/in/ruth-goreti-gonzalez"
 github: ""
 year: "2022-h2"
 ---

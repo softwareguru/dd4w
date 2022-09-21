@@ -6,7 +6,7 @@ images:
 designation : "IT,Sysadmin"
 country: "mx"
 twitter: ""
-linkedin: "http://linkedin.com/in/m-libia-estevez-camata-79894520b"
+linkedin: "https://linkedin.com/in/m-libia-estevez-camata-79894520b"
 github: ""
 year: "2022-h2"
 ---

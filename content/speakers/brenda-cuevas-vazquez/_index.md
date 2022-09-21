@@ -5,8 +5,8 @@ images:
  - "/images/speakers/2022-h2/brenda-cuevas.png"
 designation : "Lider de desarrollo de software y Directora de operaciones"
 country: "mx"
-twitter: ""
-linkedin: "https://twitter.com/soybrendacuevas"
+twitter: "https://twitter.com/soybrendacuevas"
+linkedin: ""
 github: ""
 year: "2022-h2"
 ---

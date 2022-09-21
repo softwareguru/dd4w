@@ -6,7 +6,7 @@ images:
 designation : "COO and Exceutive Delivery Manager"
 country: "mx"
 twitter: ""
-linkedin: "http://linkedin.com/in/claudia-fabiola-amador-gomez-0692a225"
+linkedin: "https://www.linkedin.com/in/claudia-fabiola-amador-gomez-0692a225/"
 github: ""
 year: "2022-h2"
 ---

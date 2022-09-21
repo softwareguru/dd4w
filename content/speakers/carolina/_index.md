@@ -5,8 +5,8 @@ images:
  - "/images/speakers/2022-h2/carolina-herrera.png"
 designation : "Directora de Comunicaciones en WITPERU y Senior Devops Engineer en Globant"
 country: "mx"
-twitter: ""
-linkedin: "https://twitter.com/carotechie"
+twitter: "https://twitter.com/carotechie"
+linkedin: ""
 github: ""
 year: "2022-h2"
 ---

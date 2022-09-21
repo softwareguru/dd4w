@@ -6,7 +6,7 @@ images:
 designation : "Docente"
 country: "mx"
 twitter: ""
-linkedin: "http://www.linkedin.com/in/rocio-crystal-hernandez-camacho-2556158b"
+linkedin: "https://www.linkedin.com/in/rocio-crystal-hernandez-camacho-2556158b"
 github: ""
 year: "2022-h2"
 ---
