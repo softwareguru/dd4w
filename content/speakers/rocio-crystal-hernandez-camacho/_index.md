@@ -2,7 +2,7 @@
 title: "Rocio Crystal Hernández Camacho"
 date: 2022-09-17T23:58:19-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/rocio-cristal.png"
 designation : "Docente"
 country: "mx"
 twitter: ""
