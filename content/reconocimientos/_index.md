@@ -18,8 +18,9 @@ Los reconocimientos de SG4W se dividien en 3 categorias:
 Tú puedes nominar a una organizacion o comunidad, o a esa lider emergente que puede ser tu modelo a seguir. 
 Se ha creado el Comité SG 4 Women, conformado por las mujeres que ya han recibido reconocimiento previamente, el cual asignará el reconocimiento Inspiración a discreción, y a partir de las nominaciones y votaciones recibidas, deliberará y asignará los reconocimientos Líder emergente y Sororidad. 
 
-Abren nominaciones: 19 de septiembre, 2022
-Periodo de votaciones: 6 al 21 de octubre, 2022
+Abren nominaciones: 19 de septiembre, 2022.
+<br><br>
+Periodo de votaciones: 6 al 21 de octubre, 2022.
 
 Nomina a tus preferidas, vota, y reconoce su esfuerzo!
 
@@ -31,3 +32,29 @@ Nota: Para votar requieres registrarte en el evento.
 </a>
 </center>
 
+<br>
+
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+    <img src="/images/dd4w-header.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="../reconocimientos-2020/">
+        <strong><h4 class="card-title">Reconocimientos 2020 SG4 Women</h4></strong>
+       </a> 
+        </div>
+    </div>
+  </div>
+
+  <div class="col mb-4">
+    <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
+    <img src="/images/dd4w-header.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <a href="../reconocimientos-2021/">
+        <strong><h4 class="card-title">Reconocimientos 2021 SG4 Women</h4></strong>
+       </a> 
+        </div>
+    </div>
+  </div>
+
+</div>
