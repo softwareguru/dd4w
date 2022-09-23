@@ -61,11 +61,11 @@ sponsor_group:
       - logo : "/images/logos/Nancy Salazar_Logo.png"
         link : "https://www.nancynsalazar.tech/ "
       - logo : "/images/logos/pioneras.png"
-        link : "http://pionerasdev.co"
+        link : "https://twitter.com/pionerasdev"
       - logo : "/images/logos/HER.jpeg"
         link : "https://twitter.com/herdaolatam"
 
-        
+
   - title : "Organizado por"
     slug : "gold"
     sponsor:
