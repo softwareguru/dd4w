@@ -60,7 +60,12 @@ sponsor_group:
         link : "https://sites.google.com/view/amexcompmujeres"
       - logo : "/images/logos/Nancy Salazar_Logo.png"
         link : "https://www.nancynsalazar.tech/ "
+      - logo : "/images/logos/pioneras.png"
+        link : "http://pionerasdev.co"
+      - logo : "/images/logos/HER.jpeg"
+        link : "https://twitter.com/herdaolatam"
 
+        
   - title : "Organizado por"
     slug : "gold"
     sponsor:

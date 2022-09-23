@@ -48,9 +48,10 @@ Solo necesitas una computadora con un navegador web actualizado, de preferencia 
 ### ¿CÓMO PUEDO CONTACTAR CON OTROS PARTICIPANTES Y PONENTES?
 Para manejar esta comunicación estaremos [utilizando slack.](https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ) Te puedes unir desde ahora en los canales que estaremos manejando son:
 
-* #general para conversaciones generales (saludos desde X), dinámicas, y temas que no estén atadas a una sesión.
+* #general para seguir las sesiones y avisos del evento.
 * #support problemas con la herramienta, atención a asistentes y patrocinadores
-* Además cada patrocinador tendrá un canal en slack; **organizarán** interesantes dinámicas, y muchos **de ellos** estarán buscando talento.
+* #random para conversaciones te temas varios (saludos desde X), dinámicas, y temas que no estén atadas a una sesión.
+* Además cada patrocinador tendrá un canal en slack; organizarán interesantes dinámicas, y muchos de ellos estarán buscando talento.
 
 <br>
 
