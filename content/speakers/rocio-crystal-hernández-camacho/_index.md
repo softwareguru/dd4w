@@ -14,6 +14,6 @@ year: "2022-h2"
 Docente de universidad Politécnica de Chiapas Upchiapas.
 Maestría en Ciencias Computacionales en UAEH (Universidad Autónoma del estado de Hidalgo)
 Carrera en Sistemas computacionales en el Tecnológico de Tuxtla Gutiérrez (ITTG)
-Intereses: 
 
-Moprosoft, calidad, Pruebas, Multimedia, Realidad virtual, Mundos virtuales.
+Intereses: 
+Moprosoft, calidad, pruebas, multimedia, realidad virtual, mundos virtuales.

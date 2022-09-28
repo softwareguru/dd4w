@@ -11,4 +11,4 @@ github: ""
 year: "2022-h2"
 ---
 
-I am a cloud advisor with six years of experience, I've been working with internal and external customers supporting and advising on Cloud technologies including collaboration tools, CI/CD pipelines and kubernetes clusters. I'm certified in a wide range of state of the art platforms as Red Hat Openshift, Azure and Google Workspace. I am a cloud and DevOps evangelist, I'm passionate about problem solving and self learning.
+Soy Cloud Advisor con seis años de experiencia, he estado trabajando con clientes internos y externos apoyando y asesorando sobre tecnologías en la nube, incluidas herramientas de colaboración, canalizaciones de CI/CD y clústeres de kubernetes. Estoy certificada en una amplia gama de plataformas de última generación como Red Hat Openshift, Azure y Google Workspace. Soy un evangelista de la nube y DevOps, me apasiona la resolución de problemas y el autoaprendizaje.
