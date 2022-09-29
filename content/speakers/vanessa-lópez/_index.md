@@ -1,5 +1,5 @@
 ---
-title: "Vanessa Lopez"
+title: "Vanessa López"
 date: 2022-09-18T00:37:11-05:00
 images: 
  - "/images/speakers/2022-h2/vanessa-lopez.png"

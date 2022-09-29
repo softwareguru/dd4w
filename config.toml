@@ -76,10 +76,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/nominaciones"
   #weight = 2
 
-  #[[menu.main]]
-  #name = "Sesiones"
-  #URL = "/sessions/abril-2022/"
-  #weight = 1
+  [[menu.main]]
+  name = "Sesiones"
+  URL = "/sessions/octubre-2022/"
+  weight = 1
 
 
   [[menu.main]]

@@ -1,5 +1,5 @@
 ---
-title: "Rossana Suarez"
+title: "Rossana Suárez"
 date: 2022-09-17T23:47:54-05:00
 images: 
  - "/images/speakers/2022-h2/rossana-suarez.png"

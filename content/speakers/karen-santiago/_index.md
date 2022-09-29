@@ -11,8 +11,7 @@ github: ""
 year: "2022-h2"
 ---
 
-Estudié la Licenciatura en Ciencias de la Computación en la BUAP, posteriormente, obtuve una maestría en Ciencias de Computacionales en el INAOE. Durante 14 años he desarrollado proyectos de desarrollo de software, para el sector privado y público.
+Estudió la Licenciatura en Ciencias de la Computación en la BUAP, y cuenta con una maestría en Ciencias de Computacionales en el INAOE. 
 
-Durante ese tiempo, he estado involucrado en diferentes etapas del ciclo de vida del desarrollo de software como la definición y documentación de soluciones, análisis y desarrollo: especialmente en el diseño de bases de datos y análisis de datos.
-
-En los últimos dos años he trabajado como Business Analyst y he contribuido al diseño de aplicaciones móviles, análisis de datos.
+Durante 14 años ha desarrollado proyectos de desarrollo de software, para el sector privado y público.Durante ese tiempo, ha estado involucrada en diferentes etapas del ciclo de vida del desarrollo de software como la definición y documentación de soluciones, análisis y desarrollo, especialmente en el diseño de bases de datos y análisis de datos.
+En los últimos dos años ha trabajado como Business Analyst y ha contribuido al diseño de aplicaciones móviles, análisis de datos."
