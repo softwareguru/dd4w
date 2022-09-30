@@ -19,6 +19,7 @@ sponsor_group:
       - logo : "/images/logos/microsoft-logo.png"
         link : "https://www.microsoft.com/es-mx"
 
+
   - title : "Gold" 
     slug : "gold"
     sponsor:
@@ -35,6 +36,8 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/Brillio_logoRGB.png"
         link : "https://careers.brillio.com/"
+      - logo : "/images/logos/DD4W_MIND.png"
+        link : "https://www.mindhub.mx"
 
   - title : "Apoyado por"
     slug : "community"
@@ -76,8 +79,3 @@ sponsor_group:
         link : "https://sg.com.mx/sg4w" 
       - logo : "/images/logos/sg.jpg"
         link : "https://sg.com.mx/"
-      
-
- 
-                  
- 
