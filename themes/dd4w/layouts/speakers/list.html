@@ -6,10 +6,11 @@ html, body, .hero { height: 63%; margin: 0; }
 .hero {
   display: grid;
   /* El grid tiene 2 columnas, una de 40% del ancho y otra con el resto */
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: 0% 1fr;
     /* Solo hay un renglón, de altura flexible */
   grid-template-rows: 1fr;
   background-color: #927AFF;
+  text-align: center;
 }
 
 .frame1 {
@@ -41,7 +42,7 @@ html, body, .hero { height: 63%; margin: 0; }
 
 .info h1 {
   color: #ffffff;
- 
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 600px) { 
@@ -51,11 +52,13 @@ html, body, .hero { height: 63%; margin: 0; }
     display: none;
   }
   .hero {
-    grid-template-columns: 20% 1fr;
+    grid-template-columns: 0% 1fr;
   }
 
   .info h1 {
   margin-top: 70px;
+  text-align: center;
+
  
 }
 

@@ -34,7 +34,7 @@ Nota: Para votar requieres registrarte en el evento.
 
 <br>
 
-<div class="row row-cols-1 row-cols-md-3">
+<!--<div class="row row-cols-1 row-cols-md-3">
   <div class="col mb-4">
     <div class="card h-100 shadow p-3 mb-5 bg-white rounded">
     <img src="/images/dd4w-header.png" class="card-img-top" alt="...">
@@ -57,4 +57,9 @@ Nota: Para votar requieres registrarte en el evento.
     </div>
   </div>
 
-</div>
+</div>-->
+
+<h2 style="color:black;">Reconocimeintos anteriores</h2>
+
+* [Reconocimientos 2020 SG4 Women](../reconocimientos-2020/)
+* [Reconocimientos 2021 SG4 Women](../reconocimientos-2021/)

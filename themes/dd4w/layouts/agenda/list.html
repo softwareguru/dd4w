@@ -1,40 +1,146 @@
 {{ define "main" }}
-<section class="section banner agenda">
 
-  <div class="container">
-    <div class="agenda opt img-fluiud">
-      <h1>AGENDA</h1>
-      <br><br>
-     <h2>Tú puedes formar parte del evento compartiendo tu conocimiento</h2>
-    </div>
+<style>
 
-    <div class="row row-cols-1 row-cols-md-3">
-      <div class="col mb-4">
-        <div class="card h-100 agenda card card titulos">
-          <div class="card-body">
-            <h2 class="card-title">Charlas</h2>
-            <h3 class="colorbg">25 minutos</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card h-100 agenda card card titulos">
-          <div class="card-body">
-            <h2 class="card-title">Ignite</h2>
-            <h3 class="colorbg">5 minutos</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-4">
-        <div class="card h-100 agenda card card titulos">
-          <div class="card-body">
-            <h2 class="card-title">Comunidad</h2>
-            <h3 class="colorbg">3 minutos</h3>
-          </div>
-        </div>
-      </div>
+html, body, .hero { height: 100%; margin: 0; }
+
+.hero {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  grid-template-rows: 1fr;
+  background: linear-gradient(to right, #3101FF, #5263DD);
+}
+
+.frame1 {
+  justify-self: center; 
+  align-self: end; 
+}
+
+.photo-container {
+  height: 90vh;
+}
+
+.photo {
+  width: 1500px;
+  height: 100%;
+  margin-left: 850px;
+}
+
+.frame2 {
+  background-image: url("/images/degradados/agenda.png");
+  background-size: cover;
+  /* Para controlar el layout de este cuadro, volvemos a usar un grid. Es de 2 columnas x 2 renglones. La primer columna es un margen del 10% del ancho de pantalla, y la 2da columna es de ancho flexible, y es donde va el texto. De los renglones, el primer renglón tiene altura flexible mientras que el segundo es del 70% de la altura de la pantalla, este es el mismo valor que se usó para el cuadro con la foto de la chica. */
+  display: grid;  
+  grid-template-columns: 8vw 1fr;
+  grid-template-rows: 1fr 70vh;
+}
+
+.info {
+  color: #ffffff;
+  font-size: 4.4em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.info p{
+  margin-top: -20px;
+  font-size: 0.6em;
+  
+}
+
+.subtitulo li{
+  margin-top: 22px;
+  font-size: 0.5em;
+  line-height: 1;
+
+}
+
+.subtitulo{
+  margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 950px){
+ 
+  .hero {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  grid-template-rows: 1fr;
+  background: linear-gradient(to right, #3101FF, #5263DD);
+}
+  
+  .photo {
+  display: none;
+}
+}
+
+
+@media only screen and (max-width: 600px) { 
+  /* En pantallas pequeñas esconder la foto
+  y hacer que el frame izquierdo sea de solo 20% del ancho (en lugar del 40%) */
+  .photo {
+    display: none;
+  }
+  .hero {
+    grid-template-columns: 0% 1fr;;
+  }
+
+  .info{
+    font-size: 3.8em;
+    margin-top: -80px;
+  }
+
+  .info p{
+    font-size: 0.5em;
+  }
+
+  
+  .subtitulo p{
+    margin-top: 20px;
+    font-size: 0.4em;;
+  }
+
+
+  .frame2 {
+    /* En pantalls pequeñas hay que ajustar el acomodo de la imagen de background para que no tape tanto. */
+    background-position: bottom right;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+}
+
+</style>
+
+<section class="hero">
+  <div class="frame1">
+    <div class="photo-container">
+          <img class="photo" src="/images/FOTO-AGENDA.png">
     </div>
   </div>
-  <img src="/images/FOTO-AGENDA.png" alt="" class="img-fluid img agenda"> 
+  
+  <div class="frame2">
+    <!-- Tenemos un grid de 2x2. Nuestro contenido está en el 4to elemento (derecha inferior), así que necesitamos 3 elementos vacíos. -->
+    <div class="spacer">
+    </div>
+    <div class="spacer">
+  </div>
+    <div class="spacer">
+  </div>
+  <div class="info" style="margin-top: -150px;">
+   AGENDA
+    <br><br>
+    <p>Tú puedes formar parte del evento compartiendo <br> tu conocimiento </p>
+
+
+    <div class="subtitulo" >  
+      <p><li>25 minutos</li></p>
+      <p><li>Ingnite: 5 minutos</li></p>
+      <p><li>Comunidad: 3 minutos</li></p>
+    </div>
+  </div>
+  
+
+</div>
 </section>
 {{ end }}

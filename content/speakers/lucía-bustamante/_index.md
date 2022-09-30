@@ -11,6 +11,6 @@ github: ""
 year: "2022-h2"
 ---
 
-Diseñadora de Productos digitales con más de 7 años de experiencia en la industria de software.  Es fundadora de las comunidades MujeresIT, y Latin Female Designers y es mentora en Interaction Design Foundation y ADPList. Actualmente trabaja como Lead Product Designer en TheoremOne.
+Diseñadora de Productos digitales con más de 7 años de experiencia en la industria de software.  Es fundadora de las comunidades MujeresIT, y Latin Female Designers y es mentora en Interaction Design Foundation y ADPList.
 
 ​Interesada en ​voluntariado y en ​causas sociales​,​ especialmente en​ las que promueven la igualdad de género.

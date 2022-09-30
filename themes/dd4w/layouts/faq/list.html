@@ -1,16 +1,115 @@
 {{ define "main" }}
-<section class="section banner faq">
-
-  <div class="container">
-    <div class="agenda opt img-fluiud">
-      <h1>PREGUNTAS FRECUENTES</h1>
-      <br><br>
-     <h2>Toda la información sobre Dev Day al alcance de un click</h2>
-    </div>
-  </div>
+<style>
+  html, body, .hero { height: 63%; margin: 0; }
   
-  <img src="/images/FOTO-FAQ.png" alt="" class="img-fluid img agenda"> 
-</section>
+  .hero {
+    display: grid;
+    /* El grid tiene 2 columnas, una de 40% del ancho y otra con el resto */
+    grid-template-columns: 0% 1fr;
+      /* Solo hay un renglón, de altura flexible */
+    grid-template-rows: 1fr;
+    background-color: #927AFF;
+    text-align: center;
+ 
+  }
+  
+  .frame1 {
+    /* el contenido del frame va centrado horizontalmente */
+    justify-self: center; 
+    
+    /* y verticalmente alineado hacia abajo */
+    align-self: end; 
+  }
+  
+  .photo-container {
+    /* 70% de la altura de pantalla. Ajustar al gusto y usar la misma altura para el texto blanco. */
+    height: 70vh;
+  }
+  
+  .photo {
+    width: auto;
+    height: 100%;
+  }
+  
+  .frame2 {
+    background-image: url(/images/degradados/reconocimientos.png);
+    background-size: cover;
+    /* Para controlar el layout de este cuadro, volvemos a usar un grid. Es de 2 columnas x 2 renglones. La primer columna es un margen del 10% del ancho de pantalla, y la 2da columna es de ancho flexible, y es donde va el texto. De los renglones, el primer renglón tiene altura flexible mientras que el segundo es del 70% de la altura de la pantalla, este es el mismo valor que se usó para el cuadro con la foto de la chica. */
+    display: grid;  
+    grid-template-columns:  1vw 1fr;
+    grid-template-rows: 1fr 20vh;
+  }
+  
+  .info h1 {
+    color: #ffffff;
+   margin-top: -48px;
+  }
+  
+  @media only screen and (max-width: 600px) { 
+      /* En pantallas pequeñas esconder la foto
+      y hacer que el frame izquierdo sea de solo 20% del ancho (en lugar del 40%) */
+      .photo {
+        display: none;
+      }
+      .hero {
+        grid-template-columns: 0% 1fr;
+      }
+
+      .faq>h1{
+      margin-top: 20px;
+      font-size: 0.5em;
+    }
+
+    .faq>h2{
+      font-size: 0.3em;
+    }
+    
+      .frame2 {
+        /* En pantalls pequeñas hay que ajustar el acomodo de la imagen de background para que no tape tanto. */
+        background-position: bottom right;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    
+    }
+  
+  
+  </style>
+  
+  
+  <section class="hero">
+    <div class="frame1">
+    </div>
+    
+    <div class="frame2">
+      <!-- Tenemos un grid de 2x2. Nuestro contenido está en el 4to elemento (derecha inferior), así que necesitamos 3 elementos vacíos. -->
+      <div class="spacer">
+      </div>
+      <div class="spacer">
+    </div>
+      <div class="spacer">
+    </div>
+    <div class="info">
+      <section class="section">
+
+        <div class="container">
+          <div class="faq">
+            <h1>PREGUNTAS FRECUENTES</h1>
+           
+           <h2>Toda la información sobre Dev Day al alcance de un click</h2>
+          </div>
+        </div>
+        
+        <!--<img src="/images/FOTO-FAQ.png" alt="" class="img-fluid img agenda">--> 
+      </section>
+    </div>
+  
+  </div>
+  </section>
+
+
+
+
 
 <section class="section">
   <div class="container">

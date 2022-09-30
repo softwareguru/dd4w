@@ -2,23 +2,17 @@ html, body, .hero { height: 100%; margin: 0; }
 
 .hero {
   display: grid;
-  /* El grid tiene 2 columnas, una de 40% del ancho y otra con el resto */
   grid-template-columns: 45% 1fr;
-    /* Solo hay un renglón, de altura flexible */
   grid-template-rows: 1fr;
-  background-color: #927AFF;
+  background: linear-gradient(to right, #3101FF, #5263DD);
 }
 
 .frame1 {
-  /* el contenido del frame va centrado horizontalmente */
   justify-self: center; 
-  
-  /* y verticalmente alineado hacia abajo */
   align-self: end; 
 }
 
 .photo-container {
-  /* 70% de la altura de pantalla. Ajustar al gusto y usar la misma altura para el texto blanco. */
   height: 70vh;
 }
 
@@ -28,7 +22,7 @@ html, body, .hero { height: 100%; margin: 0; }
 }
 
 .frame2 {
-  background-image: url("https://devday4w.com/images/hero-pattern.png");
+  background-image: url("/images/degradados/home.png");
   background-size: cover;
   /* Para controlar el layout de este cuadro, volvemos a usar un grid. Es de 2 columnas x 2 renglones. La primer columna es un margen del 10% del ancho de pantalla, y la 2da columna es de ancho flexible, y es donde va el texto. De los renglones, el primer renglón tiene altura flexible mientras que el segundo es del 70% de la altura de la pantalla, este es el mismo valor que se usó para el cuadro con la foto de la chica. */
   display: grid;  

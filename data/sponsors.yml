@@ -14,7 +14,10 @@ sponsor_group:
         link : "http://www.softtek.com/jobs"
       - logo : "/images/logos/mobiik.png"
         link : "https://www.mobiik.com/"
-
+      - logo : "/images/logos/oracle-logo.png"
+        link : "https://twitter.com/OracleLatam"
+      - logo : "/images/logos/microsoft-logo.png"
+        link : "https://www.microsoft.com/es-mx"
 
   - title : "Gold" 
     slug : "gold"
