@@ -2,7 +2,7 @@
 title: "Viviana Gaona López"
 date: 2022-09-28T19:50:03-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/viviana_gaona.jpg"
 designation : "Subgerente de Desarrollo"
 country: "mx"
 twitter: ""

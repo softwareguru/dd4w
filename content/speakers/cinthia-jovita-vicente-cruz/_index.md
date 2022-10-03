@@ -2,7 +2,7 @@
 title: "Cinthia Jovita Vicente Cruz"
 date: 2022-09-28T19:38:11-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/cinthia_vicente.jpg"
 designation : "Gerencia de Desarrollo"
 country: "mx"
 twitter: ""

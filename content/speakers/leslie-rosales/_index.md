@@ -9,6 +9,7 @@ twitter: ""
 linkedin: ""
 github: ""
 year: "2022-h2"
+draft: true
 ---
 
 Graduada del Tec de Monterrey como Ingeniera en Tecnologías Computacionales.

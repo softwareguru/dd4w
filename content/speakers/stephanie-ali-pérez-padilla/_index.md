@@ -1,8 +1,8 @@
 ---
-title: "Marielva Sánchez Ayala"
+title: "Stephanie Ali Pérez Padilla"
 date: 2022-09-28T19:51:30-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/ali_padilla.jpg"
 designation : "Diseñadora Web"
 country: "mx"
 twitter: ""

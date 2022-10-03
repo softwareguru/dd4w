@@ -1,6 +1,4 @@
 {{ define "main" }}
-
-
 <style>
   html, body, .hero { height: 63%; margin: 0; }
   
@@ -50,10 +48,28 @@
     color: #ffffff;
    margin-top: -48px;
   }
+
+
+  @media only screen and (max-width: 1180px) { 
+    .agenda{
+      margin-top: 6px;
+      font-size: 0.3em;
+    }
+
+    .agenda>h2{
+      font-size: 1.0em;
+    }
+
+    .card-title{
+      margin-top: -25px;
+      font-size: 1.2em;
+    }
+  
+  }
+
   
   @media only screen and (max-width: 600px) { 
-    /* En pantallas pequeñas esconder la foto
-    y hacer que el frame izquierdo sea de solo 20% del ancho (en lugar del 40%) */
+    
     .photo {
       display: none;
     }
@@ -85,8 +101,7 @@
   }
   
   
-  </style>
-  
+</style>
   
   <section class="hero">
     <div class="frame1">

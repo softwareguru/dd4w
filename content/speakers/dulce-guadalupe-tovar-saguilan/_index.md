@@ -2,7 +2,7 @@
 title: "Dulce Guadalupe Tovar Saguilan"
 date: 2022-09-28T19:48:55-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/dulce_tovar.jpg"
 designation : "Gerencia Aseguramiento y Calidad"
 country: "mx"
 twitter: ""

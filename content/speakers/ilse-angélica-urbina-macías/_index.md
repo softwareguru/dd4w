@@ -2,7 +2,7 @@
 title: "Ilse Angélica Urbina Macías"
 date: 2022-09-28T19:47:55-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/ilse_urbina.jpeg"
 designation : "Asistente Comercial"
 country: "mx"
 twitter: ""

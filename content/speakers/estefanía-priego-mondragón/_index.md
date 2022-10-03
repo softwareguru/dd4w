@@ -2,7 +2,7 @@
 title: "Estefanía Priego Mondragón"
 date: 2022-09-28T19:46:34-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/estefania_priego.jpg"
 designation : "Gerencia Web"
 country: "mx"
 twitter: ""
