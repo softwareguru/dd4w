@@ -71,7 +71,12 @@ sponsor_group:
         link : "https://twitter.com/pionerasdev"
       - logo : "/images/logos/HER.jpeg"
         link : "https://twitter.com/herdaolatam"
-
+      - logo : "/images/logos/ViT.png"
+        link : "https://venezolanasintech.org/"
+      - logo : "/images/logos/teensinai.png"
+        link : "https://twitter.com/GirlsinAIBo"
+      - logo : "/images/logos/ada-in-data.png"
+        link : "https://twitter.com/adaindatabo"
 
   - title : "Organizado por"
     slug : "gold"

@@ -28,7 +28,7 @@ Nota: Para votar requieres registrarte en el evento.
 
 <center>
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfKYzvxNfk4UcamXPhoJ6szRAM-iwSeaMphpu38JomU6gNWPA/formResponse" target="_blank">
-<button type="button" class="btn-lg" style="background-color:#A6F8FF; border-radius: 20px; color: #3101FF !important; border: none; padding: 20px 50px 20px 50px; font-size: 1.6em;">Postula a tus candidatas</button>
+<button type="button" class="btn-lg" style="background-color:#A6F8FF; border-radius: 20px; color: #3101FF !important; border: none; padding: 20px 50px 20px 50px; font-size: 1.6em;">Nomina a tus candidatas</button>
 </a>
 </center>
 

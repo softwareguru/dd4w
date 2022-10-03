@@ -6,7 +6,7 @@ images:
 designation : "Directora de Comunicaciones en WITPERU y Senior Devops Engineer en Globant"
 country: "mx"
 twitter: "https://twitter.com/carotechie"
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/carolinahm/?originalSubdomain=pe"
 github: ""
 year: "2022-h2"
 ---

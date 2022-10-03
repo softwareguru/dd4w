@@ -6,7 +6,7 @@ images:
 designation : "Senior Data Scientist - Protecta Security"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/estephani-rivera-jaramillo-83224146/"
 github: ""
 year: "2022-h2"
 ---
