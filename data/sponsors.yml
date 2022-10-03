@@ -29,6 +29,9 @@ sponsor_group:
         link : "https://www.instagram.com/nextiva_mexico/"
       - logo : "/images/logos/TechMachindra_sito.png"
         link : "https://www.digitalonus.com/join-us/"
+      - logo : "/images/logos/DD4W_MIND.png"
+        link : "https://www.mindhub.mx"
+
 
 
   - title : "Silver" 
@@ -36,8 +39,6 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/Brillio_logoRGB.png"
         link : "https://careers.brillio.com/"
-      - logo : "/images/logos/DD4W_MIND.png"
-        link : "https://www.mindhub.mx"
 
   - title : "Apoyado por"
     slug : "community"
