@@ -2,7 +2,7 @@
 title: "Yanet Morales"
 date: 2022-09-28T20:33:11-05:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/2022-h2/yanet-morales.jpeg"
 designation : "Delivery Manager"
 country: "mx"
 twitter: ""

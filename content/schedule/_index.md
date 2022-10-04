@@ -6,12 +6,12 @@ url:
 
 blocks: 
 
-  - id: a-2022
+  - id: h2-a-2022
     info: Sesiones confirmadas
     language: 
     time_start: 2022-04-06T14:08:36-06:00
 
-  - id: b-2022
+  - id: h2-b-2022
     info: Sesiones confirmadas
     language: 
     time_start:  2022-04-07T14:08:36-06:00
