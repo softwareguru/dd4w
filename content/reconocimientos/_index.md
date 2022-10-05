@@ -3,7 +3,7 @@ title: "Reconocimientos"
 date: 2022-09-17T21:00:23-05:00
 draft: false
 ---
-
+ 
 <br>
 Debemos reconocer y aplaudir el esfuerzo, liderazgo y participación de las mujeres en las Tecnologías de la Información (TI). Es por eso que SG 4 Women ha creado estos reconocimientos, para que, con tu decisión, apoyemos a estas grandes mujeres.
 
