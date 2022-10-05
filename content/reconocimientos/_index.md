@@ -5,7 +5,7 @@ draft: false
 ---
 
 <br>
-Debemos reconocer y aplaudir el esfuerzo, liderazgo y participación de las mujeres en las Tecnologías de la Información (TI). Es por eso que SG 4 Woman ha creado estos reconocimientos, para que, con tu decisión, apoyemos a estas grandes mujeres.
+Debemos reconocer y aplaudir el esfuerzo, liderazgo y participación de las mujeres en las Tecnologías de la Información (TI). Es por eso que SG 4 Women ha creado estos reconocimientos, para que, con tu decisión, apoyemos a estas grandes mujeres.
 
 Los reconocimientos de SG4W se dividien en 3 categorias:
 

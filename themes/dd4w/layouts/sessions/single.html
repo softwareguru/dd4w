@@ -30,8 +30,8 @@
         <div class="inner-column">
           <div class="text-box">
             <h3>{{ .Title }}</h3>
-            <!--<p class="session-meta" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2-2006 15:04" }}{{ end }}</p>
-            {{ with .Params.language }}<p class="session-meta" id="lang">Idioma: {{ humanize . }}</p>{{ end }}-->
+            <p class="session-meta" id="date">{{ with .Params.time_start | time }}{{ .Format "Jan-2-2006 15:04" }}{{ end }}</p>
+            {{ with .Params.language }}<p class="session-meta" id="lang">Idioma: {{ humanize . }}</p>{{ end }}
             <div class="d-lg-none d-xl-none">
               By 
               {{ range (.GetTerms "speakers") }}

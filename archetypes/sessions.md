@@ -5,9 +5,9 @@ url: /sessions/octubre-2022/
 speakers:
  - 
 format: session
-block: a-2022
-time_start: 2022-10-27T10:00:00-06:00
-time_end: 2022-10-27T10:30:00-06:00
+block: h2-b-2022
+time_start: 2022-10-28T10:00:00-05:00
+time_end: 2022-10-28T10:30:00-05:00
 video:
 slides:
 ---
