@@ -1,5 +1,5 @@
 ---
-title: "Diana Lucía Hernández Malerv"
+title: "Diana Lucía Hernández Malerva"
 date: 2022-10-04T23:51:32-05:00
 images: 
  - "/images/speakers/2022-h2/diana-lucia.jfif"
