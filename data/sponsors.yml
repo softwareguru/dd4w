@@ -39,6 +39,10 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/Brillio_logoRGB.png"
         link : "https://careers.brillio.com/"
+      - logo : "/images/logos/TVSA-UNI.png"
+        link : "https://corporate.televisaunivision.com/es/"
+      - logo : "/images/logos/Contpaqi.jpeg"
+        link : "https://www.contpaqi.com/"
 
   - title : "Apoyado por"
     slug : "community"
