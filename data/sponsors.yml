@@ -83,6 +83,8 @@ sponsor_group:
         link : "http://www.mentoralia.org"
       - logo : "/images/logos/hackwomen-1.png"
         link : "https://twitter.com/hack_women"
+      - logo : "/images/logos/logo-orbitas.png"
+        link : "https://orbitastj.com/"
 
   - title : "Organizado por"
     slug : "gold"
