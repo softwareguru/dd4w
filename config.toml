@@ -175,9 +175,9 @@ link = "https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NE
 name = "Acerca de"
 link = "https://sg.com.mx/sg4w"
 
-[[params.footer_previous]]
-name = "?Quién organiza¿"
-link = "/team/"
+#[[params.footer_previous]]
+#name = "?Quién organiza¿"
+#link = "/team/"
 
 [[params.footer_previous]]
 name = "Código de Conducta"
