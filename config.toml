@@ -176,6 +176,10 @@ name = "Acerca de"
 link = "https://sg.com.mx/sg4w"
 
 [[params.footer_previous]]
+name = "?Quién organiza¿"
+link = "/team/"
+
+[[params.footer_previous]]
 name = "Código de Conducta"
 link = "/coc/"
 

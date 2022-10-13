@@ -73,7 +73,7 @@ section.register p, section.swag p {
 	  }
 }
 
-.info-buttons {
+.infos-buttons {
     margin: 10px;
 	display: grid;
 	grid-template-columns: minmax(150px, 250px) minmax(150px, 250px);
@@ -84,19 +84,14 @@ section.register p, section.swag p {
 
 .team-strip {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-gap: 20px;
-
-	@include mobile {
-		grid-template-columns: repeat(2, 1fr);
-	}
-
 }
 
 .profile-item .headshot {
 	width:120px;
 }
-.profile-item .info {
+.profile-item .infos {
 	margin-left: 2em;
 	align-self: center;
 }
@@ -104,7 +99,7 @@ section.register p, section.swag p {
 article.swag {
 	background-color: #ffffff;
 }
-.swag-info {
+.swag-infos {
 	display: grid;
 	grid-gap: 20px;
 	grid-template-columns: 1fr 2fr;
@@ -217,7 +212,7 @@ section.sponsors {
 	}
 }
   
-  .event-info .content {
+  .event-infos .content {
 	display: grid;
 	grid-gap: 32px;
 	grid-template-columns: 1fr;
@@ -259,7 +254,7 @@ section.sponsors {
 	margin-top: 4px;
   }
 
-  .event-info a {
+  .event-infos a {
 	  color: $orange;
 	  text-transform: uppercase;
 	  &:hover {
@@ -271,7 +266,7 @@ section.sponsors {
 	margin-bottom: 1.6em;
 }	
 
-#event-info {
+#event-infos {
 	display: block;
 	position: relative;
 	top: -100px;
