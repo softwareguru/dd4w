@@ -15,20 +15,18 @@ Los reconocimientos de SG4W se dividien en 3 categorias:
 
 * **Sororidad:** Organización que se enfoca en apoyar niñas y mujeres para que se desempeñen mejor en el ámbito personal, profesional y en la industria de la tecnología. Este reconocimiento es elegido por la comunidad.
 
-Tú puedes nominar a una iniciativa o comunidad, o a esa líder emergente que puede ser tu modelo a seguir. 
 Se ha creado el Comité SG 4 Women, conformado por las mujeres que ya han recibido reconocimiento previamente, el cual asignará el reconocimiento Inspiración a discreción, y a partir de las nominaciones y votaciones recibidas, deliberará y asignará los reconocimientos Líder emergente y Sororidad. 
 
-Abren nominaciones: 19 de septiembre, 2022.
-<br><br>
-Periodo de votaciones: 13 al 21 de octubre 2022.
+**!Las votaciones ya están abiertas!** 
 
-Nomina a tus preferidas, vota, y reconoce su esfuerzo!
+Periodo de votaciones: 13 al 23 de octubre 2022.
 
-Nota: Para votar requieres registrarte en el evento.
+Recuerda que para considerar tu voto requieres estar registrad@ en el evento.
+
 
 <center>
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfKYzvxNfk4UcamXPhoJ6szRAM-iwSeaMphpu38JomU6gNWPA/formResponse" target="_blank">
-<button type="button" class="btn-lg" style="background-color:#A6F8FF; border-radius: 20px; color: #3101FF !important; border: none; padding: 20px 50px 20px 50px; font-size: 1.6em;">Nomina a tus candidatas</button>
+<a href="https://surveys.sg.com.mx/index.php?r=survey/index&sid=653446&lang=es" target="_blank">
+<button type="button" class="btn-lg" style="background-color:#A6F8FF; border-radius: 20px; color: #3101FF !important; border: none; padding: 20px 50px 20px 50px; font-size: 1.6em;">Vota ahora</button>
 </a>
 </center>
 
