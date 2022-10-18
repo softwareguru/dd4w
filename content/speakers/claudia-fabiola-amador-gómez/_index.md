@@ -3,7 +3,7 @@ title: "Claudia Fabiola Amador Gómez"
 date: 2022-03-30T16:27:56-06:00
 images: 
  - "/images/speakers/claudia-fabiola-amador-gomez.jpg"
-designation : "Gerente de Auditoria y Metodología de Proyectos"
+designation : "COO and Executive Delivery Manager en GFT México"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/claudia-fabiola-amador-gomez-0692a225/"
