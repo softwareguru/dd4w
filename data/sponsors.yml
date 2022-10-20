@@ -85,6 +85,8 @@ sponsor_group:
         link : "https://twitter.com/hack_women"
       - logo : "/images/logos/logo-orbitas.png"
         link : "https://orbitastj.com/"
+      - logo : "/images/logos/manning.png"
+        link : "https://www.manning.com/"
 
   - title : "Organizado por"
     slug : "gold"

@@ -1,11 +1,11 @@
 ---
-title: "Gana un eBook **The Programmer’s Brain**"
+title: "Descuento para e-book"
 date: 2020-10-17T14:50:33-05:00
 description: ""
 image: /images/logos/manning.png
-link:  /evaluaciones/
-button: Conocer más
+link:  https://www.manning.com/books/the-programmers-brain
+button: ¡Quiero participar!
 draft: false 
 ---
 
-Al cierre del evento rifaremos 3 eBooks “The Programmer’s Brain” de Manning Publications. Evalua el evento y automaticamente estas participando.
+Código de descuento del 35 % (válido para todos nuestros productos en todos los formatos).

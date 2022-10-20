@@ -1,10 +1,10 @@
 ---
 title: "Evaluación"
 date: 2022-04-04T16:23:20-05:00
-image: /images/networking/4.png
+image: /images/networking/evaluacion.jpg
 description: 
 button: ¡Quiero participar!
-link: /evaluaciones/
+link: "#"
 draft: false
 ---
 
@@ -12,6 +12,6 @@ draft: false
 
 Tu opinión es muy importante para nosotras. ¿Hay algo en lo que podemos mejorar? ¿Qué salió bien?
 
-Estaremos rifando diferentes premios entre todas las personas que nos ayuden evaluando el evento.
+Llena tu evaluación y participa en la rifa de un Amazon gift card de 1,000 pesos.
 
 ¡Mucha suerte!🍀

@@ -11,3 +11,5 @@ github: ""
 year: "2022-h2"
 ---
 
+Profesional con un alto sentido de responsabilidad, amplia experiencia en proyectos relacionados con TI, integración de soluciones tecnológicas orientadas a la entrega de servicios y procesos de mejora continua.
+

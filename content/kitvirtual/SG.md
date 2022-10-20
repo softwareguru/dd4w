@@ -5,7 +5,7 @@ description: ""
 image: /images/logos/sg.jpg
 link: /evaluaciones/
 button: ¡Quiero participar!
-draft: false
+draft: true
 ---
 
 Evalúa el evento y participa en la rifa de Logitech MX Master 3

@@ -1,14 +1,14 @@
 ---
-title: "Audífonos Gamer"
+title: "Gana una Bocina BOSE con Softtek"
 date: 2022-04-04T17:11:50-05:00
 sponsor: 
 description: ""
 image: /images/logos/Softtek-original.png
-link: https://forms.office.com/r/9dBZtvWcdW
+link: https://forms.office.com/pages/responsepage.aspx?id=melOhjjFoES93QRJ3mLfbWMGemVrppZKtHR8tFIYMBBURE5ZVFhLOTdDVE9QV0NBSzgzWThUOThaQy4u
 button: ¡Quiero participar!
 draft: false
 ---
 
-Participa en la rifa de unos Audífonos Gamer.
+Participa en la rifa por BOCINA BOSE cortesía de Softtek
 
-Conoce más información de nuestras ofertas laborales te invitamos a registrarte para ser de los primeros en enterarte. Al realizarlo entras a la rifa de unos Audífonos Gamer
+***Promoción válida solo para México***
