@@ -9,6 +9,6 @@ draft: false
 
 ---
 
-"Participa en la encuesta de Brillio para ganar una tarjeta de Amazon con valor de $1,500.00 MXN
+Participa en la encuesta de Brillio para ganar una tarjeta de Amazon con valor de $1,500.00 MXN
 
 ***Promoción válida solo para México***
