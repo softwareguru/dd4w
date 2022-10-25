@@ -104,10 +104,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #weight = 1
 
   
-  #[[menu.main]]
-  #name = "Networking"
-  #URL = "/networking"
-  #weight = 4
+  [[menu.main]]
+  name = "Networking"
+  URL = "/networking"
+  weight = 4
 
   [[menu.main]]
   name = "Kit Virtual"

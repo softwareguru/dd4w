@@ -4,7 +4,7 @@ date: 2022-04-04T16:14:23-05:00
 image: /images/networking/kit-virtual.jpg
 description: ""
 button: Conocer más
-link: "#"
+link: "/kitvirtual"
 draft: false
 ---
 

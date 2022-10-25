@@ -4,7 +4,7 @@ date: 2022-04-04T16:23:20-05:00
 image: /images/networking/evaluacion.jpg
 description: 
 button: ¡Quiero participar!
-link: "#"
+link: "https://sg1.run/dd4w-eval"
 draft: false
 ---
 

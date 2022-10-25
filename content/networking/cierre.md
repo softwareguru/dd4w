@@ -4,7 +4,7 @@ date: 2020-10-13T16:14:23-05:00
 image: /images/networking/cierre.jpg
 description: 
 button: ¡Quiero participar!
-link: "#"
+link: "/sessions/octubre-2022/cierre-y-reconocimientos-SG4Women"
 draft: false
 ---
 
