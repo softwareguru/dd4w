@@ -87,6 +87,10 @@ sponsor_group:
         link : "https://orbitastj.com/"
       - logo : "/images/logos/manning.png"
         link : "https://www.manning.com/"
+      - logo : "/images/logos/prosoftware-logo.jpg"
+        link : "https://www.prosoftware.store/"
+      - logo : "/images/logos/ITSON.png"
+        link : "https://www.itson.mx/aspirantes/admisiones/Paginas/admisiones.aspx"
 
   - title : "Organizado por"
     slug : "gold"
