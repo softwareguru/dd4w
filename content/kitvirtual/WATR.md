@@ -9,5 +9,5 @@ draft: false
 
 ---
 
-Participa en la rifa de una tarjeta de Amazon con valor de $1,000
-
+"Participa en la rifa de una tarjeta de Amazon con valor de $50 USD
+"

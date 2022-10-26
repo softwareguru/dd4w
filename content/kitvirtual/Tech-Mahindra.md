@@ -1,5 +1,5 @@
 ---
-title: "Gana un Kit Tech Mahindra o una tarjeta amazon de $500"
+title: "Gana un Kit Tech Mahindra o una tarjeta amazon de $500 MXN"
 date: 2020-10-17T15:11:52-05:00
 description: ""
 image: /images/logos/TechMachindra_sito.png

@@ -8,6 +8,7 @@ button: ¡Quiero participar!
 draft: false
 ---
 
-Participa por una tarjeta de Amazon con valor de $300
+Participa por una tarjeta de Amazon con valor de $300 MXN
+Sólo tienes que llenar la siguiente información, la ganadora se dará a conocer el 28 de octubre.
 
-Solo tienes qué llenar la siguiente información, la ganadora se conocerá el día 28 de octubre.
+***Promoción válida solo para México***
