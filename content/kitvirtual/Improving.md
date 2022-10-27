@@ -2,7 +2,7 @@
 title: "Participa en la rifa de un kit de Improving"
 date: 2020-10-20T13:47:48-05:00
 image: /images/logos/Improving.png
-link: https://forms.office.com/Pages/ShareFormPage.aspx?id=Lnwm8lRa9EmE-uTy9AOKLtNoobQas25CoaOKSkBcdT5UOUFYSDRCRzhOTTNLQ0FSV0hHVkNORlg2MiQlQCN0PWcu&sharetoken=qr8nPMCqLdqXBgVXjaYI
+link: https://forms.office.com/r/37TP6fkKML
 button: ¡Quiero participar!
 draft: false
 ---
