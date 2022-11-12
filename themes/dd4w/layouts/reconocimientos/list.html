@@ -161,6 +161,36 @@
       <article>
         {{ .Content }}
       </article>
+
+
+      
+      <div class="row">
+        {{ range .Data.Pages.ByTitle }}
+
+      <div class="col-12 col-md-4 px-3 mb-3">
+      
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="{{ .Params.Image }}" class="card-img-top" alt="...">
+          </div>
+        </div>
+       
+      </div>
+      {{ end }} 
+    </div>
+
+
+      <h2 style="color:black;">Reconocimeintos anteriores:</h2>
+
+   <div>
+    <a href="../reconocimientos-2020/"><p>Reconocimientos 2020 SG4 Women</p></a>
+    <a href="../reconocimientos-2021/"><p>Reconocimientos 2021 SG4 Women</p></a>
+   </div>
+    
   </div>
+
+
+
+
 </section>
 {{ end }}

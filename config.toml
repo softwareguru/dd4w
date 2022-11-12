@@ -51,10 +51,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Agenda"
-  URL = "/agenda/"
-  weight = 1
+  #[[menu.main]]
+  #name = "Agenda"
+  #URL = "/agenda/"
+  #weight = 1
 
 
   #[[menu.main]]
@@ -104,15 +104,15 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #weight = 1
 
   
-  [[menu.main]]
-  name = "Networking"
-  URL = "/networking"
-  weight = 4
+  #[[menu.main]]
+  #name = "Networking"
+  #URL = "/networking"
+  #weight = 4
 
-  [[menu.main]]
-  name = "Kit Virtual"
-  URL = "/kitvirtual"
-  weight = 5
+  #[[menu.main]]
+  #name = "Kit Virtual"
+  #URL = "/kitvirtual"
+  #weight = 5
 
   [[menu.main]]
   name = "FAQ"
@@ -148,7 +148,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "Live"
 link = "/live/"
 
