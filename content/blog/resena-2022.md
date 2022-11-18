@@ -46,6 +46,6 @@ Como en ediciones anteriores, nos divertirnos mediante juegos, bailes en la pist
 Agradecemos a cada una de las diferentes empresas que hacen posible este evento:
 Edicom, MIND, Nextiva, WATR, Brillio, Softtek, Tech Mahindra, Oracle, Mobiik, Microsoft, Contpaqi, Improving y TelevisaUnivision.
 
-Si te perdiste el evento, pero quieres revivir el evento te invitamos a revivir cada una de las charlas en el sitio de [SG buzz](https://sg.com.mx/buzz/resena-dev-day-4-women-octubre-2022)
+Si te perdiste el evento, pero quieres revivir el evento te invitamos a revivir cada una de las charlas [en nuestro playlist de YouTube](https://youtube.com/playlist?list=PLnLzwYW6HOC5kElEFaj4RsAlMS4yl1sRK).
 
 ### ¡Hasta la próxima!
