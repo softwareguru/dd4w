@@ -72,7 +72,6 @@
     
     </style>
     
-    
     <section class="hero">
       <div class="frame1">
       </div>
@@ -94,18 +93,17 @@
     
     
 <div class="container mb-4">
- 
-    {{ $is_2022 := gt .RelPermalink "/sessions/octubre-2022" }}
+
 
     <table data-toggle="table" data-search="true" data-search-align="left">
         <thead>
             <tr>
                 <th data-field="title">Título</th>
                 <th data-field="speaker">Conferencista(s)</th>
-                {{ if not $is_2022 }}
+                 
                 <th data-field="recording">Grabación</th>
                 <th data-field="slides">Slides</th>
-                {{ end }}
+               
             </tr>
         </thead>
 
@@ -119,7 +117,7 @@
                     </div>
                 </td>
                 <td>{{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}</td>
-                {{ if not $is_2022 }}
+                
                 <td class="text-center">{{ with .Params.video }}<a
                         href='{{ replace . "https://www.youtube.com/embed" "https://youtu.be" }}' target="_blank"><i
                             class="fab fa-youtube" aria-hidden="true" title="Watch"></i></a>{{ end }}</td>
@@ -127,7 +125,6 @@
                         href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}'
                         target="_blank" download><i class="fa fa-download" aria-hidden="true"
                             title="Slides"></i></a>{{ end }}</td>
-                {{ end }}            
             </tr>
             {{ end }}
         </tbody>
