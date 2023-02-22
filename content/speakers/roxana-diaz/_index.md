@@ -1,7 +1,8 @@
 ---
 title: "Roxana Diaz"
 date: 2021-10-22T18:22:53-05:00
-image : "/images/speakers/roxana-diaz.jpg"
+images: 
+ - "/images/speakers/roxana-diaz.jpg"
 designation : "Technical Solutions Architect en Cisco"
 country: "mx"
 twitter: ""

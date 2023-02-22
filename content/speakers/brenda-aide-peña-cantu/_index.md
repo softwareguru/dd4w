@@ -1,7 +1,8 @@
 ---
 title: "Brenda Aide Peña Cantu"
 date: 2021-10-28T18:12:19-05:00
-image : "/images/speakers/brenda-aide-peña-cantu.jpg"
+images : 
+ - "/images/speakers/brenda-aide-peña-cantu.jpg"
 designation : "Brenda Aide Peña Cantu"
 country: "mx"
 twitter: ""

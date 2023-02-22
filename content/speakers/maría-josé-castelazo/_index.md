@@ -1,7 +1,8 @@
 ---
 title: "María José Castelazo"
 date: 2021-03-30T13:11:14-06:00
-image : /images/speakers/maria-jose.jpg
+images: 
+ - /images/speakers/maria-jose.jpg
 designation: Coordinador de Asuntos Internacionales y vinculación en Secretaría de Innovación, Ciencia y Tecnología
 country: 
 twitter: 

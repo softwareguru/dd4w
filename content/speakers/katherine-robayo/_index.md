@@ -1,7 +1,8 @@
 ---
 title: "Katherine Robayo"
 date: 2022-03-23T12:03:58-06:00
-image : "/images/speakers/katherine.png"
+images: 
+ - "/images/speakers/katherine.png"
 designation : "Scrum Master, PALO IT Colombia"
 country: "mx"
 twitter: ""

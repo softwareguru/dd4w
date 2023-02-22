@@ -1,7 +1,8 @@
 ---
 title: "Blanca Dennis López López"
 date: 2022-03-30T17:03:26-06:00
-image : "/images/speakers/blanca-dennis-lópez-lópez.png"
+images: 
+ - "/images/speakers/blanca-dennis-lópez-lópez.png"
 designation : "Web Developer UI"
 country: "mx"
 twitter: ""

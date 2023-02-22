@@ -1,7 +1,8 @@
 ---
 title: "Silvia Hernández"
 date: 2021-03-29T19:26:31-06:00
-image : /images/speakers/silvia-hernandez.jpg
+images: 
+ - /images/speakers/silvia-hernandez.jpg
 designation: Managing Director y Líder de Cloud First en Accenture México
 country: 
 twitter: https://twitter.com/Accenture_MX

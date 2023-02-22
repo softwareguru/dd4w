@@ -1,7 +1,8 @@
 ---
 title: "Carolina Vazquez"
 date: 2022-03-18T01:53:04-06:00
-image : "/images/speakers/carolina-vazquez.jpg"
+images: 
+ - "/images/speakers/carolina-vazquez.jpg"
 designation : "QA LEAD"
 country: "mx"
 twitter: ""

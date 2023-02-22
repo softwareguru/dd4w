@@ -1,7 +1,8 @@
 ---
 title: "Claudia Izquierdo"
 date: 2022-03-23T11:52:40-06:00
-image : "/images/speakers/claudia-izquierdo.jpg"
+images: 
+ - "/images/speakers/claudia-izquierdo.jpg"
 designation : "Solutions Architect para AWS Latinoamérica"
 country: "mx"
 twitter: "https://twitter.com/_claucloud"

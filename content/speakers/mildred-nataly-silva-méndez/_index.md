@@ -1,7 +1,8 @@
 ---
 title: "Mildred Nataly Silva Méndez"
 date: 2022-03-30T16:37:06-06:00
-image : "/images/speakers/mildred-nataly-silva-méndez.png"
+images: 
+ - "/images/speakers/mildred-nataly-silva-méndez.png"
 designation : "Software Engineer"
 country: "mx"
 twitter: "https://twitter.com/__mildreed"

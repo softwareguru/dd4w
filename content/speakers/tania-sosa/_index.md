@@ -1,7 +1,8 @@
 ---
 title: "Tania Sosa"
 date: 2021-04-08T18:08:34-05:00
-image : /images/speakers/tania-sosa.jpeg
+images: 
+ - /images/speakers/tania-sosa.jpeg
 designation: Co-embajadora, Logística Meetup mensual.
 country: 
 twitter: 

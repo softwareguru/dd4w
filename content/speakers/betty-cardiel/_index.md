@@ -1,7 +1,8 @@
 ---
 title: "Betty Cardiel"
 date: 2021-11-03T15:14:09-06:00
-image : "/images/speakers/betty-cardiel.jpg"
+images: 
+ - "/images/speakers/betty-cardiel.jpg"
 designation : "Dir. IT Digitized Governance US & CAN @ Softtek"
 country: "mx"
 twitter: ""

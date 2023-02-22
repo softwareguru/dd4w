@@ -1,7 +1,8 @@
 ---
 title: "Addy Poot"
 date: 2021-04-12T11:41:40-05:00
-image : /images/speakers/addy-poot.jpg
+images : 
+ - /images/speakers/addy-poot.jpg
 designation: Representando a Women Who Code México
 country: 
 twitter: https://twitter.com/pootpaddy?lang=es

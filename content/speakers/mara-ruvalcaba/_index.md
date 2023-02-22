@@ -1,7 +1,8 @@
 ---
 title: "Mara Ruvalcaba"
 date: 2021-04-05T18:24:40-05:00
-image : /images/speakers/mara-ruvalcaba.jpg
+images: 
+ - /images/speakers/mara-ruvalcaba.jpg
 designation: COO y co-fundadora de @RevistaSG 
 country: 
 twitter: 

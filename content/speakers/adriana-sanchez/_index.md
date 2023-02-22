@@ -1,7 +1,8 @@
 ---
 title: "Adriana Sanchez"
 date: 2022-03-30T16:32:53-06:00
-image : "/images/speakers/adriana-sanchez.jpg"
+images : 
+ - "/images/speakers/adriana-sanchez.jpg"
 designation : "Ing. Industrial - Co-fundadora de Sirius Team Women. "
 country: "mx"
 twitter: ""

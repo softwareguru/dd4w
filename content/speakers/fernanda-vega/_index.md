@@ -1,7 +1,8 @@
 ---
 title: "Fernanda Vega"
 date: 2021-03-29T16:46:48-06:00
-image : /images/speakers/fernanda-vega.jpg
+images: 
+ - /images/speakers/fernanda-vega.jpg
 designation: Software Developer
 country: 
 twitter: 

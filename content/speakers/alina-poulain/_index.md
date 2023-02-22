@@ -1,7 +1,8 @@
 ---
 title: "Alina Poulain"
 date: 2021-04-13T14:28:44-05:00
-image : /images/speakers/alina-poulain.jpeg
+images : 
+ - /images/speakers/alina-poulain.jpeg
 designation: Directora INTERESANTES
 country: 
 twitter: 

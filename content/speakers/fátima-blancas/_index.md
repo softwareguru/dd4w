@@ -1,7 +1,8 @@
 ---
 title: "Fátima Blancas"
 date: 2022-04-05T12:23:17-05:00
-image : "/images/speakers/fátima-blancas.jpg"
+images: 
+ - "/images/speakers/fátima-blancas.jpg"
 designation : "Microsoft MVP y CEO at iTProve"
 country: "mx"
 twitter: "https://twitter.com/jaydithbv"

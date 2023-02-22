@@ -1,7 +1,8 @@
 ---
 title: "Silvia Soriano Grande"
 date: 2022-03-18T01:59:24-06:00
-image : "/images/speakers/silvia-soriano-grande.jpg"
+images: 
+ - "/images/speakers/silvia-soriano-grande.jpg"
 designation : "Analista de Negocios - El CID, Scrum Master - Ordico"
 country: "mx"
 twitter: ""

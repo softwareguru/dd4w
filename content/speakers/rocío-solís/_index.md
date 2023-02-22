@@ -1,7 +1,8 @@
 ---
 title: "Rocío Solís"
 date: 2021-04-13T14:25:39-05:00
-image : /images/speakers/rocio-solis.jpeg
+images: 
+ - /images/speakers/rocio-solis.jpeg
 designation: Software Engineering Sr Analyst at Accenture México
 country: 
 twitter: 

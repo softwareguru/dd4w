@@ -1,7 +1,8 @@
 ---
 title: "Sol Estrada"
 date: 2021-03-30T13:15:52-06:00
-image : /images/speakers/sol-estrada.jpg
+images: 
+ - /images/speakers/sol-estrada.jpg
 designation: Agile Coach
 country: 
 twitter: https://twitter.com/solestradaso?lang=en

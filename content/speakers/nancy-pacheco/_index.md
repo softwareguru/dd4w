@@ -1,7 +1,8 @@
 ---
 title: "Nancy Pacheco"
 date: 2022-03-30T16:56:55-06:00
-image : "/images/speakers/nancy-pacheco.jpg"
+images: 
+ - "/images/speakers/nancy-pacheco.jpg"
 designation : "Fundadora de Mujeres en Programación Directora de Educación, omegaUp"
 country: "mx"
 twitter: ""

@@ -1,7 +1,8 @@
 ---
 title: "Berenice Rodríguez"
 date: 2022-03-23T12:44:32-06:00
-image : "/images/speakers/berenice-rodríguez.jpg"
+images : 
+ - "/images/speakers/berenice-rodríguez.jpg"
 designation : "Agile Coach"
 country: "mx"
 twitter: "https://twitter.com/berenicemireya"

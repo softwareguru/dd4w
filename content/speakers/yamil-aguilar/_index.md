@@ -1,7 +1,8 @@
 ---
 title: "Yamil Aguilar"
 date: 2021-03-30T10:17:26-06:00
-image : /images/speakers/yamil-aguilar.jpg
+images: 
+ - /images/speakers/yamil-aguilar.jpg
 designation: QA Engineer
 country: 
 twitter: https://twitter.com/yamilaguilar?lang=en

@@ -1,7 +1,8 @@
 ---
 title: "Giselle Molina"
 date: 2021-11-05T16:13:22-06:00
-image : "/images/speakers/giselle-molina.jpeg"
+images: 
+ - "/images/speakers/giselle-molina.jpeg"
 designation : "Presidenta de Ada Women"
 country: "mx"
 twitter: ""

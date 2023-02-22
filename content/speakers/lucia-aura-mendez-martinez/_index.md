@@ -1,7 +1,8 @@
 ---
 title: "Lucia Aura Mendez Martinez"
 date: 2022-03-18T01:42:10-06:00
-image : "/images/speakers/lucia-aura-mendez-martinez.jpeg"
+images: 
+ - "/images/speakers/lucia-aura-mendez-martinez.jpeg"
 designation : "Estudiante - ITESCO"
 country: "mx"
 twitter: ""

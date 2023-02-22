@@ -1,7 +1,8 @@
 ---
 title: "Teresa Álvarez"
 date: 2022-03-23T12:57:12-06:00
-image : "/images/speakers/teresa-alvarez.png"
+images: 
+ - "/images/speakers/teresa-alvarez.png"
 designation : "Practice Manager at Softtek"
 country: "mx"
 twitter: "https://twitter.com/terealvarezv"

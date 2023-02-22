@@ -1,7 +1,8 @@
 ---
 title: "Gaby Ledesma"
 date: 2022-03-30T17:27:38-06:00
-image : "/images/speakers/gaby-ledesma.jpg"
+images: 
+ - "/images/speakers/gaby-ledesma.jpg"
 designation : "QA Engineer"
 country: "mx"
 twitter: ""

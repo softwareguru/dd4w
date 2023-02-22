@@ -1,7 +1,8 @@
 ---
 title: "Cristina Nistor"
 date: 2021-03-29T16:46:48-06:00
-image : /images/speakers/cristina-nistor.jpg
+images: 
+ - /images/speakers/cristina-nistor.jpg
 designation: Director of Operations en TESTCo
 country: 
 twitter: 

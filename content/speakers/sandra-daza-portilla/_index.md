@@ -1,7 +1,8 @@
 ---
 title: "Sandra Daza Portilla"
 date: 2021-10-22T14:34:42-05:00
-image : "/images/speakers/sandra-daza-portilla.jpg"
+images: 
+ - "/images/speakers/sandra-daza-portilla.jpg"
 designation : "Cloud Engineer Senior Manager @ Oracle"
 country: "mx"
 twitter: ""

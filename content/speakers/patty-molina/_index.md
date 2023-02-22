@@ -1,7 +1,8 @@
 ---
 title: "Patty Molina"
 date: 2021-03-29T19:18:46-06:00
-image : /images/speakers/patty-molina.jpg
+images: 
+ - /images/speakers/patty-molina.jpg
 designation: Líder en Tendencias Disruptivas
 country: 
 twitter: 

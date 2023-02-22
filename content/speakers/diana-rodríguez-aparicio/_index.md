@@ -1,7 +1,8 @@
 ---
 title: "Diana Rodríguez Aparicio"
 date: 2021-11-05T16:36:58-06:00
-image : "/images/speakers/diana-rodríguez-aparicio.jpeg"
+images: 
+ - "/images/speakers/diana-rodríguez-aparicio.jpeg"
 designation : "Colaboradora y Organizadora"
 country: "mx"
 twitter: ""

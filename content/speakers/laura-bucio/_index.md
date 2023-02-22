@@ -1,7 +1,8 @@
 ---
 title: "Laura Bucio"
 date: 2022-03-25T13:24:49-06:00
-image : "/images/speakers/laura-bucio.jpeg"
+images: 
+ - "/images/speakers/laura-bucio.jpeg"
 designation : "CFO Talent Prospect"
 country: "mx"
 twitter: "https://twitter.com/lau_bucio"

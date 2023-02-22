@@ -1,7 +1,8 @@
 ---
 title: "Magdalena Dávila"
 date: 2022-03-30T16:43:10-06:00
-image : "/images/speakers/magdalena-dávila.jpg"
+images: 
+ - "/images/speakers/magdalena-dávila.jpg"
 designation : "Consultora en prácticas y procesos de TI"
 country: "mx"
 twitter: "https://twitter.com/MagdaDavilaM"

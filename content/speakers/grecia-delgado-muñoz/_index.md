@@ -1,7 +1,8 @@
 ---
 title: "Grecia Delgado Muñoz"
 date: 2021-10-22T18:47:58-05:00
-image : "/images/speakers/grecia-delgado-muñoz.jpg"
+images: 
+ - "/images/speakers/grecia-delgado-muñoz.jpg"
 designation : "Full Stack Developer @ B89"
 country: "mx"
 twitter: ""

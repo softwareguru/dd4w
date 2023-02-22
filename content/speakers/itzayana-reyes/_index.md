@@ -1,7 +1,8 @@
 ---
 title: "Itzayana Reyes"
 date: 2021-11-05T17:13:42-06:00
-image : "/images/speakers/itzayana-reyes.png"
+images: 
+ - "/images/speakers/itzayana-reyes.png"
 designation : "Tech Lead @ Creditas"
 country: "mx"
 twitter: ""

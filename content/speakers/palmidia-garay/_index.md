@@ -1,7 +1,8 @@
 ---
 title: "Palmidia Garay"
 date: 2021-03-29T19:16:09-06:00
-image : /images/speakers/palmidia-garay.jpg
+images: 
+ - /images/speakers/palmidia-garay.jpg
 designation: Software developer
 country: 
 twitter: https://twitter.com/jetzable

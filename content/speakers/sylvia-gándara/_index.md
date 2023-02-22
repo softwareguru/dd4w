@@ -1,7 +1,8 @@
 ---
 title: "Sylvia Gándara"
 date: 2022-04-01T15:24:42-06:00
-image : "/images/speakers/sylvia-gándara.jpeg"
+images: 
+ - "/images/speakers/sylvia-gándara.jpeg"
 designation : "Senior HR Business Partner for Engineering"
 country: "mx"
 twitter: ""

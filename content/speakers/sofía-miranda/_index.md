@@ -1,7 +1,8 @@
 ---
 title: "Sofía Miranda"
 date: 2021-03-30T13:34:20-06:00
-image : /images/speakers/sofia-miranda.png
+images: 
+ - /images/speakers/sofia-miranda.png
 designation: Manager en la práctica de Ciberseguridad en Accenture México
 country: 
 twitter: https://twitter.com/Accenture_MX

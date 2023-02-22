@@ -1,7 +1,8 @@
 ---
 title: "Luz Aracely De León"
 date: 2021-04-12T12:30:46-05:00
-image : /images/speakers/luz-aracely-de-leon.jpeg
+images: 
+ - /images/speakers/luz-aracely-de-leon.jpeg
 designation: Front End Engineering en Accenture México
 country: 
 twitter: 

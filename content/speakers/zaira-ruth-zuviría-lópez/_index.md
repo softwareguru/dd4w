@@ -1,7 +1,8 @@
 ---
 title: "Zaira Ruth Zuviría López"
 date: 2021-10-22T18:33:17-05:00
-image : "/images/speakers/zaira-ruth-zuviría-lópez.jpg"
+images: 
+ - "/images/speakers/zaira-ruth-zuviría-lópez.jpg"
 designation : "Profesora @ Universidad Autónoma de Guadalajara"
 country: "mx"
 twitter: ""

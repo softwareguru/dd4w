@@ -1,7 +1,8 @@
 ---
 title: "Adriana Robles"
 date: 2021-10-22T18:37:55-05:00
-image : "/images/speakers/adriana-robles.jpg"
+images : 
+ - "/images/speakers/adriana-robles.jpg"
 designation : "Quality Engineering Manager"
 country: "mx"
 twitter: ""

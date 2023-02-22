@@ -1,7 +1,8 @@
 ---
 title: "Karen Ventura"
 date: 2021-10-22T15:18:09-05:00
-image : "/images/speakers/karen-ventura.jpg"
+images: 
+ - "/images/speakers/karen-ventura.jpg"
 designation : "Ingeniero de Software @ michelada"
 country: "mx"
 twitter: "https://twitter.com/anyvelnz"

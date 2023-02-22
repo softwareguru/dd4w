@@ -1,7 +1,8 @@
 ---
 title: "Mercedes Didier Garnham"
 date: 2022-03-30T16:19:28-06:00
-image : "/images/speakers/mercedes-didier-garnham.jpg"
+images: 
+ - "/images/speakers/mercedes-didier-garnham.jpg"
 designation : "Coordinadora General de Women in Bioinformatics & Data Science LA"
 country: "mx"
 twitter: ""

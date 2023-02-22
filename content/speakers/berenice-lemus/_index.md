@@ -1,7 +1,8 @@
 ---
 title: "Berenice Lemus"
 date: 2021-10-22T15:11:45-05:00
-image : "/images/speakers/berenice-lemus.jpg"
+images : 
+ - "/images/speakers/berenice-lemus.jpg"
 designation : "UX Researcher Lead @ Broxel"
 country: "mx"
 twitter: ""

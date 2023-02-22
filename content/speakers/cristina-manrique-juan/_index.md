@@ -1,7 +1,8 @@
 ---
 title: "Cristina Manrique Juan"
 date: 2022-03-18T01:50:32-06:00
-image : "/images/speakers/cristina-manrique-juan.jpeg"
+images: 
+ - "/images/speakers/cristina-manrique-juan.jpeg"
 designation : "Co-Founder de Air Protocol y Syklo"
 country: "mx"
 twitter: "https://twitter.com/a3th3r2"

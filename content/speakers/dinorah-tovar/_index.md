@@ -1,7 +1,8 @@
 ---
 title: "Dinorah Tovar"
 date: 2021-10-22T14:44:19-05:00
-image : "/images/speakers/dinorah-tovar.jpg"
+images: 
+ - "/images/speakers/dinorah-tovar.jpg"
 designation : "Mobile Platform Engineer"
 country: "mx"
 twitter: "https://twitter.com/DDinorahtovar"

@@ -1,7 +1,8 @@
 ---
 title: "Ix-chel Ruiz"
 date: 2021-10-22T15:39:25-05:00
-image : "/images/speakers/ix-chel-ruiz.png"
+images: 
+ - "/images/speakers/ix-chel-ruiz.png"
 designation : "Principal Consultant"
 country: "mx"
 twitter: "https://twitter.com/ixchelruiz"

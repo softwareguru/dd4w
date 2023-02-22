@@ -1,7 +1,8 @@
 ---
 title: "Dina Medina R"
 date: 2021-10-22T18:41:56-05:00
-image : "/images/speakers/dina-medina-r.jpg"
+images: 
+ - "/images/speakers/dina-medina-r.jpg"
 designation : "Sr Manager @ BBVA"
 country: "mx"
 twitter: "https://twitter.com/DZMedina"

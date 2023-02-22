@@ -1,7 +1,8 @@
 ---
 title: "Sam Belmor"
 date: 2022-03-18T01:55:23-06:00
-image : "/images/speakers/sam-belmor.jpg"
+images: 
+ - "/images/speakers/sam-belmor.jpg"
 designation : "Software Engineer - MagmaLabs"
 country: "mx"
 twitter: "https://twitter.com/sambelmor"

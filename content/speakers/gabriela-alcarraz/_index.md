@@ -1,7 +1,8 @@
 ---
 title: "Gabriela Alcarraz"
 date: 2021-03-29T16:46:48-06:00
-image : /images/speakers/gabriela-alcarraz.jpg
+images: 
+ - /images/speakers/gabriela-alcarraz.jpg
 designation: Desarrollo en Pyxis, Tutor en UTEC (Universidad Tecnológica de Uruguay)
 country: 
 twitter: https://twitter.com/GabrielaAlcarr2

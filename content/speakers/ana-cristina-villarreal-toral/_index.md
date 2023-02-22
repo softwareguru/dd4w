@@ -1,7 +1,8 @@
 ---
 title: "Ana Cristina Villarreal Toral"
 date: 2021-10-22T15:20:01-05:00
-image : "/images/speakers/ana-cristina-villarreal-toral.jpg"
+images : 
+ - "/images/speakers/ana-cristina-villarreal-toral.jpg"
 designation : "Docente en Universidad Anáhuac campus Córdoba Orizaba y Universidad IDEA de Oriente en Orizaba Veracriz"
 country: "mx"
 twitter: "https://twitter.com/aNacRis_vt"

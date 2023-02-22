@@ -1,7 +1,8 @@
 ---
 title: "Ana Vázquez"
 date: 2022-04-01T15:11:19-06:00
-image : "/images/speakers/ana-vázquez.jpg"
+images : 
+ - "/images/speakers/ana-vázquez.jpg"
 designation : "Analyste AQ Principal at Intact"
 country: "mx"
 twitter: ""

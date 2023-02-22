@@ -1,7 +1,8 @@
 ---
 title: "Gala Jimenez Martini"
 date: 2022-03-18T01:39:12-06:00
-image : "/images/speakers/gala-jimenez-martini.jpg"
+images: 
+ - "/images/speakers/gala-jimenez-martini.jpg"
 designation : "UX Designer"
 country: "mx"
 twitter: ""

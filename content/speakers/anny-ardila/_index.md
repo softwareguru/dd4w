@@ -1,7 +1,8 @@
 ---
 title: "Anny Ardila"
 date: 2022-03-23T12:32:56-06:00
-image : "/images/speakers/anny-ardila.jpeg"
+images : 
+ - "/images/speakers/anny-ardila.jpeg"
 designation : "Cloud Architect en Oracle"
 country: "mx"
 twitter: ""

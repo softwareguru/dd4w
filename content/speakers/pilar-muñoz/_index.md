@@ -1,7 +1,8 @@
 ---
 title: "Pilar Muñoz"
 date: 2021-03-30T13:35:52-06:00
-image : /images/speakers/pilar-muñoz.jpg
+images: 
+ - /images/speakers/pilar-muñoz.jpg
 designation: Partner Technology Lead en la organización de partners de América Latina de Microsoft
 country: 
 twitter: 

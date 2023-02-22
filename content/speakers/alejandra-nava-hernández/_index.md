@@ -1,7 +1,8 @@
 ---
 title: "Alejandra Nava Hernández"
 date: 2021-11-05T16:20:48-06:00
-image : "/images/speakers/alejandra-nava-hernández.jpg"
+images : 
+ - "/images/speakers/alejandra-nava-hernández.jpg"
 designation : "Coordinadora de Comunicación de Mentoralia A. C."
 country: "mx"
 twitter: ""

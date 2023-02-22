@@ -1,7 +1,8 @@
 ---
 title: "Pamela Márquez"
 date: 2021-03-30T13:14:13-06:00
-image : /images/speakers/pamela-marquez.jpg
+images: 
+ - /images/speakers/pamela-marquez.jpg
 designation: Cloud Engineer at Google
 country: 
 twitter: https://twitter.com/pame0203?lang=en

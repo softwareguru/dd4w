@@ -1,7 +1,8 @@
 ---
 title: "Itzel Soto"
 date: 2021-11-09T11:10:37-06:00
-image : "/images/speakers/itzel-soto.jpg"
+images: 
+ - "/images/speakers/itzel-soto.jpg"
 designation : "Software Integrator @ EDICOM."
 country: "mx"
 twitter: ""

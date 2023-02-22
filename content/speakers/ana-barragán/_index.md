@@ -1,7 +1,8 @@
 ---
 title: "Ana Barragán"
 date: 2022-03-23T11:52:57-06:00
-image : "/images/speakers/ana-barragan.jpg"
+images : 
+ - "/images/speakers/ana-barragan.jpg"
 designation : "Solutions Architect en AWS"
 country: "mx"
 twitter: "https://twitter.com/Ana_la_rana"

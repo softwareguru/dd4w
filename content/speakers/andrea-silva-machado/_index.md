@@ -1,7 +1,8 @@
 ---
 title: "Andrea Silva Machado"
 date: 2021-03-29T16:46:48-06:00
-image : /images/speakers/andrea-silva.jpg
+images: 
+ - /images/speakers/andrea-silva.jpg
 designation: Product Owner Delivery @ Zigatta
 country: 
 twitter: 

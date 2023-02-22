@@ -1,7 +1,8 @@
 ---
 title: "Laura Frías"
 date: 2021-03-30T13:08:43-06:00
-image : /images/speakers/laura-frias.jpg
+images: 
+ - /images/speakers/laura-frias.jpg
 designation: Territory Manager @ AWS
 country: 
 twitter: https://twitter.com/lauriutz?lang=en

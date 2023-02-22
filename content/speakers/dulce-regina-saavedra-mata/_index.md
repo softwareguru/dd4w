@@ -1,7 +1,8 @@
 ---
 title: "Dulce Regina Saavedra Mata"
 date: 2022-03-18T02:02:30-06:00
-image : "/images/speakers/dulce-regina.jpeg"
+images: 
+ - "/images/speakers/dulce-regina.jpeg"
 designation : "Web Developer - Wonderist Agency / Ligna / Zoek Marketing"
 country: "mx"
 twitter: ""

@@ -1,7 +1,8 @@
 ---
 title: "Karla Espiritu"
 date: 2021-10-22T18:49:28-05:00
-image : "/images/speakers/karla-espiritu.jpg"
+images: 
+ - "/images/speakers/karla-espiritu.jpg"
 designation : "Ingeniera de Pruebas @ michelada.io"
 country: "mx"
 twitter: ""

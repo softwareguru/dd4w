@@ -1,7 +1,8 @@
 ---
 title: "Angela Gómez"
 date: 2021-03-31T16:09:28-06:00
-image : /images/speakers/angela-gomez.jpg
+images : 
+ - /images/speakers/angela-gomez.jpg
 designation: Presidenta, SAP México
 country: 
 twitter: https://twitter.com/AGOMEZAIZA 

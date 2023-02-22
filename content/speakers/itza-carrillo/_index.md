@@ -1,7 +1,8 @@
 ---
 title: "Itza Carrillo"
 date: 2021-03-29T18:45:04-06:00
-image : /images/speakers/itza-carrillo.jpg
+images: 
+ - /images/speakers/itza-carrillo.jpg
 designation: QA Jr @  michelada.io
 country: 
 twitter: 

@@ -1,7 +1,8 @@
 ---
 title: "Karem Quiroz"
 date: 2021-03-29T18:47:10-06:00
-image : /images/speakers/karem-quiroz.jpg
+images: 
+ - /images/speakers/karem-quiroz.jpg
 designation: Full Stack Developer
 country: 
 twitter: https://twitter.com/codekacode

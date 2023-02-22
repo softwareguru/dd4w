@@ -1,7 +1,8 @@
 ---
 title: "Marcela Serna"
 date: 2022-03-30T16:42:55-06:00
-image : "/images/speakers/marcela-serna.jpg"
+images: 
+ - "/images/speakers/marcela-serna.jpg"
 designation : "Staff Software Engineer en eBay"
 country: "mx"
 twitter: "https://twitter.com/MarceStarlet"

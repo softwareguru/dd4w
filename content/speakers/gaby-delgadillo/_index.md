@@ -1,7 +1,8 @@
 ---
 title: "Gaby Delgadillo"
 date: 2021-11-05T16:28:15-06:00
-image : "/images/speakers/gaby-delgadillo.jpg"
+images:
+ - "/images/speakers/gaby-delgadillo.jpg"
 designation : "PHP Woman, integrante del Core Team y del equipo organizador de meetups."
 country: "mx"
 twitter: "https://twitter.com/lsigabygaby"

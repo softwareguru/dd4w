@@ -1,7 +1,8 @@
 ---
 title: "Karla Yáñez"
 date: 2021-11-05T16:46:38-06:00
-image : "/images/speakers/karla-yáñez.jpeg"
+images: 
+ - "/images/speakers/karla-yáñez.jpeg"
 designation : "Co-embajadora, Coordinación de talleres."
 country: "mx"
 twitter: ""

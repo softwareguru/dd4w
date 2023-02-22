@@ -1,7 +1,8 @@
 ---
 title: "Dazia Pineda"
 date: 2021-11-05T16:39:24-06:00
-image : "/images/speakers/dazia-pineda.jpg"
+images: 
+ - "/images/speakers/dazia-pineda.jpg"
 designation : "Colaboradora y Organizadora"
 country: "mx"
 twitter: ""

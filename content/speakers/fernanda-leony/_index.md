@@ -1,7 +1,8 @@
 ---
 title: "Fernanda Leony"
 date: 2022-03-25T13:21:38-06:00
-image : "/images/speakers/fernanda-leony.jpeg"
+images: 
+ - "/images/speakers/fernanda-leony.jpeg"
 designation : "Co fundadora de Liberet"
 country: "mx"
 twitter: ""

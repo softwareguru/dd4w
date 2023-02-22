@@ -1,7 +1,8 @@
 ---
 title: "Cristina Albir"
 date: 2021-11-09T11:06:24-06:00
-image : "/images/speakers/cristina-albir.png"
+images: 
+ - "/images/speakers/cristina-albir.png"
 designation : "Team Manager @ EDICOM "
 country: "mx"
 twitter: ""

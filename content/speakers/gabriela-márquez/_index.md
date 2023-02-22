@@ -1,7 +1,8 @@
 ---
 title: "Gabriela Márquez"
 date: 2021-04-12T11:32:39-05:00
-image : /images/speakers/gabriela-marquez.jpg
+images: 
+ - /images/speakers/gabriela-marquez.jpg
 designation: TechQuiero
 country: 
 twitter: 

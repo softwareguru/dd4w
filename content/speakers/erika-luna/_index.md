@@ -1,7 +1,8 @@
 ---
 title: "Erika Luna"
 date: 2021-11-05T16:34:28-06:00
-image : "/images/speakers/erika-luna.jpg"
+images: 
+ - "/images/speakers/erika-luna.jpg"
 designation : "Head of Community  Women at Platzi"
 country: "mx"
 twitter: "https://twitter.com/erkluna"

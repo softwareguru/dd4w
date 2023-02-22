@@ -1,7 +1,8 @@
 ---
 title: "Patsy Iturbe"
 date: 2021-10-22T15:44:17-05:00
-image : "/images/speakers/patsy-iturbe.jpg"
+images: 
+ - "/images/speakers/patsy-iturbe.jpg"
 designation : "Frontend Engineer @ Nimble Gravity / Earth Ranger"
 country: "mx"
 twitter: ""

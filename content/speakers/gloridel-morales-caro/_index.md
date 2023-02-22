@@ -1,7 +1,8 @@
 ---
 title: "Gloridel Morales Caro"
 date: 2021-10-28T18:16:21-05:00
-image : "/images/speakers/gloridel-morales-caro.jpg"
+images: 
+ - "/images/speakers/gloridel-morales-caro.jpg"
 designation : "Senior Program Manager @ GitHub"
 country: "mx"
 twitter: ""

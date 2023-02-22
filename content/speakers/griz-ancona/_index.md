@@ -1,7 +1,8 @@
 ---
 title: "Griz Ancona"
 date: 2021-10-22T18:31:38-05:00
-image : "/images/speakers/griz-ancona.jpg"
+images: 
+ - "/images/speakers/griz-ancona.jpg"
 designation : "Directora en Women Who Code Merida, Tech Sales Consultant @ Ensitech"
 country: "mx"
 twitter: "https://twitter.com/grizancona?lang=es"

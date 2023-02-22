@@ -1,7 +1,8 @@
 ---
 title: "Paula Coto"
 date: 2022-03-18T11:17:56-06:00
-image : "/images/speakers/paula-coto.jpg"
+images: 
+ - "/images/speakers/paula-coto.jpg"
 designation : "Directora Ejecutiva"
 country: "mx"
 twitter: ""

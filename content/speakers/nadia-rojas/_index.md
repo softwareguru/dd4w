@@ -1,7 +1,8 @@
 ---
 title: "Nadia Rojas"
 date: 2021-10-26T12:05:28-05:00
-image : "/images/speakers/nadia-rojas.jpg"
+images: 
+ - "/images/speakers/nadia-rojas.jpg"
 designation : "Senior Manager Proyectos Client solutions @ BBVA"
 country: "mx"
 twitter: ""

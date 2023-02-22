@@ -1,7 +1,8 @@
 ---
 title: "Karla Elizabeth Alvarez Castillo"
 date: 2021-10-22T18:29:45-05:00
-image : "/images/speakers/karla-elizabeth-alvarez-castillo.jpg"
+images: 
+ - "/images/speakers/karla-elizabeth-alvarez-castillo.jpg"
 designation : "Software developer @ michelada.io"
 country: "mx"
 twitter: ""

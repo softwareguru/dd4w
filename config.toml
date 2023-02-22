@@ -83,8 +83,8 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #weight = 2
 
   [[menu.main]]
-  name = "Sesiones"
-  URL = "/sessions/octubre-2022/"
+  name = "Sesiones anteriores"
+  URL = "/sessions"
   weight = 1
 
 
@@ -95,7 +95,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
   name = "Speakers"
-  URL = "/speakers"
+  URL = "/speakers/archive"
   weight = 2
 
   #[[menu.main]]

@@ -1,7 +1,8 @@
 ---
 title: "Lillian Lopez"
 date: 2022-03-30T16:51:29-06:00
-image : "/images/speakers/lillian-lopez.jpg"
+images: 
+ - "/images/speakers/lillian-lopez.jpg"
 designation : "Principal Solutions Engineer, LATAM Enterprise"
 country: "mx"
 twitter: ""

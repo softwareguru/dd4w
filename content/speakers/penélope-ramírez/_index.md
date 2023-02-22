@@ -1,7 +1,8 @@
 ---
 title: "Penélope Ramírez"
 date: 2021-04-12T12:27:34-05:00
-image : /images/speakers/penelope-ramirez.jpg
+images: 
+ - /images/speakers/penelope-ramirez.jpg
 designation: UX Designer en Accenture México
 country: 
 twitter: 

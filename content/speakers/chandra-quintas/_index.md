@@ -1,7 +1,8 @@
 ---
 title: "Chandra Quintas"
 date: 2022-03-25T14:04:38-06:00
-image : "/images/speakers/chandra-quintas.jpg"
+images : 
+ - "/images/speakers/chandra-quintas.jpg"
 designation : "Delivery Manager"
 country: "mx"
 twitter: "https://twitter.com/naatechnologies"

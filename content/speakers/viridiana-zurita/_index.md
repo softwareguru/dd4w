@@ -1,7 +1,8 @@
 ---
 title: "Viridiana Zurita"
 date: 2021-03-30T10:15:04-06:00
-image : /images/speakers/viridiana-zurita.png
+images: 
+ - /images/speakers/viridiana-zurita.png
 designation: Líder de Tecnología en Accenture México
 country: 
 twitter: https://twitter.com/Accenture_MX

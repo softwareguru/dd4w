@@ -1,7 +1,8 @@
 ---
 title: "Perla Velasco Elizondo"
 date: 2021-10-22T15:14:02-05:00
-image : "/images/speakers/perla-velasco-elizondo.jpg"
+images: 
+ - "/images/speakers/perla-velasco-elizondo.jpg"
 designation : "Senior Product Manager @ Kueski Profesora en la Universidad Autonoma de Zacatecas"
 country: "mx"
 twitter: ""

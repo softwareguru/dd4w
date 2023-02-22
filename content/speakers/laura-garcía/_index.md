@@ -1,7 +1,8 @@
 ---
 title: "Laura García"
 date: 2022-03-23T11:48:19-06:00
-image : "/images/speakers/laura-garcia.png"
+images: 
+ - "/images/speakers/laura-garcia.png"
 designation : "Directora de Fjord México"
 country: "mx"
 twitter: ""

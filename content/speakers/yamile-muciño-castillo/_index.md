@@ -1,7 +1,8 @@
 ---
 title: "Yamile Muciño Castillo"
 date: 2021-11-05T16:23:24-06:00
-image : "/images/speakers/yamile-muciño-castillo.png"
+images: 
+ - "/images/speakers/yamile-muciño-castillo.png"
 designation : "Chair de IEEE WIE de la Sección Puebla"
 country: "mx"
 twitter: ""

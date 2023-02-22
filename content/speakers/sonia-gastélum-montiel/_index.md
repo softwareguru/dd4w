@@ -1,7 +1,8 @@
 ---
 title: "Sonia Gastélum Montiel"
 date: 2021-11-05T16:06:51-06:00
-image : "/images/speakers/sonia-gastélum-montiel.jpeg"
+images: 
+ - "/images/speakers/sonia-gastélum-montiel.jpeg"
 designation : "Co-Fundadora de Hackwomen"
 country: "mx"
 twitter: "https://twitter.com/SoniaGastelum_"

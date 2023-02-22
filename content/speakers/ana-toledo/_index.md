@@ -1,7 +1,8 @@
 ---
 title: "Ana Toledo"
 date: 2021-10-22T18:39:51-05:00
-image : "/images/speakers/ana-toledo.jpg"
+images: 
+ - "/images/speakers/ana-toledo.jpg"
 designation : "Android Engineer at Lyft"
 country: "mx"
 twitter: ""

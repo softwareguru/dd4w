@@ -1,7 +1,8 @@
 ---
 title: "Corinne Garcia"
 date: 2021-04-13T14:12:14-05:00
-image : /images/speakers/corinne-garcia.png
+images: 
+ - /images/speakers/corinne-garcia.png
 designation: Co-líder Networking AMITI WIT
 country: 
 twitter: 

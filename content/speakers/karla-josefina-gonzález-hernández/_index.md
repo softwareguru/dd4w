@@ -1,7 +1,8 @@
 ---
 title: "Karla Josefina González Hernández"
 date: 2022-03-23T12:14:44-06:00
-image : "/images/speakers/karla-josefina-gonzalez-hernandez.jpeg"
+images: 
+ - "/images/speakers/karla-josefina-gonzalez-hernandez.jpeg"
 designation : "Software Developer"
 country: "mx"
 twitter: ""

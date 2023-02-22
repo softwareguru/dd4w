@@ -1,7 +1,8 @@
 ---
 title: "Magaly Cruz"
 date: 2021-04-06T17:40:03-05:00
-image : /images/speakers/magaly-cruz.jpg
+images: 
+ - /images/speakers/magaly-cruz.jpg
 designation: Co fundadora de Iconmunity
 country: 
 twitter: 

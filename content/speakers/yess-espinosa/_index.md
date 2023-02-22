@@ -1,7 +1,8 @@
 ---
 title: "Yess Espinosa"
 date: 2022-03-18T01:48:17-06:00
-image : "/images/speakers/yess-espinosa.jpg"
+images: 
+ - "/images/speakers/yess-espinosa.jpg"
 designation : "Jefe de Departamento de desarrollo de sistemas informáticos. INEGI"
 country: "mx"
 twitter: ""

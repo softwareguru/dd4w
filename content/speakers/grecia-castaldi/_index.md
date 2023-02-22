@@ -1,7 +1,8 @@
 ---
 title: "Grecia Castaldi"
 date: 2021-04-08T18:26:08-05:00
-image : /images/speakers/grecia-castaldi.png
+images: 
+ - /images/speakers/grecia-castaldi.png
 designation: Directora de Women Who Code Monterrey
 country: 
 twitter: 

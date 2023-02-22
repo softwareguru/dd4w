@@ -1,7 +1,8 @@
 ---
 title: "Cynthia Salicrup"
 date: 2021-03-29T16:46:48-06:00
-image : /images/speakers/cynthia-salicrup.jpg
+images: 
+ - /images/speakers/cynthia-salicrup.jpg
 designation: Líder de Innovación en Accenture México
 country: 
 twitter: https://twitter.com/Accenture_MX

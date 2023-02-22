@@ -1,7 +1,8 @@
 ---
 title: "Raquel Sánchez Gaxiola"
 date: 2021-04-12T11:45:36-05:00
-image : /images/speakers/raquel-sanchez.jpeg
+images: 
+ - /images/speakers/raquel-sanchez.jpeg
 designation: Co-Fundadora de Hackwomen
 country: 
 twitter: https://twitter.com/raqsaga07

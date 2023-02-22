@@ -1,7 +1,8 @@
 ---
 title: "Miriam Elizabeth Camarena Jiménez"
 date: 2021-10-22T15:46:31-05:00
-image : "/images/speakers/miriam-elizabeth-camarena-jiménez.jpg"
+images: 
+ - "/images/speakers/miriam-elizabeth-camarena-jiménez.jpg"
 designation : "IT Project Manager @ UnDosTres"
 country: "mx"
 twitter: ""

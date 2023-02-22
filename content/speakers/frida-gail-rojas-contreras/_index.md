@@ -1,7 +1,8 @@
 ---
 title: "Frida Gail Rojas Contreras"
 date: 2021-03-30T13:36:55-06:00
-image : /images/speakers/frida-gail.png
+images: 
+ - /images/speakers/frida-gail.png
 designation: Supervisora de Ingeniería en Sistemas Embebidos
 country: 
 twitter: 

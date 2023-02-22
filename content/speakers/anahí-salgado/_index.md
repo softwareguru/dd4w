@@ -1,7 +1,8 @@
 ---
 title: "Anahí Salgado"
 date: 2021-10-22T18:51:11-05:00
-image : "/images/speakers/anahi-salgado.jpg"
+images : 
+ - "/images/speakers/anahi-salgado.jpg"
 designation : "Android Developer Software Designer @ Globant"
 country: "mx"
 twitter: "https://twitter.com/anncode"

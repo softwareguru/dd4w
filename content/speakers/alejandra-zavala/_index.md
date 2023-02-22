@@ -1,7 +1,8 @@
 ---
 title: "Alejandra Zavala"
 date: 2022-03-27T19:55:25-06:00
-image : "/images/speakers/alejandra-zavala.jpeg"
+images: 
+ - "/images/speakers/alejandra-zavala.jpeg"
 designation : "Project Manager"
 country: "mx"
 twitter: ""
