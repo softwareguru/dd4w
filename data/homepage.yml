@@ -9,8 +9,8 @@ banner:
   
   button: 
     enable : true
-    label : "¡Registrate aquí!"
-    link: https://www.eventbrite.com.mx/e/dev-day-4-women-septiembre-2022-tickets-391362715417?aff=ebdssbonlinesearch&keep_tld=1
+    label : "Manda tu propuesta"
+    link: https://convoca.dev/dev-day-4-women-mayo-2023/cfp
 ############################## Event ##############################
 event_info:
   enable : true
