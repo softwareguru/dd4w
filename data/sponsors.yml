@@ -6,7 +6,13 @@ sponsor_group:
     slug : "platinum"
     sponsor:
       - logo : "/images/logos/nimble-gravity.png"
-        link : "http://www.nimblegravity.com/" 
+        link : "http://www.nimblegravity.com/"
+
+  - title : "Gold"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/Improving-logo.png"
+        link : "https://bestplacetocode.com/es/company/improving" 
 
   - title : "Organizado por"
     slug : "gold"
