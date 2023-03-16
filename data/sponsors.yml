@@ -2,7 +2,11 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
-
+  - title : "Platinum"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/nimble-gravity.png"
+        link : "http://www.nimblegravity.com/" 
 
   - title : "Organizado por"
     slug : "gold"
