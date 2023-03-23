@@ -9,12 +9,15 @@ sponsor_group:
         link : "http://www.nimblegravity.com/"
       - logo : "/images/logos/Honeywell-Logo.png"
         link : "https://www.honeywell.com/mx/es"
+      - logo : "/images/logos/PepsiCo.png"
+        link : "ttps://pepjobs.mypepsico.com/main/" 
 
   - title : "Gold"
     slug : "platinum"
     sponsor:
       - logo : "/images/logos/Improving-logo.png"
         link : "https://improving.com/" 
+
 
   - title : "Organizado por"
     slug : "gold"
