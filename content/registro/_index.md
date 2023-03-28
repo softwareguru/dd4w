@@ -5,14 +5,11 @@ draft: false
 description: ""
 ---
 
-<div id="eventbrite-widget-container-391362715417"></div>
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    
+    <iframe height="750" width="100%" src="https://us.airmeet.com/widgets/event/442f8b50-ccef-11ed-a75b-a1f22f0d858d/embedded-registration?communityId=764624fc-d051-4c74-b573-a1a50759e3c1&backgroundColor=7b61ff&isLightAmbience=true" frameborder="0">
 
-<script type="text/javascript">
-    var exampleCallback = function() {
-        console.log('Order complete!');
-    };
+</iframe>
 
     window.EBWidgets.createWidget({
         // Required
@@ -25,3 +22,4 @@ description: ""
         onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>
+
