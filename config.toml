@@ -161,7 +161,13 @@ link = "https://twitter.com/sg4women"
 
 [[params.social]]
 icon = "tf-ion-social-facebook"
-link = "https://www.facebook.com/groups/SG4Women"
+link = "https://www.facebook.com/sg4women"
+
+
+[[params.social]]
+icon = "tf-ion-social-instagram"
+link = "https://instagram.com/sg4women?igshid=YjNmNGQ3MDY="
+
 
 [[params.social]]
 icon = "fas fa-envelope"
@@ -184,16 +190,8 @@ name = "Código de Conducta"
 link = "/coc/"
 
 [[params.footer_previous]]
-name = "DD4W Abril 2021"
-link = "/sessions/abril-2021/"
-
-[[params.footer_previous]]
-name = "DD4W Noviembre 2021"
-link = "/sessions/noviembre-2021/"
-
-[[params.footer_previous]]
-name = "DD4W Abril 2022"
-link = "/sessions/abril-2022/"
+name = "Sesiones Previas"
+link = "/sessions/"
 
 [[params.footer_sponsorship]] 
 name = "Prospectus"

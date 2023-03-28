@@ -30,6 +30,17 @@
       <p>17 y 18 de Mayo de 2023</p>
       <p>Edición Online | Gratuito</p>
     </div>
+    {{ if .button1.enable }}
+    {{ with .button1 }}
+    <a href="{{ .link | absURL }}" target="_blank" style="color: white; background-color: #37C3D6 !important; border: none !important;" class="btn btn-rounded mb-4 mr-4">{{ .label }}</a>
+    {{ end}}
+    {{ end}}
+
+    {{ if .button2.enable }}
+    {{ with .button2 }}
+    <a href="{{ .link | absURL }}" style="color: white; background-color: #37C3D6 !important; border: none !important;" class="btn btn-hero2 btn-rounded mb-4">{{ .label }}</a>
+    {{ end}}
+    {{ end}}
   </div>
   
 

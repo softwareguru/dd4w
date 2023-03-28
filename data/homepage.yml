@@ -7,10 +7,14 @@ banner:
   venue : "Mujeres que desarrollan Software Grandioso"
   where : "17 y 18 de Mayo de 2023 | Edicion Online | Gratuito"
   
-  button: 
+  button1:
     enable : true
     label : "Manda tu propuesta"
-    link: https://convoca.dev/dev-day-4-women-mayo-2023/cfp
+    link : "https://convoca.dev/dev-day-4-women-mayo-2023/cfp"
+  button2:
+    enable : true
+    label : "Registrete"
+    link : "/registro"
 ############################## Event ##############################
 event_info:
   enable : true
