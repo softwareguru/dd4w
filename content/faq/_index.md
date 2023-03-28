@@ -8,7 +8,7 @@ draft: false
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-La segunda edición del año se realizará en formato virtual durante dos días 27 y 28 de Octubre 2022. Podrás asistir desde cualquier lugar donde te encuentres.
+La primera edición del año se realizará en formato virtual durante dos días 17 y 18 de mayo 2023. Podrás asistir desde cualquier lugar donde te encuentres.
 <br>
 
 
@@ -29,7 +29,7 @@ Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no pu
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR? 
 
-- A partir del 27 de octubre aparecerá en el sitio web el botón: LIVE. 
+- A partir del 17 de mayo aparecerá en el sitio web el botón: LIVE. 
 
 - Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresarás el correo con el que te registrate en Eventbrite.
 
@@ -59,13 +59,13 @@ Para manejar esta comunicación estaremos [utilizando slack.](https://join.slack
 
 Todas las sesiones serán grabadas y se compartirán con los asistentes del evento, así como las presentaciones (slides).
 
-Puedes ver las sesiones de la edición anterior [aquí](https://youtube.com/playlist?list=PLnLzwYW6HOC471pWkmJOUEHl4BZjm254K)
+Puedes ver las sesiones de la edición anterior [aquí](https://youtube.com/playlist?list=PLnLzwYW6HOC5kElEFaj4RsAlMS4yl1sRK)
 
 <br>
 
 ### ¿SÓLO PUEDEN ASISTIR MUJERES?
 
-Aunque Dev Day 4 Women está dirigido principalmente a mujeres, también pueden asistir hombres.
+Aunque Dev Day 4 Women está dirigido principalmente a las personas que se identifican como mujeres, también pueden asistir hombres.
 
 <br>
 
