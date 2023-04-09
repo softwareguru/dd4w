@@ -83,19 +83,13 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #weight = 2
 
   [[menu.main]]
-  name = "Sesiones anteriores"
-  URL = "/sessions"
-  weight = 1
-
-
-  [[menu.main]]
   name = "Reconocimientos SG4W"
   URL = "/reconocimientos"
   weight = 3
 
   [[menu.main]]
   name = "Speakers"
-  URL = "/speakers/archive"
+  URL = "/speakers/"
   weight = 2
 
   #[[menu.main]]
@@ -192,6 +186,10 @@ link = "/coc/"
 [[params.footer_previous]]
 name = "Sesiones Previas"
 link = "/sessions/"
+
+[[params.footer_previous]]
+name = "Speakers Eventos Previos"
+link = "/speakers/archive"
 
 [[params.footer_sponsorship]] 
 name = "Prospectus"

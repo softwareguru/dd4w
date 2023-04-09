@@ -8,8 +8,9 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/claudia-fabiola-amador-gomez-0692a225/"
 github: ""
-year: "2022-h2"
-
+year: 
+ - 2021
+ - 2022-h2
 ---
 
 Mexicana, nacida en la Ciudad de México. Fabiola estudió Ingeniería en Sistemas Computacionales con especialidad en Inteligencia Artificial por el Tecnológico de Toluca, cuenta con Maestría en Ingeniería de Calidad en la Universidad Iberoaméricana, Diplomado en formación Black Belt en metodología Six Sigma, también en la Ibero, Programa Liderazgo en la Innovación en el MIT. Programa Pensamiento estratégico para directores por la Universidad de Cambridge. Cuento con las siguientes certificaciones: Scrum Master por Scrum Alliance, Scrum Developer, Scrum Product Owner, Scrum Agile Master y Scrum Trainer por Scrum Study, ITIL Foundation, CMMI Fundamentals y Auditor Interno ISO9000.
