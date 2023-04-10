@@ -82,10 +82,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/nominaciones"
   #weight = 2
 
-  [[menu.main]]
-  name = "Reconocimientos SG4W"
-  URL = "/reconocimientos"
-  weight = 3
+  #[[menu.main]]
+  #name = "Reconocimientos SG4W"
+  #URL = "/reconocimientos"
+  #weight = 3
 
   [[menu.main]]
   name = "Speakers"
@@ -171,34 +171,38 @@ link = "mailto:eventos@sg.com.mx"
 icon = "fa-brands fa-slack"
 link = "https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ"
 
-[[params.footer_previous]]
+[[params.footer_resources]]
 name = "Acerca de"
 link = "https://sg.com.mx/sg4w"
 
-[[params.footer_previous]]
+[[params.footer_resources]]
 name = "?Quién organiza¿"
 link = "/team/"
 
-[[params.footer_previous]]
+[[params.footer_resources]]
 name = "Código de Conducta"
 link = "/coc/"
 
 [[params.footer_previous]]
-name = "Sesiones Previas"
+name = "Speakers"
+link = "/speakers/archive"
+
+[[params.footer_previous]]
+name = "Sesiones"
 link = "/sessions/"
 
 [[params.footer_previous]]
-name = "Speakers Eventos Previos"
-link = "/speakers/archive"
+name = "Reconocimientos SG4W"
+link = "/reconocimientos"
 
-[[params.footer_sponsorship]] 
-name = "Prospectus"
-link = "/files/DevDay4women-virtual-Prospectus-2023-H1.pdf"
-
-
-[[params.footer_resources]] 
+[[params.footer_contact_us]] 
 name = "Email"
 link = "mailto:eventos@sg.com.mx"
+
+[[params.footer_contact_us]] 
+name = "Quiero patrocinar"
+link = "/files/DevDay4women-virtual-Prospectus-2023-H1.pdf"
+
 
 
 

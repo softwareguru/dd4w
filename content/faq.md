@@ -28,14 +28,11 @@ Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no pu
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR? 
 
-- A partir del 3 de Octubre aparecerá en el sitio web el botón: LIVE. 
+1. Regístrate en https://devday4w.com/registro/
 
-- Dar click al botón que dice “Ingresar / Join”. Saldrá un pop-up con el mensaje “Join event” solicitando tu dirección de email, en este espacio ingresarás el correo con el que te registrate en Eventbrite.
+2. Recibirás un correo con la liga pata unirte el día del evento
 
-- Al introducir tu e-mail, el sistema detectará si ya estás registrada(o) y en caso de ser así te enviará un correo con el acceso al evento. **En caso contrario, te enviará un correo para que termines tu registro y posteriormente podrás acceder al evento**
-
-
-***Si en el paso 3 el sistema no reconoce tu correo, te pedimos nos contactes: eventos@sg.com.mx***
+Para futuras ocasiones, si no dejas abierta tu cuenta, sólo te pedirá que ingreses tu correo con el que te registraste para poder entrar.
 
 
 ### ¿QUÉ NECESITO PARA CONECTARME AL EVENTO?
@@ -45,11 +42,25 @@ Solo necesitas una computadora con un navegador web actualizado, de preferencia 
 <br>
 
 ### ¿CÓMO PUEDO CONTACTAR CON OTROS PARTICIPANTES Y PONENTES?
-Para manejar esta comunicación estaremos [utilizando slack.](https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ) Te puedes unir desde ahora en los canales que estaremos manejando son:
 
-* #general para conversaciones generales (saludos desde X), dinámicas, y temas que no estén atadas a una sesión.
-* #support problemas con la herramienta, atención a asistentes y patrocinadores
-* Además cada patrocinador tendrá un canal en slack; **organizarán** interesantes dinámicas, y muchos **de ellos** estarán buscando talento.
+El evento se transmitirá por una plataforma llamada Airmeet.
+La plataforma se compone de 3 áreas importantes
+
+* Recepción - Donde podrás ver las diferentes charlas que tendremos y el programa completo por día.
+
+* Salones - Área donde puedes conocer y saludar a otros asistentes, con la finalidad de interactuar.
+
+* Stands - Aquí podrás conectar con los patrocinadores del evento, además de poder ver los diferentes links y recursos que harán disponibles para los participantes.
+
+**Durante todo el evento podrás:**
+
+* Chatear y conectar con todos en el Feed del evento
+
+* Ganar puntos por realizar ciertas actividades y participar por algunos premios que estaremos anunciando.
+
+* Evaluar el evento en general.
+
+* Conocer recursos de los organizadores del evento y de los diferentes patrocinadores.
 
 <br>
 

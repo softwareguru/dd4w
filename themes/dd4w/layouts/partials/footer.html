@@ -1,6 +1,13 @@
 <footer class="section footer">
-	<div class="container">
-		<div class="footer-strip">
+
+<!-- Videos -->
+
+<section class="section-sponsors section" style="margin-top: -65px;">
+	<br><br>
+	<div class="container">  
+	  <div class="card-deck">
+		<div class="card" style="border: none; background-color: black;">
+		 
 			<div>
 				<h3 class="mb-3">{{ .Site.Title | markdownify }}</h3>
 
@@ -10,52 +17,56 @@
 					{{ end }}
 				</ul>
 			</div>	
+  
+		</div>
+		<div class="card" style="border: none; background-color: black;">
+		 
 			<div>
 				<h5>Recursos</h5>
 				<ul class="footer_links">
-					{{ range .Site.Params.footer_previous }}
-					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			<div>
-				<h5>Quiero patrocinar</h5>
-				<ul class="footer_links">
-					{{ range .Site.Params.footer_sponsorship }}
-					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
-					{{ end }}
-				</ul>
-			</div>
-			<div>
-				<h5>Contáctanos</h5>
-				<ul class="footer_links">
 					{{ range .Site.Params.footer_resources }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
 					{{ end }}
 				</ul>
 			</div>
-
-			<!--
-				<div>
-				<h5>Presentado por</h5>
-				<ul class="footer_links">
-					{{ range .Site.Params.footer_resources }}
-					<img src="{{ .link | safeURL }}" alt="" width="90%">
-					{{ end }}
-				</ul>
-			</div>
-			-->
-
-					
+  
+	  </div>
+	  <div class="card" style="border: none; background-color: black;">
+		 
+		<div>
+			<h5>Eventos previos</h5>
+			<ul class="footer_links">
+				{{ range .Site.Params.footer_previous }}
+				<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+				{{ end }}
+			</ul>
+		</div>  
+	</div>
+	<div class="card" style="border: none; background-color: black;">
+		 
+		<div>
+			<h5>Contáctanos</h5>
+			<ul class="footer_links">
+				{{ range .Site.Params.footer_contact_us }}
+				<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
+				{{ end }}
+			</ul>
 		</div>
+		
+	  </div>
+	</div>
+  </section>
+  
+  <!-- /Videos -->
+  </section>
+
+	<div class="container">
+
 		{{ with .Site.Params.disclaimer }}
 		<div class="disclaimer">
 			{{ . }}  
 		</div>			
         {{ end }}
-		
-
-		
 	</div>
 </footer>
 
