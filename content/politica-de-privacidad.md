@@ -1,5 +1,5 @@
 ---
-title: "Política De Privacidad"
+title: "POLÍTICA DE PRIVACIDAD"
 date: 2022-01-31T14:23:26-06:00
 draft: false
 ---

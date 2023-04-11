@@ -1,5 +1,5 @@
 ---
-title: "Reconocimientos"
+title: "RECONOCIMIENTOS"
 date: 2022-07-27T11:45:05-05:00
 draft: true
 ---

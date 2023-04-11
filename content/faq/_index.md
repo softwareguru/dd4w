@@ -1,5 +1,5 @@
 ---
-title: "Faq"
+title: "PREGUNTAS FRECUENTES"
 date: 2022-09-17T21:10:33-05:00
 draft: false
 ---

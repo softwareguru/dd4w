@@ -1,5 +1,5 @@
 ---
-title: "Reconocimientos 2022 SG4W"
+title: "RECONOCIMIENTOS 2022 SG4W"
 date: 2022-09-17T21:00:23-05:00
 draft: false
 url: reconocimientos-2022

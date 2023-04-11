@@ -1,14 +1,10 @@
 ---
-title: "Reconocimientos SG4 Women"
+title: "RECONOCIMIENTOS SG4W"
 description: ""
 url: reconocimientos
 layout: allawards
 draft: false
 ---
-
-# Reconocimientos SG4 Women
-
-<br>
 
 
 

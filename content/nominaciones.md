@@ -1,5 +1,5 @@
 ---
-title: "Nominaciones"
+title: "NOMINACIONES"
 date: '2021-10-15T07:51:25.000+00:00'
 url: "/nominaciones"
 

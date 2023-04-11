@@ -1,5 +1,5 @@
 ---
-title: "Diversidad"
+title: "DIVERSIDAD"
 date: 2021-03-04T14:43:40-06:00
 draft: false
 ---
