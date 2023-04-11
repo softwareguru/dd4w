@@ -7,7 +7,7 @@ linkedin:
 github:
 purl: 
 award_type: 
-image: /images/awards/TechnovationGirls.png
+image: /images/awards/2020/tecnovation-girls.png
 ---
 
 

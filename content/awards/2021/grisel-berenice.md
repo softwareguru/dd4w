@@ -6,7 +6,7 @@ linkedin: https://www.linkedin.com/in/grizancona/?originalSubdomain=mx
 github: 
 purl: 
 award_type: 
-image: /images/speakers/Giz Ancona.jpg
+image: /images/awards/2021/Grisel-Ancona-Martínez.png
 weight: 2
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Jocelyn García-Cardiel"
-image: /images/speakers/Jocelyn.jpg
+image: /images/awards/2021/Jocelyn-Garcia-Cardiel.png
 designation: Reconocimiento - Mujer Inspiración
 twitter: 
 linkedin: https://www.linkedin.com/in/jocelyngarciacardiel/?originalSubdomain=mx

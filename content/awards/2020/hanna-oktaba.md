@@ -1,6 +1,6 @@
 ---
 title: "HANNA OKTABA"
-image: /images/awards/Hanna.jpg
+image: /images/awards/2020/reconocimiento-hanna-oktaba.png
 designation: Reconocimiento – Inspiración
 twitter: 
 linkedin: 

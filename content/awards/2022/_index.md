@@ -1,9 +1,8 @@
 ---
-title: "Reconocimientos"
+title: "Reconocimientos 2022 SG4W"
 date: 2022-09-17T21:00:23-05:00
 draft: false
 url: reconocimientos-2022
-draft: true
 ---
  
 Esta edición, como en cada una de las anteriores, reconocemos y aplaudimos el esfuerzo, liderazgo y participación de las mujeres en las Tecnologías de la Información (TI). Es por eso que SG 4 Women creó estos reconocimientos, para que, con el apoyo de la comunidad reconozcamos a estas grandes mujeres.

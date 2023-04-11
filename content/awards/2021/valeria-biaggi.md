@@ -7,7 +7,7 @@ linkedin: https://www.linkedin.com/in/vbiaggi?originalSubdomain=pe
 github: 
 purl: 
 award_type: 
-image: /images/speakers/Valeria.jpg
+image: /images/awards/2021/Valeria-Biaggi-Gurreonero.png
 weight: 3
 ---
 

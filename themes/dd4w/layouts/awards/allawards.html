@@ -157,26 +157,22 @@
   </section>
 
 <section class="section">
-  <div class="container">
-      <article>
-        {{ .Content }}
-      </article>
+
 
 
       
-      <div class="row">
-        {{ range .Data.Pages.ByTitle }}
-
-      <div class="col-12 col-md-4 px-3 mb-3">
-      
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="{{ .Params.Image }}" class="card-img-top" alt="...">
-          </div>
+      <div class="container mb-4">
+        <p class="text-center">
+            {{ .Content }}
+        </p>
+        <div class="row">         
+            <ul class="event-list">
+              {{ range sort .Data.Pages.ByDate.Reverse }}
+                <li><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></li>
+              {{ end }}
+            </ul>
         </div>
-       
-      </div>
-      {{ end }} 
     </div>
+
 </section>
 {{ end }}

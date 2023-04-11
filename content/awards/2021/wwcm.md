@@ -7,7 +7,7 @@ linkedin:
 github:
 purl: 
 award_type: 
-image: /images/logos/WWCODE_Mexico.png
+image: /images/awards/2021/Women-Who-Code-México.png
 weight: 4
 ---
 
