@@ -78,8 +78,8 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     #weight = 2
 
   #[[menu.main]]
-  #name = "Nominaciones"
-  #URL = "/nominaciones"
+  #name = "Sesiones confirmadas"
+  #URL = "/sessions/mayo-2023"
   #weight = 2
 
   #[[menu.main]]
@@ -143,8 +143,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Manda tu propuesta"
-link = "https://convoca.dev/dev-day-4-women-mayo-2023/cfp"
+label = "REGÍSTRATE"
+link = "registro"
 
 
 ############################# social icon ############################
