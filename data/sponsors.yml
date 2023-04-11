@@ -18,6 +18,18 @@ sponsor_group:
       - logo : "/images/logos/Improving-logo.png"
         link : "https://improving.com/" 
 
+  - title : "Organismo y Comunidad de Apoyo"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/Amiti.png"
+        link : "https://ttrem.amiti.org.mx/" 
+      - logo : "/images/logos/IconMunity.png"
+        link : "https://twitter.com/Iconmunity"
+      - logo : "/images/logos/Prosftware.png"
+        link : "https://www.prosoftware.store/" 
+      #- logo : "/images/logos/.png"
+      #  link : "" 
+
 
   - title : "Organizado por"
     slug : "gold"

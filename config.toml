@@ -77,10 +77,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     #parent = "program"
     #weight = 2
 
-  #[[menu.main]]
-  #name = "Sesiones confirmadas"
-  #URL = "/sessions/mayo-2023"
-  #weight = 2
+  [[menu.main]]
+  name = "Sesiones confirmadas"
+  URL = "/sessions/mayo-2023"
+  weight = 2
 
   #[[menu.main]]
   #name = "Reconocimientos SG4W"
