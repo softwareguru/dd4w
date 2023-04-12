@@ -26,7 +26,11 @@ sponsor_group:
       - logo : "/images/logos/IconMunity.png"
         link : "https://twitter.com/Iconmunity"
       - logo : "/images/logos/Prosftware.png"
-        link : "https://www.prosoftware.store/" 
+        link : "https://www.prosoftware.store/"
+      - logo : "/images/logos/Women-in-tech-empowerment.png"
+        link : "https://linktr.ee/xwomenmx"
+      - logo : "/images/logos/Women-Techmakers.png"
+        link : "https://womentechmakers.mx/"
       #- logo : "/images/logos/.png"
       #  link : "" 
 
