@@ -2,7 +2,7 @@
 title: "Mara Ruvalcaba"
 date: 2021-04-05T18:24:40-05:00
 images: 
- - /images/speakers/mara-ruvalcaba.jpg
+ - /images/speakers/2023-h1/mara.png
 designation: COO y socia fundadora de SG 
 country: 
 twitter: https://twitter.com/marayve
