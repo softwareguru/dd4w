@@ -31,6 +31,8 @@ sponsor_group:
         link : "https://linktr.ee/xwomenmx"
       - logo : "/images/logos/Women-Techmakers.png"
         link : "https://womentechmakers.mx/"
+      - logo : "/images/logos/WWCode Merida.png"
+        link : "https://twitter.com/WWCodeMID" 
       #- logo : "/images/logos/.png"
       #  link : "" 
 
