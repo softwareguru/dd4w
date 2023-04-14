@@ -11,6 +11,8 @@ sponsor_group:
         link : "https://www.honeywell.com/mx/es"
       - logo : "/images/logos/PepsiCo.png"
         link : "https://pepjobs.mypepsico.com/main/" 
+      - logo : "/images/logos/Twilio.png"
+        link : "https://www.twilio.com/es-mx" 
 
   - title : "Gold"
     slug : "platinum"
