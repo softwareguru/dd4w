@@ -8,7 +8,7 @@ banner:
   where : "17 y 18 de Mayo de 2023 | Edicion Online | Gratuito"
   
   button1:
-    enable : true
+    enable : false
     label : "Manda tu propuesta"
     link : "https://convoca.dev/dev-day-4-women-mayo-2023/cfp"
   button2:
