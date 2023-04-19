@@ -2,15 +2,16 @@
 title: "Sam Belmor"
 date: 2022-03-18T01:55:23-06:00
 images: 
- - "/images/speakers/sam-belmor.jpg"
-designation : "Software Engineer - MagmaLabs"
+ - "/images/speakers/2023-h1/sam-belmor.png"
+designation : "Software Engineer"
 country: "mx"
 twitter: "https://twitter.com/sambelmor"
 linkedin: "https://www.linkedin.com/in/sambelmor/"
 github: ""
-year: "2022"
+year: "2023-h1"
+# - 2022
 ---
 
-Hola soy Sam Belmor, trabajo como software engineer desde el 2019. Actualmente trabajo como Full Stack engineer en MagmaLabs, las tecnologías que uso en mi día a día son ruby on rails, react, redux, JS, CSS, HTML, postgresql entre otras.
+Sam Belmor inicio su carrera en una empresa local de su ciudad llamada ""MagmaLabs"", ella ingresó a un programa lidereado por esta empresa llamado ""Bright Coders"", aquí Sam aprendió muchas herramientas del mundo de desarrollo de software, ruby on rails, vanilla, jquery, react, sql, github, entre otros, después de concluido el programa, ella se unió a la empresa ""MagmaLabs"" como full stack software engineer. 
 
-Disfruto mucho el compartir mi conocimiento/experiencia y con ello, ayudar a que mas chicas se unan al mundo de IT. Ser desarrolladora me encanta ya que con la creciente demanda que hay, no hay forma de no seguir aprendiendo y escalando en esta hermosa área.
+Actualmente Sam labora para una empresa americana con base en Atlanta llamada ""Salesloft"" aquí ella desarrolla sus habilidades de full stack.

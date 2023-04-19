@@ -2,16 +2,16 @@
 title: "Perla Velasco Elizondo"
 date: 2021-10-22T15:14:02-05:00
 images: 
- - "/images/speakers/perla-velasco-elizondo.jpg"
-designation : "Senior Product Manager @ Kueski Profesora en la Universidad Autonoma de Zacatecas"
+ - "/images/speakers/2023-h1/perla-velasco.png"
+designation : "Product Manager"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/pvelascoe/"
 github: ""
-year: "2021"
+year: "2023-h1"
+# - 2021
+
 ---
 
 
-Mi carrera incluye cargos Senior Product Manager en Kueski (México), Subsecretario de Planificación en la Secretaría de Educación del Estado de Zacatecas, Profesor en la Universidad Autónoma de Zacatecas (México), Investigador Postdoctoral en el grupo de Idiomas y Ambientes Basados en Arquitectura en el Instituto de Software Investigador de la Universidad Carnegie Mellon (Estados Unidos), Profesor Asociado del Centro de Investigaciones Matemáticas (México) y del Laboratorio Nacional de Informática Avanzada (México). En todas estas instituciones he adquirido una experiencia significativa en mis principales temas de interés: Ingeniería de Software y Arquitectura de Software.
-
-[Mis publiaciones](https://scholar.google.com/citations?user=WsDqWJ0AAAAJ&hl=en)
+Perla es Doctora en Ciencias de la Computación por “The University of Manchester”, Reino Unido. Sus actividades de docencia, investigación, desarrollo tecnológico y mentoría son principalmente en el área de Arquitectura de Software. Perla ha trabajado con arquitectos y desarrolladores de software ayudándoles a implementar prácticas y métodos de desarrollo de arquitectura e ingeniería de software. Actualmente, es Product Manager en Kueski, una de las fintech más importantes de América Latina.
