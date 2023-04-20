@@ -51,11 +51,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
-  #[[menu.main]]
-  #name = "Agenda"
-  #URL = "/agenda/"
-  #weight = 1
-
 
   #[[menu.main]]
   #identifier = "program"
@@ -81,6 +76,12 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   name = "Sesiones confirmadas"
   URL = "/sessions/mayo-2023"
   weight = 2
+
+  [[menu.main]]
+  name = "Sedes Virtuales"
+  URL = "/sedes-virtuales/"
+  weight = 4
+
 
   #[[menu.main]]
   #name = "Reconocimientos SG4W"
