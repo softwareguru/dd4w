@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 images: 
- - "/images/speakers/2023-h1/{{ .Name }}.png"
+ - "/images/speakers/{{ .Name }}.png"
 designation : ""
 country: "mx"
 twitter: ""
