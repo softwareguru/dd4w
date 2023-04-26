@@ -21,6 +21,8 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/Improving-logo.png"
         link : "https://improving.com/" 
+      - logo : "/images/logos/mobik.png"
+        link : "https://www.mobiik.com/"
 
   - title : "Organismo y Comunidad de Apoyo"
     slug : "platinum"

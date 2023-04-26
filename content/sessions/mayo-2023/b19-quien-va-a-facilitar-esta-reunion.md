@@ -3,7 +3,7 @@ id: "b19"
 title: "¿Quién va a facilitar esta reunión?"
 slug: quien-va-a-facilitar-esta-reunion
 speakers:
- - Yanet Morales Ramirez
+ - Yanet Morales
 format: session
 block: h1-b-2023
 time_start: 2023-05-18T16:00:00-06:00

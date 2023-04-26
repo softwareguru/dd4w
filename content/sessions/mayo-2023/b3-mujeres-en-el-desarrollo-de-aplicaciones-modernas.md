@@ -3,7 +3,7 @@ id: "b3"
 title: "Mujeres en el desarrollo de Aplicaciones Modernas"
 slug: mujeres-en-el-desarrollo-de-aplicaciones-modernas
 speakers:
- - Patricia Galvan
+ - Patricia Galván
 format: session
 block: h1-b-2023
 time_start: 2023-05-18T10:40:00-06:00

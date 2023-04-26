@@ -1,5 +1,5 @@
 ---
-title: "Karen Sanchez"
+title: "Karen Sánchez"
 date: 2023-04-19T00:06:26-06:00
 images: 
  - "/images/speakers/speaker.jpg"

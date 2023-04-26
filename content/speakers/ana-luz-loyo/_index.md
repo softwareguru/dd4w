@@ -1,5 +1,5 @@
 ---
-title: "Ana Luz Loyo Páez"
+title: "Ana Luz Loyo"
 date: 2023-04-09T13:01:15-06:00
 images: 
  - "/images/speakers/2023-h1/ana-luz-loyo-paez.jpeg"

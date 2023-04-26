@@ -1,5 +1,5 @@
 ---
-title: "Veronica Nemecio"
+title: "Verónica Nemecio"
 date: 2023-04-19T00:15:28-06:00
 images: 
  - "/images/speakers/2023-h1/veronica-nemecio.png"
