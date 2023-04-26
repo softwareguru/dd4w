@@ -1,10 +1,10 @@
 ---
 id: "b9"
-title: "burnout ... Si existe"
+title: "Burnout ... Si existe"
 slug: burnout-si-existe
 speakers:
  - Sol Estrada
-format: session
+format: ignite
 block: h1-b-2023
 time_start: 2023-05-18T15:00:00-06:00
 time_end: 2023-05-18T15:05:00-06:00
