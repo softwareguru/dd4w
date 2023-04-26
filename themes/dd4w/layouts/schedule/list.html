@@ -10,7 +10,7 @@
         <div class="col-12 col-md-4 px-3 mb-3">
           <div class="card h-100">
 
-              <a href="#date-{{.Params.id}}">
+              <a href="#date-{{.Params.slug}}">
                 
                 <img src="{{ .Params.Image }}" class="card-img-top" alt="..." width="200px" height="250px">
             
@@ -76,7 +76,7 @@
       let parseDate1 = Date.parse(date1);
       let jsDate1 = new Date(parseDate1);
       var days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-      let adjString = days[jsDate1.getDay()]+", Octubre "+jsDate1.getDate()+"";
+      let adjString = days[jsDate1.getDay()]+", Mayo "+jsDate1.getDate()+"";
       document.getElementById(elemId).innerHTML=adjString;
   }
       {{ range .Params.blocks }}
