@@ -52,35 +52,34 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 [menu]
 
 
-  #[[menu.main]]
-  #identifier = "program"
-  #name = "Sesiones"
-  #URL = "/sessions/noviembre-2021/"
-  #weight = 1
+  [[menu.main]]
+  identifier = "sedes"
+  name = "Sedes"
+  weight = 4
 
-  #[[menu.main]]
-   # identifier = "program1"
-    #name = "Programa Abril 2021"
-    #URL = "/sessions"
-    #parent = "program"
-    #weight = 1
+  [[menu.main]]
+    identifier = "sedes1"
+    name = "Sedes Virtuales"
+    URL = "/sedes-virtuales"
+    parent = "sedes"
+    weight = 1
 
-  #[[menu.main]]
-   # identifier = "program2"
-    #name = "Programa Noviembre 2021"
-    #url = "/programa-nov"
-    #parent = "program"
-    #weight = 2
+  [[menu.main]]
+    identifier = "sedes2"
+    name = "Sedes Participantes"
+    url = "/sedes-participantes"
+    parent = "sedes"
+    weight = 2
 
   [[menu.main]]
   name = "Agenda"
   URL = "/agenda"
   weight = 2
 
-  [[menu.main]]
-  name = "Sedes Virtuales"
-  URL = "/sedes-virtuales/"
-  weight = 4
+  #[[menu.main]]
+  #name = "Sedes Virtuales"
+  #URL = "/sedes-virtuales/"
+  #weight = 4
 
 
   #[[menu.main]]
