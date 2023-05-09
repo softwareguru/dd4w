@@ -3,7 +3,7 @@ title: "Valerie De La Peña"
 date: 2023-04-19T00:11:18-06:00
 images: 
  - "/images/speakers/2023-h1/valeria-de la peña.png"
-designation : "Estudiante de UX, UI, y desarrollo frontend"
+designation : "Profesional en Customer Success, estudiante de UX | UI"
 country: "mx"
 twitter: "https://twitter.com/valeriedp13"
 linkedin: "https://www.linkedin.com/in/valerie-de-la-pena-estrada/"

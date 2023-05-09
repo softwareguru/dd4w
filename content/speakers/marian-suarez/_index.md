@@ -3,7 +3,7 @@ title: "Marian Suarez"
 date: 2022-10-13T12:59:58-05:00
 images: 
  - "/images/speakers/2022-h2/marian-suarez.jpg"
-designation : "Chief Marketing Officer de Mobiik"
+designation : "Chief Marketing Officer"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/marian-suarez-706b019/?originalSubdomain=mx"

@@ -2,11 +2,11 @@
 title: "Karen Sánchez"
 date: 2023-04-19T00:06:26-06:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/karen-sanchez.png"
 designation : "Sr. Technical Recruiter"
 country: "mx"
-twitter: ""
-linkedin: ""
+twitter: "https://twitter.com/lizzieXhunter?t=PAVkhRcqUlcMOWyk1KHOew&s=09"
+linkedin: "https://linktr.ee/LizzieXhunter"
 github: ""
 year: "2023-h1"
 ---

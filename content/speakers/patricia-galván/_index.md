@@ -2,7 +2,7 @@
 title: "Patricia Galván"
 date: 2022-10-04T23:28:03-05:00
 images: 
- - "/images/speakers/2023-h1/patricia-galvan.png"
+ - "/images/speakers/patricia-galvan.png"
 designation : "Senior Sales Consultant"
 country: "mx"
 twitter: ""

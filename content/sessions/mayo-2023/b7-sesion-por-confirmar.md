@@ -1,6 +1,6 @@
 ---
 id: "b7"
-title: "Sesión por confirmar"
+title: "Sesión presentada por Grupo Salinas"
 slug: sesion-por-confirmar
 speakers:
 format: session
