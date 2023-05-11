@@ -11,7 +11,8 @@ slides:
 video: 
 ---
 
-Women Who Code Guatemala
-X-Women
-Women Techmakers México
-Pyladies En Español
+ * Women Who Code Guatemala
+ * X-Women
+ * Women Techmakers México
+ * Pyladies En Español
+ * Tech Quiero

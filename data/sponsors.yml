@@ -55,6 +55,10 @@ sponsor_group:
         link : "https://linktr.ee/masmujeresux.co" 
       - logo : "/images/logos/technolatinas.png"
         link : "https://technolatinas.org/" 
+      - logo : "/images/logos/Pyladies.png"
+        link : "https://pyladies.com/" 
+      - logo : "/images/logos/tech-quiero.png"
+        link : "https://www.facebook.com/TechQuiero" 
       #- logo : "/images/logos/.png"
       #  link : "" 
 
