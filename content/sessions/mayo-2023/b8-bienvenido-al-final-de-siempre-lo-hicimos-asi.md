@@ -4,7 +4,7 @@ title: "Bienvenido al final  de 'siempre lo hicimos así'... Lecciones de implem
 slug: bienvenido-al-final-de-siempre-lo-hicimos-asi
 speakers:
  - Solenny Peralta Lopez
-format: workshop
+format: session
 block: h1-b-2023
 time_start: 2023-05-18T14:00:00-06:00
 time_end: 2023-05-18T14:30:00-06:00

@@ -126,7 +126,7 @@
 .speaker-detail .speaker-session-info p{
 	margin-bottom: 0;
 	color: rgb(63,89,139);
-}
+} 
 
 
 .speaker-detail .bottom-box{
@@ -167,7 +167,7 @@
 
 .social-icon-two li a:hover .fab{
 	color: #ffffff;
-	background-color: #d24c59;
+	background-color: $secondary-color; 
 }
 
 p.designation {
