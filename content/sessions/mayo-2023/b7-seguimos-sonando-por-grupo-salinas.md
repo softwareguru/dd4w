@@ -1,8 +1,9 @@
 ---
 id: "b7"
-title: "Sesión presentada por Grupo Salinas"
-slug: sesion-por-confirmar
+title: "Seguimos soñando por Grupo Salinas"
+slug: seguimos-sonando-por-grupo-salinas
 speakers:
+ - Lidia Mondragon Pio
 format: session
 block: h1-b-2023
 time_start: 2023-05-18T13:20:00-06:00
