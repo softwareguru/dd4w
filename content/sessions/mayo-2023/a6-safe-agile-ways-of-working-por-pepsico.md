@@ -1,8 +1,9 @@
 ---
 id: "a6"
-title: "Charla presentada por Pepsico"
-slug: charla-presentada-por-pepsico
+title: "SAFE Agile ways of working, por Pepsico"
+slug: safe-agile-ways-of-working-por-pepsico
 speakers:
+ - Miriam Seth Martínez
 format: session
 block: h1-a-2023
 time_start: 2023-05-17T12:40:00-06:00
