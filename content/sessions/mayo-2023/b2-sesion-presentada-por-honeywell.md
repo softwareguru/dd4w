@@ -1,7 +1,7 @@
 ---
 id: "b2"
-title: "Tech Women, por Honewyell"
-slug: tech-women-por-honewyell
+title: "Tech Women, por Honeywell"
+slug: tech-women-por-honeywell
 speakers:
  - Sonia Belhareth
 format: session
