@@ -8,8 +8,8 @@ format: session
 block: h1-a-2023
 time_start: 2023-05-17T16:00:00-06:00
 time_end: 2023-05-17T16:40:00-06:00
-slides: 
-video: 
+slides: /mayo-2023/WebDevWomenDev.pdf
+video: https://youtu.be/mFNSRvW62sQ
 ---
 
 Esta charla está diseñada para mujeres que trabajan en el desarrollo web y la tecnología, en un mundo dominado por hombres. La charla aborda los desafíos comunes que enfrentan las mujeres en la industria, desde la falta de representación y la discriminación hasta la desigualdad salarial y la falta de oportunidades de crecimiento.

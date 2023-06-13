@@ -8,8 +8,8 @@ format: session
 block: h1-b-2023
 time_start: 2023-05-18T16:40:00-06:00
 time_end: 2023-05-18T17:20:00-06:00
-slides: 
-video: 
+slides: /mayo-2023/Información para la toma de decisiones.pdf
+video: https://youtu.be/s34_GE2-Zpw
 ---
 
 Es importante entender que hoy en día la toma de decisiones estratégicas en una empresa debe basarse en información que se puede recopilar de encuestas, redes sociales, comportamientos de los clientes/usuarios, utilizando AI y ML que son herramientas que se pueden utilizar sin invertir grandes cantidades de dinero.

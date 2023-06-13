@@ -10,6 +10,7 @@ time_start: 2023-05-18T15:20:00-06:00
 time_end: 2023-05-18T15:25:00-06:00
 slides: 
 video: 
+draft: true
 ---
 
 El objetivo de la charla es contarles a las asistentes un caso en el que colabore como líder y que representa un buen ejemplo de como la investigación de usuarios contribuyó  a que el negocio se ahorrara más de un millón de pesos en un proyecto, disminuyera los tiempos de desarrollo y enfocará sus esfuerzos en desarrollar funcionalidades deseables para los clientes finales

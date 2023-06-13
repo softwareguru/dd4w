@@ -13,8 +13,7 @@ format: session
 block: h1-b-2023
 time_start: 2023-05-18T09:00:00-06:00
 time_end: 2023-05-18T10:00:00-06:00
-slides: 
-video: 
+video: https://youtu.be/1YwCnn0RB-k
 ---
 
  En este fireside chat comentaremos nuestra experiencias como mujeres profesionistas involucradas en TI, ante la respuesta que han tenido las organizaciones ante la falta de diversidad e inclusión. De igual manera revisaremos el estado actual del gap salarial en la industria.

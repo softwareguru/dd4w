@@ -9,7 +9,7 @@ block: h1-b-2023
 time_start: 2023-05-18T18:00:00-06:00
 time_end: 2023-05-18T18:40:00-06:00
 slides: 
-video: 
+video: https://youtu.be/Rl6lhIL--bI
 ---
 
 El sueño de muchas personas siempre ha sido hacer videojuegos, pero a veces lo vemos como algo lejano o imposible.

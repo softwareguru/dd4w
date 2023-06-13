@@ -8,8 +8,8 @@ format: session
 block: h1-b-2023
 time_start: 2023-05-18T10:40:00-06:00
 time_end: 2023-05-18T11:20:00-06:00
-slides: 
-video: 
+slides: /mayo-2023/Mujeres en el desarrollo de Aplicaciones Modernas_Final.pdf
+video: https://youtu.be/aZYv9JpoWjo
 ---
 
 "La brecha de género en la industria de TI continúa siendo profunda, históricamente la tecnología ha sido un espacio ocupado por hombres en su mayoría.

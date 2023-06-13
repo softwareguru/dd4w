@@ -8,8 +8,8 @@ format: session
 block: h1-a-2023
 time_start: 2023-05-17T17:20:00-06:00
 time_end: 2023-05-17T18:00:00-06:00
-slides: 
-video: 
+slides: /mayo-2023/Historias de usuario con la técnica cuenta cuentos.pdf
+video: https://youtu.be/NeG5DGyldBs
 ---
 
 Las Historias de Usuario nos ayudan a definir requerimientos técnicos, programar tareas y estimar proyectos.

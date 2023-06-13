@@ -8,8 +8,8 @@ format: session
 block: h1-a-2023
 time_start: 2023-05-17T10:40:00-06:00
 time_end: 2023-05-17T11:20:00-06:00
-slides: 
-video: 
+slides: /mayo-2023/Novedades de CSS.pdf
+video: https://youtu.be/C26xD7-JzPM
 ---
 
 En esta charla hablaremos un poco del state of css 2022,  que funcionalidades ya tienen uso en todos los browsers las mejoras que tenemos hasta ahora y lo que se viene a trabajar con respecto a CSS para el año 2023

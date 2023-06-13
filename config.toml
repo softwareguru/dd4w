@@ -51,29 +51,34 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
-
   [[menu.main]]
-  identifier = "sedes"
-  name = "Sedes"
+  name = "Sedes Participantes"
+  url = "/sedes-participantes"
   weight = 4
 
-  [[menu.main]]
-    identifier = "sedes1"
-    name = "Sedes Virtuales"
-    URL = "/sedes-virtuales"
-    parent = "sedes"
-    weight = 1
+
+  #[[menu.main]]
+  #identifier = "sedes"
+  #name = "Sedes"
+  #weight = 4
+
+  #[[menu.main]]
+  #  identifier = "sedes1"
+  #  name = "Sedes Virtuales"
+  #  URL = "/sedes-virtuales"
+  #  parent = "sedes"
+  #  weight = 1
+
+  #[[menu.main]]
+  #  identifier = "sedes2"
+  #  name = "Sedes Participantes"
+  #  url = "/sedes-participantes"
+  #  parent = "sedes"
+  #  weight = 2
 
   [[menu.main]]
-    identifier = "sedes2"
-    name = "Sedes Participantes"
-    url = "/sedes-participantes"
-    parent = "sedes"
-    weight = 2
-
-  [[menu.main]]
-  name = "Agenda"
-  URL = "/agenda"
+  name = "Sesiones"
+  URL = "/sessions/mayo-2023/"
   weight = 2
 
   #[[menu.main]]
@@ -89,7 +94,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
   name = "Speakers"
-  URL = "/speakers/"
+  URL = "/speakers/archive"
   weight = 2
 
   #[[menu.main]]
@@ -142,7 +147,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = true
+enable = false
 label = "LIVE"
 link = "https://us.airmeet.com/e/442f8b50-ccef-11ed-a75b-a1f22f0d858d"
 

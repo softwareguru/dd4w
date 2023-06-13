@@ -8,8 +8,7 @@ format: session
 block: h1-a-2023
 time_start: 2023-05-17T18:00:00-06:00
 time_end: 2023-05-17T18:40:00-06:00
-slides: 
-video: 
+video: https://youtu.be/03VciQLON10
 ---
 
 En esta charla abordaré brevemente la historia de la inteligencia artificial, ¿Que es y como funciona ChatGPT? y los diversos usos que se le puede dar a la Inteligencia Artificial para desarrollar Productos Digitales y hacer UX Design de una manera mas rápida y eficiente.

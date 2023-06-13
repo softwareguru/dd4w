@@ -8,8 +8,8 @@ format: session
 block: h1-b-2023
 time_start: 2023-05-18T17:20:00-06:00
 time_end: 2023-05-18T18:00:00-06:00
-slides: 
-video: 
+slides: /mayo-2023/Cómo iniciar tu camino en Big Data.pdf
+video: https://youtu.be/GseUBtxulJA
 ---
 
 ¿Cómo iniciar tu camino en Big Data?

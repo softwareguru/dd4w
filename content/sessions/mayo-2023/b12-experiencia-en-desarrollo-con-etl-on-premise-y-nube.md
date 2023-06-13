@@ -10,6 +10,7 @@ time_start: 2023-05-18T15:15:00-06:00
 time_end: 2023-05-18T15:20:00-06:00
 slides: 
 video: 
+draft: true
 ---
 
 En este espacio voy a compartir al publico la experiencia que he tenido en el ámbito laboral al trabajar con desarrollos de ETL en entornos on-premise y en nube, ventajas y desventajas, además de las oportunidades de aprendizaje personal que he tenido.

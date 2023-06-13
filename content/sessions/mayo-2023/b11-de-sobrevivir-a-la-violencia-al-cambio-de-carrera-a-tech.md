@@ -10,6 +10,7 @@ time_start: 2023-05-18T15:10:00-06:00
 time_end: 2023-05-18T15:15:00-06:00
 slides: 
 video: 
+draft: true
 ---
 
 Compartiré mi experiencia como sobreviviente de violencia familiar, mi paso por Psicología y trabajar actualmente como Senior Technical Recruiter lo que me llevó a interesarme en tecnología para después ingresar a un bootcamp para ser DataScientist Junior en una empresa de producto de Estados Unidos.
