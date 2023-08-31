@@ -51,10 +51,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
-  [[menu.main]]
-  name = "Sedes Participantes"
-  url = "/sedes-participantes"
-  weight = 4
+  #[[menu.main]]
+  #name = "Sedes Participantes"
+  #url = "/sedes-participantes"
+  #weight = 4
 
 
   #[[menu.main]]
@@ -78,7 +78,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
   name = "Sesiones"
-  URL = "/sessions/mayo-2023/"
+  URL = "/sessions/"
   weight = 2
 
   #[[menu.main]]
