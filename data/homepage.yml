@@ -18,10 +18,10 @@ banner:
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "DOS DÍAS DE APRENDIZAJE PARA DESARROLLADORAS"
+  title : "UN DÍA DE APRENDIZAJE PARA DESARROLLADORAS"
 
   description : >
-    Dev Day 4 Women esta dirigido a mujeres involucradas en el desarrollo de software.
+    Dev Day 4 Women está dirigido a mujeres involucradas en el desarrollo de software.
    
   description1: >
 
@@ -29,9 +29,7 @@ event_info:
 
   description2: >
 
-    A lo largo de nueve años DD4W se ha convertido en la conferencia líder para mujeres en Latinoamérica. Cada año tenemos dos ediciones y la primera edición del año se realizará el 17 y 18 de mayo 2023.
-    
-
+    A lo largo de nueve años, Dev Day 4 Women se ha convertido en la conferencia líder para mujeres en Latinoamérica. Cada año tenemos dos ediciones, ¡y este otoño regresamos en formato presencial!
    
   #presented_by: Presentado por
   #image : "/images/logos/accenture-logo.png"

@@ -11,7 +11,7 @@ draft: true
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-La segunda edición del año se realizara presencialmente en Universidad La Salle EN Av. Benjamín Franklin 45, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX.
+La segunda edición del año se realizara presencialmente en Universidad La Salle, ubicada en Av. Benjamín Franklin 45, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX
 
 <br>
 
@@ -26,13 +26,15 @@ Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no pu
 
 ### ¿ASISTIR AL EVENTO TIENE COSTO?
 
-Gracias a nuestros patrocinadores, es un evento gratuito, pero deberas realizar tu registro en tiempo.
+Gracias a nuestros patrocinadores, es un evento gratuito, pero deberás realizar tu registro en tiempo
 
 <br>
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR? 
 
-Regístrate en tiempo y nos vemos en octubre.
+Sólo tienes que registrarte y apartar la fecha del 25 de octubre.
+
+Te pediremos una identificación oficial y tu pase de registro.
 
 <br>
 

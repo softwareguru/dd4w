@@ -2,12 +2,13 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
-  - title : "Súper Premium"
+  - title : "Premium"
     slug : "gold"
     sponsor:
       - logo : "/images/logos/salle.png"
         link : "https://lasalle.mx/"
-
+      - logo : "/images/logos/Softtek-original.png"
+        link : "https://www.softtek.com/es-mx/haz-tu-carrera-en-softtek" 
       #- logo : "/images/logos/.png"
       #  link : "" 
 
