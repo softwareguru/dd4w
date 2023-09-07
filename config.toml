@@ -97,6 +97,11 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   URL = "/speakers/archive"
   weight = 2
 
+  [[menu.main]]
+  name = "Registro"
+  URL = "/registro"
+  weight = 2
+
   #[[menu.main]]
   #name = "Agenda"
   #URL = "/agenda"

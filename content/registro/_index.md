@@ -6,4 +6,23 @@ description: ""
 ---
 
 
-<iframe height="750" width="100%" src="https://us.airmeet.com/widgets/event/442f8b50-ccef-11ed-a75b-a1f22f0d858d/embedded-registration?communityId=764624fc-d051-4c74-b573-a1a50759e3c1&backgroundColor=6a4dff&isLightAmbience=true" frameborder="0"></iframe>
+<div id="eventbrite-widget-container-714298484997"></div>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '714298484997',
+        iframeContainerId: 'eventbrite-widget-container-714298484997',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
