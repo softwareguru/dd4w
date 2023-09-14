@@ -8,7 +8,9 @@ sponsor_group:
       - logo : "/images/logos/salle.png"
         link : "https://lasalle.mx/"
       - logo : "/images/logos/Softtek-original.png"
-        link : "https://www.softtek.com/es-mx/haz-tu-carrera-en-softtek" 
+        link : "https://www.softtek.com/es-mx/haz-tu-carrera-en-softtek"
+      - logo : "/images/logos/Improving-logo.png"
+        link : "https://www.improving.com/"   
       #- logo : "/images/logos/.png"
       #  link : "" 
 
