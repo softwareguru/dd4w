@@ -8,13 +8,13 @@ draft: false
 
 Dev Day 4 Women es un evento de conferencias y actividades dirigidas a las mujeres involucradas en el desarrollo de software.
 
-La primera edición del año se realizará en formato virtual durante dos días 17 y 18 de mayo 2023. Podrás asistir desde cualquier lugar donde te encuentres.
+La segunda edición del año se realizara presencialmente en Universidad La Salle, ubicada en Carlos B. Zetina 17, Hipódromo Condesa, Cuauhtémoc, 06170 Ciudad de México, CDMX
 <br>
 
 
 ### ¿ASISTIR AL EVENTO TIENE COSTO?
 
-Gracias a nuestros patrocinadores, es un evento gratuito
+Gracias a nuestros patrocinadores, es un evento gratuito, pero deberás realizar tu registro en tiempo.
 
 <br>
 
@@ -29,29 +29,10 @@ Todas las sesiones quedan grabadas y disponibles de inmediato, así que si no pu
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR? 
 
-1. Regístrate en https://devday4w.com/registro/
+Sólo tienes que registrarte y apartar la fecha del 25 de octubre.
 
-2. Recibirás un correo con la liga pata unirte el día del evento
+Te pediremos una identificación oficial y tu pase de registro.
 
-Para futuras ocasiones, si no dejas abierta tu cuenta, sólo te pedirá que ingreses tu correo con el que te registraste para poder entrar.
-
-
-### ¿QUÉ NECESITO PARA CONECTARME AL EVENTO?
-
-Solo necesitas una computadora con un navegador web actualizado, de preferencia Google Chrome o Mozilla Firefox.
-
-<br>
-
-### ¿CÓMO PUEDO CONTACTAR CON OTROS PARTICIPANTES Y PONENTES?
-
-El evento se transmitirá por una plataforma llamada Airmeet.
-La plataforma se compone de 3 áreas importantes
-
-* Recepción - Donde podrás ver las diferentes charlas que tendremos y el programa completo por día.
-
-* Salones - Área donde puedes conocer y saludar a otros asistentes, con la finalidad de interactuar.
-
-* Stands - Aquí podrás conectar con los patrocinadores del evento, además de poder ver los diferentes links y recursos que harán disponibles para los participantes.
 
 **Durante todo el evento podrás:**
 
@@ -65,13 +46,6 @@ La plataforma se compone de 3 áreas importantes
 
 <br>
 
-### ¿LAS GRABACIONES Y SLIDES DE LAS SESIONES SE COMPARTIRÁN?
-
-Todas las sesiones serán grabadas y se compartirán con los asistentes del evento, así como las presentaciones (slides).
-
-Puedes ver las sesiones de la edición anterior [aquí](https://youtube.com/playlist?list=PLnLzwYW6HOC5kElEFaj4RsAlMS4yl1sRK)
-
-<br>
 
 ### ¿SÓLO PUEDEN ASISTIR MUJERES?
 
