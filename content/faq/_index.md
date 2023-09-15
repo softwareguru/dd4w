@@ -42,7 +42,6 @@ Te pediremos una identificación oficial y tu pase de registro.
 
 * Evaluar el evento en general.
 
-* Conocer recursos de los organizadores del evento y de los diferentes patrocinadores.
 
 <br>
 

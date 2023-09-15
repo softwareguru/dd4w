@@ -190,6 +190,10 @@ name = "?Quién organiza¿"
 link = "/team/"
 
 [[params.footer_resources]]
+name = "Media Kit"
+link = "/media-kit/"
+
+[[params.footer_resources]]
 name = "Código de Conducta"
 link = "/coc/"
 
