@@ -97,10 +97,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   URL = "/speakers/archive"
   weight = 2
 
-  [[menu.main]]
-  name = "Registro"
-  URL = "/registro"
-  weight = 2
+  #[[menu.main]]
+  #name = "Registro"
+  #URL = "/registro"
+  #weight = 2
 
   #[[menu.main]]
   #name = "Agenda"
@@ -153,8 +153,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Envía tu propuesta"
-link = "https://convoca.dev/dev-day-4-women-octubre-2023/cfp"
+label = "Registro"
+link = "/registro"
 
 
 ############################# social icon ############################
