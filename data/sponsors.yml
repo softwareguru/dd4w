@@ -20,6 +20,8 @@ sponsor_group:
         link : "https://www.improving.com/"
       - logo : "/images/logos/BetterCloud_Logo.png"
         link : "https://www.bettercloud.com/"
+      - logo : "/images/logos/EDICOM.jpg"
+        link : "https://careers.edicomgroup.com/"
 
   - title : "Organizado por"
     slug : "gold"

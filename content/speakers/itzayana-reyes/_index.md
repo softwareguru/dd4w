@@ -8,7 +8,9 @@ country: "mx"
 twitter: ""
 linkedin: ""
 github: ""
-year: "2021"
+events: 
+ - 2021
+ - 2023-h2
 ---
 
 Soy Itzayana Reyes, he tenido diferentes roles en el mundo TI, lo que me ha ayudado a comprender el software desde diferentes puntos de vista.
