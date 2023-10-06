@@ -76,10 +76,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #  parent = "sedes"
   #  weight = 2
 
-  [[menu.main]]
-  name = "Sesiones"
-  URL = "/sessions/"
-  weight = 2
+  #[[menu.main]]
+  #name = "Sesiones"
+  #URL = "/sessions/"
+  #weight = 2
 
   #[[menu.main]]
   #name = "Sedes Virtuales"
