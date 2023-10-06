@@ -8,7 +8,8 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/maria-teresa-renan/"
 github: ""
-year: "2023-h2"
+events: 
+ - 2023-h2
 ---
 
 "Especialista en transformar y operar por más de 25 años la cadena de valor de alimentos y bebidas, transfomando la cultura, innovando y rediseñando procesos de negocio, implementando nuevas tecnologías y diseños organizacionales.

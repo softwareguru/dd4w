@@ -8,7 +8,7 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/ame-hernandez-soc/"
 github: ""
-event: 
+events: 
  - 2023-h2
 ---
 

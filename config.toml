@@ -94,7 +94,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
   name = "Speakers"
-  URL = "/speakers/archive"
+  URL = "/speakers/"
   weight = 2
 
   #[[menu.main]]

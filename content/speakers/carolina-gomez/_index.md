@@ -8,7 +8,8 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/carolina-g%C3%B3mez-frias-507387114/?originalSubdomain=mx"
 github: ""
-year: "2023-h2"
+events: 
+ - 2023-h2
 ---
 
 Ingeniera industrial con más de 10 años de experiencia dirigiendo equipos de calidad siendo dinámica, responsable y con destacadas habilidades de liderazgo, resolución de problemas y búsqueda de mejora continua.

@@ -8,7 +8,7 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/carolina-acosta-tovany-1a6689275/"
 github: ""
-event: 
+events: 
  - 2023-h2
 ---
 

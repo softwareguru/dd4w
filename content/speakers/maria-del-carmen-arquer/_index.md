@@ -8,7 +8,8 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/maria-del-carmen-arquer-103548119/en/?trk=people-guest_people_search-card&originalSubdomain=mx"
 github: ""
-year: "2023-h2"
+events: 
+ - 2023-h2
 ---
 
 Es Ingeniera Biomédica egresada del Instituto Politécnico Nacional (UPIBI), con Maestría en Administración de Hospitales y Salud Pública del Instituto de Estudios Superiores en Administración Pública.
