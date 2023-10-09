@@ -26,7 +26,7 @@ sponsor_group:
   - title : "Organizado por"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/sg4w.png"
-        link : "https://sg.com.mx/sg4w" 
+      - logo : "/images/logos/code4dei-logo.png"
+        link : "https://code4dei.com/" 
       - logo : "/images/logos/sg.jpg"
         link : "https://sg.com.mx/"
