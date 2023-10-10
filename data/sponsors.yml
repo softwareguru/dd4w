@@ -5,7 +5,7 @@ sponsor_group:
   - title : "Premium"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/salle.png"
+      - logo : "/images/logos/La-Salle.png"
         link : "https://lasalle.mx/"
       #- logo : "/images/logos/.png"
       #  link : "" 
@@ -14,14 +14,22 @@ sponsor_group:
   - title : "Platinum"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/Softtek-original.png"
+      - logo : "/images/logos/Softtek.png"
         link : "https://www.softtek.com/es-mx/haz-tu-carrera-en-softtek"
       - logo : "/images/logos/Improving-logo.png"
         link : "https://www.improving.com/"
       - logo : "/images/logos/BetterCloud_Logo.png"
         link : "https://www.bettercloud.com/"
-      - logo : "/images/logos/EDICOM.jpg"
+      - logo : "/images/logos/EDICOM.png"
         link : "https://careers.edicomgroup.com/"
+
+  - title : "Comunidad Aliada"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/Women-in-voice.png"
+        link : "https://www.womeninvoice.mx/"
+      #- logo : "/images/logos/.png"
+      #  link : "" 
 
   - title : "Organizado por"
     slug : "gold"
