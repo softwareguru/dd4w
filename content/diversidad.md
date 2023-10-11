@@ -4,7 +4,7 @@ date: 2021-03-04T14:43:40-06:00
 draft: false
 ---
 
-SG4W cree en la difusión del conocimiento de los innovadores. Creemos que la innovación se ve reforzada por una variedad de perspectivas, y nuestro objetivo es crear un ambiente de conferencia inclusiva, respetuosa, que invite a la participación de personas de todas las razas, etnias, géneros, edades, capacidades, las religiones, y la orientación sexual.
+Code 4 DEI cree en la difusión del conocimiento de los innovadores. Creemos que la innovación se ve reforzada por una variedad de perspectivas, y nuestro objetivo es crear un ambiente de conferencia inclusiva, respetuosa, que invite a la participación de personas de todas las razas, etnias, géneros, edades, capacidades, las religiones, y la orientación sexual.
 
 Estamos buscando activamente aumentar la diversidad de nuestros asistentes, ponentes y patrocinadores a través de nuestras convocatorias de propuestas, otros procesos de presentación abierta, y a través del diálogo con las comunidades a las que servimos.
 
