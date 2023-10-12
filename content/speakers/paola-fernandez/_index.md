@@ -8,7 +8,7 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/paola-fernandez-985a3b216/"
 github: ""
-event: 
+events: 
  - 2023-h2
 ---
 
