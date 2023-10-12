@@ -8,7 +8,9 @@ country:
 twitter: https://twitter.com/marayve
 linkedin: https://www.linkedin.com/in/marayve/
 github: 
-year: 2023-h1
+events: 
+ - 2023-h1
+ - 2023-h2
 ---
 
 Mara Ruvalcaba es COO y socia fundadora de SG. Orgullosa Ingeniera de software y artista del corazón.

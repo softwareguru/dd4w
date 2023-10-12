@@ -8,7 +8,7 @@ country: "mx"
 twitter: ""
 linkedin: ""
 github: ""
-event: 
+events: 
  - 2023-h2
 ---
 
