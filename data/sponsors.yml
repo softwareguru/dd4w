@@ -26,8 +26,14 @@ sponsor_group:
   - title : "Comunidad Aliada"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/Women-in-voice.png"
+      - logo : "/images/logos/Women-in-Voice.png"
         link : "https://www.womeninvoice.mx/"
+      - logo : "/images/logos/Mermelada.png"
+        link : "https://twitter.com/MermeladaTech" 
+      - logo : "/images/logos/WomeninGamex.png"
+        link : "https://www.womeningamex.org/" 
+      - logo : "/images/logos/Olimpiada-de-Informatica.png"
+        link : "https://ofmioaxaca.org/" 
       #- logo : "/images/logos/.png"
       #  link : "" 
 
