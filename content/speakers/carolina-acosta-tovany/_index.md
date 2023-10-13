@@ -3,7 +3,7 @@ title: "Carolina Acosta Tovany"
 date: 2023-10-06T10:11:06-06:00
 images: 
  - "/images/speakers/carolina-acosta-tovany.png"
-designation : "Data Engineer Tech Lead en Kavak"
+designation : "Data Engineer Tech Lead @ Kavak"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/carolina-acosta-tovany-1a6689275/"

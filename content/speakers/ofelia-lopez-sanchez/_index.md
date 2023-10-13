@@ -3,7 +3,7 @@ title: "Ofelia López Sánchez"
 date: 2023-10-06T10:28:24-06:00
 images: 
  - "/images/speakers/ofelia-lopez-sanchez.png"
-designation : "Full Stack Developer - Concentrix Catalyst"
+designation : "Full Stack Developer @ Concentrix Catalyst"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/ofelia-lopez-sanchez/?originalSubdomain=mx"

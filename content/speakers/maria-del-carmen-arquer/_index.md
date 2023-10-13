@@ -3,7 +3,7 @@ title: "Maria Del Carmen Arquer"
 date: 2023-10-06T09:37:54-06:00
 images: 
  - "/images/speakers/maria-del-carmen-arquer.png"
-designation : "Jefe de Carrera de Ingeniería Biomédica"
+designation : "Jefe de Carrera de Ingeniería Biomédica @ Universidad La Salle"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/maria-del-carmen-arquer-103548119/en/?trk=people-guest_people_search-card&originalSubdomain=mx"

@@ -18,6 +18,7 @@ blocks:
   <div class="color-code-item" style="background-color: #0c1da0; color: white;">Plática</div>
   <div class="color-code-item" style="background-color: #965cee; color: white;">Comunidad</div>
   <div class="color-code-item" style="background-color: #937EFC; color: white;">Ignite</div>
+  <div class="color-code-item" style="background-color: #4b25f1; color: white;">Lightning Talk</div>
 
 </div>
 

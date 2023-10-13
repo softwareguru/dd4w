@@ -3,7 +3,7 @@ title: "Dinorah Tovar"
 date: 2021-10-22T14:44:19-05:00
 images: 
  - "/images/speakers/dinorah-tovar.png"
-designation : "Google Developer Expert - Android"
+designation : "Google Developer Expert-Android"
 country: "mx"
 twitter: "https://twitter.com/DDinorahtovar"
 linkedin: ""

@@ -3,7 +3,7 @@ title: "America Magaly Hernandez"
 date: 2023-10-06T10:09:20-06:00
 images: 
  - "/images/speakers/america-magaly-hernandez.png"
-designation : "QA Coppel"
+designation : "QA @ Coppel"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/ame-hernandez-soc/"

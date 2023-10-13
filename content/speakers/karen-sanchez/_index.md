@@ -3,7 +3,7 @@ title: "Karen Sánchez"
 date: 2023-04-19T00:06:26-06:00
 images: 
  - "/images/speakers/karen-sanchez.png"
-designation : "Senior Technical Recruiter - Etsy"
+designation : "Senior Technical Recruiter @ Etsy"
 country: "mx"
 twitter: "https://twitter.com/lizzieXhunter?t=PAVkhRcqUlcMOWyk1KHOew&s=09"
 linkedin: "https://linktr.ee/LizzieXhunter"

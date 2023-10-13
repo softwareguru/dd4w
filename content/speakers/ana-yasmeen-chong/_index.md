@@ -3,7 +3,7 @@ title: "Ana Yasmeen Chong"
 date: 2023-10-06T09:48:08-06:00
 images: 
  - "/images/speakers/ana-yasmeen-chong.png"
-designation : "Coordinadora del Posgrado en Inteligencia de Datos"
+designation : "Coordinadora de la Especialidad en Inteligencia de Datos @ La Salle y CEO @ BP GURUS "
 country: "mx"
 twitter: "https://twitter.com/anayasmeen"
 linkedin: "https://www.linkedin.com/in/ana-yasmeen-chong-rosales-6a189754/?originalSubdomain=mx"

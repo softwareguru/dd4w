@@ -3,7 +3,7 @@ title: "Adriana Garcia Espinoza"
 date: 2023-10-10T16:05:32-06:00
 images: 
  - "/images/speakers/adriana-garcia-espinoza.png"
-designation : "Founder & CEO at BrightSea, Inc"
+designation : "Founder & CEO @ BrightSea"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/adrianagarciaespinoza/"
