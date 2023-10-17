@@ -47,6 +47,13 @@ sponsor_group:
       #- logo : "/images/logos/.png"
       #  link : "" 
 
+
+  - title : "Silver"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/mobik.png"
+        link : "https://www.mobiik.com/" 
+
   - title : "Organizado por"
     slug : "gold"
     sponsor:
