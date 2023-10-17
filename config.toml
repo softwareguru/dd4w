@@ -56,7 +56,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #url = "/sedes-participantes"
   #weight = 4
 
-
   #[[menu.main]]
   #identifier = "sedes"
   #name = "Sedes"
@@ -86,11 +85,15 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/sedes-virtuales/"
   #weight = 4
 
-
   #[[menu.main]]
   #name = "Reconocimientos SG4W"
   #URL = "/reconocimientos"
   #weight = 3
+
+  [[menu.main]]
+  name = "Agenda"
+  URL = "/agenda"
+  weight = 1
 
   [[menu.main]]
   name = "Speakers"
@@ -101,12 +104,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #name = "Registro"
   #URL = "/registro"
   #weight = 2
-
-  [[menu.main]]
-  name = "Pláticas confirmadas"
-  URL = "/agenda"
-  weight = 1
-
   
   #[[menu.main]]
   #name = "Networking"
@@ -119,10 +116,9 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #weight = 5
 
   [[menu.main]]
-  name = "FAQ"
+  name = "FAQs"
   URL = "/faq"
   weight = 6
-
 
 
 #################### default parameters ################################
@@ -132,14 +128,13 @@ home = "Home"
 
 # Meta data
 description = """Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software."""
-images = ["/images/blog/dd4w.jpg"]
+images = ["/images/blog/dd4w-2023.png"]
 twitter_user = "RevistaSG"
 email = "eventos@sg.com.mx"
 author = "Software Guru"
 
 start_date = "2021-04-14T11:00-05:00"
 end_date = "2021-04-15T19:00-05:00"
-
 
 
 disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru."""
