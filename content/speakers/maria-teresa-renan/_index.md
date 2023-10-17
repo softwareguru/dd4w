@@ -3,7 +3,7 @@ title: "María Teresa Renán"
 date: 2023-10-06T09:41:49-06:00
 images: 
  - "/images/speakers/maria-teresa-renan.png"
-designation : "Profesora @ Universidad La Salle México"
+designation : "Directora Ejecutiva @ Arabela y Profesora @ Universidad La Salle México"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/maria-teresa-renan/"
