@@ -30,11 +30,8 @@
       <p>25 de octubre 2023</p>
       <p>Universidad La Salle, Hipódromo Condesa, <br> Ciudad de Mexico</p>
     </div>
-    {{ if .button1.enable }}
-    {{ with .button1 }}
-    <a href="{{ .link | absURL }}" target="_blank" style="color: white; background-color: #37C3D6 !important; border: none !important;" class="btn btn-rounded mb-4 mr-4">{{ .label }}</a>
-    {{ end}}
-    {{ end}}
+   
+    <a href="/registro" target="_blank" style="color: white; background-color: #37C3D6 !important; border: none !important;" class="btn btn-rounded mb-4 mr-4">Registro Abierto</a>
 
     {{ if .button2.enable }}
     {{ with .button2 }}
