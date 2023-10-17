@@ -23,6 +23,12 @@ sponsor_group:
       - logo : "/images/logos/EDICOM.png"
         link : "https://careers.edicomgroup.com/"
 
+  - title : "Silver"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/mobik.png"
+        link : "https://www.mobiik.com/" 
+
   - title : "Comunidad Aliada"
     slug : "gold"
     sponsor:
@@ -46,13 +52,6 @@ sponsor_group:
         link : "https://amiti.org.mx/" 
       #- logo : "/images/logos/.png"
       #  link : "" 
-
-
-  - title : "Silver"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/mobik.png"
-        link : "https://www.mobiik.com/" 
 
   - title : "Organizado por"
     slug : "gold"
