@@ -66,6 +66,6 @@ En Code 4 DEI, nos preocupamos por la seguridad e integridad de todos los involu
 
 ### DIVERSIDAD
 
-En Code 4 DEI busca promover la inclusión y el desarrollo en todos los niveles, concientizando a los que no pertenecen a estos grupos vulnerables y eliminar barreras para alcanzar todo el potencial de la industria y fomentar la innovación.
+Code 4 DEI busca promover la inclusión y el desarrollo en todos los niveles, concientizando a los que no pertenecen a estos grupos vulnerables y eliminar barreras para alcanzar todo el potencial de la industria y fomentar la innovación.
 Creemos en la difusión del conocimiento de personas innovadoras. Creemos que la innovación se ve reforzada por una variedad de perspectivas, y nuestro objetivo es crear un ambiente de conferencia inclusiva, respetuosa, que invite a la participación de personas de todas las razas, etnias, géneros, edades, capacidades, las religiones, y la orientación sexual.
 Te invitamos a revisar nuestra política de diversidad [aquí.](https://devday4w.com/diversidad)
