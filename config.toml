@@ -128,7 +128,7 @@ home = "Home"
 
 # Meta data
 description = """Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software."""
-images = ["/images/blog/dd4w-2023.png"]
+images = ["/images/blog/dd4w-2023.jpg"]
 twitter_user = "RevistaSG"
 email = "eventos@sg.com.mx"
 author = "Software Guru"
