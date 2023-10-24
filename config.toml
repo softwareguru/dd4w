@@ -156,16 +156,15 @@ link = "/registro"
 
 [[params.social]]
 icon = "tf-ion-social-twitter"
-link = "https://twitter.com/sg4women"
+link = "https://twitter.com/Code4DEI"
 
 [[params.social]]
 icon = "tf-ion-social-facebook"
-link = "https://www.facebook.com/sg4women"
-
+link = "https://www.facebook.com/code4dei"
 
 [[params.social]]
 icon = "tf-ion-social-instagram"
-link = "https://instagram.com/sg4women?igshid=YjNmNGQ3MDY="
+link = "https://www.instagram.com/code4dei"
 
 
 [[params.social]]
