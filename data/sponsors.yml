@@ -2,7 +2,7 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
-  - title : "Premium"
+  - title : "Sede"
     slug : "gold"
     sponsor:
       - logo : "/images/logos/La-Salle.png"
