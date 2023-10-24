@@ -3,7 +3,7 @@ title: "Adriana Montoya"
 date: 2023-10-16T17:55:23-06:00
 images: 
  - "/images/speakers/adriana-montoya.png"
-designation : "Directora Centro de Excelencia de CX, UX/UI"
+designation : "Directora Centro de Excelencia de CX, UX/UI @ Softtek"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/adrianamontoya/"
