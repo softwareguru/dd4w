@@ -21,7 +21,9 @@ sponsor_group:
       - logo : "/images/logos/BetterCloud_Logo.png"
         link : "https://www.bettercloud.com/"
       - logo : "/images/logos/EDICOM.png"
-        link : "https://careers.edicomgroup.com/"
+        link : "https://careers.edicomgroup.com/" 
+      - logo : "/images/logos/EMMA.png"
+        link : "https://www.reporteindigo.com/emma/"
 
   - title : "Silver"
     slug : "gold"
