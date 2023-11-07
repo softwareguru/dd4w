@@ -77,7 +77,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   #[[menu.main]]
   #name = "Sesiones"
-  #URL = "/sessions/"
+  #URL = "/sessions/octubre-2023"
   #weight = 2
 
   #[[menu.main]]
@@ -90,10 +90,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/reconocimientos"
   #weight = 3
 
-  [[menu.main]]
-  name = "Agenda"
-  URL = "/agenda"
-  weight = 1
+  #[[menu.main]]
+  #name = "Agenda"
+  #URL = "/agenda"
+  #weight = 1
 
   [[menu.main]]
   name = "Speakers"
@@ -147,9 +147,9 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [params.navigation_button]
-enable = false
-label = "Registro"
-link = "/registro"
+enable = true
+label = "Sesiones"
+link = "/sessions/octubre-2023"
 
 
 ############################# social icon ############################
