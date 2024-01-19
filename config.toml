@@ -207,9 +207,9 @@ link = "/reconocimientos"
 name = "Email"
 link = "mailto:eventos@sg.com.mx"
 
-#[[params.footer_contact_us]] 
-#name = "Quiero patrocinar"
-#link = "/files/DevDay4women-Prospectus-2023-H2.pdf"
+[[params.footer_contact_us]] 
+name = "Quiero patrocinar"
+link = "/files/DevDay4women-Prospectus-2024-H1.pdf"
 
 
 

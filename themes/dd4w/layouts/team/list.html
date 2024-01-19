@@ -2,7 +2,7 @@
 <br>
   <div class="container">
     <div class="team-strip">
-      {{ range .Data.Pages.ByTitle }}
+      {{ range .Data.Pages.ByWeight }}
       <div class="profile-item d-flex">
         <div class="headshot">
           <img src="{{ .Params.Image }}" alt="{{ .Title }}" class="img-fluid rounded-circle img-thumbnail">
@@ -26,6 +26,7 @@
       {{ end }}
     </div>
   </div>
+  <br>
 </section>
 
 {{ end }}
