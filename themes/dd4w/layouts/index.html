@@ -28,23 +28,14 @@
 
     <div class="subtitulo">
         
-      <p>Online, Abril 17, 2024</p>
-      
-      <!--<p>Universidad La Salle, Hipódromo Condesa, <br></p>  
-      
-      <p> Ciudad de Mexico.</p>
-
-      <a href="https://lasalle.mx/" target="_blank">
-        <img src="images/la-salle.png" style="border-radius: 50px;">
-      </a>-->
+      <p>Online, 8 y 9 de mayo, 2024</p>
       
     </div>
    
 
-
     {{ if .button2.enable }}
     {{ with .button2 }}
-    <a href="{{ .link | absURL }}" style="color: white; background-color: #37C3D6 !important; border: none !important;" class="btn btn-hero2 btn-rounded mb-4">{{ .label }}</a>
+    <a href="{{ .link | absURL }}" style="color: white; background-color: #37C3D6 !important; border: none !important;" class="btn btn-hero2 btn-rounded mb-4" target="_blank">{{ .label }}</a>
     {{ end}}
     {{ end}}
   </div>
@@ -139,34 +130,39 @@ background-attachment: fixed;">
 <section class="section-sponsors section" style="margin-top: -65px;">
   <br><br>
   <div class="container">
-    <center>
-      <h1 style="color: white;">Conoce algunas de las sesiones anteriores</h1>
-    </center>
+    
+      <h1 class="text-center" style="color: white;">Conoce algunas de las sesiones anteriores</h1>
+    
     <br><br>
 
     <div class="card-deck">
       <div class="card" style="border: none;">
        
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yEoBNm_RudU" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GseUBtxulJA?si=wxMLXa-ZzjaqQbUv" allowfullscreen></iframe>
           </div>
 
       </div>
       <div class="card" style="border: none;">
        
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8uTgLIwdM8U" allowfullscreen></iframe>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f-r1woTYUoQ?si=8OFzFyJ7zDf4wj7z" allowfullscreen></iframe>
         </div>
 
     </div>
     <div class="card" style="border: none;">
        
       <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1CDHTczGGbM" allowfullscreen></iframe>
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6B3ec4ScYAQ?si=cy8JcoM4hB9QdCVh" allowfullscreen></iframe>
       </div>
 
   </div>
     </div>
+
+    <center>
+    <a href="https://devday4w.com/sessions/" style="color: white; background-color: #37C3D6 !important; border: none !important; margin-top: 20px;" class="btn btn-hero2 btn-rounded mb-4" target="_blank">Ver todas las sesiones</a>
+  </center>
+
   </div>
 </section>
 

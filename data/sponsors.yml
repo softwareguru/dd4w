@@ -2,56 +2,26 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
-  - title : "Sede y Co-organizador"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/La-Salle.png"
-        link : "https://lasalle.mx/"
+  #- title : "Sede y Co-organizador"
+    #slug : "gold"
+    #sponsor:
+      #- logo : "/images/logos/La-Salle.png"
+      #  link : "https://lasalle.mx/"
       #- logo : "/images/logos/.png"
       #  link : "" 
 
+  #- title : "Platinum"
+  #  slug : "gold"
+  #  sponsor:
 
-  - title : "Platinum"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/Softtek.png"
-        link : "https://www.softtek.com/es-mx/haz-tu-carrera-en-softtek"
-      - logo : "/images/logos/Improving-logo.png"
-        link : "https://www.improving.com/"
-      - logo : "/images/logos/BetterCloud_Logo.png"
-        link : "https://www.bettercloud.com/"
-      - logo : "/images/logos/EDICOM.png"
-        link : "https://careers.edicomgroup.com/" 
-      - logo : "/images/logos/EMMA.png"
-        link : "https://www.reporteindigo.com/emma/"
+  #- title : "Silver"
+  #  slug : "gold"
+  #  sponsor:
 
-  - title : "Silver"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/mobik.png"
-        link : "https://www.mobiik.com/" 
+  #- title : "Comunidad Aliada"
+  #  slug : "gold"
+  #  sponsor:
 
-  - title : "Comunidad Aliada"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/Women-in-voice.png"
-        link : "https://www.womeninvoice.mx/"
-      - logo : "/images/logos/Mermelada.png"
-        link : "https://twitter.com/MermeladaTech" 
-      - logo : "/images/logos/WomeninGamex.png"
-        link : "https://www.womeningamex.org/" 
-      - logo : "/images/logos/Olimpiada-de-Informatica.png"
-        link : "https://ofmioaxaca.org/" 
-      - logo : "/images/logos/Women-Techmakers.png"
-        link : "https://twitter.com/WomenTechmakers" 
-      - logo : "/images/logos/embajadoras-cloud.png"
-        link : "https://twitter.com/EmbajadoraCloud" 
-      - logo : "/images/logos/chidas-tech.png"
-        link : "https://www.facebook.com/chidastech/" 
-      - logo : "/images/logos/IconMunity.png"
-        link : "https://www.facebook.com/Iconmunity" 
-      - logo : "/images/logos/Amiti.png"
-        link : "https://amiti.org.mx/" 
       #- logo : "/images/logos/.png"
       #  link : "" 
 

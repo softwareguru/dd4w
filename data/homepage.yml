@@ -12,24 +12,23 @@ banner:
     label : "Manda tu propuesta"
     link : "https://convoca.dev/dev-day-4-women-mayo-2023/cfp"
   button2:
-    enable : false
-    label : "Registrate"
-    link : "https://us.airmeet.com/e/442f8b50-ccef-11ed-a75b-a1f22f0d858d"
+    enable : true
+    label : "¡Envía una propuesta!"
+    link : "https://convoca.dev/dev-day-4-women-abril-2024/cfp"
 ############################## Event ##############################
 event_info:
   enable : true
   title : "UN DÍA DE APRENDIZAJE PARA DESARROLLADORAS"
 
   description : >
-    Dev Day 4 Women está dirigido a mujeres involucradas en el desarrollo de software.
    
   description1: >
 
-    Nuestro propósito es desarrollar una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEM, a través de conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
+    Este evento tiene como propósito es desarrollar una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEAM (Science, Technology, Engineering, Arts and Math, por sus siglas en inglés), a través de conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
 
   description2: >
 
-    A lo largo de nueve años, Dev Day 4 Women se ha convertido en la conferencia líder para mujeres en Latinoamérica. Cada año tenemos dos ediciones, ¡y este otoño regresamos en formato presencial!
+    A lo largo de 10 años, Dev Day 4 Women se ha convertido en la conferencia líder para mujeres. Cada año tenemos dos ediciones; en mayo del 2024 tenemos la edición online para toda lationamerica.
    
   #presented_by: Presentado por
   #image : "/images/logos/accenture-logo.png"
