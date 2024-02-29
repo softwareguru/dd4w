@@ -5,14 +5,16 @@ sponsor_group:
   - title : "Platinum"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/contpaq.png"
-        link : "https://www.contpaqi.com/" 
+      - logo : "/images/logos/mobik.png"
+        link : "https://www.mobiik.com/"
+
 
   - title : "Gold"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/mobik.png"
-        link : "https://www.mobiik.com/"
+      - logo : "/images/logos/contpaq.png"
+        link : "https://www.contpaqi.com/" 
+
       #- logo : "/images/logos/.png"
       #  link : "" 
 
