@@ -2,17 +2,19 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
-  #- title : "Sede y Co-organizador"
-    #slug : "gold"
-    #sponsor:
-      #- logo : "/images/logos/La-Salle.png"
-      #  link : "https://lasalle.mx/"
+  - title : "Platinum"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/contpaq.png"
+        link : "https://www.contpaqi.com/" 
+
+  - title : "Gold"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/mobik.png"
+        link : "https://www.mobiik.com/"
       #- logo : "/images/logos/.png"
       #  link : "" 
-
-  #- title : "Platinum"
-  #  slug : "gold"
-  #  sponsor:
 
   #- title : "Silver"
   #  slug : "gold"
