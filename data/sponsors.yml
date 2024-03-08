@@ -14,15 +14,18 @@ sponsor_group:
   - title : "Gold"
     slug : "gold"
     sponsor:
-      - logo : "/images/logos/contpaq.png"
+      - logo : "/images/logos/contpaqi-logo.png"
         link : "https://www.contpaqi.com/" 
 
       #- logo : "/images/logos/.png"
       #  link : "" 
 
-  #- title : "Silver"
-  #  slug : "gold"
-  #  sponsor:
+  - title : "Silver"
+    slug : "gold"
+    sponsor:
+      - logo : "/images/logos/buk.png"
+        link : "https://www.buk.cl/quienes-somos" 
+
 
   #- title : "Comunidad Aliada"
   #  slug : "gold"
