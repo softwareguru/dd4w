@@ -4,25 +4,39 @@ date: 2023-09-15T12:32:47-06:00
 draft: false
 ---
 
-<h2 class="text-center" style="color: black;">¡Todo listo para Dev Day for Women CDMX 2023!</h2>
+Dev Day 4 Women es un evento de <a href="https://code4dei.com/" target="_blank">Code 4 DEI</a>, dirigido a mujeres involucradas en el desarrollo de software.
 
-<br>
+Agradecemos que tu empresa / comunidad participe en este increíble evento, en la edición virtual del 2024.
 
-Dev Day 4 Women está dirigido a mujeres involucradas en el desarrollo de software.
-Nuestro propósito es desarrollar una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEM, a través de conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
-¡Agradecemos que tu empresa / comunidad participe en este increíble evento! El próximo **25 de Octubre 2023** se llevará a cabo el primer evento presencial desde hace un par de años, en la **Universidad La Salle Ciudad de México.**
+Fechas importantes
 
+* Evento: 8 y 9 de mayo
+* Convocatoria de Propuestas: Del 15 de febrero al 24 de marzo
 
 ### Material de difusión
 
-Aquí puedes encontrar [banners](https://drive.google.com/drive/folders/1aWJTcjCH5BOwzeKxz-wz1kNeex504XdN?usp=share_link) para redes sociales con los que puedes comunicar:
+Aquí puedes encontrar materiales para difusión en redes sociales con los que puedes comunicar:
 
-* La convocatoria de ponencias
-* Contenido general del evento
-* Empresas que estarán participando
-* Comunidades que se han sumado como apoyo.
+* Difusión general del evento
+  - <a href="https://drive.google.com/drive/folders/1HMC7kD-YXsSvAKsPMyW_t9MzpW_L2zry" target="_blank">Convocatoria de ponencias</a>
+  - <a href="https://drive.google.com/drive/folders/1aAF-bgXXpUHu6VuNcehacoicQaauOyLN" target="_blank">Contenido general del evento</a>
+  - <a href="https://drive.google.com/drive/folders/1GnJIOLMnni4qe7Z_ylgGvfFj1joEbP3X" target="_blank">Postales de speakers</a>
+* <a href="https://drive.google.com/drive/folders/1ky6ymb6PzqSqRpNKXye--ZHF4b6RpYX7" target="_blank">Patrocinadores</a>
+* <a href="https://drive.google.com/drive/folders/1s--D43rT2jsnquhotiQ_WPq-ZHshH6ck" target="_blank">Sedes Virtuales</a>
+* <a href="https://drive.google.com/drive/folders/13KvsWCgqwFhUx2NqHqabZKt7KdoOADbD" target="_blank">Comunidades Aliadas</a>
 
-¿No sabes qué textos usar? Puedes apoyarte en los [copies](https://docs.google.com/document/d/1JAKMniU-R4r1GUymllgwH3cIKBfxzeSdQEJPzN7q2BY/edit?usp=sharing) que hemos creado específicamente para redes sociales.
+¿No sabes qué textos usar? Puedes apoyarte en los <a href="https://docs.google.com/document/d/15N0BC_CYA6LJZlGjYe2hFRnVSMlwRa1gnRJKxTlWSmQ/edit" target="_blank">copies</a> que hemos creado específicamente para redes sociales.
+
+### ¿Cómo apoyar Dev Day 4 Women?
+Todos agradecemos cuando alguien comparte contenido de valor e interés, ¿cierto? Entonces tú o tu comunidad puede destacar por hacerlo.
+
+Es por ello que tú puedes apoyar con un par de post (si son más, qué mejor, por si alguien no vio los primeros) fomentando la participación y registro previo al evento en diferentes canales de comunicación como pueden ser:
+
+* Sitio web
+* Redes sociales
+* WhatsApp
+* Telegram
+* Discord
 
 ### Información para comunidades
 
@@ -39,16 +53,4 @@ Al ser una comunidad aliada del evento, obtienes los siguientes beneficios:
 * Personalización de banners.
 * Menciones en redes sociales y durante el evento de que te has sumado como comunidad aliada.
 
-#### ¿Cómo apoyar Dev Day 4 Women?
-
-Todos agradecemos cuando alguien comparte contenido de valor e interés, ¿cierto? Entonces tú o tu comunidad puede destacar por hacerlo.
-
-Es por ello que tú puedes apoyar con un par de post (si son más, qué mejor, por si alguien no vio los primeros) fomentando la participación y registro previo al evento en diferentes canales de comunicación como pueden ser:
-
-* Sitio web
-* Redes sociales
-* WhatsApp
-* Telegram
-* Discord
-
-
+Si te interesa unirte como comunidad aliada, escribenos a eventos@sg.com.mx

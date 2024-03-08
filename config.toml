@@ -80,10 +80,10 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #URL = "/sessions/octubre-2023"
   #weight = 2
 
-  #[[menu.main]]
-  #name = "Sedes Virtuales"
-  #URL = "/sedes-virtuales/"
-  #weight = 4
+  [[menu.main]]
+  name = "Sedes Virtuales"
+  URL = "/sedes-virtuales/"
+  weight = 5
 
   #[[menu.main]]
   #name = "Reconocimientos SG4W"
@@ -103,7 +103,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   [[menu.main]]
   name = "Registro"
   URL = "/registro"
-  weight = 3
+  weight = 4
 
   [[menu.main]]
   name = "Ediciones previas"
