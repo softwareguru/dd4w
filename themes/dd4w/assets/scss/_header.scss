@@ -180,6 +180,18 @@ html, body, .hero { height: 100%; margin: 0; }
 }
 
 
+.button1{
+
+  margin-right: 16px;
+
+  @media (max-width:481px) {
+
+    margin-right: 0px;
+
+	}
+}
+
+
 // Navigation Styles
 .navbar-brand {
   font-size: 28px;
