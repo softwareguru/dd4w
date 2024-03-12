@@ -192,6 +192,25 @@ html, body, .hero { height: 100%; margin: 0; }
 }
 
 
+.event-info p{
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+}
+
+
+.lines-effect{
+  color: #FF40B8;
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  -webkit-text-stroke: 2px #800050;
+
+
+}
+
+
 // Navigation Styles
 .navbar-brand {
   font-size: 28px;

@@ -2,11 +2,17 @@
 
 {{ with $data.homepage.event_info }}
 
-<section class="section event-info">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+</style>
+
+<section class="section event-info" >
+
+  <img src="/images/brillo-rosa.png" class="event-info-img" alt="">
 
   <div class="container">  
     <h1 class="lines-effect titulo" style="text-align: center;">{{ .title }}</h1>
-    <div class="content">
+    <div class="event-info">
       <div>
         <div class="globo globo-1">
           <p>Dev Day 4 Women es un evento de <a href="https://code4dei.com/">Code 4 DEI</a>, dirigido a mujeres involucradas en el desarrollo de software.</p>
