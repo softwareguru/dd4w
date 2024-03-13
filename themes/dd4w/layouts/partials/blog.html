@@ -1,6 +1,111 @@
-<style>
 
-</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+<section class="noticias-recientes-dd4w">
+  <div class="row">
+  <div class="col-lg-4 noticias1">
+    <img src="/images/noticias-recientes.png" class="img-fluid" alt="">
+    <h1 class="titulo-noticias">Noticias Recientes</h1>
+  </div>
+  <div class="col-lg-8 noticias2">
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper"  style="margin-bottom: 40px; margin-top: 80px;"> 
+
+        <div class="card h-100 swiper-slide shadow ">
+          <div class="image-content">
+              <span class="overlay"></span>
+              <a href="/registro">
+                <div class="card-image">
+                 <img src="/images/blog/dd4w-card-2024.png" alt="" class="img-fluid">
+                </div>
+              </a>
+          </div>
+          <div class="card-content">
+              <p class="description">¡El registro está abierto!</p>
+
+              <a href="/registro">
+                  <button class="button" style="font-size: 22px; padding-left: 30px; padding-right: 30px;">Ver más</button>
+              </a>
+          </div>
+        </div>
+
+        <div class="card h-100 swiper-slide shadow ">
+              <div class="image-content">
+                  <span class="overlay"></span>
+                  <a href="https://devday4w.com/agenda/">
+                    <div class="card-image">
+                     <img src="/images/blog/dd4w-2023.png" alt="" class="img-fluid">
+                    </div>
+                  </a>
+              </div>
+              <div class="card-content">
+                  <p class="description">Conoce la agenda del 2023</p>
+  
+                  <a href="https://devday4w.com/agenda/">
+                      <button class="button" style="font-size: 22px; padding-left: 30px; padding-right: 30px;">Ver más</button>
+                  </a>
+              </div>
+          </div>
+
+
+          
+  
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!--<div class="swiper-pagination"></div>-->
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10, 
+        autoplay: true,
+          autoplaySpeed: 10500,
+          pauseOnHover: false,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+  
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1055: {
+            slidesPerView: 2,
+            spaceBetween: 45,
+          },
+          1480: {
+            slidesPerView: 2,
+            spaceBetween: 45,
+          },
+        },
+      });
+    </script>
+  </div>
+  </div>
+</section>
+
+
+
+
+<!--
 
 <section class="section blog">
   <div class="container">
@@ -18,7 +123,7 @@
         <div class="card-body ">
           <h5 class="card-title" style="text-align: center;"><a href="{{ .Permalink }}"><strong >{{ .Title | markdownify }}</strong></a></h5>
        
-            <!--<p class="module line-clamp">{{ .Summary }}</p>-->
+            <p class="module line-clamp">{{ .Summary }}</p>
           
         </div>
 
@@ -36,5 +141,5 @@
     </div>
   
     </div>
-</section>
+</section>-->
   

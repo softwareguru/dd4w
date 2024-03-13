@@ -85,8 +85,7 @@
 <!-- /pricing  -->
 
 
-<section style="background-image: url('/images/fondo/Banner_Dos días p Back.png'); background-size: cover;
-background-attachment: fixed;">
+
 <!-- blog -->
 {{ if $data.homepage.blog.enable }}
 {{ partial "blog.html" . }}
@@ -127,7 +126,7 @@ background-attachment: fixed;">
   <br><br>
   <div class="container">
     
-      <h1 class="text-center" style="color: white;">Conoce algunas de las sesiones anteriores</h1>
+      <h1 class="text-center sesiones-anteriores">Conoce algunas de las sesiones anteriores</h1>
     
     <br><br>
 
@@ -156,14 +155,14 @@ background-attachment: fixed;">
     </div>
 
     <center>
-    <a href="https://devday4w.com/sessions/" style="color: white; background-color: #37C3D6 !important; border: none !important; margin-top: 20px;" class="btn btn-hero2 btn-rounded mb-4" target="_blank">Ver todas las sesiones</a>
+    <a href="https://devday4w.com/sessions/" style="color: white; background-color: #FF40B8 !important; border: none !important; margin-top: 20px;" class="btn btn-hero2 btn-rounded mb-4" target="_blank">Ver todas las sesiones</a>
   </center>
 
   </div>
 </section>
 
 <!-- /Videos -->
-</section>
+
 
 <!-- sponsor -->
 {{ if $data.sponsors }}
@@ -171,7 +170,7 @@ background-attachment: fixed;">
     <br><br>
     <div class="container">
       <center>
-        <h1>Patrocinadores</h1>
+        <h1 class="titulo-patrocinadores">Patrocinadores</h1>
       </center>
       <br><br>
         {{ $data := index .Site.Data }}

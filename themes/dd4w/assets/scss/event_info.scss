@@ -20,6 +20,27 @@
       }
   }
 
+
+  .lines-effect{
+    color: #FF40B8;
+    font-weight: bold;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    -webkit-text-stroke: 2px #800050;
+      @media (max-width:992px) {
+      font-size: 1.8em;
+      -webkit-text-stroke: 2px #800050;
+      }
+      @media (max-width:500px) {
+
+        -webkit-text-stroke: 0px #800050;
+        }
+  
+  }
+  
+
 .imagen h2{
     margin-bottom: 22px;
 }
