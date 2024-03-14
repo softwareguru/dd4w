@@ -32,6 +32,34 @@
 			}
 }
 
+.sesiones-anteriores{
+	color: $morado;
+    font-weight: bold;
+	font-size: 3.8em;
+	margin-top: -210px;
+	padding: 20px;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #33007e;
+      @media (max-width:992px) {
+      font-size: 3.8em;
+	  margin-top: -100px;
+      -webkit-text-stroke: 2px #33007e;
+      }
+	
+	  @media (max-width:676px) {
+		font-size: 3.0em;
+		margin-top: -100px;
+		-webkit-text-stroke: 2px #33007e;
+		}
+		@media (max-width:500px) {
+			margin-top: -150px;
+			-webkit-text-stroke: 0px #33007e;
+			}
+}
+
+
 // Carousel
   .swiper {
     width: 90%;

@@ -122,42 +122,87 @@
 
 <!-- Videos -->
 
-<section class="section-sponsors section" style="margin-top: -65px;">
-  <br><br>
-  <div class="container">
-    
-      <h1 class="text-center sesiones-anteriores">Conoce algunas de las sesiones anteriores</h1>
-    
-    <br><br>
 
-    <div class="card-deck">
-      <div class="card" style="border: none;">
+<section class="noticias-recientes-dd4w">
+  <div class="row">
+  <div class="col-lg-8 noticias1">
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper"  style="margin-bottom: 40px; margin-top: 140px;"> 
+
+
        
+        <div class="card h-100 swiper-slide shadow ">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GseUBtxulJA?si=wxMLXa-ZzjaqQbUv" allowfullscreen></iframe>
           </div>
-
-      </div>
-      <div class="card" style="border: none;">
-       
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f-r1woTYUoQ?si=8OFzFyJ7zDf4wj7z" allowfullscreen></iframe>
         </div>
 
-    </div>
-    <div class="card" style="border: none;">
-       
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6B3ec4ScYAQ?si=cy8JcoM4hB9QdCVh" allowfullscreen></iframe>
+        <div class="card h-100 swiper-slide shadow ">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f-r1woTYUoQ?si=8OFzFyJ7zDf4wj7z" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="card h-100 swiper-slide shadow ">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6B3ec4ScYAQ?si=cy8JcoM4hB9QdCVh" allowfullscreen></iframe>
+          </div>
+        </div>
+  
       </div>
-
-  </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!--<div class="swiper-pagination"></div>-->
     </div>
 
-    <center>
-    <a href="https://devday4w.com/sessions/" style="color: white; background-color: #FF40B8 !important; border: none !important; margin-top: 20px;" class="btn btn-hero2 btn-rounded mb-4" target="_blank">Ver todas las sesiones</a>
-  </center>
+   
+  </div>
+  <div class="col-lg-4 noticias2">
 
+    <img src="/images/sesiones-anteriores.png" class="img-fluid" alt="">
+    <h1 class="sesiones-anteriores">Conoce algunas de las sesiones anteriores</h1>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10, 
+        autoplay: true,
+          autoplaySpeed: 10500,
+          pauseOnHover: false,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+  
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1055: {
+            slidesPerView: 2,
+            spaceBetween: 45,
+          },
+          1480: {
+            slidesPerView: 3,
+            spaceBetween: 45,
+          },
+        },
+      });
+    </script>
+  </div>
   </div>
 </section>
 
