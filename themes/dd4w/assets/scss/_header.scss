@@ -4,6 +4,11 @@ html, body, .hero { height: 100%; margin: 0; }
 .info{
   margin-top: 220px;
 
+  @media (max-width:1927px) {
+    margin: 50px;
+    margin-top: 170px;
+    }
+
   @media (max-width:1227px) {
 
     margin-top: 170px;
