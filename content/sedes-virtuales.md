@@ -69,5 +69,5 @@ Para la comunidad estudiantil, acercarla a temas actuales es una gran oportunida
 <br>
 <br>
 
-***Para cualquier duda, ponte escribir a ivett@sg.com.mx y con gusto te ayudaremos.***
+***Para cualquier duda, escribe a ivett@sg.com.mx y con gusto te ayudaremos.***
 
