@@ -9,7 +9,8 @@ sponsor_group:
         link : "https://www.mobiik.com/"
       - logo : "/images/logos/Twilio.png"
         link : "https://www.twilio.com/en-us"
-
+      - logo : "/images/logos/MS-Azure_logo.png"
+        link : "https://azure.microsoft.com/es-es/"
 
   - title : "Gold"
     slug : "gold"
