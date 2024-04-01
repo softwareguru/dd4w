@@ -11,6 +11,8 @@ sponsor_group:
         link : "https://www.twilio.com/en-us"
       - logo : "/images/logos/MS-Azure_logo.png"
         link : "https://azure.microsoft.com/es-es/"
+      - logo : "/images/logos/Edenred.png"
+        link : "https://www.edenred.mx/"
 
   - title : "Gold"
     slug : "gold"
