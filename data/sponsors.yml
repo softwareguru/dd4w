@@ -13,6 +13,8 @@ sponsor_group:
         link : "https://azure.microsoft.com/es-es/"
       - logo : "/images/logos/Edenred.png"
         link : "https://www.edenred.mx/"
+      - logo : "/images/logos/Softtek.png"
+        link : "https://softtek.com/jobs"
 
   - title : "Gold"
     slug : "gold"
