@@ -8,13 +8,13 @@ banner:
   where : "17 y 18 de Mayo de 2023 | Edicion Online | Gratuito"
   
   button1:
-    enable : true
+    enable : false
     label : "Registro abierto"
     link : "/registro"
   button2:
     enable : true
-    label : "¡Envía una propuesta!"
-    link : "https://convoca.dev/dev-day-4-women-abril-2024/cfp"
+    label : "Registro abierto"
+    link : "/registro"
 ############################## Event ##############################
 event_info:
   enable : true
