@@ -30,7 +30,8 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/buk.png"
         link : "https://www.buk.cl/quienes-somos" 
-
+      - logo : "/images/logos/Globant-Logo.png"
+        link : "https://www.globant.com/"
 
   #- title : "Comunidad Aliada"
   #  slug : "gold"
