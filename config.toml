@@ -107,7 +107,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
   name = "Programa"
-  URL = "/sessions/mayo-2024"
+  URL = "/agenda"
   weight = 3
   
   #[[menu.main]]
