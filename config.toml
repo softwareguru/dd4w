@@ -97,7 +97,7 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
   name = "Speakers"
-  URL = "/speakers/archive"
+  URL = "/speakers"
   weight = 2
 
   [[menu.main]]
@@ -106,8 +106,8 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   weight = 4
 
   [[menu.main]]
-  name = "Ediciones previas"
-  URL = "/sessions"
+  name = "Programa"
+  URL = "/sessions/mayo-2024"
   weight = 3
   
   #[[menu.main]]

@@ -3,18 +3,19 @@ title: "Dinorah Tovar"
 date: 2021-10-22T14:44:19-05:00
 images: 
  - "/images/speakers/dinorah-tovar.png"
-designation : "Google Developer Expert-Android"
+designation : "Software Developer @ Arkham.finance"
 country: "mx"
 twitter: "https://twitter.com/DDinorahtovar"
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/dinorah-tovar/?originalSubdomain=mx"
 github: ""
 events: 
  - 2021
  - 2023-h2
+ - 2024-h1
 ---
 
-Dinorah is currently part of Arkham a Data and AI Company, In the past was Head of Mobile and Director of Engineering at Mexican Unicorn, Konfio.mx
+Dinorah actualmente forma parte de Arkham una empresa de Datos e IA, en el pasado fue Jefa de Móviles y Directora de Ingeniería en Unicornio Mexicano, Konfio.mx
 
-Before that, she led the mobile engineering teams of Lonely Planet and the Boston Consulting Group. She’s also a speaker at many tech conferences for the community, like Women Who Code, Droidcon, and Kotlin Everywhere.
+Antes de eso, dirigió los equipos de ingeniería móvil de Lonely Planet y Boston Consulting Group. También es oradora en muchas conferencias tecnológicas para la comunidad, como Women Who Code, Droidcon y Kotlin Everywhere.
 
 

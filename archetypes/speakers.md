@@ -9,6 +9,6 @@ twitter: ""
 linkedin: ""
 github: ""
 events: 
- - 2023-h2
+ - 2024-h1
 ---
 
