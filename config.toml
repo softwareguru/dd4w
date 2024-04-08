@@ -56,34 +56,30 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   #url = "/sedes-participantes"
   #weight = 4
 
-  #[[menu.main]]
-  #identifier = "sedes"
-  #name = "Sedes"
-  #weight = 4
+  [[menu.main]]
+  identifier = "sedes"
+  name = "Sedes"
+  weight = 4
 
-  #[[menu.main]]
-  #  identifier = "sedes1"
-  #  name = "Sedes Virtuales"
-  #  URL = "/sedes-virtuales"
-  #  parent = "sedes"
-  #  weight = 1
+  [[menu.main]]
+    identifier = "sedes1"
+    name = "Sedes Virtuales"
+    URL = "/sedes-virtuales"
+    parent = "sedes"
+    weight = 1
 
-  #[[menu.main]]
-  #  identifier = "sedes2"
-  #  name = "Sedes Participantes"
-  #  url = "/sedes-participantes"
-  #  parent = "sedes"
-  #  weight = 2
+  [[menu.main]]
+    identifier = "sedes2"
+    name = "Sedes Participantes"
+    url = "/sedes-participantes"
+    parent = "sedes"
+    weight = 2
 
   #[[menu.main]]
   #name = "Sesiones"
   #URL = "/sessions/octubre-2023"
   #weight = 2
 
-  [[menu.main]]
-  name = "Sedes Virtuales"
-  URL = "/sedes-virtuales/"
-  weight = 5
 
   #[[menu.main]]
   #name = "Reconocimientos SG4W"
@@ -99,11 +95,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
   name = "Speakers"
   URL = "/speakers"
   weight = 2
-
-  [[menu.main]]
-  name = "Registro"
-  URL = "/registro"
-  weight = 4
 
   [[menu.main]]
   name = "Programa"
