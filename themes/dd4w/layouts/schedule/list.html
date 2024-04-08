@@ -36,7 +36,7 @@
     {{ range .Params.blocks }}
     <div class="schedule-block">
         
-        <!--<h3><span id="date-{{ .id }}">{{ .time_start }}</span></h3>-->
+        <h3><span id="date-{{ .id }}">{{ .time_start }}</span></h3>
         <div class="session-list">
             {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_end" }}
             <div class="session-item {{ with .Params.format }}{{ . }}{{end}}">
@@ -76,7 +76,7 @@
       let parseDate1 = Date.parse(date1);
       let jsDate1 = new Date(parseDate1);
       var days = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
-      let adjString = days[jsDate1.getDay()]+", Octubre "+jsDate1.getDate()+"";
+      let adjString = days[jsDate1.getDay()]+", Mayo "+jsDate1.getDate()+"";
       document.getElementById(elemId).innerHTML=adjString;
   }
       {{ range .Params.blocks }}
