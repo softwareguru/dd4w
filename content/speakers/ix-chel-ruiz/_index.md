@@ -3,7 +3,7 @@ title: "Ix-chel Ruiz"
 date: 2021-10-22T15:39:25-05:00
 images: 
  - "/images/speakers/ix-chel-ruiz.png"
-designation : "PSenior software developer"
+designation : "Senior software developer"
 country: "mx"
 twitter: "https://twitter.com/ixchelruiz"
 linkedin: "http://linkedin.com/in/ixchelruiz"
