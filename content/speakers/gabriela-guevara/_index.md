@@ -2,7 +2,7 @@
 title: "Gabriela Guevara"
 date: 2024-04-05T16:24:52-06:00
 images: 
- - "/images/speakers/gabriela-guevara.jpg"
+ - "/images/speakers/gabriela-guevara.png"
 designation : "Docente Universitario @ Universidad Anáhuac México"
 country: "mx"
 twitter: ""
