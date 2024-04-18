@@ -39,6 +39,18 @@ sponsor_group:
 
       - logo : "/images/logos/getonboard.png"
         link : "https://www.getonbrd.com/" 
+      - logo : "/images/logos/WWCode-Merida.png"
+        link : "https://womenwhocode.com/network/merida" 
+      - logo : "/images/logos/Aws-Women.png"
+        link : "https://twitter.com/awswomencol" 
+      - logo : "/images/logos/CIEM.png"
+        link : "https://www.udem.edu.mx/es/institucional/ciem" 
+      - logo : "/images/logos/Mentoralia.png"
+        link : "https://www.mentoralia.org/" 
+      - logo : "/images/logos/Mujeres-IT.png"
+        link : "https://mujeresit.com/" 
+      - logo : "/images/logos/WIDS-Community.png"
+        link : "https://www.linkedin.com/company/women-in-data-science-power-and-engineering/?originalSubdomain=mx" 
 
   - title : "Organizado por"
     slug : "gold"
