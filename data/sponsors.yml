@@ -33,12 +33,12 @@ sponsor_group:
       - logo : "/images/logos/Globant-Logo.png"
         link : "https://www.globant.com/"
 
-  #- title : "Comunidad Aliada"
-  #  slug : "gold"
-  #  sponsor:
+  - title : "Comunidad Aliada"
+    slug : "gold"
+    sponsor:
 
-      #- logo : "/images/logos/.png"
-      #  link : "" 
+      - logo : "/images/logos/getonboard.png"
+        link : "https://www.getonbrd.com/" 
 
   - title : "Organizado por"
     slug : "gold"
