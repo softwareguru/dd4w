@@ -2,7 +2,7 @@
 title: "Alfonsina Lizardo"
 date: 2023-04-19T00:05:43-06:00
 images: 
- - "/images/speakers/2023-h1/alfonsina-lizardo.png"
+ - "/images/speakers/alfonsina-lizardo.png"
 designation : "Frontend Tech Lead @ Aaxis"
 country: "mx"
 twitter: ""

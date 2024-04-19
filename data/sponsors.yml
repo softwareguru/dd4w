@@ -49,6 +49,12 @@ sponsor_group:
         link : "https://mujeresit.com/" 
       - logo : "/images/logos/WIDS-Community.png"
         link : "https://www.linkedin.com/company/women-in-data-science-power-and-engineering/?originalSubdomain=mx" 
+      - logo : "/images/logos/AWS-mexico.png"
+        link : "https://www.linkedin.com/company/comunidad-de-embajadoras-cloud" 
+      - logo : "/images/logos/Csoftmty.png"
+        link : "https://csoftmty.org/" 
+      - logo : "/images/logos/Red-de-Mujeres-en-TIC.png"
+        link : "https://mujeres-tic.anuies.mx/" 
 
   - title : "Organizado por"
     slug : "gold"
