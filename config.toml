@@ -80,14 +80,14 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
     identifier = "reconocimientos2"
-    name = "RECONOCIMIENTOS"
+    name = "¿QUÉ SON?"
     url = "/reconocimientos"
     parent = "reconocimientos"
     weight = 1
 
   [[menu.main]]
     identifier = "reconocimientos1"
-    name = "VOTACIONES"
+    name = "VOTACIONES 2024"
     URL = "/votaciones-code4dei"
     parent = "reconocimientos"
     weight = 2
