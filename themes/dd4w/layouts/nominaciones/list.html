@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<section class="speaker-2 section">
+  <div class="container">
+    <div class="lead">
+      {{ .Content }}
+    </div>
+
+    <h1 class="text-center">Líder Emergente</h1>
+    <br>
+    <div class="speaker-strip">
+      {{ range .Data.Pages.ByTitle }}
+      {{ if in .Params.nominacion "lider" }}
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="{{.Permalink}}">
+              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+            <p>{{ .Params.Designation}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+    <br>
+    <h1 class="text-center">Sororidad</h1>
+    <br>
+    <div class="speaker-strip">
+      {{ range .Data.Pages.ByTitle }}
+      {{ if in .Params.nominacion "sororidad" }}
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="{{.Permalink}}">
+              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
+            <p>{{ .Params.Designation}}</p>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+
+    <br>
+    <h1 class="text-center">Votaciones</h1>
+  <div class="d-flex justify-content-center">
+
+      
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScp1W2YCtlcekmE_02ucUssknqDhLpqYdzn1cNR6MsjuIGcQQ/viewform?embedded=true" width="640" height="1006" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+  </div>
+</section>
+ 
+{{ end }}

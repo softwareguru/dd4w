@@ -18,6 +18,7 @@ googleAnalytics = "GTM-MXJFH7W"
 tag = "tags"
 category = "categories"
 speaker = "speakers"
+nominaciones = "nominaciones"
 
 # output
 [outputs]
@@ -51,10 +52,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
-  #[[menu.main]]
-  #name = "Sedes Participantes"
-  #url = "/sedes-participantes"
-  #weight = 4
 
   [[menu.main]]
   identifier = "sedes"
@@ -63,17 +60,38 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
     identifier = "sedes1"
-    name = "Sedes Virtuales"
+    name = "SEDES VIRTUALES"
     URL = "/sedes-virtuales"
     parent = "sedes"
     weight = 1
 
   [[menu.main]]
     identifier = "sedes2"
-    name = "Sedes Participantes"
+    name = "SEDES PARTICIPANTES"
     url = "/sedes-participantes"
     parent = "sedes"
     weight = 2
+
+
+  [[menu.main]]
+  identifier = "reconocimientos"
+  name = "Reconocimeintos Code 4 DEI"
+  weight = 5
+
+  [[menu.main]]
+    identifier = "reconocimientos2"
+    name = "RECONOCIMIENTOS"
+    url = "/reconocimientos"
+    parent = "reconocimientos"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "reconocimientos1"
+    name = "VOTACIONES"
+    URL = "/votaciones-code4dei"
+    parent = "reconocimientos"
+    weight = 2
+
 
   #[[menu.main]]
   #name = "Sesiones"
@@ -196,7 +214,7 @@ name = "Sesiones"
 link = "/sessions/"
 
 [[params.footer_previous]]
-name = "Reconocimientos SG4W"
+name = "Reconocimientos CODE 4 DEI"
 link = "/reconocimientos"
 
 [[params.footer_contact_us]] 
