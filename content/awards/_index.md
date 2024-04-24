@@ -6,7 +6,7 @@ layout: allawards
 draft: false
 ---
 
-A  lo largo de 8 años, [Code 4 DEI](https://code4dei.com/) (anteriormente SG 4 Women) ha apoyado la participación de las mujeres en las tecnologías de la información. Y una forma de hacerlo ha sido mediante Dev Day 4 Women, el evento que desarrolla una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEAM.
+A  lo largo de 8 años, la iniciativa [Code 4 DEI](https://code4dei.com/) (anteriormente SG 4 Women) ha apoyado la participación de las mujeres en las tecnologías de la información. Y una forma de hacerlo ha sido mediante Dev Day 4 Women, el evento que desarrolla una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEAM.
 
 Durante todo este tiempo, hemos podido presenciar el crecimiento de muchas mujeres, ahora líderes y ejemplos a seguir, así como el desarrollo de iniciativas y organizaciones comprometidas por impulsar a las mujeres en esta industria. Por lo anterior, en 2020 lanzó por primera vez los Reconocimientos Code 4 DEI, con los que busca reconocer y aplaudir el esfuerzo, liderazgo y participación de las mujeres en las Tecnologías de la Información (TI).
 Actualmente existen tres categorías:
