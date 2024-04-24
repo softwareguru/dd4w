@@ -2,10 +2,10 @@
 title: "Hanna Oktaba"
 date: 2022-10-24T19:29:19-05:00
 images: 
- - "/images/speakers/2022-h2/hanna-oktaba.jpg"
+ - "/images/speakers/hanna-oktaba.png"
 designation : "Profesora de informática en la Universidad Nacional Autónoma de México y directora técnica de Competisoft"
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/hannaoktaba"
 linkedin: ""
 github: ""
 year: "2022-h2"

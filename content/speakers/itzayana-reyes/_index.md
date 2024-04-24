@@ -5,7 +5,7 @@ images:
  - "/images/speakers/itzayana-reyes.png"
 designation : "Staff Software Engineer @ BetterCloud"
 country: "mx"
-twitter: ""
+twitter: "https://twitter.com/itzareyesmx"
 linkedin: ""
 github: ""
 events: 

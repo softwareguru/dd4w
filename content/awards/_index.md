@@ -51,9 +51,116 @@ Primero, te invitamos a [conocer a las candidatas](/votaciones-code4dei) para co
 
 Como hemos mencionado, el Comité Code 4 DEI está conformado por mujeres que han recibido este reconocimiento en alguna edición anterior. El Comité 2024 está conformado por: 
 
-
-<img src="/images/comite.png" class="img-fluid mx-auto d-block" >
 <br>
+
+<div class="speaker-strip">
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/hanna-oktaba/">
+              <img src="/images/speakers/hanna-oktaba.png" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/hanna-oktaba/">Dra. Hanna Oktaba</a></h4>
+          </div>
+        </div>
+</div>
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/mariana-perez-vargas">
+              <img src="/images/speakers/mariana-perez-vargas.png" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/mariana-perez-vargas">Mariana Perez Vargas</a></h4>
+          </div>
+        </div>
+</div>
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/saiph-savage">
+              <img src="/images/speakers/saiph-savage.png" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/saiph-savage">Dr. Saiph Savage</a></h4>
+          </div>
+        </div>
+</div>
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/mara-ruvalcaba">
+              <img src="/images/speakers/2023-h1/mara.png" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/mara-ruvalcaba">Mara Ruvalcaba</a></h4>
+          </div>
+        </div>
+</div>
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/sagrario-menese/">
+              <img src="/images/speakers/sagrario-menese.png" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/sagrario-menese/">Sagrario Menese</a></h4>
+          </div>
+        </div>
+</div>
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/griz-ancona/">
+              <img src="/images/speakers/griz-ancona.jpg" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/griz-ancona/">Grisel Ancona</a></h4>
+          </div>
+        </div>
+</div>
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/itzayana-reyes/">
+              <img src="/images/speakers/itzayana-reyes.png" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/itzayana-reyes/">Itza Reyes</a></h4>
+          </div>
+        </div>
+</div>
+
+<div class="speaker-item">
+        <div class="speaker-block">
+          <div class="headshot-box">
+            <a href="/speakers/maria-isabel-florez/">
+              <img src="/images/speakers/maria-isabel-florez.png" class="img-fluid rounded-circle shadow">
+            </a>
+          </div>
+          <div class="speaker-info text-center">
+            <h4 class="mb-0 mt-3"><a href="/speakers/maria-isabel-florez/">Maria Isabel Florez</a></h4>
+          </div>
+        </div>
+</div>
+</div>
+
+<br><br>
 
 ### ¿Cuándo se entregarán los reconocimientos?
 
