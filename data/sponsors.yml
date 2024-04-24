@@ -15,6 +15,8 @@ sponsor_group:
         link : "https://www.edenred.mx/"
       - logo : "/images/logos/Softtek.png"
         link : "https://softtek.com/jobs"
+      - logo : "/images/logos/pepsico.png"
+        link : "https://www.pepsicojobs.com/main?lang=es-MX"
 
   - title : "Gold"
     slug : "gold"
