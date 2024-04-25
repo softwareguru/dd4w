@@ -93,6 +93,19 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     weight = 2
 
 
+  [[menu.main]]
+  identifier = "asistentes"
+  name = "ASISTENTES"
+  weight = 6
+
+  [[menu.main]]
+    identifier = "asistentes1"
+    name = "OPORTUNIDADES"
+    url = "/oportunidades"
+    parent = "asistentes"
+    weight = 1
+
+
   #[[menu.main]]
   #name = "Sesiones"
   #URL = "/sessions/octubre-2023"

@@ -3,7 +3,7 @@ title: "Mercedes Quintero Martinez"
 date: 2024-04-23T11:01:31-06:00
 images: 
  - "/images/nominadas/mercedes-quintero-martinez.png"
-designation : "Ceo Qualitas test team"
+designation : "Socia y CEO de Abstracta Colombia. Founder de Qualitas Test Team"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/mercedesquinterom/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
