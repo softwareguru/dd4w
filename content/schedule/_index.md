@@ -10,7 +10,7 @@ blocks:
     language: 
     time_start: 2024-05-08T10:08:36-06:00 
 
-  - id: h1-b-2024
+  - id: h1-bb-2024
     info: Sesiones confirmadas
     language: 
     time_start: 2024-05-09T10:08:36-06:00 
