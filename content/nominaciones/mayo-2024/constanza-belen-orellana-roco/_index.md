@@ -1,5 +1,5 @@
 ---
-title: "Constanza Belen Orellana Rocco"
+title: "Constanza Belen Orellana Roco"
 date: 2024-04-23T10:48:49-06:00
 images: 
  - "/images/nominadas/constanza-belen-orellana-rocco.png"
