@@ -100,8 +100,8 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[menu.main]]
     identifier = "asistentes1"
-    name = "OPORTUNIDADES"
-    url = "/oportunidades"
+    name = "VACANTES"
+    url = "/vacantes"
     parent = "asistentes"
     weight = 1
 

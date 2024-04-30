@@ -62,7 +62,9 @@ sponsor_group:
       - logo : "/images/logos/redes-de-mujeres-2.png"
         link : "https://anuies-tic.anuies.mx/web/red-de-mujeres-en-tic/" 
       - logo : "/images/logos/redes-de-mujeres-1.png"
-        link : "https://anuies-tic.anuies.mx/web/red-de-mujeres-en-tic/" 
+        link : "https://anuies-tic.anuies.mx/web/red-de-mujeres-en-tic/"
+      - logo : "/images/logos/olimpiada-de-informatica.png"
+        link : "https://omioaxaca.org/"
 
   - title : "Organizado por"
     slug : "gold"
