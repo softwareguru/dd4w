@@ -1,5 +1,5 @@
 ---
-title: "Laura Penagos Cordero"
+title: "Yareni Penagos Cordero"
 date: 2024-04-05T16:23:31-06:00
 images: 
  - "/images/speakers/laura-penagos-cordero.jpg"
