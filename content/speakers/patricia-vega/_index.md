@@ -2,7 +2,7 @@
 title: "Patricia Vega"
 date: 2024-05-05T02:37:12-06:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/patricia-vega.png"
 designation : "IT Strategy & Transformation Sr Manager @ PepsiCo"
 country: "mx"
 twitter: ""

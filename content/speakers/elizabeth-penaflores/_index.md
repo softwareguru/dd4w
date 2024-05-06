@@ -2,7 +2,7 @@
 title: "Elizabeth Peñaflores"
 date: 2024-05-05T02:31:06-06:00
 images: 
- - "/images/speakers/speaker.jpg"
+ - "/images/speakers/elizabeth-penaflores.png"
 designation : "Enterprise Solutions Sr Manager @ PepsiCo"
 country: "mx"
 twitter: ""
