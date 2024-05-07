@@ -103,7 +103,15 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     name = "VACANTES"
     url = "/vacantes"
     parent = "asistentes"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "asistentes2"
+    name = "KIT VIRTUAL"
+    url = "/kitvirtual"
+    parent = "asistentes"
     weight = 1
+
 
 
   #[[menu.main]]

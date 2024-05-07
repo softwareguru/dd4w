@@ -5,9 +5,9 @@
     <div class="lead">
       {{ .Content }}
     </div>
-    <div class="speaker-strip">
+    <div class="speaker-strip ">
       {{ range .Data.Pages.ByTitle }}
-      <div class="speaker-item">
+      <div class="speaker-item shadow p-4 bg-white" style="border-radius: 30px;">
         <div class="speaker-block">
           <div class="headshot-box">
             <a target="_blank" href="{{ .Params.link }}">
