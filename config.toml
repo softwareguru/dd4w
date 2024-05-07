@@ -54,23 +54,9 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
 
   [[menu.main]]
-  identifier = "sedes"
-  name = "Sedes"
-  weight = 4
-
-  [[menu.main]]
-    identifier = "sedes1"
-    name = "SEDES VIRTUALES"
-    URL = "/sedes-virtuales"
-    parent = "sedes"
-    weight = 1
-
-  [[menu.main]]
-    identifier = "sedes2"
-    name = "SEDES PARTICIPANTES"
-    url = "/sedes-participantes"
-    parent = "sedes"
-    weight = 2
+  name = "SEDES"
+  URL = "/sedes-participantes"
+  weight = 3
 
 
   [[menu.main]]
