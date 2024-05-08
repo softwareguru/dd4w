@@ -169,7 +169,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Registro"
+label = "Live"
 link = "/registro"
 
 
