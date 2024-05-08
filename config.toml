@@ -170,7 +170,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [params.navigation_button]
 enable = true
 label = "Live"
-link = "/registro"
+link = "https://us.airmeet.com/e/1b33dcf0-cb50-11ee-a8ca-376b1591f472"
 
 
 ############################# social icon ############################
