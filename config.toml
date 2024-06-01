@@ -142,7 +142,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [params.navigation_button]
 enable = true
 label = "Dev Day 4 Woman IA"
-link = "http://localhost:1313/ia/"
+link = "https://devday4w.com/ia/"
 
 
 ############################# social icon ############################
