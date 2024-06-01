@@ -36,7 +36,7 @@
 
           {{ if .Site.Params.navigation_button.enable }}
           <li class="nav-item ml-3">
-            <a id="nav-button" target="_blank" href="{{ .Site.Params.navigation_button.link | absURL }}"
+            <a id="nav-button" href="{{ .Site.Params.navigation_button.link | absURL }}"
             class="nav-link" style="background-color:#EEFFA1; border-radius: 20px; color: #9056e9 !important; font-weight: 600;">{{ .Site.Params.navigation_button.label }}</a>
           </li>
           {{ end }}

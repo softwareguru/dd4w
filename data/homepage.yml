@@ -13,8 +13,8 @@ banner:
     link : "/registro"
   button2:
     enable : true
-    label : "Registro abierto"
-    link : "/registro"
+    label : "Ver sesiones anteriores"
+    link : "/sessions"
 ############################## Event ##############################
 event_info:
   enable : true

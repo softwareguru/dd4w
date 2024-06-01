@@ -2,13 +2,17 @@
 title: "Elizabeth Fuentes Leone"
 date: 2023-05-09T12:09:44-06:00
 images: 
- - "/images/speakers/elizabeth-fuentes.png"
+ - "/images/speakers/elizabeth-fuentes.jpg"
 designation : "AWS Developer Advocate"
 country: "mx"
-twitter: ""
+twitter: "https://x.com/ElizabethFue12 "
 linkedin: "https://www.linkedin.com/in/lizfue/"
+instagram: "https://www.instagram.com/elifue.tech/ "
 github: ""
-year: "2023-h1"
+events:
+ - 2023-h1
+ - 2024-IA
+ia: true
 ---
 
-Trabajo en AWS como Developer Advocate, tengo experiencia en Data Analytics y Machine Learning y me encanta ayudar a los desarrolladores a aprender mientras crean aplicaciones que ayuden a solucionar problemas. Pienso que crecemos más rápido cuando estamos juntos, la mejor forma de ayudar a otros a crecer es entregándole la herramientas y enseñarle como usarlas, recordarles que siempre nos podemos superar a nosotros mismos y que no hay que limitar los sueños ni lo que somos capaces de lograr.
+Developer Advocate en AWS, especializada en Data Analytics y Machine Learning. Me apasiona ayudar a los desarrolladores a aprender mientras ponen en práctica lo aprendido construyendo soluciones. Disfruto metiendo las manos y enfrentando problemas del mundo real de manera colaborativa. Mi objetivo es explicar conceptos complejos de forma sencilla e inspirar a seguir aprendiendo. Comparto mi conocimiento en conferencias, tutoriales y recursos en línea, empoderando a los desarrolladores para alcanzar su máximo potencial.

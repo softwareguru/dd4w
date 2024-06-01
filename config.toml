@@ -52,94 +52,66 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 ############################## navigation ###############################
 [menu]
 
+[ languages.es]
 
-  [[menu.main]]
+
+
+
+  [[languages.es.menu.main]]
   name = "SEDES"
   URL = "/sedes-participantes"
   weight = 3
 
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
   identifier = "reconocimientos"
   name = "Reconocimeintos Code 4 DEI"
   weight = 5
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
     identifier = "reconocimientos2"
     name = "¿QUÉ SON?"
     url = "/reconocimientos"
     parent = "reconocimientos"
     weight = 1
 
-  [[menu.main]]
+  [[languages.es.menu.main]]
     identifier = "reconocimientos1"
     name = "VOTACIONES 2024"
     URL = "/votaciones-code4dei"
     parent = "reconocimientos"
     weight = 2
 
+  [[languages.es.menu.main]]
+  name = "SESIONES ANTERIORES"
+  URL = "/sessions/mayo-2024"
+  weight = 4
 
-  [[menu.main]]
-  identifier = "asistentes"
-  name = "ASISTENTES"
-  weight = 6
-
-  [[menu.main]]
-    identifier = "asistentes1"
-    name = "VACANTES"
-    url = "/vacantes"
-    parent = "asistentes"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "asistentes2"
-    name = "KIT VIRTUAL"
-    url = "/kitvirtual"
-    parent = "asistentes"
-    weight = 1
-
-
-
-  #[[menu.main]]
-  #name = "Sesiones"
-  #URL = "/sessions/octubre-2023"
-  #weight = 2
-
-
-  #[[menu.main]]
-  #name = "Reconocimientos SG4W"
-  #URL = "/reconocimientos"
-  #weight = 3
-
-  #[[menu.main]]
-  #name = "Agenda"
-  #URL = "/agenda"
-  #weight = 1
-
-  [[menu.main]]
-  name = "Speakers"
-  URL = "/speakers"
-  weight = 2
-
-  [[menu.main]]
-  name = "Programa"
-  URL = "/agenda"
-  weight = 3
-  
-  #[[menu.main]]
-  #name = "Networking"
-  #URL = "/networking"
-  #weight = 4
-
-  #[[menu.main]]
-  #name = "Kit Virtual"
-  #URL = "/kitvirtual"
-  #weight = 5
-
-  [[menu.main]]
+  [[languages.es.menu.main]]
   name = "FAQs"
   URL = "/faq"
   weight = 6
+
+
+
+  [languages.ia]
+
+  [[languages.ia.menu.main]]
+    name = "SPEAKERS"
+    URL = "/ia/speakers"
+    weight = 2
+
+  [[languages.ia.menu.main]]
+    name = "Agenda"
+    URL = "/ia/agenda"
+    weight = 1
+
+
+  [[languages.ia.menu.main]]
+    name = "Registro"
+    URL = "/ia/registro"
+    weight = 3
+
 
 
 #################### default parameters ################################
@@ -169,8 +141,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Live"
-link = "https://us.airmeet.com/e/1b33dcf0-cb50-11ee-a8ca-376b1591f472"
+label = "Dev Day 4 Woman IA"
+link = "http://localhost:1313/ia/"
 
 
 ############################# social icon ############################

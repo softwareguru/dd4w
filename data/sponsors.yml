@@ -2,69 +2,13 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
-  - title : "Platinum"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/mobik.png"
-        link : "https://www.mobiik.com/"
-      - logo : "/images/logos/Twilio.png"
-        link : "https://www.twilio.com/en-us"
-      - logo : "/images/logos/MS-Azure_logo.png"
-        link : "https://azure.microsoft.com/es-es/"
-      - logo : "/images/logos/Edenred.png"
-        link : "https://www.edenred.mx/"
-      - logo : "/images/logos/Softtek.png"
-        link : "https://softtek.com/jobs"
-
-  - title : "Gold"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/contpaqi-logo.png"
-        link : "https://www.contpaqi.com/" 
-      - logo : "/images/logos/pepsico.png"
-        link : "https://www.pepsicojobs.com/main?lang=es-MX"
-
-      #- logo : "/images/logos/.png"
-      #  link : "" 
-
-  - title : "Silver"
-    slug : "gold"
-    sponsor:
-      - logo : "/images/logos/buk.png"
-        link : "https://www.buk.cl/quienes-somos" 
-      - logo : "/images/logos/Globant-Logo.png"
-        link : "https://www.globant.com/"
-
   - title : "Comunidad Aliada"
     slug : "gold"
     sponsor:
 
-      - logo : "/images/logos/getonboard.png"
-        link : "https://www.getonbrd.com/" 
-      - logo : "/images/logos/Aws-Women.png"
-        link : "https://twitter.com/awswomencol" 
-      - logo : "/images/logos/CIEM.png"
-        link : "https://www.udem.edu.mx/es/institucional/ciem" 
-      - logo : "/images/logos/Mentoralia.png"
-        link : "https://www.mentoralia.org/" 
-      - logo : "/images/logos/Mujeres-IT.png"
-        link : "https://mujeresit.com/" 
-      - logo : "/images/logos/WIDS-Community.png"
-        link : "https://www.linkedin.com/company/women-in-data-science-power-and-engineering/?originalSubdomain=mx" 
       - logo : "/images/logos/AWS-mexico.png"
         link : "https://www.linkedin.com/company/comunidad-de-embajadoras-cloud" 
-      - logo : "/images/logos/Csoftmty.png"
-        link : "https://csoftmty.org/" 
-      - logo : "/images/logos/redes-de-mujeres-3.png"
-        link : "https://anuies-tic.anuies.mx/web/red-de-mujeres-en-tic/" 
-      - logo : "/images/logos/redes-de-mujeres-4.png"
-        link : "https://anuies-tic.anuies.mx/web/red-de-mujeres-en-tic/"
-      - logo : "/images/logos/redes-de-mujeres-2.png"
-        link : "https://anuies-tic.anuies.mx/web/red-de-mujeres-en-tic/" 
-      - logo : "/images/logos/redes-de-mujeres-1.png"
-        link : "https://anuies-tic.anuies.mx/web/red-de-mujeres-en-tic/"
-      - logo : "/images/logos/olimpiada-de-informatica.png"
-        link : "https://omioaxaca.org/"
+
 
   - title : "Organizado por"
     slug : "gold"

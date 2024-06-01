@@ -1,0 +1,187 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data }}
+
+<!-- banner -->
+
+{{ with $data.homepage.banner }}
+
+<section class="">
+  <div class="row" style="background-image: url(/images/DD4W24-ia-bg.png); background-size: cover; background-position: center; margin-top: -40px;">
+    <div class="col-md-5 inicio">  
+
+    </div>
+
+    <div class="col-md-7">
+      <br><br><br>
+      <div class="photo-ia"> 
+        <img src="/images/DD4W24-IA.png" class="img-fluid">
+      </div>
+      
+      <div class="container text-align">
+        <div class="info">
+          <p class="slogan1 ia-slogan">Mujeres que desarrollan</p>
+          <p class="slogan2">software grandioso</p>
+          <p class="fechas">JULIO 10, 2024</p>
+          <p class="forma-evento">EVENTO ONLINE Y GRATUITO</p>
+  
+  
+          <a href="/ia/registro" style="color: white; background-color: #EEFFA1 !important; border: none !important; color: #9056e9 !important; font-weight: 600" class="btn btn-hero2 btn-rounded mb-4 button1">REGISTRO ABIERTO</a>
+  
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
+
+<!-- /banner -->
+
+<!-- event_info  -->
+{{ $data := index .Site.Data }}
+
+{{ with $data.homepage.event_info }}
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+</style>
+
+<section class="section event-info" >
+
+  <img src="/images/brillo-rosa.png" class="event-info-img">
+
+  <div class="container">  
+    <h1 class="lines-effect titulo" style="text-align: center;">{{ .title }}</h1>
+    <div class="event-info">
+      <div>
+        <div class="globo globo-1">
+          <p>Dev Day 4 Women es un evento dirigido a personas que se identifican como mujeres y que están involucradas en el desarrollo de software.</p>
+        </div>
+        <div class="globo globo-2">
+          <p>Gracias a la gran respuesta de la convocatoria de ponencias de la edición online de 2024, decidimos realizar, por primera vez, una edición especial de Dev Day 4 Women enfocado en el tema del momento: Inteligencia Artificial.</p>
+        </div>
+        <div class="globo globo-3">
+          <p>En esta edición, el programa presentará charlas técnicas donde se hablará de la IA tradicional, programada para optimizar y hacer más eficientes los procesos existentes, y de la IA generativa, encargada de la creación de contenidos y diseños completamente nuevos.</p>
+        </div>
+           
+
+      </div>
+    </div> 
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /event_info -->
+
+
+<!-- feature -->
+{{ if $data.homepage.feature.enable }}
+{{ with $data.homepage.feature }}
+<section id="section-feature">
+  <div class="container">
+    <div class="row">
+      {{ range .feature_item }}
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-box">
+          <i class="{{ .icon }}"></i>
+          <h4 class="mt-3 mb-3">{{ .name | markdownify }}</h4>
+          <div class="divider"></div>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /feature -->
+
+<!-- schedule -->
+{{ if $data.homepage.schedule.enable }}
+{{ partial "schedule.html" . }}
+{{ end }}
+<!-- /schedule -->
+
+
+
+<!-- speaker -->
+{{ if $data.homepage.speakers.enable }}
+<section class="section speakers">
+  <div class="container">
+    {{ with $data.homepage.speakers }}
+    {{ partial "section_title.html" . }}
+    {{ end }}
+    <div class="speakers-wrapper">
+      {{ range (where (where .Site.RegularPages.ByTitle "Type" "speakers") ".Params.featured" true) }}
+
+      <div class="speaker">
+        <a href="{{ .Permalink }}">
+          <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}" class="img-fluid rounded-circle">
+        </a>
+        <h4 class="mb-0 mt-3">
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h4>
+        <p>{{ .Params.Designation }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /speaker -->
+
+
+
+<!-- sponsor -->
+{{ if $data.sponsors }}
+<section class="section-sponsors section" style="margin-top: -65px;">
+    <br><br>
+    <div class="container">
+      <center>
+        <h1 class="titulo-patrocinadores">Patrocinadores</h1>
+      </center>
+      <br><br>
+        {{ $data := index .Site.Data }}
+        {{ with $data.sponsors }}
+        {{ range .sponsor_group }}
+        <div class="row mb-5">
+            <div class="heading col-lg-8">
+              {{ with .title }}
+              <h2 style="margin-bottom: -20%; color: black;">{{ . }}</h2>
+           
+                {{ end}}
+            </div>
+            <br><br><br>
+            <div class="sponsor-strip {{ .slug }}" >
+                {{ range .sponsor }}
+                <div  class="sponsor-item" >
+                    {{ if and (ne .link "") (ne .link "#") }}
+                    <a href="{{ .link }}" target="_blank"><img src="{{ .logo | relURL }}" alt="" class="img-fluid"></a>
+                    {{ else }}
+                    <img src="{{ .logo | relURL }}" alt="" class="img-fluid">
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            <br>
+        </div>
+        {{ end }}
+        {{ if .sponsorship.enable }}
+        {{ with .sponsorship }}
+        <div class="col-lg-12">
+            <a href="{{ .link | safeURL }}" class="btn btn-banner2" target="_blank">{{ .label }} <i
+                    class="fas fa-arrow-circle-right"></i></a>
+        </div>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+<!-- /sponsor -->
+
+
+{{ end }}
+

@@ -8,6 +8,9 @@ country:
 twitter: https://twitter.com/yamilaguilar?lang=en
 linkedin: https://www.linkedin.com/in/yamil-aguilar-371b382b/?originalSubdomain=mx 
 github: 
+events:
+ - 2024-IA
+ia: true
 ---
 
 Yamil Aguilar, es Licenciada en Informática del Instituto Tecnológico de Culiacán y obtuvo el grado de maestría en Administración Financiera en el Instituto Tecnológico de Monterrey.
