@@ -3,7 +3,7 @@ title: "Elsa Ramírez"
 date: 2024-06-03T14:20:57-06:00
 images: 
  - "/images/speakers/elsa-ramirez.png"
-designation : ""
+designation : "Directora de Productos Digitales @ Praxis"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/elsaramirezhernandez/"

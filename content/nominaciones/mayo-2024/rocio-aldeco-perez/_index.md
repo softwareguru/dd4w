@@ -3,7 +3,7 @@ title: "Rocío Aldeco Pérez"
 date: 2024-06-03T14:21:47-06:00
 images: 
  - "/images/speakers/rocio-aldeco-Perez.png"
-designation : ""
+designation : "Profesora @ Universidad Nacional Autónoma de México"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/rocio-aldeco/"

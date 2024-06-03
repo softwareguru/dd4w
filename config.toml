@@ -77,8 +77,8 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[languages.es.menu.main]]
     identifier = "reconocimientos1"
-    name = "VOTACIONES 2024"
-    URL = "/votaciones-code4dei"
+    name = "RECONOCIMIENTOS 2024"
+    URL = "/reconocimientos-2024"
     parent = "reconocimientos"
     weight = 2
 
