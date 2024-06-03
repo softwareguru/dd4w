@@ -141,7 +141,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Dev Day 4 Woman IA"
+label = "Dev Day 4 Women IA"
 link = "https://devday4w.com/ia/"
 
 

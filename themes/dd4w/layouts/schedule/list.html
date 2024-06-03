@@ -33,15 +33,16 @@
     -->
     {{ range .Params.blocks }}
     <div class="schedule-block">
-        
+
         <h3><span id="date-{{ .id }}">{{ .time_start }}</span></h3>
         <div class="session-list">
             {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_end" }}
             <div class="session-item {{ with .Params.format }}{{ . }}{{end}}">
         
-                <div id="time-{{.Params.id}}" class="session-time">
+                <div id="" class="session-time">
                 </div>
                    
+                <!--time-{{.Params.id}}-->
                 <div class="session-info">
                     <h4><a class="session-title" data-toggle="collapse" href="#abs-{{.Params.id}}" style="color: white;">{{ .Params.title }}</a>{{ with .Params.language }}{{ if eq . "chinese" }} (Chinese){{ end }}{{ end }}</h4>
                     {{ with .Params.speakers }}<p class="speakers-list" style="color: white;">Por {{ delimit . ", " " & " }}</p>{{ end }}
