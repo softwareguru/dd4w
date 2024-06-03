@@ -8,7 +8,7 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/mercedesquinterom/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
 github: ""
-nominacion: lider
+nominacion: lider-ganadoras
 ---
 
 Ha sido Fundadora y CEO de Qualitas Test Team durante 10 años, empresa fundada en Popayán Cauca Colombia. Con gran orgullo, después de un gran camino recorrido y de trabajar como aliados estratégicos, se fusionaron con Abstracta, una empresa que comparte su misión y valores. Decisión que la lleva actualmente a ser Founder, Socia y CEO de Abstracta Colombia.

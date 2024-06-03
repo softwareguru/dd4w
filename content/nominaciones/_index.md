@@ -1,7 +1,6 @@
 ---
-title: "VOTACIONES CODE 4 DEI"
+title: "RECONOCIMIENTOS 2024"
 date: 2024-04-23T10:00:45-06:00
 draft: false
-url: /votaciones-code4dei
+url: /reconocimientos-2024
 ---
-

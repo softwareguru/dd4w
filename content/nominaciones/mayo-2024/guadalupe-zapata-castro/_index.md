@@ -8,7 +8,7 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/lupita-zapata-38ba64234/?originalSubdomain=mx "
 github: ""
-nominacion: lider
+nominacion: lider-ganadoras
 ---
 
 Líder, creadora y fundadora de la iniciativa de Divulgación Científica “+ConCiencia”, coordinadora Estatal SOLACYT y embajadora de Women Techmaker, iniciativa de Google. Activista por los derechos de las maternidades científicas. Alumna asociada del Instituto de Ciencias Nucleares de la UNAM con tesis en el Laboratorio de Instrumentación Espacial sobre diseño de robot lunar.
