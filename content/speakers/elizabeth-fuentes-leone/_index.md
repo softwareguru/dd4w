@@ -5,7 +5,7 @@ images:
  - "/images/speakers/elizabeth-fuentes.jpg"
 designation : "AWS Developer Advocate"
 country: "mx"
-twitter: "https://x.com/ElizabethFue12 "
+twitter: "https://x.com/ElizabethFue12"
 linkedin: "https://www.linkedin.com/in/lizfue/"
 instagram: "https://www.instagram.com/elifue.tech/ "
 github: ""

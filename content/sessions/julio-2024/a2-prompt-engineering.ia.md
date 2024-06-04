@@ -12,6 +12,6 @@ video:
 slides:
 ---
 
-"En esta emocionante charla, exploraremos el fascinante concepto del ""prompt engineering"", clave para desbloquear el potencial de la inteligencia artificial generativa. Aprenderemos qué es, su importancia y cómo utilizarlo efectivamente. Experimentaremos con Jupyter Notebooks, creando prompts y observando cómo los modelos de IA responden.
+En esta emocionante charla, exploraremos el fascinante concepto del ""prompt engineering"", clave para desbloquear el potencial de la inteligencia artificial generativa. Aprenderemos qué es, su importancia y cómo utilizarlo efectivamente. Experimentaremos con Jupyter Notebooks, creando prompts y observando cómo los modelos de IA responden.
 
-Asiste y aprende esta revolucionaria técnica que está transformando la interacción con los sistemas de IA generativa."
+Asiste y aprende esta revolucionaria técnica que está transformando la interacción con los sistemas de IA generativa.
