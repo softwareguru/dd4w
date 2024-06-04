@@ -10,6 +10,18 @@
       }
 }
 
+.event-info-img-hand{
+  width: 400px;
+  position: absolute; 
+  margin-top: -160px; 
+  margin-left: -50px;
+  z-index: -2; 
+
+  @media (max-width:861px) {
+      display: none;
+    }
+}
+
 .titulo{
     font-size: 3.2em;
     text-align: center;
