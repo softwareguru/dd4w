@@ -2,8 +2,16 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
+  - title : "Platinum"
+    slug : "platinum"
+    sponsor:
+
+      - logo : "/images/logos/mobik.png"
+        link : "https://mobiik.com/" 
+
+
   - title : "Comunidad Aliada"
-    slug : "gold"
+    slug : "platinum"
     sponsor:
 
       - logo : "/images/logos/AWS-mexico.png"
