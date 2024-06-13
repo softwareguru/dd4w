@@ -3,7 +3,7 @@ id: a8-como-crear-una-ciudadania-digital-en-la-era-de-la-ia
 title: "Cómo crear una ciudadanía digital en la era de la IA"
 slug: como-crear-una-ciudadania-digital-en-la-era-de-la-ia
 speakers:
- - Melany E
+ - Melany Estevez
 format: lighting
 block: h1-ia-2024
 time_start: 2024-07-10T13:30:00-06:00

@@ -1,5 +1,5 @@
 ---
-title: "Melany E"
+title: "Melany Estevez"
 date: 2024-05-30T12:26:56-06:00
 images: 
  - "/images/speakers/melany-e.jpg"

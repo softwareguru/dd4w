@@ -6,7 +6,7 @@ images:
 designation: QA Engineer
 country: 
 twitter: https://twitter.com/yamilaguilar?lang=en
-linkedin: https://www.linkedin.com/in/yamil-aguilar-371b382b/?originalSubdomain=mx 
+linkedin: https://www.linkedin.com/in/yamil-aguilar/ 
 github: 
 events:
  - 2024-IA
