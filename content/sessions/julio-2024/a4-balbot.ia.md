@@ -1,5 +1,5 @@
 ---
-id: a5-balbot
+id: a4-balbot
 title: "BalBot: Mi propio diseño de chatbot sobre temas de proporcionalidad"
 slug: balbot
 speakers:
@@ -7,7 +7,7 @@ speakers:
 format: session
 block: h1-ia-2024
 time_start: 2024-07-10T12:00:00-06:00
-time_end: 2024-07-10T12:30:00-06:00
+time_end: 2024-07-10T12:35:00-06:00
 video:
 slides:
 ---

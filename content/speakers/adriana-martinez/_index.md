@@ -13,5 +13,4 @@ events:
 ia: true
 ---
 
-Docente por más de 15 años. Maestra en administración. Imparto materia de informática y de administración, así como de ética profesional. Me gusta dar clases, He dado clases a alumnos de secundaria, preparatoria y ahora a licenciatura, esto me ha permitido avanzar en mi capacitación personal. Espero que este proyecto de Balbot sea de gran utilidad a los estudiantes que lo requieran,
-
+Docente por más de 15 años. Maestra en administración. Imparto materia de informática y de administración, así como de ética profesional. Me gusta dar clases, He dado clases a alumnos de secundaria, preparatoria y ahora a licenciatura, esto me ha permitido avanzar en mi capacitación personal.

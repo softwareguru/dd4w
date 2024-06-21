@@ -39,7 +39,7 @@
             {{ range sort (where (where $.Site.Pages "Section" "sessions") ".Params.block" .id ) ".Params.time_end" }}
             <div class="session-item {{ with .Params.format }}{{ . }}{{end}}">
         
-                <div id="" class="session-time">
+                <div id="time-{{.Params.id}}" class="session-time">
                 </div>
                    
                 <!--time-{{.Params.id}}-->

@@ -1,13 +1,13 @@
 ---
-id: a4-ia-en-la-investigacion
+id: a7-ia-en-la-investigacion
 title: "IA en la investigación: Riesgos, beneficios y desafíos"
 slug: /ia-en-la-investigacion
 speakers:
  - Sol Estrada
 format: session
 block: h1-ia-2024
-time_start: 2024-07-10T11:30:00-06:00
-time_end: 2024-07-10T12:00:00-06:00
+time_start: 2024-07-10T13:45:00-06:00
+time_end: 2024-07-10T14:20:00-06:00
 video:
 slides:
 ---

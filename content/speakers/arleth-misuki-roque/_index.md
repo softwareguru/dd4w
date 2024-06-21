@@ -13,5 +13,4 @@ events:
 ia: true
 ---
 
-Soy una estudiante en Ingeniería de software y minería de Datos en la Universidad Autónoma de Guadalajara y estoy emocionada de estar aquí hoy para hablarles sobre el fascinante mundo de los chatbots. Exploraremos cómo estos sistemas de inteligencia artificial están transformando la comunicación online, su impacto en diversas industrias y las posibilidades emocionantes que ofrecen para el futuro. ¡Vamos a sumergirnos juntos en el universo de los chatbots y descubrir su potencial ilimitado!
-
+Soy una estudiante en Ingeniería de software y minería de Datos en la Universidad Autónoma de Guadalajara y estoy emocionada de estar aquí hoy para hablarles sobre el fascinante mundo de los chatbots. Exploraremos cómo estos sistemas de inteligencia artificial están transformando la comunicación online, su impacto en diversas industrias y las posibilidades emocionantes que ofrecen para el futuro.

@@ -1,13 +1,13 @@
 ---
-id: a1-el-lado-oscuro-de-la-ia
+id: a6-el-lado-oscuro-de-la-ia
 title: "El lado oscuro de la IA"
 slug: /el-lado-oscuro-de-la-ia
 speakers:
  - Estephani Rivera Jaramillo
 format: session
 block: h1-ia-2024
-time_start: 2024-07-10T10:00:00-06:00
-time_end: 2024-07-10T10:30:00-06:00
+time_start: 2024-07-10T13:10:00-06:00
+time_end: 2024-07-10T13:45:00-06:00
 video:
 slides:
 ---
