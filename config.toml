@@ -106,12 +106,15 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     URL = "/ia/agenda"
     weight = 1
 
-
   [[languages.ia.menu.main]]
     name = "Registro"
     URL = "/ia/registro"
     weight = 3
 
+    [[languages.ia.menu.main]]
+    name = "FAQ"
+    URL = "/ia/faq"
+    weight = 4
 
 
 #################### default parameters ################################
