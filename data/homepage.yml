@@ -8,9 +8,9 @@ banner:
   where : "17 y 18 de Mayo de 2023 | Edicion Online | Gratuito"
   
   button1:
-    enable : false
-    label : "Registro abierto"
-    link : "/registro"
+    enable : true
+    label : "Edición Inteligencia Artificial"
+    link : "/ia"
   button2:
     enable : true
     label : "Ver sesiones anteriores"
