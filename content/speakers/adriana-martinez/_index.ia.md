@@ -2,7 +2,7 @@
 title: "Adriana Martinez"
 date: 2024-05-30T12:12:32-06:00
 images: 
- - "/images/speakers/adriana-martinez.jpg"
+ - "/images/speakers/adriana-martinez.png"
 designation : ""
 country: "mx"
 twitter: ""
