@@ -6,17 +6,12 @@ sponsor_group:
     slug : "platinum"
     sponsor:
 
+      - logo : "/images/logos/walmart-logo.png"
+        link : "https://careers.walmart.com//" 
       - logo : "/images/logos/mobik.png"
         link : "https://mobiik.com/" 
-
-
-  - title : "Comunidad Aliada"
-    slug : "platinum"
-    sponsor:
-
-      - logo : "/images/logos/AWS-mexico.png"
-        link : "https://www.linkedin.com/company/comunidad-de-embajadoras-cloud" 
-
+      - logo : "/images/logos/Edenred.png"
+        link : "https://www.edenred.mx/" 
 
   - title : "Organizado por"
     slug : "gold"

@@ -3,9 +3,9 @@ banner:
   enable : true
   title : "DEV DAY 4 WOMEN"
   img: "/images/images/DD4W.png" 
-  date_time: "17 y 18 de Mayo de 2023"
+  date_time: "29 de Octubre de 2024"
   venue : "Mujeres que desarrollan Software Grandioso"
-  where : "17 y 18 de Mayo de 2023 | Edicion Online | Gratuito"
+  where : "29 de Octubre de 2023 | Edicion Online | Gratuito"
   
   button1:
     enable : true
@@ -26,9 +26,10 @@ event_info:
 
     Este evento tiene como propósito es desarrollar una comunidad tecnológica donde las mujeres puedan aprender, inspirarse, conectarse y alentarse mutuamente para continuar sus carreras STEAM (Science, Technology, Engineering, Arts and Math, por sus siglas en inglés), a través de conferencias técnicas, pláticas sobre desarrollo profesional, experiencias de mujeres en la industria y actividades de networking.
 
+
   description2: >
 
-    A lo largo de 10 años, Dev Day 4 Women se ha convertido en la conferencia líder para mujeres. Cada año tenemos dos ediciones; en mayo del 2024 tenemos la edición online para toda lationamerica.
+    A lo largo de 10 años, Dev Day 4 Women se ha convertido en la conferencia líder para mujeres.
    
   #presented_by: Presentado por
   #image : "/images/logos/accenture-logo.png"
