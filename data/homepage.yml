@@ -9,12 +9,12 @@ banner:
   
   button1:
     enable : true
-    label : "Edición Inteligencia Artificial"
+    label : "EDICIÓN IA (JUL 10)"
     link : "/ia"
   button2:
     enable : true
-    label : "Ver sesiones anteriores"
-    link : "/sessions"
+    label : "EDICIÓN PRESENCIAL (OCT 29)"
+    link : "/registro"
 ############################## Event ##############################
 event_info:
   enable : true
