@@ -1,7 +1,7 @@
 ---
 id: a8-cuidadano-digital-en-la-era-de-la-ia
-title: "Cuidadano digital en la era de la IA"
-slug: cuidadano-digital-en-la-era-de-la-ia
+title: "Ciudadano digital en la era de la IA"
+slug: ciudadano-digital-en-la-era-de-la-ia
 speakers:
  - Melany Estevez
 format: lighting
