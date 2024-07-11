@@ -13,7 +13,7 @@ banner:
     link : "/ia"
   button2:
     enable : true
-    label : "EDICIÓN PRESENCIAL (OCT 29)"
+    label : "Regístrate"
     link : "/registro"
 ############################## Event ##############################
 event_info:
