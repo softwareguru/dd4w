@@ -9,8 +9,8 @@ banner:
   
   button1:
     enable : true
-    label : "EDICIÓN IA (JUL 10)"
-    link : "/ia"
+    label : "Envía tu propuesta"
+    link : "https://convoca.dev/dev-day-4-women-octubre-2024/cfp"
   button2:
     enable : true
     label : "Regístrate"
