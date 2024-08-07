@@ -10,26 +10,29 @@ Agradecemos que tu empresa / comunidad participe en este increíble evento, en l
 
 Fechas importantes
 
-* Evento: 8 y 9 de mayo
-* Convocatoria de Propuestas: Del 15 de febrero al 24 de marzo
+* Evento: 29 de mayo
+* Convocatoria de Propuestas: Del 10 de julio al 29 de agosto
+
+<br>
 
 ### Material de difusión
 
 Aquí puedes encontrar materiales para difusión en redes sociales con los que puedes comunicar:
 
 * Difusión general del evento
-  - <a href="https://drive.google.com/drive/folders/1HMC7kD-YXsSvAKsPMyW_t9MzpW_L2zry" target="_blank">Convocatoria de ponencias</a>
-  - <a href="https://drive.google.com/drive/folders/1aAF-bgXXpUHu6VuNcehacoicQaauOyLN" target="_blank">Contenido general del evento</a>
-  - <a href="https://drive.google.com/drive/folders/1GnJIOLMnni4qe7Z_ylgGvfFj1joEbP3X" target="_blank">Postales de speakers</a>
-* <a href="https://drive.google.com/drive/folders/1ky6ymb6PzqSqRpNKXye--ZHF4b6RpYX7" target="_blank">Patrocinadores</a>
-* <a href="https://drive.google.com/drive/folders/1s--D43rT2jsnquhotiQ_WPq-ZHshH6ck" target="_blank">Sedes Virtuales</a>
-* <a href="https://drive.google.com/drive/folders/13KvsWCgqwFhUx2NqHqabZKt7KdoOADbD" target="_blank">Comunidades Aliadas</a>
+  - <a href="https://drive.google.com/drive/folders/1pTc2b30Zzd2LgA3dSqM4LtC_KbfDiszm?usp=sharing" target="_blank">Convocatoria de ponencias</a>
+  - <a href="https://drive.google.com/drive/folders/1pUY-JWbdeP1v3X3yQcMYVh6vLDR_p3oY?usp=drive_link" target="_blank">Contenido general del evento</a>
+  - <a href="https://drive.google.com/drive/folders/1vG7cVDm_LzwZhNwQu-wfvZ2d4xdNvz4J?usp=drive_link" target="_blank">Postales de speakers</a>
+* <a href="https://drive.google.com/drive/folders/1_ckYjpuLPrOQpHkdEYFZnNYDrkly3Sv0?usp=drive_link" target="_blank">Patrocinadores</a>
+* <a href="https://drive.google.com/drive/folders/1VqEb0Aui4DvPq_VTSIIuk2pq5wkIsjzo?usp=drive_link" target="_blank">Comunidades Aliadas</a>
 
-¿No sabes qué textos usar? Puedes apoyarte en los <a href="https://docs.google.com/document/d/15N0BC_CYA6LJZlGjYe2hFRnVSMlwRa1gnRJKxTlWSmQ/edit" target="_blank">copies</a> que hemos creado específicamente para redes sociales.
+¿No sabes qué textos usar? Puedes apoyarte en los <a href="https://docs.google.com/document/d/1HHFb4bhoyFEjyRQK9RiyX-Mb9QSh6b6aDWtsyYUjxug/edit?usp=sharing" target="_blank">copies</a> que hemos creado específicamente para redes sociales.
+
+<br>
 
 ### ¿Cómo apoyar Dev Day 4 Women?
-Todos agradecemos cuando alguien comparte contenido de valor e interés, ¿cierto? Entonces tú o tu comunidad puede destacar por hacerlo.
 
+Todos agradecemos cuando alguien comparte contenido de valor e interés, ¿cierto? Entonces tú o tu comunidad puede destacar por hacerlo.
 Es por ello que tú puedes apoyar con un par de post (si son más, qué mejor, por si alguien no vio los primeros) fomentando la participación y registro previo al evento en diferentes canales de comunicación como pueden ser:
 
 * Sitio web
@@ -37,6 +40,8 @@ Es por ello que tú puedes apoyar con un par de post (si son más, qué mejor, p
 * WhatsApp
 * Telegram
 * Discord
+
+<br>
 
 ### Información para comunidades
 
@@ -53,4 +58,14 @@ Al ser una comunidad aliada del evento, obtienes los siguientes beneficios:
 * Personalización de banners.
 * Menciones en redes sociales y durante el evento de que te has sumado como comunidad aliada.
 
-Si te interesa unirte como comunidad aliada, escribenos a eventos@sg.com.mx
+Si te interesa unirte como comunidad aliada, escríbenos a hola@code4dei.com 
+
+<br>
+
+### Redes de Code 4 DEI (Dev Day 4 Women)
+
+* Facebook https://www.facebook.com/code4dei
+* Twitter https://twitter.com/Code4DEI
+* Instagram https://www.instagram.com/code4dei/
+* Hashtag del evento: #DevDay4W
+
