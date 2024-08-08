@@ -10,8 +10,8 @@ Agradecemos que tu empresa / comunidad participe en este increíble evento, en l
 
 Fechas importantes
 
-* Evento: 29 de mayo
-* Convocatoria de Propuestas: Del 10 de julio al 29 de agosto
+* **Evento:** 29 de octubre, 2024.
+* **Convocatoria de ponencias:** Del 10 de julio al 29 de agosto
 
 <br>
 
