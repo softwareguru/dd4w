@@ -2,12 +2,16 @@ enable :  true
 title : "Apoyado por"
 sponsor_group:
 
+  - title : "Sede"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/walmart-logo.png"
+        link : "https://careers.walmart.com//" 
+
+
   - title : "Platinum"
     slug : "platinum"
     sponsor:
-
-      - logo : "/images/logos/walmart-logo.png"
-        link : "https://careers.walmart.com//" 
       - logo : "/images/logos/mobik.png"
         link : "https://mobiik.com/" 
       - logo : "/images/logos/Edenred.png"
