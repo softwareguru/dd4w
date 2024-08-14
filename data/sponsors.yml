@@ -17,6 +17,13 @@ sponsor_group:
       - logo : "/images/logos/Edenred.png"
         link : "https://www.edenred.mx/" 
 
+
+  - title : "Comunidad Aliada"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/open-web.png"
+        link : "https://bit.ly/frutal-web-house" 
+
   - title : "Organizado por"
     slug : "gold"
     sponsor:
