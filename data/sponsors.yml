@@ -17,6 +17,11 @@ sponsor_group:
       - logo : "/images/logos/Edenred.png"
         link : "https://www.edenred.mx/" 
 
+  - title : "Silver"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/accenture.png"
+        link : "https://www.accenture.com/mx-es/careers" 
 
   - title : "Comunidad Aliada"
     slug : "platinum"
