@@ -1,6 +1,6 @@
 ---
 title: "NOMINA A UNA MUJER IMPACTANTE"
-date: 2020-09-08T13:51:25+06:00
+date: 2024-08-19T13:51:25+06:00
 draft: false
 description: ""
 # post thumb
