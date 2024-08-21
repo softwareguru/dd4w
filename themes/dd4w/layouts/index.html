@@ -19,13 +19,13 @@
 
         {{ if .button1.enable }}
         {{ with .button1 }}
-        <a href="{{ .link | absURL }}" style="color: white; background-color: #EEFFA1 !important; border: none !important; color: #9056e9 !important; font-weight: 600" class="btn btn-hero2 btn-rounded mb-4 button1">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" style="color: white; background-color: #EEFFA1 !important; border: none !important; color: #9056e9 !important; font-weight: 600" class="btn btn-hero2 btn-rounded mb-4 button1" target="_blank">{{ .label }}</a>
         {{ end}}
         {{ end}}
 
         {{ if .button2.enable }}
         {{ with .button2 }}
-        <a href="{{ .link | absURL }}" style="color: white; background-color: #FF40B8 !important; border: none !important; color: #ffffff !important; font-weight: 600" class="btn btn-hero2 btn-rounded mb-4" target="_blank">{{ .label }}</a>
+        <a href="{{ .link | absURL }}" style="color: white; background-color: #FF40B8 !important; border: none !important; color: #ffffff !important; font-weight: 600" class="btn btn-hero2 btn-rounded mb-4">{{ .label }}</a>
         {{ end}}
         {{ end}}
       </div>
