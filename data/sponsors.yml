@@ -16,6 +16,9 @@ sponsor_group:
         link : "https://mobiik.com/" 
       - logo : "/images/logos/Edenred.png"
         link : "https://www.edenred.mx/" 
+      - logo : "/images/logos/B-DriveIT.png"
+        link : "https://www.b-drive.com.mx/" 
+
 
   - title : "Silver"
     slug : "platinum"
