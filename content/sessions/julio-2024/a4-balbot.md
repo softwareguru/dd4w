@@ -8,7 +8,7 @@ format: session
 block: h1-ia-2024
 time_start: 2024-07-10T12:00:00-06:00
 time_end: 2024-07-10T12:35:00-06:00
-video:
+video: https://youtu.be/ARiwy6WUm6A
 slides:
 ---
 

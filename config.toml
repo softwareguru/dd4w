@@ -80,15 +80,13 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
   [[languages.es.menu.main]]
   name = "SESIONES ANTERIORES"
-  URL = "/sessions/mayo-2024"
+  URL = "/sessions"
   weight = 4
 
   [[languages.es.menu.main]]
   name = "FAQs"
   URL = "/faq"
   weight = 6
-
-
 
   [languages.ia]
 
