@@ -34,6 +34,8 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/open-web.png"
         link : "https://bit.ly/frutal-web-house" 
+      - logo : "/images/logos/NERDEARLA.png"
+        link : "https://nerdearla.mx/" 
 
   - title : "Organizado por"
     slug : "gold"
