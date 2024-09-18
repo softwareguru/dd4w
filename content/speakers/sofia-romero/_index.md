@@ -2,7 +2,7 @@
 title: "Sofia Romero"
 date: 2024-09-18T17:38:11-06:00
 images: 
- - "/images/speakers/sofia-romero.png"
+ - "/images/speakers/speaker.jpg"
 designation : "Senior Principal Chief Technical Advisor for LATAM"
 country: "mx"
 twitter: ""

@@ -2,7 +2,7 @@
 title: "Alejandra Meza"
 date: 2024-09-18T17:28:47-06:00
 images: 
- - "/images/speakers/alejandra-meza.png"
+ - "/images/speakers/speaker.jpg"
 designation : "Academic & Cultural Link/ Lider de coordinación en Women in Gamex"
 country: "mx"
 twitter: ""
