@@ -8,6 +8,7 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/adriana-gomes-03945b/"
 github: ""
-year: "2022"
+events: 
+ - 2022 
 ---
 

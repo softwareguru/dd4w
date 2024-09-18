@@ -8,8 +8,9 @@ country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/sofiamejiamuro/"
 github: ""
-event: 
+events: 
  - 2023-h2
+ - oct-2024
 ---
 
 Sofia es conversational AI Solutions Consultant, especializada en la implementación tecnológica de asistentes virtuales como chatbots y voicebots alineándolos a sus identidades de marca, mejorando el rendimiento de los productos conversacionales a través de un enfoque data-driven. 

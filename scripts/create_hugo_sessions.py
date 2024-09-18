@@ -7,9 +7,9 @@ def main():
     if len(sys.argv) > 1:
         source_file = sys.argv[1]
     else:
-        source_file = "sessions.csv"
+        source_file = "sessions-dd4w.csv"
 
-    event_slug = "mayo-2023"
+    event_slug = "oct-2024"
 
     dirname = "sessions/"+event_slug
     try:

@@ -9,6 +9,6 @@ twitter: ""
 linkedin: ""
 github: ""
 events: 
- - 2024-h1
+ - oct-2024
 ---
 

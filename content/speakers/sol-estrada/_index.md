@@ -12,7 +12,8 @@ events:
  - 2022
  - 2023-h1
  - 2024-IA
+ - oct-2024
 ia: true
 ---
 
-Orgullosamente michoacana, promotora de “las mujeres también podemos”, Enterprise Agile Coach, TSP Coach busca que los equipos colaboren a través de sus habilidades y conocimientos, tiene más de 15 años de experiencia entre análisis de negocio, implementación de buenas prácticas, auditorías CMMi, implementación de PSP, adopción de Agilidad con marcos como Scrum, Kanban, Escalado, speaker en foros de temas relacionados con “Mujeres en Tecnología, embajadora Women Techmakers".
+Orgullosamente michoacana, promotora de “las mujeres también podemos” , Enterprise Agile Coach, TSP Coach busco que los equipos colaboren a través de sus habilidades y conocimientos, tengo más de 15 años de experiencia entre análisis de negocio, implementación de buenas prácticas, auditorías CMMi, implementación de PSP, adopción de Agilidad con marcos como Scrum, Kanban, Escalado, speaker en foros de temas relacionados con “Mujeres en Tecnología "", embajadora de Women Techmakers, mentora.

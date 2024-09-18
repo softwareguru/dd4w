@@ -138,8 +138,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Envía tu propuesta"
-link = "https://convoca.dev/dev-day-4-women-octubre-2024/cfp"
+label = "Regístrate"
+link = "registro"
 
 
 ############################# social icon ############################
