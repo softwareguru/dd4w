@@ -54,10 +54,6 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
 
 [ languages.es]
 
-  [[languages.es.menu.main]]
-  name = "REGISTRO"
-  URL = "/registro"
-  weight = 5
 
   [[languages.es.menu.main]]
   identifier = "reconocimientos"
@@ -79,8 +75,13 @@ link="https://kit.fontawesome.com/a6f10b653b.js"
     weight = 2
 
   [[languages.es.menu.main]]
-  name = "SESIONES ANTERIORES"
-  URL = "/sessions"
+  name = "PROGRAMA"
+  URL = "/agenda"
+  weight = 4
+
+  [[languages.es.menu.main]]
+  name = "SPEAKERS"
+  URL = "/speakers"
   weight = 4
 
   [[languages.es.menu.main]]
