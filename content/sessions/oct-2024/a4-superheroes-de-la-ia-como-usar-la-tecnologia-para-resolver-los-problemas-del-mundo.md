@@ -4,7 +4,7 @@ title: "Superhéroes de la IA: Cómo Usar la Tecnología para Resolver los Probl
 slug: superheroes-de-la-ia-como-usar-la-tecnologia-para-resolver-los-problemas-del-mundo
 speakers:
  - Marian Suarez
-format: Patrocinada
+format: Sessions
 block: h2-a-2024
 time_start: 2024-10-29T08:00:00-06:00
 time_end: 2024-10-29T08:30:00-06:00

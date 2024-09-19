@@ -4,7 +4,7 @@ title: "Adiós piso blanco... ¡Hola Datacenter Cloud! Revolucionando la infraes
 slug: adios-piso-blanco-hola-datacenter-cloud-revolucionando-la-infraestructura-tecnologica
 speakers:
  - Jessica Arias Ceron
-format: Patrocinada
+format: Sessions
 block: h2-a-2024
 time_start: 2024-10-29T08:00:00-06:00
 time_end: 2024-10-29T08:30:00-06:00

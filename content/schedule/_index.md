@@ -13,9 +13,7 @@ blocks:
 ---
 <br>
 <div class="color-code-list mb-4">
-  <div class="color-code-item" style="background-color: #965cee; color: white; border-radius: 25px; padding: 10px;">Comunidad</div>
-
-  <div class="color-code-item" style="background-color: #4583d9; color: white; border-radius: 25px; padding: 10px;">Patrocinadas</div>
+  <div class="color-code-item" style="background-color: #965cee; color: white; border-radius: 25px; padding: 10px;">Sesiones</div>
 
   <div class="color-code-item" style="background-color: #FF40B8; color: white; border-radius: 25px; padding: 10px;">Panel</div>
 

@@ -34,9 +34,11 @@ sponsor_group:
     slug : "platinum"
     sponsor:
       - logo : "/images/logos/open-web.png"
-        link : "https://bit.ly/frutal-web-house" 
+        link : "https://bit.ly/frutal-web-house"
       - logo : "/images/logos/NERDEARLA.png"
-        link : "https://nerdearla.mx/" 
+        link : "https://nerdearla.mx/"
+      - logo : "/images/logos/WomeninGamex.png"
+        link : "https://www.womeningamex.org/" 
 
   - title : "Organizado por"
     slug : "gold"
