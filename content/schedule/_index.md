@@ -17,7 +17,7 @@ blocks:
 
   <div class="color-code-item" style="background-color: #FF40B8; color: white; border-radius: 25px; padding: 10px;">Panel</div>
 
-  <div class="color-code-item" style="background-color: #937EFC; color: white; border-radius: 25px; padding: 10px;">Ingite</div>
+  <div class="color-code-item" style="background-color: #937EFC; color: white; border-radius: 25px; padding: 10px;">Ignite</div>
 </div>
 
 
