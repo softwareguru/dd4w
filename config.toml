@@ -46,8 +46,10 @@ link = "/plugins/jquery/jquery.js"
 link = "/plugins/bootstrap/js/bootstrap.min.js"
 [[params.plugins.js]]
 link="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"
-[[params.plugins.js]]
-link="https://kit.fontawesome.com/a6f10b653b.js"
+# [[params.plugins.js]]
+# link="https://kit.fontawesome.com/a6f10b653b.js"
+[[params.plugins.css]]
+link = "/plugins/fontawesome.css"
 
 ############################## navigation ###############################
 [menu]
@@ -163,7 +165,7 @@ icon = "fas fa-envelope"
 link = "mailto:eventos@sg.com.mx"
 
 [[params.social]]
-icon = "fa-brands fa-slack"
+icon = "fab fa-slack"
 link = "https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ"
 
 [[params.footer_resources]]
