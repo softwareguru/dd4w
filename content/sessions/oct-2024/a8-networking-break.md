@@ -3,7 +3,6 @@ id: "a8"
 title: "Networking break"
 slug: networking-break
 speakers:
- - 
 format: Break
 block: h2-a-2024
 time_start: 2024-10-29T11:30:00-06:00

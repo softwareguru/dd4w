@@ -1,7 +1,7 @@
 ---
 id: "a11"
-title: "Mensaje patrocinado de lunch"
-slug: mensaje-patrocinado-de-lunch
+title: "Mensaje"
+slug: mensaje-1
 speakers:
 format: Sessions
 block: h2-a-2024

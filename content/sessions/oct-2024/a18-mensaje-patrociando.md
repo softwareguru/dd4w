@@ -1,7 +1,7 @@
 ---
 id: "a18"
-title: "Mensaje patrociando"
-slug: mensaje-patrociando
+title: "Mensaje"
+slug: mensaje-2
 speakers:
 format: Sessions
 block: h2-a-2024

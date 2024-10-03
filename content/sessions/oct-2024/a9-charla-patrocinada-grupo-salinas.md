@@ -1,7 +1,7 @@
 ---
 id: "a9"
-title: "Charla patrocinada Grupo Salinas"
-slug: charla-patrocinada-grupo-salinas
+title: "Sesión presentada por Grupo Salinas"
+slug: sesion-grupo-salinas
 speakers:
 format: Sessions
 block: h2-a-2024
