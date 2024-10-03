@@ -1,16 +1,16 @@
 ---
 id: "a3"
-title: "Patrones validados: del código abierto al mundo"
-slug: patrones-validados-del-codigo-abierto-al-mundo
+title: "Inclusión que enriquece. Reduciendo la brecha de talento digital con personas con discapacidad motriz"
+slug: inclusión-que-enriquece
 speakers:
- - Sofia Romero
-format: Comunidad
+ - Laura Figueroa
+format: Sessions
 block: h2-a-2024
-time_start: 2024-10-29T08:00:00-06:00
-time_end: 2024-10-29T08:30:00-06:00
+time_start: 2024-10-29T09:00:00-06:00
+time_end: 2024-10-29T09:30:00-06:00
 slides: 
 video: 
-draft: true
+draft: false
 ---
 
-Los patrones validados son una evolución de la forma en que se implementan y administran las aplicaciones en una nube híbrida. Con un patrón, puede implementar automáticamente una pila de aplicaciones completa a través de un marco basado en GitOps. Con este marco, puede crear soluciones centradas en el negocio y, al mismo tiempo, mantener un nivel de integración continua (CI) en su aplicación.
+En esta plática hablaremos sobre los beneficios de integrar a personas con discapacidad motriz en el mundo tecnológico. Exploraremos cómo la diversidad en los equipos de trabajo impulsa la innovación, mejora el diseño de productos accesibles y fortalece la cultura organizacional. Además, hablaremos de cómo contratar talento con discapacidad puede ser una ventaja competitiva, no solo para el crecimiento empresarial, sino también para crear un entorno más inclusivo y empático. No te pierdas la oportunidad de ser parte de esta transformación y de contribuir a la reducción de brecha de talento en nuestra industria.

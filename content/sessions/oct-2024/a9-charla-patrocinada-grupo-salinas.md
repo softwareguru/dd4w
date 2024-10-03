@@ -3,13 +3,12 @@ id: "a9"
 title: "Charla patrocinada Grupo Salinas"
 slug: charla-patrocinada-grupo-salinas
 speakers:
- - 
 format: Sessions
 block: h2-a-2024
-time_start: 2024-10-29T08:00:00-06:00
-time_end: 2024-10-29T08:30:00-06:00
+time_start: 2024-10-29T11:55:00-06:00
+time_end: 2024-10-29T12:25:00-06:00
 slides: 
 video: 
-draft: true
+draft: false
 ---
 
