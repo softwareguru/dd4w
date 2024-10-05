@@ -23,6 +23,11 @@ sponsor_group:
       - logo : "/images/logos/contpaqi-logo.png"
         link : "https://www.contpaqi.com/"
 
+  - title : "Gold"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/pepsico.png"
+        link : "https://www.pepsicojobs.com/main/"
 
   - title : "Silver"
     slug : "platinum"
