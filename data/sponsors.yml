@@ -34,6 +34,8 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/accenture.png"
         link : "https://www.accenture.com/mx-es/careers"
+      - logo : "/images/logos/simple.png"
+        link : "www.simplepractice.com"
 
   - title : "Comunidad Aliada"
     slug : "platinum"
