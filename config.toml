@@ -87,6 +87,11 @@ link = "/plugins/fontawesome.css"
   weight = 4
 
   [[languages.es.menu.main]]
+  name = "Vacantes"
+  URL = "/vacantes"
+  weight = 4
+
+  [[languages.es.menu.main]]
   name = "FAQs"
   URL = "/faq"
   weight = 6

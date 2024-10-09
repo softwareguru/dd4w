@@ -5,7 +5,7 @@
     <div class="lead">
       {{ .Content }}
     </div>
-    <div class="speaker-strip ">
+    <div class="speaker-strip-vacantes">
       {{ range .Data.Pages.ByTitle }}
       <div class="speaker-item shadow p-4 bg-white" style="border-radius: 30px;">
         <div class="speaker-block">
@@ -16,7 +16,6 @@
           </div>
           <div class="speaker-info text-center">
             <h4 class="mb-0 mt-3"><a href="{{ .Params.link }}" target="_blank">{{ .Title }}</a></h4>
-
           </div>
         </div>
       </div>
