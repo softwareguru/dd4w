@@ -1,7 +1,7 @@
 ---
 id: "a4"
-title: "Mujeres en la ciencia de datos: Ejemplo de matemáticas aplicadas."
-slug: superheroes-de-la-ia-como-usar-la-tecnologia-para-resolver-los-problemas-del-mundo
+title: "Mujeres en ciencia de datos: Impulsando nuestro futuro con matemáticas"
+slug: mujeres-en-ciencia-de-datos
 speakers:
  - Marisol Barba Lemus
 format: Sessions
