@@ -14,5 +14,3 @@ draft: false
 ---
 
 Al ser responsables de operar sistemas o equipos no estamos exentos de fallas instantáneas o de cometer errores y entrar en pánico escénico; la presión nos consume y el miedo entra en acción para bloquearnos pero, si somos capaces de ver estos momentos como una oportunidad, nuestra mente trabajará con el objetivo de solucionar para mejorar procesos, tareas, arquitecturas y muchas otras cosas, y nos recordará en lo que debemos ser previsivos para identificar la falla en menor tiempo y generar arquitecturas de auto recuperación.
-
-En Grupo Salinas se promueve la creatividad para generar proyectos en favor de dar continuidad al servicio al cliente, así como los retos que nos desafían a mejorar todo el tiempo lo que ya hacemos bien.
