@@ -1,7 +1,7 @@
 ---
 id: "a16"
-title: "Sesión presentada por Walmart "
-slug: charla-walmart
+title: "Liderado por la gente, empoderado por la Tecnología"
+slug: liderado-por-la-gente-empoderado-por-la-tecnologia
 speakers:
  - Alejandra Paczka
 format: Sessions
@@ -13,4 +13,4 @@ video:
 draft: false
 ---
 
-Plática acerca de la “Agilidad” (como metodología tecnológica) dentro de Walmart de México y Centroamérica, la evolución del proyecto a lo largo en estos años, el desarrollo del mismo y como ha generado un impacto a total compañía.
+Plática acerca de la “Agilidad” (como metodología tecnológica) dentro de Walmart de México y Centroamérica, la evolución del proyecto a lo largo en estos años, el desarrollo del mismo y como ha generado un impacto a total compañía

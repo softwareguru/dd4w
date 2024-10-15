@@ -5,6 +5,7 @@ slug: fireside-chat-experiencias-y-retos-de-mujeres-lideres
 speakers:
  - Marlene García
  - Janeth Adriana Ramon
+ - Beatriz Nunez
 format: Panel
 block: h2-a-2024
 time_start: 2024-10-29T14:10:00-06:00
