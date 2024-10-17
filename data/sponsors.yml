@@ -44,6 +44,8 @@ sponsor_group:
         link : "https://nerdearla.mx/"
       - logo : "/images/logos/WomeninGamex.png"
         link : "https://www.womeningamex.org/" 
+      - logo : "/images/logos/Mujeres-Tics.png"
+        link : "https://mujeresticslatam.com/" 
 
   - title : "Organizado por"
     slug : "gold"
