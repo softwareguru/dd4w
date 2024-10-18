@@ -20,6 +20,9 @@ sponsor_group:
         link : "https://www.b-drive.com.mx/" 
       - logo : "/images/logos/contpaqi-logo.png"
         link : "https://www.contpaqi.com/"
+      #- logo : "/images/logos/PWC.png"
+      #  link : "https://www.pwc.com/mx/es.html"
+
 
   - title : "Gold"
     slug : "platinum"
@@ -46,6 +49,8 @@ sponsor_group:
         link : "https://www.womeningamex.org/" 
       - logo : "/images/logos/Mujeres-Tics.png"
         link : "https://mujeresticslatam.com/" 
+      - logo : "/images/logos/codigo-facilito.png"
+        link : "https://codigofacilito.com/codigofest" 
 
   - title : "Organizado por"
     slug : "gold"
