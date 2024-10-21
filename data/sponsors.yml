@@ -20,8 +20,8 @@ sponsor_group:
         link : "https://www.b-drive.com.mx/" 
       - logo : "/images/logos/contpaqi-logo.png"
         link : "https://www.contpaqi.com/"
-      #- logo : "/images/logos/PWC.png"
-      #  link : "https://www.pwc.com/mx/es.html"
+      - logo : "/images/logos/PWC.png"
+        link : "https://www.pwc.com/mx/es.html"
 
 
   - title : "Gold"
