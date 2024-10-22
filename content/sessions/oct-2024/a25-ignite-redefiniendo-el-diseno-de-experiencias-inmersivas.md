@@ -10,6 +10,7 @@ time_start: 2024-10-29T19:00:00-06:00
 time_end: 2024-10-29T19:05:00-06:00
 slides: 
 video: 
+draft: true
 ---
 
 En los próximos meses esperamos ver un gran avance en la creación de mundos virtuales personalizados y en la adopción de estas nuevas experiencias inmersivas por parte de los usuarios. Tanto es así que, según Grand View Research, se prevé que el mercado global tenga un crecimiento anual del 39,4% de aquí hasta 2030. Desde los juegos hasta la socialización, tanto usuarios como empresas están aprovechando el creciente mercado para explorar las infinitas posibilidades que ofrece el mundo virtual.
