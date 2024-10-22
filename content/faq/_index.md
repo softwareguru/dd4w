@@ -7,9 +7,18 @@ draft: false
 ### ¿QUÉ ES EL DEV DAY 4 WOMEN?
 
 Dev Day 4 Women es un evento de Code 4 DEI. Es el espacio donde otras mujeres comparten contenidos técnicos, historias y experiencias que les ayuden a otras chicas a realizar mejor su trabajo cada día, hasta inspirarlas, conectarlas y empoderarlas para que puedan desarrollar su profesión en las áreas de TI o puedan continuar sus carreras en STEAM. El próximo 29 de octubre del 2024 llega la edición presencial, siendo nuestra sede las oficinas del Corporativo Walmart México, ubicado en Boulevard Manuel Ávila Camacho 647, Colonia Periodistas, Miguel Hidalgo, CDMX, CP 11220. [Ver mapa](https://www.bing.com/maps?osid=1dc34f4a-750d-4fae-b0e2-149b7066bd10&cp=19.445449~-99.220909&lvl=17&pi=0&v=2&sV=2&form=S00027).
+<br>
+
 <a href="https://www.bing.com/maps?osid=1dc34f4a-750d-4fae-b0e2-149b7066bd10&cp=19.445449~-99.220909&lvl=17&pi=0&v=2&sV=2&form=S00027" target="_blank">
 <img src="/images/blog/walmart.png" class="img-fluid mx-auto d-block">
 </a>
+
+La entrada se encuentra en la parte de atrás de Suburbia. Si llegas en auto hay 2 entradas, por Periférico y por Rodolfo Gaona.
+
+La recomendación es que puedas ingresar por Rodolfo Gaona y preguntes por el VET (Viejo Edificio Toreo), dentro del combo de Walmart Toreo.
+
+Te recomendamos [revisar tu mejor ruta](https://m.moovitapp.com/) con tiempo.
+
 <br>
 
 
