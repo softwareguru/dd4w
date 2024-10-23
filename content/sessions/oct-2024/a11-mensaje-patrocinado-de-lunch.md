@@ -1,8 +1,9 @@
 ---
 id: "a11"
-title: "Mensaje"
-slug: mensaje-1
+title: "Atrévete a mejorar con PepsiCo"
+slug: atrevete-a-mejorar-con-pepsico
 speakers:
+ - Alejandra Minon
 format: Sessions
 block: h2-a-2024
 time_start: 2024-10-29T12:55:00-06:00
