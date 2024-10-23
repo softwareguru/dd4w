@@ -50,6 +50,10 @@ link="https://unpkg.com/bootstrap-table@1.18.0/dist/bootstrap-table.min.js"
 # link="https://kit.fontawesome.com/a6f10b653b.js"
 [[params.plugins.css]]
 link = "/plugins/fontawesome.css"
+[[params.plugins.css]]
+link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+[[params.plugins.css]]
+link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
 
 ############################## navigation ###############################
 [menu]
@@ -153,7 +157,7 @@ link = "registro"
 ############################# social icon ############################
 
 [[params.social]]
-icon = "tf-ion-social-twitter"
+icon = "bi bi-twitter-x"
 link = "https://twitter.com/Code4DEI"
 
 [[params.social]]
@@ -166,11 +170,11 @@ link = "https://www.instagram.com/code4dei"
 
 
 [[params.social]]
-icon = "fas fa-envelope"
+icon = "bi bi-envelope-at-fill"
 link = "mailto:eventos@sg.com.mx"
 
 [[params.social]]
-icon = "fab fa-slack"
+icon = "bi bi-slack"
 link = "https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ"
 
 [[params.footer_resources]]
