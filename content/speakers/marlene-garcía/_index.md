@@ -6,7 +6,7 @@ images:
 designation : "Directora General de CONTPAQi"
 country: "mx"
 twitter: ""
-linkedin: "https://www.linkedin.com/in/marlene-garcia-a9bb943a/"
+linkedin: "https://www.linkedin.com/in/marlene-garc%C3%ADa-a9bb943a/"
 github: ""
 events: 
  - 2022-h2
