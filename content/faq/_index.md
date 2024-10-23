@@ -41,7 +41,7 @@ La convocatoria de ponencias está abierta en esos momentos, si te interesa pued
 
 Solo tienes que registrarte y apartar la fecha del 29 de octubre. Una vez hecho tu registro, te llegará la confirmación del evento a tu correo.
 
-El día del evento no olvides llevar identificación oficial y la confirmación de entrada. No es necesario imprimirla. Puedes mostrarla desde tu teléfono. Es importante mencionar que el acceso a menores de edad no será posible.
+El día del evento no olvides llevar identificación oficial y la confirmación de entrada. No es necesario imprimirla. Puedes mostrarla desde tu teléfono.
 
 ### ¿El EVENTO ES EXCLUSIVO PARA MUJERES?
 
