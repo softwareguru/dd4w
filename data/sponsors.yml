@@ -50,7 +50,9 @@ sponsor_group:
       - logo : "/images/logos/Mujeres-Tics.png"
         link : "https://mujeresticslatam.com/" 
       - logo : "/images/logos/codigo-facilito.png"
-        link : "https://codigofacilito.com/codigofest" 
+        link : "https://codigofacilito.com/codigofest"
+      - logo : "/images/logos/wtm.png"
+        link : "https://linktr.ee/wtm.mx"
 
   - title : "Organizado por"
     slug : "gold"
