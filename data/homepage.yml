@@ -13,8 +13,8 @@ banner:
     link : "https://convoca.dev/dev-day-4-women-octubre-2024/cfp"
   button2:
     enable : true
-    label : "Regístrate"
-    link : "/registro"
+    label : "Sesiones anteriores"
+    link : "/sessions/octubre-2024"
 ############################## Event ##############################
 event_info:
   enable : true

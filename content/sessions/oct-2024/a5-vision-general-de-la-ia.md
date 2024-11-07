@@ -8,7 +8,7 @@ format: Sessions
 block: h2-a-2024
 time_start: 2024-10-29T10:00:00-06:00
 time_end: 2024-10-29T10:30:00-06:00
-slides: 
+slides: octubre-2024/vision-general-de-la-ia.pdf
 video:
 draft: false 
 ---

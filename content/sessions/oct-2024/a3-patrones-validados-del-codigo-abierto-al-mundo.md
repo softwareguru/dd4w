@@ -1,14 +1,14 @@
 ---
 id: "a3"
 title: "Inclusión que enriquece. Reduciendo la brecha de talento digital con personas con discapacidad motriz"
-slug: inclusión-que-enriquece
+slug: inclusion-que-enriquece
 speakers:
  - Laura Figueroa
 format: Sessions
 block: h2-a-2024
 time_start: 2024-10-29T09:00:00-06:00
 time_end: 2024-10-29T09:30:00-06:00
-slides: 
+slides: octubre-2024/inclusion-que-enriquece.pdf
 video: 
 draft: false
 ---

@@ -80,10 +80,6 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
     parent = "reconocimientos"
     weight = 2
 
-  [[languages.es.menu.main]]
-  name = "PROGRAMA"
-  URL = "/agenda"
-  weight = 4
 
   [[languages.es.menu.main]]
   name = "SPEAKERS"
@@ -150,8 +146,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = true
-label = "Regístrate"
-link = "registro"
+label = "Sesiones anteriores"
+link = "sessions/octubre-2024"
 
 
 ############################# social icon ############################

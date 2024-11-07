@@ -8,7 +8,7 @@ format: Sessions
 block: h2-a-2024
 time_start: 2024-10-29T16:15:00-06:00
 time_end: 2024-10-29T16:45:00-06:00
-slides: 
+slides: octubre-2024/tengo-que-saber-programar-las-habilidades-para-el-diseno-conversacional-en-la-era-de-los-large-language-models.pdf
 video: 
 ---
 
