@@ -19,37 +19,29 @@ Actualmente existen tres categorías:
 
 ### Proceso de nominación y evaluación
 
-Semanas previas a Dev Day 4 Women, Code 4 DEI lanza la convocatoria para que la comunidad TI puedan nominar a las mujeres y organizaciones que consideran pueden ser merecedoras del galardón, de acuerdo a la categoría.
+Tipicamente los reconocimeintos se realizan durante la edición más cercana de Dev Day 4 Women. Code 4 DEI lanza la convocatoria para que la comunidad TI puedan nominar a las mujeres y organizaciones que consideran pueden ser merecedoras del galardón, de acuerdo a la categoría.
 
-### ¿Cómo se eligen a las ganadoras?
+### Etapas de los reconocimientos:
 
-Una vez cerrado el periodo de nominaciones, abrimos un periodo de votaciones. En esta fase se contemplan dos criterios:
+1.- Nominaciones por parte de la comunidad.
 
+2.- Publicación de candidatas, previemente revisado por el comité.
 
-* Votación por parte de la comunidad tecnológica.
+3.- Votación de candidatas (voto validado contra registro al evento). 
 
-* Evaluación por parte del Comité Code 4 DEI, el cual está conformado por mujeres que han obtenido previamente este reconocimiento.
+4.- Conocemos a las mujeres reconocidas por la comunidad.
 
+  - Votación por parte de la comunidad tecnológica.
+  - Evaluación por parte del Comité Code 4 DEI, el cual está conformado por mujeres que han obtenido previamente este reconocimiento.
 
-### ¿Cómo puedo participar en las votaciones?
+### Mecánica de las votaciones
 
-Para participar y que tu voto sea válido, deberás estar registrada como participante de Dev Day 4 Women. Ya que el evento será el escenario de estos reconocimientos, queremos que sea la misma comunidad de mujeres en TI quien vote por su favorita. De esta manera obtendremos votos más objetivos, evitando en la medida de lo posible que se convierta en un concurso de popularidad.
-
-
-Primero, te invitamos a [conocer a las candidatas](/votaciones-code4dei) para conocer su trayectoria. Si ya estás registrada al evento, puedes votar directamente. En caso contrario, estos son los pasos a seguir:
-
-1. Regístrate al evento en https://devday4w.com/registro
-2. Recibirás un correo confirmando tu registro con el título “Registro exitoso a Dev Day Women Mayo 2024 👨‍💻👩‍💻”.
-3. Dentro del correo encontrarás un botón que te llevará al formulario de votación.
-4. Selecciona la categoría en la que quieres votar (Líder emergente, Sororidad) y listo. Ya puedes votar por tu favorita.
-
-
-**Importante:** Para cada categoría, sólo puedes votar una vez y tu voto solo contara si estás registrado al evento.
+Para poder votar y que éste sea válido, las personas deben estar registradas como participantes de Dev Day 4 Women (la edición más cercana al proceso). Ya que el evento es el escenario de estos reconocimientos, nuestro objetivo es que sea la misma comunidad de mujeres en TI quien vote por su favorita. De esta manera obtenemos votos más objetivos, evitando en la medida de lo posible que se convierta en un concurso de popularidad.
 
 ### ¿Quienes conforman el comité de Code 4 DEI?
 
 
-Como hemos mencionado, el Comité Code 4 DEI está conformado por mujeres que han recibido este reconocimiento en alguna edición anterior. El Comité 2024 está conformado por: 
+Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibido este reconocimiento en alguna edición anterior. El Comité actualmente está conformado por:
 
 <br>
 
@@ -162,12 +154,13 @@ Como hemos mencionado, el Comité Code 4 DEI está conformado por mujeres que ha
 
 <br><br>
 
-### ¿Cuándo se entregarán los reconocimientos?
+### Entrega de reconocimientos
 
-Los reconocimientos se entregarán al cierre del evento Dev Day 4 Women, el próximo jueves 9 de mayo a partir del las 18:30 horas (hora centro de la Ciudad de México).
+Los reconocimientos se entregan durante Dev Day 4 Women (la edición más cercana a la convocatoria de Reconocimientos). 
 
-### ¿Por qué participar?
+### Importancia de participar
 
 Creemos firmemente en este granito de arena que hemos aportado a la industria y tú puedes formar parte. Participando, contribuyes a la reducción de la brecha de género y a continuar nuestra labor de reconocer e impulsar al género femenino en la industria de las tecnologías de la información.
 
-### Ediciones anteriores
+
+### Conoce a las galardonadas de ediciones anteriores:
