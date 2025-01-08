@@ -9,7 +9,7 @@ block: h2-a-2024
 time_start: 2024-10-29T10:30:00-06:00
 time_end: 2024-10-29T11:00:00-06:00
 slides: octubre-2024/adios-piso-blanco-hola-datacenter-cloud-revolucionando-la-infraestructura-tecnologica.pdf
-video: 
+video: https://youtu.be/T4cCfdfroQU
 ---
 
 En esta charla, exploraremos la transformación de los centros de datos tradicionales hacia la nube. Aprenderemos:

@@ -9,7 +9,7 @@ block: h2-a-2024
 time_start: 2024-10-29T12:25:00-06:00
 time_end: 2024-10-29T12:55:00-06:00
 slides: octubre-2024/calidad-en-SW-y-en-la-vida.pdf
-video: 
+video: https://youtu.be/zpRnXziRjlg
 draft: false
 ---
 
