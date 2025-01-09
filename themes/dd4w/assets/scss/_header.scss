@@ -6,17 +6,17 @@ html, body, .hero { height: 100%; margin: 0; }
 
   @media (max-width:1927px) {
     margin: 50px;
-    margin-top: 170px;
+    margin-top: 130px;
     }
 
   @media (max-width:1227px) {
 
-    margin-top: 170px;
+    margin-top: 130px;
     }
 
   @media (max-width:992px) {
 
-    margin-top: 150px;
+    margin-top: 130px;
 	}
 
   @media (max-width:400px) {
@@ -59,13 +59,40 @@ html, body, .hero { height: 100%; margin: 0; }
 
 }
 
+
+.info .img-hero{
+  margin-left: -50px;
+  margin-bottom: 40px;
+
+  @media (max-width:1469px) {
+    margin-left: -50px;
+    margin-bottom: 30px;
+	  }
+  
+    @media (max-width:1227px) {
+      margin-left: -50px;
+      margin-bottom: 10px;
+      }  
+
+	@media (max-width:992px) {
+    margin-left: -60px;
+    margin-bottom: 10px;
+	}
+  
+	@media (max-width:500px) {
+    margin-left: 0px;
+    margin-bottom: 8px;
+	}
+}
+
 .info .slogan1{
   color: white;
-  font-size: 2.8em;
-  font-family: "Anton", sans-serif;
-  font-weight: 500;
+  font-size: 2.5em;
+  font-family: "Anton";
+  font-weight: 200;
   font-style: normal;
   letter-spacing: 0.25em;
+  text-transform: uppercase;
 
   @media (max-width:1927px) {
     font-size: 2.2em;
@@ -94,14 +121,14 @@ html, body, .hero { height: 100%; margin: 0; }
   color: white;
   font-size: 3.6em;
   font-weight: bold;
-  font-family: "Anton", sans-serif;
+  font-family: "Raleway";
   font-weight: 800;
   margin-top: 30px;
   text-transform: uppercase;
   margin-bottom: 60px;
 
   @media (max-width:1927px) {
-    font-size: 3.2em;
+    font-size: 3.7em;
     }
 
   @media (max-width:1469px) {
@@ -180,7 +207,7 @@ html, body, .hero { height: 100%; margin: 0; }
 .inicio{
   @media (max-width:767px) {
 
-    background-image: url(/images/DD4W-2024-oct-chica.png);
+    background-image: url(/images/home-img-chica.png);
     background-size: cover;
     background-position: center;
     margin-top: 40px;

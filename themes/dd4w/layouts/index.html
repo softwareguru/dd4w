@@ -5,15 +5,16 @@
 <!-- banner -->
 {{ with $data.homepage.banner }}
 <section class="">
-  <div class="row" style="background-color: #8A3DFC;">
-    <div class="col-md-8 inicio">  
+  <div class="row" style="background-image: url(/images/back.png); background-size: cover;
+	background-position: center;">
+    <div class="col-md-7 inicio">  
       <div class="container">
       <div class="info">
-        <p class="titulo1">Dev Day 4 Women</p>
+        <img src="images/DD4W-logo.png" class="img-hero img-fluid">
         <p class="slogan1" >Mujeres que desarrollan </p>
         <p class="slogan2">software grandioso</p>
-        <p class="fechas">29 de octubre, 2024 | Evento Gratuito</p>
-        <p class="forma-evento">Corporativo Walmart México, CDMX</p>
+        <p class="fechas"></p>
+        <p class="forma-evento"></p>
 
         {{ if .button1.enable }}
         {{ with .button1 }}
@@ -30,9 +31,9 @@
       </div>
     </div>
 
-    <div class="col-md-4">
+    <div class="col-md-5">
       <br><br><br>
-      <img src="images/DD4W-2024-oct.png" class="img-fluid photo">
+      <img src="images/home-img.png" class="img-fluid photo">
     </div>
   </div>
 </section>
