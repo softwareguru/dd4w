@@ -6,12 +6,12 @@ draft: false
 
 Dev Day 4 Women es un evento de <a href="https://code4dei.com/" target="_blank">Code 4 DEI</a>, dirigido a mujeres involucradas en el desarrollo de software.
 
-Agradecemos que tu empresa / comunidad participe en este increíble evento, en la edición virtual del 2024.
+Agradecemos que tu empresa / comunidad participe en este increíble evento, en la edición presencial del 2025.
 
 Fechas importantes
 
-* **Evento:** 29 de octubre, 2024.
-* **Convocatoria de ponencias:** Del 10 de julio al 29 de agosto
+* **Evento:**  23 de octubre, 2025.
+* **Convocatoria de ponencias:** Del 9 de julio al 22 de agosto.
 
 <br>
 

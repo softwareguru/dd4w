@@ -6,7 +6,7 @@ draft: false
 
 ### ¿QUÉ ES EL DEV DAY 4 WOMEN?
 
-Dev Day 4 Women es un evento de Code 4 DEI. Es el espacio donde otras mujeres comparten contenidos técnicos, historias y experiencias que les ayuden a otras chicas a realizar mejor su trabajo cada día, hasta inspirarlas, conectarlas y empoderarlas para que puedan desarrollar su profesión en las áreas de TI o puedan continuar sus carreras en STEAM. El próximo 29 de octubre del 2024 llega la edición presencial, siendo nuestra sede las oficinas del Corporativo Walmart México, ubicado en Boulevard Manuel Ávila Camacho 647, Colonia Periodistas, Miguel Hidalgo, CDMX, CP 11220. [Ver mapa](https://www.bing.com/maps?osid=1dc34f4a-750d-4fae-b0e2-149b7066bd10&cp=19.445449~-99.220909&lvl=17&pi=0&v=2&sV=2&form=S00027).
+Dev Day 4 Women es un evento de Code 4 DEI. Es el espacio donde otras mujeres comparten contenidos técnicos, historias y experiencias que les ayuden a otras chicas a realizar mejor su trabajo cada día, hasta inspirarlas, conectarlas y empoderarlas para que puedan desarrollar su profesión en las áreas de TI o puedan continuar sus carreras en STEAM. El próximo 23 de octubre del 2025 llega la edición presencial, siendo nuestra sede las oficinas el BBVA Spark Space Monterrey, ubicado en Constitución 2404, Centro, 64060 Monterrey, N.L. [Ver mapa](https://maps.app.goo.gl/WjVNohx4TiRkn12G8).
 <br>
 
 <a href="https://www.bing.com/maps?osid=1dc34f4a-750d-4fae-b0e2-149b7066bd10&cp=19.445449~-99.220909&lvl=17&pi=0&v=2&sV=2&form=S00027" target="_blank">
@@ -34,12 +34,10 @@ Una vez finalizado el periodo de convocatoria de ponencias, publicamos el progra
 
 La agenda Dev Day 4 Women está compuesta por conferencias, charlas rápidas, paneles y un espacio donde las comunidades que apoyan a mujeres y grupos subrepresentados donde puedan darse a conocer entre la audiencia.
 
-La convocatoria de ponencias está abierta en esos momentos, si te interesa puedes enviar la tuya o invitar a alguna amiga, colega, compañera a enviar su propuesta en https://convoca.dev/dev-day-4-women-octubre-2024/cfp La convocatoria cierra el 25 de agosto.
-
 
 ### ¿QUÉ NECESITO PARA PARTICIPAR?
 
-Solo tienes que registrarte y apartar la fecha del 29 de octubre. Una vez hecho tu registro, te llegará la confirmación del evento a tu correo.
+Solo tienes que registrarte y apartar la fecha del 23 de octubre. Una vez hecho tu registro, te llegará la confirmación del evento a tu correo.
 
 El día del evento no olvides llevar identificación oficial y la confirmación de entrada. No es necesario imprimirla. Puedes mostrarla desde tu teléfono.
 
