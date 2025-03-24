@@ -126,7 +126,7 @@ home = "Home"
 
 # Meta data
 description = """Dev Day for Women es un evento virtual para mujeres involucradas en el desarrollo de software."""
-images = ["/images/card-dd4w-h2-2024.jpg"]
+images = ["/images/card-2025-dd4w.jpg"]
 twitter_user = "RevistaSG"
 email = "eventos@sg.com.mx"
 author = "Software Guru"
@@ -207,12 +207,4 @@ link = "mailto:eventos@sg.com.mx"
 
 [[params.footer_contact_us]] 
 name = "Quiero patrocinar"
-link = "/files/DevDay4Women-Prospectus-2024-H2.pdf"
-
-
-
-
-
-
-
-
+link = "/files/DevDay4Women-Monterrey_Prospectus-2025.pdf"
