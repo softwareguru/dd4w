@@ -10,7 +10,7 @@ Dev Day 4 Women es un evento de Code 4 DEI. Es el espacio donde otras mujeres co
 <br>
 
 <a href="https://maps.app.goo.gl/WjVNohx4TiRkn12G8" target="_blank">
-<img src="/images/blog/BBVA-Spark-Space-MTY.jpeg" class="img-fluid mx-auto d-block">
+<img src="/images/blog/BBVAMTY.png" width="500" class="img-fluid mx-auto d-block">
 </a>
 
 <br>
