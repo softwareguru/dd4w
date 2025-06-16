@@ -5,54 +5,38 @@ sponsor_group:
   - title : "Sede"
     slug : "platinum"
     sponsor:
-      - logo : "/images/logos/walmart-logo.png"
-        link : "https://careers.walmart.com//" 
+      - logo : "/images/logos/sede_bbva_spark.png"
+        link : "http://www.bbvaspark.com"
 
 
   - title : "Platinum"
     slug : "platinum"
     sponsor:
-      - logo : "/images/logos/mobik.png"
-        link : "https://mobiik.com/" 
-      - logo : "/images/logos/Edenred.png"
-        link : "https://www.edenred.mx/" 
       - logo : "/images/logos/B-DriveIT.png"
         link : "https://www.b-drive.com.mx/" 
-      - logo : "/images/logos/contpaqi-logo.png"
-        link : "https://www.contpaqi.com/"
-      - logo : "/images/logos/PWC.png"
-        link : "https://www.pwc.com/mx/es.html"
 
 
-  - title : "Gold"
-    slug : "platinum"
-    sponsor:
-      - logo : "/images/logos/pepsico.png"
-        link : "https://www.pepsicojobs.com/main/"
 
-  - title : "Silver"
-    slug : "platinum"
-    sponsor:
-      - logo : "/images/logos/accenture.png"
-        link : "https://www.accenture.com/mx-es/careers"
-      - logo : "/images/logos/simple.png"
-        link : "https://www.simplepractice.com/"
+  #- title : "Gold"
+  #  slug : "platinum"
+  #  sponsor:
+      #- logo : "/images/logos/.png"
+      #  link : ""
+
+  #- title : "Silver"
+  #  slug : "platinum"
+  #  sponsor:
+      #- logo : "/images/logos/.png"
+      #  link : ""
 
   - title : "Comunidad Aliada"
     slug : "platinum"
     sponsor:
-      - logo : "/images/logos/open-web.png"
-        link : "https://bit.ly/frutal-web-house"
-      - logo : "/images/logos/NERDEARLA.png"
-        link : "https://nerdearla.mx/"
-      - logo : "/images/logos/WomeninGamex.png"
-        link : "https://www.womeningamex.org/" 
-      - logo : "/images/logos/Mujeres-Tics.png"
-        link : "https://mujeresticslatam.com/" 
-      - logo : "/images/logos/codigo-facilito.png"
-        link : "https://codigofacilito.com/codigofest"
-      - logo : "/images/logos/wtm.png"
-        link : "https://linktr.ee/wtm.mx"
+      - logo : "/images/logos/csoftmty.png"
+        link : "https://csoftmty.org/"
+      - logo : "/images/logos/w-d.png"
+        link : "https://www.linkedin.com/company/womandiversity/"
+
 
   - title : "Organizado por"
     slug : "gold"
