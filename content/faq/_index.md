@@ -30,7 +30,7 @@ La agenda Dev Day 4 Women está compuesta por conferencias, charlas rápidas, pa
 
 Hay varias formas de participar durante DD4W:
 
-**Ponente**: Si te interesa compartir tu experiencia a través de una conferencia o taller, postula tu propuesta en el Call For Proposals (CFP), **abierto del 18 de junio al 10 de agosto**. 
+**Ponente**: Si te interesa compartir tu experiencia a través de una conferencia o taller, postula tu propuesta en el Call For Proposals (CFP), **abierto del 25 de junio al 10 de agosto**. 
 
 **Comunidad**: Si representas o formas parte de una comunidad que impulsa el crecimiento de mujeres en tecnología, también puedes aplicar para tener presencia en el espacio de networking.
 
@@ -60,8 +60,8 @@ Aunque Dev Day 4 Women está dirigido a personas que se identifican como mujeres
 
 Durante todo el evento podrás:
 
--Disfrutar de conferencias técnicas, pláticas sobre desarrollo profesional y aprender de las experiencias de mujeres que se desempeñan en la industria TI.
--Resolver tus dudas directamente con las speakers.
--Hacer networking con otras chicas como tú y ampliar tu red.
--Encontrar oportunidades laborales en empresas tecnológicas.
--Conectar con otras comunidades de mujeres en TI.
+* Disfrutar de conferencias técnicas, pláticas sobre desarrollo profesional y aprender de las experiencias de mujeres que se desempeñan en la industria TI.
+* Resolver tus dudas directamente con las speakers.
+* Hacer networking con otras chicas como tú y ampliar tu red.
+* Encontrar oportunidades laborales en empresas tecnológicas.
+* Conectar con otras comunidades de mujeres en TI.
