@@ -13,7 +13,7 @@ banner:
     link : "https://convoca.dev/dev-day-4-women-octubre-2024/cfp"
   button2:
     enable : true
-    label : "¡QUIERO POSTULARME!"
+    label : "Envía tu propuesta"
     link : "https://convoca.dev/dev-day-4-women-2025/cfp"
 ############################## Event ##############################
 event_info:
