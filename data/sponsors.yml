@@ -11,12 +11,10 @@ sponsor_group:
   - title : "Platinum"
     slug : "platinum"
     sponsor:
-      - logo : "/images/logos/B-DriveIT.png"
-        link : "https://www.b-drive.com.mx/" 
+      - logo : "/images/logos/b-drive.png"
+        link : "https://bdrive.ai/" 
       - logo : "/images/logos/mobik.png"
         link : "https://www.mobiik.com/jobs"
-
-
 
   #- title : "Gold"
   #  slug : "platinum"
