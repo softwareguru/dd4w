@@ -7,15 +7,14 @@ sponsor_group:
     sponsor:
       - logo : "/images/logos/sede_bbva_spark.png"
         link : "http://www.bbvaspark.com"
-      - logo : "/images/logos/mobik.png"
-        link : "https://www.mobiik.com/jobs"
-
 
   - title : "Platinum"
     slug : "platinum"
     sponsor:
       - logo : "/images/logos/B-DriveIT.png"
         link : "https://www.b-drive.com.mx/" 
+      - logo : "/images/logos/mobik.png"
+        link : "https://www.mobiik.com/jobs"
 
 
 
