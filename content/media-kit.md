@@ -20,13 +20,13 @@ Fechas importantes
 Aquí puedes encontrar materiales para difusión en redes sociales con los que puedes comunicar:
 
 * Difusión general del evento
-  - <a href="https://drive.google.com/drive/folders/1pTc2b30Zzd2LgA3dSqM4LtC_KbfDiszm?usp=sharing" target="_blank">Convocatoria de ponencias</a>
-  - <a href="https://drive.google.com/drive/folders/1pUY-JWbdeP1v3X3yQcMYVh6vLDR_p3oY?usp=drive_link" target="_blank">Contenido general del evento</a>
-  - <a href="https://drive.google.com/drive/folders/1vG7cVDm_LzwZhNwQu-wfvZ2d4xdNvz4J?usp=drive_link" target="_blank">Postales de speakers</a>
-* <a href="https://drive.google.com/drive/folders/1_ckYjpuLPrOQpHkdEYFZnNYDrkly3Sv0?usp=drive_link" target="_blank">Patrocinadores</a>
-* <a href="https://drive.google.com/drive/folders/1VqEb0Aui4DvPq_VTSIIuk2pq5wkIsjzo?usp=drive_link" target="_blank">Comunidades Aliadas</a>
+  - <a href="https://drive.google.com/drive/folders/15kET1DNPtOpScTbqp7Lh28VaYWLglzjm" target="_blank">Convocatoria de ponencias</a>
+  - <a href="https://drive.google.com/drive/folders/1seeH7nm3EJSQDpj3Oxz6HJnd2Itmezrm" target="_blank">Contenido general del evento</a>
+  - <a href="https://drive.google.com/drive/folders/1SKLklQaWO_GT5FB7kuADkfS4b8suPL5G" target="_blank">Postales de speakers</a>
+* <a href="https://drive.google.com/drive/folders/1s519mChhJ2VP2QobF_FlH9aVlNu-gMpM" target="_blank">Patrocinadores</a>
+* <a href="https://drive.google.com/drive/folders/1bfn0Ely3UY0ozi9CdWQfxWJjIjHbvjtM" target="_blank">Comunidades Aliadas</a>
 
-¿No sabes qué textos usar? Puedes apoyarte en los <a href="https://docs.google.com/document/d/1HHFb4bhoyFEjyRQK9RiyX-Mb9QSh6b6aDWtsyYUjxug/edit?usp=sharing" target="_blank">copies</a> que hemos creado específicamente para redes sociales.
+¿No sabes qué textos usar? Puedes apoyarte en los <a href="https://docs.google.com/document/d/18UjQtWfj7EaoyWiI5fhLqyQssSLcg5DH7cQU5Sw8788/edit?tab=t.0#heading=h.wxa9ttakr7ox" target="_blank">copies</a> que hemos creado específicamente para redes sociales.
 
 <br>
 
@@ -67,5 +67,5 @@ Si te interesa unirte como comunidad aliada, escríbenos a hola@code4dei.com
 * Facebook https://www.facebook.com/code4dei
 * Twitter https://twitter.com/Code4DEI
 * Instagram https://www.instagram.com/code4dei/
-* Hashtag del evento: #DevDay4W
+* Hashtag del evento: #DevDay4Women
 
