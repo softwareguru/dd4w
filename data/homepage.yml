@@ -8,9 +8,9 @@ banner:
   where : "29 de Octubre de 2023 | Edicion Online | Gratuito"
   
   button1:
-    enable : false
-    label : "Envía tu propuesta"
-    link : "https://convoca.dev/dev-day-4-women-octubre-2024/cfp"
+    enable : true
+    label : "Registro al evento"
+    link : "/registro"
   button2:
     enable : true
     label : "Envía tu propuesta"
