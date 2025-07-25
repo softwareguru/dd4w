@@ -28,10 +28,10 @@ Inspirar, desafiar, equipar y conectar. Cada charla debe dejar algo accionable, 
 
 **Sugerencias de enfoque:** 
 
-• Hacerse escuchar con veracidad. Escucha para comprender, no para responder, e iniciar conversaciones asertiva
-• Poner límites sin perder influencia (límites vs. generar acuerdos)
-• Liderar en ambientes donde eres minoría
-• 5 consejos para resaltar y autopromocionarte
+ * Hacerse escuchar con veracidad. Escucha para comprender, no para responder, e iniciar conversaciones asertiva
+ * Poner límites sin perder influencia (límites vs. generar acuerdos)
+ * Liderar en ambientes donde eres minoría
+ * 5 consejos para resaltar y autopromocionarte
 
 **2. Liderar con claridad**
 
@@ -39,10 +39,10 @@ Inspirar, desafiar, equipar y conectar. Cada charla debe dejar algo accionable, 
 
 **Sugerencias de enfoque:**
 
-• Ser concisa en las ideas
-• Negociar desde el valor
-• Tomar decisiones bajo presión
-• Pensamiento crítico 
+ * Ser concisa en las ideas
+ * Negociar desde el valor
+ * Tomar decisiones bajo presión
+ * Pensamiento crítico 
 
 **3. Construir poder desde lo femenino (desde el poder interior)**
 
@@ -50,12 +50,12 @@ Inspirar, desafiar, equipar y conectar. Cada charla debe dejar algo accionable, 
 
 **Sugerencias de enfoque:**
 
-• Liderar desde la empatía y la colaboración
-• Convertir vulnerabilidad en herramienta estratégica
-• Estrategias frente al acoso y creación de espacios seguros
-• Trabajar con tu cuerpo, no contra él (ciclo, energía, etapas)
-• Crear red: mentoring, aliadas, comunidad- dinámica de networking
-• Equilibrar ambición y  aspiración  con bienestar
+ * Liderar desde la empatía y la colaboración
+ * Convertir vulnerabilidad en herramienta estratégica
+ * Estrategias frente al acoso y creación de espacios seguros
+ * Trabajar con tu cuerpo, no contra él (ciclo, energía, etapas)
+ * Crear red: mentoring, aliadas, comunidad- dinámica de networking
+ * Equilibrar ambición y  aspiración  con bienestar
 
 **4. Fortaleciendo autoridad a través del conocimiento**
 
@@ -63,24 +63,24 @@ Inspirar, desafiar, equipar y conectar. Cada charla debe dejar algo accionable, 
 
 **Sugerencias de enfoque:***
 
-• Desarrollo de software (técnico y teórico)
-• Actualización continua
-• Plan de carrera
-• Diseñar una trayectoria con intención
-     • Mamá vs profesionista 
-     • Emprendedora
-     • Empleada
+ * Desarrollo de software (técnico y teórico)
+ * Actualización continua
+ * Plan de carrera
+ * Diseñar una trayectoria con intención
+     - Mamá vs profesionista 
+     - Emprendedora
+     - Empleada
 
 **Define tus 5 objetivos - taller**
 
-• Transición de ser contribuidora individual a ser líderesa
-• Enfoque de  resultados
+ * Transición de ser contribuidora individual a ser líderesa
+ * Enfoque de  resultados
 
 **Formato de participación:**
 
-• Charla técnica (25 min)
-• Ignite (5 min)
-• Comunidad (3 min)
+ * Charla técnica (25 min)
+ * Ignite (5 min)
+ * Comunidad (3 min)
 
 **Consejo final:**
 Haz tu charla poderosa, concreta, cercana. Tu historia, tu experiencia y tu voz pueden ser el punto de inflexión para muchas mujeres.
