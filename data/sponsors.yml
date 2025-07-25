@@ -35,6 +35,14 @@ sponsor_group:
         link : "https://csoftmty.org/"
       - logo : "/images/logos/w-d.png"
         link : "https://www.linkedin.com/company/womandiversity/"
+      - logo : "/images/logos/wtm.png"
+        link : "https://developers.google.com/womentechmakers"
+      - logo : "/images/logos/techno-latinas.png"
+        link : "https://technolatinas.org/"
+      - logo : "/images/logos/jsconfmx.png"
+        link : "https://technolatinas.org/"
+      - logo : "/images/logos/aws-embajador-cloud.png"
+        link : "https://www.aws.embajadoras.cloud/"
 
 
   - title : "Organizado por"

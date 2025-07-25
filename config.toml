@@ -86,15 +86,27 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
   URL = "/speakers"
   weight = 4
 
-  #[[languages.es.menu.main]]
-  #name = "Vacantes"
-  #URL = "/vacantes"
-  #weight = 4
+  [[languages.es.menu.main]]
+  identifier = "blog"
+  name = "BLOG"
+  weight = 6
 
   [[languages.es.menu.main]]
-  name = "FAQs"
-  URL = "/faq"
-  weight = 6
+    identifier = "blog1"
+    name = "VISIÓN DEL CONTENIDO DEV DAY 4 WOMEN 2025"
+    url = "/vision-contenido-dd4w-2025"
+    parent = "blog"
+    weight = 1
+
+  [[languages.es.menu.main]]
+    name = "Vacantes"
+    URL = "/vacantes"
+    weight = 6
+
+  [[languages.es.menu.main]]
+    name = "FAQs"
+    URL = "/faq"
+    weight = 7
 
   [languages.ia]
 
