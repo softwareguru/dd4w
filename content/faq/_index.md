@@ -30,11 +30,11 @@ La agenda Dev Day 4 Women está compuesta por conferencias, charlas rápidas, pa
 
 Hay varias formas de participar durante DD4W:
 
-**Ponente**: Si te interesa compartir tu experiencia a través de una conferencia o taller, postula tu propuesta en el Call For Proposals (CFP), **abierto del 25 de junio al 10 de agosto**. 
+Ponente: Si te interesa compartir tu experiencia a través de una conferencia o taller, postula tu propuesta en el <a href="https://convoca.dev/dev-day-4-women-2025/cfp" target="_blank">Call For Proposals (CFP)</a>, abierto del 25 de junio al 10 de agosto.
 
-**Comunidad**: Si representas o formas parte de una comunidad que impulsa el crecimiento de mujeres en tecnología, también puedes aplicar para tener presencia en el espacio de networking.
+Comunidad: Si representas o formas parte de una comunidad,<a href="https://forms.gle/fLBUerXuWnYX13pQ9" target="_blank"> registrate en este form</a> e impulsa el crecimiento de mujeres en tecnología. Además de aplicar de tener presencia previamente y durante el evento.
 
-📌 **Postula en ambos casos en**: https://convoca.dev/dev-day-4-women-2025/cfp
+📌 Postula en ambos casos en: https://convoca.dev/dev-day-4-women-2025/cfp
 
 Comparte e invita a alguna amiga, colega, compañera a enviar su propuesta en DD4W 2025.
 
