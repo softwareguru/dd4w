@@ -3,7 +3,7 @@ title: "4 acciones clave de Dev Day 4 Women para promover la diversidad y la inc
 date: 2024-09-17T10:26:26-06:00
 draft: false
 # post thumb
-image : "images/blog/.png"
+image : "images/blog/4-acciones.png"
 # author
 author: "DD4W"
 botton: Ver más

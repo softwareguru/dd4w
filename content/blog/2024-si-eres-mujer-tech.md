@@ -3,7 +3,7 @@ title: "Si eres mujer tech y coincides con esto, entonces NO deberías asistir a
 date: 2024-09-17T10:26:26-06:00
 draft: false
 # post thumb
-image : "images/blog/.png"
+image : "images/blog/no-asistir.png"
 # author
 author: "DD4W"
 botton: Ver más

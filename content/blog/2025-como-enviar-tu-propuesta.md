@@ -3,8 +3,7 @@ title: "2025 Como Enviar Tu Propuesta"
 date: 2025-07-04T16:50:56-06:00
 draft: false
 slug: como-enviar-tu-propuesta
-images:
- - /images/blog/envia-propuesta.png
+image: /images/blog/envia-propuesta.png
 ---
 
 

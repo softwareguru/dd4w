@@ -3,7 +3,7 @@ title: "¿Cómo Dev Day 4 Women empodera a las mujeres en tecnología?"
 date: 2024-09-17T10:26:26-06:00
 draft: false
 # post thumb
-image : "images/blog/.png"
+image : "images/blog/como-empodera.png"
 # author
 author: "DD4W"
 botton: Ver más

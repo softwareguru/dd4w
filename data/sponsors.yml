@@ -43,6 +43,8 @@ sponsor_group:
         link : "https://www.jsconf.mx/"
       - logo : "/images/logos/aws-embajador-cloud.png"
         link : "https://www.linkedin.com/company/comunidad-de-embajadoras-cloud/about/"
+      - logo : "/images/logos/wosec-mx.png"
+        link : "https://www.wosecmexico.org/"
 
 
   - title : "Organizado por"

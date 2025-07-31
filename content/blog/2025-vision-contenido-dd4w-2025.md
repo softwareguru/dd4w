@@ -1,7 +1,10 @@
 ---
 title: "VISIÓN DEL CONTENIDO DEV DAY 4 WOMEN 2025"
-date: 2025-07-25T11:28:27-06:00
-draft: true
+date: 2025-07-05T16:50:56-06:00
+draft: false
+slug: vision-contenido-dd4w-2025
+aliases: vision-contenido-dd4w-2025
+image: /images/blog/vision-contenido.png
 ---
 
 Nuestra causa es que las mujeres descubran y vivan todo su potencial, sin encogerse para encajar.

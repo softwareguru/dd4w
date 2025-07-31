@@ -3,7 +3,7 @@ title: "En esto te benefician los eventos presenciales para crecer profesionalme
 date: 2024-09-17T10:26:26-06:00
 draft: false
 # post thumb
-image : "images/blog/.png"
+image : "images/blog/benefician.png"
 # author
 author: "DD4W"
 botton: Ver más
