@@ -7,34 +7,58 @@ aliases: vision-contenido-dd4w-2025
 image: /images/blog/vision-contenido.png
 ---
 
+Muchas mujeres en tecnología enfrentan barreras, falta de guía, y  la falta de una comunidad de apoyo. DD4W busca cambiar eso, creando un espacio donde puedan aprender, inspirarse y conectar, impulsando su crecimiento dentro de la industria.
 Nuestra causa es que las mujeres descubran y vivan todo su potencial, sin encogerse para encajar.
 
-Muchas mujeres en tecnología enfrentan barreras y la falta de una comunidad de apoyo. DD4W busca cambiar eso, creando un espacio donde puedan aprender, inspirarse y conectar, impulsando su crecimiento dentro de la industria.
+👩🏻‍💻Audiencia: mujeres que buscan crecer, avanzar y dejar huella en el mundo tecnológico.
 
-**👩🏻‍💻Audiencia:** Mujeres que buscan crecer, avanzar y dejar huella en el mundo tecnológico.
+🎯Estrategia del evento:
 
-**🎯Estrategia del evento:** Empoderar a mujeres en tecnología y sembrar las semillas de las habilidades que necesitamos para liderar con fuerza, valentía  y claridad 
+Empoderar a mujeres en tecnología y sembrar las semillas de las habilidades que necesitamos para liderar con fuerza, claridad y autenticidad.
 
-### ¿Cuál es el papel de las ponentes en DD4W 2025?
+📜¿Cuál es el papel de las ponentes en DD4W 2025?
 
 Inspirar, desafiar, equipar y conectar. Cada charla debe dejar algo accionable, emocional o mentalmente poderoso en la audiencia.
 
-**Ejes transversales** que deben aparecer en cada charla:
+📏📐**Ejes transversales** que deben aparecer en cada charla:
 
-**Potencial:** quién tu eres hace la diferencia, generas resultados desde tu autenticidad
-**Liderazgo:** Guía con naturalidad
-**Comunidad:** Encuentra tu guía, apoyo y construye tu red como mujer en TI. 
+ * **Potencial:** quién tu eres hace la diferencia, genera resultados desde tu autenticidad
 
-**1. Liderar: Empodera con tu guía**
+ * **Liderazgo:** el liderazgo femenino no se trata de levantar la voz para imponer, sino de desarrollar tu fuerza interior
+
+ * **Comunidad:** encuentra tu guía, apoyo y construye tu red como mujer en TI. 
+
+
+### Sesiones técnicas
+Sugerencias de temas: 
+
+**Tendencias tecnológicas y desarrollo de software, como ejemplo:**
+
+ * AI y ML
+ * Cloud computing
+ * Ciberseguridad
+ * LowCode/NoCode
+ * LLMs
+ * DevOps
+ * DevSecOps
+ * Blockchain
+ * Métodologias y procesos de desarrollo de software
+ * Project management
+
+### Sesiones sobre desarrollo profesional y personal  
+
+Sugerencias de tópicos:
+
+**1. Liderar desde la fuerza interior que no necesita dominar (Power without force)**
 
 **Objetivo:** Desarrollar presencia, decisión y valentía en entornos de poder.
 
-**Sugerencias de enfoque:** 
+**Sugerencias de enfoque:**
 
- * Hacerse escuchar con veracidad. Escucha para comprender, no para responder, e iniciar conversaciones asertiva
- * Poner límites sin perder influencia (límites vs. generar acuerdos)
+ * Hacerse escuchar con veracidad. Escucha para comprender, no para responder, e iniciar conversaciones cruciales
+ * Poner límites sin perder influencia (límites v.s.  generar acuerdos)
  * Liderar en ambientes donde eres minoría
- * 5 consejos para resaltar y autopromocionarte
+ * 5 consejos para resaltar y autopromocionarte (5 tips to sell yourself)
 
 **2. Liderar con claridad**
 
@@ -43,7 +67,7 @@ Inspirar, desafiar, equipar y conectar. Cada charla debe dejar algo accionable, 
 **Sugerencias de enfoque:**
 
  * Ser concisa en las ideas
- * Negociar desde el valor
+ * Negociar  (value focused negotiations)
  * Tomar decisiones bajo presión
  * Pensamiento crítico 
 
@@ -60,30 +84,33 @@ Inspirar, desafiar, equipar y conectar. Cada charla debe dejar algo accionable, 
  * Crear red: mentoring, aliadas, comunidad- dinámica de networking
  * Equilibrar ambición y  aspiración  con bienestar
 
-**4. Fortaleciendo autoridad a través del conocimiento**
+**4. Fortaleciendo tu autoridad a través del conocimiento**
 
-**Objetivo: Autoridad técnica**
+**Objetivo:** Autoridad técnica
 
-**Sugerencias de enfoque:***
+**Sugerencias de enfoque:**
 
  * Desarrollo de software (técnico y teórico)
  * Actualización continua
  * Plan de carrera
  * Diseñar una trayectoria con intención
-     - Mamá vs profesionista 
-     - Emprendedora
-     - Empleada
-
-**Define tus 5 objetivos - taller**
-
+    * Mamá vs. profesionista 
+    * Emprendedora
+    * Empleada
+ * Define tus objetivos a 5 años  - taller
  * Transición de ser contribuidora individual a ser líderesa
- * Enfoque de  resultados
+ * Ser enfocada a resultados 
 
-**Formato de participación:**
+### Formato de las sesiones:
 
- * Charla técnica (25 min)
- * Ignite (5 min)
- * Comunidad (3 min)
+🎙 ️ **Charla (25 minutos):** Estas sesiones idealmente se enfocan en compartir un tema técnico, puede ser sobre una tecnología en específico o de algún proyecto en el que hayas participado y quieras compartir tu experiencia.
+⚡ **Lightning talk (5 minutos):** Plática relámpago donde podrás compartir experiencias personales, recomendaciones sobre desarrollo profesional, empoderamiento o liderazgo en tecnología.
+👥 **Comunidad o Iniciativa (3 minutos):** Mensaje impartido por una comunidad o iniciativa que apoya el desarrollo de mujeres en tecnología. (El mensaje deberá ser grabado previamente para agilizar su presentación).
 
 **Consejo final:**
+
 Haz tu charla poderosa, concreta, cercana. Tu historia, tu experiencia y tu voz pueden ser el punto de inflexión para muchas mujeres.
+
+
+
+

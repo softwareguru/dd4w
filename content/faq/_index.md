@@ -6,13 +6,7 @@ draft: false
 
 ### ¿QUÉ ES EL DEV DAY 4 WOMEN?
 
-Dev Day 4 Women es un evento de Code 4 DEI. Es el espacio donde otras mujeres comparten contenidos técnicos, historias y experiencias que les ayuden a otras chicas a realizar mejor su trabajo cada día, hasta inspirarlas, conectarlas y empoderarlas para que puedan desarrollar su profesión en las áreas de TI o puedan continuar sus carreras en STEM. El próximo 23 de octubre del 2025 llega la edición presencial, siendo nuestra sede las oficinas el BBVA Spark Space Monterrey, ubicado en Constitución 2404, Centro, 64060 Monterrey, N.L. [Ver mapa](https://maps.app.goo.gl/WjVNohx4TiRkn12G8).
-
-<a href="https://maps.app.goo.gl/WjVNohx4TiRkn12G8" target="_blank">
-<img src="/images/blog/BBVAMTY.png" width="500" class="img-fluid mx-auto d-block">
-</a>
-
-<br>
+Dev Day 4 Women es un evento de Code 4 DEI. Es el espacio donde otras mujeres comparten contenidos técnicos, historias y experiencias que les ayuden a otras chicas a realizar mejor su trabajo cada día, hasta inspirarlas, conectarlas y empoderarlas para que puedan desarrollar su profesión en las áreas de TI o puedan continuar sus carreras en STEM. 
 
 ### ¿TIENE ALGÚN COSTO?
 
@@ -40,7 +34,8 @@ Comparte e invita a alguna amiga, colega, compañera a enviar su propuesta en DD
 
 ### ¿HAY FORMA DE APOYAR CON PATROCINIO?
 
-Sí, la suma de esfuerzos de empresas permite que este evento sea accesible para la comunidad. Conoce los diferentes niveles de patrocinio disponibles en este [deck](files/DevDay4Women-Monterrey_Prospectus-2025_v1.1.pdf). También, puedes contactarnos en hola@code4dei.com
+Sí, la suma de esfuerzos de empresas permite que este evento sea accesible para la comunidad. Conoce los diferentes niveles de patrocinio disponibles en este [prospectus](files/DevDay4Women-Monterrey_Prospectus-2025_v1.1.pdf). También, puedes contactarnos en hola@code4dei.com
+
 
 ### ¿TIENE ALGÚN COSTO?
 
