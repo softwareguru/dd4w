@@ -62,26 +62,6 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
 
 
   [[languages.es.menu.main]]
-  identifier = "reconocimientos"
-  name = "Reconocimeintos Code 4 DEI"
-  weight = 5
-
-  [[languages.es.menu.main]]
-    identifier = "reconocimientos2"
-    name = "¿QUÉ SON?"
-    url = "/reconocimientos"
-    parent = "reconocimientos"
-    weight = 1
-
-  [[languages.es.menu.main]]
-    identifier = "reconocimientos1"
-    name = "RECONOCIMIENTOS 2024"
-    URL = "/reconocimientos-2024"
-    parent = "reconocimientos"
-    weight = 2
-
-
-  [[languages.es.menu.main]]
   name = "PONENTES"
   URL = "/speakers/archive"
   weight = 4
@@ -207,8 +187,12 @@ name = "Sesiones"
 link = "/sessions/"
 
 [[params.footer_previous]]
-name = "Reconocimientos CODE 4 DEI"
+name = "Reconocimientos CODE 4 DEI 2023"
 link = "/reconocimientos"
+
+[[params.footer_previous]]
+name = "Reconocimientos CODE 4 DEI 2024"
+link = "/reconocimientos-2024"
 
 [[params.footer_contact_us]] 
 name = "Email"
