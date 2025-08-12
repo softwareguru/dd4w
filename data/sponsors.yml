@@ -45,6 +45,8 @@ sponsor_group:
         link : "https://www.linkedin.com/company/comunidad-de-embajadoras-cloud/about/"
       - logo : "/images/logos/wosec-mx.png"
         link : "https://www.wosecmexico.org/"
+      - logo : "/images/logos/amiti-logo.png"
+        link : "https://amiti.org.mx/"
 
 
   - title : "Organizado por"

@@ -1,5 +1,5 @@
 ---
-title: "VISIÓN DEL CONTENIDO DEV DAY 4 WOMEN 2025"
+title: "VISIÓN DEL CONTENIDO"
 date: 2025-07-05T16:50:56-06:00
 draft: false
 slug: vision-contenido-dd4w-2025
@@ -104,7 +104,9 @@ Sugerencias de tópicos:
 ### Formato de las sesiones:
 
 🎙 ️ **Charla (25 minutos):** Estas sesiones idealmente se enfocan en compartir un tema técnico, puede ser sobre una tecnología en específico o de algún proyecto en el que hayas participado y quieras compartir tu experiencia.
+
 ⚡ **Lightning talk (5 minutos):** Plática relámpago donde podrás compartir experiencias personales, recomendaciones sobre desarrollo profesional, empoderamiento o liderazgo en tecnología.
+
 👥 **Comunidad o Iniciativa (3 minutos):** Mensaje impartido por una comunidad o iniciativa que apoya el desarrollo de mujeres en tecnología. (El mensaje deberá ser grabado previamente para agilizar su presentación).
 
 **Consejo final:**
