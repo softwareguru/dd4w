@@ -11,7 +11,7 @@ Agradecemos que tu empresa / comunidad participe en este increíble evento, en l
 Fechas importantes
 
 * **Evento:**  23 de octubre, 2025.
-* **Convocatoria de ponencias:** Del 25 de junio al 10 de agosto.
+* **Convocatoria de ponencias:** Del 25 de junio al 25 de agosto.
 
 <br>
 

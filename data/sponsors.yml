@@ -16,11 +16,11 @@ sponsor_group:
       - logo : "/images/logos/mobik.png"
         link : "https://www.mobiik.com/jobs"
 
-  #- title : "Gold"
-  #  slug : "platinum"
-  #  sponsor:
-      #- logo : "/images/logos/.png"
-      #  link : ""
+  - title : "Gold"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/contpaqi-logo.png"
+        link : "https://www.contpaqi.com/"
 
   #- title : "Silver"
   #  slug : "platinum"
