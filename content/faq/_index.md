@@ -34,7 +34,7 @@ Comparte e invita a alguna amiga, colega, compañera a enviar su propuesta en DD
 
 ### ¿HAY FORMA DE APOYAR CON PATROCINIO?
 
-Sí, la suma de esfuerzos de empresas permite que este evento sea accesible para la comunidad. Conoce los diferentes niveles de patrocinio disponibles en este [prospectus](/files/DevDay4Women-Monterrey_Prospectus-2025_v1.1.pdf). También, puedes contactarnos en hola@code4dei.com
+Sí, la suma de esfuerzos de empresas permite que este evento sea accesible para la comunidad. Conoce los diferentes niveles de patrocinio disponibles en este [prospectus](/files/dev_day_4_women_monterrey_prospectus_2025.pdf). También, puedes contactarnos en hola@code4dei.com
 
 
 ### ¿TIENE ALGÚN COSTO?

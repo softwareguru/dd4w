@@ -45,7 +45,7 @@ image: /images/blog/envia-propuesta.png
  * Nivel de profundidad (principiante / intermedio / avanzado)
  * ¿Qué se llevará la audiencia? ¿Qué aprenderán o se inspirarán a hacer?
 
-⏰ Fecha límite: 10 de agosto
+⏰ Fecha límite: 25 de agosto
 
 📬 Enviar propuesta en: https://convoca.dev/dev-day-4-women-2025/cfp
 
