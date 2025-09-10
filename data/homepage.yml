@@ -12,7 +12,7 @@ banner:
     label : "Registro al evento"
     link : "/registro"
   button2:
-    enable : true
+    enable : false
     label : "Envía tu propuesta"
     link : "https://convoca.dev/dev-day-4-women-2025/cfp"
 ############################## Event ##############################

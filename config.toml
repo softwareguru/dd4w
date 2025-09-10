@@ -12,7 +12,8 @@ paginate = "8"
 # Este es el tag normal de analytics
 # googleAnalytics = "G-HV96ZN2N60"
 # Este es el de google tag manager
-googleAnalytics = "GTM-MXJFH7W"
+[services.googleAnalytics]
+  id = "GTM-MXJFH7W"
 
 [taxonomies]
 tag = "tags"
@@ -119,8 +120,9 @@ author = "Software Guru"
 start_date = "2021-04-14T11:00-05:00"
 end_date = "2021-04-15T19:00-05:00"
 
-
 disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru."""
+
+google_analytics = "GTM-MXJFH7W"
 
 
 # Preloader
