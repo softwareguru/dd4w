@@ -9,7 +9,7 @@ banner:
   
   button1:
     enable : true
-    label : "Registro al evento"
+    label : "¡Quiero registrarme!"
     link : "/registro"
   button2:
     enable : false
@@ -18,7 +18,7 @@ banner:
 ############################## Event ##############################
 event_info:
   enable : true
-  title : "UN DÍA DE INSPIRACIÓN PARA MUJERES EN TECNOLOGÍA"
+  title : "Celebra con nosotras los 10 Años de Dev Day 4 Women"
 
   description : >
    

@@ -27,11 +27,9 @@ html, body, .hero { height: 100%; margin: 0; }
 .info .titulo1{
 
   color: $titulo;
-  font-size: 6.0em;
   font-weight: bold;
-  line-height: 1;
+  line-height: 120%;
   -webkit-text-stroke: 2px #6e8021;
-  margin-bottom: 60px;
   font-weight: 900;
 
   @media (max-width:1927px) {
@@ -88,79 +86,73 @@ html, body, .hero { height: 100%; margin: 0; }
 .info .slogan1{
   color: white;
   font-size: 2.5em;
-  font-family: "Anton";
-  font-weight: 200;
-  font-style: normal;
-  letter-spacing: 0.25em;
+  font-family: "Montserrat";
+  font-weight: 400;
   text-transform: uppercase;
 
   @media (max-width:1927px) {
-    font-size: 2.2em;
+    font-size: 50px;
     }
 
-  @media (max-width:1469px) {
-    font-size: 2.1em;
+  @media (max-width:1669px) {
+    font-size: 40px;
 	  }
   
       
-    @media (max-width:1227px) {
-
-      font-size: 1.8em;
-      } 
+  @media (max-width:1227px) {
+    font-size: 32px;
+  } 
   
 	@media (max-width:992px) {
-    font-size: 1.6em;
+    font-size: 28px;
 	}
   
 	@media (max-width:400px) {
-    font-size: 1.5em;
+    font-size: 24px;
 	}
 }
 
 .info .slogan2{
   color: white;
-  font-size: 3.6em;
+  font-size: 96px;
   font-weight: bold;
-  font-family: "Raleway";
-  font-weight: 800;
-  margin-top: 30px;
+  font-family: "Anton";
+  font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 60px;
+  line-height: 120%;
 
   @media (max-width:1927px) {
-    font-size: 3.7em;
+    font-size: 96px;
     }
 
-  @media (max-width:1469px) {
-    font-size: 3.0em;
-	  }  
+  @media (max-width:1669px) {
+    font-size: 76px;
+	}  
     
-    @media (max-width:1227px) {
-      margin-bottom: 40px;
-      font-size: 2.6em;
-      }    
+  @media (max-width:1227px) {
+      font-size: 48px;
+  }    
   
 	@media (max-width:992px) {
-    line-height: 35px;
-    font-size: 2.0em;
-    
+    font-size: 50px;  
 	}
   
 	@media (max-width:400px) {
-    font-size: 1.9em;
+    font-size: 40px;
 	}
 }
 
 .info .fechas{
+  margin-top: 1.6em;
   color: $titulo;
-  font-size: 2.2em;
-  font-weight: bold;
-  font-family: "Anton", sans-serif;
-  font-weight: 500;
-  margin-top: 30px;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 110%;
 
   @media (max-width:1469px) {
-    font-size: 2.0em;
+    font-size: 40px;
 	  }
   
     @media (max-width:1227px) {
@@ -179,29 +171,34 @@ html, body, .hero { height: 100%; margin: 0; }
 
 .info .forma-evento{
   color: $titulo;
-  font-size: 2.2em;
-  font-weight: bold;
-  font-family: "Anton", sans-serif;
-  font-weight: 700;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: Anton, sans-serif;
   text-transform: uppercase;
+
   @media (max-width:1469px) {
-    font-size: 2.0em;
+    font-size: 36px;
 	  }
 
     @media (max-width:1227px) {
-      margin-bottom: 30px;
-      font-size: 1.9em;
+      font-size: 30px;
       } 
   
 	@media (max-width:992px) {
-    font-size: 1.8em;
+    font-size: 24px;
 	}
   
 	@media (max-width:400px) {
-    font-size: 1.6em;
+    font-size: 18px;
 	}
+}
+
+.info .gratuito {
+  color: $titulo;
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 110%;
 }
 
 .inicio{
@@ -226,6 +223,7 @@ html, body, .hero { height: 100%; margin: 0; }
 
 .button1{
 
+  margin-top: 2em;
   margin-right: 16px;
 
   @media (max-width:481px) {
@@ -237,8 +235,7 @@ html, body, .hero { height: 100%; margin: 0; }
 
 
 .event-info p{
-  font-family: "Mulish", sans-serif;
-  font-weight: 400;
+  font-size: 1.1em;
 }
 
 
