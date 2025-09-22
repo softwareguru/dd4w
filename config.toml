@@ -160,28 +160,22 @@ link = "mailto:eventos@sg.com.mx"
 icon = "bi bi-slack"
 link = "https://join.slack.com/t/sg4women/shared_invite/zt-ukzdodky-nUaFePrq73NEIC3y61M_PQ"
 
-[[params.footer_resources]]
-name = "Acerca de"
-link = "https://sg.com.mx/sg4w"
+
+# Recursos
 
 [[params.footer_resources]]
-name = "?Quién organiza¿"
-link = "/team/"
+name = "@Carta para tu jef"
+link = "/carta-ejemplo"
 
 [[params.footer_resources]]
-name = "Comité de Mujeres Code 4 DEI"
-link = "https://code4dei.com/comite/"
+name = "Guía para patrocinadores"
+link = "/guia-patrocinador"
 
-[[params.footer_resources]]
-name = "Media Kit"
-link = "/media-kit/"
 
-[[params.footer_resources]]
-name = "Código de Conducta"
-link = "/coc/"
+# Eventos
 
 [[params.footer_previous]]
-name = "Speakers"
+name = "Ponentes"
 link = "/speakers/archive"
 
 [[params.footer_previous]]
@@ -189,17 +183,19 @@ name = "Sesiones"
 link = "/sessions/"
 
 [[params.footer_previous]]
-name = "Reconocimientos CODE 4 DEI 2023"
-link = "/reconocimientos"
-
-[[params.footer_previous]]
-name = "Reconocimientos CODE 4 DEI 2024"
+name = "Reconocimientos CODE 4 DEI (antes SG 4 Woman)"
 link = "/reconocimientos-2024"
+
+# Contácto y soporte
+
+[[params.footer_contact_us]] 
+name = "Equipo organizador"
+link = "/team"
+
+[[params.footer_contact_us]] 
+name = "Iniciativa Code 4 DEI"
+link = "https://code4dei.com/"
 
 [[params.footer_contact_us]] 
 name = "Email"
-link = "mailto:eventos@sg.com.mx"
-
-[[params.footer_contact_us]] 
-name = "Quiero patrocinar"
-link = "/files/dev_day_4_women_monterrey_prospectus_2025.pdf"
+link = "mailto:hola@code4dei.com"
