@@ -22,7 +22,7 @@
 		<div class="card" style="border: none; background-color: black;">
 		 
 			<div>
-				<h5>Recursos</h5>
+				<h5>Recursos:</h5>
 				<ul class="footer_links">
 					{{ range .Site.Params.footer_resources }}
 					<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
@@ -34,7 +34,7 @@
 	  <div class="card" style="border: none; background-color: black;">
 		 
 		<div>
-			<h5>Eventos previos</h5>
+			<h5>Eventos previos:</h5>
 			<ul class="footer_links">
 				{{ range .Site.Params.footer_previous }}
 				<li><a href="{{ .link | safeURL }}">{{ .name }}</a></li>
@@ -45,7 +45,7 @@
 	<div class="card" style="border: none; background-color: black;">
 		 
 		<div>
-			<h5>Contáctanos</h5>
+			<h5>Contácto y soporte:</h5>
 			<ul class="footer_links">
 				{{ range .Site.Params.footer_contact_us }}
 				<li><a target="_blank" href="{{ .link | safeURL }}">{{ .name }} </a></li>
