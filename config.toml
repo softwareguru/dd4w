@@ -61,26 +61,108 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
 
 [ languages.es]
 
+###################### ACERCA DE #######################
+
+  #[[languages.es.menu.main]]
+  #identifier = "acerca-de"
+  #name = "Acerca de"
+  #URL = "/"
+  #weight = 1
+
+  #[[languages.es.menu.main]]
+  #  identifier = "dd4w"
+  #  name = "Dev Day 4 Women"
+  #  url = "#"
+  #  parent = "acerca-de"
+  #  weight = 1
+
+  #[[languages.es.menu.main]]
+  #  identifier = "code4dei"
+  #  name = "Iniciativa Code 4 DEI"
+  #  url = "https://code4dei.com/"
+  #  parent = "acerca-de"
+  #  weight = 2
+
+###################### PARTICIPA #######################
 
   [[languages.es.menu.main]]
-  name = "PONENTES"
-  URL = "/speakers/archive"
+  identifier = "participa"
+  name = "Participa"
+  URL = "/"
+  weight = 2
+
+  [[languages.es.menu.main]]
+    identifier = "dd4w"
+    name = "Carta para tu jefe"
+    url = "/carta-ejemplo"
+    parent = "participa"
+    weight = 1
+
+  [[languages.es.menu.main]]
+    identifier = "dei"
+    name = "DEI"
+    url = "/dei"
+    parent = "participa"
+    weight = 2
+
+  [[languages.es.menu.main]]
+    identifier = "coc"
+    name = "Código de conducta"
+    url = "/coc"
+    parent = "participa"
+    weight = 3
+
+  [[languages.es.menu.main]]
+    identifier = "vacantes"
+    name = "Vacantes"
+    url = "/vacantes"
+    parent = "participa"
+    weight = 4
+
+###################### PROGRAMA #######################
+
+  [[languages.es.menu.main]]
+  identifier = "programa"
+  name = "Programa"
+  URL = "/"
+  weight = 3
+
+  [[languages.es.menu.main]]
+    identifier = "ponentes"
+    name = "Ponentes"
+    url = "/speakers"
+    parent = "programa"
+    weight = 1
+
+  #[[languages.es.menu.main]]
+  #  identifier = "coc"
+  #  name = "Networking"
+  #  url = "/networking"
+  #  parent = "programa"
+  #  weight = 2
+
+###################### PATROCINA #######################
+
+  [[languages.es.menu.main]]
+  identifier = "patrocina"
+  name = "Patrocina"
+  URL = "/"
   weight = 4
 
   [[languages.es.menu.main]]
-  name = "BLOG"
-  URL = "blog"
-  weight = 6
+    identifier = "prospectus"
+    name = "Prospectus"
+    url = "/files/dev_day_4_women_monterrey_prospectus_2025.pdf"
+    parent = "patrocina"
+    weight = 1
+
 
   [[languages.es.menu.main]]
-    name = "Vacantes"
-    URL = "/vacantes"
-    weight = 6
+  name = "FAQs"
+  URL = "/faq"
+  weight = 5
 
-  [[languages.es.menu.main]]
-    name = "FAQs"
-    URL = "/faq"
-    weight = 7
+#############################################################################3
 
   [languages.ia]
 
@@ -171,6 +253,10 @@ link = "/carta-ejemplo"
 name = "Guía para patrocinadores"
 link = "/guia-patrocinador"
 
+[[params.footer_resources]]
+name = "Media Kit"
+link = "/media-kit"
+
 
 # Eventos
 
@@ -182,9 +268,6 @@ link = "/speakers/archive"
 name = "Sesiones"
 link = "/sessions/"
 
-[[params.footer_previous]]
-name = "Reconocimientos CODE 4 DEI (antes SG 4 Woman)"
-link = "/reconocimientos-2024"
 
 # Contácto y soporte
 
@@ -192,9 +275,6 @@ link = "/reconocimientos-2024"
 name = "Equipo organizador"
 link = "/team"
 
-[[params.footer_contact_us]] 
-name = "Iniciativa Code 4 DEI"
-link = "https://code4dei.com/"
 
 [[params.footer_contact_us]] 
 name = "Email"

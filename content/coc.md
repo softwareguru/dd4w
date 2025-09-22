@@ -33,4 +33,4 @@ Esperamos que los participantes sigan estas reglas en la la conferencia, tallere
 
 —–
 
-Este código de conducta está inspirado en el [JSConf™ Code of Conduct](https://jsconf.com/codeofconduct.html)
+Este código de conducta está inspirado en el <a href="https://jsconf.com/codeofconduct.html" target="_blank">JSConf™ Code of Conduct</a>

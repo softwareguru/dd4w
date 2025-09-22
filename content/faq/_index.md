@@ -37,11 +37,7 @@ Comparte e invita a alguna amiga, colega, compañera a enviar su propuesta en DD
 Sí, la suma de esfuerzos de empresas permite que este evento sea accesible para la comunidad. Conoce los diferentes niveles de patrocinio disponibles en este [prospectus](/files/dev_day_4_women_monterrey_prospectus_2025.pdf). También, puedes contactarnos en hola@code4dei.com
 
 
-### ¿TIENE ALGÚN COSTO?
-
-Gracias a nuestros patrocinadores, Dev Day 4 Women es un evento gratuito. Solo debes realizar tu registro en tiempo y forma.
-
-### ¿QUÉ NECESITO PARA PARTICIPAR?
+### ¿QUÉ NECESITO PARA ASISTIR?
 
 Solo tienes que registrarte y apartar la fecha del 23 de octubre. Una vez hecho tu registro, te llegará la confirmación del evento a tu correo.
 
