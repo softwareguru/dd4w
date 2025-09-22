@@ -3,7 +3,7 @@ title: "Marisol Barba Lemus"
 date: 2024-04-05T11:11:57-06:00
 images: 
  - "/images/speakers/marisol-barba-lemus.png"
-designation : "Digital & Data Analytics Manager en Edenred"
+designation : "Digital & Data Analytics Manager @ Edenred"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/marisol-barba-lemus-2016/"

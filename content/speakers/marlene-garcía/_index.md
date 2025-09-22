@@ -3,7 +3,7 @@ title: "Marlene García"
 date: 2022-10-17T18:31:19-05:00
 images: 
  - "/images/speakers/2022-h2/marlene-garcia.jpg"
-designation : "Directora General de CONTPAQi"
+designation : "Directora General @ CONTPAQi"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/marlene-garc%C3%ADa-a9bb943a/"

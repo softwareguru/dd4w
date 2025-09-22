@@ -3,7 +3,7 @@ title: "Laura Figueroa"
 date: 2024-10-03T13:49:58-06:00
 images: 
  - "/images/speakers/laura-figueroa.png"
-designation : "Directora General de Impact Click"
+designation : "Directora General @ Impact Click"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/laurafiglez/"

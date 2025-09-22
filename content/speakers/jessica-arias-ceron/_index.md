@@ -3,7 +3,7 @@ title: "Jessica Arias Cerón"
 date: 2024-09-18T16:56:59-06:00
 images: 
  - "/images/speakers/jessica-arias-ceron.png"
-designation : "Subdirección de Centro de Datos en B-Drive IT"
+designation : "Subdirección de Centro de Datos @ B-Drive IT"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/jessica-arias-cer%C3%B3n-799015176/"

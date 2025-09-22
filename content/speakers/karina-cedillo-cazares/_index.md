@@ -3,7 +3,7 @@ title: "Karina Cedillo Cazares"
 date: 2024-09-18T17:12:16-06:00
 images: 
  - "/images/speakers/karina-cedillo-cazares.png"
-designation : "Director de Calidad y Competitividad en CONTPAQi"
+designation : "Director de Calidad y Competitividad @ CONTPAQi"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/karinacedillo/"
