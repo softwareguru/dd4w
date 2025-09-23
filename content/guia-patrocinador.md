@@ -8,9 +8,9 @@ Hemos preparado este [check list](https://docs.google.com/document/d/1xU8LtpScik
 
 ### Información clave del evento:
 
-* **Audiencia:** más de 200 participantes presenciales
-* **Fecha:** 21 de octubre de 2025
-* **Ubicación:** por confirmar
+* **Audiencia:** más de 150-200 participantes presenciales
+* **Fecha:** 23 de octubre de 2025
+* **Ubicación:** **Universidad Regiomontana (UERRE) Campus Centro, Aulas I**, Matamoros #430, Col. Centro, CP 64000, Monterrey, Nuevo León
 * **Sobre el evento:** Dev Day 4 Women es un componente clave de la iniciativa Code 4 DEI, cuyo propósito es desarrollar una comunidad tecnológica donde mujeres y personas de género no binario puedan aprender, inspirarse, conectarse y motivarse mutuamente para seguir sus carreras en STEAM.  Desde 2015, DD4W se ha consolidado como la conferencia líder para mujeres y profesionales de género no binario en América Latina.
 * **Programa de un día:**
  📅 Jueves 23 de octubre: charlas, mensajes y área de networking
@@ -26,9 +26,8 @@ Hemos preparado este [check list](https://docs.google.com/document/d/1xU8LtpScik
 
 * **Comparte la información de tu sesión (patrocinadores Platinum y Gold)**
 Las sesiones patrocinadas pueden ser charlas de 25 minutos o mensajes de 10 minutos
-Incluye: título, resumen, y datos del ponente (nombre, correo electrónico, biografía y fotografía) Los ponentes recibirán una guía con todos los detalles sobre su participación) 
+Incluye: título, resumen, y datos del ponente (nombre, correo electrónico, biografía y fotografía) Los ponentes recibirán una guía con todos los detalles sobre su participación.
 
-Envía tu propuesta aquí:
 
 ### Comparte tus ofertas de empleo
 
@@ -51,7 +50,10 @@ Te invitamos a compartir esta oportunidad con tus clientes y tu equipo. Aunque l
 
 #### Reserva tu hotel
 
-Contamos con una tarifa especial en el Fiesta Inn y AC HOTEL MONTERREY VALLE, como parte del convenio del evento. La disponibilidad es limitada, por lo que te recomendamos hacer tu reserva directamente lo antes posible.
+Si planeas hospedarte cerca de la sede **U-ERRE** o bien, en **San Pedro**, te recomendamos realizar tu reserva **directamente y lo antes posible**, ya que las fechas del evento se acercan y la disponibilidad puede variar.
+
+Fechas: 22 al 24 de octubre 2025
+Precios estimados por noche en MXN
 
 
 ### Prepara tu participación

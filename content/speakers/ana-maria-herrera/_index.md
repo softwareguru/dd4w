@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+title: "Ana Maria Herrera"
+date: 2025-09-23T12:46:41-06:00
 images: 
- - "/images/speakers/{{ .Name }}.png"
+ - "/images/speakers/speaker.jpg"
 designation : ""
 country: "mx"
 twitter: ""

@@ -134,12 +134,19 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
     parent = "programa"
     weight = 1
 
+  [[languages.es.menu.main]]
+    identifier = "agenda"
+    name = "Sesiones"
+    url = "/agenda"
+    parent = "programa"
+    weight = 2
+
   #[[languages.es.menu.main]]
   #  identifier = "coc"
   #  name = "Networking"
   #  url = "/networking"
   #  parent = "programa"
-  #  weight = 2
+  #  weight = 3
 
 ###################### PATROCINA #######################
 

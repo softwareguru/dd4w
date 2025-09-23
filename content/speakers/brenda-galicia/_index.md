@@ -3,7 +3,7 @@ title: "Brenda Galicia"
 date: 2024-04-18T11:50:05-06:00
 images: 
  - "/images/speakers/brenda-galicia.png"
-designation : "AWS Community Leader"
+designation : "AI Sofware Manager @ Embajadoras Cloud"
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/brenda-galicia/"
@@ -11,11 +11,12 @@ github: ""
 events: 
  - 2024-h1
  - 2024-IA
+ - octubre-2025
 ia: true
 ---
 
-Soy una apasionada del desarrollo tecnológico con amplia experiencia en el desarrollo de soluciones orientada a servicios, aplicaciones web y el fascinante mundo de la inteligencia artificial, especialmente en el campo de machine learning. He perfeccionado mis habilidades en la nube de AWS, liderando proyectos innovadores.
+Brenda Galicia es Software Manager, donde lidera el desarrollo de soluciones tecnológicas con foco en inteligencia artificial. Es AWS Community Builder en las categorías de Machine Learning y Generative AI, y líder de la comunidad AWS UG: Embajadoras Cloud, impulsando la participación femenina en el ecosistema cloud.
 
-Mi dedicación va más allá de la tecnología; me impulsa el compromiso con el empoderamiento femenino y la diversidad en el mundo de TI, creyendo firmemente que la inclusión impulsa la verdadera innovación. 
+Cuenta con certificaciones y experiencia práctica como desarrolladora de IA, combinando capacidades técnicas con liderazgo para construir productos innovadores y alineados a necesidades reales.
 
-Actualmente, lidero el grupo de AWS Embajadoras Cloud, donde promovemos la participación de mujeres en la tecnología y la nube.
+Brenda participa activamente en comunidades tecnológicas, promoviendo el aprendizaje, la colaboración y la inclusión en la industria. Su trabajo busca no solo aprovechar el potencial de la nube y la IA, sino también hacerlo de forma ética, accesible y con impacto positivo en la región.
