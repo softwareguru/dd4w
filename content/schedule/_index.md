@@ -112,11 +112,6 @@ days:
       - type: timelabel
         label: "13:02"
         gridarea: "15/1/16/2"
-      - type: activity
-        label: "AWS Embajadoras Cloud"
-        gridarea: "15/2/16/6"
-        timelabel: "13:02 - 13:05"
-        gridaream: "15/1/16/2"
 
       - type: timelabel
         label: "13:05"
