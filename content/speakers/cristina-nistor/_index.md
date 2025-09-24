@@ -8,6 +8,8 @@ country:
 twitter: 
 linkedin: 
 github: 
+events: 
+ - octubre-2025
 ---
 
 Cristina Nistor es una ejecutiva, mentora y conferencista orientada a resultados, con 20 años de experiencia en liderazgo. Como Directora de Operaciones en TESTCo, ha construido equipos remotos de alto desempeño y ha convertido desafíos de negocio en oportunidades de crecimiento. Mentorea a personas que asumen su primer rol de gerencia para que lideren con claridad, confianza e impacto.

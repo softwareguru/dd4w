@@ -128,7 +128,7 @@ days:
         gridaream: "16/1/17/2"
 
       - type: timelabel
-        label: "12:15"
+        label: "13:15"
         gridarea: "17/1/18/2"
       - type: activity
         label: "Foto grupal"
