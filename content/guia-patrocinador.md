@@ -55,6 +55,71 @@ Si planeas hospedarte cerca de la sede **U-ERRE** o bien, en **San Pedro**, te r
 Fechas: 22 al 24 de octubre 2025
 Precios estimados por noche en MXN
 
+<div class="table-responsive">
+<table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Hotel</th>
+      <th scope="col">Dirección / Zona</th>
+      <th scope="col">Tarifa estimada por noche</th>
+      <th scope="col">Cómo llegar desde U‑ERRE Campus Centro</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>NH Collection Monterrey San Pedro</td>
+      <td><a href="https://www.google.com/maps/search/Av.+Jos%C3%A9+Vasconcelos+402,+San+Pedro?entry=gmail&source=g" target="_blank">Av. José Vasconcelos 402, San Pedro</a></td>
+      <td>$1,200 – $1,300</td>
+      <td>Uber: 15–25 min / Bus: Ruta a Vasconcelos</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>taybridge Suites Monterrey - San Pedro</td>
+      <td><a href="https://www.google.com/maps/search/Monterrey+-+San+Pedro+Calzada+San+Pedro+103?entry=gmail&source=g" target="_blank">Calzada San Pedro 103, San Pedro</a></td>
+      <td>$1,500 – $1,800</td>
+      <td>Uber: 20 min / Bus: Calzada San Pedro</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Sleep Inn Monterrey San Pedro</td>
+      <td><a href="https://www.google.com/maps/search/Blvd.+Antonio+L.+Rodr%C3%ADguez+3074?entry=gmail&source=g" target="_blank">Blvd. Antonio L. Rodríguez 3074, Santa María</a></td>
+      <td>$1,000 – $1,400</td>
+      <td>Uber: 15–20 min / Bus: Blvd. A.L. Rodríguez</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Krystal Monterrey</td>
+      <td><a href="https://www.google.com/maps/search/Calle+Corregidora+519,+Centro+Monterrey?entry=gmail&source=g" target="_blank">Calle Corregidora 519, Centro Monterrey</a></td>
+      <td>$1,200 – $1,400</td>
+      <td>A pie: 10–15 min / Uber: 5 min</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Fiesta Inn Express Monterrey Centro</td>
+      <td>Monterrey Centro</td>
+      <td>$810 (promo)</td>
+      <td>A pie: 10–15 min / Uber: 5 min</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>Hotel Plaza de Oro Monterrey</td>
+      <td>Monterrey Centro></td>
+      <td>$1,100 – $1,500</td>
+      <td>A pie: 10–15 min / Uber: 5 min</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>iStay Hotel Monterrey Histórico</td>
+      <td>Centro Histórico / Macroplaza</td>
+      <td>$700 – $900</td>
+      <td>A pie: 5–10 min / Uber: 5 min</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 
 ### Prepara tu participación
 
