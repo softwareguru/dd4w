@@ -7,7 +7,9 @@ DefaultContentLanguage = "es"
 
 theme = "dd4w"
 # post pagination
-paginate = "8"
+
+[pagination]
+  pagerSize = 8
 
 # Este es el tag normal de analytics
 # googleAnalytics = "G-HV96ZN2N60"
