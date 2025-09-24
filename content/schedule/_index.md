@@ -135,7 +135,7 @@ days:
         label: "13:25"
         gridarea: "18/1/19/2"
       - type: activity
-        label: "Lunch + Dinamica de networking"
+        label: "Lunch + Dinámica de networking"
         gridarea: "18/2/19/6"
         timelabel: "13:25 - 14:10"
         gridaream: "18/1/19/2"
@@ -211,7 +211,7 @@ days:
         label: "18:10"
         gridarea: "32/1/33/2"
       - type: activity
-        label: "Networking break"
+        label: "Cierre del evento"
         gridarea: "32/2/33/6"
         timelabel: "18:10 - 15:55"
         gridaream: "32/1/33/2"

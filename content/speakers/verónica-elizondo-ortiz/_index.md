@@ -3,7 +3,7 @@ title: "Verónica Elizondo Ortiz"
 date: 2025-09-24T11:52:53-06:00
 images: 
  - "/images/speakers/veronica-elizondo-ortiz.png"
-designation : "Socia co-Fudnadora Merlo Capital, Socia Galera Consultores, Consultora Independiente"
+designation : "Socia Co-Fundadora en Merlo Capital | Socia Galera Consultores | Consultora Independiente"
 country: "mx"
 twitter: ""
 linkedin: ""
