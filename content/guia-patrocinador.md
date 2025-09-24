@@ -8,7 +8,7 @@ Hemos preparado este [check list](https://docs.google.com/document/d/1xU8LtpScik
 
 ### Información clave del evento:
 
-* **Audiencia:** más de 150-200 participantes presenciales
+* **Audiencia:** 150-200 participantes presenciales
 * **Fecha:** 23 de octubre de 2025
 * **Ubicación:** **Universidad Regiomontana (UERRE) Campus Centro, Aulas I**, Matamoros #430, Col. Centro, CP 64000, Monterrey, Nuevo León
 * **Sobre el evento:** Dev Day 4 Women es un componente clave de la iniciativa Code 4 DEI, cuyo propósito es desarrollar una comunidad tecnológica donde mujeres y personas de género no binario puedan aprender, inspirarse, conectarse y motivarse mutuamente para seguir sus carreras en STEAM.  Desde 2015, DD4W se ha consolidado como la conferencia líder para mujeres y profesionales de género no binario en América Latina.
