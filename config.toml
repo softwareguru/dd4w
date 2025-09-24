@@ -128,14 +128,14 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
   weight = 3
 
   [[languages.es.menu.main]]
-    identifier = "agenda-previa"
-    name = "agenda"
+    identifier = "agenda-2025"
+    name = "Agenda"
     url = "/agenda"
     parent = "programa"
     weight = 1
 
   [[languages.es.menu.main]]
-    identifier = "ponentes"
+    identifier = "ponentes-2025"
     name = "Ponentes"
     url = "/speakers"
     parent = "programa"
@@ -174,10 +174,10 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
 
   [languages.ia]
 
-  [[languages.ia.menu.main]]
-    name = "PONENTES"
-    URL = "/ia/speakers"
-    weight = 2
+  #[[languages.ia.menu.main]]
+  #  name = "PONENTES"
+  #  URL = "/ia/speakers"
+  #  weight = 2
 
   [[languages.ia.menu.main]]
     name = "Agenda"
