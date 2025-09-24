@@ -3,23 +3,230 @@ title: "AGENDA OCTUBRE 2025"
 date: 2024-04-07T14:08:36-06:00
 draft: false
 url: /agenda
-blocks: 
+layout: list
 
+days:  
   - id: h1-2025
-    info: Sesiones confirmadas
-    language: 
-    time_start: 2025-10-23T10:08:36-06:00 
+    enabled: true
+    title_short: Martes
+    title_full: Martes 21 de octubre
+    rooms: ["Auditorio"]
+    schedule_items: 
+      - type: timelabel
+        label: "8:00"
+        gridarea: "1/1/2/2"
+      - type: activity
+        label: "Registro"
+        gridarea: "1/2/2/6"
+        timelabel: "8:00 - 8:40"
+        gridaream: "1/1/2/2"
+
+      - type: timelabel
+        label: "8:40"
+        gridarea: "2/1/3/2"
+      - type: activity
+        label: "Apertura y Bienvenida por Sede"
+        gridarea: "2/2/3/6"
+        timelabel: "8:40 - 9:00"
+        gridaream: "2/1/3/2"
+
+      - type: timelabel
+        label: "9:00"
+        gridarea: "3/1/4/2"
+      - type: activity
+        label: "Fireside chat: Unleash the power within you"
+        gridarea: "3/2/4/6"
+        timelabel: "9:00 - 9:45"
+        gridaream: "3/1/4/2"
+
+      - type: timelabel
+        label: "9:45"
+        gridarea: "4/1/5/2"
+
+      - type: timelabel
+        label: "10:15"
+        gridarea: "5/1/6/2"
+
+      - type: timelabel
+        label: "10:45"
+        gridarea: "6/1/7/2"
+      - type: activity
+        label: "Mensaje patrocinado por CONTPAQi"
+        gridarea: "6/2/7/6"
+        timelabel: "10:45 - 10:55"
+        gridaream: "6/1/7/2"
+
+      - type: timelabel
+        label: "10:55"
+        gridarea: "7/1/8/2"
+      - type: activity
+        label: "Networking break"
+        gridarea: "7/2/8/6"
+        timelabel: "10:55 - 11:20"
+        gridaream: "7/1/8/2"
+
+      - type: timelabel
+        label: "11:20"
+        gridarea: "8/1/9/2"
+      - type: activity
+        label: "Charla patrocinada"
+        gridarea: "8/2/9/6"
+        timelabel: "11:20 - 11:50"
+        gridaream: "8/1/9/2"
+
+
+      - type: timelabel
+        label: "11:50"
+        gridarea: "9/1/10/2"
+      - type: activity
+        label: "Charla patrocinada"
+        gridarea: "9/2/10/6"
+        timelabel: "11:50 - 12:20"
+        gridaream: "9/1/10/2"
+
+      - type: timelabel
+        label: "12:20"
+        gridarea: "10/1/11/2"
+      - type: activity
+        label: "Charla patrocinada"
+        gridarea: "10/2/11/6"
+        timelabel: "12:20 - 12:50"
+        gridaream: "10/1/11/2"
+
+      - type: timelabel
+        label: "12:50"
+        gridarea: "11/1/12/2"
+      - type: activity
+        label: "Wosec México"
+        gridarea: "11/2/12/6"
+        timelabel: "12:50 - 13:05"
+        gridaream: "11/1/12/2"
+
+      - type: timelabel
+        label: "12:53"
+        gridarea: "12/1/13/2"
+
+      - type: timelabel
+        label: "12:56"
+        gridarea: "13/1/14/2"
+
+      - type: timelabel
+        label: "12:59"
+        gridarea: "14/1/15/2"
+
+      - type: timelabel
+        label: "13:02"
+        gridarea: "15/1/16/2"
+      - type: activity
+        label: "AWS Embajadoras Cloud"
+        gridarea: "15/2/16/6"
+        timelabel: "13:02 - 13:05"
+        gridaream: "15/1/16/2"
+
+      - type: timelabel
+        label: "13:05"
+        gridarea: "16/1/17/2"
+      - type: activity
+        label: "Mensaje patrocinado"
+        gridarea: "16/2/17/6"
+        timelabel: "13:05 - 13:15"
+        gridaream: "16/1/17/2"
+
+      - type: timelabel
+        label: "12:15"
+        gridarea: "17/1/18/2"
+      - type: activity
+        label: "Foto grupal"
+        gridarea: "17/2/18/6"
+        timelabel: "13:15 - 13:25"
+        gridaream: "17/1/18/2"
+
+      - type: timelabel
+        label: "13:25"
+        gridarea: "18/1/19/2"
+      - type: activity
+        label: "Lunch + Dinamica de networking"
+        gridarea: "18/2/19/6"
+        timelabel: "13:25 - 14:10"
+        gridaream: "18/1/19/2"
+
+      - type: timelabel
+        label: "14:10"
+        gridarea: "19/1/20/2"
+
+      - type: timelabel
+        label: "14:35"
+        gridarea: "20/1/21/2"
+
+      - type: timelabel
+        label: "15:00"
+        gridarea: "21/1/22/2"
+
+      - type: timelabel
+        label: "15:25"
+        gridarea: "22/1/23/2"
+      - type: activity
+        label: "Mensaje patrocinado"
+        gridarea: "22/2/23/6"
+        timelabel: "15:25 - 15:35"
+        gridaream: "22/1/23/2"
+
+      - type: timelabel
+        label: "15:35"
+        gridarea: "23/1/24/2"
+      - type: activity
+        label: "Networking break"
+        gridarea: "23/2/24/6"
+        timelabel: "15:35 - 15:55"
+        gridaream: "23/1/24/2"
+
+      - type: timelabel
+        label: "15:55"
+        gridarea: "24/1/25/2"
+
+      - type: timelabel
+        label: "16:20"
+        gridarea: "25/1/26/2"
+
+      - type: timelabel
+        label: "16:45"
+        gridarea: "26/1/27/2"
+
+      - type: timelabel
+        label: "17:10"
+        gridarea: "27/1/28/2"
+
+      - type: timelabel
+        label: "17:35"
+        gridarea: "28/1/29/2"
+
+      - type: timelabel
+        label: "17:40"
+        gridarea: "29/1/30/2"
+
+      - type: timelabel
+        label: "17:45"
+        gridarea: "30/1/31/2"
+
+      - type: timelabel
+        label: "18:00"
+        gridarea: "31/1/32/2"
+      - type: activity
+        label: "Networking break"
+        gridarea: "31/2/32/6"
+        timelabel: "18:00 - 18:10"
+        gridaream: "31/1/32/2"
+
+      - type: timelabel
+        label: "18:10"
+        gridarea: "32/1/33/2"
+      - type: activity
+        label: "Networking break"
+        gridarea: "32/2/33/6"
+        timelabel: "18:10 - 15:55"
+        gridaream: "32/1/33/2"
 
 ---
-<br>
-<div class="color-code-list mb-4">
-  <div class="color-code-item" style="background-color: #4241D2; color: white; border-radius: 25px; padding: 10px;">Sesiones</div>
-
-  <div class="color-code-item" style="background-color: #FF40B8; color: white; border-radius: 25px; padding: 10px;">Comunidades</div>
-
-  <div class="color-code-item" style="background-color: #965cee; color: white; border-radius: 25px; padding: 10px;">Lightning talk</div>
-</div>
-
 
 
 

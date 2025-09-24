@@ -4,12 +4,16 @@ title: "Herramientas y Agentes Inteligentes"
 slug: herramientas-y-agentes-inteligentes
 speakers:
  - Miriam Yuridia Rojas
-format: session
-block: h1-2025
 time_start: 2025-10-23T17:10:00-06:00
 time_end: 2025-10-23T17:35:00-06:00
-video:
-slides:
+day: h1-2025
+gridarea: "27/2/28/6"
+room: Auditorio
+timeslot: 27
+track: Charla
+tags:
+slides: 
+video: 
 ---
 
 En esta charla exploraremos de forma práctica cómo pasar de la teoría a la acción en la creación de agentes de inteligencia artificial. A través de mi experiencia personal en el desarrollo y despliegue de un agente, compartiré los pasos clave, las herramientas más accesibles y los retos comunes que enfrentamos al comenzar en este camino.

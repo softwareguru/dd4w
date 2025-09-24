@@ -4,12 +4,16 @@ title: "Sistema para la evaluación automatizada de dibujos de la figura humana 
 slug: sistema-para-la-evaluacion-automatizada
 speakers:
  - Melania Hernandez Coronado
-format: session
-block: h1-2025
 time_start: 2025-10-23T14:10:00-06:00
 time_end: 2025-10-23T14:35:00-06:00
-video:
-slides:
+day: h1-2025
+gridarea: "19/2/20/6"
+room: Auditorio
+timeslot: 19
+track: Charla
+tags:
+slides: 
+video: 
 ---
 
 Los trastornos cognitivos en la infancia, especialmente la discapacidad intelectual en México y otros países, representan un grave desafío de salud pública.

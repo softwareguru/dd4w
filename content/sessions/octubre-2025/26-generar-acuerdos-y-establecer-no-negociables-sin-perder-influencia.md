@@ -4,12 +4,16 @@ title: "Generar acuerdos y establecer no negociables sin perder influencia"
 slug: generar-acuerdos-y-establecer-no-negociables-sin-perder-influencia
 speakers:
  - Camelia Andra Anuta
-format: session
-block: h1-2025
 time_start: 2025-10-23T16:45:00-06:00
 time_end: 2025-10-23T17:10:00-06:00
-video:
-slides:
+day: h1-2025
+gridarea: "26/2/27/6"
+room: Auditorio
+timeslot: 26
+track: Charla
+tags:
+slides: 
+video: 
 ---
 
 Contenidos:

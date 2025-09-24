@@ -4,12 +4,16 @@ title: "Mujeres en STEM Decodificando la Vida Celular"
 slug: mujeres-en-stem-decodificando-la-vida-celular
 speakers:
  - Nina Padme Eufracio Rojas
-format: session
-block: h1-2025
 time_start: 2025-10-23T16:20:00-06:00
 time_end: 2025-10-23T16:45:00-06:00
-video:
-slides:
+day: h1-2025
+gridarea: "25/2/26/6"
+room: Auditorio
+timeslot: 25
+track: Charla
+tags:
+slides: 
+video: 
 ---
 
 ¿Qué tienen en común una célula humana y una línea de código? Más de lo que imaginas.
