@@ -2,7 +2,7 @@
 title: "Guía para disfrutar Dev Day 4 Women 2025: Cómo llegar, qué hacer, dónde quedarse y mucho más"
 date: 2025-09-08T16:50:56-06:00
 slug: guia-para-disfrutar-dev-day-4-women-2025
-image: /images/blog/.png
+image: /images/blog/guia-para-disfrutar.png
 draft: false
 ---
 
@@ -138,7 +138,7 @@ Ejemplos concretos:
       <td>Buena variedad, ideal si quieren comer bastante con poca diferencia de precio. Abre todos los días; incluye agua refil. </td>
     </tr>
     <tr>
-      <th><a href="https://maps.app.goo.gl/HYiQuXA6E4gqmuj79" target="_blank">https://maps.app.goo.gl/HYiQuXA6E4gqmuj79</a></th>
+      <th><a href="https://maps.app.goo.gl/HYiQuXA6E4gqmuj79" target="_blank">Govinda</a></th>
       <td>Buffet vegetariano / vegano</td>
       <td>~$179</td>
       <td>Juan Ignacio Ramón #820, Col. entre Diego de Montemayor y Dr. Coss, Monterrey</td>

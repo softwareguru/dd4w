@@ -33,11 +33,6 @@ days:
       - type: timelabel
         label: "9:00"
         gridarea: "3/1/4/2"
-      - type: activity
-        label: "Fireside chat: Unleash the power within you"
-        gridarea: "3/2/4/6"
-        timelabel: "9:00 - 9:45"
-        gridaream: "3/1/4/2"
 
       - type: timelabel
         label: "9:45"
@@ -69,7 +64,7 @@ days:
         label: "11:20"
         gridarea: "8/1/9/2"
       - type: activity
-        label: "Charla patrocinada"
+        label: "Sesión por confirmar"
         gridarea: "8/2/9/6"
         timelabel: "11:20 - 11:50"
         gridaream: "8/1/9/2"
@@ -79,7 +74,7 @@ days:
         label: "11:50"
         gridarea: "9/1/10/2"
       - type: activity
-        label: "Charla patrocinada"
+        label: "Sesión por confirmar"
         gridarea: "9/2/10/6"
         timelabel: "11:50 - 12:20"
         gridaream: "9/1/10/2"
@@ -88,7 +83,7 @@ days:
         label: "12:20"
         gridarea: "10/1/11/2"
       - type: activity
-        label: "Charla patrocinada"
+        label: "Sesión por confirmar"
         gridarea: "10/2/11/6"
         timelabel: "12:20 - 12:50"
         gridaream: "10/1/11/2"
@@ -127,7 +122,7 @@ days:
         label: "13:05"
         gridarea: "16/1/17/2"
       - type: activity
-        label: "Mensaje patrocinado"
+        label: "Mensaje por confirmar"
         gridarea: "16/2/17/6"
         timelabel: "13:05 - 13:15"
         gridaream: "16/1/17/2"
@@ -166,7 +161,7 @@ days:
         label: "15:25"
         gridarea: "22/1/23/2"
       - type: activity
-        label: "Mensaje patrocinado"
+        label: "Mensaje por confirmar"
         gridarea: "22/2/23/6"
         timelabel: "15:25 - 15:35"
         gridaream: "22/1/23/2"
