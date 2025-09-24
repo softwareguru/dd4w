@@ -5,7 +5,7 @@ slug: fireside-chat
 speakers:
  - Cristina Nistor
  - Karina Derbez
- - Verónica  Elizondo Ortiz 
+ - Veronica Elizondo Ortiz 
 time_start: 2025-10-23T09:00:00-06:00
 time_end: 2025-10-23T09:45:00-06:00
 day: h1-2025
