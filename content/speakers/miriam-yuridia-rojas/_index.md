@@ -6,7 +6,7 @@ images:
 designation : "Data science @ Ensitech"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: "https://mx.linkedin.com/in/miriam-yuridia-rojas-ba11aa172"
 github: ""
 events: 
  - octubre-2025

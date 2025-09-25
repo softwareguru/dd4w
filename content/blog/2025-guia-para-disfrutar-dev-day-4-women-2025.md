@@ -12,12 +12,16 @@ Si ya estás registrada o planeas acompañarnos, hemos preparado esta guía prá
 
 
 ### 📍 Cómo llegar a la sede y cómo moverse
-El evento se llevará a cabo en la U‑ERRE, ubicada en C. Mariano Matamoros 430 Pte, Col Centro, Monterrey, N.L. <a href="https://maps.app.goo.gl/HZgyWsbzhZkkqRrg6" target=_blank>Ver en Maps.</a>
+El evento se llevará a cabo en la **U-ERRE CENTRO, Aulas I | U-ERRE Universidad Regiomontana**, ubicada en C. Mariano Matamoros 430 Pte, Col Centro, Monterrey, N.L. <a href="https://maps.app.goo.gl/HZgyWsbzhZkkqRrg6" target=_blank>Ver en Maps.</a>
 
-Para ello, las opciones recomendadas son:
+La Universidad Regiomontana A.C. (conocida por su nombre abreviado U-ERRE, y anteriormente por la abreviatura UR) es una institución de educación superior en Monterrey, México. Es considerada la tercera universidad privada más importante de la región, compitiendo con la Universidad de Monterrey.
+
+Para llegar, las opciones recomendadas son:
 
 🚗 **En auto:** Disponible en Google Maps y Waze. Toma en cuenta que la sede NO cuenta con estacionamiento para visitas.
+
 🚇 **Transporte público:** <a href="https://www.metrorrey.mx/" target="_blank">Metro Línea 2</a>. La estación más cercana es <a href="https://maps.app.goo.gl/L5xFefdZM3iwbJYL6" target="_blank">Fundadores</a>.
+
 🚕 **Movilidad:** Uber, Didi y taxis locales funcionan perfectamente en Monterrey.
 
 💡 **Consejo:** llega con tiempo. La zona es de mucho tránsito y la movilidad se vuelve complicada en auto. El registro abre a las 8:00 AM y habrá actividades de networking temprano.
@@ -88,20 +92,20 @@ Aquí algunos restaurantes buenos cercanos a U‑ERRE o en zonas accesibles, con
   <tbody>
     <tr>
       <th>Restaurantes en el Centro</th>
-      <td>cerca de U‑ERRE / Centro Histórico</td>
+      <td>Cerca de U‑ERRE / Centro Histórico</td>
       <td>Comida mexicana, platos regionales, tacos, guisados, algo casual</td>
       <td>~$120‑$250 MXN</td>
     </tr>
     <tr>
       <th>Restaurantes en Parque Fundidora / San Pedro</th>
-      <td>más formales, ambiente más turístico o elegante</td>
+      <td>Más formales, ambiente más turístico o elegante</td>
       <td>Carnes asadas, mariscos, cocina internacional o gourmet</td>
       <td>~$300‑$600 MXN</td>
     </tr>
     <tr>
       <th>Cafés / lugares ligeros cerca de U‑ERRE</th>
-      <td>cafeterías, cafetería de la U‑ERRE, snacks, comida rápida saludable</td>
-      <td>café, sándwiches, postres</td>
+      <td>Cafeterías, cafetería de la U‑ERRE, snacks, comida rápida saludable</td>
+      <td>Café, sándwiches, postres</td>
       <td>~$80‑$180 MXN</td>
     </tr>
     <tr>
@@ -251,7 +255,7 @@ Precios estimados por noche en MXN
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>taybridge Suites Monterrey - San Pedro</td>
+      <td>Taybridge Suites Monterrey - San Pedro</td>
       <td><a href="https://www.google.com/maps/search/Monterrey+-+San+Pedro+Calzada+San+Pedro+103?entry=gmail&source=g" target="_blank">Calzada San Pedro 103, San Pedro</a></td>
       <td>$1,500 – $1,800</td>
       <td>Uber: 20 min / Bus: Calzada San Pedro</td>
@@ -306,7 +310,9 @@ Precios estimados por noche en MXN
 Estamos emocionadas de recibirte en esta edición histórica. Será un día para inspirarnos, aprender y conectarnos con mujeres increíbles que están transformando el mundo de la tecnología.
 
 📅 Fecha: 23 de octubre de 2025
-📍 Lugar: U-ERRE Universidad Regiomontana, Monterrey, N.L.
+
+📍 Lugar: U-ERRE CENTRO, Aulas I | U-ERRE Universidad Regiomontana, Monterrey, N.L.
+
 💜 Registro gratuito: https://devday4w.com/registro
 
 ¡Nos vemos en Monterrey para celebrar juntas una década de Dev Day 4 Women!

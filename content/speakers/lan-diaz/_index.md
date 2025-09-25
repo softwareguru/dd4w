@@ -6,7 +6,7 @@ images:
 designation : "Woman Diversity"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/diazlan/"
 github: ""
 events: 
  - octubre-2025

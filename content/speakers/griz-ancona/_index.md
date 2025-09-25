@@ -5,8 +5,8 @@ images:
  - "/images/speakers/griz-ancona.png"
 designation : "Tech Sales Consultant"
 country: "mx"
-twitter: "https://www.linkedin.com/in/grizancona/"
-linkedin: ""
+twitter: ""
+linkedin: "https://www.linkedin.com/in/grizancona/"
 github: ""
 events:
  - 2021

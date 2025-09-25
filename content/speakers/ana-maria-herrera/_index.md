@@ -6,7 +6,7 @@ images:
 designation : "IT Project Manager @ Technolatinas"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: "http://linkedin.com/in/ana-herrera-it-projectmanage"
 github: ""
 events: 
  - octubre-2025

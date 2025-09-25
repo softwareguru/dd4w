@@ -6,7 +6,7 @@ images:
 designation : "Woman Diversity"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/adriana-di-avila?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
 github: ""
 events: 
  - octubre-2025

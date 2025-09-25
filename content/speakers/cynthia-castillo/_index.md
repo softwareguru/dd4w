@@ -6,7 +6,7 @@ images:
 designation : "Data Analyst @ Honeywell"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: "https://www.linkedin.com/in/lamatemaga/"
 github: ""
 events: 
  - octubre-2025

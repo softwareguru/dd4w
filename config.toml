@@ -94,6 +94,14 @@ link = "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons
   weight = 2
 
   [[languages.es.menu.main]]
+    identifier = "sede"
+    name = "Sede + Viaje"
+    url = "/blog/guia-para-disfrutar-dev-day-4-women-2025/"
+    parent = "participa"
+    weight = 1
+
+
+  [[languages.es.menu.main]]
     identifier = "dd4w"
     name = "Carta para tu jefe"
     url = "/carta-ejemplo"
