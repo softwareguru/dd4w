@@ -105,7 +105,7 @@ Precios estimados por noche en MXN
     <tr>
       <th scope="row">6</th>
       <td>Hotel Plaza de Oro Monterrey</td>
-      <td>Monterrey Centro></td>
+      <td>Monterrey Centro</td>
       <td>$1,100 – $1,500</td>
       <td>A pie: 10–15 min / Uber: 5 min</td>
     </tr>
