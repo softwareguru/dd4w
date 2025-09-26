@@ -6,7 +6,7 @@ images:
 designation : "Socia Co-Fundadora en Merlo Capital | Socia Galera Consultores | Consultora Independiente"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: https://www.linkedin.com/in/veronicaelizondoortiz/
 github: ""
 events: 
  - octubre-2025

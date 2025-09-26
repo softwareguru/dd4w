@@ -6,7 +6,7 @@ images:
 designation: Directora Operaciones @ TESTCo
 country: 
 twitter: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/nistorcristina/
 github: 
 events: 
  - octubre-2025

@@ -6,7 +6,7 @@ images:
 designation : "Co-founder & CTO de Monto @ Monto"
 country: "mx"
 twitter: ""
-linkedin: ""
+linkedin: https://www.linkedin.com/in/karinaderbez/
 github: ""
 events: 
  - octubre-2025
