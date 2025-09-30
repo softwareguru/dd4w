@@ -1,7 +1,7 @@
 ---
 id: {{ .Name }}
-title: ""
-slug: 
+title: "{{ replace .Name "-" " " | title }}"
+slug: {{ .Name }}
 speakers:
  - 
 format: session

@@ -91,11 +91,6 @@ days:
       - type: timelabel
         label: "12:50"
         gridarea: "11/1/12/2"
-      - type: activity
-        label: "Wosec México"
-        gridarea: "11/2/12/6"
-        timelabel: "12:50 - 13:05"
-        gridaream: "11/1/12/2"
 
       - type: timelabel
         label: "12:53"
