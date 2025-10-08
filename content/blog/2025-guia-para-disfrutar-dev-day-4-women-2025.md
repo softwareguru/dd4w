@@ -12,13 +12,13 @@ Si ya estás registrada o planeas acompañarnos, hemos preparado esta guía prá
 
 
 ### 📍 Cómo llegar a la sede y cómo moverse
-El evento se llevará a cabo en la **U-ERRE CENTRO, Aulas I | U-ERRE Universidad Regiomontana**, ubicada en C. Mariano Matamoros 430 Pte, Col Centro, Monterrey, N.L. <a href="https://maps.app.goo.gl/HZgyWsbzhZkkqRrg6" target=_blank>Ver en Maps.</a>
+El evento se llevará a cabo en la **U-ERRE Centro, Aulas I, Monterrey, NL.**, ubicada en C. Mariano Matamoros 430 Pte, Col Centro, Monterrey, N.L. <a href="https://maps.app.goo.gl/HZgyWsbzhZkkqRrg6" target=_blank>Ver en Maps.</a>
 
 La Universidad Regiomontana A.C. (conocida por su nombre abreviado U-ERRE, y anteriormente por la abreviatura UR) es una institución de educación superior en Monterrey, México. Es considerada la tercera universidad privada más importante de la región, compitiendo con la Universidad de Monterrey.
 
 Para llegar, las opciones recomendadas son:
 
-🚗 **En auto:** Disponible en Google Maps y Waze. Toma en cuenta que la sede NO cuenta con estacionamiento para visitas.
+🚗 **En auto:** Disponible en Google Maps y Waze. La universidad cuenta con estacionamiento para visitas. La cuota es de $40 (todo el tiempo que dure el evento).
 
 🚇 **Transporte público:** <a href="https://www.metrorrey.mx/" target="_blank">Metro Línea 2</a>. La estación más cercana es <a href="https://maps.app.goo.gl/L5xFefdZM3iwbJYL6" target="_blank">Fundadores</a>.
 
@@ -311,7 +311,7 @@ Estamos emocionadas de recibirte en esta edición histórica. Será un día para
 
 📅 Fecha: 23 de octubre de 2025
 
-📍 Lugar: U-ERRE CENTRO, Aulas I | U-ERRE Universidad Regiomontana, Monterrey, N.L.
+📍 Lugar: U-ERRE Centro, Aulas I, Monterrey, NL.
 
 💜 Registro gratuito: https://devday4w.com/registro
 
