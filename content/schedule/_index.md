@@ -45,11 +45,6 @@ days:
       - type: timelabel
         label: "10:45"
         gridarea: "6/1/7/2"
-      - type: activity
-        label: "Mensaje patrocinado por CONTPAQi"
-        gridarea: "6/2/7/6"
-        timelabel: "10:45 - 10:55"
-        gridaream: "6/1/7/2"
 
       - type: timelabel
         label: "10:55"
@@ -63,12 +58,6 @@ days:
       - type: timelabel
         label: "11:20"
         gridarea: "8/1/9/2"
-      - type: activity
-        label: "Sesión por confirmar"
-        gridarea: "8/2/9/6"
-        timelabel: "11:20 - 11:50"
-        gridaream: "8/1/9/2"
-
 
       - type: timelabel
         label: "11:50"
@@ -82,11 +71,7 @@ days:
       - type: timelabel
         label: "12:20"
         gridarea: "10/1/11/2"
-      - type: activity
-        label: "Sesión por confirmar"
-        gridarea: "10/2/11/6"
-        timelabel: "12:20 - 12:50"
-        gridaream: "10/1/11/2"
+
 
       - type: timelabel
         label: "12:50"
@@ -182,34 +167,48 @@ days:
         gridarea: "27/1/28/2"
 
       - type: timelabel
-        label: "17:35"
+        label: "18:10"
         gridarea: "28/1/29/2"
 
       - type: timelabel
-        label: "17:40"
+        label: "18:16"
         gridarea: "29/1/30/2"
 
       - type: timelabel
-        label: "17:45"
+        label: "18:22"
         gridarea: "30/1/31/2"
 
       - type: timelabel
-        label: "18:00"
+        label: "18:28"
         gridarea: "31/1/32/2"
-      - type: activity
-        label: "Networking break"
-        gridarea: "31/2/32/6"
-        timelabel: "18:00 - 18:10"
-        gridaream: "31/1/32/2"
+
 
       - type: timelabel
-        label: "18:10"
+        label: "18:34"
         gridarea: "32/1/33/2"
       - type: activity
-        label: "Cierre del evento"
+        label: "Plática por Yuliana Reyna Jiménez"
         gridarea: "32/2/33/6"
-        timelabel: "18:10 - 15:55"
+        timelabel: "18:34 - 18:40"
         gridaream: "32/1/33/2"
+
+      - type: timelabel
+        label: "18:40"
+        gridarea: "33/1/34/2"
+      - type: activity
+        label: "Mensaje de nuestros patrocinadores"
+        gridarea: "33/2/34/6"
+        timelabel: "18:40 - 18:50"
+        gridaream: "33/1/34/2"
+
+      - type: timelabel
+        label: "18:50"
+        gridarea: "34/1/35/2"
+      - type: activity
+        label: "Cierre del evento"
+        gridarea: "34/2/35/6"
+        timelabel: "18:50 - 19:00"
+        gridaream: "34/1/35/2"
 
 ---
 

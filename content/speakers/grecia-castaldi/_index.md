@@ -8,6 +8,8 @@ country:
 twitter: 
 linkedin: 
 github: 
+events: 
+ - octubre-2025
 ---
 
 Actualmente trabaja en Playful como UX Director, en donde coordina proyectos enfocados en innovación y transformación digital enfocándose en la creación de estrategias, investigación de usuario y metodologías de diseño de experiencias
