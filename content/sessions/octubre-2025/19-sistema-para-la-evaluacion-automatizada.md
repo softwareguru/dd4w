@@ -3,9 +3,9 @@ id: sistema-para-la-evaluacion-automatizada
 title: "Sistema para la evaluación automatizada de dibujos de la figura humana a través de un modelo de visión computacional"
 slug: sistema-para-la-evaluacion-automatizada
 speakers:
- - Melania Hernandez Coronado
-time_start: 2025-10-23T14:05:00-06:00
-time_end: 2025-10-23T14:35:00-06:00
+ - Melania Hernández Coronado
+time_start: 2025-10-23T14:00:00-06:00
+time_end: 2025-10-23T14:30:00-06:00
 day: h1-2025
 gridarea: "19/2/20/6"
 room: Auditorio

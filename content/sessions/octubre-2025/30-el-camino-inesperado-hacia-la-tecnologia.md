@@ -4,8 +4,8 @@ title: "El camino inesperado hacia la tecnología"
 slug: el-camino-inesperado-hacia-la-tecnologia
 speakers:
  - Berenice Serrano
-time_start: 2025-10-23T18:02:00-06:00
-time_end: 2025-10-23T18:08:00-06:00
+time_start: 2025-10-23T17:53:00-06:00
+time_end: 2025-10-23T17:59:00-06:00
 day: h1-2025
 gridarea: "30/2/31/6"
 room: Auditorio

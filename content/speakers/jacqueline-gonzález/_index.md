@@ -6,7 +6,7 @@ images:
 designation : "Dirección de Recursos Humanos @ B-drive"
 country: "mx"
 twitter: ""
-linkedin: "https://www.linkedin.com/company/35504902/admin/dashboard/"
+linkedin: "https://www.linkedin.com/in/jacqueline-gonzalez-655212135/"
 github: ""
 events: 
  - octubre-2025

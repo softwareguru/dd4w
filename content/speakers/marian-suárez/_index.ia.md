@@ -6,7 +6,7 @@ images:
 designation : "Chief Marketing Officer @ Mobiik"
 country: "mx"
 twitter: ""
-linkedin: "https://www.linkedin.com/in/marian-suarez-706b019/?originalSubdomain=mx"
+linkedin: "https://www.linkedin.com/in/mariansuarez/"
 github: ""
 events: 
  - 2024-IA

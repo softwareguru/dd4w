@@ -4,8 +4,8 @@ title: "Impulsa tu rol en Scrum con IA: 5 prompts clave para trabajar mejor en e
 slug: impulsa-tu-rol-en-scrum-con-ia
 speakers:
  - Alejandra del Socorro Zavala Aké
-time_start: 2025-10-23T17:56:00-06:00
-time_end: 2025-10-23T18:02:00-06:00
+time_start: 2025-10-23T17:47:00-06:00
+time_end: 2025-10-23T17:53:00-06:00
 day: h1-2025
 gridarea: "29/2/30/6"
 room: Auditorio

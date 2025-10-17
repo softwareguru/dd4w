@@ -1,6 +1,6 @@
 ---
 id: fireside-chat
-title: "Fireside chat:  Libera el poder que está dentro de ti"
+title: "Fireside chat:  Libera el poder dentro de ti: presencia, claridad, y resultados que inspiran confianza"
 slug: fireside-chat
 speakers:
  - Cristina Nistor
