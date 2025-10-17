@@ -62,11 +62,6 @@ days:
       - type: timelabel
         label: "11:50"
         gridarea: "9/1/10/2"
-      - type: activity
-        label: "Sesión por confirmar"
-        gridarea: "9/2/10/6"
-        timelabel: "11:50 - 12:20"
-        gridaream: "9/1/10/2"
 
       - type: timelabel
         label: "12:20"
