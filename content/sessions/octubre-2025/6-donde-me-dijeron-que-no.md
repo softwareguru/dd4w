@@ -3,7 +3,7 @@ id: donde-me-dijeron-que-no
 title: Donde me dijeron que no, construí mi camino
 slug: donde-me-dijeron-que-no
 speakers:
- - Lidia Berenice Lopez Ochoa
+ - Lidia Berenice López Ochoa
 time_start: 2025-10-23T10:45:00-06:00
 time_end: 2025-10-23T10:55:00-06:00
 day: h1-2025

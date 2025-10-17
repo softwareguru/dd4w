@@ -1,13 +1,13 @@
 ---
 id: fireside-chat
-title: "Unleash the Power Within You: Presence, Clarity, and Results that Inspire Trust"
+title: "Fireside chat:  Libera el poder que está dentro de ti"
 slug: fireside-chat
 speakers:
  - Cristina Nistor
  - Karina Derbez
  - Verónica Elizondo Ortiz 
  - Ángeles Vela
-time_start: 2025-10-23T09:00:00-06:00
+time_start: 2025-10-23T08:50:00-06:00
 time_end: 2025-10-23T09:45:00-06:00
 day: h1-2025
 gridarea: "3/2/4/6"

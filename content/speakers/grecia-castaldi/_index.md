@@ -2,16 +2,15 @@
 title: "Grecia Castaldi"
 date: 2021-04-08T18:26:08-05:00
 images: 
- - /images/speakers/grecia-castaldi.png
-designation: Directora de Women Who Code Monterrey
+ - /images/speakers/grecia-castaldi.jpg
+designation: Co-Fundadora de TechFem
 country: 
 twitter: 
-linkedin: 
+linkedin: https://www.linkedin.com/in/grecia-castaldi/
+instagram: https://www.instagram.com/greciacastaldi
 github: 
 events: 
  - octubre-2025
 ---
 
-Actualmente trabaja en Playful como UX Director, en donde coordina proyectos enfocados en innovación y transformación digital enfocándose en la creación de estrategias, investigación de usuario y metodologías de diseño de experiencias
-
-
+Grecia Castaldi es Project Manager en el sector tecnológico y Co-fundadora de TechFem, una comunidad que impulsa el desarrollo profesional de mujeres en tecnología. Apasionada por la colaboración, la equidad y el aprendizaje continuo, promueve iniciativas que acercan a más mujeres al mundo tech y fortalecen su crecimiento profesional.

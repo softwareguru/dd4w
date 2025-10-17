@@ -94,34 +94,26 @@ days:
         gridarea: "15/1/16/2"
 
       - type: timelabel
-        label: "13:05"
+        label: "13:15"
         gridarea: "16/1/17/2"
       - type: activity
-        label: "Mensaje por confirmar"
+        label: "Foto grupal"
         gridarea: "16/2/17/6"
-        timelabel: "13:05 - 13:15"
+        timelabel: "13:15 - 13:25"
         gridaream: "16/1/17/2"
 
-      - type: timelabel
-        label: "13:15"
-        gridarea: "17/1/18/2"
-      - type: activity
-        label: "Foto grupal"
-        gridarea: "17/2/18/6"
-        timelabel: "13:15 - 13:25"
-        gridaream: "17/1/18/2"
 
       - type: timelabel
         label: "13:25"
         gridarea: "18/1/19/2"
       - type: activity
-        label: "Lunch + Dinámica de networking"
+        label: "Lunch + Dinámica de networking con Iliana G. San Juan"
         gridarea: "18/2/19/6"
-        timelabel: "13:25 - 14:10"
+        timelabel: "13:25 - 14:05"
         gridaream: "18/1/19/2"
 
       - type: timelabel
-        label: "14:10"
+        label: "14:05"
         gridarea: "19/1/20/2"
 
       - type: timelabel
@@ -129,85 +121,79 @@ days:
         gridarea: "20/1/21/2"
 
       - type: timelabel
-        label: "15:00"
+        label: "15:05"
         gridarea: "21/1/22/2"
 
       - type: timelabel
-        label: "15:25"
+        label: "15:35"
         gridarea: "22/1/23/2"
       - type: activity
-        label: "Mensaje por confirmar"
+        label: "Mensaje de nuestros patrocinadores"
         gridarea: "22/2/23/6"
-        timelabel: "15:25 - 15:35"
+        timelabel: "15:35 - 15:45"
         gridaream: "22/1/23/2"
 
       - type: timelabel
-        label: "15:35"
+        label: "15:45"
         gridarea: "23/1/24/2"
       - type: activity
         label: "Networking break"
         gridarea: "23/2/24/6"
-        timelabel: "15:35 - 15:55"
+        timelabel: "15:45 - 16:10"
         gridaream: "23/1/24/2"
 
       - type: timelabel
-        label: "15:55"
+        label: "16:10"
         gridarea: "24/1/25/2"
 
       - type: timelabel
-        label: "16:20"
+        label: "16:40"
         gridarea: "25/1/26/2"
 
       - type: timelabel
-        label: "16:45"
+        label: "17:10"
         gridarea: "26/1/27/2"
 
       - type: timelabel
-        label: "17:10"
+        label: "17:40"
         gridarea: "27/1/28/2"
 
       - type: timelabel
-        label: "18:10"
+        label: "17:50"
         gridarea: "28/1/29/2"
 
       - type: timelabel
-        label: "18:16"
+        label: "17:56"
         gridarea: "29/1/30/2"
 
       - type: timelabel
-        label: "18:22"
+        label: "18:02"
         gridarea: "30/1/31/2"
 
       - type: timelabel
-        label: "18:28"
+        label: "18:08"
         gridarea: "31/1/32/2"
 
+      - type: timelabel
+        label: "18:14"
+        gridarea: "32/1/33/2"
 
       - type: timelabel
         label: "18:34"
-        gridarea: "32/1/33/2"
-      - type: activity
-        label: "Plática por Yuliana Reyna Jiménez"
-        gridarea: "32/2/33/6"
-        timelabel: "18:34 - 18:40"
-        gridaream: "32/1/33/2"
-
-      - type: timelabel
-        label: "18:40"
         gridarea: "33/1/34/2"
       - type: activity
         label: "Mensaje de nuestros patrocinadores"
         gridarea: "33/2/34/6"
-        timelabel: "18:40 - 18:50"
+        timelabel: "18:34 - 18:44"
         gridaream: "33/1/34/2"
 
       - type: timelabel
-        label: "18:50"
+        label: "18:44"
         gridarea: "34/1/35/2"
       - type: activity
         label: "Cierre del evento"
         gridarea: "34/2/35/6"
-        timelabel: "18:50 - 19:00"
+        timelabel: "18:44 - 18:54"
         gridaream: "34/1/35/2"
 
 ---

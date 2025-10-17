@@ -5,8 +5,8 @@ slug: women-diversity
 speakers:
  - Adriana Diaz Avila
  - Lan Diaz
-time_start: 2025-10-23T12:59:00-06:00
-time_end: 2025-10-23T13:02:00-06:00
+time_start: 2025-10-23T13:02:00-06:00
+time_end: 2025-10-23T13:06:00-06:00
 day: h1-2025
 gridarea: "14/2/15/6"
 room: Auditorio

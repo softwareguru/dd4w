@@ -4,8 +4,8 @@ title: "Code Vibe con GitHub Copilot: Cómo programar mejor, más rápido y con 
 slug: code-vibe-con-github-copilot
 speakers:
  - Adriana Ruiz
-time_start: 2025-10-23T15:00:00-06:00
-time_end: 2025-10-23T15:25:00-06:00
+time_start: 2025-10-23T15:05:00-06:00
+time_end: 2025-10-23T15:35:00-06:00
 day: h1-2025
 gridarea: "21/2/22/6"
 room: Auditorio

@@ -4,8 +4,8 @@ title: "Women TechMakers"
 slug: women-techmakers
 speakers:
  - Cynthia Castillo
-time_start: 2025-10-23T12:56:00-06:00
-time_end: 2025-10-23T12:59:00-06:00
+time_start: 2025-10-23T12:58:00-06:00
+time_end: 2025-10-23T13:02:00-06:00
 day: h1-2025
 gridarea: "13/2/14/6"
 room: Auditorio

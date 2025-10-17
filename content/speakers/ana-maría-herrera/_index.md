@@ -1,5 +1,5 @@
 ---
-title: "Ana Maria Herrera"
+title: "Ana María Herrera"
 date: 2025-09-23T12:46:41-06:00
 images: 
  - "/images/speakers/ana-maria-herrera.png"

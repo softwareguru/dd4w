@@ -3,7 +3,7 @@ id: de-la-prueba-a-la-oportunidad
 title: "De la Prueba a la Oportunidad: Agentes Inteligentes con Propósito"
 slug: de-la-prueba-a-la-oportunidad
 speakers:
- - Marian Suarez
+ - Marian Suárez
 time_start: 2025-10-23T10:15:00-06:00
 time_end: 2025-10-23T10:45:00-06:00
 day: h1-2025

@@ -1,5 +1,5 @@
 ---
-title: "Yuliana Reyna"
+title: "Yuliana Reyna Jiménez"
 date: 2023-04-09T13:15:48-06:00
 images: 
  - "/images/speakers/2023-h1/yuliana-reyna.jpg"

@@ -4,8 +4,8 @@ title: Dos preguntas que debes hacer en una entrevista de trabajo
 slug: dos-preguntas-que-debes-hacer-en-una-entrevista-de-trabajo
 speakers:
  - Cristina Nistor
-time_start: 2025-10-23T18:28:00-06:00
-time_end: 2025-10-23T18:34:00-06:00
+time_start: 2025-10-23T18:08:00-06:00
+time_end: 2025-10-23T18:14:00-06:00
 day: h1-2025
 gridarea: "31/2/32/6"
 room: Auditorio

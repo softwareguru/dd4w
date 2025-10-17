@@ -1,5 +1,5 @@
 ---
-title: "Jacqueline Gonzalez"
+title: "Jacqueline González"
 date: 2025-09-23T11:39:19-06:00
 images: 
  - "/images/speakers/jacqueline-gonzalez.png"

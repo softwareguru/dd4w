@@ -3,7 +3,7 @@ id: mas-que-codigo
 title: "Más que Código: El Corazón Humano detrás de la Revolución Tecnológica"
 slug: mas-que-codigo
 speakers:
- - Jacqueline Gonzalez
+ - Jacqueline González
 time_start: 2025-10-23T09:45:00-06:00
 time_end: 2025-10-23T10:15:00-06:00
 day: h1-2025

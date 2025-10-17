@@ -1,5 +1,5 @@
 ---
-title: "Marian Suarez"
+title: "Marian Suárez"
 date: 2022-10-13T12:59:58-05:00
 images: 
  - "/images/speakers/marian-suarez.png"

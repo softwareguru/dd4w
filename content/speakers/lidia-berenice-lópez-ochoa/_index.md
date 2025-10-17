@@ -1,5 +1,5 @@
 ---
-title: "Lidia Berenice Lopez Ochoa"
+title: "Lidia Berenice López Ochoa"
 date: 2025-10-16T01:18:52-06:00
 images: 
  - "/images/speakers/lidia-berenice-lopez-ochoa.png"

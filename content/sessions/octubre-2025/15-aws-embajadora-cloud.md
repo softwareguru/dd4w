@@ -4,8 +4,8 @@ title: "AWS Embajadoras Cloud"
 slug: aws-embajadora-cloud
 speakers:
  - Brenda Galicia
-time_start: 2025-10-23T13:02:00-06:00
-time_end: 2025-10-23T13:05:00-06:00
+time_start: 2025-10-23T13:06:00-06:00
+time_end: 2025-10-23T13:10:00-06:00
 day: h1-2025
 gridarea: "15/2/16/6"
 room: Auditorio

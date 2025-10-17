@@ -4,8 +4,8 @@ title: "¿Cómo ser un Hunter en Data Analytics?"
 slug: como-ser-un-hunter-en-data-analytics
 speakers:
  - Elizabeth Sánchez
-time_start: 2025-10-23T17:35:00-06:00
-time_end: 2025-10-23T17:40:00-06:00
+time_start: 2025-10-23T17:50:00-06:00
+time_end: 2025-10-23T17:56:00-06:00
 day: h1-2025
 gridarea: "28/2/29/6"
 room: Auditorio

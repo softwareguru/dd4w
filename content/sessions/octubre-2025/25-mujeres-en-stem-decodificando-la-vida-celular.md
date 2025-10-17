@@ -4,8 +4,8 @@ title: "Mujeres en STEM Decodificando la Vida Celular"
 slug: mujeres-en-stem-decodificando-la-vida-celular
 speakers:
  - Nina Padme Eufracio Rojas
-time_start: 2025-10-23T16:20:00-06:00
-time_end: 2025-10-23T16:45:00-06:00
+time_start: 2025-10-23T16:40:00-06:00
+time_end: 2025-10-23T17:10:00-06:00
 day: h1-2025
 gridarea: "25/2/26/6"
 room: Auditorio

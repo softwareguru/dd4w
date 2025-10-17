@@ -5,7 +5,7 @@ slug: de-lo-tecnico-a-la-conexion
 speakers:
  - Griz Ancona
 time_start: 2025-10-23T14:35:00-06:00
-time_end: 2025-10-23T15:00:00-06:00
+time_end: 2025-10-23T15:05:00-06:00
 day: h1-2025
 gridarea: "20/2/21/6"
 room: Auditorio
