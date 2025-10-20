@@ -1,5 +1,5 @@
 ---
-title: "Lan Diaz"
+title: "Lan Díaz"
 date: 2025-09-23T13:08:21-06:00
 images: 
  - "/images/speakers/lan-diaz.png"
