@@ -3,8 +3,8 @@ id: women-diversity
 title: "Women Diversity"
 slug: women-diversity
 speakers:
- - Adriana Diaz Ávila
- - Lan Diaz
+ - Adriana Díaz Ávila
+ - Lan Díaz
 time_start: 2025-10-23T13:02:00-06:00
 time_end: 2025-10-23T13:06:00-06:00
 day: h1-2025

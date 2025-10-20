@@ -16,6 +16,10 @@ slides:
 video:
 ---
 
-Entre el escenario, la pista de baile y las líneas de código, mi camino hacia la tecnología no fue lineal ni predecible. Durante años luché entre mi pasión por la actuación y el baile, y mi interés por la ingeniería. En estos 5 minutos compartiré cómo esas experiencias fuera del mundo tech me impulsaron a encontrar mi lugar, aprendiendo a combinar esas facetas y transformando mi diversidad de vivencias en una ventaja profesional y personal.
+En un mar de candidatos calificados, destacar en una entrevista no se trata solo de tener buenas respuestas —se trata de hacer las preguntas correctas.
 
-Esta charla es una invitación a abrazar nuestras múltiples pasiones y a entender que no hay un solo camino para llegar a donde queremos. Nuestras historias únicas son el motor de la diversidad y la creatividad en la industria tecnológica.
+En esta charla relámpago de tres minutos descubrirás dos preguntas estratégicas que pueden cambiar por completo la forma en que un reclutador te percibe. Estas preguntas van más allá del guion típico y demuestran que piensas como una futura aliada del negocio, no como una postulante más.
+
+Porque la curiosidad inteligente no es debilidad, es una ventaja competitiva.
+
+Y cuando sabes usarla, una simple entrevista se convierte en una conversación de poder.

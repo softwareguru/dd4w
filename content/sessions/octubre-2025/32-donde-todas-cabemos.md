@@ -17,3 +17,4 @@ video:
 draft: false
 ---
 
+Donde todas cabemos: construyendo espacios con perspectiva y cuidado.

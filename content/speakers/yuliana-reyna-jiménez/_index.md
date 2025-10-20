@@ -3,7 +3,7 @@ title: "Yuliana Reyna Jiménez"
 date: 2023-04-09T13:15:48-06:00
 images: 
  - "/images/speakers/2023-h1/yuliana-reyna.jpg"
-designation : "Software Engineer "
+designation : "Software Engineer, Open Source Contributor"
 country: "mx"
 twitter: "https://twitter.com/tuxxy"
 linkedin: "https://www.linkedin.com/in/yulireyji/"

@@ -101,7 +101,7 @@ days:
         label: "13:20"
         gridarea: "18/1/19/2"
       - type: activity
-        label: "Lunch + Dinámica de networking con Iliana G. San Juan"
+        label: "Lunch + Dinámica de networking con Gisela San Juan"
         gridarea: "18/2/19/6"
         timelabel: "13:20 - 14:00"
         gridaream: "18/1/19/2"
