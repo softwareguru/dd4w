@@ -22,11 +22,11 @@ sponsor_group:
       - logo : "/images/logos/contpaqi-logo.png"
         link : "https://www.contpaqi.com/"
 
-  #- title : "Silver"
-  #  slug : "platinum"
-  #  sponsor:
-      #- logo : "/images/logos/.png"
-      #  link : ""
+  - title : "Silver"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/christus-muguerza.png"
+        link : "#"
 
   - title : "Comunidad Aliada"
     slug : "platinum"

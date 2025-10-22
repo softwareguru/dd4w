@@ -18,7 +18,26 @@ La Universidad Regiomontana A.C. (conocida por su nombre abreviado U-ERRE, y ant
 
 Para llegar, las opciones recomendadas son:
 
-🚗 **En auto:** Disponible en Google Maps y Waze. La universidad cuenta con estacionamiento para visitas. La cuota es de $40 (todo el tiempo que dure el evento).
+🚗 **En auto:** Disponible en Google Maps y Waze.
+
+🅿️ Estacionamiento para visitas
+
+La sede cuenta con dos estacionamientos disponibles para visitantes:
+
+1. Estacionamiento U-ERRE Matamoros, 
+
+📍Dirección: <a href="https://maps.app.goo.gl/BtxTZEKuqFxWURzP7" target="_blank">Calle Mariano Matamoros 430, Monterrey, N.L.</a>
+
+2. Estacionamiento U-ERRE Rayón
+
+📍Dirección: <a href="https://maps.app.goo.gl/Ra7ppnQrhvLs7aAM9" target="_blank">Calle Ignacio López Rayón, (entre 5 de mayo y 15 de mayo), Centro, Monterrey, N.L.</a>
+
+Costo aproximado: $40 - $50 pesos por visita
+
+<img src="/images/mapa-2025.png" class="img-fluid mx-auto d-block" width="350px">
+
+<br>
+
 
 🚇 **Transporte público:** <a href="https://www.metrorrey.mx/" target="_blank">Metro Línea 2</a>. La estación más cercana es <a href="https://maps.app.goo.gl/L5xFefdZM3iwbJYL6" target="_blank">Fundadores</a>.
 
