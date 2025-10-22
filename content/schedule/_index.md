@@ -122,7 +122,7 @@ days:
         label: "15:30"
         gridarea: "22/1/23/2"
       - type: activity
-        label: "Mensaje de nuestros patrocinadores"
+        label: "Mensaje SG"
         gridarea: "22/2/23/6"
         timelabel: "15:30 - 15:40"
         gridaream: "22/1/23/2"
