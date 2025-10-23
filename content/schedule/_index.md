@@ -104,7 +104,7 @@ days:
         label: "Lunch + Dinámica de networking con Gisela San Juan"
         gridarea: "18/2/19/6"
         timelabel: "13:20 - 14:00"
-        gridaream: "18/1/19/2"
+        gridaream: "17/1/18/2"
 
       - type: timelabel
         label: "14:00"
@@ -125,7 +125,7 @@ days:
         label: "Mensaje SG"
         gridarea: "22/2/23/6"
         timelabel: "15:30 - 15:40"
-        gridaream: "22/1/23/2"
+        gridaream: "21/1/22/2"
 
       - type: timelabel
         label: "15:40"
@@ -134,7 +134,7 @@ days:
         label: "Networking break"
         gridarea: "23/2/24/6"
         timelabel: "15:40 - 16:05"
-        gridaream: "23/1/24/2"
+        gridaream: "22/1/23/2"
 
       - type: timelabel
         label: "16:05"

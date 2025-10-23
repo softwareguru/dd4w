@@ -4,8 +4,8 @@ title: "De la lógica al liderazgo: Cómo pasé de programar código a liderar e
 slug: de-la-logica-al-liderazgo
 speakers:
  - Brenda Galicia
-time_start: 2025-10-23T16:10:00-06:00
-time_end: 2025-10-23T16:40:00-06:00
+time_start: 2025-10-23T16:05:00-06:00
+time_end: 2025-10-23T16:35:00-06:00
 day: h1-2025
 gridarea: "24/2/25/6"
 room: Auditorio
