@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 8
 track: Empresas
 tags:
-slides: 
-video: 
+slides: octubre-2025/tu-carrera-tu-historia.pdf
+video: https://youtu.be/Y4JrL4R18wo
 ---
 
 Tu historia profesional se escribe en tu propio lenguaje. Descubre cómo conectar lo que te mueve, lo que sabes hacer y hacia dónde quieres crecer, para diseñar tu plan de carrera con propósito.

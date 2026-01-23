@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 10
 track: Empresas
 tags:
-slides: 
-video: 
+slides: octubre-2025/aprendizajes-en-la-construccion-de-agentes.pdf
+video: https://youtu.be/e64apjcnDXQ
 ---
 
 En esta charla exploraremos de forma práctica cómo pasar de la teoría a la acción en la creación de agentes de inteligencia artificial. A través de mi experiencia personal en el desarrollo y despliegue de un agente, compartiré los pasos clave, las herramientas más accesibles y los retos comunes que enfrentamos al comenzar en este camino.

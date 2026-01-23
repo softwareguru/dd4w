@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 21
 track: Charla
 tags:
-slides: 
-video: 
+slides: https://www.canva.com/design/DAG2FczMKY8/s2EqWHrIHZ-s4FTCvrDFeQ/view?utm_content=DAG2FczMKY8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h25a2b4c846 
+video: https://youtu.be/dnV-KiDed54
 ---
 
 ¿Alguna vez sentiste que estabas “en flow” al programar? En esta charla exploraremos cómo GitHub Copilot puede ayudarte a llegar a ese estado más fácilmente, permitiéndote enfocarte en la lógica y creatividad del código en lugar de los detalles repetitivos. Veremos tips concretos para integrarlo a tu stack diario, cómo sacarle provecho sin perder control del código, y qué buenas prácticas seguir para no caer en la dependencia ciega. Una sesión con demos, ejemplos reales y una perspectiva crítica sobre el uso de IA en desarrollo.

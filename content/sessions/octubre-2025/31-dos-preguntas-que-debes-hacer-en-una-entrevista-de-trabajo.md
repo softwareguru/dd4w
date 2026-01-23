@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 31
 track: Lightning talk
 tags:
-slides: 
-video:
+slides: octubre-2025/dos-preguntas-que-debes-hacer-en-una-entrevista.pdf
+video: https://youtu.be/nRIO5tXIJvM
 ---
 
 En un mar de candidatos calificados, destacar en una entrevista no se trata solo de tener buenas respuestas —se trata de hacer las preguntas correctas.

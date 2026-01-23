@@ -13,7 +13,7 @@ timeslot: 26
 track: Charla
 tags:
 slides: 
-video: 
+video: https://youtu.be/u1geAda4Z20
 ---
 
 Contenidos:

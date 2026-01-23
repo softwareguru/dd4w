@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 24
 track: Charla
 tags:
-slides: 
-video: 
+slides: octubre-2025/de-lo-tecnico-a-la-conexion.pdf
+video: https://youtu.be/31aRknyP7IA
 ---
 
 ¿Cómo se lidera cuando vienes del código?

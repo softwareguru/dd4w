@@ -16,7 +16,7 @@ timeslot: 3
 track: Panel
 tags:
 slides: 
-video: 
+video: https://youtu.be/EhylVBzst9M
 ---
 
 ¿Qué se necesita realmente para construir autoridad como mujer en tecnología? No más fuerza, voces más altas ni encajar en moldes que no fueron diseñados para nosotras  sino presencia, claridad y resultados.

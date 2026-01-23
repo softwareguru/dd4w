@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 29
 track: Lightning talk
 tags:
-slides: 
-video:
+slides: octubre-2025/impulsa-tu-rol en-scrum-con-ia.pdf
+video: https://youtu.be/r14eRAqIEaI
 ---
 
 La inteligencia artificial llegó para impulsar tu trabajo dentro de Scrum. En esta charla descubrirás 5 prompts poderosos que te ayudarán —ya seas Scrum Master, Developer o Product Owner— a tomar mejores decisiones, agilizar procesos, facilitar ceremonias y fortalecer la colaboración en tu equipo. Si quieres llevar tu rol al siguiente nivel, ahorrar tiempo y enfocarte en lo que realmente importa, esta sesión es para ti. ¡Activa tu potencial ágil con la ayuda de la IA!

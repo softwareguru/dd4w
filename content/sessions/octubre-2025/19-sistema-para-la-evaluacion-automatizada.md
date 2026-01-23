@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 19
 track: Charla
 tags:
-slides: 
-video: 
+slides: octubre-2025/sistema-para-la-evaluacion-automatizada.pdf
+video: https://youtu.be/82Oztc5bt84
 ---
 
 Los trastornos cognitivos en la infancia, especialmente la discapacidad intelectual en México y otros países, representan un grave desafío de salud pública.

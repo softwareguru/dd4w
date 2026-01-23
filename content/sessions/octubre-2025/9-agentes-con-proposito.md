@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 9
 track: Empresas
 tags:
-slides: 
-video: 
+slides: octubre-2025/agentes-con-proposito.pdf
+video: https://youtu.be/7vsXJ28xGeA
 ---
 
 La inteligencia artificial no reemplaza el talento humano: lo amplifica.En esta charla descubrirás cómo los agentes inteligentes pueden ayudarte a enseñar mejor, aprender más rápido y trabajar con mayor enfoque. Verás ejemplos reales de cómo docentes, emprendedores y profesionales están usando IA para resolver problemas cotidianos, automatizar tareas y desarrollar nuevas habilidades. Una sesión para transformar la curiosidad en acción — con herramientas accesibles y resultados inmediatos.

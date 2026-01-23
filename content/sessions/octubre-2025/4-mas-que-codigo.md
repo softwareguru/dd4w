@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 4
 track: Empresas
 tags:
-slides: 
-video: 
+slides: octubre-2025/mas-que-codigo.pdf
+video: https://youtu.be/FoZurmkNUTk
 ---
 
 Vamos a interactuar desde la vulnerabilidad y la empatía con historias reales que, en el ámbito laboral, todas hemos experimentado en algún momento. Cada vivencia, emoción o instante de invisibilidad puede transformarse en una fortaleza. Como mujeres en la industria tecnológica, nuestra identidad no se define únicamente por lo que programamos, sino por cómo amamos lo que hacemos y convertimos ese amor en una revolución.

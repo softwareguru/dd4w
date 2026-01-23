@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 25
 track: Charla
 tags:
-slides: 
-video: 
+slides: octubre-2025/decodificando-la-vida-celular.pdf
+video: https://youtu.be/MCRmDKKlsH0
 ---
 
 ¿Qué tienen en común una célula humana y una línea de código? Más de lo que imaginas.

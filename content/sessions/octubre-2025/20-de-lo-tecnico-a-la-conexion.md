@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 20
 track: Charla
 tags:
-slides: 
-video: 
+slides: octubre-2025/de-lo-tecnico-a-la-conexion.pdf
+video: https://youtu.be/4UhkCoufKZI
 ---
 
 Compartiré puntos clave que he aprendido en los diferentes roles que he estado para comunicarte con los clientes y no morir en el intento, ya que a veces en cualquier rol que estemos podemos tener sesiones con los clientes que no son para nada técnicos y requerimos desarrollar habilidades blandas para poder lograr una buena comunicación y entendimiento de sus necesidades.

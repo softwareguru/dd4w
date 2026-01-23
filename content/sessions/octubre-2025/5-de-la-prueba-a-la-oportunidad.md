@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 5
 track: Empresas
 tags:
-slides: 
-video: 
+slides: octubre-2025/como-liderar-la-era-de-la-ia.pdf
+video: https://youtu.be/6BIQeWSJFRY
 ---
 
 La inteligencia artificial llegó para quedarse y nos enfrenta a la decisión de cómo queremos integrarla en nuestras vidas. Esta charla propone mirarla como un espejo que amplifica nuestros valores y nos reta a liderar con visión y humanidad.

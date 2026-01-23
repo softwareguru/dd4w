@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 32
 track: Lightning talk
 tags:
-slides: 
-video:
+slides: octubre-2025/donde-todas-cabemos.pdf
+video: https://youtu.be/kTOcOVTABE0
 draft: false
 ---
 

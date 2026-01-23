@@ -12,8 +12,8 @@ room: Auditorio
 timeslot: 28
 track: Lightning talk
 tags:
-slides: 
-video:
+slides: octubre-2025/como-ser-un-hunter-en-data-analytics.pdf
+video: https://youtu.be/--lesmzrrE4
 ---
 
 Aprenderemos cómo capturar y analizar datos para tomar decisiones informadas"": En esta charla, sabrás cómo el utilizar herramientas como BigQuery, Looker, para capturar y analizar datos de manera eficiente. Sabrás sobre la importancia de la planificación y la organización en la recopilación de datos. Además de aplicar softskills como colaboración, comunicación efectiva y retroalimentación en el equipo de Data.

@@ -12,7 +12,7 @@ room: Auditorio
 timeslot: 27
 track: Charla
 tags:
-slides: 
+slides: octubre-2025/TechFem.pdf
 video: 
 ---
 
