@@ -12,7 +12,6 @@ events:
  - 2024-h1
 ---
 
-Me llamo Nat, y soy estudiante de Ingeniería en Sistemas Computacionales, al mismo tiempo me desempeño como Desarrolladora Web en la Administración Pública. También soy amante del arte y la literatura.
+Me llamo Nat, y soy estudiante de Ingeniería en Sistemas Computacionales, al mismo tiempo me desempeño como Desarrolladora Web. También soy amante del arte y la literatura.
 
 Por mucho tiempo nunca supe lo que realmente quería, pero decidí que quiero motivar a las personas, ser un gran líder, ser una gran programadora sin dejar mis pasiones de lado, ya que ellas son un pilar fundamental en mi vida.
-
