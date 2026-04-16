@@ -233,8 +233,8 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation button
 [params.navigation_button]
 enable = false
-label = "Registro al evento"
-link = "/registro"
+label = "¡QUIERO POSTULARME!"
+link = "/"
 
 
 ############################# social icon ############################

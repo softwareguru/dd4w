@@ -5,6 +5,7 @@ draft: false
 ---
 
 <div class="embed-responsive embed-responsive-16by9 h-100">
-  <iframe class="" src="https://lu.ma/embed/event/evt-ZcQ0vkcsXI8AwFh/simple" allowfullscreen>
+  <iframe class="" src="https://luma.com/embed/event/evt-bkHrxJhAEKCXvUG/simple" allowfullscreen>
   </iframe>
 </div>
+
