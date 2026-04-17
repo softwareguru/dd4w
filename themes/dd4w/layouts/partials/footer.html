@@ -48,7 +48,8 @@
 			<h5>Contácto:</h5>
 			<ul class="footer_links">
 				{{ range .Site.Params.footer_contact_us }}
-				<li><a href="{{ .link | safeURL }}">{{ .name }} </a></li>
+
+				<li><a href="{{ .link | safeURL }}" target="_blank">{{ .name }} </a></li>
 				{{ end }}
 			</ul>
 		</div>
