@@ -36,7 +36,7 @@ Durante todo el evento podrás:
 
 ### ¿HAY FORMA DE APOYAR CON PATROCINIO?
 
-Sí, la suma de esfuerzos de empresas permite que este evento sea accesible para la comunidad. Conoce los diferentes niveles de patrocinio disponibles en este prospectus. También, puedes contactarnos en hola@code4dei.com
+Sí, la suma de esfuerzos de empresas permite que este evento sea accesible para la comunidad. Conoce los diferentes niveles de patrocinio disponibles en este <a href="/files/devday4women_prospectus_2026_v1.1.pdf" target="_blank">prospectus</a>. También, puedes contactarnos en hola@code4dei.com
 
 ### ¿QUÉ NECESITO PARA ASISTIR?
 

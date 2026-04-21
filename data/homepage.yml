@@ -8,9 +8,9 @@ banner:
   where : "29 de Octubre de 2023 | Edicion Online | Gratuito"
   
   button1:
-    enable : false
-    label : "¡Quiero registrarme!"
-    link : "/registro"
+    enable : true
+    label : "Quiero ser ponente"
+    link : "https://convoca.dev/dev-day-4-women-cdmx-2026/cfp"
   button2:
     enable : false
     label : "Envía tu propuesta"
