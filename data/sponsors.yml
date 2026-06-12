@@ -8,13 +8,20 @@ sponsor_group:
   #    - logo : "/images/logos/u-erre.png"
   #      link : "https://www.u-erre.talisis.com"
 
+  - title : "Diamond "
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/simple.png"
+        link : "https://www.simplepractice.com/"
+
+
   - title : "Platinum"
     slug : "platinum"
     sponsor:
-  #    - logo : "/images/logos/b-drive.png"
-  #      link : "https://bdrive.ai/" 
       - logo : "/images/logos/mobik.png"
         link : "https://www.mobiik.com/jobs"
+      - logo : "/images/logos/contpaqi-logo.png"
+        link : "https://www.contpaqi.com/" 
 
   #- title : "Gold"
   #  slug : "platinum"
