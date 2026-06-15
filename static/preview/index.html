@@ -1,0 +1,346 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Dev Day 4 Women — Comunidad de mujeres en STEM</title><link rel="preload" href="fonts/hanken-latin.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin><style>/* Tipografias autohospedadas DD4W (subsets latin + latin-ext, variable) */@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:500 800;font-stretch:100%;font-display:swap;src:url(fonts/bricolage-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:500 800;font-stretch:100%;font-display:swap;src:url(fonts/bricolage-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/hanken-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/hanken-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}:root{
+  --purple:#7F68EF; --purple-deep:#4623B7; --lime:#EEFFA1; --pink:#E5B8EE; --blue:#98DCF1;
+  --ink:#1A1033; --ink-soft:#4a4163; --paper:#fff; --paper-2:#F6F3FF; --plum:#3A1E6E; --ink-cta:#21215c;
+  --grad:linear-gradient(135deg,#E5B8EE 0%,#C9BEF2 28%,#98DCF1 62%,#7F68EF 100%);
+  --grad-deep:linear-gradient(135deg,#4623B7 0%,#5a39c9 45%,#7F68EF 100%);
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Hanken Grotesk",ui-sans-serif,system-ui,-apple-system,sans-serif;
+  --maxw:1180px; --r:16px; --r-sm:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);line-height:1.05;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:12px 18px;border-radius:0 0 12px 0;z-index:200}
+.skip:focus{left:0}
+:focus-visible{outline:3px solid var(--ink);outline-offset:2px;box-shadow:0 0 0 6px var(--lime);border-radius:6px}
+.kicker{font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--purple)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--body);font-weight:600;font-size:16px;min-height:48px;padding:13px 22px;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:transform .15s,background .15s,color .15s,border-color .15s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px)}.btn:active{transform:translateY(0)}
+.btn-primary{background:var(--lime);color:var(--ink-cta);border-color:rgba(33,33,92,.35)}
+.btn-primary:hover{background:#e3fa80}
+.btn-ink{background:var(--ink);color:#fff;border-color:var(--ink)}.btn-ink:hover{background:#2a1c4d}
+.btn-ghost{background:transparent;color:var(--ink);border-color:rgba(26,16,51,.3)}.btn-ghost:hover{border-color:var(--ink);background:rgba(26,16,51,.04)}
+.btn-on-dark{background:transparent;color:#fff;border-color:rgba(255,255,255,.6)}.btn-on-dark:hover{background:rgba(255,255,255,.12);border-color:#fff}
+.btn-sm{min-height:42px;padding:10px 16px;font-size:15px}
+
+.hdr{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.85);backdrop-filter:saturate(160%) blur(12px);border-bottom:1px solid rgba(26,16,51,.08)}
+.nav{display:flex;align-items:center;gap:22px;height:72px}
+.logo{font-family:var(--display);font-weight:800;font-size:21px;letter-spacing:-.03em;color:var(--purple-deep);display:flex;align-items:center;gap:8px}
+.logo .dot{width:14px;height:14px;border-radius:50%;background:var(--grad-deep)}
+.nav-links{display:flex;gap:24px;margin-left:8px}
+.nav-links a{font-weight:500;font-size:15px;color:var(--ink-soft);padding:6px 2px;position:relative}
+.nav-links a:hover,.nav-links a[aria-current]{color:var(--purple-deep)}
+.nav-links a[aria-current]::after,.nav-links a:hover::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--purple-deep)}
+.nav-spacer{flex:1}
+.sede-pill{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px;color:var(--plum);background:var(--pink);border:1px solid rgba(58,30,110,.35);border-radius:999px;padding:7px 13px}
+.menu-btn{display:none;background:none;border:0;font-size:26px;color:var(--ink);cursor:pointer}
+
+section{padding:88px 0}
+.alt{background:var(--paper-2)}
+.sec-head{max-width:62ch;margin-bottom:38px}
+h1{font-size:clamp(38px,5.5vw,64px)}
+h2{font-size:clamp(30px,4vw,44px);color:var(--purple-deep);margin-top:10px}
+h3{font-size:22px;color:var(--purple-deep)}
+.sec-head p{font-size:18px;color:var(--ink-soft);margin-top:14px}
+.lead{font-size:clamp(17px,2vw,20px);color:var(--ink-soft);max-width:50ch}
+
+.hero{position:relative;background:var(--grad-deep);color:#fff;overflow:hidden;isolation:isolate;padding:0}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;z-index:-1}
+.hero::before{width:520px;height:520px;background:var(--pink);top:-160px;right:-120px}
+.hero::after{width:460px;height:460px;background:var(--blue);bottom:-200px;left:-100px}
+.hero-scrim{position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,8,52,.55),rgba(20,8,52,.12) 60%,transparent);z-index:-1}
+.hero .lead{color:rgba(255,255,255,.92)}
+.hero .kicker{color:#fff}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;background:rgba(255,255,255,.16);color:#fff;padding:7px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.3)}
+.hero h1{color:#fff;margin:18px 0 0}
+.hero h1{line-height:1.14}
+.hero h1 .hl{white-space:nowrap;text-decoration:underline;text-decoration-color:var(--lime);text-decoration-thickness:.1em;text-underline-offset:.2em;text-decoration-skip-ink:none}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.hero-note{margin-top:16px;font-size:14px;color:rgba(255,255,255,.8)}
+.hero-link{color:#fff;font-weight:500;font-size:15px;text-decoration:underline;text-underline-offset:3px;align-self:center}
+.hero-link:hover{color:var(--lime)}
+.proof{display:flex;align-items:center;gap:12px;margin-top:20px;color:rgba(255,255,255,.92);font-size:15px;flex-wrap:wrap}
+.proof .avs{display:flex}
+.proof .avs i{width:30px;height:30px;border-radius:50%;background:var(--grad);border:2px solid #4623B7;margin-left:-10px;display:block}
+.proof .avs i:first-child{margin-left:0}
+.proof b{font-weight:600;color:#fff}
+.stickybar{position:fixed;left:0;right:0;bottom:0;z-index:120;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;gap:16px;padding:13px 44px;flex-wrap:wrap;transform:translateY(120%);transition:transform .3s ease}
+.stickybar.show{transform:none}
+.stickybar p{margin:0;font-weight:500}.stickybar .s{color:var(--lime);font-weight:600}
+.stickybar .x{background:none;border:0;color:rgba(255,255,255,.7);font-size:22px;line-height:1;cursor:pointer;position:absolute;right:14px;top:50%;transform:translateY(-50%)}
+.stickybar .x:hover{color:#fff}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center;padding:84px 0 92px}
+.hero-center{max-width:780px;margin:0 auto;text-align:center;padding:92px 24px}
+.hero-center .hero-cta{justify-content:center}
+.hero-visual{aspect-ratio:4/5;border-radius:24px;background:var(--grad);position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.25)}
+.vlabel{position:absolute;inset:auto 0 0 0;padding:14px;color:var(--plum);font-weight:600;font-size:13px;background:linear-gradient(0deg,rgba(255,255,255,.6),transparent)}
+.chip{position:absolute;background:#fff;color:var(--purple-deep);font-weight:600;font-size:13px;padding:8px 14px;border-radius:999px;border:1px solid rgba(26,16,51,.12)}
+.chip.c1{top:22px;left:20px}.chip.c2{top:48%;right:18px;background:var(--lime);color:var(--ink-cta);border-color:rgba(33,33,92,.35)}
+.chip.c3{bottom:60px;left:26px;background:var(--purple-deep);color:#fff;border-color:transparent}
+
+.grid{display:grid;gap:22px}
+.cols-3{grid-template-columns:repeat(3,1fr)}.cols-2{grid-template-columns:repeat(2,1fr)}
+.card{background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:28px;transition:transform .18s,box-shadow .18s,border-color .18s}
+.card:hover{transform:translateY(-4px);box-shadow:0 22px 44px -28px rgba(70,35,183,.45)}
+.card h3{margin-bottom:8px}.card p{color:var(--ink-soft)}
+.feat-ic{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;margin-bottom:16px;color:var(--purple-deep);border:1px solid rgba(58,30,110,.25)}
+.feat-ic svg{width:24px;height:24px}
+.bg-lime{background:var(--lime)}.bg-pink{background:var(--pink)}.bg-blue{background:var(--blue)}.bg-soft{background:var(--paper-2)}
+.feat-ic.bg-soft{border-color:rgba(26,16,51,.12)}
+
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.metric{background:#fff;border-radius:var(--r);padding:26px 22px;border:1px solid rgba(26,16,51,.1)}
+.metric .n{font-family:var(--display);font-weight:800;font-size:44px;color:var(--purple-deep);line-height:1}
+.metric .l{font-size:15px;color:var(--ink-soft);margin-top:8px}
+.meta-band{margin-top:22px;background:var(--purple-deep);color:#fff;border-radius:var(--r);padding:24px 28px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.meta-band .tag{background:var(--lime);color:var(--ink-cta);font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px;border:1px solid rgba(33,33,92,.35)}
+.meta-band b{font-family:var(--display);font-size:22px}.meta-band span{color:rgba(255,255,255,.85)}
+
+.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.media{border-radius:24px;background:var(--grad);aspect-ratio:5/4;position:relative;overflow:hidden;border:1px solid rgba(26,16,51,.08)}
+.manif p{font-size:20px;line-height:1.7;max-width:42ch}
+blockquote{border-left:4px solid var(--purple);border-radius:0;padding:6px 0 6px 22px;font-size:22px;line-height:1.6;color:var(--ink);font-weight:500;max-width:54ch}
+
+.sede{position:relative;overflow:hidden;border-radius:var(--r);color:#fff;padding:30px;min-height:280px;display:flex;flex-direction:column;justify-content:flex-end;background:var(--grad-deep)}
+.sede.b{background:linear-gradient(135deg,#7F68EF,#9d7af0 60%,#E5B8EE)}
+.sede .city{font-family:var(--display);font-weight:800;font-size:34px}
+.sede .m{margin:6px 0 18px;color:rgba(255,255,255,.92);font-weight:500}
+.sede .badge{position:absolute;top:22px;left:22px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);padding:6px 12px;border-radius:999px;font-size:13px;font-weight:600}
+
+.datos{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.dato{background:#fff;border:1px solid rgba(26,16,51,.1);border-radius:var(--r);padding:20px;text-align:center}
+.dato .ic{width:38px;height:38px;border-radius:10px;background:var(--paper-2);display:flex;align-items:center;justify-content:center;margin:0 auto 10px;color:var(--purple-deep)}
+.dato b{display:block;color:var(--purple-deep)}.dato span{font-size:14px;color:var(--ink-soft)}
+
+.agenda{background:#fff;border:1px solid rgba(26,16,51,.1);border-radius:var(--r);padding:10px 26px}
+.arow{display:flex;gap:20px;padding:18px 0;border-top:1px solid rgba(26,16,51,.08)}
+.arow:first-child{border-top:0}
+.arow .time{width:80px;color:var(--purple);font-weight:600;flex:0 0 auto}
+.arow b{color:var(--ink)}.arow p{color:var(--ink-soft);font-size:15px}
+
+.venue{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.map{border-radius:var(--r);background:var(--grad);aspect-ratio:16/10;border:1px solid rgba(26,16,51,.08);position:relative}
+
+details.faq{background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:0 22px;margin-bottom:12px}
+details.faq summary{list-style:none;cursor:pointer;padding:20px 0;font-weight:600;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:16px}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:"+";font-size:24px;color:var(--purple-deep);line-height:1}
+details.faq[open] summary::after{content:"–"}
+details.faq p{padding:0 0 20px;color:var(--ink-soft)}
+
+.spk{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.spk .p{text-align:center}
+.av{width:120px;height:120px;border-radius:50%;margin:0 auto 14px;background:var(--grad);border:1px solid rgba(26,16,51,.08)}
+.spk b{color:var(--purple-deep);font-size:17px}.spk span{display:block;color:var(--ink-soft);font-size:14px}
+
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:170px;gap:14px}
+.gal .g{border-radius:var(--r-sm);background:var(--grad);border:1px solid rgba(26,16,51,.06)}
+.gal .g:nth-child(4n+2){background:linear-gradient(135deg,#98DCF1,#7F68EF)}
+.gal .g:nth-child(4n+3){background:linear-gradient(135deg,#E5B8EE,#4623B7)}
+.gal .g:nth-child(1){grid-column:span 2;grid-row:span 2}
+
+.quote{background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:30px}
+.quote .q{font-size:20px;font-weight:500;line-height:1.5}
+.quote .q::before{content:"\201C";font-family:var(--display);font-size:48px;color:var(--purple);line-height:0;vertical-align:-20px;margin-right:4px}
+.who{display:flex;align-items:center;gap:12px;margin-top:20px}
+.who .a{width:46px;height:46px;border-radius:50%;background:var(--grad);border:1px solid rgba(26,16,51,.08)}
+.who b{display:block;color:var(--purple-deep)}.who span{font-size:14px;color:var(--ink-soft)}
+
+.tier{position:relative}
+.tier.featured{border:2px solid var(--purple-deep)}
+.tier .badge{position:absolute;top:-12px;left:24px;background:var(--purple-deep);color:#fff;font-size:12px;font-weight:600;padding:5px 12px;border-radius:999px}
+.tier ul{list-style:none;margin-top:12px}
+.tier li{padding:7px 0 7px 24px;position:relative;color:var(--ink-soft);font-size:15px;border-top:1px solid rgba(26,16,51,.06)}
+.tier li::before{content:"\2713";position:absolute;left:0;color:var(--purple-deep);font-weight:700}
+
+.audience{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}
+.tool{background:var(--purple-deep);color:#fff;border-radius:var(--r);padding:28px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.tool .ti{width:52px;height:52px;border-radius:14px;background:var(--lime);color:var(--ink-cta);display:flex;align-items:center;justify-content:center;border:1px solid rgba(33,33,92,.35)}
+.tool h3{color:#fff;margin:0}.tool p{color:rgba(255,255,255,.85);margin:0}
+
+.form{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.field label{display:block;font-size:14px;font-weight:500;margin-bottom:6px;color:var(--ink)}
+.field input,.field select,.field textarea{width:100%;min-height:46px;border-radius:var(--r-sm);border:1px solid rgba(26,16,51,.25);padding:10px 14px;font:inherit;background:#fff;color:var(--ink)}
+.field textarea{min-height:96px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--purple-deep);box-shadow:0 0 0 3px rgba(70,35,183,.2)}
+.full{grid-column:1/-1}
+
+.routes{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.routes .card{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+.carousel{position:relative}
+.track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px;scrollbar-width:thin}
+.track .slide{flex:0 0 78%;max-width:560px;aspect-ratio:16/9;border-radius:var(--r);background:var(--grad);scroll-snap-align:center;border:1px solid rgba(26,16,51,.08);position:relative}
+.track .slide:nth-child(2n){background:linear-gradient(135deg,#98DCF1,#7F68EF)}
+.track .slide:nth-child(3n){background:linear-gradient(135deg,#E5B8EE,#4623B7)}
+.carr-btns{display:flex;gap:10px;justify-content:center;margin-top:16px}
+.carr-btns button{width:46px;height:46px;border-radius:50%;border:1px solid rgba(26,16,51,.3);background:#fff;color:var(--ink);font-size:20px;cursor:pointer}
+.carr-btns button:hover{background:var(--paper-2)}
+
+.social-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}
+.soc{display:flex;align-items:center;justify-content:center;gap:10px;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:18px;font-weight:600;color:var(--ink)}
+.soc:hover{border-color:var(--purple-deep);color:var(--purple-deep)}
+.soc svg{width:22px;height:22px}
+
+.meetups .row{display:flex;align-items:center;gap:18px;padding:18px 0;border-top:1px solid rgba(26,16,51,.08)}
+.meetups .row:first-child{border-top:0}
+.cal{width:56px;height:56px;border-radius:12px;background:var(--paper-2);border:1px solid rgba(26,16,51,.1);text-align:center;display:flex;flex-direction:column;justify-content:center;flex:0 0 auto}
+.cal b{font-family:var(--display);font-size:18px;color:var(--purple-deep)}.cal span{font-size:11px;color:var(--ink-soft)}
+.news{display:flex;gap:10px;margin-top:8px;flex-wrap:wrap}
+.news input{flex:1;min-width:160px;min-height:46px;border-radius:999px;border:1px solid rgba(26,16,51,.25);padding:0 18px;font:inherit}
+.news input:focus{outline:none;border-color:var(--purple-deep);box-shadow:0 0 0 3px rgba(70,35,183,.2)}
+
+.logos{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-bottom:28px}
+.lg{height:74px;border-radius:var(--r-sm);background:var(--paper-2);display:flex;align-items:center;justify-content:center;color:var(--ink-soft);font-weight:600;font-size:14px;border:1px solid rgba(26,16,51,.1)}
+.spons-cta{background:var(--purple-deep);color:#fff;border-radius:var(--r);padding:34px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.spons-cta h3{color:#fff;font-size:26px;max-width:24ch}
+
+.final{background:var(--grad);text-align:center}
+.final h2{color:var(--purple-deep);font-size:clamp(32px,5vw,52px);max-width:18ch;margin:0 auto}
+.final .btns{display:flex;gap:14px;justify-content:center;margin-top:28px;flex-wrap:wrap}
+
+footer{background:var(--ink);color:rgba(255,255,255,.78);padding:64px 0 40px}
+.fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:32px}
+footer .logo{color:#fff}
+footer p{font-size:15px;margin-top:14px;max-width:30ch}
+footer h4{color:#fff;font-family:var(--body);font-weight:600;font-size:14px;letter-spacing:.04em;margin-bottom:14px}
+footer ul{list-style:none}footer li{margin-bottom:10px}
+footer li a{font-size:15px}footer li a:hover{color:var(--lime)}
+.social{display:flex;gap:12px;margin-top:16px}
+.social a{width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;color:#fff}
+.social a:hover{background:var(--lime);color:var(--ink-cta);border-color:var(--lime)}
+.social svg{width:18px;height:18px}
+.fbar{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,.14);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:rgba(255,255,255,.6)}
+
+.vid{display:block;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);overflow:hidden;transition:transform .18s,box-shadow .18s}
+.vid:hover{transform:translateY(-4px);box-shadow:0 22px 44px -28px rgba(70,35,183,.45)}
+.vid .thumb{aspect-ratio:16/9;background:var(--grad);position:relative;display:flex;align-items:center;justify-content:center}
+.vid:nth-child(3n+2) .thumb{background:linear-gradient(135deg,#98DCF1,#7F68EF)}
+.vid:nth-child(3n) .thumb{background:linear-gradient(135deg,#E5B8EE,#4623B7)}
+.vid .play{width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.92);display:flex;align-items:center;justify-content:center;color:var(--purple-deep);border:1px solid rgba(26,16,51,.1)}
+.vid .play svg{width:22px;height:22px;margin-left:3px}
+.vid .dur{position:absolute;right:10px;bottom:10px;background:rgba(20,8,52,.82);color:#fff;font-size:12px;font-weight:600;padding:3px 8px;border-radius:6px}
+.vid .vbody{padding:16px 18px 20px}
+.vid .vtag{display:inline-block;background:var(--paper-2);color:var(--plum);font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;border:1px solid rgba(58,30,110,.2);margin-bottom:8px}
+.vid h3{font-size:17px;margin:0 0 4px;color:var(--ink)}
+.vid p{color:var(--ink-soft);font-size:14px;margin:0}
+.chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:28px}
+.chip-f{font-family:var(--body);font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px;border:1px solid rgba(26,16,51,.22);background:#fff;color:var(--ink);cursor:pointer}
+.chip-f:hover{border-color:var(--purple-deep)}
+.chip-f[aria-pressed=true]{background:var(--purple-deep);color:#fff;border-color:var(--purple-deep)}
+.edcard{background:#fff;border:1px solid rgba(26,16,51,.1);border-radius:var(--r);padding:24px}
+.edcard .yr{font-family:var(--display);font-weight:800;font-size:34px;color:var(--purple-deep);line-height:1}
+.edcard .st{display:flex;gap:20px;margin-top:14px;flex-wrap:wrap;color:var(--ink-soft);font-size:13px}
+.edcard .st b{color:var(--ink);font-family:var(--display);font-weight:800;font-size:20px;display:block}
+.post{display:block;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);overflow:hidden;transition:transform .18s,box-shadow .18s}
+.post:hover{transform:translateY(-4px);box-shadow:0 22px 44px -28px rgba(70,35,183,.45)}
+.post .thumb{aspect-ratio:16/9;background:var(--grad)}
+.post:nth-child(3n+2) .thumb{background:linear-gradient(135deg,#98DCF1,#7F68EF)}
+.post:nth-child(3n) .thumb{background:linear-gradient(135deg,#E5B8EE,#4623B7)}
+.post .pbody{padding:18px 20px 22px}
+.post .ptag,.feat-post .ptag{display:inline-block;background:var(--paper-2);color:var(--plum);font-size:12px;font-weight:600;padding:3px 10px;border-radius:999px;border:1px solid rgba(58,30,110,.2);margin-bottom:10px}
+.post h3{font-size:18px;margin:0 0 6px;color:var(--ink)}
+.post p{color:var(--ink-soft);font-size:14px;margin:0 0 14px}
+.post .meta,.feat-post .meta{font-size:13px;color:var(--ink-soft);display:flex;align-items:center;gap:8px}
+.post .meta .av2,.feat-post .av2{width:28px;height:28px;border-radius:50%;background:var(--grad);flex:0 0 auto}
+.feat-post{display:grid;grid-template-columns:1.05fr .95fr;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);overflow:hidden;transition:box-shadow .18s}
+.feat-post:hover{box-shadow:0 22px 44px -28px rgba(70,35,183,.45)}
+.feat-post .thumb{min-height:320px;background:linear-gradient(135deg,#E5B8EE,#98DCF1 55%,#7F68EF)}
+.feat-post .fbody{padding:36px;display:flex;flex-direction:column;justify-content:center}
+.feat-post h2{margin:6px 0 12px;color:var(--purple-deep)}
+@media (max-width:760px){.feat-post{grid-template-columns:1fr}.feat-post .thumb{min-height:200px}.feat-post .fbody{padding:24px}}
+.survey{display:flex;gap:28px;align-items:center;background:var(--paper-2);border:1px solid rgba(26,16,51,.1);border-radius:var(--r);padding:28px;flex-wrap:wrap}
+.survey-img{width:150px;height:190px;border-radius:12px;background:var(--grad-deep);flex:0 0 auto;box-shadow:0 16px 30px -18px rgba(70,35,183,.55);position:relative}
+.survey-img .survey-badge{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:rgba(255,255,255,.92);color:var(--purple-deep);font-size:12px;font-weight:600;padding:5px 11px;border-radius:999px;white-space:nowrap}
+.survey-body{flex:1;min-width:240px}
+.survey-body h2{margin:6px 0 10px}
+.survey-body p{color:var(--ink-soft);max-width:54ch}
+.survey-body .btn{margin-top:18px}
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:30px;padding:54px 0 60px}
+  .hero-scrim{background:linear-gradient(180deg,rgba(20,8,52,.5),rgba(20,8,52,.2))}
+  .split,.venue,.audience{grid-template-columns:1fr;gap:26px}
+  .cols-3,.metrics,.spk,.logos,.routes,.social-grid{grid-template-columns:repeat(2,1fr)}
+  .gal{grid-template-columns:repeat(2,1fr)}.fgrid{grid-template-columns:1fr 1fr}
+  section{padding:60px 0}.nav-links,.sede-pill{display:none}.menu-btn{display:block}
+  .datos{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:560px){
+  .cols-2,.cols-3,.metrics,.spk,.logos,.gal,.fgrid,.routes,.social-grid,.datos,.form{grid-template-columns:1fr}
+  .gal .g:nth-child(1){grid-column:auto;grid-row:auto}
+  .hero-cta .btn,.final .btns .btn{width:100%;justify-content:center}
+  .track .slide{flex-basis:88%}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
+</style></head><body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="hdr"><div class="wrap nav">
+<a class="logo" href="index.html" aria-label="Dev Day 4 Women, inicio"><span class="dot" aria-hidden="true"></span>DD4Women</a>
+<nav class="nav-links" aria-label="Navegación principal"><a href="sede.html">El evento</a><a href="participa.html">Participa</a><a href="patrocinadores.html">Patrocinadores</a><a href="comunidad.html">Comunidad</a></nav>
+<span class="nav-spacer"></span><span class="sede-pill">CDMX · MTY</span>
+<a class="btn btn-ink btn-sm" href="sede.html">Regístrate</a>
+<button class="menu-btn" aria-label="Abrir menú">≡</button></div></header><main id="main">
+<section class="hero"><div class="hero-scrim" aria-hidden="true"></div><div class="wrap hero-grid"><div>
+<span class="eyebrow">Comunidad de mujeres en STEM</span>
+<h1>Conéctate, lidera y transforma la industria desde tu <span class="hl">autenticidad</span></h1>
+<p class="lead">El espacio que impulsa tu crecimiento, tu liderazgo y conexiones reales en el ecosistema STEM. Este 2026 en CDMX y Monterrey.</p>
+<div class="hero-cta"><a class="btn btn-primary" href="participa.html#registro">Regístrate gratis</a><a class="hero-link" href="participa.html">o postula como ponente →</a></div>
+<div class="proof"><span class="avs"><i></i><i></i><i></i></span><span><b>+300 mujeres</b> ya forman parte · Gratis · Cupo limitado</span></div></div>
+<div class="hero-visual" role="img" aria-label="Fotografía de la comunidad de Dev Day 4 Women"><span class="chip c1">Networking</span><span class="chip c2">+300 mujeres</span><span class="chip c3">Liderazgo</span><span class="vlabel">Espacio para imagen / hero</span></div></div></section>
+
+<section id="evento"><div class="wrap"><div class="sec-head"><span class="kicker">Qué es Dev Day 4 Women</span><h2>Más que una conferencia: una comunidad</h2><p>Impulsamos crecimiento, inspiración y conexiones reales en STEM a través de tres ejes.</p></div>
+<div class="grid cols-3">
+<article class="card"><div class="feat-ic bg-lime"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z"/></svg></div><h3>Potencial</h3><p>Tu autenticidad es tu mayor fuente de innovación. Quien eres marca la diferencia.</p></article>
+<article class="card"><div class="feat-ic bg-pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg></div><h3>Liderazgo</h3><p>Lidera desde tu poder interior, con claridad y propósito, no desde la imposición.</p></article>
+<article class="card"><div class="feat-ic bg-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5"/></svg></div><h3>Comunidad</h3><p>Encuentra mentoras y sponsors, y construye tu red de forma intencional.</p></article></div></div></section>
+
+<section class="alt"><div class="wrap"><div class="sec-head"><span class="kicker">Impacto</span><h2>Una comunidad que crece</h2></div>
+<div class="metrics"><div class="metric"><div class="n">XX+</div><div class="l">Ediciones</div></div><div class="metric"><div class="n">2</div><div class="l">Ciudades en 2026</div></div><div class="metric"><div class="n">XX+</div><div class="l">Asistentes</div></div><div class="metric"><div class="n">XX+</div><div class="l">Ponentes</div></div></div>
+<div class="meta-band"><span class="tag">Meta 2026</span><b>Reunir a 300 mujeres en STEM</b><span>≈ 200 en CDMX + 100 en Monterrey</span></div></div></section>
+
+<section><div class="wrap split"><div class="manif"><span class="kicker">Por qué lo hacemos</span><h2 style="margin:10px 0 18px">Cerramos la brecha, juntas</h2><p>En Latinoamérica, las mujeres en STEM enfrentan brechas que limitan su acceso a liderazgo, visibilidad y crecimiento. Creamos un espacio para cambiar eso: aprendizaje continuo, networking estratégico y una comunidad que impulsa.</p><a class="btn btn-ghost" href="comunidad.html" style="margin-top:24px">Conoce el propósito</a></div>
+<div class="media" role="img" aria-label="Mujeres colaborando en un taller"><span class="vlabel">Espacio para imagen</span></div></div></section>
+
+<section><div class="wrap"><div class="survey">
+<div class="survey-img" role="img" aria-label="Portada del reporte de la Encuesta de salarios"><span class="survey-badge">Reporte 2026</span></div>
+<div class="survey-body"><span class="kicker">Recurso de la comunidad</span><h2>Encuesta de salarios</h2><p>Espacio para una breve descripción: cómo se pagan los roles en STEM en México por experiencia, ciudad y especialidad, con datos de la comunidad. (Texto de ejemplo.)</p><a class="btn btn-primary" href="#">Descargar reporte</a></div>
+</div></div></section>
+
+<section class="alt"><div class="wrap"><div class="sec-head"><span class="kicker">Próximas sedes</span><h2>Elige dónde nos vemos en 2026</h2></div>
+<div class="grid cols-2">
+<a class="sede" href="sede.html"><span class="badge">CDMX</span><span class="city">Ciudad de México</span><span class="m">Gratuito · Cupo limitado · Fecha por confirmar</span><span class="btn btn-primary btn-sm" style="align-self:flex-start">Ver sede CDMX</span></a>
+<a class="sede b" href="sede.html"><span class="badge">MTY</span><span class="city">Monterrey</span><span class="m">Gratuito · Cupo limitado · Fecha por confirmar</span><span class="btn btn-primary btn-sm" style="align-self:flex-start">Ver sede Monterrey</span></a></div></div></section>
+
+<section><div class="wrap"><div class="sec-head"><span class="kicker">Galería</span><h2>Así se vive Dev Day 4 Women</h2></div>
+<div class="gal" role="img" aria-label="Galería de fotografías de ediciones pasadas"><div class="g"></div><div class="g"></div><div class="g"></div><div class="g"></div><div class="g"></div></div></div></section>
+
+<section class="alt"><div class="wrap"><div class="sec-head"><span class="kicker">Testimonios</span><h2>Lo que dicen quienes ya vivieron DD4W</h2></div>
+<div class="grid cols-2">
+<figure class="quote"><p class="q">Encontré mentoras, confianza y una red que me acompaña todo el año.</p><figcaption class="who"><span class="a" aria-hidden="true"></span><span><b>Nombre Apellido</b><span>Rol · empresa</span></span></figcaption></figure>
+<figure class="quote"><p class="q">Di mi primera charla aquí. Salí con más seguridad y nuevas oportunidades.</p><figcaption class="who"><span class="a" aria-hidden="true"></span><span><b>Nombre Apellido</b><span>Rol · empresa</span></span></figcaption></figure></div></div></section>
+
+<section><div class="wrap"><div class="sec-head"><span class="kicker">Ponentes</span><h2>Conoce a las ponentes</h2></div>
+<div class="spk"><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div></div>
+<div style="text-align:center;margin-top:32px"><a class="btn btn-ghost" href="#">Ver todas las ponentes</a></div></div></section>
+
+<section id="patro"><div class="wrap"><div class="sec-head"><span class="kicker">Patrocinadores</span><h2>Conectan con el talento</h2></div>
+<div class="logos"><div class="lg">Logo</div><div class="lg">Logo</div><div class="lg">Logo</div><div class="lg">Logo</div><div class="lg">Logo</div></div>
+<div class="spons-cta"><h3>¿Tu empresa quiere conectar con el talento femenino en STEM?</h3><div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-primary" href="patrocinadores.html">Quiero patrocinar</a><a class="btn btn-on-dark" href="patrocinadores.html">Media kit</a></div></div></div></section>
+
+<section class="final"><div class="wrap"><h2>No te quedes fuera. Te esperamos en 2026.</h2><p style="color:var(--plum);font-weight:600;margin-top:14px">Gratis · Cupo limitado</p><div class="btns"><a class="btn btn-ink" href="participa.html#registro">Regístrate gratis</a></div><p style="margin-top:18px"><a class="hero-link" style="color:var(--purple-deep)" href="patrocinadores.html">¿Representas a una empresa? Conviértete en patrocinador →</a></p></div></section>
+</main><footer><div class="wrap"><div class="fgrid">
+<div><a class="logo" href="index.html"><span class="dot" aria-hidden="true"></span>Dev Day 4 Women</a>
+<p>La comunidad de mujeres en STEM que conecta, aprende y lidera. Hecho en México, con visión global.</p>
+<div class="social"><a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a><a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 7.5A1.94 1.94 0 1 1 6.94 3.6a1.94 1.94 0 0 1 0 3.9zM5.3 9h3.3v11H5.3zM10.5 9h3.16v1.5h.05c.44-.83 1.5-1.7 3.1-1.7 3.3 0 3.9 2.17 3.9 5V20h-3.3v-4.5c0-1.07-.02-2.45-1.5-2.45s-1.72 1.16-1.72 2.37V20H10.5z"/></svg></a><a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3l-7.1 8.1L22 21h-6.3l-4.4-5.8L6.2 21H3.2l7.6-8.7L2.5 3h6.4l4 5.3zm-1.1 16h1.7L7.6 4.8H5.8z"/></svg></a><a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h2.7l.4-3H13V9c0-.9.3-1.5 1.6-1.5H16V4.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1V11H7v3h2.6v8z"/></svg></a><a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M11 9l4 3-4 3z" fill="currentColor"/></svg></a></div></div>
+<div><h4>Evento</h4><ul><li><a href="sede.html">Sede CDMX</a></li><li><a href="sede.html">Sede Monterrey</a></li><li><a href="sede.html">Programa</a></li><li><a href="#">Ponentes</a></li></ul></div>
+<div><h4>Participa</h4><ul><li><a href="participa.html">Registro</a></li><li><a href="participa.html">Ser ponente</a></li><li><a href="participa.html">Voluntariado</a></li><li><a href="patrocinadores.html">Patrocinar</a></li></ul></div>
+<div><h4>Comunidad</h4><ul><li><a href="videos.html">Videos y grabaciones</a></li><li><a href="blog.html">Blog</a></li><li><a href="manifiesto.html">Manifiesto</a></li><li><a href="manifiesto.html#equipo">Equipo</a></li></ul></div></div>
+<div class="fbar"><span>© 2026 Dev Day 4 Women</span><span><a href="#">FAQ</a> · <a href="#">Código de conducta</a> · <a href="#">DEI</a> · <a href="#">Aviso de privacidad</a></span></div></div></footer><div class="stickybar" id="stickybar"><p><span class="s">Cupo limitado</span> · Regístrate gratis a Dev Day 4 Women 2026</p><a class="btn btn-primary btn-sm" href="participa.html#registro">Regístrate gratis</a><button class="x" aria-label="Cerrar el aviso">&times;</button></div>
+<script>
+document.querySelectorAll('[data-carr]').forEach(function(c){var t=c.querySelector('.track');c.querySelectorAll('[data-dir]').forEach(function(b){b.addEventListener('click',function(){t.scrollBy({left:(b.dataset.dir==='next'?1:-1)*t.clientWidth*0.8,behavior:'smooth'});});});});
+(function(){var bar=document.getElementById('stickybar');if(!bar)return;var on=function(){if(window.scrollY>760)bar.classList.add('show');else bar.classList.remove('show');};window.addEventListener('scroll',on);on();var x=bar.querySelector('.x');if(x)x.addEventListener('click',function(){bar.remove();window.removeEventListener('scroll',on);});})();
+</script></body></html>
