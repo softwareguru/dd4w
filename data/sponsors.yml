@@ -35,11 +35,11 @@ sponsor_group:
       - logo : "/images/logos/qualtop.png"
         link : "https://qualtop.com/"
 
-  #- title : "Comunidad Aliada"
-  #  slug : "platinum"
-  #  sponsor:
-      #- logo : "/images/logos/csoftmty.png"
-      #  link : "https://csoftmty.org/"
+  - title : "Comunidad Aliada"
+    slug : "platinum"
+    sponsor:
+      - logo : "/images/logos/ardanlabs.webp"
+        link : "https://www.ardanlabs.com/community/"
 
 
   - title : "Organizado por"
