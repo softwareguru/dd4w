@@ -2,6 +2,11 @@
 title: "Diversidad, Equidad e Inclusión como pilares en el Dev Day 4 Women"
 date: 2025-09-15T17:56:52-06:00
 draft: false
+type: dd4w2026
+layout: prose
+hero_kicker: "Nuestros valores"
+hero_title: "Diversidad, equidad e inclusión como <span class='hl'>pilares</span>"
+hero_lead: "Cada diferencia enriquece a la comunidad."
 ---
 
 Queremos fortalecer la presencia de mujeres en tecnología, no solo en el desarrollo de software, sino en todas las disciplinas STEM. Creemos en el aprendizaje continuo, el intercambio de experiencias y la creación de oportunidades que impulsen el crecimiento profesional en el mundo tecnológico en un entorno diverso e inclusivo, sin importar geografía, género, orientación sexual, discapacidad, raza, etnia, edad, religión, situación económica o cualquier otra característica. 

@@ -1,0 +1,2 @@
+{{- /* Tarjeta de sede. Params: variant (""|"b"), badge, city, meta, url, label */ -}}
+<a class="sede{{ with .variant }} {{ . }}{{ end }}" href="{{ .url }}"><span class="badge">{{ .badge }}</span><span class="city">{{ .city }}</span><span class="m">{{ .meta }}</span><span class="btn btn-primary btn-sm" style="align-self:flex-start">{{ .label }}</span></a>

@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="hero"><div class="hero-scrim" aria-hidden="true"></div><div class="wrap"><div class="hero-center">
+<span class="eyebrow">{{ .Params.hero_kicker | default "Dev Day 4 Women" }}</span>
+<h1>{{ .Params.hero_title | default .Title | safeHTML }}</h1>
+{{- with .Params.hero_lead }}
+<p class="lead" style="margin:18px auto 0">{{ . }}</p>
+{{- end }}
+</div></div></section>
+<section><div class="wrap prose">
+{{ .Content }}
+</div></section>
+{{ end }}

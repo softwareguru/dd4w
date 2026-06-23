@@ -5,11 +5,11 @@
 <a class="skip" href="#main">Saltar al contenido</a>
 {{- partial "dd4w2026/header.html" . -}}
 <main id="main">
-{{ partial "dd4w2026/home-body.html" . }}
+{{- block "main" . }}{{ end -}}
 </main>
 {{- partial "dd4w2026/footer.html" . -}}
 {{- if .Params.modal }}{{ partial "dd4w2026/sponsor-modal.html" . }}{{ end -}}
-<div class="stickybar" id="stickybar"><p><span class="s">Cupo limitado</span> · Regístrate gratis a Dev Day 4 Women 2026</p><a class="btn btn-primary btn-sm" href="https://luma.com/rg7imt3n" target="_blank" rel="noopener noreferrer">Regístrate gratis</a><button class="x" aria-label="Cerrar el aviso">&times;</button></div>
+{{- block "extra_body" . }}{{ end -}}
 {{- partial "dd4w2026/scripts.html" . -}}
 </body>
 </html>

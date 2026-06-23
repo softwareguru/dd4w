@@ -2,6 +2,11 @@
 title: "PREGUNTAS FRECUENTES"
 date: 2022-09-17T21:10:33-05:00
 draft: false
+type: dd4w2026
+layout: prose
+hero_kicker: "Ayuda"
+hero_title: "Preguntas <span class='hl'>frecuentes</span>"
+hero_lead: "Todo lo que necesitas saber sobre Dev Day 4 Women."
 ---
 
 ### ¿QUÉ ES EL DEV DAY 4 WOMEN?

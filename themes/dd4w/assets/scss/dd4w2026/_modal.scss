@@ -1,0 +1,12 @@
+.modal-ov{position:fixed;inset:0;background:rgba(20,8,52,.55);backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:20px;z-index:100}
+.modal-ov.show{display:flex}
+.modal{background:#fff;border-radius:var(--r);max-width:440px;width:100%;padding:32px;position:relative;box-shadow:0 30px 80px rgba(20,8,52,.35)}
+.modal h3{font-family:var(--display);font-weight:800;font-size:24px;margin:0 0 6px}
+.modal p.sub{color:var(--ink-soft);font-size:15px;margin:0 0 22px}
+.modal .field{margin-bottom:14px}
+.modal label{display:block;font-weight:600;font-size:13px;margin-bottom:6px;color:var(--plum)}
+.modal input{width:100%;padding:11px 13px;border:1px solid rgba(26,16,51,.2);border-radius:12px;font-size:15px;font-family:inherit;box-sizing:border-box}
+.modal input:focus{outline:none;border-color:var(--purple-deep);box-shadow:0 0 0 3px rgba(127,104,239,.18)}
+.modal .btn{width:100%;justify-content:center;margin-top:8px}
+.modal-x{position:absolute;top:14px;right:16px;background:none;border:0;font-size:26px;line-height:1;color:var(--ink-soft);cursor:pointer}
+.modal-x:hover{color:var(--ink)}
