@@ -1,9 +1,9 @@
 ---
-title: "Dev AI"
-date: 2024-04-25T16:58:53-06:00
+title: "Dev AI - Copilot Studio Biulder"
+date: 2026-06-22T16:58:53-06:00
 images: 
  - "images/logos/mobik.png"
-link: https://job-boards.greenhouse.io/mobiik/jobs/6648098
+link: https://job-boards.greenhouse.io/mobiik/jobs/7665452
 draft: false
 ---
 
