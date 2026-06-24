@@ -6,6 +6,3 @@ images:
 link: https://www.simplepractice.com/careers/roles/6026563004/
 draft: false
 ---
-
-
-
