@@ -212,13 +212,13 @@ home = "Home"
 
 # Meta data
 description = """Dev Day for Women es un evento para mujeres involucradas en el desarrollo de software."""
-images = ["/images/card-2025-dd4w.jpg"]
+images = ["/images/card-2026-dd4w.jpg"]
 twitter_user = "RevistaSG"
 email = "eventos@sg.com.mx"
 author = "Software Guru"
 
-start_date = "2021-04-14T11:00-05:00"
-end_date = "2021-04-15T19:00-05:00"
+start_date = "2026-07-31T11:00-05:00"
+end_date = "2026-07-31T19:00-05:00"
 
 disclaimer = """DevDay 4 Women es otro fantástico evento de Software Guru."""
 

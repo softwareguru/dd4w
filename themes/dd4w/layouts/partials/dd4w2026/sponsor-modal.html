@@ -1,17 +1,19 @@
 {{- $m := .Params.modal -}}
-{{- $labels := dict "nombre" "Nombre" "apellido" "Apellido" "empresa" "Empresa" "correo" "Correo de empresa" "puesto" "Puesto en la empresa" -}}
+{{- $labels := dict "nombre" "Nombre" "apellido" "Apellido" "empresa" "Empresa" "correo" "Correo de empresa" "puesto"
+"Puesto en la empresa" -}}
 {{- $types := dict "correo" "email" -}}
 <div class="modal-ov" id="sponsorModal" role="dialog" aria-modal="true" aria-labelledby="sponsorModalTitle">
-<div class="modal">
-<button class="modal-x" type="button" data-close-modal aria-label="Cerrar">&times;</button>
-<h3 id="sponsorModalTitle">{{ $m.title }}</h3>
-<p class="sub">{{ $m.sub }}</p>
-<form id="sponsorForm">
-{{- range $m.fields }}
-<div class="field"><label for="sp-{{ . }}">{{ index $labels . }}</label><input id="sp-{{ . }}" name="{{ . }}" type="{{ index $types . | default "text" }}" required></div>
-{{- end }}
-<button class="btn btn-primary" type="submit">Enviar</button>
-</form>
-<div class="ok">{{ $m.ok | default "¡Gracias! Te contactaremos muy pronto. 💜" }}</div>
-</div>
+    <div class="modal">
+        <button class="modal-x" type="button" data-close-modal aria-label="Cerrar">&times;</button>
+        <h3 id="sponsorModalTitle">{{ $m.title }}</h3>
+        <p class="sub">{{ $m.sub }}</p>
+        <form id="sponsorForm">
+            {{- range $m.fields }}
+            <div class="field"><label for="sp-{{ . }}">{{ index $labels . }}</label><input id="sp-{{ . }}"
+                    name="{{ . }}" type="{{ index $types . | default " text" }}" required></div>
+            {{- end }}
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+        <div class="ok">{{ $m.ok | default "¡Gracias! Te contactaremos muy pronto. 💜" }}</div>
+    </div>
 </div>
