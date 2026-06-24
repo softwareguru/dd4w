@@ -20,6 +20,8 @@
 <p style="color:var(--ink-soft);margin:0 auto 16px">¿Te interesa participar como ponente o tallerista?</p><a class="btn btn-primary" href="https://convoca.dev/dev-day-4-women-monterrey-2026/cfp" target="_blank" rel="noopener noreferrer">Postula tu plática</a>
 </div></div></section>
 
+{{ partial "dd4w2026/participate.html" (dict "luma" "https://luma.com/tg59b5q8" "cfp" "https://convoca.dev/dev-day-4-women-monterrey-2026/cfp") }}
+
 <section style="display:none"><div class="wrap"><div class="sec-head"><span class="kicker">Ponentes</span><h2>Ponentes en Monterrey</h2></div>
 <div class="spk"><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div><div class="p"><div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span></div></div></div></section>
 
@@ -34,6 +36,8 @@
 <details class="faq"><summary>¿El evento tiene costo?</summary><p>No. Dev Day 4 Women es un evento gratuito; solo necesitas registrarte porque el cupo es limitado.</p></details>
 <details class="faq"><summary>¿Necesito experiencia técnica para asistir?</summary><p>No es indispensable. Hay contenido para distintos perfiles y etapas de carrera, desde estudiantes hasta líderes técnicas.</p></details>
 <details class="faq"><summary>¿Habrá certificado de asistencia?</summary><p>Sí, podrás solicitar tu constancia de participación después del evento.</p></details></div></section>
+
+{{ partial "dd4w2026/gallery.html" . }}
 
 <section class="final"><div class="wrap"><h2>Nos vemos en Monterrey</h2><div class="btns"><a class="btn btn-ink" href="https://luma.com/tg59b5q8" target="_blank" rel="noopener noreferrer">Regístrate gratis</a></div></div></section>
 {{ end }}
