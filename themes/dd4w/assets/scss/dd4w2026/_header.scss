@@ -9,3 +9,11 @@
 .nav-spacer{flex:1}
 .sede-pill{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px;color:var(--plum);background:var(--pink);border:1px solid rgba(58,30,110,.35);border-radius:999px;padding:7px 13px}
 .menu-btn{display:none;background:none;border:0;font-size:26px;color:var(--ink);cursor:pointer}
+
+/* Dropdown de Sedes en el nav */
+.nav-dd{position:relative;display:inline-flex;align-items:center}
+.nav-dd-menu{position:absolute;top:100%;left:0;min-width:190px;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:12px;box-shadow:0 18px 40px -20px rgba(70,35,183,.5);padding:8px;display:none;flex-direction:column;gap:2px;z-index:120}
+.nav-dd:hover .nav-dd-menu,.nav-dd:focus-within .nav-dd-menu{display:flex}
+.nav-dd-menu a{padding:9px 12px;border-radius:8px;font-size:15px;color:var(--ink-soft);font-weight:500;white-space:nowrap}
+.nav-dd-menu a::after{display:none}
+.nav-dd-menu a:hover{background:var(--paper-2);color:var(--purple-deep)}
