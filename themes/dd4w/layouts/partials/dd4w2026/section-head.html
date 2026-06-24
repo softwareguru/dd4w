@@ -1,0 +1,2 @@
+{{- /* Encabezado de sección. Params: kicker, title, desc (opcional) */ -}}
+<div class="sec-head"><span class="kicker">{{ .kicker }}</span><h2>{{ .title | safeHTML }}</h2>{{ with .desc }}<p>{{ . | safeHTML }}</p>{{ end }}</div>

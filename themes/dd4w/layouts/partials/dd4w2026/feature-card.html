@@ -1,0 +1,2 @@
+{{- /* Tarjeta de feature. Params: icon (svg crudo), bg (bg-lime|bg-pink|bg-blue|bg-soft), title, text */ -}}
+<article class="card"><div class="feat-ic {{ .bg }}">{{ .icon | safeHTML }}</div><h3>{{ .title }}</h3><p>{{ .text | safeHTML }}</p></article>

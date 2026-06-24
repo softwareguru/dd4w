@@ -2,6 +2,13 @@
 title: "POLÍTICA DE PRIVACIDAD"
 date: 2022-01-31T14:23:26-06:00
 draft: false
+type: dd4w2026
+layout: prose
+hero_kicker: "Legal"
+hero_title: "Aviso de <span class='hl'>privacidad</span>"
+hero_lead: "Cómo tratamos y protegemos tus datos personales."
+url: /privacidad/
+aliases: ['/politica-de-privacidad/']
 ---
 
 En atención a la Ley Federal de Protección de Datos Personales en Posesión de Particulares vigente en México le informamos lo siguiente: 

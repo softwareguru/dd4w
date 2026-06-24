@@ -4,6 +4,11 @@ date: '2019-09-10T07:51:25.000+00:00'
 url: "/coc"
 linkTitle: ''
 
+type: dd4w2026
+layout: prose
+hero_kicker: "Comunidad"
+hero_title: "Código de <span class='hl'>conducta</span>"
+hero_lead: "Un espacio seguro y libre de acoso para todas las personas."
 ---
 # Código de Conducta para eventos de SG
 <br>

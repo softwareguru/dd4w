@@ -1,0 +1,13 @@
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }}</title>
+{{- with .Params.description }}
+<meta name="description" content="{{ . }}">
+{{- end }}
+<link rel="preload" href="/preview/fonts/hanken-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/preview/fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+{{- $styles := resources.Get "scss/dd4w2026.scss" | toCSS | minify | fingerprint -}}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+<link rel="shortcut icon" href="{{ `favicon.ico` | relURL }}" type="image/x-icon">
+</head>

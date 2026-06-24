@@ -1,0 +1,16 @@
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:30px;padding:54px 0 60px}
+  .hero-scrim{background:linear-gradient(180deg,rgba(20,8,52,.5),rgba(20,8,52,.2))}
+  .split,.venue,.audience{grid-template-columns:1fr;gap:26px}
+  .cols-3,.metrics,.spk,.logos,.routes,.social-grid{grid-template-columns:repeat(2,1fr)}
+  .gal-track .g{width:300px;height:210px}.fgrid{grid-template-columns:1fr 1fr}
+  section{padding:60px 0}.nav-links,.sede-pill{display:none}.menu-btn{display:block}
+  .datos{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:560px){
+  .cols-2,.cols-3,.metrics,.spk,.logos,.fgrid,.routes,.social-grid,.datos,.form{grid-template-columns:1fr}
+  .gal-track .g{width:240px;height:170px}
+  .hero-cta .btn,.final .btns .btn{width:100%;justify-content:center}
+  .track .slide{flex-basis:88%}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
