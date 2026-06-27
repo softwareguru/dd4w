@@ -1,0 +1,117 @@
+# Bolsa de trabajo · Dev Day 4 Women
+# Cada entrada es una vacante. Campos:
+#   title    : Puesto
+#   company  : Texto de la empresa (p. ej. "Empresa aliada")
+#   modality : Remoto | Híbrido | Presencial
+#   location : Ciudad (opcional; vacío = sin ciudad)
+#   category : slug para el filtro -> desarrollo | datos | diseno | ciberseguridad | cloud
+#   level    : Jr | Mid | Sr
+#   badge    : spons (Patrocinador del evento) | bpc (Best Place to Code, empresa aliada) | "" (ninguno)
+#   summary  : Descripción corta
+#   link     : URL externa para postular
+#   posted   : Texto de antigüedad (p. ej. "Hace 2 días")
+#   logo     : Ruta opcional al logo; vacío = placeholder con degradado de marca
+
+jobs:
+  - title: "Data Analyst"
+    company: "Empresa aliada"
+    modality: "Remoto"
+    location: ""
+    category: "datos"
+    level: "Mid"
+    badge: "spons"
+    summary: "Analiza datos de negocio y construye dashboards para apoyar decisiones."
+    link: "#"
+    posted: "Hace 2 días"
+    logo: ""
+
+  - title: "Frontend Developer"
+    company: "Empresa aliada"
+    modality: "Híbrido"
+    location: "CDMX"
+    category: "desarrollo"
+    level: "Sr"
+    badge: "bpc"
+    summary: "Crea interfaces accesibles con React/Next.js junto al equipo de producto."
+    link: "#"
+    posted: "Hace 4 días"
+    logo: ""
+
+  - title: "Product Designer (UX/UI)"
+    company: "Empresa aliada"
+    modality: "Remoto"
+    location: ""
+    category: "diseno"
+    level: "Mid"
+    badge: "bpc"
+    summary: "Diseña flujos y prototipos centrados en la usuaria, apoyada en research."
+    link: "#"
+    posted: "Hace 5 días"
+    logo: ""
+
+  - title: "Analista de Ciberseguridad"
+    company: "Empresa aliada"
+    modality: "Presencial"
+    location: "CDMX"
+    category: "ciberseguridad"
+    level: "Jr"
+    badge: "spons"
+    summary: "Apoya el monitoreo y la respuesta a incidentes dentro de un SOC."
+    link: "#"
+    posted: "Hace 1 semana"
+    logo: ""
+
+  - title: "Cloud Engineer"
+    company: "Empresa aliada"
+    modality: "Remoto"
+    location: ""
+    category: "cloud"
+    level: "Sr"
+    badge: "bpc"
+    summary: "Automatiza infraestructura en AWS/GCP con IaC y CI/CD."
+    link: "#"
+    posted: "Hace 1 semana"
+    logo: ""
+
+  - title: "Data Engineer"
+    company: "Empresa aliada"
+    modality: "Híbrido"
+    location: "MTY"
+    category: "datos"
+    level: "Mid"
+    badge: "spons"
+    summary: "Construye pipelines de datos y modela información para analítica."
+    link: "#"
+    posted: "Hace 2 semanas"
+    logo: ""
+
+# Empresas aliadas: tarjetas que redirigen a su sitio para ver más vacantes.
+#   name  : Nombre de la empresa
+#   url   : Sitio / bolsa de trabajo de la empresa
+#   badge : spons (Patrocinador) | bpc (Best Place to Code) | "" (ninguno)
+#   logo  : Ruta opcional al logo; vacío = placeholder con inicial de la empresa
+allies:
+  - name: "Mobiik"
+    url: "https://www.mobiik.com/jobs"
+    badge: "spons"
+    logo: ""
+
+  - name: "ContPAQi"
+    url: "https://www.contpaqi.com/"
+    badge: "bpc"
+    logo: ""
+
+  - name: "SimplePractice"
+    url: "https://www.simplepractice.com/"
+    badge: "spons"
+    logo: ""
+
+  - name: "Qualtop"
+    url: "https://qualtop.com/"
+    badge: "bpc"
+    logo: ""
+
+  - name: "Grupo Salinas"
+    url: "https://www.grupocsalinas.com/"
+    badge: ""
+    logo: ""

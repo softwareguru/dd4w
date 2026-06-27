@@ -1,0 +1,133 @@
+{{ define "main" }}
+{{- $catList := slice
+  (dict "slug" "desarrollo" "label" "Desarrollo")
+  (dict "slug" "datos" "label" "Datos")
+  (dict "slug" "diseno" "label" "Diseño")
+  (dict "slug" "ciberseguridad" "label" "Ciberseguridad")
+  (dict "slug" "cloud" "label" "Cloud") -}}
+{{- $cats := dict -}}
+{{- range $catList }}{{ $cats = merge $cats (dict .slug .label) }}{{ end -}}
+
+<section class="hero"><div class="hero-scrim" aria-hidden="true"></div>
+<div class="wrap hero-center">
+<span class="eyebrow">Comunidad · Oportunidades</span>
+<h1>Bolsa de <span class="hl">trabajo</span></h1>
+<p class="lead" style="margin:18px auto 0">Vacantes de nuestras empresas aliadas y patrocinadoras, seleccionadas para la comunidad Dev Day 4 Women.</p>
+<div class="hero-cta">
+<a class="btn btn-primary" href="#vacantes">Ver vacantes</a>
+<a class="btn btn-on-dark" href="/patrocinadores/">¿Eres patrocinador? Publica una vacante</a>
+</div></div></section>
+
+<section id="vacantes"><div class="wrap">
+<div class="sec-head" style="max-width:none">
+<span class="kicker">Vacantes</span>
+<h2>Oportunidades de empresas aliadas</h2>
+<p>Estas vacantes son de empresas aliadas. Al dar clic en “Ver vacante” te llevamos a su sitio para conocer el detalle y postular.</p>
+</div>
+
+<div class="vac-legend">
+<span class="li"><span class="vbadge spons">★ Patrocinador</span> patrocinador del evento</span>
+<span class="li"><span class="vbadge bpc">Best Place to Code</span> empresa aliada</span>
+</div>
+
+<div class="vac-search">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+<input type="search" id="vacSearch" placeholder="Buscar por puesto, empresa o palabra clave…" aria-label="Buscar vacantes">
+</div>
+
+<div class="chips vac-filters" role="group" aria-label="Filtrar por categoría">
+<button class="chip-f" type="button" data-filter="all" aria-pressed="true">Todas</button>
+{{- range $catList }}
+<button class="chip-f" type="button" data-filter="{{ .slug }}" aria-pressed="false">{{ .label }}</button>
+{{- end }}
+</div>
+
+<div class="grid cols-2" id="vacGrid">
+{{- range $.Site.Data.vacantes.jobs }}
+{{- $catLabel := index $cats .category | default .category }}
+<article class="card job" data-cat="{{ .category }}" data-text="{{ lower (printf "%s %s %s %s %s %s" .title .company .modality $catLabel .level .location) }}">
+<div class="job-head">
+<span class="job-logo"{{ with .logo }} style="background-image:url('{{ . | relURL }}')"{{ end }} aria-hidden="true"></span>
+<div class="job-id">
+<h3>{{ .title }}</h3>
+<span class="co">{{ .company }} · {{ .modality }}{{ with .location }} · {{ . }}{{ end }}</span>
+</div>
+{{- if eq .badge "spons" }}<span class="vbadge spons">★ Patrocinador</span>{{ else if eq .badge "bpc" }}<span class="vbadge bpc">Best Place to Code</span>{{ end }}
+</div>
+<div class="job-tags">
+<span class="jtag">{{ .modality }}</span>
+<span class="jtag">{{ $catLabel }}</span>
+<span class="jtag">{{ .level }}</span>
+</div>
+<p class="job-sum">{{ .summary }}</p>
+<div class="job-foot">
+<a class="btn btn-ghost btn-sm" href="{{ .link }}"{{ if ne .link "#" }} target="_blank" rel="noopener noreferrer"{{ end }}>Ver vacante <span aria-hidden="true">↗</span></a>
+<span class="posted">{{ .posted }}</span>
+</div>
+</article>
+{{- end }}
+</div>
+<p class="vac-empty" id="vacEmpty">No encontramos vacantes con esos criterios. Prueba con otra búsqueda o categoría.</p>
+</div></section>
+
+{{- with $.Site.Data.vacantes.allies }}
+<section class="alt"><div class="wrap">
+<div class="sec-head" style="max-width:none">
+<span class="kicker">Empresas aliadas</span>
+<h2>Explora más vacantes en sus sitios</h2>
+<p>Visita el sitio de cada empresa aliada para conocer todas sus oportunidades abiertas.</p>
+</div>
+<div class="grid cols-3">
+{{- range . }}
+<article class="card ally">
+<span class="ally-logo"{{ with .logo }} style="background-image:url('{{ . | relURL }}')"{{ end }} aria-hidden="true">{{ if not .logo }}{{ substr .name 0 1 }}{{ end }}</span>
+<h3>{{ .name }}</h3>
+{{- if eq .badge "spons" }}<span class="vbadge spons">★ Patrocinador</span>{{ else if eq .badge "bpc" }}<span class="vbadge bpc">Best Place to Code</span>{{ end }}
+<a class="btn btn-ghost btn-sm ally-btn" href="{{ .url }}" target="_blank" rel="noopener noreferrer">Ver vacantes <span aria-hidden="true">↗</span></a>
+</article>
+{{- end }}
+</div>
+</div></section>
+{{- end }}
+
+<section class="final"><div class="wrap">
+<h2>¿Tu empresa quiere contratar talento diverso en tech?</h2>
+<p style="color:var(--plum);font-weight:600;margin:18px auto 0;max-width:48ch">Publicar vacantes es un beneficio para patrocinadores.</p>
+<div class="btns">
+<a class="btn btn-ink" href="/patrocinadores/">Publicar vacante</a>
+<a class="btn btn-light" href="/patrocinadores/">Conoce los paquetes</a>
+</div>
+</div></section>
+{{ end }}
+
+{{ define "extra_body" }}
+<script>
+(function(){
+  var grid=document.getElementById('vacGrid');if(!grid)return;
+  var cards=Array.prototype.slice.call(grid.querySelectorAll('.job'));
+  var search=document.getElementById('vacSearch');
+  var empty=document.getElementById('vacEmpty');
+  var chips=Array.prototype.slice.call(document.querySelectorAll('.vac-filters .chip-f'));
+  var activeCat='all';
+  function apply(){
+    var q=(search.value||'').trim().toLowerCase();
+    var shown=0;
+    cards.forEach(function(c){
+      var okCat=activeCat==='all'||c.getAttribute('data-cat')===activeCat;
+      var okTxt=!q||c.getAttribute('data-text').indexOf(q)>-1;
+      var show=okCat&&okTxt;
+      c.style.display=show?'':'none';
+      if(show)shown++;
+    });
+    empty.classList.toggle('show',shown===0);
+  }
+  chips.forEach(function(b){b.addEventListener('click',function(){
+    chips.forEach(function(x){x.setAttribute('aria-pressed','false');});
+    b.setAttribute('aria-pressed','true');
+    activeCat=b.getAttribute('data-filter');
+    apply();
+  });});
+  if(search)search.addEventListener('input',apply);
+})();
+</script>
+{{ end }}
