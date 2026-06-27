@@ -2,9 +2,9 @@
 {{- $catList := slice
   (dict "slug" "desarrollo" "label" "Desarrollo")
   (dict "slug" "datos" "label" "Datos")
-  (dict "slug" "diseno" "label" "Diseño")
-  (dict "slug" "ciberseguridad" "label" "Ciberseguridad")
-  (dict "slug" "cloud" "label" "Cloud") -}}
+  (dict "slug" "ia" "label" "IA")
+  (dict "slug" "cloud" "label" "Cloud")
+  (dict "slug" "gestion" "label" "Gestión") -}}
 {{- $cats := dict -}}
 {{- range $catList }}{{ $cats = merge $cats (dict .slug .label) }}{{ end -}}
 
@@ -57,12 +57,12 @@
 <div class="job-tags">
 <span class="jtag">{{ .modality }}</span>
 <span class="jtag">{{ $catLabel }}</span>
-<span class="jtag">{{ .level }}</span>
+{{- with .level }}<span class="jtag">{{ . }}</span>{{ end }}
 </div>
-<p class="job-sum">{{ .summary }}</p>
+{{- with .summary }}<p class="job-sum">{{ . }}</p>{{ end }}
 <div class="job-foot">
 <a class="btn btn-ghost btn-sm" href="{{ .link }}"{{ if ne .link "#" }} target="_blank" rel="noopener noreferrer"{{ end }}>Ver vacante <span aria-hidden="true">↗</span></a>
-<span class="posted">{{ .posted }}</span>
+{{- with .posted }}<span class="posted">{{ . }}</span>{{ end }}
 </div>
 </article>
 {{- end }}
@@ -83,7 +83,7 @@
 <span class="ally-logo"{{ with .logo }} style="background-image:url('{{ . | relURL }}')"{{ end }} aria-hidden="true">{{ if not .logo }}{{ substr .name 0 1 }}{{ end }}</span>
 <h3>{{ .name }}</h3>
 {{- if eq .badge "spons" }}<span class="vbadge spons">★ Patrocinador</span>{{ else if eq .badge "bpc" }}<span class="vbadge bpc">Best Place to Code</span>{{ end }}
-<a class="btn btn-ghost btn-sm ally-btn" href="{{ .url }}" target="_blank" rel="noopener noreferrer">Ver vacantes <span aria-hidden="true">↗</span></a>
+{{- with .url }}<a class="btn btn-ghost btn-sm ally-btn" href="{{ . }}" target="_blank" rel="noopener noreferrer">Ver vacantes <span aria-hidden="true">↗</span></a>{{ else }}<span class="ally-soon">Vacantes próximamente</span>{{ end }}
 </article>
 {{- end }}
 </div>
