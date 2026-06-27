@@ -47,7 +47,6 @@
 {{- $catLabel := index $cats .category | default .category }}
 <article class="card job" data-cat="{{ .category }}" data-text="{{ lower (printf "%s %s %s %s %s %s" .title .company .modality $catLabel .level .location) }}">
 <div class="job-head">
-<span class="job-logo"{{ with .logo }} style="background-image:url('{{ . | relURL }}')"{{ end }} aria-hidden="true"></span>
 <div class="job-id">
 <h3>{{ .title }}</h3>
 <span class="co">{{ .company }} · {{ .modality }}{{ with .location }} · {{ . }}{{ end }}</span>
@@ -73,20 +72,24 @@
 {{- with $.Site.Data.vacantes.allies }}
 <section class="alt"><div class="wrap">
 <div class="sec-head" style="max-width:none">
-<span class="kicker">Empresas aliadas</span>
+<span class="kicker">Empresas aliadas · Best Place to Code</span>
 <h2>Explora más vacantes en sus sitios</h2>
-<p>Visita el sitio de cada empresa aliada para conocer todas sus oportunidades abiertas.</p>
+<p>Da clic en cualquier empresa aliada para conocer todas sus oportunidades abiertas.</p>
 </div>
-<div class="grid cols-3">
-{{- range . }}
-<article class="card ally">
-<span class="ally-logo"{{ with .logo }} style="background-image:url('{{ . | relURL }}')"{{ end }} aria-hidden="true">{{ if not .logo }}{{ substr .name 0 1 }}{{ end }}</span>
-<h3>{{ .name }}</h3>
-{{- if eq .badge "spons" }}<span class="vbadge spons">★ Patrocinador</span>{{ else if eq .badge "bpc" }}<span class="vbadge bpc">Best Place to Code</span>{{ end }}
-{{- with .url }}<a class="btn btn-ghost btn-sm ally-btn" href="{{ . }}" target="_blank" rel="noopener noreferrer">Ver vacantes <span aria-hidden="true">↗</span></a>{{ else }}<span class="ally-soon">Vacantes próximamente</span>{{ end }}
-</article>
+<div class="vac-search">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+<input type="search" id="allySearch" placeholder="Buscar empresa aliada…" aria-label="Buscar empresa aliada">
+</div>
+<div class="ally-dir" id="allyDir">
+{{- range (sort . "name") }}
+{{- if .url }}
+<a class="ally-row" href="{{ .url }}" target="_blank" rel="noopener noreferrer" data-name="{{ lower .name }}"><span class="nm">{{ .name }}</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+{{- else }}
+<span class="ally-row is-soon" data-name="{{ lower .name }}"><span class="nm">{{ .name }}</span><small>Próximamente</small></span>
+{{- end }}
 {{- end }}
 </div>
+<p class="vac-empty" id="allyEmpty">No encontramos empresas con ese nombre.</p>
 </div></section>
 {{- end }}
 
@@ -128,6 +131,21 @@
     apply();
   });});
   if(search)search.addEventListener('input',apply);
+})();
+(function(){
+  var dir=document.getElementById('allyDir');if(!dir)return;
+  var rows=Array.prototype.slice.call(dir.querySelectorAll('.ally-row'));
+  var s=document.getElementById('allySearch');
+  var empty=document.getElementById('allyEmpty');
+  if(!s)return;
+  s.addEventListener('input',function(){
+    var q=(s.value||'').trim().toLowerCase(),shown=0;
+    rows.forEach(function(r){
+      var ok=!q||r.getAttribute('data-name').indexOf(q)>-1;
+      r.style.display=ok?'':'none';if(ok)shown++;
+    });
+    empty.classList.toggle('show',shown===0);
+  });
 })();
 </script>
 {{ end }}
