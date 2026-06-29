@@ -47,6 +47,13 @@ table.gtable .rate{font-family:var(--display);font-weight:800;color:var(--purple
   .kv,.contacts{grid-template-columns:1fr}
 }
 
+/* Etiquetas de ejemplo (Correcto / Evítalo) */
+.ex-label{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding:5px 12px;border-radius:999px;border:1px solid transparent}
+.ex-label.ok{background:var(--lime);color:var(--ink-cta);border-color:rgba(33,33,92,.35)}
+.ex-label.ok::before{content:"✓"}
+.ex-label.no{background:var(--pink);color:var(--plum);border-color:rgba(58,30,110,.2)}
+.ex-label.no::before{content:"✕"}
+
 /* Tabla de hoteles -> tarjetas apiladas en móvil (sin scroll horizontal) */
 @media (max-width:620px){
   .gtable-wrap{overflow:visible;border:0;background:transparent;border-radius:0}
