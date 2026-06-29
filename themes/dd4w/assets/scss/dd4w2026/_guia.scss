@@ -1,0 +1,63 @@
+/* ===== Guía de patrocinador (página privada) ===== */
+
+/* Aviso de confidencialidad */
+.priv-note{display:flex;align-items:flex-start;gap:12px;background:var(--paper-2);border:1px solid rgba(58,30,110,.2);border-radius:var(--r);padding:16px 20px;color:var(--ink-soft);font-size:14px;margin-top:22px}
+.priv-note svg{width:20px;height:20px;flex:0 0 auto;color:var(--purple-deep);margin-top:1px}
+.priv-note b{color:var(--ink)}
+
+/* Datos clave (lista descriptiva dentro de card) */
+.kv{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.kv .card{padding:22px 24px}
+.kv .k{font-weight:600;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--purple)}
+.kv .v{margin-top:6px;color:var(--ink);font-size:16px}
+.kv .v.big{font-family:var(--display);font-weight:800;font-size:26px;color:var(--purple-deep)}
+
+/* Lista de checklist con palomita (reusa el patrón de .tier) */
+.checklist{list-style:none;margin:0}
+.checklist li{position:relative;padding:10px 0 10px 30px;border-top:1px solid rgba(26,16,51,.08);color:var(--ink-soft)}
+.checklist li:first-child{border-top:0}
+.checklist li::before{content:"\2713";position:absolute;left:0;top:10px;color:var(--purple-deep);font-weight:700}
+.checklist li b{color:var(--ink)}
+.checklist li a{color:var(--purple-deep);text-decoration:underline;text-underline-offset:3px}
+
+/* Tabla (hoteles) */
+.gtable-wrap{overflow-x:auto;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);background:#fff}
+table.gtable{width:100%;border-collapse:collapse;min-width:720px;font-size:14px}
+table.gtable th,table.gtable td{text-align:left;padding:14px 16px;vertical-align:top;border-top:1px solid rgba(26,16,51,.08)}
+table.gtable thead th{background:var(--purple-deep);color:#fff;font-family:var(--body);font-weight:600;border:0;font-size:13px;letter-spacing:.02em}
+table.gtable tbody tr:nth-child(even){background:var(--paper-2)}
+table.gtable .hotel{font-weight:600;color:var(--ink)}
+table.gtable .rate{font-family:var(--display);font-weight:800;color:var(--purple-deep);white-space:nowrap}
+
+/* Enlace a Google Maps */
+.maplink{color:var(--purple-deep);text-decoration:underline;text-underline-offset:3px}
+.maplink:hover{color:var(--plum)}
+.maplink .ext{width:14px;height:14px;vertical-align:-2px;margin-left:3px;flex:0 0 auto}
+
+/* Tarjetas de contacto */
+.contacts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.contact h3{font-size:18px;margin:0 0 2px;color:var(--ink)}
+.contact .role{color:var(--purple);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.04em;margin-bottom:10px}
+.contact a{color:var(--purple-deep);text-decoration:underline;text-underline-offset:3px;font-weight:600;word-break:break-word}
+
+/* Párrafo introductorio "Sobre el evento" */
+.about-event{max-width:68ch;margin-top:26px;overflow-wrap:break-word}
+
+@media (max-width:760px){
+  .kv,.contacts{grid-template-columns:1fr}
+}
+
+/* Tabla de hoteles -> tarjetas apiladas en móvil (sin scroll horizontal) */
+@media (max-width:620px){
+  .gtable-wrap{overflow:visible;border:0;background:transparent;border-radius:0}
+  table.gtable{min-width:0;width:100%}
+  table.gtable thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+  table.gtable tbody tr{display:block;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:18px 18px 8px;margin-bottom:14px}
+  table.gtable tbody tr:nth-child(even){background:#fff}
+  table.gtable td{display:block;border:0;padding:0 0 12px;text-align:left}
+  table.gtable td:first-child{display:none}
+  table.gtable td::before{content:attr(data-label);display:block;font-weight:600;color:var(--purple);font-size:11px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
+  table.gtable td.hotel{font-family:var(--display);font-weight:800;font-size:18px;color:var(--purple-deep);margin-bottom:8px}
+  table.gtable td.hotel::before{display:none}
+  table.gtable td.rate{white-space:normal}
+}

@@ -2,6 +2,7 @@
 .nav{display:flex;align-items:center;gap:22px;height:72px}
 .logo{font-family:var(--display);font-weight:800;font-size:21px;letter-spacing:-.03em;color:var(--purple-deep);display:flex;align-items:center;gap:8px}
 .logo .dot{width:14px;height:14px;border-radius:50%;background:var(--grad-deep)}
+.hdr .logo-img{display:block;height:36px;width:auto}
 .nav-links{display:flex;gap:24px;margin-left:8px}
 .nav-links a{font-weight:500;font-size:15px;color:var(--ink-soft);padding:6px 2px;position:relative}
 .nav-links a:hover,.nav-links a[aria-current]{color:var(--purple-deep)}
