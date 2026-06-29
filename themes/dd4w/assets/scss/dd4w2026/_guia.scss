@@ -54,7 +54,9 @@ table.gtable .rate{font-family:var(--display);font-weight:800;color:var(--purple
 .ex-label.no{background:var(--pink);color:var(--plum);border-color:rgba(58,30,110,.2)}
 .ex-label.no::before{content:"✕"}
 
-/* Tabla de hoteles -> tarjetas apiladas en móvil (sin scroll horizontal) */
+/* Tablas .gtable -> tarjetas apiladas en móvil (sin scroll horizontal)
+   .t-hide = celda que se oculta en móvil (p. ej. el #)
+   .t-title = celda que actúa como título de la tarjeta */
 @media (max-width:620px){
   .gtable-wrap{overflow:visible;border:0;background:transparent;border-radius:0}
   table.gtable{min-width:0;width:100%}
@@ -62,9 +64,9 @@ table.gtable .rate{font-family:var(--display);font-weight:800;color:var(--purple
   table.gtable tbody tr{display:block;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:18px 18px 8px;margin-bottom:14px}
   table.gtable tbody tr:nth-child(even){background:#fff}
   table.gtable td{display:block;border:0;padding:0 0 12px;text-align:left}
-  table.gtable td:first-child{display:none}
+  table.gtable td.t-hide{display:none}
   table.gtable td::before{content:attr(data-label);display:block;font-weight:600;color:var(--purple);font-size:11px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}
-  table.gtable td.hotel{font-family:var(--display);font-weight:800;font-size:18px;color:var(--purple-deep);margin-bottom:8px}
-  table.gtable td.hotel::before{display:none}
+  table.gtable td.t-title{font-family:var(--display);font-weight:800;font-size:18px;color:var(--purple-deep);margin-bottom:8px}
+  table.gtable td.t-title::before{display:none}
   table.gtable td.rate{white-space:normal}
 }
