@@ -32,6 +32,7 @@ home = ["HTML", "RSS", "JSON"]
     [markup.goldmark.renderer]
       unsafe = true
 
+
 ############################# Plugins ##############################
 # CSS Plugins
 [[params.plugins.css]]

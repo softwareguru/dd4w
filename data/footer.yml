@@ -1,0 +1,98 @@
+### Title and description ###
+
+brand:
+  title: "Dev Day 4 Women"
+  url: "/"
+  showDot: true
+  description: >
+    La comunidad de mujeres en STEM que conecta, aprende y lidera.
+    Hecho en México, con visión global.
+
+### Menu ###
+
+sections:
+  - title: "Evento"
+    links:
+      - title: "Sede CDMX"
+        url: "/sede/"
+        visible: true
+
+      - title: "Sede Monterrey"
+        url: "/sede-monterrey/"
+        visible: true
+
+      - title: "Programa"
+        url: "/programa/"
+        visible: true
+
+      - title: "Guía para asistentes"
+        url: "/guia-asistentes/"
+        visible: true
+
+  - title: "Participa"
+    links:
+      - title: "Registro"
+        url: "/sede/"
+        visible: true
+
+      - title: "Ser ponente"
+        url: "/sede/"
+        visible: true
+
+      - title: "Guía para speakers"
+        url: "/guia-speakers/"
+        visible: true
+
+      - title: "Patrocinar"
+        url: "/patrocinadores/"
+        visible: true
+
+  - title: "Comunidad"
+    links:
+      - title: "Preguntas frecuentes"
+        url: "/faq/"
+        visible: true
+
+      - title: "Código de conducta"
+        url: "/coc/"
+        visible: true
+
+      - title: "Videos y grabaciones"
+        url: "/videos/"
+        visible: false
+
+      - title: "Blog"
+        url: "/blog/"
+        visible: false
+
+      - title: "Manifiesto"
+        url: "https://code4dei.com/"
+        visible: true
+        external: true
+
+      - title: "Equipo"
+        url: "https://code4dei.com/"
+        visible: true
+        external: true
+
+
+### Social media ### 
+
+enable: true
+
+items:
+  - name: Instagram
+    url: https://www.instagram.com/code4dei/
+    icon: instagram
+
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/softwareguru
+    icon: linkedin
+
+  - name: Facebook
+    url: https://www.facebook.com/softwareguru/
+    icon: facebook
+
+  - name: YouTube
+    url: https://www.youtube.com/@softwareguru/playlists
+    icon: youtube
