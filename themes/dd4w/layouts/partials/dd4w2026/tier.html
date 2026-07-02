@@ -1,2 +1,5 @@
 {{- /* Paquete de patrocinio. Params: name, featured (bool), badge (opcional), items (lista de strings) */ -}}
-<article class="card tier{{ if .featured }} featured{{ end }}">{{ with .badge }}<span class="badge">{{ . }}</span>{{ end }}<h3>{{ .name }}</h3><ul>{{ range .items }}<li>{{ . | safeHTML }}</li>{{ end }}</ul></article>
+<article class="card tier{{ if .featured }} featured{{ end }}">{{ with .badge }}<span class="badge">{{ . }}</span>{{ end
+    }}<h3>{{ .name }}</h3>
+    <ul>{{ range .items }}<li>{{ . | safeHTML }}</li>{{ end }}</ul>
+</article>

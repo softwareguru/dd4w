@@ -1,25 +1,28 @@
 <div class="tiers">
 
-  {{ range site.Data.patrocinadores.tiers }}
-  
-  <div class="tier {{ .class }}">
+{{ range site.Data.patrocinadores.tiers }}
+<div class="tier {{ .class }}">
 
     <span class="tier-label">{{ .label }}</span>
 
     <div class="tier-logos">
 
-      {{ range .logos }}
+        {{ range .logos }}
+
+        {{ $img := resources.Get .image }}
+        {{ $webp := $img.Resize "400x webp q90" }}
 
       <a class="lg"  href="{{ .url  }}" target="_blank" rel="noopener noreferrer">
 
         <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
 
       </a>
-      {{ end }}
+
+        {{ end }}
 
     </div>
 
-  </div>
-  {{ end }}
+</div>
+{{ end }}
 
 </div>
