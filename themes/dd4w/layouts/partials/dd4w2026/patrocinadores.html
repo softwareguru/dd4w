@@ -1,0 +1,25 @@
+<div class="tiers">
+
+  {{ range site.Data.patrocinadores.tiers }}
+  
+  <div class="tier {{ .class }}">
+
+    <span class="tier-label">{{ .label }}</span>
+
+    <div class="tier-logos">
+
+      {{ range .logos }}
+
+      <a class="lg"  href="{{ .url  }}" target="_blank" rel="noopener noreferrer">
+
+        <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+
+      </a>
+      {{ end }}
+
+    </div>
+
+  </div>
+  {{ end }}
+
+</div>

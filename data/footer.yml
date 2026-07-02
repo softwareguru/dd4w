@@ -22,11 +22,15 @@ sections:
         visible: true
 
       - title: "Programa"
-        url: "/programa/"
+        url: "/sede/"
         visible: true
 
-      - title: "Guía para asistentes"
+      - title: "Guía asistentes · CDMX"
         url: "/guia-asistentes/"
+        visible: true
+
+      - title: "Guía asistentes · MTY"
+        url: "/guia-asistentes-monterrey/"
         visible: true
 
   - title: "Participa"

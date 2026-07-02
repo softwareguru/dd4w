@@ -1,0 +1,25 @@
+{{- /*
+  Tabla reutilizable .gtable (se apila en tarjetas en móvil).
+  Parámetros (dict):
+    cols     : slice de dicts { label, field, title(bool), link(bool), rate(bool) }
+    rows     : slice de dicts (datos); si una col tiene link=true usa row.query para el enlace a Google Maps
+    numbered : bool -> agrega columna "#" oculta en móvil
+*/ -}}
+{{- $cols := .cols }}{{ $numbered := .numbered }}
+<div class="gtable-wrap"><table class="gtable">
+<thead><tr>{{ if $numbered }}<th>#</th>{{ end }}{{ range $cols }}<th>{{ .label }}</th>{{ end }}</tr></thead>
+<tbody>
+{{- range $i, $row := .rows }}
+<tr>{{ if $numbered }}<td class="t-hide">{{ add $i 1 }}</td>{{ end }}
+{{- range $cols }}
+{{- $val := index $row .field }}
+<td{{ if .title }} class="hotel t-title"{{ else if .rate }} class="rate"{{ end }} data-label="{{ .label }}">
+{{- if and .link $row.query -}}
+<a class="maplink" href="https://www.google.com/maps/search/?api=1&query={{ $row.query | urlquery }}" target="_blank" rel="noopener noreferrer">{{ $val }} <svg class="ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></a>
+{{- else -}}{{ $val }}{{- end -}}
+</td>
+{{- end }}
+</tr>
+{{- end }}
+</tbody>
+</table></div>

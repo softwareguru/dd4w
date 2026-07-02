@@ -1,0 +1,47 @@
+# Guía para asistentes · Sede Monterrey
+fecha: "31 de octubre de 2026"
+ciudad: "Monterrey"
+venueName: "Tecnológico de Monterrey"
+venueAddress: "Av. Eugenio Garza Sada 2501 Sur, Tecnológico, Distrito Tec, 64700 Monterrey, N.L."
+venueQuery: "Tecnológico de Monterrey, Av. Eugenio Garza Sada 2501 Sur, Distrito Tec, 64700 Monterrey, Nuevo León"
+wazeQuery: "Tecnologico de Monterrey Eugenio Garza Sada 2501 Monterrey"
+registro: "/sede-monterrey/"
+parkingText: "Tres opciones para visitantes: <b>E1 (Parque Central)</b>, <b>E2 (CEDES)</b> y <b>E4</b>."
+transitText: "Diversas rutas de autobús urbano por Eugenio Garza Sada, Revolución y Junco de la Vega. En <b>Metrorrey</b>, las estaciones más convenientes para conexión son <b>Félix U. Gómez</b> y <b>Padre Mier</b>."
+tip: "llega con tiempo. La zona es de mucho tránsito y la movilidad en auto se complica. El registro abre a las <b>8:00 AM</b> y habrá networking temprano."
+hotelesFechas: "Fechas: 30 de octubre al 1 de noviembre de 2026 · Precios estimados por noche en MXN."
+eventosFechas: "Cartelera del 30 de octubre al 1 de noviembre de 2026 (precios aproximados de boletos)."
+
+lugares:
+  - {name: "Tecnológico Park", query: "Tecnológico Park, Distrito Tec, Monterrey", ver: "Descansar, caminar y disfrutar de las áreas verdes del Distrito Tec.", transporte: "Caminando", tiempo: "5 min", costo: "Sin costo"}
+  - {name: "Espíritu de Luz Skyspace", query: "Espíritu de Luz Skyspace James Turrell, Tecnológico de Monterrey", ver: "Instalación artística de James Turrell con experiencias de luz y arquitectura.", transporte: "Caminando", tiempo: "5–10 min", costo: "Algunas actividades requieren registro"}
+  - {name: "Parque Fundidora", query: "Parque Fundidora, Monterrey", ver: "Jardines, museos, áreas recreativas, pistas para caminar y espacios culturales.", transporte: "Uber / Taxi", tiempo: "10–15 min", costo: "$80–$120"}
+  - {name: "MARCO", query: "Museo de Arte Contemporáneo de Monterrey MARCO, Monterrey", ver: "Exposiciones de arte contemporáneo nacional e internacional.", transporte: "Uber / Taxi", tiempo: "15–20 min", costo: "$100–$140"}
+  - {name: "Macroplaza", query: "Macroplaza, Monterrey", ver: "Una de las plazas más grandes de Latinoamérica, monumentos y jardines.", transporte: "Uber / Taxi", tiempo: "15–20 min", costo: "$100–$140"}
+  - {name: "Museo de Historia Mexicana", query: "Museo de Historia Mexicana, Monterrey", ver: "La historia de México mediante exposiciones permanentes y temporales.", transporte: "Uber / Taxi", tiempo: "15–20 min", costo: "$100–$140"}
+  - {name: "Museo del Noreste (MUNE)", query: "Museo del Noreste MUNE, Monterrey", ver: "Historia y cultura del noreste de México mediante exposiciones interactivas.", transporte: "Uber / Taxi", tiempo: "15–20 min", costo: "$100–$140"}
+  - {name: "Distrito Tec", query: "Distrito Tec, Monterrey", ver: "Cafeterías, restaurantes, espacios de innovación y arquitectura universitaria.", transporte: "Caminando", tiempo: "5–15 min", costo: "Sin costo"}
+
+restaurantes:
+  - {name: "El Señor Limón", query: "El Señor Limón, Paseo Tec, Monterrey", ubicacion: "Paseo Tec", tipo: "Mariscos y cocina del Pacífico", precio: "$300–$500"}
+  - {name: "Brutal Kitchen Bar", query: "Brutal Kitchen Bar, Distrito Tec, Monterrey", ubicacion: "Distrito Tec", tipo: "Internacional / Hamburguesas", precio: "$300–$500"}
+  - {name: "Mr Brown Paseo Tec II", query: "Mr Brown, Paseo Tec, Monterrey", ubicacion: "Paseo Tec", tipo: "Internacional y contemporánea", precio: "$250–$450"}
+  - {name: "Muncher House Tec", query: "Muncher House, Paseo Tec, Monterrey", ubicacion: "Paseo Tec II", tipo: "Hamburguesas y comida americana", precio: "$250–$400"}
+  - {name: "Dolce Bisquet Paseo Tec", query: "Dolce Bisquet, Paseo Tec, Monterrey", ubicacion: "Paseo Tec", tipo: "Desayunos, brunch y cocina internacional", precio: "$200–$350"}
+  - {name: "Catrinas Chilaquiles TEC", query: "Catrinas Chilaquiles, Distrito Tec, Monterrey", ubicacion: "Distrito Tec", tipo: "Mexicana (desayunos y brunch)", precio: "$150–$250"}
+
+eventos:
+  - {evento: "Exposiciones del Museo de Arte Contemporáneo (MARCO)", fecha: "30 oct – 1 nov", lugar: "MARCO", precio: "$90–$100"}
+  - {evento: "Museo de Historia Mexicana y Museo del Noreste (MUNE)", fecha: "30 oct – 1 nov", lugar: "Paseo Santa Lucía", precio: "$40–$90"}
+  - {evento: "Paseo Santa Lucía (recorrido nocturno)", fecha: "30 oct – 1 nov", lugar: "Parque Fundidora – Macroplaza", precio: "Gratuito (a pie) o $120"}
+
+hoteles:
+  - {name: "Hampton by Hilton Monterrey Tecnológico", query: "Hampton by Hilton Monterrey Tecnologico, Distrito Tec, Monterrey", address: "C. 2 de Abril–Jesús Dionisio González 150, Roma, Distrito Tec, Monterrey, N.L.", tarifa: "$2,800", comoLlegar: "Muy cerca del campus: se recomienda llegar caminando (5–10 min) hasta el acceso principal del Tec."}
+  - {name: "City Express Plus by Marriott Monterrey Nuevo Sur", query: "City Express Plus Marriott Monterrey Nuevo Sur, Av. Revolución 2703, Monterrey", address: "Av. Revolución 2703, Nuevo Sur, Monterrey, N.L.", tarifa: "$2,300", comoLlegar: "Auto 8 min. Transporte público: camina a la parada sobre Av. Revolución, toma una ruta al Distrito Tec y baja en la parada más cercana al Tec."}
+  - {name: "Holiday Inn Monterrey Parque Fundidora", query: "Holiday Inn Monterrey Parque Fundidora, Retorno Fundidora 100, Monterrey", address: "Retorno Fundidora 100, Col. Obrera, Monterrey, N.L.", tarifa: "$2,700", comoLlegar: "Auto 10 min. Transporte público: Metrorrey Parque Fundidora dir. Exposición, transborda a una ruta al Distrito Tec."}
+  - {name: "Crowne Plaza Monterrey", query: "Crowne Plaza Monterrey, Constitución 300, Centro, Monterrey", address: "Constitución 300, Centro, Monterrey, N.L.", tarifa: "$2,500", comoLlegar: "Auto 12 min. Transporte público: Metrorrey Padre Mier, Línea 2, transborda hacia la zona del Distrito Tec."}
+
+tips:
+  - "Lleva tu <b>QR de registro</b> y una <b>identificación oficial</b>."
+  - "Viste cómoda: será un día largo y lleno de actividades."
+  - "Comparte tu experiencia en redes con <b>#DevDay4Women26</b>."
