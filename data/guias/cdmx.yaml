@@ -1,0 +1,56 @@
+# Guía para asistentes · Sede CDMX
+fecha: "31 de julio de 2026"
+ciudad: "CDMX"
+venueName: "Novartis"
+venueAddress: "Av. Insurgentes Sur 2475, Tizapán San Ángel, Álvaro Obregón, 01000 CDMX"
+venueQuery: "Novartis, Av. Insurgentes Sur 2475, Tizapán San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX"
+wazeQuery: "Novartis Insurgentes Sur 2475 CDMX"
+registro: "/sede/"
+parkingText: "Dos opciones para visitantes: <b>Patio Revolución</b> y <b>Plaza Loreto</b>. Costo aproximado: <b>$40–$50</b> por visita."
+transitText: "Metrobús <b>Línea 1</b>. La estación más cercana es <b>Doctor Gálvez</b>."
+tip: "llega con tiempo. La zona es de mucho tránsito y la movilidad en auto se complica. El registro abre a las <b>8:00 AM</b> y habrá networking temprano."
+hotelesFechas: "Fechas: 30 de julio al 1 de agosto de 2026 · Precios estimados por noche en MXN."
+eventosFechas: "Cartelera del 30 de julio al 1 de agosto de 2026 (precios aproximados de boletos)."
+
+lugares:
+  - {name: "San Ángel", query: "San Ángel, Ciudad de México", ver: "Calles coloniales, galerías, cafeterías y el Jardín del Arte (fines de semana).", transporte: "Caminando", tiempo: "10–15 min", costo: "Sin costo"}
+  - {name: "Plaza Loreto", query: "Plaza Loreto, Av. Revolución, Ciudad de México", ver: "Restaurantes, cafeterías, tiendas y el Museo Soumaya Plaza Loreto.", transporte: "Caminando", tiempo: "10–15 min", costo: "Sin costo"}
+  - {name: "Cineteca Nacional", query: "Cineteca Nacional, Ciudad de México", ver: "Ver una película, áreas verdes, librería y cafeterías.", transporte: "Uber o Metrobús", tiempo: "15–20 min", costo: "$80–$120 (Uber) · $6 (Metrobús)"}
+  - {name: "Centro Cultural Universitario", query: "Centro Cultural Universitario UNAM, Ciudad de México", ver: "Conciertos, teatro, cine, exposiciones y arquitectura universitaria.", transporte: "Uber o Metrobús", tiempo: "10–15 min", costo: "$80–$120 (Uber) · $6 (Metrobús)"}
+  - {name: "MUAC", query: "Museo Universitario Arte Contemporáneo MUAC, Ciudad de México", ver: "Arte contemporáneo y exposiciones internacionales.", transporte: "Uber o Metrobús", tiempo: "10–15 min", costo: "$80–$120 (Uber) · $6 (Metrobús)"}
+  - {name: "Universum", query: "Universum Museo de las Ciencias, Ciudad de México", ver: "Exhibiciones interactivas sobre ciencia, innovación y tecnología.", transporte: "Uber o Metrobús", tiempo: "10–15 min", costo: "$80–$120 (Uber) · $6 (Metrobús)"}
+  - {name: "Espacio Escultórico", query: "Espacio Escultórico UNAM, Ciudad de México", ver: "Recorrido al aire libre por un ícono del arte moderno en México.", transporte: "Uber", tiempo: "15 min", costo: "$80–$120"}
+  - {name: "Biblioteca Central UNAM", query: "Biblioteca Central UNAM, Ciudad de México", ver: "Mural de Juan O'Gorman y recorrido por el campus universitario.", transporte: "Uber o Metrobús", tiempo: "15 min", costo: "$80–$120 (Uber) · $6 (Metrobús)"}
+  - {name: "Coyoacán", query: "Coyoacán, Ciudad de México", ver: "Plazas, cafeterías, librerías y restaurantes tradicionales.", transporte: "Uber", tiempo: "15–20 min", costo: "$80–$120"}
+  - {name: "ARTZ Pedregal", query: "ARTZ Pedregal, Ciudad de México", ver: "Centro comercial con restaurantes, terrazas, galerías y diseño.", transporte: "Uber", tiempo: "10 min", costo: "$70–$100"}
+
+restaurantes:
+  - {name: "Al Andalus", query: "Al Andalus, Torre Aleph, Insurgentes Sur 2475, Ciudad de México", ubicacion: "Torre Aleph (mismo edificio de Novartis)", tipo: "Libanesa", precio: "$250–$450"}
+  - {name: "Gauchinho", query: "Gauchinho, Torre Aleph, Insurgentes Sur 2475, Ciudad de México", ubicacion: "Torre Aleph (mismo edificio de Novartis)", tipo: "Brasileña / Cortes de carne", precio: "$600–$700"}
+  - {name: "Asaderos Grill Plaza Loreto", query: "Asaderos Grill, Plaza Loreto, Ciudad de México", ubicacion: "Plaza Loreto (5 min)", tipo: "Parrilla y cortes", precio: "$300–$500"}
+  - {name: "El Cardenal San Ángel", query: "El Cardenal, San Ángel, Ciudad de México", ubicacion: "San Ángel (8–10 min)", tipo: "Mexicana tradicional", precio: "$300–$500"}
+  - {name: "Cluny", query: "Cluny, San Ángel, Ciudad de México", ubicacion: "San Ángel (10 min)", tipo: "Francesa", precio: "$500–$700"}
+  - {name: "BISTRO 83", query: "Bistro 83, San Ángel, Ciudad de México", ubicacion: "Centro de San Ángel (10 min)", tipo: "Internacional / Fusión", precio: "$500–$700"}
+  - {name: "Saks San Ángel", query: "Saks, Plaza San Jacinto, San Ángel, Ciudad de México", ubicacion: "Plaza San Jacinto (10 min)", tipo: "Mexicana e internacional", precio: "$350–$600"}
+  - {name: "Magda San Ángel", query: "Magda, San Ángel, Ciudad de México", ubicacion: "Centro de San Ángel (10 min)", tipo: "Mexicana contemporánea", precio: "$500–$800"}
+  - {name: "Flautlán Revolución", query: "Flautlán, Plaza Loreto, Ciudad de México", ubicacion: "Plaza Loreto (5 min)", tipo: "Antojitos mexicanos", precio: "$150–$250"}
+  - {name: "Café del Ángel", query: "Café del Ángel, San Ángel, Ciudad de México", ubicacion: "San Ángel (10 min)", tipo: "Cafetería y cocina mexicana", precio: "$150–$250"}
+
+eventos:
+  - {evento: "Funciones de la Cineteca Nacional", fecha: "30 jul – 1 ago", lugar: "Cineteca Nacional", precio: "$70–$90"}
+  - {evento: "Exposiciones temporales", fecha: "30 jul – 1 ago", lugar: "MUAC (UNAM)", precio: "$40–$50"}
+  - {evento: "Conciertos, teatro y danza (CCU)", fecha: "30 jul – 1 ago", lugar: "Centro Cultural Universitario", precio: "$100–$400"}
+  - {evento: "Cine del Centro Cultural Universitario", fecha: "30 jul – 1 ago", lugar: "Sala Julio Bracho / Salas del CCU", precio: "$40–$70"}
+  - {evento: "Actividades culturales de verano UNAM", fecha: "30 jul – 1 ago", lugar: "Ciudad Universitaria", precio: "Gratuitas o desde $50"}
+  - {evento: "Obra de teatro", fecha: "31 jul – 1 ago", lugar: "Teatro Centenario Coyoacán", precio: "Desde $400"}
+
+hoteles:
+  - {name: "Krystal Grand Suites Insurgentes", query: "Krystal Grand Suites Insurgentes, Av. Insurgentes Centro 1991, Guadalupe Inn, Álvaro Obregón, 01020 Ciudad de México, CDMX", address: "Av. Insurgentes Centro 1991, Guadalupe Inn, Álvaro Obregón, 01020 CDMX", tarifa: "$2,800", comoLlegar: "Auto 10 min. Transporte público: Metrobús Altavista, Línea 1 dir. El Caminero, bajar en Doctor Gálvez y caminar unos minutos."}
+  - {name: "Hotel Royal Pedregal", query: "Hotel Royal Pedregal, Anillo Periférico 4363, Jardines en la Montaña, Tlalpan, 14210 Ciudad de México, CDMX", address: "Anillo Periférico 4363, Jardines en la Montaña, Tlalpan, 14210 CDMX", tarifa: "$2,300", comoLlegar: "Auto 15 min. Transporte público: autobús Universidad–Chichicaspatl–Milpas hasta Parabús Insurgentes II; Metrobús Perisur, Línea 1 dir. Indios Verdes, bajar en Doctor Gálvez."}
+  - {name: "Radisson Paraíso Hotel", query: "Radisson Paraíso Hotel, Cúspide 53, Parques del Pedregal, Tlalpan, 14010 Ciudad de México, CDMX", address: "Cúspide 53, Parques del Pedregal, Tlalpan, 14010 CDMX", tarifa: "$2,300", comoLlegar: "Auto 15 min. Transporte público: Parabús Insurgentes II; Metrobús Perisur dir. Indios Verdes, bajar en Doctor Gálvez."}
+  - {name: "Suites Coben", query: "Suites Coben, Av. Insurgentes Sur 1668, Florida, Álvaro Obregón, 01030 Ciudad de México, CDMX", address: "Av. Insurgentes Sur 1668, Florida, Álvaro Obregón, 01030 CDMX", tarifa: "$2,600", comoLlegar: "Auto 17 min. Transporte público: Metrobús José María Velasco dir. El Caminero, bajar en Doctor Gálvez."}
+
+tips:
+  - "Lleva tu <b>QR de registro</b> y una <b>identificación oficial</b>."
+  - "Viste cómoda: será un día largo y lleno de actividades."
+  - "Comparte tu experiencia en redes con <b>#DevDay4Women26</b>."
