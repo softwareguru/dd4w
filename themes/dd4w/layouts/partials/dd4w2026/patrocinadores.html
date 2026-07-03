@@ -10,7 +10,7 @@
         {{ range .logos }}
 
         {{ $img := resources.Get .image }}
-        {{ $webp := $img.Resize "400x webp q90" }}
+        {{ $webp := $img.Process "webp q90" }}
 
       <a class="lg"  href="{{ .url  }}" target="_blank" rel="noopener noreferrer">
 

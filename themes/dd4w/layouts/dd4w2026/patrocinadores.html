@@ -10,7 +10,7 @@
             <div class="hero-cta">
                 <button class="btn btn-primary btn-sm" data-tf-popup="nSP8SJf1" data-tf-size="80"
                     class="btn btn-primary">Quiero patrocinar</button>
-                    <script src="//embed.typeform.com/next/embed.js"></script>
+                <script src="//embed.typeform.com/next/embed.js"></script>
             </div>
             <div class="proof"><span><b>+300 asistentes presenciales</b> · 2 ciudades · comunidad de +30k</span>
             </div>
@@ -194,14 +194,25 @@
         <div class="sec-head"><span class="kicker">Lo respaldan</span>
             <h2>Empresas que ya confían</h2>
         </div>
-        <div class="logos logos-grid"><a class="lg" href="https://www.simplepractice.com/" target="_blank"
-                rel="noopener noreferrer"><img src="/preview/images/logos/simple.png" alt="SimplePractice"></a><a
-                class="lg" href="https://www.mobiik.com/jobs" target="_blank" rel="noopener noreferrer"><img
-                    src="/preview/images/logos/mobik.png" alt="Mobiik"></a><a class="lg"
-                href="https://www.contpaqi.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="/preview/images/logos/contpaqi-logo.png" alt="ContPAQi"></a><a class="lg"
-                href="https://qualtop.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="/preview/images/logos/qualtop.png" alt="Qualtop"></a></div>
+        <div class="logos logos-grid">
+            {{ range site.Data.patrocinadores.patrocinadores_page.logos }}
+
+            {{ $img := resources.Get .image }}
+            {{ $webp := $img.Process "webp q90" }}
+
+            {{ if .url }}
+            <a class="lg" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .name }}" loading="lazy">
+            </a>
+            {{ else }}
+            <div class="lg">
+                <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .name }}" loading="lazy">
+            </div>
+            {{ end }}
+
+            {{ end }}
+        </div>
+
         <figure class="quote" style="display:none">
             <p class="q">DD4W nos conectó con talento que no encontrábamos en otros espacios.</p>
             <figcaption class="who"><span class="a" aria-hidden="true"></span><span><b>Empresa

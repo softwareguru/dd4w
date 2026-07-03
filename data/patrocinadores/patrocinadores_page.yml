@@ -1,0 +1,16 @@
+logos:
+  - name: "SimplePractice"
+    image: "images/logos/simple.png"
+    url: "https://www.simplepractice.com/"
+
+  - name: "Mobiik"
+    image: "images/logos/mobik.png"
+    url: "https://www.mobiik.com/jobs"
+
+  - name: "ContPAQi"
+    image: "images/logos/contpaqi-logo.png"
+    url: "https://www.contpaqi.com/"
+
+  - name: "Qualtop"
+    image: "images/logos/qualtop.png"
+    url: "https://qualtop.com/"
