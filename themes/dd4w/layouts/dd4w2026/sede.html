@@ -136,13 +136,19 @@
         {{ range site.Data.patrocinadores.patrocinadores_cdmx.tiers }}
         <div class="tier {{ .class }}">
             <span class="tier-label">{{ .label }}</span>
+
             <div class="tier-logos">
                 {{ range .logos }}
+
                 {{ $img := resources.Get .image }}
                 {{ $webp := $img.Process "webp q90" }}
-                <a class="lg" href="{{ .url  }}" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+
+                <a class="lg" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+
+                    <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .name }}" loading="lazy">
+
                 </a>
+
                 {{ end }}
             </div>
         </div>

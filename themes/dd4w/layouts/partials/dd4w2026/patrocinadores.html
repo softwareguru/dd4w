@@ -1,28 +1,24 @@
 <div class="tiers">
 
-{{ range site.Data.patrocinadores.patrocinadores_cdmx.tiers }}
-<div class="tier {{ .class }}">
+        {{ range site.Data.patrocinadores.patrocinadores_cdmx.tiers }}
+        <div class="tier {{ .class }}">
+            <span class="tier-label">{{ .label }}</span>
 
-    <span class="tier-label">{{ .label }}</span>
+            <div class="tier-logos">
+                {{ range .logos }}
 
-    <div class="tier-logos">
+                {{ $img := resources.Get .image }}
+                {{ $webp := $img.Process "webp q90" }}
 
-        {{ range .logos }}
+                <a class="lg" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
 
-        {{ $img := resources.Get .image }}
-        {{ $webp := $img.Process "webp q90" }}
+                    <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .name }}" loading="lazy">
 
-      <a class="lg"  href="{{ .url  }}" target="_blank" rel="noopener noreferrer">
+                </a>
 
-        <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
-
-      </a>
-
+                {{ end }}
+            </div>
+        </div>
         {{ end }}
-
-    </div>
-
-</div>
-{{ end }}
 
 </div>

@@ -66,7 +66,8 @@
     </div>
 </section>
 
-{{ partial "dd4w2026/participate.html" (dict "luma" "https://luma.com/tg59b5q8" "cfp" "https://convoca.dev/dev-day-4-women-monterrey-2026/cfp") }}
+{{ partial "dd4w2026/participate.html" (dict "luma" "https://luma.com/tg59b5q8" "cfp"
+"https://convoca.dev/dev-day-4-women-monterrey-2026/cfp") }}
 
 <section style="display:none">
     <div class="wrap">
@@ -137,13 +138,19 @@
         {{ range site.Data.patrocinadores.patrocinadores_mty.tiers }}
         <div class="tier {{ .class }}">
             <span class="tier-label">{{ .label }}</span>
+
             <div class="tier-logos">
                 {{ range .logos }}
+
                 {{ $img := resources.Get .image }}
                 {{ $webp := $img.Process "webp q90" }}
-                <a class="lg" href="{{ .url  }}" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+
+                <a class="lg" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+
+                    <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .name }}" loading="lazy">
+
                 </a>
+
                 {{ end }}
             </div>
         </div>

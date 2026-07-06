@@ -16,7 +16,7 @@ tiers:
     label: Community partner
     logos:
       - name: Ardan-labs
-        image: images/logos/ardanlabs.webp
+        image: images/logos/ardan-labs-logo-badge.jpg
         url: https://www.ardanlabs.com/community/
 
       - name: GetOnBoard
