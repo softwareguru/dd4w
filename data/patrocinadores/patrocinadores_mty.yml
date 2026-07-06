@@ -1,0 +1,35 @@
+### Patrocinadores en home y CDMX ###
+
+tiers:
+  - class: t-platinum
+    label: Platinum
+    logos:
+      - name: Mobiik
+        image: images/logos/mobik.png
+        url: https://www.mobiik.com/jobs
+
+      - name: ContPAQi
+        image: images/logos/contpaqi-logo.png
+        url: https://www.contpaqi.com/
+
+  - class: t-silver
+    label: Community partner
+    logos:
+      - name: Ardan-labs
+        image: images/logos/ardanlabs.webp
+        url: https://www.ardanlabs.com/community/
+
+      - name: GetOnBoard
+        image: images/logos/getonboard.png
+        url: https://www.getonbrd.com/
+
+#  - class: t-orga
+#    label: Organizado por
+#    logos:
+#      - name: Code4DEI
+#        image: images/logos/code4dei-logo.png
+#        url: https://code4dei.com/
+
+#      - name: Software Guru
+#        image: images/logos/sg.jpg
+#        url: https://sg.com.mx/

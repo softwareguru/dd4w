@@ -132,28 +132,22 @@
         <div class="sec-head"><span class="kicker">Patrocinadores</span>
             <h2>Patrocinadores de esta sede</h2>
         </div>
-        <div class="logos">
-            <a class="lg" href="https://www.simplepractice.com/" target="_blank"
-                rel="noopener noreferrer">
-                <img src="/preview/images/logos/simple.png" alt="SimplePractice">
-            </a>
-            
-            <a class="lg" href="https://www.mobiik.com/jobs" target="_blank" rel="noopener noreferrer">
-                <img src="/preview/images/logos/mobik.png" alt="Mobiik">
-                </a>
-            
-            <a class="lg" href="https://www.contpaqi.com/" target="_blank" rel="noopener noreferrer">
-                <img src="/preview/images/logos/contpaqi-logo.png" alt="ContPAQi">
-                </a>
-            
-            <a class="lg" href="https://qualtop.com/" target="_blank" rel="noopener noreferrer">
-                <img src="/preview/images/logos/qualtop.png" alt="Qualtop">
-            </a>
 
-            <a class="lg" href="https://www.getonbrd.com/" target="_blank" rel="noopener noreferrer">
-                <img src="/preview/images/logos/getonboard.png" alt="Getonboard">
-            </a>
+        {{ range site.Data.patrocinadores.patrocinadores_cdmx.tiers }}
+        <div class="tier {{ .class }}">
+            <span class="tier-label">{{ .label }}</span>
+            <div class="tier-logos">
+                {{ range .logos }}
+                {{ $img := resources.Get .image }}
+                {{ $webp := $img.Process "webp q90" }}
+                <a class="lg" href="{{ .url  }}" target="_blank" rel="noopener noreferrer">
+                    <img src="{{ .image | relURL }}" alt="{{ .name }}" loading="lazy">
+                </a>
+                {{ end }}
+            </div>
         </div>
+        {{ end }}
+
     </div>
 </section>
 
