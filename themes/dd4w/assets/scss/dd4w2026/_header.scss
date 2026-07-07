@@ -9,7 +9,7 @@
 .nav-links a[aria-current]::after,.nav-links a:hover::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--purple-deep)}
 .nav-spacer{flex:1}
 .sede-pill{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px;color:var(--plum);background:var(--pink);border:1px solid rgba(58,30,110,.35);border-radius:999px;padding:7px 13px}
-.menu-btn{display:none;background:none;border:0;font-size:26px;color:var(--ink);cursor:pointer}
+
 
 /* Dropdown de Sedes en el nav */
 .nav-dd{position:relative;display:inline-flex;align-items:center}

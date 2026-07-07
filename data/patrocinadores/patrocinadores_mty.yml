@@ -23,13 +23,13 @@ tiers:
         image: images/logos/getonboard.png
         url: https://www.getonbrd.com/
 
-#  - class: t-orga
-#    label: Organizado por
-#    logos:
-#      - name: Code4DEI
-#        image: images/logos/code4dei-logo.png
-#        url: https://code4dei.com/
+  - class: t-orga
+    label: Organizado por
+    logos:
+      - name: Code4DEI
+        image: images/logos/code4dei-logo.png
+        url: https://code4dei.com/
 
-#      - name: Software Guru
-#        image: images/logos/sg.jpg
-#        url: https://sg.com.mx/
+      - name: Software Guru
+        image: images/logos/sg.jpg
+        url: https://sg.com.mx/

@@ -1,0 +1,29 @@
+logo:
+  image: "/images/DD4W.png"
+  alt: "Dev Day 4 Women"
+
+menu:
+  - name: "Sedes"
+    identifier: "evento"
+    children:
+      - name: "CDMX · 31 jul"
+        url: "/sede/"
+      - name: "Monterrey · 31 oct"
+        url: "/sede-monterrey/"
+
+  - name: "Patrocinadores"
+    url: "/patrocinadores/"
+    identifier: "patrocinadores"
+
+  - name: "Vacantes"
+    url: "/vacantes/"
+    identifier: "vacantes"
+
+buttons:
+  - label: "CDMX"
+    url: "/sede/"
+    class: "btn btn-ink btn-sm"
+
+  - label: "MTY"
+    url: "/sede-monterrey/"
+    class: "btn btn-primary btn-sm"
