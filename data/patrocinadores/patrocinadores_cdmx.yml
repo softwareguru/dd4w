@@ -1,16 +1,14 @@
 ### Patrocinadores en home y CDMX ###
 
 tiers:
-  - class: t-diamond
-    label: Diamond
+
+  - class: t-platinum
+    label: Platinum
     logos:
       - name: SimplePractice
         image: images/logos/simple.png
         url: https://www.simplepractice.com/
 
-  - class: t-platinum
-    label: Platinum
-    logos:
       - name: Mobiik
         image: images/logos/mobik.png
         url: https://www.mobiik.com/jobs
