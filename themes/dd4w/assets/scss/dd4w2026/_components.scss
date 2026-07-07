@@ -51,7 +51,14 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .spk{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .spk .p{text-align:center}
 .av{width:120px;height:120px;border-radius:50%;margin:0 auto 14px;background:var(--grad);background-size:cover;background-position:center top;border:1px solid rgba(26,16,51,.08)}
-.spk b{color:var(--purple-deep);font-size:17px}.spk span{display:block;color:var(--ink-soft);font-size:14px}
+.spk .p{display:flex;flex-direction:column}
+.spk b{color:var(--purple-deep);font-size:17px;margin-bottom:2px}.spk span{display:block;color:var(--ink-soft);font-size:14px;line-height:1.35}
+.spk .org{color:var(--purple-deep);font-weight:600;margin-top:2px}
+.spk-cat{margin-top:38px}
+.spk-cat:first-of-type{margin-top:6px}
+.spk-cat-head{display:flex;align-items:baseline;gap:12px;margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid rgba(26,16,51,.1)}
+.spk-cat-head h3{color:var(--purple-deep);font-size:20px;margin:0}
+.spk-cat-meta{color:var(--ink-soft);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
 
 .gal-c{position:relative;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
 .gal-track{display:flex;gap:16px;width:max-content;animation:gal-scroll 50s linear infinite}

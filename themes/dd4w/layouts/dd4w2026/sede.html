@@ -67,27 +67,32 @@
 {{ partial "dd4w2026/participate.html" (dict "luma" "https://luma.com/rg7imt3n" "cfp"
 "https://convoca.dev/dev-day-4-women-cdmx-2026/cfp") }}
 
-<section style="display:none">
+{{ with .Site.Data.speakers.cdmx.ponentes }}
+{{ $all := . }}
+<section>
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Ponentes</span>
-            <h2>Ponentes en CDMX</h2>
+            <h2>Algunas de nuestras ponentes</h2>
+            <p>Mujeres que compartirán su experiencia y conocimiento en la sede CDMX, organizadas por tipo de
+                sesión. Seguimos confirmando más nombres.</p>
         </div>
-        <div class="spk">
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
+        {{ range $c := slice
+            (dict "key" "charla" "label" "Charlas" "meta" "15 min")
+            (dict "key" "taller" "label" "Talleres" "meta" "40 min")
+            (dict "key" "lightning" "label" "Lightning talks" "meta" "5 min")
+            (dict "key" "comunidad" "label" "Presentación de comunidad" "meta" "") }}
+        {{ with where $all "cat" $c.key }}
+        <div class="spk-cat">
+            <div class="spk-cat-head">
+                <h3>{{ $c.label }}</h3>{{ with $c.meta }}<span class="spk-cat-meta">{{ . }}</span>{{ end }}
             </div>
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
-            </div>
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
-            </div>
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
-            </div>
+            {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" (sort . "name")) }}
         </div>
+        {{ end }}
+        {{ end }}
     </div>
 </section>
+{{ end }}
 
 <section class="alt">
     <div class="wrap">

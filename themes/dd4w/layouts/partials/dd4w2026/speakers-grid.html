@@ -1,0 +1,14 @@
+{{- /* Rejilla de ponentes reutilizable.
+     Uso: {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" $lista) }}
+     Cada item: name, role, org, photo (archivo en /preview/images/speakers/). */ -}}
+{{- $ponentes := .ponentes -}}
+<div class="spk">
+{{- range $ponentes }}
+<div class="p">
+<div class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></div>
+<b>{{ .name }}</b>
+{{- with .role }}<span>{{ . }}</span>{{ end }}
+{{- with .org }}<span class="org">{{ . }}</span>{{ end }}
+</div>
+{{- end }}
+</div>
