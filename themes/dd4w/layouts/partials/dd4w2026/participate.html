@@ -1,7 +1,41 @@
-{{- /* Sección "Elige cómo participar". Params: luma (URL registro), cfp (URL ponente). Un solo CTA por tarjeta (Hick's law). */ -}}
-<section class="alt"><div class="wrap"><div class="sec-head"><span class="kicker">Participa</span><h2>Elige cómo participar</h2></div>
-<div class="routes">
-<article class="card"><div class="feat-ic bg-lime"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z"/></svg></div><h3>Asiste</h3><p>Aprende, conecta e impulsa tu futuro profesional al lado de más mujeres STEM.</p><a class="btn btn-primary btn-sm" href="{{ .luma }}" target="_blank" rel="noopener noreferrer">Regístrate gratis</a></article>
-<article class="card"><div class="feat-ic bg-pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div><h3>Ser ponente</h3><p>Comparte y construye los caminos que nos ayudan a reducir la brecha de mujeres en STEM.</p><a class="btn btn-primary btn-sm" href="{{ .cfp }}" target="_blank" rel="noopener noreferrer">Postula tu plática</a></article>
-<article class="card"><div class="feat-ic bg-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9l1-5h14l1 5M5 9v11h14V9M5 9h14"/></svg></div><h3>Patrocina</h3><p>Impulsa culturas de trabajo diversas e incluyentes en el sector STEM. Suma a tu empresa al movimiento.</p><a class="btn btn-ghost btn-sm" href="/patrocinadores/">Ver paquetes</a></article>
-</div></div></section>
+{{- /* Sección "Elige cómo participar". Params: luma (URL registro), cfp (URL ponente). Un solo CTA por tarjeta (Hick's
+law). */ -}}
+<section class="alt">
+    <div class="wrap">
+        <div class="sec-head"><span class="kicker">Participa</span>
+            <h2>Elige cómo participar</h2>
+        </div>
+        <div class="routes">
+            <article class="card">
+                <div class="feat-ic bg-lime"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z" />
+                    </svg></div>
+                <h3>Asiste</h3>
+                <p>Aprende, conecta e impulsa tu futuro profesional al lado de más mujeres STEM.</p><a
+                    class="btn btn-primary btn-sm" href="{{ .luma }}" target="_blank"
+                    rel="noopener noreferrer">Regístrate gratis</a>
+            </article>
+            <!--<article class="card">
+                <div class="feat-ic bg-pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <rect x="9" y="3" width="6" height="11" rx="3" />
+                        <path d="M5 11a7 7 0 0 0 14 0M12 18v3" />
+                    </svg></div>
+                <h3>Ser ponente</h3>
+                <p>Comparte y construye los caminos que nos ayudan a reducir la brecha de mujeres en STEM.</p><a
+                    class="btn btn-primary btn-sm" href="{{ .cfp }}" target="_blank" rel="noopener noreferrer">Postula
+                    tu plática</a>
+            </article>-->
+            <article class="card">
+                <div class="feat-ic bg-blue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M4 9l1-5h14l1 5M5 9v11h14V9M5 9h14" />
+                    </svg></div>
+                <h3>Patrocina</h3>
+                <p>Impulsa culturas de trabajo diversas e incluyentes en el sector STEM. Suma a tu empresa al
+                    movimiento.</p><a class="btn btn-ghost btn-sm" href="/patrocinadores/">Ver paquetes</a>
+            </article>
+        </div>
+    </div>
+</section>
