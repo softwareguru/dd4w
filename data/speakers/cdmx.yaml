@@ -7,7 +7,7 @@ ponentes:
   - name: "Amizaday Hernández"
     role: "Instructora líder y docente"
     org: "Generation México"
-    cat: "taller"
+    cat: "charla"
     photo: "amizaday-hernandez.jpg"
   - name: "Ana Guadalupe Cifuentes Sánchez"
     role: "Technical Account Manager"
@@ -59,6 +59,11 @@ ponentes:
     org: "El Puerto de Liverpool"
     cat: "lightning"
     photo: "marisela-cadena.jpg"
+  - name: "Martha Gabriela Tejadilla Jaime"
+    role: "Program Manager"
+    org: "Actinver"
+    cat: "lightning"
+    photo: "martha-tejadilla.jpg"
   - name: "Martha Villanueva Sánchez"
     role: "Directora de Desarrollo de Negocios"
     org: "Bufete de Soluciones Integrales"
@@ -94,3 +99,15 @@ ponentes:
     org: "PyLadies CDMX"
     cat: "charla"
     photo: "valery-calderon.jpg"
+
+# Talleres técnicos patrocinados · Sede CDMX (40 min c/u)
+# title: título de la sesión; name: tallerista; org: empresa patrocinadora.
+talleres_patrocinados:
+  - title: "Spec Driven Development: liderando con claridad desde la especificación"
+    name: "Joselyn Jassel Ramos Lorenzo"
+    org: "CONTPAQi"
+    photo: "joselyn-ramos.jpg"
+  - title: "Tu mayor ventaja no es técnica. Y la IA te va a ayudar a encontrarla."
+    name: "Marian Suárez"
+    org: "Mobiik"
+    photo: "marian-suarez.jpg"

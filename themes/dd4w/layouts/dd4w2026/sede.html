@@ -95,6 +95,32 @@
 </section>
 {{ end }}
 
+{{ with .Site.Data.speakers.cdmx.talleres_patrocinados }}
+<section class="alt">
+    <div class="wrap">
+        <div class="sec-head"><span class="kicker">Talleres patrocinados</span>
+            <h2>Talleres técnicos patrocinados</h2>
+            <p>Sesiones prácticas impartidas por nuestras empresas patrocinadoras.</p>
+        </div>
+        <div class="spk-cat">
+            <div class="spk-cat-head">
+                <h3>Talleres técnicos patrocinados</h3><span class="spk-cat-meta">40 min</span>
+            </div>
+            <div class="spk">
+                {{ range sort . "name" }}
+                <div class="p">
+                    <div class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></div>
+                    <b>{{ .name }}</b>
+                    {{- with .org }}<span class="org">{{ . }}</span>{{ end }}
+                    {{- with .title }}<span>{{ . }}</span>{{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+
 <section class="alt">
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Cómo llegar</span>
