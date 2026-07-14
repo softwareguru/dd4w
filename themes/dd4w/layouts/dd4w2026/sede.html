@@ -50,20 +50,25 @@
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Programa</span>
             <h2>Así será el día</h2>
+            <p>Agenda del 31 de julio. Estamos afinando algunos detalles y confirmando más
+                sesiones.</p>
         </div>
-        <div class="agenda" style="text-align:center;padding:56px 26px">
-            <span
-                style="display:inline-block;background:var(--purple-deep);color:#fff;font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:8px 16px;border-radius:999px">Próximamente</span>
-            <h3 style="font-size:26px;margin:18px 0 10px">Estamos afinando cada detalle</h3>
-            <p style="color:var(--ink-soft);max-width:60ch;margin:0 auto 24px">La llegada de la IA a nuestras rutinas ha
-                sido un catalizador clave para el crecimiento profesional. En los próximos años nos esperan
-                transformaciones que, de saber aprovecharlas, impulsarán nuestro futuro profesional. Por ello, para la
-                agenda 2026 estamos preparando contenidos que nos permitan entender los distintos modelos, buenas
-                prácticas a través del vibe coding, principios de seguridad —aún más relevantes—, gestión de equipos y
-                transformación de culturas que nos preparen para ser resilientes ante los cambios tan fugaces.</p>
-            <p style="color:var(--ink-soft);margin:0 auto 16px">¿Te interesa participar como ponente o tallerista?</p>
-            <!--<a class="btn btn-primary" href="https://convoca.dev/dev-day-4-women-cdmx-2026/cfp" target="_blank" rel="noopener noreferrer">Postula tu plática</a>-->
+        {{ with .Site.Data.agenda.cdmx }}
+        <div class="agenda-plen">
+            <div class="ag-room">{{ .sala }}</div>
+            <ol class="ag-list">
+                {{ range .sesiones }}
+                <li class="ag-row{{ if eq .tipo "logistica" }} is-logistica{{ end }}{{ if .destacado }} is-feature{{ end }}{{ if .resaltar }} is-highlight{{ end }}">
+                    <span class="ag-time">{{ .horario }}</span>
+                    <div class="ag-body">
+                        <span class="ag-title">{{ .titulo }}{{ with .etiqueta }} <span class="ag-badge">{{ . }}</span>{{ end }}</span>
+                        {{ with .ponente }}<span class="ag-speaker">{{ . }}</span>{{ end }}
+                    </div>
+                </li>
+                {{ end }}
+            </ol>
         </div>
+        {{ end }}
     </div>
 </section>
 

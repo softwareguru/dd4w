@@ -135,3 +135,32 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .final{background:var(--grad);text-align:center}
 .final h2{color:var(--purple-deep);font-size:clamp(32px,5vw,52px);max-width:18ch;margin:0 auto}
 .final .btns{display:flex;gap:14px;justify-content:center;margin-top:28px;flex-wrap:wrap}
+
+/* Agenda Sala plenaria (sede) */
+.agenda-plen{max-width:860px;margin:0 auto}
+.ag-room{display:inline-block;background:var(--purple-deep);color:#fff;font-weight:700;font-size:13px;letter-spacing:.05em;text-transform:uppercase;padding:8px 18px;border-radius:999px;margin-bottom:22px}
+.ag-list{list-style:none;margin:0;padding:0;border:1px solid rgba(26,16,51,.1);border-radius:var(--r);overflow:hidden;background:#fff}
+.ag-row{display:flex;gap:20px;align-items:flex-start;padding:16px 22px;border-top:1px solid rgba(26,16,51,.08)}
+.ag-row:first-child{border-top:0}
+.ag-time{flex:0 0 118px;font-variant-numeric:tabular-nums;font-weight:700;color:var(--purple-deep);font-size:14px;padding-top:1px;white-space:nowrap}
+.ag-body{display:flex;flex-direction:column;gap:3px}
+.ag-title{color:var(--ink);font-weight:600;line-height:1.4}
+.ag-speaker{color:var(--ink-soft);font-size:14px}
+.ag-badge{display:inline-block;vertical-align:middle;margin-left:8px;background:var(--paper-2);color:var(--purple-deep);font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px}
+.ag-row.is-logistica{background:var(--paper-2)}
+.ag-row.is-logistica .ag-title{color:var(--ink-soft);font-weight:600}
+@media (max-width:560px){
+  .ag-row{flex-direction:column;gap:4px;padding:14px 16px}
+  .ag-time{flex:none}
+}
+
+/* Fila destacada de la agenda (panel estrella) */
+.ag-row.is-feature{background:var(--purple-deep);position:relative;padding-top:18px;padding-bottom:18px}
+.ag-row.is-feature .ag-time{color:var(--lime)}
+.ag-row.is-feature .ag-title{color:#fff;font-size:17px}
+.ag-row.is-feature .ag-speaker{color:rgba(255,255,255,.85)}
+.ag-row.is-feature .ag-badge{background:var(--lime);color:var(--purple-deep)}
+
+/* Fila resaltada secundaria de la agenda (comunidades) — menor jerarquía que el panel */
+.ag-row.is-highlight{background:rgba(238,255,161,.28);border-left:4px solid var(--purple)}
+.ag-row.is-highlight .ag-badge{background:var(--purple-deep);color:#fff}
