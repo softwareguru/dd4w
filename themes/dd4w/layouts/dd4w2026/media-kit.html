@@ -1,0 +1,102 @@
+{{ define "main" }}
+
+<section class="hero"><div class="hero-scrim" aria-hidden="true"></div>
+<div class="wrap hero-center">
+<span class="eyebrow">Media kit</span>
+<h1>Difunde <span class="hl">Dev Day 4 Women</span></h1>
+<p class="lead" style="margin:18px auto 0">Todo lo que necesitas para comunicar el evento: datos oficiales y accesos a los assets digitales para redes y comunidades.</p>
+<p class="hero-note">31 de julio de 2026 · Novartis, CDMX</p>
+</div></section>
+
+<section><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">Datos del evento</span><h2>Lo esencial para tu comunicación</h2>
+<p>Dev Day 4 Women es un evento de Code 4 DEI dirigido a mujeres en la industria tecnológica de México. Usa estos datos oficiales al comunicar el evento.</p></div>
+<div class="kv">
+<div class="card"><div class="k">Fecha</div><div class="v big">31 de julio de 2026</div><div class="v" style="color:var(--ink-soft)">Viernes · un día</div></div>
+<div class="card"><div class="k">Sede</div><div class="v"><b>Novartis · CDMX</b></div><div class="v" style="color:var(--ink-soft)"><a class="maplink" href="https://www.google.com/maps/search/?api=1&query={{ "Novartis, Av. Insurgentes Sur 2475, Tizapán San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX" | urlquery }}" target="_blank" rel="noopener noreferrer">Av. Insurgentes Sur 2475, Tizapán San Ángel, Álvaro Obregón, 01000 CDMX</a></div></div>
+<div class="card"><div class="k">Acceso</div><div class="v big">Gratuito</div><div class="v" style="color:var(--ink-soft)">Presencial · cupo limitado con registro previo</div></div>
+<div class="card"><div class="k">Formato</div><div class="v">Paneles, talleres, charlas y presentaciones de comunidades.</div></div>
+<div class="card"><div class="k">Registro</div><div class="v"><a class="maplink" href="https://luma.com/rg7imt3n" target="_blank" rel="noopener noreferrer">luma.com/rg7imt3n</a></div><div class="v" style="color:var(--ink-soft)">Comparte este enlace para fomentar el registro.</div></div>
+<div class="card"><div class="k">Hashtag oficial</div><div class="v big">#DevDay4Women26</div><div class="v" style="color:var(--ink-soft)">Úsalo en todas tus publicaciones.</div></div>
+</div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">Material de difusión</span><h2>Assets digitales</h2>
+<p>Accede a los diseños listos para descargar y compartir en redes sociales, WhatsApp, Telegram, Discord y tu sitio web. Cada enlace abre una plantilla en Canva; crea una copia antes de editar.</p></div>
+
+<div class="tool" style="margin-top:8px"><div class="ti" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7V4h16v3"/><path d="M9 20h6"/><path d="M12 4v16"/></svg></div>
+<div style="flex:1;min-width:200px"><h3>Para sponsors y comunidades</h3><p>Artes para que patrocinadores y comunidades aliadas anuncien su participación en el evento.</p></div>
+<a class="btn btn-primary" href="{{ .Params.assets_sponsors }}" target="_blank" rel="noopener noreferrer">Abrir assets</a></div>
+
+<div class="tool" style="margin-top:16px"><div class="ti" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div>
+<div style="flex:1;min-width:200px"><h3>Artes generales del evento</h3><p>Contenido general de difusión para anunciar Dev Day 4 Women y fomentar el registro.</p></div>
+<a class="btn btn-primary" href="{{ .Params.assets_generales }}" target="_blank" rel="noopener noreferrer">Abrir assets</a></div>
+
+<div class="tool" style="margin-top:16px"><div class="ti" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/><path d="M4 20c0-3.3 3.6-6 8-6s8 2.7 8 6"/></svg></div>
+<div style="flex:1;min-width:200px"><h3>Artes para speakers</h3>
+{{- if .Params.assets_speakers }}
+<p>Postales personalizadas para que las ponentes anuncien su participación.</p></div>
+<a class="btn btn-primary" href="{{ .Params.assets_speakers }}" target="_blank" rel="noopener noreferrer">Abrir assets</a></div>
+{{- else }}
+<p>Postales personalizadas para que las ponentes anuncien su participación. <b>Disponibles próximamente.</b></p></div>
+<span class="btn btn-primary" aria-disabled="true" style="opacity:.5;pointer-events:none">Próximamente</span></div>
+{{- end }}
+
+</div></section>
+
+<section><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">Cómo apoyar</span><h2>Suma tu voz</h2>
+<p>Compartir contenido de valor hace que tú y tu comunidad destaquen. Apóyanos con un par de publicaciones que fomenten el registro previo al evento en tus canales.</p></div>
+<div class="grid cols-2">
+<article class="card"><h3>Dónde compartir</h3>
+<ul class="checklist">
+<li>Sitio web</li>
+<li>Redes sociales</li>
+<li>WhatsApp, Telegram y Discord</li>
+</ul></article>
+<article class="card"><h3>Buenas prácticas</h3>
+<ul class="checklist">
+<li>Usa el hashtag <b>#DevDay4Women26</b>.</li>
+<li>Incluye el enlace de <a href="https://luma.com/rg7imt3n" target="_blank" rel="noopener noreferrer">registro</a>.</li>
+<li>Repite la difusión cerca de la fecha del evento.</li>
+</ul></article>
+</div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">Comunidades aliadas</span><h2>¿Por qué sumarte?</h2>
+<p>Uno de los propósitos del evento es aprender las mejores prácticas en diversidad, equidad e inclusión. Queremos que las comunidades sean parte de Code 4 DEI y compartan sus experiencias en un espacio seguro.</p></div>
+<div class="grid cols-2">
+<article class="card"><h3>Beneficios</h3>
+<ul class="checklist">
+<li>Presencia de marca en el sitio web (sección “Apoyado por”).</li>
+<li>Presencia en la comunicación del evento (correos, banners).</li>
+<li>Personalización de banners.</li>
+<li>Menciones en redes y durante el evento.</li>
+</ul></article>
+<article class="card"><h3>¿Te interesa?</h3>
+<p style="color:var(--ink-soft)">Si diriges o formas parte de una comunidad, escríbenos para sumarte como comunidad aliada.</p>
+<a class="btn btn-primary" href="mailto:hola@code4dei.com?subject=Comunidad%20aliada%20Dev%20Day%204%20Women" style="margin-top:14px">Escribir a hola@code4dei.com</a>
+</article>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">Contacto y redes</span><h2>Sigue y etiqueta a Code 4 DEI</h2></div>
+<div class="grid cols-2">
+<article class="card"><h3>Redes de Code 4 DEI</h3>
+<ul class="checklist">
+<li><a href="https://www.instagram.com/code4dei/" target="_blank" rel="noopener noreferrer">Instagram · @code4dei</a></li>
+<li><a href="https://www.facebook.com/code4dei" target="_blank" rel="noopener noreferrer">Facebook · code4dei</a></li>
+<li><a href="https://twitter.com/Code4DEI" target="_blank" rel="noopener noreferrer">X (Twitter) · @Code4DEI</a></li>
+<li><a href="https://www.linkedin.com/company/softwareguru" target="_blank" rel="noopener noreferrer">LinkedIn · Software Guru</a></li>
+</ul></article>
+<article class="card"><h3>Dudas sobre difusión</h3>
+<p style="color:var(--ink-soft)">¿Tienes preguntas sobre el material o cómo participar? Escríbenos.</p>
+<a class="btn btn-ghost" href="mailto:fernando@sg.com.mx" style="margin-top:14px">fernando@sg.com.mx</a>
+</article>
+</div>
+</div></section>
+
+{{ end }}

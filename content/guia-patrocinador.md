@@ -152,7 +152,7 @@ Durante el evento, te invitamos a participar activamente en nuestras redes socia
   - Facebook https://www.facebook.com/code4dei
   - Twitter https://twitter.com/Code4DEI
   - Instagram https://www.instagram.com/code4dei/
-  - Hashtag del evento: #DevDay4Women
+  - Hashtag del evento: #DevDay4Women26
 
 
 ### Después del evento

@@ -11,25 +11,27 @@ brand:
 ### Menu ###
 
 sections:
-  - title: "Evento"
+  - title: "CDMX"
     links:
-      - title: "Sede CDMX"
+      - title: "Página del evento"
         url: "/sede/"
         visible: true
 
-      - title: "Sede Monterrey"
-        url: "/sede-monterrey/"
-        visible: true
-
-      - title: "Programa"
-        url: "/sede/"
-        visible: true
-
-      - title: "Guía asistentes · CDMX"
+      - title: "Guía de asistentes"
         url: "/guia-asistentes/"
         visible: true
 
-      - title: "Guía asistentes · MTY"
+      - title: "Media kit"
+        url: "/media-kit/"
+        visible: true
+
+  - title: "Monterrey"
+    links:
+      - title: "Página del evento"
+        url: "/sede-monterrey/"
+        visible: true
+
+      - title: "Guía de asistentes"
         url: "/guia-asistentes-monterrey/"
         visible: true
 
