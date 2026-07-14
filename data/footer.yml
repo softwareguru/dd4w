@@ -77,9 +77,8 @@ sections:
         external: true
 
       - title: "Equipo"
-        url: "https://code4dei.com/"
+        url: "/equipo/"
         visible: true
-        external: true
 
 
 ### Social media ### 

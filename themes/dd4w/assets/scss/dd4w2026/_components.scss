@@ -164,3 +164,19 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 /* Fila resaltada secundaria de la agenda (comunidades) — menor jerarquía que el panel */
 .ag-row.is-highlight{background:rgba(238,255,161,.28);border-left:4px solid var(--purple)}
 .ag-row.is-highlight .ag-badge{background:var(--purple-deep);color:#fff}
+
+/* Página de Equipo (/equipo/) */
+.org{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.org-rev .org-logo{order:-1}
+.org-body p+p{margin-top:12px}
+.org-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.org-tags .chip-f{cursor:default;text-decoration:none}
+.org-tags a.chip-f{cursor:pointer}
+.org-logo{background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:34px;display:flex;align-items:center;justify-content:center;min-height:180px}
+.org-logo img{max-width:100%;max-height:150px;object-fit:contain}
+.team-li{margin-top:6px}
+.team-li a{color:var(--purple-deep);font-weight:600;font-size:13px;text-decoration:none}
+.team-li a:hover{text-decoration:underline}
+.comite{background:var(--paper-2);border:1px solid rgba(26,16,51,.1);border-left:4px solid var(--purple-deep);border-radius:var(--r);padding:30px}
+.comite .av{border-color:rgba(70,35,183,.35)}
+@media(max-width:820px){.org,.org-rev{grid-template-columns:1fr}.org-rev .org-logo{order:0}}

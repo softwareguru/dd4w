@@ -1,0 +1,13 @@
+{{- /* Rejilla de miembros del equipo. Uso: {{ partial "dd4w2026/team-grid.html" (dict "miembros" $lista) }}
+     Cada item: name, photo (archivo en /images/team/), role?, linkedin?. */ -}}
+{{- $miembros := .miembros -}}
+<div class="spk">
+{{- range $miembros }}
+<div class="p">
+<div class="av"{{ with .photo }} style="background-image:url('/images/team/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></div>
+<b>{{ .name }}</b>
+{{- with .role }}<span>{{ . }}</span>{{ end }}
+{{- with .linkedin }}<span class="team-li"><a href="{{ . }}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></span>{{ end }}
+</div>
+{{- end }}
+</div>

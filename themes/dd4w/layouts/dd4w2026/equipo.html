@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<section class="hero"><div class="hero-scrim" aria-hidden="true"></div>
+<div class="wrap hero-center">
+<span class="eyebrow">Equipo</span>
+<h1>Quiénes hacen posible <span class="hl">Dev Day 4 Women</span></h1>
+<p class="lead" style="margin:18px auto 0">Detrás del evento hay dos organizaciones y un equipo que trabaja para construir una comunidad tecnológica más diversa, equitativa e incluyente.</p>
+</div></section>
+
+<section><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">Quiénes somos</span><h2>Software Guru</h2></div>
+<div class="org">
+<div class="org-body">
+<p class="lead" style="color:var(--ink)">Software Guru es una <em>tech-gency</em> que habilita la relación con desarrolladores de software y profesionistas en datos.</p>
+<p style="color:var(--ink-soft)">A lo largo de los años ha impulsado conferencias como Data Day, Tech Sprint, Best Place to Code y Dev Day 4 Women, conectando a la industria en torno a IA, ingeniería de datos, cloud, DevOps y diversidad en tech.</p>
+<div class="org-tags">
+<span class="chip-f">DevRel</span><span class="chip-f">Eventos</span><span class="chip-f">Comunidades</span><span class="chip-f">Latam</span>
+<a class="chip-f" href="https://sg.com.mx/" target="_blank" rel="noopener noreferrer">Sitio web ↗</a>
+</div>
+</div>
+<div class="org-logo"><img src="/images/logos/sg.jpg" alt="Software Guru" loading="lazy"></div>
+</div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">La iniciativa</span><h2>Code4DEI</h2></div>
+<div class="org org-rev">
+<div class="org-logo"><img src="/images/logos/code4dei-logo.png" alt="Code4DEI" loading="lazy"></div>
+<div class="org-body">
+<p class="lead" style="color:var(--ink)">Code4DEI es una iniciativa de Software Guru que impulsa una industria tecnológica más inclusiva, equitativa e innovadora. Parte de una convicción: <em>el software grandioso es diverso, equitativo e incluyente</em>.</p>
+<p style="color:var(--ink-soft)">Trabaja para eliminar barreras estructurales y culturales creando comunidades seguras, espacios de diálogo, programas de mentoría, capacitación e incidencia en políticas inclusivas. <strong>Dev Day 4 Women nace de este compromiso.</strong></p>
+<div class="org-tags">
+<span class="chip-f">Diversidad</span><span class="chip-f">Inclusión</span><span class="chip-f">Equidad</span>
+<a class="chip-f" href="https://code4dei.com/" target="_blank" rel="noopener noreferrer">Sitio web ↗</a>
+</div>
+</div>
+</div>
+</div></section>
+
+{{ with .Site.Data.equipo.equipo }}
+<section><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">El equipo</span><h2>Las personas que lo organizan</h2></div>
+{{ partial "dd4w2026/team-grid.html" (dict "miembros" .) }}
+</div></section>
+{{ end }}
+
+{{ with .Site.Data.equipo.comite }}
+<section class="alt"><div class="wrap">
+<div class="sec-head" style="max-width:none"><span class="kicker">Sección especial</span><h2>Comité Code4DEI</h2></div>
+<div class="comite">
+{{ partial "dd4w2026/team-grid.html" (dict "miembros" .) }}
+</div>
+</div></section>
+{{ end }}
+
+<section class="final">
+<div class="wrap">
+<h2>¿Quieres sumarte?</h2>
+<div class="btns"><a class="btn btn-ink" href="mailto:hola@code4dei.com?subject=Quiero%20sumarme%20a%20Dev%20Day%204%20Women">Escríbenos</a></div>
+</div>
+</section>
+
+{{ end }}
