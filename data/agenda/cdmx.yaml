@@ -1,118 +1,257 @@
-# Agenda Sede CDMX · Sala plenaria (31 de julio)
-# Fuente: "DD4W26 - Event tracker - Agenda". Solo se publica la Sala plenaria.
-# La Sala Quetzalcóatl (workshops en paralelo) aún NO se publica.
+# Agenda Sede CDMX (31 de julio)
+# Fuente: "DD4W26 - Event tracker - Agenda" (horarios) y "DD4W26 MX - CFP"
+# (abstractos, hoja Propuestas -> columna Abstracto de las propuestas "selected").
+# Los abstractos se editaron para corregir ortografía, limpiar artefactos de
+# codificación del export y unificar la redacción.
 # tipo: sesion | workshop | logistica   (controla estilo de la fila)
-sala: "Sala plenaria"
-sesiones:
-  - horario: "08:00 – 09:00"
-    titulo: "Registro"
-    tipo: "logistica"
-  - horario: "09:00 – 09:15"
-    titulo: "Apertura y bienvenida"
-    tipo: "logistica"
-  - horario: "09:15 – 09:35"
-    titulo: "IA como copiloto para investigar problemas difíciles en producción"
-    ponente: "Loyda Florencia"
-    tipo: "sesion"
-  - horario: "09:35 – 09:55"
-    titulo: "Inteligencia geoespacial en la era de la IA"
-    ponente: "Martha Villanueva"
-    tipo: "sesion"
-  - horario: "10:15 – 11:00"
-    titulo: "Tu mayor ventaja no es técnica. Y la IA te va a ayudar a encontrarla."
-    ponente: "Marian Suárez · Mobiik"
-    etiqueta: "Workshop patrocinado"
-    tipo: "workshop"
-  - horario: "11:00 – 11:20"
-    titulo: "Networking break"
-    tipo: "logistica"
-  - horario: "11:20 – 12:05"
-    titulo: "Spec Driven Development: liderando con claridad desde la especificación"
-    ponente: "Joselyn Ramos · CONTPAQi"
-    etiqueta: "Workshop patrocinado"
-    tipo: "workshop"
-  - horario: "12:05 – 12:50"
-    titulo: "Workshop técnico patrocinado"
-    ponente: "SimplePractice · ponente por confirmar"
-    etiqueta: "Workshop patrocinado"
-    tipo: "workshop"
-  - horario: "12:50 – 13:10"
-    titulo: "Networking break"
-    tipo: "logistica"
-  - horario: "13:10 – 13:55"
-    titulo: "She Leads: Shaping STEM's Future with AI"
-    ponente: "Gabriela Guevara, Elsa Ramírez y Cintia Vargas"
-    etiqueta: "Panel"
-    tipo: "sesion"
-    destacado: true
-  - horario: "13:55 – 14:15"
-    titulo: "Presentación de comunidades"
-    ponente: "Women CISO, Women in Gamex, Women Techmakers, Más Voces en Diseño México y Pyladies Jalapa"
-    etiqueta: "Comunidades"
-    tipo: "sesion"
-    resaltar: true
-  - horario: "14:15 – 14:35"
-    titulo: "De la información al conocimiento: minería de datos como herramienta para transformar realidades"
-    ponente: "Doricela Gutiérrez"
-    tipo: "sesion"
-  - horario: "14:35 – 14:55"
-    titulo: "MLOps vs DevOps: el siguiente paso en la evolución tech"
-    ponente: "Daniela Cortés"
-    tipo: "sesion"
-  - horario: "14:55 – 15:05"
-    titulo: "Foto grupal"
-    tipo: "logistica"
-  - horario: "15:05 – 15:35"
-    titulo: "Lunch + networking"
-    tipo: "logistica"
-  - horario: "15:35 – 15:55"
-    titulo: "Datos contra el olvido: cómo construí un mapa de organizaciones que documentan feminicidios en México con herramientas gratuitas"
-    ponente: "Nydia Mejía"
-    tipo: "sesion"
-  - horario: "15:55 – 16:15"
-    titulo: "Cómo los modelos de crédito heredan sesgos históricos de género: Begini como caso de estudio en inclusión financiera"
-    ponente: "Francys Lanza"
-    tipo: "sesion"
-  - horario: "16:15 – 16:35"
-    titulo: "Liderando con neurodivergencia: herramientas reales para mujeres en tecnología"
-    ponente: "Ana Cifuentes"
-    tipo: "sesion"
-  - horario: "16:35 – 16:50"
-    titulo: "Networking break"
-    tipo: "logistica"
-  - horario: "16:50 – 17:10"
-    titulo: "AI-Ready Data: por qué no hay IA sin una estrategia de datos"
-    ponente: "Valery Calderón"
-    tipo: "sesion"
-  - horario: "17:10 – 17:30"
-    titulo: "DETECTA: ¿me hackearon o me están manipulando? Aprende a investigar riesgos digitales en la era de la IA"
-    ponente: "Amizaday Hernández"
-    tipo: "sesion"
-  - horario: "17:30 – 17:35"
-    titulo: "Quemar las naves"
-    ponente: "Sol Estrada"
-    etiqueta: "Lightning talk"
-    tipo: "sesion"
-  - horario: "17:35 – 17:40"
-    titulo: "La mejor decisión de mi carrera fue aprender a aprender: cómo Internet cambió mi vida y por qué hoy cualquiera puede construir el futuro que imagina"
-    ponente: "Jaqueline Razo"
-    etiqueta: "Lightning talk"
-    tipo: "sesion"
-  - horario: "17:40 – 17:45"
-    titulo: "IA generativa: impacto colaborativo y enfoque ético multidisciplinario"
-    ponente: "Marisela Cadena"
-    etiqueta: "Lightning talk"
-    tipo: "sesion"
-  - horario: "17:45 – 17:50"
-    titulo: "No esperé a sentirme lista... aunque la verdad es que casi lo hago"
-    ponente: "Paola Flores"
-    etiqueta: "Lightning talk"
-    tipo: "sesion"
-  - horario: "17:50 – 17:55"
-    titulo: "La IA no vino a reemplazarme, vino a quitarme el trabajo aburrido"
-    ponente: "Gabriela Tejadilla"
-    etiqueta: "Lightning talk"
-    tipo: "sesion"
-  - horario: "17:55 – 18:05"
-    titulo: "Cierre de evento"
-    tipo: "logistica"
+# destacado: fila en morado sólido (panel) · resaltar: realce secundario
+# abstracto: si existe, la fila se vuelve un desplegable (<details>)
+salas:
+  - nombre: "Sala plenaria"
+    sesiones:
+      - horario: "08:00 – 09:00"
+        titulo: "Registro"
+        tipo: "logistica"
+      - horario: "09:00 – 09:15"
+        titulo: "Apertura y bienvenida"
+        tipo: "logistica"
+      - horario: "09:15 – 09:35"
+        titulo: "IA como copiloto para investigar problemas difíciles en producción"
+        ponente: "Loyda Florencia"
+        tipo: "sesion"
+        abstracto: |-
+          Investigar un incidente crítico en producción es uno de los momentos más difíciles en la carrera de cualquier ingeniera: el sistema está fallando, la presión es alta y no sabes por dónde empezar. En esta charla comparto cómo uso la IA no para escribir código, sino para pensar: como copiloto de investigación bajo presión.
+
+          A través de tres casos reales muestro un método replicable, independientemente del stack o del área de especialidad. Un crash de sistema sin causa aparente, donde la IA ayudó a descartar hipótesis sistemáticamente hasta encontrar la raíz del problema. Notificaciones que dejaron de llegar silenciosamente, donde cruzar datos con IA permitió formular la hipótesis correcta antes de tocar código. Y 31 falsas llamadas al 911 generadas por un sistema que técnicamente funcionaba, donde la IA fue copiloto para correlacionar datos de tres fuentes distintas hasta que los números contaron la historia completa.
+
+          El resultado en los tres casos fue el mismo: diagnóstico preciso sin tocar producción. Te llevas un método concreto: cómo estructurar una investigación con IA, qué preguntas hacerle, cómo iterar y cuándo confiar en sus respuestas, aplicable desde el primer día en cualquier equipo.
+      - horario: "09:35 – 09:55"
+        titulo: "Inteligencia geoespacial en la era de la IA"
+        ponente: "Martha Villanueva"
+        tipo: "sesion"
+        abstracto: |-
+          En la era de la inteligencia artificial generativa, los modelos de lenguaje (LLM) han demostrado una capacidad asombrosa para razonar y crear. Sin embargo, cuando se trata de interactuar con el mundo físico, a menudo se enfrentan a un desafío crítico: la falta de contexto en tiempo real y las «alucinaciones» geográficas. ¿Cómo podemos asegurar que las respuestas de una IA estén verdaderamente conectadas con la realidad de nuestro entorno? La respuesta está en la inteligencia geoespacial.
+
+          En esta charla exploraremos el concepto de grounding (anclaje de datos) utilizando la infraestructura de Google Maps. Analizaremos cómo conectar el poder cognitivo de la IA con la base de datos geográfica más grande y actualizada del planeta, y cómo este enfoque permite anclar las respuestas de los modelos a datos del mundo real —desde la ubicación exacta y los horarios de un negocio hasta condiciones dinámicas del entorno—, transformando consultas abstractas en soluciones precisas, confiables y con contexto local.
+
+          Diseñada para desarrolladoras y entusiastas de la tecnología, esta sesión desmitificará la integración de APIs geoespaciales con modelos de IA. Las asistentes se llevarán una visión clara de cómo el grounding mitiga los errores de los LLM, abre nuevas posibilidades para el desarrollo de aplicaciones inteligentes y redefine la forma en que el software interactúa con nuestro espacio físico.
+      - horario: "10:15 – 11:00"
+        titulo: "Tu mayor ventaja no es técnica. Y la IA te va a ayudar a encontrarla."
+        ponente: "Marian Suárez · Mobiik"
+        etiqueta: "Workshop patrocinado"
+        tipo: "workshop"
+        abstracto: |-
+          La inteligencia artificial está transformando la forma en que trabajamos, pero las habilidades que más impulsan una carrera profesional siguen siendo profundamente humanas. En este workshop descubrirás cómo fortalecer competencias como la comunicación, el feedback y la presencia ejecutiva: habilidades que rara vez se enseñan y que hoy son más valiosas que nunca.
+
+          A través de ejercicios prácticos apoyados por IA, aprenderás a convertir esta tecnología en una aliada para practicar conversaciones desafiantes, ganar confianza y desarrollar capacidades que ninguna herramienta puede reemplazar.
+      - horario: "11:00 – 11:20"
+        titulo: "Networking break"
+        tipo: "logistica"
+      - horario: "11:20 – 12:05"
+        titulo: "Spec Driven Development: liderando con claridad desde la especificación"
+        ponente: "Joselyn Ramos · CONTPAQi"
+        etiqueta: "Workshop patrocinado"
+        tipo: "workshop"
+        abstracto: |-
+          ¿Cuántos proyectos hemos visto morir no por falta de talento, sino por falta de claridad desde el primer día? Hoy, con la inteligencia artificial acelerando cada decisión, ya no basta con saber programar rápido: hay que saber, con precisión, qué estamos construyendo y por qué. Esa claridad se ha convertido en la habilidad de liderazgo más poderosa que podemos tener.
+
+          En esta sesión hablaremos de Spec Driven Development (SDD), una metodología que coloca la especificación en el corazón de la construcción de producto. No es un trámite ni un documento más: es una herramienta de poder que nos permite alinear equipos, decidir con intención y liderar con confianza incluso cuando todo alrededor es incertidumbre.
+      - horario: "12:05 – 12:50"
+        titulo: "Workshop técnico patrocinado"
+        ponente: "Elena Pérez · SimplePractice"
+        etiqueta: "Workshop patrocinado"
+        tipo: "workshop"
+      - horario: "12:50 – 13:10"
+        titulo: "Networking break"
+        tipo: "logistica"
+      - horario: "13:10 – 13:55"
+        titulo: "She Leads: Shaping STEM's Future with AI"
+        ponente: "Gabriela Guevara, Elsa Ramírez y Cintia Vargas"
+        etiqueta: "Panel"
+        tipo: "sesion"
+        destacado: true
+      - horario: "13:55 – 14:15"
+        titulo: "Presentación de comunidades"
+        ponente: "Women CISO, Women in Gamex, Women Techmakers, Más Voces en Diseño México y Pyladies Jalapa"
+        etiqueta: "Comunidades"
+        tipo: "sesion"
+        resaltar: true
+      - horario: "14:15 – 14:35"
+        titulo: "De la información al conocimiento: minería de datos como herramienta para transformar realidades"
+        ponente: "Doricela Gutiérrez"
+        tipo: "sesion"
+        abstracto: |-
+          La minería de datos se ha consolidado como una herramienta estratégica para transformar volúmenes de información en conocimiento para la toma de decisiones. Esta charla presenta una reflexión sobre su potencial para atender problemáticas complejas en ámbitos como la educación, la salud y el bienestar, a partir de una trayectoria centrada en la ciencia de datos, la inteligencia artificial y los sistemas inteligentes.
+
+          Recupera experiencias desarrolladas en proyectos de investigación transdisciplinarios, dentro del proyecto «Sistemas transdisciplinarios basados en minería de datos para la promoción de la salud y el bienestar». Desde el modelo KDD se aborda el proceso mediante el cual los datos son seleccionados, depurados, transformados, analizados e interpretados para identificar patrones, factores asociados y oportunidades de intervención. Más allá de la precisión de los algoritmos, se resalta la importancia de traducir los hallazgos en acciones comprensibles, pertinentes y responsables.
+
+          La exposición mostrará cómo las técnicas de clasificación, agrupamiento y reglas de asociación pueden apoyar la identificación temprana de riesgos académicos, el análisis de condiciones relacionadas con la salud y la generación de evidencia para orientar estrategias de prevención y acompañamiento. Asimismo, se enfatizará que los datos representan trayectorias, necesidades y contextos de personas; por ello, su uso debe incorporar criterios de calidad, ética, privacidad, transparencia e interpretación interdisciplinaria.
+
+          Como mujer en STEM, esta experiencia evidencia que la participación femenina en ingeniería y tecnología fortalece la construcción de soluciones más incluyentes y vinculadas con los retos sociales. La minería de datos no debe entenderse únicamente como un recurso técnico, sino como una herramienta para impulsar la investigación aplicada, formar nuevas generaciones y promover decisiones que contribuyan a mejorar la vida de las comunidades.
+      - horario: "14:35 – 14:55"
+        titulo: "MLOps vs DevOps: el siguiente paso en la evolución tech"
+        ponente: "Daniela Cortés"
+        tipo: "sesion"
+        abstracto: |-
+          DevOps no fue diseñado para modelos ni datos; MLOps extiende estas prácticas para sistemas basados en IA. El objetivo de esta charla es entender la transición hacia arquitecturas basadas en datos e inteligencia artificial, además de conocer el ciclo de vida de MLOps y sus diferencias con el DevOps tradicional.
+      - horario: "14:55 – 15:05"
+        titulo: "Foto grupal"
+        tipo: "logistica"
+      - horario: "15:05 – 15:35"
+        titulo: "Lunch + networking"
+        tipo: "logistica"
+      - horario: "15:35 – 15:55"
+        titulo: "Datos contra el olvido: cómo construí un mapa de organizaciones que documentan feminicidios en México con herramientas gratuitas"
+        ponente: "Nydia Mejía"
+        tipo: "sesion"
+        abstracto: |-
+          En México, decenas de organizaciones civiles documentan feminicidios de forma independiente. Su trabajo es fundamental —y casi invisible—. No existe una herramienta que reúna, en un solo lugar, quiénes son, dónde están, cómo trabajan y qué producen. Este proyecto nació para resolver eso.
+
+          Como parte de un curso sobre datos contra feminicidios, construí un mapa interactivo que visualiza estas organizaciones a lo largo del territorio nacional. Pero el proceso me enseñó algo que no esperaba: mi noción inicial de «documentación» era demasiado estrecha. Empecé pensando solo en bases de datos y registros estadísticos. Al investigar, descubrí que documentar también es arte: minidocumentales, performances, murales, proyectos de memoria colectiva. Ampliar esa definición fue una decisión técnica, pero sobre todo una decisión feminista.
+
+          El stack es deliberadamente accesible: Python, Pandas y Folium para construir el mapa; Google Colab como entorno de desarrollo; GitHub Pages para publicarlo de forma gratuita. Sin servidores, sin presupuesto, sin equipo. Solo una persona, herramientas open source y un problema que valía la pena resolver.
+
+          En esta charla comparto el proceso completo: desde la limpieza de datos y la construcción del mapa interactivo hasta las decisiones metodológicas sobre qué incluir y por qué. También hablo de las limitaciones honestas del proyecto —el mapa está en construcción permanente— y de cómo la comunidad puede contribuir a completarlo.
+
+          El mensaje central es simple: no necesitas infraestructura costosa ni un equipo grande para construir algo significativo. Necesitas identificar un problema real, las herramientas correctas y la claridad de que los datos nunca son neutrales.
+      - horario: "15:55 – 16:15"
+        titulo: "Cómo los modelos de crédito heredan sesgos históricos de género: Begini como caso de estudio en inclusión financiera"
+        ponente: "Francys Lanza"
+        tipo: "sesion"
+        abstracto: |-
+          En gran parte de América Latina, los modelos de riesgo de crédito siguen dependiendo de datos del buró: historial de pago, límites, moras y consultas. Eso significa que los sesgos históricos en la forma en que se ha otorgado crédito —por ejemplo, menores montos aprobados o menos productos ofrecidos a mujeres— quedan codificados en los datos que entrenan los modelos actuales. Evaluar el sesgo en estos modelos exige mirar más allá de la métrica de precisión y preguntarnos: ¿qué pasa con las personas, en especial con las mujeres, que quedan sistemáticamente subvaloradas por ese sistema?
+
+          En ese contexto, Begini propone una alternativa: construir un score basado en datos psicométricos y de comportamiento, generando datos de carácter de primera mano a través de pruebas breves que miden rasgos como locus de control, impulsividad, confianza o gratificación diferida. Este enfoque permite evaluar cómo decide y se organiza una persona hoy, sin depender únicamente de cuánto crédito formal tuvo en el pasado; algo crucial para mujeres y otros grupos con historiales «delgados» por falta de oportunidades más que por falta de capacidad de pago.
+
+          Además, las métricas psicométricas se generan bajo condiciones controladas y pueden auditarse y recalibrarse para evitar que penalicen de forma injustificada a un género o grupo específico, reduciendo la herencia de sesgos históricos. Al complementar el buró con este perfil de carácter, las entidades financieras pueden distinguir entre quienes tienen poco historial por exclusión previa y quienes muestran patrones de riesgo genuinamente problemáticos, abriendo espacio a decisiones de crédito más explicables, personalizadas y alineadas con una inclusión financiera más justa.
+      - horario: "16:15 – 16:35"
+        titulo: "Liderando con neurodivergencia: herramientas reales para mujeres en tecnología"
+        ponente: "Ana Cifuentes"
+        tipo: "sesion"
+        abstracto: |-
+          Navegar por el demandante mundo de la tecnología y el liderazgo de comunidades es un reto enorme. Pero ¿qué pasa cuando a las responsabilidades diarias de ser una mujer «godín» en el sector tech le sumamos el TDAH, el trastorno de ansiedad generalizada y la depresión? En esta charla nos quitaremos los filtros para hablar de la realidad de la neurodivergencia y la salud mental en nuestros espacios de trabajo.
+
+          A través de mi experiencia personal liderando equipos y organizando iniciativas comunitarias, compartiré cómo se manifiestan realmente estos síntomas en el día a día corporativo, con el objetivo de ayudarte a identificarlos en ti misma o en tus colegas.
+
+          Más allá de la teoría, exploraremos herramientas prácticas e insights reales que me han permitido no solo sobrellevar estos retos, sino seguir impulsando proyectos, organizando eventos y gestionando personas con empatía.
+
+          Si alguna vez te has sentido abrumada intentando equilibrar tu mente, tu carrera y tus comunidades, este espacio es para ti.
+      - horario: "16:35 – 16:50"
+        titulo: "Networking break"
+        tipo: "logistica"
+      - horario: "16:50 – 17:10"
+        titulo: "AI-Ready Data: por qué no hay IA sin una estrategia de datos"
+        ponente: "Valery Calderón"
+        tipo: "sesion"
+        abstracto: |-
+          Implementar IA sin una estrategia de datos es una receta para el fracaso. El famoso «garbage in, garbage out» sigue siendo el mayor obstáculo para la innovación. En esta sesión hablaremos sobre las estrategias para construir un ecosistema de datos AI-Ready.
+
+          Veremos estrategias prácticas de gobernanza de datos para garantizar la disponibilidad, seguridad, consistencia y fiabilidad de la información, asegurando que tus modelos de IA operen sobre una base sólida y escalable, alineada con las exigencias del mercado actual.
+      - horario: "17:10 – 17:30"
+        titulo: "DETECTA: ¿me hackearon o me están manipulando? Aprende a investigar riesgos digitales en la era de la IA"
+        ponente: "Amizaday Hernández"
+        tipo: "sesion"
+        abstracto: |-
+          La inteligencia artificial está transformando la forma en que nos comunicamos, trabajamos y aprendemos, pero también está facilitando nuevas formas de fraude, manipulación y violencia digital. Hoy, un mensaje, un correo electrónico, una llamada o incluso una imagen generada con IA pueden parecer completamente legítimos.
+
+          En este taller práctico aprenderás el método DETECTA, una metodología diseñada para analizar situaciones sospechosas, identificar señales de riesgo y tomar decisiones informadas cuando algo no parece estar bien en tus cuentas, dispositivos o redes sociales.
+
+          A través de casos reales inspirados en situaciones cotidianas, exploraremos cómo diferenciar un posible hackeo de una manipulación digital, cómo reconocer ataques potenciados por inteligencia artificial y qué evidencias revisar antes de actuar. Además, realizaremos una revisión práctica de herramientas y configuraciones de seguridad disponibles en computadoras y dispositivos móviles para identificar accesos no autorizados, sesiones activas, permisos de aplicaciones y otros indicadores de riesgo.
+
+          Al finalizar, las participantes contarán con un proceso claro para investigar incidentes digitales, fortalecer su seguridad personal y acompañar a otras personas en la protección de su identidad digital. Porque en la era de la IA, la mejor defensa no es el miedo: es aprender a detectar, analizar y actuar.
+      - horario: "17:30 – 17:35"
+        titulo: "Quemar las naves"
+        ponente: "Sol Estrada"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          Hay momentos en los que la vida te invita —o te exige— volver a empezar: cambiar de carrera, de trabajo, de lugar, de personas. Hoy quiero compartirles lo que ha significado para mí «quemar las naves» y tener el valor de comenzar otra vez.
+      - horario: "17:35 – 17:40"
+        titulo: "La mejor decisión de mi carrera fue aprender a aprender: cómo Internet cambió mi vida y por qué hoy cualquiera puede construir el futuro que imagina"
+        ponente: "Jaqueline Razo"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          A los 19 años dejé la universidad porque mi familia ya no podía seguir pagando mis estudios. En ese momento pensé que estaba perdiendo mi oportunidad de construir una carrera. En realidad, estaba descubriendo una nueva forma de aprender: la necesidad de apoyar a mi familia me hizo tomar un camino inusual.
+
+          Aprendí programación desde cero en YouTube, trabajé como freelancer para clientes en Estados Unidos, obtuve certificaciones de Microsoft en Azure y Ciencia de Datos, regresé a la universidad costeando mis propios estudios y hoy lidero proyectos de transformación digital e inteligencia artificial en una empresa global.
+
+          En esta charla compartiré por qué el aprendizaje continuo ha sido mucho más importante que cualquier título, cómo exponernos a nuevas oportunidades puede transformar nuestra trayectoria profesional y por qué la IA representa una nueva democratización del conocimiento para quienes estén dispuestas a aprender.
+
+          Mi objetivo es que cada asistente salga convencida de que su punto de partida no determina su futuro. La tecnología evoluciona constantemente, pero la capacidad de aprender y atreverse a dar el siguiente paso sigue siendo la habilidad más poderosa de todas.
+      - horario: "17:40 – 17:45"
+        titulo: "IA generativa: impacto colaborativo y enfoque ético multidisciplinario"
+        ponente: "Marisela Cadena"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          En esta breve charla hablaré de los beneficios de la IA generativa y de un posible enfoque para la implementación de estas nuevas herramientas. Cuando hablamos de ética e IA generativa en herramientas colaborativas, solemos culpar al «algoritmo» o a los «sesgos de los datos», como si la tecnología tuviera vida propia.
+
+          Como desarrolladora, sé que la realidad es otra: la IA solo ejecuta lo que nosotras permitimos. Los problemas éticos y de desinformación no son accidentes; nacen de decisiones conscientes en el diseño y desarrollo de software, un ecosistema históricamente dominado por hombres cis con una perspectiva homogénea.
+
+          En estos cinco minutos quiero bajar a la tierra el debate ético desde la realidad del código. Analizaremos por qué la IA no es la culpable de sus impactos negativos y por qué urge un enfoque multidisciplinario real, donde la presencia de mujeres técnicas sea el contrapeso necesario para cuestionar lo que hoy se da por sentado.
+      - horario: "17:45 – 17:50"
+        titulo: "No esperé a sentirme lista... aunque la verdad es que casi lo hago"
+        ponente: "Paola Flores"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          En esta charla comparto cómo una pregunta tan simple como «¿y si sí aplicamos?» terminó cambiando mi forma de vivir la universidad.
+
+          Todo comenzó cuando una amiga y yo decidimos postularnos a un curso de Electrónica Analógica sin sentirnos completamente preparadas. Lo que parecía una oportunidad más se convirtió en el inicio de un camino lleno de cursos, programas de mentoría, voluntariados, proyectos como ATMANIE y comunidades que transformaron no solo mi formación profesional, sino también la manera en la que veía mi lugar dentro de STEM.
+
+          A través de una historia cercana y personal, reflexiono sobre el miedo a no sentirse suficiente, el valor de las personas que nos impulsan a crecer y cómo muchas veces las mejores oportunidades llegan antes de que nos sintamos listas para tomarlas.
+
+          Más que una charla sobre convocatorias, es una invitación a dejar de esperar el momento perfecto para empezar. Porque, a veces, todo cambia cuando dejamos de preguntarnos si somos suficientes y simplemente nos atrevemos a decir: «¿y si sí aplicamos?».
+      - horario: "17:50 – 17:55"
+        titulo: "La IA no vino a reemplazarme, vino a quitarme el trabajo aburrido"
+        ponente: "Gabriela Tejadilla"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          Durante mucho tiempo pensé que la inteligencia artificial me ayudaría a hacer mi trabajo más rápido. Y sí, lo hace. Pero después de usarla todos los días como Portfolio Manager y Scrum Master, descubrí que ese no era el mayor beneficio. Lo más valioso ha sido otra cosa: me ayuda a ordenar el caos.
+
+          Muchas veces el reto no es hacer una presentación, escribir una historia de usuario o documentar un proceso. El reto es que te llega una solicitud enorme, con información incompleta, opiniones distintas, urgencia y expectativas de muchas personas, y no sabes por dónde empezar.
+
+          La IA me ha quitado buena parte del trabajo operativo, repetitivo y mentalmente agotador que consumía mi energía: tiempo que antes invertía organizando información, estructurando entregables o dándole forma a ideas dispersas. Y al hacerlo, me permitió volver a enfocarme en lo que realmente genera valor: entender problemas, tomar decisiones, conectar ideas, pensar en estrategia y acompañar a las personas.
+
+          En esta charla compartiré cómo incorporé la IA a mi día a día en el sector financiero, donde se requieren controles y mucha precisión en los reportes, para transformar ideas dispersas en planes, documentos y acciones concretas. Hablaré de casos reales donde pasé de invertir días o semanas en ciertos entregables a resolverlos en horas, pero también de los errores, las limitaciones y los retos que encontré en el camino.
+
+          Mi conclusión es simple: la IA no vino a reemplazarnos. Vino a quitarnos parte del trabajo más repetitivo y pesado para devolvernos algo más valioso: tiempo. Tiempo para pensar, aprender y crear, pero también para vivir —tener hobbies, hacer ejercicio, descansar, cuidarnos—. Confío en que, bien usada, la IA puede regresarnos nuestra humanidad.
+      - horario: "17:55 – 18:05"
+        titulo: "Cierre de evento"
+        tipo: "logistica"
+
+  - nombre: "Sala Quetzalcóatl"
+    nota: "Sesiones en paralelo a la Sala plenaria."
+    sesiones:
+      - horario: "14:15 – 14:55"
+        titulo: "PoC en minutos… ¿y ahora qué? De prototipo a producto real con AI"
+        ponente: "Viridiana Romero y Lilivette Cruz · Novartis"
+        etiqueta: "Workshop técnico"
+        tipo: "sesion"
+      - horario: "15:35 – 16:15"
+        titulo: "Guardrails de Bedrock: construye IA responsable que proteja a tus usuarias"
+        ponente: "Fernanda Osorio"
+        etiqueta: "Workshop técnico"
+        tipo: "sesion"
+        abstracto: |-
+          Las herramientas de IA generativa están transformando cómo construimos software, pero ¿quién decide qué es «seguro»? En este taller, las participantes configurarán Amazon Bedrock Guardrails desde cero para prevenir sesgos de género, proteger datos sensibles (PII) y controlar respuestas dañinas.
+
+          Veremos en tiempo real cómo un modelo sin protecciones puede generar respuestas problemáticas —y cómo nosotras, como desarrolladoras, tenemos el poder de definir los límites éticos de la IA que construimos.
+      - horario: "16:15 – 16:35"
+        titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
+        ponente: "Antonieta Carrasco"
+        etiqueta: "Charla"
+        tipo: "sesion"
+        abstracto: |-
+          Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
+      - horario: "16:50 – 17:30"
+        titulo: "Strategy: The hidden knowledge"
+        ponente: "Sandra Márquez"
+        etiqueta: "Workshop soft skills"
+        tipo: "sesion"
+        abstracto: |-
+          Las mujeres en tecnología no solo necesitan talento: necesitan estrategia. Este taller traduce los valores de los más grandes estrategas de la historia, su mentalidad y cómo algunas mujeres excepcionales aprendieron a ganar no solo una batalla, sino la guerra entera. Guiado por los ejemplos de mujeres de su tiempo que, en escenarios de profunda desventaja, se abrieron paso en un mundo de hombres y navegaron etapas complejas de poder.
+
+          Sus ejemplos son hoy más necesarios que nunca en situaciones reales de la industria tech: construir influencia, elegir batallas, negociar visibilidad, leer los sistemas de poder y liderar sin perder la identidad. Una sesión práctica sobre liderazgo técnico, estrategia de carrera y toma de decisiones que impactará tu visión de vida.

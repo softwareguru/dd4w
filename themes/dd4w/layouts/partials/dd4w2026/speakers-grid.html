@@ -1,14 +1,31 @@
 {{- /* Rejilla de ponentes reutilizable.
      Uso: {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" $lista) }}
-     Cada item: name, role, org, photo (archivo en /preview/images/speakers/). */ -}}
+     Cada item: name, role, org, photo (archivo en /preview/images/speakers/), bio?, linkedin?.
+     Si hay bio o linkedin, la tarjeta se vuelve un botón que abre el modal de perfil
+     (ver #spk-modal y el script en sede.html). */ -}}
 {{- $ponentes := .ponentes -}}
 <div class="spk">
 {{- range $ponentes }}
+{{- $slug := .name | urlize -}}
+{{- $tiene := or .bio .linkedin -}}
 <div class="p">
-<div class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></div>
+{{- if $tiene }}
+<button type="button" class="spk-trigger" aria-haspopup="dialog"
+  data-spk="{{ $slug }}" data-name="{{ .name }}" data-role="{{ .role }}" data-org="{{ .org }}"
+  data-linkedin="{{ .linkedin }}">
+<span class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></span>
 <b>{{ .name }}</b>
 {{- with .role }}<span>{{ . }}</span>{{ end }}
 {{- with .org }}<span class="org">{{ . }}</span>{{ end }}
+<span class="spk-more">Ver perfil</span>
+</button>
+{{- with .bio }}<div class="spk-data" id="spk-bio-{{ $slug }}" hidden>{{ . | markdownify }}</div>{{ end }}
+{{- else }}
+<span class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></span>
+<b>{{ .name }}</b>
+{{- with .role }}<span>{{ . }}</span>{{ end }}
+{{- with .org }}<span class="org">{{ . }}</span>{{ end }}
+{{- end }}
 </div>
 {{- end }}
 </div>

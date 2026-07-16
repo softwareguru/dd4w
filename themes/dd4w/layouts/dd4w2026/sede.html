@@ -7,8 +7,7 @@
             <h1>Dev Day 4 Women · Ciudad de México</h1>
             <p class="lead">Un día para aprender, conectar y crecer en comunidad. Entrada gratuita.</p>
             <p class="hero-note" style="font-size:16px;margin-top:18px">31 de julio · Novartis CDMX</p>
-            <div class="hero-cta"><a class="btn btn-primary" href="https://luma.com/rg7imt3n" target="_blank"
-                    rel="noopener noreferrer">Regístrate</a>
+            <div class="hero-cta"><span class="btn is-off" aria-disabled="true">Registro cerrado · cupo lleno</span>
                     <!--<a class="btn btn-on-dark"
                     href="https://convoca.dev/dev-day-4-women-cdmx-2026/cfp" target="_blank"
                     rel="noopener noreferrer">Quiero ser ponente</a>-->
@@ -54,26 +53,39 @@
                 sesiones.</p>
         </div>
         {{ with .Site.Data.agenda.cdmx }}
+        {{ range .salas }}
         <div class="agenda-plen">
-            <div class="ag-room">{{ .sala }}</div>
+            <div class="ag-room">{{ .nombre }}</div>
+            {{ with .nota }}<p class="ag-note">{{ . }}</p>{{ end }}
             <ol class="ag-list">
                 {{ range .sesiones }}
                 <li class="ag-row{{ if eq .tipo "logistica" }} is-logistica{{ end }}{{ if .destacado }} is-feature{{ end }}{{ if .resaltar }} is-highlight{{ end }}">
                     <span class="ag-time">{{ .horario }}</span>
                     <div class="ag-body">
+                        {{- if .abstracto }}
+                        <details class="ag-det">
+                            <summary>
+                                <span class="ag-title">{{ .titulo }}{{ with .etiqueta }} <span class="ag-badge">{{ . }}</span>{{ end }}</span>
+                                {{- with .ponente }}<span class="ag-speaker">{{ . }}</span>{{ end }}
+                            </summary>
+                            <div class="ag-abs">{{ .abstracto | markdownify }}</div>
+                        </details>
+                        {{- else }}
                         <span class="ag-title">{{ .titulo }}{{ with .etiqueta }} <span class="ag-badge">{{ . }}</span>{{ end }}</span>
-                        {{ with .ponente }}<span class="ag-speaker">{{ . }}</span>{{ end }}
+                        {{- with .ponente }}<span class="ag-speaker">{{ . }}</span>{{ end }}
+                        {{- end }}
                     </div>
                 </li>
                 {{ end }}
             </ol>
         </div>
         {{ end }}
+        {{ end }}
     </div>
 </section>
 
 {{ partial "dd4w2026/participate.html" (dict "luma" "https://luma.com/rg7imt3n" "cfp"
-"https://convoca.dev/dev-day-4-women-cdmx-2026/cfp") }}
+"https://convoca.dev/dev-day-4-women-cdmx-2026/cfp" "registro_cerrado" true) }}
 
 {{ with .Site.Data.speakers.cdmx.ponentes }}
 {{ $all := . }}
@@ -115,11 +127,25 @@
             </div>
             <div class="spk">
                 {{ range sort . "name" }}
+                {{- $slug := .name | urlize }}
                 <div class="p">
-                    <div class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></div>
+                    {{- if or .bio .linkedin }}
+                    <button type="button" class="spk-trigger" aria-haspopup="dialog"
+                        data-spk="tp-{{ $slug }}" data-name="{{ .name }}" data-role="{{ .role }}" data-org="{{ .org }}"
+                        data-linkedin="{{ .linkedin }}">
+                        <span class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></span>
+                        <b>{{ .name }}</b>
+                        {{- with .org }}<span class="org">{{ . }}</span>{{ end }}
+                        {{- with .title }}<span>{{ . }}</span>{{ end }}
+                        <span class="spk-more">Ver perfil</span>
+                    </button>
+                    {{- with .bio }}<div class="spk-data" id="spk-bio-tp-{{ $slug }}" hidden>{{ . | markdownify }}</div>{{ end }}
+                    {{- else }}
+                    <span class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></span>
                     <b>{{ .name }}</b>
                     {{- with .org }}<span class="org">{{ . }}</span>{{ end }}
                     {{- with .title }}<span>{{ . }}</span>{{ end }}
+                    {{- end }}
                 </div>
                 {{ end }}
             </div>
@@ -222,8 +248,94 @@
 <section class="final">
     <div class="wrap">
         <h2>Nos vemos en CDMX</h2>
-        <div class="btns"><a class="btn btn-ink" href="https://luma.com/rg7imt3n" target="_blank"
-                rel="noopener noreferrer">Regístrate gratis</a></div>
+        <div class="btns"><span class="btn is-off" aria-disabled="true">Registro cerrado · cupo lleno</span></div>
     </div>
 </section>
+
+<div class="spk-modal" id="spk-modal" hidden>
+    <div class="spk-modal-backdrop" data-close></div>
+    <div class="spk-modal-card" role="dialog" aria-modal="true" aria-labelledby="spk-modal-name">
+        <button type="button" class="spk-modal-x" data-close aria-label="Cerrar">&times;</button>
+        <div class="spk-modal-head">
+            <span class="av" id="spk-modal-av" role="img" aria-hidden="true"></span>
+            <div>
+                <h3 id="spk-modal-name"></h3>
+                <p id="spk-modal-role"></p>
+                <p class="org" id="spk-modal-org"></p>
+            </div>
+        </div>
+        <div class="spk-modal-bio" id="spk-modal-bio"></div>
+        <a class="btn btn-primary" id="spk-modal-li" href="#" target="_blank" rel="noopener noreferrer" hidden>Ver
+            LinkedIn</a>
+    </div>
+</div>
+{{ end }}
+
+{{ define "extra_body" }}
+<script>
+(function () {
+    var modal = document.getElementById('spk-modal');
+    if (!modal) return;
+    var card = modal.querySelector('.spk-modal-card');
+    var elName = document.getElementById('spk-modal-name');
+    var elRole = document.getElementById('spk-modal-role');
+    var elOrg = document.getElementById('spk-modal-org');
+    var elBio = document.getElementById('spk-modal-bio');
+    var elAv = document.getElementById('spk-modal-av');
+    var elLi = document.getElementById('spk-modal-li');
+    var lastFocus = null;
+
+    function fill(btn) {
+        var slug = btn.getAttribute('data-spk');
+        elName.textContent = btn.getAttribute('data-name') || '';
+        var role = btn.getAttribute('data-role') || '';
+        var org = btn.getAttribute('data-org') || '';
+        elRole.textContent = role; elRole.hidden = !role;
+        elOrg.textContent = org; elOrg.hidden = !org;
+        var av = btn.querySelector('.av');
+        elAv.style.backgroundImage = av ? av.style.backgroundImage : '';
+        var bio = document.getElementById('spk-bio-' + slug);
+        elBio.innerHTML = bio ? bio.innerHTML : '';
+        elBio.hidden = !bio;
+        var li = btn.getAttribute('data-linkedin');
+        if (li) { elLi.href = li; elLi.hidden = false; } else { elLi.hidden = true; }
+        return slug;
+    }
+
+    function open(btn, push) {
+        lastFocus = btn;
+        var slug = fill(btn);
+        modal.hidden = false;
+        document.body.style.overflow = 'hidden';
+        card.focus();
+        if (push) history.replaceState(null, '', '#ponente-' + slug);
+    }
+
+    function close() {
+        modal.hidden = true;
+        document.body.style.overflow = '';
+        if (location.hash.indexOf('#ponente-') === 0) {
+            history.replaceState(null, '', location.pathname);
+        }
+        if (lastFocus) lastFocus.focus();
+    }
+
+    document.querySelectorAll('.spk-trigger').forEach(function (btn) {
+        btn.addEventListener('click', function () { open(btn, true); });
+    });
+    modal.querySelectorAll('[data-close]').forEach(function (el) {
+        el.addEventListener('click', close);
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !modal.hidden) close();
+    });
+
+    // Enlace directo: /sede/#ponente-<slug>
+    if (location.hash.indexOf('#ponente-') === 0) {
+        var s = location.hash.slice('#ponente-'.length);
+        var t = document.querySelector('.spk-trigger[data-spk="' + s + '"]');
+        if (t) open(t, false);
+    }
+})();
+</script>
 {{ end }}

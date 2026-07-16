@@ -1,6 +1,8 @@
 # Ponentes confirmadas · Sede CDMX
-# Rol, organización y tipo de sesión tomados de "DD4W26 MX - CFP"
-# (hoja Speakers para rol/org; hoja Propuestas -> propuesta "selected" para el tipo).
+# Rol, organización, biografía y LinkedIn tomados de "DD4W26 MX - CFP"
+# (hoja Speakers; para quienes no aparecen ahí, hoja Propuestas).
+# Las biografías se editaron para corregir ortografía, unificar la redacción
+# en tercera persona y limpiar artefactos de codificación del export.
 # cat: charla | taller | lightning | comunidad
 # photo: archivo en /preview/images/speakers/
 ponentes:
@@ -9,105 +11,244 @@ ponentes:
     org: "Generation México"
     cat: "charla"
     photo: "amizaday-hernandez.jpg"
+    linkedin: "https://www.linkedin.com/in/amy-hean/"
+    bio: |-
+      Amizaday Hernández Angulo (Amy Hean) es ingeniera en Software y Redes, instructora líder de IT Support y promotora de la inclusión digital. Ha colaborado en la formación de talento tecnológico a través de programas de soporte técnico, desarrollo de software y alfabetización digital para mujeres, jóvenes y personas adultas mayores.
+
+      Actualmente cursa una maestría en Ciberseguridad y participa en iniciativas de defensa digital y protección de mujeres en entornos tecnológicos. Su experiencia combina educación, soporte técnico, desarrollo web y concientización sobre seguridad digital.
+
+      Es fundadora de «Amy Hean entre amigos», un proyecto comunitario que acerca la tecnología a poblaciones con acceso limitado a oportunidades de formación. Su misión es utilizar la tecnología como una herramienta de autonomía, inclusión y empoderamiento social.
+
   - name: "Ana Guadalupe Cifuentes Sánchez"
     role: "Technical Account Manager"
     org: "Google"
     cat: "charla"
     photo: "ana-cifuentes.jpg"
+    linkedin: "https://www.linkedin.com/in/ana-cifuentes-sanchez/"
+    bio: |-
+      Actualmente es Technical Account Manager en Google, con experiencia previa como Cloud Support y DevOps Engineer. A lo largo de su carrera se ha dedicado a la integración, automatización y monitoreo de servicios en distintas plataformas cloud.
+
+      Su camino hacia la tecnología ha sido enriquecedor: originalmente estudió Ingeniería de Minas y Metalurgia, pero decidió dar un giro profesional hacia la tecnología apoyándose en el bootcamp de Laboratoria.
+
+      Además de la parte técnica, le apasiona generar impacto social. Es fundadora de ChidasTech, un espacio dedicado a inspirar y motivar a niñas a acercarse al mundo STEM. También participa activamente en comunidades tecnológicas y ha colaborado en la organización de eventos como el Community Day de AWS y el KCD Guadalajara, buscando promover espacios que aumenten la participación femenina en el sector.
+
   - name: "Antonieta Carrasco"
     role: "Lead Product Designer"
     org: "Lottus Education"
     cat: "charla"
     photo: "antonieta-carrasco.jpg"
+    linkedin: "https://www.linkedin.com/in/antonietacarrasco/"
+    bio: |-
+      Antonieta Carrasco es Lead Product Designer en Lottus Education, con más de diez años de experiencia creando productos digitales para medios, banca y educación. Ha liderado proyectos reconocidos como Nación321 de El Financiero | Bloomberg y desarrollado soluciones para BBVA México y startups tecnológicas.
+
+      Concibe el diseño de producto como una herramienta estratégica para generar impacto real, alineando negocio, tecnología y personas.
+
+      Actualmente es docente en Impact Click, donde imparte Diseño de Interfaz (UI) y acompaña a sus estudiantes a transformar ideas en experiencias digitales claras, funcionales y con intención estratégica.
+
   - name: "Berenice Lemus"
     role: "UX Researcher & Service Designer"
     org: "Más Voces en Diseño México"
     cat: "comunidad"
     photo: "berenice-lemus.jpg"
+    linkedin: "https://www.linkedin.com/in/berenice-lemus/"
+    bio: |-
+      Diseñadora y estratega de experiencia de usuario con sólida trayectoria conectando las necesidades de las personas con los objetivos de negocio. Se especializa en investigación, estrategia de producto y la definición de flujos complejos, transformando la ambigüedad en soluciones digitales intuitivas, accesibles y éticas.
+
+      Considera que el diseño exitoso nace de la empatía profunda, tanto con el usuario final como con los equipos multidisciplinarios que hacen posible la tecnología. Como líder de comunidad, cree firmemente en el poder de la colaboración y la mentoría.
+
   - name: "Daniela Cortés"
     role: "Tech Architecture Sr. Analyst"
     org: "Accenture"
     cat: "charla"
     photo: "daniela-cortes.jpg"
+    linkedin: "https://www.linkedin.com/in/danielacortescas/"
+    bio: |-
+      Daniela Cortés Castillo es Tech Architecture Sr. Analyst con más de cuatro años de experiencia en el diseño, despliegue y operación de infraestructura en la nube y pipelines CI/CD. Especialista en Kubernetes y cloud, se enfoca en la automatización, la confiabilidad de sistemas y la optimización del rendimiento en entornos empresariales.
+
+      Actualmente trabaja en la mejora de arquitecturas basadas en contenedores, la resolución de incidentes complejos en producción y la habilitación de buenas prácticas DevOps y DevSecOps, además de impulsar iniciativas internas de conocimiento y mentoría técnica.
+
   - name: "Doricela Gutiérrez Cruz"
     role: "Profesora de tiempo completo"
     org: "Universidad Autónoma del Estado de México"
     cat: "charla"
     photo: "doricela-gutierrez.jpg"
+    bio: |-
+      La Dra. Doricela Gutiérrez Cruz es profesora investigadora de tiempo completo en el Centro Universitario UAEM Nezahualcóyotl de la Universidad Autónoma del Estado de México. Es ingeniera en Comunicaciones y Electrónica, maestra en Ciencias en Ingeniería de Sistemas y doctora en Ingeniería de Sistemas por el Instituto Politécnico Nacional.
+
+      Su trabajo académico se orienta a la ciencia de datos, la minería de datos, la inteligencia artificial, el aprendizaje automático y los sistemas inteligentes, con aplicaciones en educación, salud, bienestar, movilidad, seguridad y desarrollo institucional. Ha dirigido y participado en proyectos de investigación transdisciplinarios, así como en publicaciones, capítulos de libro y ponencias nacionales e internacionales.
+
+      Cuenta con el reconocimiento de Perfil Deseable PRODEP, Nota Laudatoria de la UAEMéx, y es integrante del Sistema Nacional de Investigadoras e Investigadores. Su labor también incluye la formación de recursos humanos, la coordinación académica y el impulso de proyectos que vinculan la tecnología con la solución de problemáticas sociales.
+
   - name: "Fernanda Osorio"
     role: "Cloud Engineer"
     org: "AWS"
     cat: "taller"
     photo: "fernanda-osorio.jpg"
+    bio: |-
+      Cloud Engineer en AWS y licenciada en Ciencias de la Computación por la Universidad Nacional Autónoma de México (UNAM). Es fundadora de Ixalli, una comunidad dedicada a empoderar a mujeres en tecnología que ha impactado a más de mil personas.
+
+      Speaker internacional certificada por AWS, se ha presentado en AWS Summit, AI Summit y Google México; fue reconocida con el SHEro Award 2025 en Amazon por Builder Collaboration.
+
+      Como creadora de contenido tech en @soy_ferosorio, alcanza más de 325 mil vistas mensuales compartiendo sobre cloud computing y su experiencia como mujer en tecnología. Fernanda construye en la intersección de la ingeniería cloud, la inteligencia artificial generativa y el femtech, impulsada por la convicción de que la mejor tecnología será construida por personas que entienden el problema de primera mano.
+
   - name: "Francys Lanza"
     role: "Data Scientist"
     org: "Begini"
     cat: "charla"
     photo: "francys-lanza.jpg"
+    linkedin: "https://www.linkedin.com/in/francys-lanza-garc%C3%ADa-784865128/"
+    bio: |-
+      Lead Data Scientist y Machine Learning Engineer con más de siete años de experiencia en la industria fintech, con especialidad en riesgo crediticio, detección de fraude y desarrollo de sistemas de machine learning en producción. Ha trabajado en todo el ciclo de vida de los modelos de inteligencia artificial, desde la ingeniería de variables y el desarrollo de modelos hasta su despliegue, monitoreo, gobernanza y operación a gran escala.
+
+      Más allá de la ejecución técnica, le interesa profundamente la adopción responsable de la inteligencia artificial y el potencial que tienen los datos y el machine learning para ampliar el acceso a servicios financieros. Gran parte de su trabajo e investigación se centra en la ética en IA, el sesgo algorítmico, la data alternativa, los sistemas de scoring y la intersección entre tecnología e inclusión financiera.
+
   - name: "Jaqueline Razo"
     role: "Directora de Proyectos de Transformación Digital"
     org: "Mars"
     cat: "lightning"
     photo: "jaqueline-razo.jpg"
+    linkedin: "https://www.linkedin.com/in/jaquelinerazo"
+    bio: |-
+      Ingeniera computacional, directora en Mars México y fundadora de una consultora de desarrollo de software. Especializada en inteligencia artificial, analítica y transformación digital, ha liderado iniciativas globales de Data Engineering, Business Intelligence y AI.
+
+      Cuenta con certificaciones de Microsoft en Azure y Ciencia de Datos, además de un diplomado en Alta Gerencia y Alto Desempeño por el Tecnológico de Monterrey. Ha vivido y colaborado con equipos internacionales en España, Turquía, Canadá y México.
+
+      Su misión es demostrar que el aprendizaje continuo y la exposición a nuevas oportunidades pueden transformar una carrera, y que en la era de la inteligencia artificial, aprender a aprender sigue siendo la habilidad más valiosa.
+
   - name: "Loyda Florencia Luis Pineda"
     role: "Senior Elixir Engineer"
     org: "Roar for Good"
     cat: "charla"
     photo: "loyda-luis.jpg"
+    linkedin: "https://www.linkedin.com/in/loyda-pineda/"
+    bio: |-
+      Loyda Florencia Luis Pineda es Senior Software Engineer con más de diez años de experiencia diseñando y construyendo sistemas backend de alto rendimiento para startups y empresas internacionales. Actualmente trabaja como Elixir Developer en Roar For Good, desarrollando plataformas IoT y sistemas críticos en tiempo real.
+
+      Ha construido productos de cero a producción utilizando múltiples tecnologías backend y arquitecturas distribuidas, incluyendo Elixir/Phoenix, Scala, Java, Python y Node.js, así como microservicios, sistemas event-driven y AWS. También ha liderado y mentorado equipos de ingeniería, y formó parte de Women Who Code de 2018 a 2024.
+
+      Es ingeniera en Comunicaciones y Electrónica, con maestría en Ingeniería en Telecomunicaciones y especialización en semiconductores por el Instituto Politécnico Nacional (IPN). Actualmente radica en Oaxaca, México.
+
   - name: "Marisela Cadena Cosmes"
     role: "Desarrolladora web"
     org: "El Puerto de Liverpool"
     cat: "lightning"
     photo: "marisela-cadena.jpg"
+    bio: |-
+      Actualmente es desarrolladora frontend en El Puerto de Liverpool. Estudió la carrera de técnico en Informática y la licenciatura en Ciencias de la Informática en el IPN. Es egresada de la maestría en Ciencias de la Computación del Centro de Investigación en Computación del IPN.
+
   - name: "Martha Gabriela Tejadilla Jaime"
     role: "Program Manager"
     org: "Actinver"
     cat: "lightning"
     photo: "martha-tejadilla.jpg"
+    linkedin: "https://www.linkedin.com/in/martha-gabriela-tejadilla-jaime-845921158/"
+    bio: |-
+      Licenciada en Administración especializada en finanzas, actualmente cursa la maestría en Gestión de la Innovación en INFOTEC. Cuenta con dos años de experiencia en la coordinación de proyectos y seis en la administración del área de viáticos y pasajes.
+
+      Sus principales actividades son el análisis financiero, las estrategias de innovación, y la vigilancia y control del gasto.
+
   - name: "Martha Villanueva Sánchez"
     role: "Directora de Desarrollo de Negocios"
     org: "Bufete de Soluciones Integrales"
     cat: "charla"
     photo: "martha-villanueva.jpg"
+    linkedin: "https://www.linkedin.com/in/marthavillanueva"
+    bio: |-
+      Martha C. Villanueva es especialista en inteligencia geoespacial, arquitectura de soluciones complejas y consultoría de tecnología de vanguardia. Con más de 25 años de experiencia, diseña e implementa flujos de trabajo de alta precisión que vinculan el cómputo en la nube con la analítica geoespacial mediante plataformas líderes como Google Cloud Platform, Google Earth Engine, Octave y CARTO.
+
+      A lo largo de su carrera ha liderado proyectos estratégicos de seguridad y defensa, desarrollo urbano y catastro municipal a nivel regional. Su trayectoria incluye la dirección de programas avanzados de transferencia tecnológica y capacitación para equipos de ingeniería y tomadores de decisiones en más de 30 instituciones civiles, militares y académicas de Latinoamérica.
+
+      Es licenciada en Arquitectura, cuenta con una maestría en Teledetección y un diplomado en Geomática y Tecnología Satelital por la Universidad Mayor de Chile.
+
   - name: "Mirna Vázquez"
     role: "Investigadora"
     org: "UNAM"
     cat: "comunidad"
     photo: "mirna-vazquez.jpg"
+    bio: |-
+      Mirna Vázquez Rosas Landa es investigadora en ecología microbiana, metagenómica y bioinformática. Su trabajo integra el análisis de datos, la ciencia abierta y la programación en R para estudiar microbiomas ambientales. También impulsa comunidades de aprendizaje para que más mujeres en STEM desarrollen confianza técnica.
+
   - name: "Nydia Mejía Zavala"
     role: "Data Annotator"
     org: "Motive"
     cat: "charla"
     photo: "nydia-mejia.jpg"
+    linkedin: "https://www.linkedin.com/in/nydia-mejia-004485237"
+    bio: |-
+      Científica de datos en formación, actualmente cursa la licenciatura en Ciencia de Datos en UNITEC. Su trayectoria es interdisciplinaria: viene del mundo editorial, la literatura y el trabajo en organizaciones de la sociedad civil, lo que da a su mirada sobre los datos una dimensión humana y crítica que va más allá del código.
+
+      Trabaja como Data Annotator en el sector tech, rol desde el cual ha desarrollado un interés creciente por los sesgos en los sistemas de inteligencia artificial y la necesidad de incorporar la perspectiva de género en cada etapa del trabajo con datos.
+
+      Su mapa de organizaciones es su primer proyecto de visualización independiente y representa exactamente lo que la llevó a cambiar de carrera: la convicción de que las herramientas tecnológicas pueden —y deben— ponerse al servicio de causas que importan.
+
   - name: "Paola Karina Flores Martínez"
     role: "Estudiante"
     org: "Instituto Politécnico Nacional"
     cat: "lightning"
     photo: "paola-flores.jpg"
+    linkedin: "https://www.linkedin.com/in/flores-martinez-paola-karina-a6019b3a9"
+    bio: |-
+      Estudiante de Ingeniería en Computación en el Instituto Politécnico Nacional. Se considera una persona curiosa y con muchas ganas de aprender. Disfruta involucrarse en proyectos, comunidades y experiencias que le permitan desarrollar nuevas habilidades, conocer personas y seguir creciendo tanto personal como profesionalmente.
+
+      Actualmente sigue explorando las distintas áreas de la tecnología mientras construye el camino que quiere seguir como ingeniera.
+
   - name: "Sandra Márquez"
     role: "Founder & CEO"
     org: "TechBrander"
     cat: "taller"
     photo: "sandra-marquez.jpg"
+    linkedin: "https://www.linkedin.com/in/sandramarquezr/"
+    bio: |-
+      Sandra Márquez diseña estrategias de employer branding para empresas de tecnología en Latinoamérica y Estados Unidos. Ha liderado el área para DoorDash, Zillow y otras compañías tech, enfocada en cómo atraen y retienen talento senior de ingeniería.
+
+      Es fundadora de PopOut (arquitectura retail y experiencias de marca), SM Studio (consultoría fraccional de employer branding) y TechBrander (estrategia experiencial para el ecosistema tech). Es autora del framework DEBS™ para medir el ROI del employer brand en comunidades de desarrolladores.
+
+      Más de una década dentro del marketing experiencial en México le da una lectura directa de qué mueve al talento en los equipos de ingeniería y qué los hace querer quedarse.
+
   - name: "Sol Estrada"
     role: "Consultora de Procesos"
     org: "GRDS"
     cat: "lightning"
     photo: "sol-estrada.jpg"
+    linkedin: "https://www.linkedin.com/in/sol-estrada-914b8b350"
+    bio: |-
+      Ingeniera en sistemas computacionales, apasionada por crear espacios donde los equipos crezcan, aprendan y generen valor sostenible.
+
+      Participa activamente en comunidades de mujeres en tecnología, impulsando espacios de aprendizaje, conexión y crecimiento colectivo.
+
+      Hoy regresa a un proyecto muy personal: Mux Kulli, donde, como directora general, busca llevar la cultura del maíz a la Baja.
+
   - name: "Valery Calderón Briz"
     role: "Senior Data Engineer"
     org: "PyLadies CDMX"
     cat: "charla"
     photo: "valery-calderon.jpg"
+    linkedin: "https://www.linkedin.com/in/valerybriz/"
+    bio: |-
+      Actualmente es ingeniera de datos senior en Mitek y cuenta con un máster en Análisis y Visualización de Big Data. Ha sido coorganizadora de PyLadies Madrid y PyLadies Ciudad de México, fundadora de la comunidad Python Guatemala, instructora en OpenWebinars y mentora de speakers en múltiples conferencias.
+
+      Es speaker en eventos internacionales, entre ellos PyData Madrid 2024 (España), Campus Party Global 2020 (México), PyCon Canadá 2019, PyCon Latam 2019 (Puerto Vallarta, México), PyCon 2018 (Cleveland, EE. UU.) y PyCon España 2017 (Cáceres, España).
 
 # Talleres técnicos patrocinados · Sede CDMX (40 min c/u)
 # title: título de la sesión; name: tallerista; org: empresa patrocinadora.
 talleres_patrocinados:
   - title: "Spec Driven Development: liderando con claridad desde la especificación"
     name: "Joselyn Jassel Ramos Lorenzo"
+    role: "Gerente de Producto"
     org: "CONTPAQi"
     photo: "joselyn-ramos.jpg"
+    linkedin: "https://www.linkedin.com/in/joselyn-jassel-r-8b1a06166"
+    bio: |-
+      Contadora pública por el IPN, comenzó su carrera dominando la operación fiscal en despachos y empresas como ADO. Esa base técnica la llevó a participar en migraciones de ERP en compañías como Alsea, y desde ahí dio el salto hacia la transformación integral de procesos.
+
+      Hoy, como Product Owner en CONTPAQi, convierte esa disciplina fiscal en visión de producto, liderando el desarrollo tecnológico bajo una certeza: todo gran sistema nace de saber, con claridad, qué se quiere construir.
   - title: "Tu mayor ventaja no es técnica. Y la IA te va a ayudar a encontrarla."
     name: "Marian Suárez"
+    role: "Chief Marketing Officer"
     org: "Mobiik"
     photo: "marian-suarez.jpg"
+    linkedin: "https://www.linkedin.com/in/mariansuarez/"
+    bio: |-
+      Marian Suárez es Chief Marketing Officer con experiencia en estrategia, experiencia de usuario e innovación impulsada por IA. Ha liderado iniciativas de inteligencia artificial, desde el diseño de prototipos hasta la evaluación de agentes inteligentes, con un enfoque práctico, ético y orientado a resultados.
+
+      Colabora con equipos multidisciplinarios para impulsar la transformación digital, potenciar el talento y promover una adopción responsable de la IA.

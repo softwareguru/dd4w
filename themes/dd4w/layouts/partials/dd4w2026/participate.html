@@ -1,5 +1,6 @@
-{{- /* Sección "Elige cómo participar". Params: luma (URL registro), cfp (URL ponente). Un solo CTA por tarjeta (Hick's
-law). */ -}}
+{{- /* Sección "Elige cómo participar". Params: luma (URL registro), cfp (URL ponente),
+registro_cerrado (bool: apaga el CTA de registro cuando ya no hay cupo).
+Un solo CTA por tarjeta (Hick's law). */ -}}
 <section class="alt">
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Participa</span>
@@ -12,9 +13,13 @@ law). */ -}}
                         <path d="M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z" />
                     </svg></div>
                 <h3>Asiste</h3>
-                <p>Aprende, conecta e impulsa tu futuro profesional al lado de más mujeres STEM.</p><a
-                    class="btn btn-primary btn-sm" href="{{ .luma }}" target="_blank"
+                <p>Aprende, conecta e impulsa tu futuro profesional al lado de más mujeres STEM.</p>
+                {{- if .registro_cerrado }}
+                <span class="btn btn-sm is-off" aria-disabled="true">Registro cerrado</span>
+                {{- else }}
+                <a class="btn btn-primary btn-sm" href="{{ .luma }}" target="_blank"
                     rel="noopener noreferrer">Regístrate gratis</a>
+                {{- end }}
             </article>
             <!--<article class="card">
                 <div class="feat-ic bg-pink"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
