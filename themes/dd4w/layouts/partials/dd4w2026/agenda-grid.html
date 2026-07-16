@@ -1,0 +1,83 @@
+{{- /* Agenda de dos salas en paralelo, alineadas por horario.
+     Uso: {{ partial "dd4w2026/agenda-grid.html" .Site.Data.agenda.cdmx }}
+     La primera sala define las filas del grid (una por sesión). Las sesiones de la
+     segunda sala se colocan por hora de inicio y abarcan tantas filas como franjas
+     de la primera cubran. Las franjas sin sesión paralela muestran un estado vacío
+     (tramos contiguos fusionados). Las filas logísticas cruzan ambas columnas. */ -}}
+{{- $salas := .salas -}}
+{{- $plen := index $salas 0 -}}
+{{- $quet := index $salas 1 -}}
+{{- $slots := $plen.sesiones -}}
+{{- $sep := " – " -}}
+{{- $s := newScratch -}}
+
+{{- /* 1) sesiones de la sala 2: fila de inicio + span; marca filas cubiertas */ -}}
+{{- range $q := $quet.sesiones -}}
+  {{- $qs := index (split $q.horario $sep) 0 -}}
+  {{- $qe := index (split $q.horario $sep) 1 -}}
+  {{- $row := 0 -}}
+  {{- $span := 0 -}}
+  {{- range $i, $slot := $slots -}}
+    {{- $ss := index (split $slot.horario $sep) 0 -}}
+    {{- $se := index (split $slot.horario $sep) 1 -}}
+    {{- if and (ge $ss $qs) (le $se $qe) -}}
+      {{- if eq $span 0 -}}{{- $row = add $i 2 -}}{{- end -}}
+      {{- $span = add $span 1 -}}
+      {{- $s.SetInMap "covered" (printf "%d" (add $i 2)) true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $s.Add "qcells" (slice (dict "row" $row "span" $span "ses" $q)) -}}
+{{- end -}}
+
+{{- /* 2) tramos vacíos contiguos de la sala 2 */ -}}
+{{- $covered := $s.Get "covered" | default dict -}}
+{{- range $i, $slot := $slots -}}
+  {{- $row := add $i 2 -}}
+  {{- $libre := and (ne $slot.tipo "logistica") (not (isset $covered (printf "%d" $row))) -}}
+  {{- if $libre -}}
+    {{- if not ($s.Get "segStart") -}}
+      {{- $s.Set "segStart" $row -}}{{- $s.Set "segLen" 0 -}}{{- $s.Set "segWs" true -}}
+    {{- end -}}
+    {{- $s.Set "segLen" (add ($s.Get "segLen") 1) -}}
+    {{- if ne $slot.tipo "workshop" -}}{{- $s.Set "segWs" false -}}{{- end -}}
+  {{- else -}}
+    {{- if ($s.Get "segStart") -}}
+      {{- $s.Add "empties" (slice (dict "row" ($s.Get "segStart") "span" ($s.Get "segLen") "ws" ($s.Get "segWs"))) -}}
+      {{- $s.Set "segStart" 0 -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if ($s.Get "segStart") -}}
+  {{- $s.Add "empties" (slice (dict "row" ($s.Get "segStart") "span" ($s.Get "segLen") "ws" ($s.Get "segWs"))) -}}
+{{- end -}}
+
+<div class="agx-wrap">
+    <div class="agx">
+        <div class="agx-h agx-h-t" aria-hidden="true">Horario</div>
+        <div class="agx-h">{{ $plen.nombre }}</div>
+        <div class="agx-h">{{ $quet.nombre }}</div>
+        {{- range $i, $slot := $slots }}
+        {{- $row := add $i 2 }}
+        <div class="agx-t" style="grid-row:{{ $row }}">{{ $slot.horario }}</div>
+        {{- if eq $slot.tipo "logistica" }}
+        <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:2/4">{{ $slot.titulo }}</div>
+        {{- else }}
+        <div class="agx-cell{{ if $slot.destacado }} is-feature{{ end }}{{ if $slot.resaltar }} is-highlight{{ end }}" style="grid-row:{{ $row }};grid-column:2">
+            <span class="agx-m">{{ $plen.nombre }} · {{ $slot.horario }}</span>
+            {{ partial "dd4w2026/agenda-cell.html" $slot }}
+        </div>
+        {{- end }}
+        {{- range $qc := ($s.Get "qcells") }}{{ if eq $qc.row $row }}
+        <div class="agx-cell" style="grid-row:{{ $qc.row }}{{ if gt $qc.span 1 }} / span {{ $qc.span }}{{ end }};grid-column:3">
+            <span class="agx-m">{{ $quet.nombre }} · {{ $qc.ses.horario }}</span>
+            {{ partial "dd4w2026/agenda-cell.html" $qc.ses }}
+        </div>
+        {{- end }}{{ end }}
+        {{- range $e := ($s.Get "empties") }}{{ if eq $e.row $row }}
+        <div class="agx-empty" style="grid-row:{{ $e.row }}{{ if gt $e.span 1 }} / span {{ $e.span }}{{ end }};grid-column:3" aria-hidden="true">
+            {{- if $e.ws }}Sin sesión paralela{{ else }}Sin actividad{{ end -}}
+        </div>
+        {{- end }}{{ end }}
+        {{- end }}
+    </div>
+</div>

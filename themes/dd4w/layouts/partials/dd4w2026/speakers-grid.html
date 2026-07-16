@@ -6,7 +6,7 @@
 {{- $ponentes := .ponentes -}}
 <div class="spk">
 {{- range $ponentes }}
-{{- $slug := .name | urlize -}}
+{{- $slug := partial "dd4w2026/slug.html" .name -}}
 {{- $tiene := or .bio .linkedin -}}
 <div class="p">
 {{- if $tiene }}

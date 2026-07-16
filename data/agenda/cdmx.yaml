@@ -18,6 +18,7 @@ salas:
       - horario: "09:15 – 09:35"
         titulo: "IA como copiloto para investigar problemas difíciles en producción"
         ponente: "Loyda Florencia"
+        perfil: "loyda-florencia-luis-pineda"
         tipo: "sesion"
         abstracto: |-
           Investigar un incidente crítico en producción es uno de los momentos más difíciles en la carrera de cualquier ingeniera: el sistema está fallando, la presión es alta y no sabes por dónde empezar. En esta charla comparto cómo uso la IA no para escribir código, sino para pensar: como copiloto de investigación bajo presión.
@@ -28,6 +29,7 @@ salas:
       - horario: "09:35 – 09:55"
         titulo: "Inteligencia geoespacial en la era de la IA"
         ponente: "Martha Villanueva"
+        perfil: "martha-villanueva-sanchez"
         tipo: "sesion"
         abstracto: |-
           En la era de la inteligencia artificial generativa, los modelos de lenguaje (LLM) han demostrado una capacidad asombrosa para razonar y crear. Sin embargo, cuando se trata de interactuar con el mundo físico, a menudo se enfrentan a un desafío crítico: la falta de contexto en tiempo real y las «alucinaciones» geográficas. ¿Cómo podemos asegurar que las respuestas de una IA estén verdaderamente conectadas con la realidad de nuestro entorno? La respuesta está en la inteligencia geoespacial.
@@ -37,8 +39,10 @@ salas:
           Diseñada para desarrolladoras y entusiastas de la tecnología, esta sesión desmitificará la integración de APIs geoespaciales con modelos de IA. Las asistentes se llevarán una visión clara de cómo el grounding mitiga los errores de los LLM, abre nuevas posibilidades para el desarrollo de aplicaciones inteligentes y redefine la forma en que el software interactúa con nuestro espacio físico.
       - horario: "10:15 – 11:00"
         titulo: "Tu mayor ventaja no es técnica. Y la IA te va a ayudar a encontrarla."
-        ponente: "Marian Suárez · Mobiik"
-        etiqueta: "Workshop patrocinado"
+        ponente: "Marian Suárez"
+        ponente_extra: "Mobiik"
+        perfil: "marian-suarez"
+        etiqueta: "Workshop soft skills"
         tipo: "workshop"
         abstracto: |-
           La inteligencia artificial está transformando la forma en que trabajamos, pero las habilidades que más impulsan una carrera profesional siguen siendo profundamente humanas. En este workshop descubrirás cómo fortalecer competencias como la comunicación, el feedback y la presencia ejecutiva: habilidades que rara vez se enseñan y que hoy son más valiosas que nunca.
@@ -49,7 +53,9 @@ salas:
         tipo: "logistica"
       - horario: "11:20 – 12:05"
         titulo: "Spec Driven Development: liderando con claridad desde la especificación"
-        ponente: "Joselyn Ramos · CONTPAQi"
+        ponente: "Joselyn Ramos"
+        ponente_extra: "CONTPAQi"
+        perfil: "tp-joselyn-jassel-ramos-lorenzo"
         etiqueta: "Workshop patrocinado"
         tipo: "workshop"
         abstracto: |-
@@ -58,7 +64,8 @@ salas:
           En esta sesión hablaremos de Spec Driven Development (SDD), una metodología que coloca la especificación en el corazón de la construcción de producto. No es un trámite ni un documento más: es una herramienta de poder que nos permite alinear equipos, decidir con intención y liderar con confianza incluso cuando todo alrededor es incertidumbre.
       - horario: "12:05 – 12:50"
         titulo: "Workshop técnico patrocinado"
-        ponente: "Elena Pérez · SimplePractice"
+        ponente: "Elena Pérez"
+        ponente_extra: "SimplePractice"
         etiqueta: "Workshop patrocinado"
         tipo: "workshop"
       - horario: "12:50 – 13:10"
@@ -79,6 +86,7 @@ salas:
       - horario: "14:15 – 14:35"
         titulo: "De la información al conocimiento: minería de datos como herramienta para transformar realidades"
         ponente: "Doricela Gutiérrez"
+        perfil: "doricela-gutierrez-cruz"
         tipo: "sesion"
         abstracto: |-
           La minería de datos se ha consolidado como una herramienta estratégica para transformar volúmenes de información en conocimiento para la toma de decisiones. Esta charla presenta una reflexión sobre su potencial para atender problemáticas complejas en ámbitos como la educación, la salud y el bienestar, a partir de una trayectoria centrada en la ciencia de datos, la inteligencia artificial y los sistemas inteligentes.
@@ -91,6 +99,7 @@ salas:
       - horario: "14:35 – 14:55"
         titulo: "MLOps vs DevOps: el siguiente paso en la evolución tech"
         ponente: "Daniela Cortés"
+        perfil: "daniela-cortes"
         tipo: "sesion"
         abstracto: |-
           DevOps no fue diseñado para modelos ni datos; MLOps extiende estas prácticas para sistemas basados en IA. El objetivo de esta charla es entender la transición hacia arquitecturas basadas en datos e inteligencia artificial, además de conocer el ciclo de vida de MLOps y sus diferencias con el DevOps tradicional.
@@ -103,6 +112,7 @@ salas:
       - horario: "15:35 – 15:55"
         titulo: "Datos contra el olvido: cómo construí un mapa de organizaciones que documentan feminicidios en México con herramientas gratuitas"
         ponente: "Nydia Mejía"
+        perfil: "nydia-mejia-zavala"
         tipo: "sesion"
         abstracto: |-
           En México, decenas de organizaciones civiles documentan feminicidios de forma independiente. Su trabajo es fundamental —y casi invisible—. No existe una herramienta que reúna, en un solo lugar, quiénes son, dónde están, cómo trabajan y qué producen. Este proyecto nació para resolver eso.
@@ -117,6 +127,7 @@ salas:
       - horario: "15:55 – 16:15"
         titulo: "Cómo los modelos de crédito heredan sesgos históricos de género: Begini como caso de estudio en inclusión financiera"
         ponente: "Francys Lanza"
+        perfil: "francys-lanza"
         tipo: "sesion"
         abstracto: |-
           En gran parte de América Latina, los modelos de riesgo de crédito siguen dependiendo de datos del buró: historial de pago, límites, moras y consultas. Eso significa que los sesgos históricos en la forma en que se ha otorgado crédito —por ejemplo, menores montos aprobados o menos productos ofrecidos a mujeres— quedan codificados en los datos que entrenan los modelos actuales. Evaluar el sesgo en estos modelos exige mirar más allá de la métrica de precisión y preguntarnos: ¿qué pasa con las personas, en especial con las mujeres, que quedan sistemáticamente subvaloradas por ese sistema?
@@ -127,6 +138,7 @@ salas:
       - horario: "16:15 – 16:35"
         titulo: "Liderando con neurodivergencia: herramientas reales para mujeres en tecnología"
         ponente: "Ana Cifuentes"
+        perfil: "ana-guadalupe-cifuentes-sanchez"
         tipo: "sesion"
         abstracto: |-
           Navegar por el demandante mundo de la tecnología y el liderazgo de comunidades es un reto enorme. Pero ¿qué pasa cuando a las responsabilidades diarias de ser una mujer «godín» en el sector tech le sumamos el TDAH, el trastorno de ansiedad generalizada y la depresión? En esta charla nos quitaremos los filtros para hablar de la realidad de la neurodivergencia y la salud mental en nuestros espacios de trabajo.
@@ -142,6 +154,7 @@ salas:
       - horario: "16:50 – 17:10"
         titulo: "AI-Ready Data: por qué no hay IA sin una estrategia de datos"
         ponente: "Valery Calderón"
+        perfil: "valery-calderon-briz"
         tipo: "sesion"
         abstracto: |-
           Implementar IA sin una estrategia de datos es una receta para el fracaso. El famoso «garbage in, garbage out» sigue siendo el mayor obstáculo para la innovación. En esta sesión hablaremos sobre las estrategias para construir un ecosistema de datos AI-Ready.
@@ -150,6 +163,7 @@ salas:
       - horario: "17:10 – 17:30"
         titulo: "DETECTA: ¿me hackearon o me están manipulando? Aprende a investigar riesgos digitales en la era de la IA"
         ponente: "Amizaday Hernández"
+        perfil: "amizaday-hernandez"
         tipo: "sesion"
         abstracto: |-
           La inteligencia artificial está transformando la forma en que nos comunicamos, trabajamos y aprendemos, pero también está facilitando nuevas formas de fraude, manipulación y violencia digital. Hoy, un mensaje, un correo electrónico, una llamada o incluso una imagen generada con IA pueden parecer completamente legítimos.
@@ -162,6 +176,7 @@ salas:
       - horario: "17:30 – 17:35"
         titulo: "Quemar las naves"
         ponente: "Sol Estrada"
+        perfil: "sol-estrada"
         etiqueta: "Lightning talk"
         tipo: "sesion"
         abstracto: |-
@@ -169,6 +184,7 @@ salas:
       - horario: "17:35 – 17:40"
         titulo: "La mejor decisión de mi carrera fue aprender a aprender: cómo Internet cambió mi vida y por qué hoy cualquiera puede construir el futuro que imagina"
         ponente: "Jaqueline Razo"
+        perfil: "jaqueline-razo"
         etiqueta: "Lightning talk"
         tipo: "sesion"
         abstracto: |-
@@ -182,6 +198,7 @@ salas:
       - horario: "17:40 – 17:45"
         titulo: "IA generativa: impacto colaborativo y enfoque ético multidisciplinario"
         ponente: "Marisela Cadena"
+        perfil: "marisela-cadena-cosmes"
         etiqueta: "Lightning talk"
         tipo: "sesion"
         abstracto: |-
@@ -193,6 +210,7 @@ salas:
       - horario: "17:45 – 17:50"
         titulo: "No esperé a sentirme lista... aunque la verdad es que casi lo hago"
         ponente: "Paola Flores"
+        perfil: "paola-karina-flores-martinez"
         etiqueta: "Lightning talk"
         tipo: "sesion"
         abstracto: |-
@@ -206,6 +224,7 @@ salas:
       - horario: "17:50 – 17:55"
         titulo: "La IA no vino a reemplazarme, vino a quitarme el trabajo aburrido"
         ponente: "Gabriela Tejadilla"
+        perfil: "martha-gabriela-tejadilla-jaime"
         etiqueta: "Lightning talk"
         tipo: "sesion"
         abstracto: |-
@@ -227,12 +246,14 @@ salas:
     sesiones:
       - horario: "14:15 – 14:55"
         titulo: "PoC en minutos… ¿y ahora qué? De prototipo a producto real con AI"
-        ponente: "Viridiana Romero y Lilivette Cruz · Novartis"
+        ponente: "Viridiana Romero y Lilivette Cruz"
+        ponente_extra: "Novartis"
         etiqueta: "Workshop técnico"
         tipo: "sesion"
       - horario: "15:35 – 16:15"
         titulo: "Guardrails de Bedrock: construye IA responsable que proteja a tus usuarias"
         ponente: "Fernanda Osorio"
+        perfil: "fernanda-osorio"
         etiqueta: "Workshop técnico"
         tipo: "sesion"
         abstracto: |-
@@ -242,6 +263,7 @@ salas:
       - horario: "16:15 – 16:35"
         titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
         ponente: "Antonieta Carrasco"
+        perfil: "antonieta-carrasco"
         etiqueta: "Charla"
         tipo: "sesion"
         abstracto: |-
@@ -249,6 +271,7 @@ salas:
       - horario: "16:50 – 17:30"
         titulo: "Strategy: The hidden knowledge"
         ponente: "Sandra Márquez"
+        perfil: "sandra-marquez"
         etiqueta: "Workshop soft skills"
         tipo: "sesion"
         abstracto: |-

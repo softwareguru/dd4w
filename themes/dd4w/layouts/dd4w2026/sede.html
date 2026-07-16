@@ -53,33 +53,7 @@
                 sesiones.</p>
         </div>
         {{ with .Site.Data.agenda.cdmx }}
-        {{ range .salas }}
-        <div class="agenda-plen">
-            <div class="ag-room">{{ .nombre }}</div>
-            {{ with .nota }}<p class="ag-note">{{ . }}</p>{{ end }}
-            <ol class="ag-list">
-                {{ range .sesiones }}
-                <li class="ag-row{{ if eq .tipo "logistica" }} is-logistica{{ end }}{{ if .destacado }} is-feature{{ end }}{{ if .resaltar }} is-highlight{{ end }}">
-                    <span class="ag-time">{{ .horario }}</span>
-                    <div class="ag-body">
-                        {{- if .abstracto }}
-                        <details class="ag-det">
-                            <summary>
-                                <span class="ag-title">{{ .titulo }}{{ with .etiqueta }} <span class="ag-badge">{{ . }}</span>{{ end }}</span>
-                                {{- with .ponente }}<span class="ag-speaker">{{ . }}</span>{{ end }}
-                            </summary>
-                            <div class="ag-abs">{{ .abstracto | markdownify }}</div>
-                        </details>
-                        {{- else }}
-                        <span class="ag-title">{{ .titulo }}{{ with .etiqueta }} <span class="ag-badge">{{ . }}</span>{{ end }}</span>
-                        {{- with .ponente }}<span class="ag-speaker">{{ . }}</span>{{ end }}
-                        {{- end }}
-                    </div>
-                </li>
-                {{ end }}
-            </ol>
-        </div>
-        {{ end }}
+        {{ partial "dd4w2026/agenda-grid.html" . }}
         {{ end }}
     </div>
 </section>
@@ -127,7 +101,7 @@
             </div>
             <div class="spk">
                 {{ range sort . "name" }}
-                {{- $slug := .name | urlize }}
+                {{- $slug := partial "dd4w2026/slug.html" .name }}
                 <div class="p">
                     {{- if or .bio .linkedin }}
                     <button type="button" class="spk-trigger" aria-haspopup="dialog"
@@ -322,6 +296,15 @@
 
     document.querySelectorAll('.spk-trigger').forEach(function (btn) {
         btn.addEventListener('click', function () { open(btn, true); });
+    });
+    // Nombres en la agenda -> abren el modal de la ponente (mismo de Ponentes)
+    document.querySelectorAll('.ag-spk').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var t = document.querySelector('.spk-trigger[data-spk="' + btn.getAttribute('data-perfil') + '"]');
+            if (t) open(t, true);
+        });
     });
     modal.querySelectorAll('[data-close]').forEach(function (el) {
         el.addEventListener('click', close);
