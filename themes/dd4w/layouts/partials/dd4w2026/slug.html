@@ -1,0 +1,11 @@
+{{- /* Slug ASCII estable para nombres de ponentes (quita acentos antes de urlize).
+     Uso: {{ $slug := partial "dd4w2026/slug.html" .name }} */ -}}
+{{- $s := . | lower -}}
+{{- $s = replace $s "á" "a" -}}
+{{- $s = replace $s "é" "e" -}}
+{{- $s = replace $s "í" "i" -}}
+{{- $s = replace $s "ó" "o" -}}
+{{- $s = replace $s "ú" "u" -}}
+{{- $s = replace $s "ü" "u" -}}
+{{- $s = replace $s "ñ" "n" -}}
+{{- return ($s | urlize) -}}

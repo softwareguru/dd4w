@@ -128,6 +128,16 @@ ponentes:
 
       Es ingeniera en Comunicaciones y Electrónica, con maestría en Ingeniería en Telecomunicaciones y especialización en semiconductores por el Instituto Politécnico Nacional (IPN). Actualmente radica en Oaxaca, México.
 
+  - name: "Marian Suárez"
+    role: "Chief Marketing Officer"
+    org: "Mobiik"
+    cat: "taller"
+    photo: "marian-suarez.jpg"
+    linkedin: "https://www.linkedin.com/in/mariansuarez/"
+    bio: |-
+      Marian Suárez es Chief Marketing Officer con experiencia en estrategia, experiencia de usuario e innovación impulsada por IA. Ha liderado iniciativas de inteligencia artificial, desde el diseño de prototipos hasta la evaluación de agentes inteligentes, con un enfoque práctico, ético y orientado a resultados.
+
+      Colabora con equipos multidisciplinarios para impulsar la transformación digital, potenciar el talento y promover una adopción responsable de la IA.
   - name: "Marisela Cadena Cosmes"
     role: "Desarrolladora web"
     org: "El Puerto de Liverpool"
@@ -242,13 +252,3 @@ talleres_patrocinados:
       Contadora pública por el IPN, comenzó su carrera dominando la operación fiscal en despachos y empresas como ADO. Esa base técnica la llevó a participar en migraciones de ERP en compañías como Alsea, y desde ahí dio el salto hacia la transformación integral de procesos.
 
       Hoy, como Product Owner en CONTPAQi, convierte esa disciplina fiscal en visión de producto, liderando el desarrollo tecnológico bajo una certeza: todo gran sistema nace de saber, con claridad, qué se quiere construir.
-  - title: "Tu mayor ventaja no es técnica. Y la IA te va a ayudar a encontrarla."
-    name: "Marian Suárez"
-    role: "Chief Marketing Officer"
-    org: "Mobiik"
-    photo: "marian-suarez.jpg"
-    linkedin: "https://www.linkedin.com/in/mariansuarez/"
-    bio: |-
-      Marian Suárez es Chief Marketing Officer con experiencia en estrategia, experiencia de usuario e innovación impulsada por IA. Ha liderado iniciativas de inteligencia artificial, desde el diseño de prototipos hasta la evaluación de agentes inteligentes, con un enfoque práctico, ético y orientado a resultados.
-
-      Colabora con equipos multidisciplinarios para impulsar la transformación digital, potenciar el talento y promover una adopción responsable de la IA.

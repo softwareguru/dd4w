@@ -1,0 +1,21 @@
+{{- /* Contenido de una celda de sesión de la agenda.
+     Campos: titulo, etiqueta?, ponente?, ponente_extra?, perfil?, abstracto?.
+     Con abstracto -> <details> desplegable. Con perfil -> el nombre abre el
+     modal de la ponente (mismo de la sección Ponentes; ver JS en sede.html). */ -}}
+{{- $ses := . -}}
+{{- if $ses.abstracto }}
+<details class="ag-det">
+    <summary>
+        <span class="ag-title">{{ $ses.titulo }}{{ with $ses.etiqueta }} <span class="ag-badge">{{ . }}</span>{{ end }}</span>
+        {{- with $ses.ponente }}<span class="ag-speaker">
+            {{- if $ses.perfil }}<button type="button" class="ag-spk" data-perfil="{{ $ses.perfil }}" aria-haspopup="dialog">{{ . }}</button>{{ else }}{{ . }}{{ end }}
+            {{- with $ses.ponente_extra }} · {{ . }}{{ end }}</span>{{ end }}
+    </summary>
+    <div class="ag-abs">{{ $ses.abstracto | markdownify }}</div>
+</details>
+{{- else }}
+<span class="ag-title">{{ $ses.titulo }}{{ with $ses.etiqueta }} <span class="ag-badge">{{ . }}</span>{{ end }}</span>
+{{- with $ses.ponente }}<span class="ag-speaker">
+    {{- if $ses.perfil }}<button type="button" class="ag-spk" data-perfil="{{ $ses.perfil }}" aria-haspopup="dialog">{{ . }}</button>{{ else }}{{ . }}{{ end }}
+    {{- with $ses.ponente_extra }} · {{ . }}{{ end }}</span>{{ end }}
+{{- end }}

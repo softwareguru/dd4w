@@ -242,3 +242,49 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .ag-row.is-feature .ag-abs{border-top-color:rgba(255,255,255,.25)}
 .ag-row.is-feature .ag-abs p{color:rgba(255,255,255,.85)}
 .ag-row.is-feature .ag-det summary:hover .ag-title{color:#fff}
+
+/* Agenda de dos salas (grid por horarios) */
+.agx-wrap{background:#fff;border:1px solid rgba(26,16,51,.1);border-radius:var(--r);padding:18px;overflow-x:auto}
+.agx{display:grid;grid-template-columns:96px 1fr 1fr;gap:8px;min-width:760px}
+.agx-h{grid-row:1;background:var(--purple-deep);color:#fff;font-weight:700;font-size:13px;
+  letter-spacing:.04em;text-transform:uppercase;padding:10px 14px;border-radius:10px;text-align:center;align-self:start}
+.agx-h-t{background:transparent;color:var(--ink-soft);text-transform:none;letter-spacing:0;font-size:12px}
+.agx-t{font-family:var(--body);font-variant-numeric:tabular-nums;font-size:12.5px;font-weight:700;
+  color:var(--purple-deep);padding:12px 4px 0;white-space:nowrap}
+.agx-cell{border:1px solid rgba(26,16,51,.1);border-radius:10px;padding:12px 14px;font-size:14px;background:#fff}
+.agx-cell .ag-title{display:block;font-weight:650;line-height:1.35;color:var(--ink)}
+.agx-cell .ag-speaker{display:block;color:var(--ink-soft);font-size:13px;margin-top:3px}
+.agx-log{background:var(--paper-2);border:0;color:var(--ink-soft);font-weight:600;
+  display:flex;align-items:center;justify-content:center;text-align:center}
+.agx-cell.is-feature{background:var(--purple-deep);border:0}
+.agx-cell.is-feature .ag-title{color:#fff;font-size:15.5px}
+.agx-cell.is-feature .ag-speaker{color:rgba(255,255,255,.85)}
+.agx-cell.is-feature .ag-badge{background:var(--lime);color:var(--purple-deep)}
+.agx-cell.is-highlight{background:rgba(238,255,161,.35);border:0;border-left:4px solid var(--purple)}
+.agx-cell.is-highlight .ag-badge{background:var(--purple-deep);color:#fff}
+.agx-empty{border:1.5px dashed rgba(26,16,51,.15);border-radius:10px;background:transparent;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  color:rgba(74,65,99,.55);font-size:12px;font-weight:600;min-height:44px;padding:8px}
+/* nombre clicable -> modal de la ponente */
+.ag-spk{background:none;border:0;padding:0;font:inherit;font-size:13px;color:var(--purple-deep);font-weight:650;
+  text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--purple);cursor:pointer}
+.ag-spk:hover{color:var(--purple)}
+.ag-spk:focus-visible{outline:3px solid var(--purple-deep);outline-offset:2px;border-radius:4px}
+.agx-cell.is-feature .ag-spk{color:var(--lime);text-decoration-color:var(--lime)}
+/* desplegable dentro de celdas */
+.agx-cell .ag-det summary{padding-right:24px}
+.agx-cell .ag-det summary::after{top:7px;width:8px;height:8px}
+.agx-cell .ag-abs{margin-top:10px;padding-top:10px}
+.agx-cell .ag-abs p{font-size:13.5px}
+/* etiqueta sala+hora solo en móvil */
+.agx-m{display:none}
+@media (max-width:800px){
+  .agx-wrap{padding:12px;overflow:visible}
+  .agx{display:block;min-width:0}
+  .agx-h,.agx-h-t,.agx-t,.agx-empty{display:none}
+  .agx-cell{margin-bottom:8px}
+  .agx-m{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--purple-deep);background:var(--paper-2);border-radius:999px;padding:2px 9px;margin-bottom:7px}
+  .agx-cell.is-feature .agx-m{background:rgba(255,255,255,.2);color:#fff}
+  .agx-log{padding:10px}
+}
