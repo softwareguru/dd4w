@@ -63,11 +63,17 @@ salas:
 
           En esta sesión hablaremos de Spec Driven Development (SDD), una metodología que coloca la especificación en el corazón de la construcción de producto. No es un trámite ni un documento más: es una herramienta de poder que nos permite alinear equipos, decidir con intención y liderar con confianza incluso cuando todo alrededor es incertidumbre.
       - horario: "12:05 – 12:50"
-        titulo: "Workshop técnico patrocinado"
+        titulo: "Kit de supervivencia: Soft Skills que marcan la diferencia"
         ponente: "Elena Pérez"
         ponente_extra: "SimplePractice"
         etiqueta: "Workshop patrocinado"
         tipo: "workshop"
+        abstracto: |-
+          Las habilidades técnicas abren puertas, pero las habilidades blandas determinan el crecimiento.
+
+          A través de un formato interactivo y colaborativo, este workshop brinda un «Kit Inicial» de habilidades blandas seleccionadas estratégicamente a partir de las áreas de oportunidad más comunes observadas en el entorno laboral para recién egresados.
+
+          Al finalizar, las participantes contarán con una base que les permitirá desenvolverse con mayor seguridad y avanzar en su carrera profesional.
       - horario: "12:50 – 13:10"
         titulo: "Networking break"
         tipo: "logistica"
@@ -250,6 +256,10 @@ salas:
         ponente_extra: "Novartis"
         etiqueta: "Workshop técnico"
         tipo: "sesion"
+        abstracto: |-
+          Crear un PoC con AI nunca ha sido tan fácil. Y justo por eso… hacer lo correcto es más difícil que nunca. En este taller práctico utilizaremos Manus AI para llevar una idea a un PoC en minutos, pero con un enfoque diferente: no basta con construir, hay que entender si vale la pena hacerlo.
+
+          Exploraremos cómo pasar de una idea a una solución viable considerando lo que realmente importa en el mundo real: valor de negocio, riesgos, arquitectura, data governance, seguridad, escalabilidad y costos. Porque en la era de la inteligencia artificial, la ventaja no está en quién construye más rápido, sino en quién decide mejor.
       - horario: "15:35 – 16:15"
         titulo: "Guardrails de Bedrock: construye IA responsable que proteja a tus usuarias"
         ponente: "Fernanda Osorio"

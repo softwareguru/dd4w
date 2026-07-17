@@ -72,6 +72,7 @@ ponentes:
     org: "Universidad Autónoma del Estado de México"
     cat: "charla"
     photo: "doricela-gutierrez.jpg"
+    linkedin: "https://www.linkedin.com/in/doricela-gutierrez-cruz-73ab57355"
     bio: |-
       La Dra. Doricela Gutiérrez Cruz es profesora investigadora de tiempo completo en el Centro Universitario UAEM Nezahualcóyotl de la Universidad Autónoma del Estado de México. Es ingeniera en Comunicaciones y Electrónica, maestra en Ciencias en Ingeniería de Sistemas y doctora en Ingeniería de Sistemas por el Instituto Politécnico Nacional.
 
@@ -84,6 +85,7 @@ ponentes:
     org: "AWS"
     cat: "taller"
     photo: "fernanda-osorio.jpg"
+    linkedin: "https://www.linkedin.com/in/fer-osorio-925604225"
     bio: |-
       Cloud Engineer en AWS y licenciada en Ciencias de la Computación por la Universidad Nacional Autónoma de México (UNAM). Es fundadora de Ixalli, una comunidad dedicada a empoderar a mujeres en tecnología que ha impactado a más de mil personas.
 
@@ -242,6 +244,15 @@ ponentes:
 # Talleres técnicos patrocinados · Sede CDMX (40 min c/u)
 # title: título de la sesión; name: tallerista; org: empresa patrocinadora.
 talleres_patrocinados:
+  - title: "Kit de supervivencia: Soft Skills que marcan la diferencia"
+    name: "Elena Pérez"
+    role: "QA Pillar Lead"
+    org: "SimplePractice"
+    photo: "elena-perez.png"
+    linkedin: "https://www.linkedin.com/in/elena-p-888b43ba"
+    bio: |-
+      QA Pillar Lead en SimplePractice con más de siete años de experiencia en calidad de software. Su pasión y enfoque es la mejora de procesos e innovación con buenas prácticas.
+
   - title: "Spec Driven Development: liderando con claridad desde la especificación"
     name: "Joselyn Jassel Ramos Lorenzo"
     role: "Gerente de Producto"
@@ -252,3 +263,17 @@ talleres_patrocinados:
       Contadora pública por el IPN, comenzó su carrera dominando la operación fiscal en despachos y empresas como ADO. Esa base técnica la llevó a participar en migraciones de ERP en compañías como Alsea, y desde ahí dio el salto hacia la transformación integral de procesos.
 
       Hoy, como Product Owner en CONTPAQi, convierte esa disciplina fiscal en visión de producto, liderando el desarrollo tecnológico bajo una certeza: todo gran sistema nace de saber, con claridad, qué se quiere construir.
+
+  - title: "PoC en minutos… ¿y ahora qué? De prototipo a producto real con AI"
+    name: "Viridiana Romero"
+    role: "Assoc. Dir. DDIT US&I PM D&A Sol. Del. & Analytics, DSAI Mexico"
+    org: "Novartis"
+    photo: "viridiana-romero.png"
+    linkedin: "https://www.linkedin.com/in/viridianaromero"
+
+  - title: "PoC en minutos… ¿y ahora qué? De prototipo a producto real con AI"
+    name: "Lilivette Cruz"
+    role: "Assoc. Dir. DDIT US&I Sol. Del. MDM, US&I Data, Analytics, DSAI"
+    org: "Novartis"
+    photo: "lilivette-cruz.png"
+    linkedin: "https://www.linkedin.com/in/lilivettecruz/"
