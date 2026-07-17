@@ -74,8 +74,8 @@
         </div>
         {{- end }}{{ end }}
         {{- range $e := ($s.Get "empties") }}{{ if eq $e.row $row }}
-        <div class="agx-empty" style="grid-row:{{ $e.row }}{{ if gt $e.span 1 }} / span {{ $e.span }}{{ end }};grid-column:3" aria-hidden="true">
-            {{- if $e.ws }}Sin sesión paralela{{ else }}Sin actividad{{ end -}}
+        <div class="agx-empty" style="grid-row:{{ $e.row }}{{ if gt $e.span 1 }} / span {{ $e.span }}{{ end }};grid-column:3">
+            Retransmisión Sala Plenaria
         </div>
         {{- end }}{{ end }}
         {{- end }}
