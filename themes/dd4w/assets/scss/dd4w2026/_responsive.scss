@@ -1,5 +1,5 @@
 @media (max-width:900px){
-  .hero-grid{grid-template-columns:1fr;gap:30px;padding:54px 0 60px}
+  .hero-grid{grid-template-columns:1fr;gap:30px;padding-block:54px 60px}
   .hero-scrim{background:linear-gradient(180deg,rgba(20,8,52,.5),rgba(20,8,52,.2))}
   .split,.venue,.audience{grid-template-columns:1fr;gap:26px}
   .cols-3,.metrics,.spk,.logos,.routes,.social-grid{grid-template-columns:repeat(2,1fr)}
