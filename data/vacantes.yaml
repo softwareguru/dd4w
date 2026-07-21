@@ -244,7 +244,7 @@ jobs:
     level: ""
     badge: "spons"
     summary: ""
-    link: "https://www.simplepractice.com/careers/roles/6026563004/"
+    link: "https://www.simplepractice.com/careers/roles/6119723004/"
     posted: ""
     logo: ""
 
@@ -257,6 +257,18 @@ jobs:
     badge: "spons"
     summary: ""
     link: "https://www.simplepractice.com/careers/roles/6015915004/"
+    posted: ""
+    logo: ""
+
+  - title: "Release Engineer"
+    company: "SimplePractice"
+    modality: "Remoto"
+    location: ""
+    category: "Desarrollo"
+    level: ""
+    badge: "spons"
+    summary: ""
+    link: "https://www.simplepractice.com/careers/roles/6103147004/"
     posted: ""
     logo: ""
 
