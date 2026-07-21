@@ -16,16 +16,18 @@ salas:
         titulo: "Apertura y bienvenida"
         tipo: "logistica"
       - horario: "09:15 – 09:35"
-        titulo: "IA como copiloto para investigar problemas difíciles en producción"
-        ponente: "Loyda Florencia"
-        perfil: "loyda-florencia-luis-pineda"
+        titulo: "Cuando la IA se equivoca: errores, alucinaciones y cómo construir sistemas confiables"
+        ponente: "Irais Serrano"
+        perfil: "irais-serrano"
         tipo: "sesion"
         abstracto: |-
-          Investigar un incidente crítico en producción es uno de los momentos más difíciles en la carrera de cualquier ingeniera: el sistema está fallando, la presión es alta y no sabes por dónde empezar. En esta charla comparto cómo uso la IA no para escribir código, sino para pensar: como copiloto de investigación bajo presión.
+          La inteligencia artificial generativa está transformando la forma en que desarrollamos software, analizamos información y automatizamos procesos. Sin embargo, uno de los mayores retos al adoptar estas tecnologías es entender que una respuesta generada por IA puede parecer correcta y aun así estar equivocada.
 
-          A través de tres casos reales muestro un método replicable, independientemente del stack o del área de especialidad. Un crash de sistema sin causa aparente, donde la IA ayudó a descartar hipótesis sistemáticamente hasta encontrar la raíz del problema. Notificaciones que dejaron de llegar silenciosamente, donde cruzar datos con IA permitió formular la hipótesis correcta antes de tocar código. Y 31 falsas llamadas al 911 generadas por un sistema que técnicamente funcionaba, donde la IA fue copiloto para correlacionar datos de tres fuentes distintas hasta que los números contaron la historia completa.
+          En esta charla exploraremos los principales desafíos al implementar soluciones con IA generativa: alucinaciones, respuestas fuera de contexto, información incorrecta y riesgos al utilizar resultados generados automáticamente en entornos empresariales.
 
-          El resultado en los tres casos fue el mismo: diagnóstico preciso sin tocar producción. Te llevas un método concreto: cómo estructurar una investigación con IA, qué preguntas hacerle, cómo iterar y cuándo confiar en sus respuestas, aplicable desde el primer día en cualquier equipo.
+          Desde la experiencia trabajando con datos, sistemas empresariales e integración de soluciones basadas en IA, compartiré una perspectiva práctica sobre cómo construir soluciones más confiables mediante mejores datos, validación, evaluación de resultados y supervisión humana.
+
+          La charla busca mostrar que el valor de la inteligencia artificial no está solamente en la capacidad del modelo, sino en la forma en que las ingenieras diseñamos los sistemas a su alrededor. Mantener el criterio técnico, la responsabilidad y la confianza será clave para crear tecnología que realmente genere impacto.
       - horario: "09:35 – 09:55"
         titulo: "Inteligencia geoespacial en la era de la IA"
         ponente: "Martha Villanueva"
