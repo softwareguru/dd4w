@@ -117,18 +117,18 @@ ponentes:
 
       Su misión es demostrar que el aprendizaje continuo y la exposición a nuevas oportunidades pueden transformar una carrera, y que en la era de la inteligencia artificial, aprender a aprender sigue siendo la habilidad más valiosa.
 
-  - name: "Loyda Florencia Luis Pineda"
-    role: "Senior Elixir Engineer"
-    org: "Roar for Good"
+  - name: "Irais Serrano"
+    role: "Ingeniera Senior de Datos"
+    org: "Improving"
     cat: "charla"
-    photo: "loyda-luis.jpg"
-    linkedin: "https://www.linkedin.com/in/loyda-pineda/"
     bio: |-
-      Loyda Florencia Luis Pineda es Senior Software Engineer con más de diez años de experiencia diseñando y construyendo sistemas backend de alto rendimiento para startups y empresas internacionales. Actualmente trabaja como Elixir Developer en Roar For Good, desarrollando plataformas IoT y sistemas críticos en tiempo real.
+      Irais Serrano es Ingeniera Senior de Datos en Improving, con más de ocho años de experiencia diseñando plataformas de datos nativas en la nube, sistemas de analítica impulsados por inteligencia artificial y soluciones de migración a escala empresarial en entornos de fintech, banca y SaaS.
 
-      Ha construido productos de cero a producción utilizando múltiples tecnologías backend y arquitecturas distribuidas, incluyendo Elixir/Phoenix, Scala, Java, Python y Node.js, así como microservicios, sistemas event-driven y AWS. También ha liderado y mentorado equipos de ingeniería, y formó parte de Women Who Code de 2018 a 2024.
+      Está especializada en la modernización de arquitecturas de datos heredadas mediante el uso de Azure, AWS, Databricks, Python y SQL, desarrollando pipelines escalables de ETL/ELT.
 
-      Es ingeniera en Comunicaciones y Electrónica, con maestría en Ingeniería en Telecomunicaciones y especialización en semiconductores por el Instituto Politécnico Nacional (IPN). Actualmente radica en Oaxaca, México.
+      Cuenta con experiencia práctica en la integración de soluciones de inteligencia artificial y aprendizaje automático en entornos de producción, utilizando GPT-3.5 Turbo, Claude, TensorFlow y modelos de detección de anomalías para optimizar la generación de reportes, la eficiencia operativa y la toma de decisiones.
+
+      Tiene una sólida trayectoria en sistemas de datos financieros, automatización en la nube, CI/CD, observabilidad, gobierno de datos y desarrollo de soluciones analíticas orientadas a ejecutivos mediante Sigma Computing, Power BI, Grafana, Elastic Stack y OpenSearch.
 
   - name: "Marian Suárez"
     role: "Chief Marketing Officer"
