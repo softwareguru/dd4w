@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+<div class="spk">
+
+    {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }}
+
+        <div class="p">
+
+            <button
+                type="button"
+                class="spk-trigger"
+                aria-haspopup="dialog">
+
+                <span
+                    class="av"
+                    {{ with .Params.images }}
+                        style="background-image:url('{{ . }}')"
+                    {{ end }}
+                    role="img"
+                    aria-label="{{ .Title }}">
+                </span>
+
+                <b>{{ .Title }}</b>
+
+                {{ with .Params.designation }}
+                    <span>{{ . }}</span>
+                {{ end }}
+
+                {{ with .Params.org }}
+                    <span class="org">{{ . }}</span>
+                {{ end }}
+
+                <span class="spk-more">Ver perfil</span>
+
+            </button>
+
+            {{ with .Params.bio }}
+            <div
+                class="spk-data"
+                id="spk-bio"
+                hidden>
+                {{ . | markdownify }}
+            </div>
+            {{ end }}
+
+            {{ else }}
+
+            <span
+                class="av"
+                {{ with .Params.photo }}
+                    style="background-image:url('{{ "images/speakers/" | relURL }}{{ . }}')"
+                {{ end }}
+                role="img"
+                aria-label="{{ .Title }}">
+            </span>
+
+            <b>{{ .Title }}</b>
+
+            {{ with .Params.role }}
+                <span>{{ . }}</span>
+            {{ end }}
+
+            {{ with .Params.org }}
+                <span class="org">{{ . }}</span>
+            {{ end }}
+
+        </div>
+
+    {{ end }}
+
+</div>
+
+{{ end }}
