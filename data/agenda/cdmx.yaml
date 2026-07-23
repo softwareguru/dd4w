@@ -76,15 +76,26 @@ salas:
           A través de un formato interactivo y colaborativo, este workshop brinda un «Kit Inicial» de habilidades blandas seleccionadas estratégicamente a partir de las áreas de oportunidad más comunes observadas en el entorno laboral para recién egresados.
 
           Al finalizar, las participantes contarán con una base que les permitirá desenvolverse con mayor seguridad y avanzar en su carrera profesional.
-      - horario: "12:50 – 13:10"
+      - horario: "12:50 – 13:00"
+        titulo: "Hasta aquí llegas: el techo del sector tech mexicano"
+        ponente: "Laura Figueroa"
+        perfil: "laura-figueroa"
+        tipo: "sesion"
+        abstracto: |-
+          ¿Por qué hay tan pocas mujeres en puestos de liderazgo en tecnología? La respuesta habitual apunta a la entrada al sector. Los datos preliminares de la Encuesta de Salarios 2026 dicen otra cosa: las mujeres son mayoría en el nivel medio (62%) y ahí se les paga igual o mejor. El problema aparece al subir: 37% menos en senior y liderazgo, y apenas una de cada cuatro llega. La mitad de esa brecha no la explica la experiencia ni el rol. En esta charla presentamos los hallazgos y qué puede hacer la industria.
+      - horario: "13:00 – 13:10"
         titulo: "Networking break"
         tipo: "logistica"
       - horario: "13:10 – 13:55"
         titulo: "She Leads: Shaping STEM's Future with AI"
-        ponente: "Gabriela Guevara, Elsa Ramírez y Cintia Vargas"
+        ponente: "Gabriela Guevara, Elsa Ramírez y Cintia Vargas · Modera: Mara Ruvalcaba"
         etiqueta: "Panel"
         tipo: "sesion"
         destacado: true
+        abstracto: |-
+          Se habla mucho de que la IA «reemplaza» empleos. ¿Qué tan cierto es visto desde adentro, por quienes contratan y lideran equipos hoy?
+
+          En este panel, tres mujeres con trayectoria directiva en tecnología comparten lo que están viendo en la práctica: cómo se están transformando los roles y los equipos, qué habilidades se vuelven imprescindibles y cuáles pierden relevancia, y cómo distinguir entre adoptar IA por moda o porque realmente aporta valor. Cerrarán con el ángulo que más importa para esta comunidad: qué responsabilidad tienen al liderar esa adopción, si la brecha de género se ampliará o puede cerrarse, y consejos concretos para quienes empiezan hoy.
       - horario: "13:55 – 14:15"
         titulo: "Presentación de comunidades"
         ponente: "Women CISO, Women in Gamex, Women Techmakers, Más Voces en Diseño México y Pyladies Jalapa"

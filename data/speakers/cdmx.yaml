@@ -131,6 +131,18 @@ ponentes:
 
       Tiene una sólida trayectoria en sistemas de datos financieros, automatización en la nube, CI/CD, observabilidad, gobierno de datos y desarrollo de soluciones analíticas orientadas a ejecutivos mediante Sigma Computing, Power BI, Grafana, Elastic Stack y OpenSearch.
 
+  - name: "Laura Figueroa"
+    role: "Directora de Producto, Grupo Lottus · CEO, Impact Click"
+    cat: "charla"
+    photo: "laura-figueroa.jpg"
+    linkedin: "https://www.linkedin.com/in/laurafiglez/"
+    bio: |-
+      Laura Figueroa es Directora de Producto en Grupo Lottus y CEO de Impact Click. Con 10 años de experiencia en el sector EdTech, su trayectoria destaca por colaborar con los grupos de educación superior más grandes de México y con startups de tecnología educativa reconocidas en Latinoamérica.
+
+      Su liderazgo ha desarrollado soluciones para la educación superior y continua que han llevado a Grupo Lottus a ser reconocida por la revista TIME como una de las EdTech con mayor impacto global.
+
+      Paralelamente, lidera esfuerzos para capacitar a personas con discapacidad en habilidades digitales, impulsada por su firme convicción en las causas que democratizan la educación y promueven el cierre de la brecha educativa y laboral para las minorías. Laura pertenece al Comité de Code4DEI de Software Guru.
+
   - name: "Marian Suárez"
     role: "Chief Marketing Officer"
     org: "Mobiik"
@@ -172,6 +184,12 @@ ponentes:
       A lo largo de su carrera ha liderado proyectos estratégicos de seguridad y defensa, desarrollo urbano y catastro municipal a nivel regional. Su trayectoria incluye la dirección de programas avanzados de transferencia tecnológica y capacitación para equipos de ingeniería y tomadores de decisiones en más de 30 instituciones civiles, militares y académicas de Latinoamérica.
 
       Es licenciada en Arquitectura, cuenta con una maestría en Teledetección y un diplomado en Geomática y Tecnología Satelital por la Universidad Mayor de Chile.
+
+  - name: "Miriam Amaro Sánchez"
+    role: "Co-Leader & Directora de Crecimiento y Estrategia Digital"
+    org: "Women in Gamex"
+    cat: "comunidad"
+    photo: "miriam-amaro.png"
 
   - name: "Mirna Vázquez"
     role: "Investigadora"

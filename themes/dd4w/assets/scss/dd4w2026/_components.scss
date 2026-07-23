@@ -271,6 +271,10 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .ag-spk:hover{color:var(--purple)}
 .ag-spk:focus-visible{outline:3px solid var(--purple-deep);outline-offset:2px;border-radius:4px}
 .agx-cell.is-feature .ag-spk{color:var(--lime);text-decoration-color:var(--lime)}
+.agx-cell.is-feature .ag-abs{border-top-color:rgba(255,255,255,.25)}
+.agx-cell.is-feature .ag-abs p{color:rgba(255,255,255,.92)}
+.agx-cell.is-feature .ag-det summary::after{border-color:var(--lime)}
+.agx-cell.is-feature .ag-det summary:hover .ag-title{color:#fff}
 /* desplegable dentro de celdas */
 .agx-cell .ag-det summary{padding-right:24px}
 .agx-cell .ag-det summary::after{top:7px;width:8px;height:8px}
