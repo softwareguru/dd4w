@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<section>
+    <div class="wrap">
+        {{ partial "dd4w2026/section-head.html" (dict "kicker" "Ponentes" "title" "Ellas nos han acompañado en 2025") }}
+        <div class="spk">
+            {{ range .Data.Pages.ByTitle }}
+            {{ if in .Params.events "octubre-2025" }}
+            <div class="p">
+                {{ with .Params.images }}
+                {{ $img := resources.Get (index . 0) }}
+                {{ if $img }}
+                {{ $webp := $img.Resize "400x webp q85" }}
+
+                <div class="av" role="img" aria-label="{{ $.Title }}"
+                    style="background-image:url('{{ $webp.RelPermalink }}')">
+                </div>
+
+                {{ end }}
+                {{ end }}
+                <b>{{ .Title }}</b>
+                <span>{{ .Params.Designation}}</span>
+            </div>
+
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ end }}

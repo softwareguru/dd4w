@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+<section>
+    <div class="wrap">
+
+        {{ partial "dd4w2026/section-head.html" (dict
+        "kicker" "Ponentes"
+        "title" "Ellas nos han acompañado") }}
+
+        <div class="spk">
+
+            {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }}
+
+            <div class="p">
+
+                {{ with .Params.images }}
+
+                {{ $img := resources.Get (index . 0) }}
+
+                {{ if $img }}
+
+                {{ $webp := $img.Resize "400x webp q85" }}
+
+                <div class="av" role="img" aria-label="{{ $.Title }}"
+                    style="background-image:url('{{ $webp.RelPermalink }}')">
+                </div>
+
+                {{ else }}
+
+                <div class="av" role="img" aria-label="{{ $.Title }}" style="background-image:url('{{ "images/speakers/speaker.jpg" | relURL }}')">
+                </div>
+
+                {{ end }}
+
+                {{ else }}
+
+                <div class="av" role="img" aria-label="{{ .Title }}" style="background-image:url('{{ "images/speakers/speaker.jpg" | relURL }}')">
+                </div>
+
+                {{ end }}
+
+                <b>{{ .Title }}</b>
+
+                {{ with .Params.Designation }}
+                <span>{{ . }}</span>
+                {{ end }}
+
+            </div>
+
+            {{ end }}
+
+        </div>
+
+    </div>
+</section>
+
+{{ end }}
