@@ -71,12 +71,13 @@
                 sesión. Seguimos confirmando más nombres.</p>
         </div>
         {{ range $c := slice
+            (dict "key" "panel" "label" "Panel · She Leads" "meta" "Panel" "feat" true)
             (dict "key" "charla" "label" "Charlas" "meta" "15 min")
             (dict "key" "taller" "label" "Talleres" "meta" "40 min")
             (dict "key" "lightning" "label" "Lightning talks" "meta" "5 min")
             (dict "key" "comunidad" "label" "Presentación de comunidad" "meta" "") }}
         {{ with where $all "cat" $c.key }}
-        <div class="spk-cat">
+        <div class="spk-cat{{ if $c.feat }} spk-cat--feature{{ end }}">
             <div class="spk-cat-head">
                 <h3>{{ $c.label }}</h3>{{ with $c.meta }}<span class="spk-cat-meta">{{ . }}</span>{{ end }}
             </div>

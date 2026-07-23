@@ -260,6 +260,35 @@ ponentes:
 
       Es speaker en eventos internacionales, entre ellos PyData Madrid 2024 (España), Campus Party Global 2020 (México), PyCon Canadá 2019, PyCon Latam 2019 (Puerto Vallarta, México), PyCon 2018 (Cleveland, EE. UU.) y PyCon España 2017 (Cáceres, España).
 
+  # --- Panel "She Leads: Shaping STEM's Future with AI" (cat: panel) ---
+  - name: "Gabriela Guevara"
+    role: "Líder de AMITI WIT"
+    org: "AMITI"
+    cat: "panel"
+    photo: "gabriela-guevara.jpeg"
+    linkedin: "https://www.linkedin.com/in/gabriela-guevara-a1051215/"
+
+  - name: "Cintia Vargas"
+    role: "Director DDIT IES DWO LATAM Lead"
+    org: "Novartis"
+    cat: "panel"
+    photo: "cintia-vargas.jpeg"
+    linkedin: "https://www.linkedin.com/in/cintia-de-oliveira-vargas-pmp-02273b2/"
+
+  - name: "Elsa Ramírez Hernández"
+    role: "Directora de Operaciones de Productos Digitales"
+    org: "Praxis Tech Solutions"
+    cat: "panel"
+    photo: "elsa-ramirez.jpeg"
+    linkedin: "https://www.linkedin.com/in/elsaramirezhernandez/"
+
+  - name: "Mara Ruvalcaba"
+    role: "CEO"
+    org: "Software Guru"
+    cat: "panel"
+    photo: "mara-ruvalcaba.jpeg"
+    linkedin: "https://www.linkedin.com/in/marayve/"
+
 # Talleres técnicos patrocinados · Sede CDMX (40 min c/u)
 # title: título de la sesión; name: tallerista; org: empresa patrocinadora.
 talleres_patrocinados:
