@@ -59,6 +59,17 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .spk-cat-head{display:flex;align-items:baseline;gap:12px;margin-bottom:24px;padding-bottom:12px;border-bottom:1px solid rgba(26,16,51,.1)}
 .spk-cat-head h3{color:var(--purple-deep);font-size:20px;margin:0}
 .spk-cat-meta{color:var(--ink-soft);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+/* Sección destacada de ponentes (panel) */
+.spk-cat--feature{margin-top:6px;background:linear-gradient(180deg,#F6F3FF 0%,#ECE5FF 100%);
+  border:1px solid rgba(70,35,183,.18);border-radius:22px;padding:28px 28px 32px;
+  box-shadow:0 10px 30px -18px rgba(70,35,183,.45)}
+.spk-cat--feature .spk-cat-head{border-bottom-color:rgba(70,35,183,.22)}
+.spk-cat--feature .spk-cat-head h3{position:relative;padding-left:14px}
+.spk-cat--feature .spk-cat-head h3::before{content:"";position:absolute;left:0;top:2px;bottom:2px;
+  width:5px;border-radius:3px;background:var(--purple)}
+.spk-cat--feature .spk-cat-meta{background:var(--purple-deep);color:#fff;padding:3px 9px;border-radius:999px}
+.spk-cat--feature .spk-trigger:hover{background:#fff}
+.spk-cat--feature .av{border-color:rgba(70,35,183,.28)}
 
 .gal-c{position:relative;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent);mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
 .gal-track{display:flex;gap:16px;width:max-content;animation:gal-scroll 50s linear infinite}
@@ -271,6 +282,10 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .ag-spk:hover{color:var(--purple)}
 .ag-spk:focus-visible{outline:3px solid var(--purple-deep);outline-offset:2px;border-radius:4px}
 .agx-cell.is-feature .ag-spk{color:var(--lime);text-decoration-color:var(--lime)}
+.agx-cell.is-feature .ag-abs{border-top-color:rgba(255,255,255,.25)}
+.agx-cell.is-feature .ag-abs p{color:rgba(255,255,255,.92)}
+.agx-cell.is-feature .ag-det summary::after{border-color:var(--lime)}
+.agx-cell.is-feature .ag-det summary:hover .ag-title{color:#fff}
 /* desplegable dentro de celdas */
 .agx-cell .ag-det summary{padding-right:24px}
 .agx-cell .ag-det summary::after{top:7px;width:8px;height:8px}

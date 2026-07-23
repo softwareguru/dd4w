@@ -131,6 +131,18 @@ ponentes:
 
       Tiene una sólida trayectoria en sistemas de datos financieros, automatización en la nube, CI/CD, observabilidad, gobierno de datos y desarrollo de soluciones analíticas orientadas a ejecutivos mediante Sigma Computing, Power BI, Grafana, Elastic Stack y OpenSearch.
 
+  - name: "Laura Figueroa"
+    role: "Directora de Producto, Grupo Lottus · CEO, Impact Click"
+    cat: "charla"
+    photo: "laura-figueroa.jpg"
+    linkedin: "https://www.linkedin.com/in/laurafiglez/"
+    bio: |-
+      Laura Figueroa es Directora de Producto en Grupo Lottus y CEO de Impact Click. Con 10 años de experiencia en el sector EdTech, su trayectoria destaca por colaborar con los grupos de educación superior más grandes de México y con startups de tecnología educativa reconocidas en Latinoamérica.
+
+      Su liderazgo ha desarrollado soluciones para la educación superior y continua que han llevado a Grupo Lottus a ser reconocida por la revista TIME como una de las EdTech con mayor impacto global.
+
+      Paralelamente, lidera esfuerzos para capacitar a personas con discapacidad en habilidades digitales, impulsada por su firme convicción en las causas que democratizan la educación y promueven el cierre de la brecha educativa y laboral para las minorías. Laura pertenece al Comité de Code4DEI de Software Guru.
+
   - name: "Marian Suárez"
     role: "Chief Marketing Officer"
     org: "Mobiik"
@@ -172,6 +184,12 @@ ponentes:
       A lo largo de su carrera ha liderado proyectos estratégicos de seguridad y defensa, desarrollo urbano y catastro municipal a nivel regional. Su trayectoria incluye la dirección de programas avanzados de transferencia tecnológica y capacitación para equipos de ingeniería y tomadores de decisiones en más de 30 instituciones civiles, militares y académicas de Latinoamérica.
 
       Es licenciada en Arquitectura, cuenta con una maestría en Teledetección y un diplomado en Geomática y Tecnología Satelital por la Universidad Mayor de Chile.
+
+  - name: "Miriam Amaro Sánchez"
+    role: "Co-Leader & Directora de Crecimiento y Estrategia Digital"
+    org: "Women in Gamex"
+    cat: "comunidad"
+    photo: "miriam-amaro.png"
 
   - name: "Mirna Vázquez"
     role: "Investigadora"
@@ -241,6 +259,35 @@ ponentes:
       Actualmente es ingeniera de datos senior en Mitek y cuenta con un máster en Análisis y Visualización de Big Data. Ha sido coorganizadora de PyLadies Madrid y PyLadies Ciudad de México, fundadora de la comunidad Python Guatemala, instructora en OpenWebinars y mentora de speakers en múltiples conferencias.
 
       Es speaker en eventos internacionales, entre ellos PyData Madrid 2024 (España), Campus Party Global 2020 (México), PyCon Canadá 2019, PyCon Latam 2019 (Puerto Vallarta, México), PyCon 2018 (Cleveland, EE. UU.) y PyCon España 2017 (Cáceres, España).
+
+  # --- Panel "She Leads: Shaping STEM's Future with AI" (cat: panel) ---
+  - name: "Gabriela Guevara"
+    role: "Líder de AMITI WIT"
+    org: "AMITI"
+    cat: "panel"
+    photo: "gabriela-guevara.jpeg"
+    linkedin: "https://www.linkedin.com/in/gabriela-guevara-a1051215/"
+
+  - name: "Cintia Vargas"
+    role: "Director DDIT IES DWO LATAM Lead"
+    org: "Novartis"
+    cat: "panel"
+    photo: "cintia-vargas.jpeg"
+    linkedin: "https://www.linkedin.com/in/cintia-de-oliveira-vargas-pmp-02273b2/"
+
+  - name: "Elsa Ramírez Hernández"
+    role: "Directora de Operaciones de Productos Digitales"
+    org: "Praxis Tech Solutions"
+    cat: "panel"
+    photo: "elsa-ramirez.jpeg"
+    linkedin: "https://www.linkedin.com/in/elsaramirezhernandez/"
+
+  - name: "Mara Ruvalcaba"
+    role: "CEO"
+    org: "Software Guru"
+    cat: "panel"
+    photo: "mara-ruvalcaba.jpeg"
+    linkedin: "https://www.linkedin.com/in/marayve/"
 
 # Talleres técnicos patrocinados · Sede CDMX (40 min c/u)
 # title: título de la sesión; name: tallerista; org: empresa patrocinadora.
