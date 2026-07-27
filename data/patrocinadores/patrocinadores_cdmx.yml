@@ -23,6 +23,9 @@ tiers:
       - name: Qualtop
         image: images/logos/qualtop.png
         url: https://qualtop.com/
+      - name: Impactclick
+        image: images/logos/impact-click.png
+        url: https://www.impactclick.org/
 
   - class: t-silver
     label: Community partner
