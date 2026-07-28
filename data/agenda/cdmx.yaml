@@ -112,12 +112,11 @@ salas:
           - nombre: "Elsa Ramírez"
             perfil: "elsa-ramirez-hernandez"
 
-          - nombre: "Cintia Vargas"
-            perfil: "cintia-vargas"
+          - nombre: "Patricia Skroche"
+            perfil: "patricia-skroche"
 
           - nombre: "Modera: Mara Ruvalcaba"
             perfil: "mara-ruvalcaba"
-
 
         etiqueta: "Panel"
         tipo: "sesion"
