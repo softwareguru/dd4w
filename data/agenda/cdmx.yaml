@@ -128,7 +128,7 @@ salas:
       - horario: "13:55 – 14:15"
         titulo: "Presentación de comunidades"
         ponentes:
-          - nombre: "Women CISO, Women in Gamex, Women Techmakers, Más Voces en Diseño México y Pyladies Jalapa"
+          - nombre: "Women CISO, Women in Gamex, Women Techmakers, Más Voces en Diseño México y R-Ladies Xalapa"
 
         etiqueta: "Comunidades"
         tipo: "sesion"
