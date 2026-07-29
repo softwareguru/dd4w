@@ -143,6 +143,16 @@ ponentes:
 
       Paralelamente, lidera esfuerzos para capacitar a personas con discapacidad en habilidades digitales, impulsada por su firme convicción en las causas que democratizan la educación y promueven el cierre de la brecha educativa y laboral para las minorías. Laura pertenece al Comité de Code4DEI de Software Guru.
 
+  - name: "Malinali Becerril"
+    role: "Ingeniera de software y líder de comunidades tech"
+    cat: "comunidad"
+    photo: "malinali-becerril.jpg"
+    linkedin: "https://www.linkedin.com/in/malibb/"
+    bio: |-
+      Malinali Becerril es ingeniera de software, mentora y líderesa de comunidades de tecnología. Se destaca principalmente por su labor en la formación de talento técnico y por impulsar la representación de las mujeres en las áreas STEM (ciencia, tecnología, ingeniería, arte y matemáticas). Ha trabajado como ingeniera de software (en organizaciones como Scopely y DEV.f) y como educadora (sensei), capacitando a miles de estudiantes en Latinoamérica en temas de programación, datos e inteligencia artificial. Es embajadora del programa Women Techmakers, co-organizadora del Google Developer Groups CDMX, co-creadora en Technolatinas y ha sido mentora en iniciativas como Google for Startups Accelerator y Technolochicas.
+
+      Su compromiso con la educación tecnológica y el empoderamiento de mujeres en el sector la motiva a compartir sus conocimientos y a contribuir a la formación de la próxima generación de mujeres en tecnología y emprendimiento, colaborando con comunidades y mujeres extraordinarias.
+
   - name: "Marian Suárez"
     role: "Chief Marketing Officer"
     org: "Mobiik"
@@ -251,12 +261,12 @@ ponentes:
 
   - name: "Valery Calderón Briz"
     role: "Senior Data Engineer"
-    org: "PyLadies CDMX"
+    org: "R-Ladies CDMX"
     cat: "charla"
     photo: "valery-calderon.jpg"
     linkedin: "https://www.linkedin.com/in/valerybriz/"
     bio: |-
-      Actualmente es ingeniera de datos senior en Mitek y cuenta con un máster en Análisis y Visualización de Big Data. Ha sido coorganizadora de PyLadies Madrid y PyLadies Ciudad de México, fundadora de la comunidad Python Guatemala, instructora en OpenWebinars y mentora de speakers en múltiples conferencias.
+      Actualmente es ingeniera de datos senior en Mitek y cuenta con un máster en Análisis y Visualización de Big Data. Ha sido coorganizadora de R-Ladies Madrid y R-Ladies Ciudad de México, fundadora de la comunidad Python Guatemala, instructora en OpenWebinars y mentora de speakers en múltiples conferencias.
 
       Es speaker en eventos internacionales, entre ellos PyData Madrid 2024 (España), Campus Party Global 2020 (México), PyCon Canadá 2019, PyCon Latam 2019 (Puerto Vallarta, México), PyCon 2018 (Cleveland, EE. UU.) y PyCon España 2017 (Cáceres, España).
 
