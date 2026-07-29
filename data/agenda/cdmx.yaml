@@ -237,7 +237,16 @@ salas:
           A través de casos reales inspirados en situaciones cotidianas, exploraremos cómo diferenciar un posible hackeo de una manipulación digital, cómo reconocer ataques potenciados por inteligencia artificial y qué evidencias revisar antes de actuar. Además, realizaremos una revisión práctica de herramientas y configuraciones de seguridad disponibles en computadoras y dispositivos móviles para identificar accesos no autorizados, sesiones activas, permisos de aplicaciones y otros indicadores de riesgo.
 
           Al finalizar, las participantes contarán con un proceso claro para investigar incidentes digitales, fortalecer su seguridad personal y acompañar a otras personas en la protección de su identidad digital. Porque en la era de la IA, la mejor defensa no es el miedo: es aprender a detectar, analizar y actuar.
-      - horario: "17:30 – 17:35"
+      - horario: "17:30 – 17:45"
+        titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
+        ponentes:
+          - nombre: "Antonieta Carrasco"
+            perfil: "antonieta-carrasco"
+
+        tipo: "sesion"
+        abstracto: |-
+          Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
+      - horario: "17:45 – 17:50"
         titulo: "Quemar las naves"
         ponentes:
           - nombre: "Sol Estrada"
@@ -247,7 +256,7 @@ salas:
         tipo: "sesion"
         abstracto: |-
           Hay momentos en los que la vida te invita —o te exige— volver a empezar: cambiar de carrera, de trabajo, de lugar, de personas. Hoy quiero compartirles lo que ha significado para mí «quemar las naves» y tener el valor de comenzar otra vez.
-      - horario: "17:35 – 17:40"
+      - horario: "17:50 – 17:55"
         titulo: "La mejor decisión de mi carrera fue aprender a aprender: cómo Internet cambió mi vida y por qué hoy cualquiera puede construir el futuro que imagina"
         ponentes:
           - nombre: "Jaqueline Razo"
@@ -263,7 +272,7 @@ salas:
           En esta charla compartiré por qué el aprendizaje continuo ha sido mucho más importante que cualquier título, cómo exponernos a nuevas oportunidades puede transformar nuestra trayectoria profesional y por qué la IA representa una nueva democratización del conocimiento para quienes estén dispuestas a aprender.
 
           Mi objetivo es que cada asistente salga convencida de que su punto de partida no determina su futuro. La tecnología evoluciona constantemente, pero la capacidad de aprender y atreverse a dar el siguiente paso sigue siendo la habilidad más poderosa de todas.
-      - horario: "17:40 – 17:45"
+      - horario: "17:55 – 18:00"
         titulo: "IA generativa: impacto colaborativo y enfoque ético multidisciplinario"
         ponentes:
           - nombre: "Marisela Cadena"
@@ -277,7 +286,7 @@ salas:
           Como desarrolladora, sé que la realidad es otra: la IA solo ejecuta lo que nosotras permitimos. Los problemas éticos y de desinformación no son accidentes; nacen de decisiones conscientes en el diseño y desarrollo de software, un ecosistema históricamente dominado por hombres cis con una perspectiva homogénea.
 
           En estos cinco minutos quiero bajar a la tierra el debate ético desde la realidad del código. Analizaremos por qué la IA no es la culpable de sus impactos negativos y por qué urge un enfoque multidisciplinario real, donde la presencia de mujeres técnicas sea el contrapeso necesario para cuestionar lo que hoy se da por sentado.
-      - horario: "17:45 – 17:50"
+      - horario: "18:00 – 18:05"
         titulo: "No esperé a sentirme lista... aunque la verdad es que casi lo hago"
         ponentes:
           - nombre: "Paola Flores"
@@ -293,7 +302,7 @@ salas:
           A través de una historia cercana y personal, reflexiono sobre el miedo a no sentirse suficiente, el valor de las personas que nos impulsan a crecer y cómo muchas veces las mejores oportunidades llegan antes de que nos sintamos listas para tomarlas.
 
           Más que una charla sobre convocatorias, es una invitación a dejar de esperar el momento perfecto para empezar. Porque, a veces, todo cambia cuando dejamos de preguntarnos si somos suficientes y simplemente nos atrevemos a decir: «¿y si sí aplicamos?».
-      - horario: "17:50 – 17:55"
+      - horario: "18:05 – 18:10"
         titulo: "La IA no vino a reemplazarme, vino a quitarme el trabajo aburrido"
         ponentes:
           - nombre: "Gabriela Tejadilla"
@@ -311,7 +320,7 @@ salas:
           En esta charla compartiré cómo incorporé la IA a mi día a día en el sector financiero, donde se requieren controles y mucha precisión en los reportes, para transformar ideas dispersas en planes, documentos y acciones concretas. Hablaré de casos reales donde pasé de invertir días o semanas en ciertos entregables a resolverlos en horas, pero también de los errores, las limitaciones y los retos que encontré en el camino.
 
           Mi conclusión es simple: la IA no vino a reemplazarnos. Vino a quitarnos parte del trabajo más repetitivo y pesado para devolvernos algo más valioso: tiempo. Tiempo para pensar, aprender y crear, pero también para vivir —tener hobbies, hacer ejercicio, descansar, cuidarnos—. Confío en que, bien usada, la IA puede regresarnos nuestra humanidad.
-      - horario: "17:55 – 18:05"
+      - horario: "18:10 – 18:20"
         titulo: "Cierre de evento"
         tipo: "logistica"
 
@@ -347,16 +356,6 @@ salas:
           Las herramientas de IA generativa están transformando cómo construimos software, pero ¿quién decide qué es «seguro»? En este taller, las participantes configurarán Amazon Bedrock Guardrails desde cero para prevenir sesgos de género, proteger datos sensibles (PII) y controlar respuestas dañinas.
 
           Veremos en tiempo real cómo un modelo sin protecciones puede generar respuestas problemáticas —y cómo nosotras, como desarrolladoras, tenemos el poder de definir los límites éticos de la IA que construimos.
-      - horario: "16:15 – 16:35"
-        titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
-        ponentes:
-          - nombre: "Antonieta Carrasco"
-            perfil: "antonieta-carrasco"        
-
-        etiqueta: "Charla"
-        tipo: "sesion"
-        abstracto: |-
-          Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
       - horario: "16:50 – 17:30"
         titulo: "Strategy: The hidden knowledge"
         ponentes:
