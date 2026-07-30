@@ -23,6 +23,10 @@ tiers:
         image: images/logos/getonboard.png
         url: https://www.getonbrd.com/
 
+      - name: Packt
+        image: images/logos/pack.png
+        url: https://www.packtpub.com/
+
   - class: t-orga
     label: Organizado por
     logos:
