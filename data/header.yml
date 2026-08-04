@@ -6,10 +6,10 @@ menu:
   - name: "Sedes"
     identifier: "evento"
     children:
-      - name: "CDMX · 31 jul"
-        url: "/sede/"
       - name: "Monterrey · 31 oct"
         url: "/sede-monterrey/"
+      - name: "CDMX · 31 jul"
+        url: "/sede/"
 
   - name: "Patrocinadores"
     url: "/patrocinadores/"
@@ -20,10 +20,10 @@ menu:
     identifier: "vacantes"
 
 buttons:
+  - label: "MTY"
+    url: "/sede-monterrey/"
+    class: "btn btn-blue btn-sm"
+
   - label: "CDMX"
     url: "/sede/"
     class: "btn btn-ink btn-sm"
-
-  - label: "MTY"
-    url: "/sede-monterrey/"
-    class: "btn btn-primary btn-sm"
