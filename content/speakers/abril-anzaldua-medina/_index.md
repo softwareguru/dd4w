@@ -9,7 +9,7 @@ twitter: ""
 linkedin: ""
 github: ""
 events: 
- - oct-2024
+ - "oct-2024"
 ---
 
 Abril se unió a Walmart México y Centroamérica hace poco mas de 4 años, como Líder de Centro de Excelencia de Entrega de Productos y Servicios en la Tribu de Tecnología y tiene a su cargo el desarrollo e implementación de la mayoría de las aplicaciones para el mercado mexicano. 

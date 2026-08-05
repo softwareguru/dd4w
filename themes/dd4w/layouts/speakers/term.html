@@ -1,83 +1,96 @@
 {{ define "main" }}
 
 <section class="dd4w-speaker-profile">
-  <div class="dd4w-profile-container">
+    <div class="dd4w-profile-container">
 
-    <div class="dd4w-profile-layout">
+        <div class="dd4w-profile-layout">
 
-      <div class="dd4w-profile-image-column">
-        <div class="dd4w-profile-image-box">
-          <figure class="dd4w-profile-figure">
-            <img class="dd4w-profile-photo" src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title }}">
-          </figure>
+            <div class="dd4w-profile-image-column">
+                <div class="dd4w-profile-image-box">
+                    <figure class="dd4w-profile-figure">
+                {{ with .Params.images }}
+                {{ $img := resources.Get (index . 0) }}
+                {{ if $img }}
+                {{ $webp := $img.Resize "400x webp q85" }}
 
-          {{ if or .Params.twitter .Params.linkedin .Params.github }}
-          <ul class="dd4w-profile-socials">
-            {{ with .Params.twitter }}
-            {{ if ne . "" }}
-            <li>
-              <a href="{{ . }}" target="_blank" rel="noopener" title="Twitter / X">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.9 2H22l-7.5 8.6L23.4 22H16l-5-6.6L5.2 22H2l8-9.2L1 2h7.2l4.6 6.1L18.9 2zm-1.2 18h1.8L7.4 3.9H5.5L17.7 20z"/>
-                </svg>
-              </a>
-            </li>
-            {{ end }}
-            {{ end }}
+                <div class="av" role="img" aria-label="{{ $.Title }}"
+                    style="background-image:url('{{ $webp.RelPermalink }}')">
+                </div>
 
-            {{ with .Params.linkedin }}
-            {{ if ne . "" }}
-            <li>
-              <a href="{{ . }}" target="_blank" rel="noopener" title="LinkedIn">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/>
-                </svg>
-              </a>
-            </li>
-            {{ end }}
-            {{ end }}
+                {{ end }}
+                {{ end }}
+                    </figure>
 
-            {{ with .Params.github }}
-            {{ if ne . "" }}
-            <li>
-              <a href="{{ . }}" target="_blank" rel="noopener" title="GitHub">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.58 2 12.17c0 4.48 2.87 8.28 6.84 9.62.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.46-1.19-1.11-1.51-1.11-1.51-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.48A10.02 10.02 0 0 0 22 12.17C22 6.58 17.52 2 12 2z"/>
-                </svg>
-              </a>
-            </li>
-            {{ end }}
-            {{ end }}
-          </ul>
-          {{ end }}
+                    {{ if or .Params.twitter .Params.linkedin .Params.github }}
+                    <ul class="dd4w-profile-socials">
+                        {{ with .Params.twitter }}
+                        {{ if ne . "" }}
+                        <li>
+                            <a href="{{ . }}" target="_blank" rel="noopener" title="Twitter / X">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M18.9 2H22l-7.5 8.6L23.4 22H16l-5-6.6L5.2 22H2l8-9.2L1 2h7.2l4.6 6.1L18.9 2zm-1.2 18h1.8L7.4 3.9H5.5L17.7 20z" />
+                                </svg>
+                            </a>
+                        </li>
+                        {{ end }}
+                        {{ end }}
+
+                        {{ with .Params.linkedin }}
+                        {{ if ne . "" }}
+                        <li>
+                            <a href="{{ . }}" target="_blank" rel="noopener" title="LinkedIn">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z" />
+                                </svg>
+                            </a>
+                        </li>
+                        {{ end }}
+                        {{ end }}
+
+                        {{ with .Params.github }}
+                        {{ if ne . "" }}
+                        <li>
+                            <a href="{{ . }}" target="_blank" rel="noopener" title="GitHub">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.58 2 12.17c0 4.48 2.87 8.28 6.84 9.62.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.46-1.19-1.11-1.51-1.11-1.51-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.48A10.02 10.02 0 0 0 22 12.17C22 6.58 17.52 2 12 2z" />
+                                </svg>
+                            </a>
+                        </li>
+                        {{ end }}
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="dd4w-profile-info-column">
+                <div class="dd4w-profile-text-box">
+                    <h3 class="dd4w-profile-name">{{ .Title }}</h3>
+                    {{ with .Params.designation }}<h5 class="dd4w-profile-designation">{{ . }}</h5>{{ end }}
+
+                    <div class="dd4w-profile-bio">{{ .Content }}</div>
+
+                    <h4 class="dd4w-profile-sessions-title">Sesiones por {{ .Title }}</h4>
+
+                    <div class="dd4w-session-list">
+                        {{ range (.Data.Pages.ByParam "time_start").Reverse }}
+                        <a class="dd4w-session-card-link" href="{{ .Permalink }}">
+                            <span class="dd4w-session-card-title">{{ .Title }}</span>
+                            {{ with .Params.time_start | time }}
+                            <span class="dd4w-session-card-year">{{ .Format "2006" }}</span>
+                            {{ end }}
+                        </a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
-
-      <div class="dd4w-profile-info-column">
-        <div class="dd4w-profile-text-box">
-          <h3 class="dd4w-profile-name">{{ .Title }}</h3>
-          {{ with .Params.designation }}<h5 class="dd4w-profile-designation">{{ . }}</h5>{{ end }}
-
-          <div class="dd4w-profile-bio">{{ .Content }}</div>
-
-          <h4 class="dd4w-profile-sessions-title">Sesiones por {{ .Title }}</h4>
-
-          <div class="dd4w-session-list">
-            {{ range (.Data.Pages.ByParam "time_start").Reverse }}
-            <a class="dd4w-session-card-link" href="{{ .Permalink }}">
-              <span class="dd4w-session-card-title">{{ .Title }}</span>
-              {{ with .Params.time_start | time }}
-              <span class="dd4w-session-card-year">{{ .Format "2006" }}</span>
-              {{ end }}
-            </a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
 
     </div>
-
-  </div>
 </section>
 
 <style>
@@ -232,9 +245,11 @@
         .dd4w-profile-container {
             width: 95%;
         }
+
         .dd4w-profile-layout {
             flex-direction: column;
         }
+
         .dd4w-profile-image-column {
             width: 100%;
             max-width: 260px;
