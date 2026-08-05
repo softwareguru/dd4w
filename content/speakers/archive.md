@@ -2,8 +2,7 @@
 title: "SPEAKERS ANTERIORES"
 date: 2021-01-06T14:03:13-06:00
 draft: false
-layout: speakers_archive
-type: dd4w2026
+layout: archive
 url: /speakers/archive/
 ---
 

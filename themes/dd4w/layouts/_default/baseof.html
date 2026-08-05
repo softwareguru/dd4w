@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-{{- partial "head.html" . -}}
-
+<html lang="es">
+{{- partial "dd4w2026/head.html" . -}}
 <body>
-	{{- partial "header.html" . -}}
-	{{ if not .IsHome }}
-	{{ partial "page-title.html" . }}
-	{{ end }}
-	{{- block "main" . }}{{- end }}
-	{{- partial "footer.html" . -}}
+<a class="skip" href="#main">Saltar al contenido</a>
+{{- partial "dd4w2026/header.html" . -}}
+<main id="main">
+{{- block "main" . }}{{ end -}}
+</main>
+{{- partial "dd4w2026/footer.html" . -}}
+{{- if .Params.modal }}{{ partial "dd4w2026/sponsor-modal.html" . }}{{ end -}}
+{{- block "extra_body" . }}{{ end -}}
+{{- partial "dd4w2026/scripts.html" . -}}
 </body>
-
 </html>

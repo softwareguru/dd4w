@@ -1,42 +1,287 @@
 {{ define "main" }}
-    
-<div class="container mb-4">
+
+<div class="container mb-5 dd4w-sessions">
+
+
+    {{ .Content }}
+
+    <br>
 
     {{ $is_2023 := eq .RelPermalink "/sessions/octubre-2026/" }}
-    <table data-toggle="table" data-search="true" data-search-align="left">
-        <thead>
-            <tr>
-                <th data-field="title">Título</th>
-                <th data-field="speaker">Conferencista(s)</th>
-                {{ if not $is_2023 }}
-                <th data-field="recording">Grabación</th>
-                <th data-field="slides">Slides</th>
-                {{ end }}
-            </tr>
-        </thead>
 
-        <tbody>
-            {{ range .Data.Pages.ByTitle }}
-            <tr>
-                <td data-toggle="collapse" data-target="#abs-{{.File.TranslationBaseName}}" class="session-toggler"><h5><a class="session-title" style="color: #965cee;">{{ .Params.title }}</a></h5>
-                    <div class="collapse card-abstract" id="abs-{{.File.TranslationBaseName}}">
-                        {{ .Summary }}
-                          <div><a href="{{.Permalink}}">Ver detalles ...</a></div>
-                    </div>
-                </td>
-                <td>{{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}</td>
+    <div class="dd4w-search-wrap">
+
+        <svg class="dd4w-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="7"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="dd4w-search" class="dd4w-search" placeholder="Buscar por título o conferencista...">
+    </div>
+
+
+
+    <div class="dd4w-session-list">
+        {{ range .Data.Pages.ByTitle }}
+
+
+        <div class="dd4w-session-card" data-search="{{ lower .Params.title }} {{ with .Params.speakers }}{{ lower (delimit . " ") }}{{ end }}">
+            <button type="button" class="dd4w-session-main" aria-expanded="false">
+                <span class="dd4w-session-info">
+                    <span class="dd4w-session-title">{{ .Params.title }}</span>
+                    <span class="dd4w-session-speakers">
+                        {{ with .Params.speakers }}{{ delimit . ", " " & " }}{{ end }}
+                    </span>
+                </span>
+
                 {{ if not $is_2023 }}
-                <td class="text-center">{{ with .Params.video }}<a
-                        href='{{ replace . "https://www.youtube.com/embed" "https://youtu.be" }}' target="_blank"><i class="bi bi-youtube"aria-hidden="true" title="Watch"></i></a>{{ end }}</td>
-                <td class="text-center">{{ with .Params.slides }}<a
-                        href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}'
-                        target="_blank" download><i class="bi bi-cloud-arrow-down-fill" aria-hidden="true"
-                            title="Slides"></i></a>{{ end }}</td>
+                <span class="dd4w-session-actions">
+                    {{ with .Params.video }}
+                    <a class="dd4w-icon-btn" href='{{ replace . "https://www.youtube.com/embed" "https://youtu.be" }}'
+                        target="_blank" title="Ver grabación" onclick="event.stopPropagation()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21.6 7.2c-.25-1.6-1.5-2.85-3.1-3.1C16.1 3.7 12 3.7 12 3.7s-4.1 0-6.5.4c-1.6.25-2.85 1.5-3.1 3.1C2 9.6 2 12 2 12s0 2.4.4 4.8c.25 1.6 1.5 2.85 3.1 3.1 2.4.4 6.5.4 6.5.4s4.1 0 6.5-.4c1.6-.25 2.85-1.5 3.1-3.1.4-2.4.4-4.8.4-4.8s0-2.4-.4-4.8zM9.9 15.5V8.5l6 3.5-6 3.5z"/>
+                        </svg>
+                    </a>
+                    {{ end }}
+                    {{ with .Params.slides }}
+                    <a class="dd4w-icon-btn" href='{{ if hasPrefix . "http" }}{{ . }}{{ else }}/slides/{{ . }}{{ end }}'
+                        target="_blank" download title="Descargar slides" onclick="event.stopPropagation()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="7 10 12 15 17 10"></polyline>
+                            <line x1="12" y1="15" x2="12" y2="3"></line>
+                        </svg>
+                    </a>
+                    {{ end }}
+                </span>
                 {{ end }}
-            </tr>
-            {{ end }}
-        </tbody>
-    </table>
+
+                <svg class="dd4w-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </button>
+
+            <div class="dd4w-session-abstract" hidden>
+                <div class="dd4w-session-abstract-inner">
+                    <p>{{ .Summary }}</p>
+                    <a class="dd4w-details-link" href="{{ .Permalink }}">Ver detalles &rarr;</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <p id="dd4w-no-results" class="dd4w-no-results" hidden>
+        No se encontraron sesiones que coincidan con tu búsqueda.
+    </p>
 </div>
+
+<style>
+    :root {
+        --dd4w-purple: #965cee;
+        --dd4w-purple-dark: #7a3fd6;
+        --dd4w-purple-light: #f4edfd;
+        --dd4w-text: #2c2c34;
+        --dd4w-muted: #6b6b76;
+        --dd4w-border: #e8e2f4;
+    }
+
+    .dd4w-sessions {
+        color: var(--dd4w-text);
+        width: 85%;
+        max-width: 1100px;
+        margin: 20px auto 20px auto;
+    }
+
+    .dd4w-search-wrap {
+        position: relative;
+        max-width: 420px;
+        margin: 0 0 1.5rem;
+    }
+
+    .dd4w-search-icon {
+        position: absolute;
+        left: 14px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--dd4w-muted);
+        pointer-events: none;
+    }
+
+    .dd4w-search {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid var(--dd4w-border);
+        border-radius: 999px;
+        padding: 0.65rem 1.1rem 0.65rem 2.4rem;
+        font-size: 0.95rem;
+        font-family: inherit;
+        color: var(--dd4w-text);
+        background: #fff;
+    }
+
+    .dd4w-search:focus {
+        border-color: var(--dd4w-purple);
+        box-shadow: 0 0 0 3px rgba(150, 92, 238, 0.15);
+        outline: none;
+    }
+
+    .dd4w-session-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+    }
+
+    .dd4w-session-card {
+        background: #fff;
+        border: 1px solid var(--dd4w-border);
+        border-radius: 14px;
+        overflow: hidden;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .dd4w-session-card:hover {
+        border-color: var(--dd4w-purple);
+        box-shadow: 0 4px 16px rgba(150, 92, 238, 0.12);
+    }
+
+    .dd4w-session-main {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1.1rem 1.4rem;
+        cursor: pointer;
+        background: none;
+        border: none;
+        text-align: left;
+        font-family: inherit;
+        color: inherit;
+    }
+
+    .dd4w-session-info {
+        flex: 1 1 auto;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .dd4w-session-title {
+        font-weight: 700;
+        font-size: 1.02rem;
+        color: var(--dd4w-purple-dark);
+    }
+
+    .dd4w-session-speakers {
+        font-size: 0.88rem;
+        color: var(--dd4w-muted);
+    }
+
+    .dd4w-session-actions {
+        display: flex;
+        gap: 0.5rem;
+        flex-shrink: 0;
+    }
+
+    .dd4w-icon-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: var(--dd4w-purple-light);
+        color: var(--dd4w-purple-dark);
+        transition: background 0.2s ease, color 0.2s ease;
+    }
+
+    .dd4w-icon-btn:hover {
+        background: var(--dd4w-purple);
+        color: #fff;
+    }
+
+    .dd4w-chevron {
+        flex-shrink: 0;
+        color: var(--dd4w-muted);
+        transition: transform 0.2s ease;
+    }
+
+    .dd4w-session-main[aria-expanded="true"] .dd4w-chevron {
+        transform: rotate(180deg);
+    }
+
+    .dd4w-session-abstract {
+        border-top: 1px solid var(--dd4w-border);
+    }
+
+    .dd4w-session-abstract-inner {
+        padding: 1rem 1.4rem 1.2rem;
+        font-size: 0.92rem;
+        color: var(--dd4w-text);
+    }
+
+    .dd4w-session-abstract-inner p {
+        margin: 0 0 0.75rem;
+    }
+
+    .dd4w-details-link {
+        color: var(--dd4w-purple-dark);
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .dd4w-details-link:hover {
+        text-decoration: underline;
+    }
+
+    .dd4w-no-results {
+        text-align: center;
+        color: var(--dd4w-muted);
+        margin-top: 2rem;
+    }
+
+    @media (max-width: 576px) {
+        .dd4w-session-main {
+            flex-wrap: wrap;
+        }
+        .dd4w-session-actions {
+            order: 3;
+            width: 100%;
+            justify-content: flex-start;
+            margin-top: 0.5rem;
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.dd4w-session-main').forEach(function (btn) {
+            btn.addEventListener('click', function () {
+                var card = btn.closest('.dd4w-session-card');
+                var panel = card.querySelector('.dd4w-session-abstract');
+                var expanded = btn.getAttribute('aria-expanded') === 'true';
+                btn.setAttribute('aria-expanded', String(!expanded));
+                panel.hidden = expanded;
+            });
+        });
+
+        var searchInput = document.getElementById('dd4w-search');
+        var cards = document.querySelectorAll('.dd4w-session-card');
+        var noResults = document.getElementById('dd4w-no-results');
+
+        searchInput.addEventListener('input', function () {
+            var term = this.value.trim().toLowerCase();
+            var visibleCount = 0;
+            cards.forEach(function (card) {
+                var haystack = card.getAttribute('data-search') || '';
+                var match = haystack.indexOf(term) !== -1;
+                card.style.display = match ? '' : 'none';
+                if (match) visibleCount++;
+            });
+            noResults.hidden = visibleCount !== 0;
+        });
+    });
+</script>
 
 {{ end }}

@@ -1,30 +1,36 @@
 {{ define "main" }}
 
-<section class="speaker-2 section">
-  <div class="container">
-    <div class="lead">
-      {{ .Content }}
-    </div>
-    <div class="speaker-strip">
-      {{ range .Data.Pages.ByTitle }}
-      {{ if in .Params.events "octubre-2025" }}
-      <div class="speaker-item">
-        <div class="speaker-block">
-          <div class="headshot-box">
-            <a href="{{.Permalink}}">
-              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title }}" class="img-fluid rounded-circle shadow">
-            </a>
-          </div>
-          <div class="speaker-info text-center">
-            <h4 class="mb-0 mt-3"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
-            <p>{{ .Params.Designation}}</p>
-          </div>
+<section>
+    <div class="wrap">
+        {{ partial "dd4w2026/section-head.html" (dict "kicker" "Ponentes" "title" "Ellas nos han acompañado en 2025") }}
+        <div class="spk">
+            {{ range .Data.Pages.ByTitle }}
+            {{ if in .Params.events "octubre-2025" }}
+            <div class="p">
+              <a href="{{ .Permalink }}">
+
+              
+                {{ with .Params.images }}
+                {{ $img := resources.Get (index . 0) }}
+                {{ if $img }}
+                {{ $webp := $img.Resize "400x webp q85" }}
+
+                <div class="av" role="img" aria-label="{{ $.Title }}"
+                    style="background-image:url('{{ $webp.RelPermalink }}')">
+                </div>
+
+                {{ end }}
+                {{ end }}
+
+                <b>{{ .Title }}</b>
+                <span>{{ .Params.Designation}}</span>
+                </a>
+            </div>
+
+            {{ end }}
+            {{ end }}
         </div>
-      </div>
-      {{ end }}
-      {{ end }}
     </div>
-  </div>
 </section>
- 
+
 {{ end }}

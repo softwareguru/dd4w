@@ -12,6 +12,8 @@
             {{ range where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term" }}
 
             <div class="p">
+                <a href="{{ .Permalink }}">
+
 
                 {{ with .Params.images }}
 
@@ -45,6 +47,7 @@
                 <span>{{ . }}</span>
                 {{ end }}
 
+                </a>
             </div>
 
             {{ end }}
