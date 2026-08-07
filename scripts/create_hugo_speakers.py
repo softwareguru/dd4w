@@ -15,11 +15,12 @@ def main():
 
         for row in reader:
             title = row['title']
-            events = ["2023"]
+            events = ["2026"]
             designation = row['designation']
             bio = row['bio']
             twitter = row['twitter']
             linkedin = row['linkedin']
+            instagram = row['instagram']
 
             slug = slugify(title)
 
@@ -42,6 +43,7 @@ def main():
                 f.write(f"images:\n - /images/speakers/{slug}.jpg\n")
                 f.write(f"twitter: {twitter}\n")
                 f.write(f"linkedin: {linkedin}\n")
+                f.write(f"instagram: {instagram}\n")
                 f.write("events:\n")
                 for s in events:
                     f.write(" - "+s+"\n")

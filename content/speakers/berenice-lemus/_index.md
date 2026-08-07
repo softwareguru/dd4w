@@ -1,14 +1,14 @@
 ---
 title: "Berenice Lemus"
-date: 2021-10-22T15:11:45-05:00
-images : 
- - "/images/speakers/berenice-lemus.jpg"
-designation : "UX Researcher Lead @ Broxel"
-country: "mx"
-twitter: ""
-linkedin: "https://www.linkedin.com/in/berenice-lemus/"
-github: ""
-year: "2021"
+designation: "UX Researcher & Service Designer Más Voces en Diseño México"
+images:
+ - /images/speakers/berenice-lemus.jpg
+twitter: 
+linkedin: https://www.linkedin.com/in/berenice-lemus/
+instagram: 
+events:
+ - 2021
+ - julio-2026
 ---
 
-Diseñadora UX, egresada de la carrera de diseño gráfico en la FES Acatlán, ha participado en el desarrollo de productos digitales para Pymes del sector de artes gráficas, salud y financiero. Actualmente es Lead del equipo de Research en Broxel
+Diseñadora y estratega de experiencia de usuario con sólida experiencia conectando las necesidades de las personas con los objetivos de negocio. Me especializo en investigación, estrategia de producto y la definición de flujos complejos, transformando la ambigüedad en soluciones digitales intuitivas, accesibles y éticas. Considero que el diseño exitoso nace de la empatía profunda, tanto con el usuario final como con los equipos multidisciplinarios que hacen posible la tecnología. Como líder de comunidad, creo firmemente en el poder de la colaboración y la mentoría.

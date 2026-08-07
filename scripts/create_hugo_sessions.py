@@ -9,7 +9,7 @@ def main():
     else:
         source_file = "sessions-dd4w.csv"
 
-    event_slug = "oct-2024"
+    event_slug = "julio-2026"
 
     dirname = "sessions/"+event_slug
     try:
@@ -24,33 +24,33 @@ def main():
         reader = csv.DictReader(csvfile)
 
         for row in reader:
-            id = row['id']
+            #id = row['id']
             title = row['title']
             speakers = row['speakers'].split(", ")
-            format = row['format']
-            block = row['block']
-            time_start = row['time_start']
-            time_end = row['time_end']
+            #format = row['format']
+            #block = row['block']
+            #time_start = row['time_start']
+            #time_end = row['time_end']
             abstract = row['description']
             video = row['video']
             slides = row['slides']
             
             slug = slugify(title)
-            filename =  f"sessions/{event_slug}/{id}-{slug}.md"
+            filename =  f"sessions/{event_slug}/{slug}.md"
 
             with open(filename, "w") as f:
                 f.write("---\n")
-                f.write(f"id: \"{id}\"\n")
+                #f.write(f"id: \"{id}\"\n")
                 f.write(f"title: \"{title}\"\n")
                 f.write(f"slug: {slug}\n")
                 f.write("speakers:\n")
                 for s in speakers:
                     f.write(f" - {s}\n")
-                f.write(f"format: {format}\n")
-                f.write(f"block: {block}\n")
-                f.write(f"time_start: {time_start}\n")
-                f.write(f"time_end: {time_end}\n")
-                f.write(f"slides: \n")
+                #f.write(f"format: {format}\n")
+                #f.write(f"block: {block}\n")
+                #f.write(f"time_start: {time_start}\n")
+                #f.write(f"time_end: {time_end}\n")
+                f.write(f"slides: julio-2026/{slides}.pdf\n")
                 f.write(f"video: \n")
                 f.write("---\n\n")
                 f.write(abstract)

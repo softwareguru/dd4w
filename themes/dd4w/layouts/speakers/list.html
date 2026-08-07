@@ -2,10 +2,10 @@
 
 <section>
     <div class="wrap">
-        {{ partial "dd4w2026/section-head.html" (dict "kicker" "Ponentes" "title" "Ellas nos han acompañado en 2025") }}
+        {{ partial "dd4w2026/section-head.html" (dict "kicker" "Ponentes" "title" "Ellas nos han acompañado en CDMX 2026") }}
         <div class="spk">
             {{ range .Data.Pages.ByTitle }}
-            {{ if in .Params.events "octubre-2025" }}
+            {{ if in .Params.events "julio-2026" }}
             <div class="p">
               <a href="{{ .Permalink }}">
 

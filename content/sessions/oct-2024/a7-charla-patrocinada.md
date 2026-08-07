@@ -3,7 +3,7 @@ id: "a7"
 title: "Superhéroes de la IA: Cómo usar la tecnología para resolver los problemas del mundo"
 slug: superheroes-de-la-ia
 speakers:
- - Marian Suárez
+ - Marian Suarez
 format: Sessions
 block: h2-a-2024
 time_start: 2024-10-29T11:00:00-06:00

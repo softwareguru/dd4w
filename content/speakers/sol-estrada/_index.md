@@ -3,7 +3,7 @@ title: "Sol Estrada"
 date: 2021-03-30T13:15:52-06:00
 images: 
  - /images/speakers/sol-estrada.jpg
-designation: Enterprise Agile Coach
+designation: Consultor de Procesos GRDS
 country: 
 twitter: https://twitter.com/solestradaso?lang=es
 linkedin: https://www.linkedin.com/in/sol-estrada-soto-5060814a/?originalSubdomain=mx
@@ -13,7 +13,10 @@ events:
  - 2023-h1
  - 2024-IA
  - oct-2024
+ - julio-2026
 ia: true
 ---
 
-Orgullosamente michoacana, promotora de “las mujeres también podemos” , Enterprise Agile Coach, TSP Coach busco que los equipos colaboren a través de sus habilidades y conocimientos, tengo más de 15 años de experiencia entre análisis de negocio, implementación de buenas prácticas, auditorías CMMi, implementación de PSP, adopción de Agilidad con marcos como Scrum, Kanban, Escalado, speaker en foros de temas relacionados con “Mujeres en Tecnología "", embajadora de Women Techmakers, mentora.
+Soy ingeniera en sistemas computacionales y me apasiona crear espacios donde los equipos crezcan, aprendan y generen valor sostenible.
+Participo activamente en comunidades de mujeres en tecnología, impulsando espacios de aprendizaje, conexión y crecimiento colectivo.
+Hoy regreso a un proyecto muy personal: Mux Kulli, donde, como Directora General, busco llevar la cultura del maíz a la Baja.
