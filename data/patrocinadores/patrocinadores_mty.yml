@@ -27,6 +27,10 @@ tiers:
         image: images/logos/pack.png
         url: https://www.packtpub.com/
 
+      - name: Ingenia
+        image: images/logos/ingenia.jpg
+        url: https://eic.tec.mx/es/iniciativas-cambio/ingenia-women-in-stem
+
   - class: t-orga
     label: Organizado por
     logos:
