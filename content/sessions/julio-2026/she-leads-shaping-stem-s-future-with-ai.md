@@ -7,8 +7,7 @@ speakers:
  - Cintia Vargas
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
-#slides: julio-2026/.pdf
-video: 
+video: https://youtu.be/oF8DkLD4nJ4
 ---
 
 Se habla mucho de que la IA «reemplaza» empleos. ¿Qué tan cierto es visto desde adentro, por quienes contratan y lideran equipos hoy?

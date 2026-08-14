@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/kit-de-supervivencia-soft-skills-que-marcan-la-diferencia.pdf
-video: 
+video: https://youtu.be/XeRCSxoWMTI
 ---
 
 Las habilidades técnicas abren puertas, pero las habilidades blandas

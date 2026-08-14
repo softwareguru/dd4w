@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/aiready-data-por-que-no-hay-ia-sin-una-estrategia-de-datos.pdf
-video: 
+video: https://youtu.be/b83qk7LmgKg
 ---
 
 Implementar IA sin una estrategia de datos es una receta para el fracaso. El famoso 'Garbage In, Garbage Out' sigue siendo el mayor obstáculo para la innovación. En esta sesión, hablaremos sobre las estrategias para construir un ecosistema de datos 'AI-Ready'. 

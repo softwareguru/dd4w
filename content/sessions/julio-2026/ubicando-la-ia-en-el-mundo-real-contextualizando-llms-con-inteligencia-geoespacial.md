@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/ubicando-la-ia-en-el-mundo-real-contextualizando-llms-con-inteligencia-geoespacial.pdf
-video: 
+video: https://youtu.be/SwbpYtMjeXc
 ---
 
 En la era de la inteligencia artificial generativa, los modelos de lenguaje (LLMs) han demostrado una capacidad asombrosa para razonar y crear. Sin embargo, cuando se trata de interactuar con el mundo físico, a menudo se enfrentan a un desafío crítico: la falta de contexto en tiempo real y las "alucinaciones" geográficas. ¿Cómo podemos asegurar que las respuestas de una IA estén verdaderamente conectadas con la realidad de nuestro entorno? La respuesta está en la Inteligencia Geoespacial.

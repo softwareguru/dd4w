@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/datos-contra-el-olvido-como-construi-un-mapa-de-organizaciones-que-documentan-feminicidios-en-mexico-con-herramientas-gratuitas.pdf
-video: 
+video: https://youtu.be/N6t-lMRFX1U
 ---
 
 Título sugerido:

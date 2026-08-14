@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/detecta-me-hackearon-o-me-estan-manipulando-aprende-a-investigar-riesgos-digitales-en-la-era-de-la-ia.pdf
-video: 
+video: https://youtu.be/YkfIv67m90s
 ---
 
 La inteligencia artificial está transformando la forma en que nos comunicamos, trabajamos y aprendemos, pero también está facilitando nuevas formas de fraude, manipulación y violencia digital. Hoy, un mensaje, un correo electrónico, una llamada o incluso una imagen generada con IA pueden parecer completamente legítimos.

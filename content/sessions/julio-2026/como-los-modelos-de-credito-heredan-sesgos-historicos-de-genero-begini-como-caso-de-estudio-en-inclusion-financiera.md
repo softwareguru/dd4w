@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/como-los-modelos-de-credito-heredan-sesgos-historicos-de-genero-begini-como-caso-de-estudio-en-inclusion-financiera.pdf
-video: 
+video: https://youtu.be/JQo4gsHeBYs
 ---
 
 En gran parte de América Latina, los modelos de riesgo de crédito siguen dependiendo de datos del buró: historial de pago, límites, moras y consultas. Eso significa que los sesgos históricos en la forma en que se ha otorgado crédito, por ejemplo, en menores montos aprobados o en menos productos ofrecidos a mujeres, quedan codificados en los datos que entrenan los modelos actuales. Evaluar el sesgo en estos modelos exige mirar más allá de la métrica de precisión y preguntarnos: ¿qué pasa con las personas, en especial con las mujeres, que quedan sistemáticamente subvaloradas por ese sistema? Estas preguntas abren la puerta a explorar tanto las limitaciones del enfoque tradicional como los riesgos de trasladar los mismos patrones a nuevas fuentes de datos y a sistemas de IA más complejos.

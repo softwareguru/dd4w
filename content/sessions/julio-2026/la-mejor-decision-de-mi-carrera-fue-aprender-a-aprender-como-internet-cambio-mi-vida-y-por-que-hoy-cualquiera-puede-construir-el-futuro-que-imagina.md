@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/la-mejor-decision-de-mi-carrera-fue-aprender-a-aprender-como-internet-cambio-mi-vida-y-por-que-hoy-cualquiera-puede-construir-el-futuro-que-imagina.pdf
-video: 
+video: https://youtu.be/3ZdRKAjPql4
 ---
 
 A los 19 años dejé la universidad porque mi familia ya no podía seguir pagando mis estudios. En ese momento pensé que estaba perdiendo mi oportunidad de construir una carrera. En realidad, estaba descubriendo una nueva forma de aprender. La necesidad de apoyar a mi familia me hizo tomar un path inusual. 

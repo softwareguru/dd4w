@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/no-espere-a-sentirme-lista-aunque-la-verdad-es-que-casi-lo-hago.pdf
-video: 
+video: https://youtu.be/TU3zmkqpGiA
 ---
 
 En esta charla comparto cómo una pregunta tan simple como ”¿Y si sí aplicamos?” terminó cambiando mi forma de vivir la universidad.

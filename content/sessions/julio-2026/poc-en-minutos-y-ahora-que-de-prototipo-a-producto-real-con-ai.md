@@ -7,7 +7,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 #slides: julio-2026/.pdf
-video: 
+video: https://youtu.be/pz68d0qYuwo
 ---
 
 Objetivo: Crear un PoC con AI nunca ha sido tan fácil. Y justo por eso… hacer lo correcto es más difícil que nunca.
