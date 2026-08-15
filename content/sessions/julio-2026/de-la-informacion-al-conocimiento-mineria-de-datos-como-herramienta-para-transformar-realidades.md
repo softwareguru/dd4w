@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/de-la-informacion-al-conocimiento-mineria-de-datos-como-herramienta-para-transformar-realidades.pdf
-video: 
+video: https://youtu.be/YAcIqhpAW_k
 ---
 
 La minería de datos se ha consolidado como una herramienta estratégica para transformar volúmenes de información en conocimiento para la toma de decisiones. Esta propuesta presenta una reflexión sobre su potencial para atender problemáticas complejas en ámbitos como la educación, la salud y el bienestar, a partir de una trayectoria centrada en la ciencia de datos, la inteligencia artificial y los sistemas inteligentes.
