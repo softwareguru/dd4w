@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/liderando-con-neurodivergencia-herramientas-reales-para-mujeres-en-tecnologia.pdf
-video: 
+video: https://youtu.be/S8Wletu_fDE
 ---
 
 Navegar por el demandante mundo de la tecnología y el liderazgo de comunidades es un reto enorme. Pero, ¿qué pasa cuando a las responsabilidades diarias de ser una mujer "godín" en el sector tech le sumamos el TDAH, el Trastorno de Ansiedad Generalizada y la depresión? En esta charla, nos quitaremos los filtros para hablar de la realidad de la neurodivergencia y la salud mental en nuestros espacios de trabajo.
