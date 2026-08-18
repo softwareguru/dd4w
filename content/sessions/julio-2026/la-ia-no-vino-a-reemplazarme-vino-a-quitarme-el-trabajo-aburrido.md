@@ -6,7 +6,7 @@ speakers:
 time_start: 2026-07-31T10:00:00-06:00
 time_end: 2026-07-31T11:00:00-06:00
 slides: julio-2026/la-ia-no-vino-a-reemplazarme-vino-a-quitarme-el-trabajo-aburrido.pdf
-video: 
+video: https://youtu.be/tab_hC8PBQs
 ---
 
 Durante mucho tiempo pensé que la inteligencia artificial me ayudaría a hacer mi trabajo más rápido. Y sí, lo hace. Pero después de usarla todos los días como Portfolio Manager y Scrum Master, descubrí que ese no era el mayor beneficio.
