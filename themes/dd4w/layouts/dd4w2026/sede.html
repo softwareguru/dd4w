@@ -18,7 +18,7 @@
                     style="height:46px;width:auto;object-fit:contain"></div>
         </div>
         <div class="hero-visual" role="img" aria-label="Fotografía de la sede de Ciudad de México"><img
-                src="/preview/images/hero-cdmx.jpg" alt="Comunidad de Dev Day 4 Women en una edición pasada"
+                src="/preview/images/hero-cdmx-2026.jpg" alt="Foto grupal de la comunidad en Dev Day 4 Women CDMX 2026"
                 style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center"
                 onerror="this.style.display='none'"></div>
     </div>
@@ -61,6 +61,23 @@
 {{ partial "dd4w2026/participate.html" (dict "luma" "https://luma.com/rg7imt3n" "cfp"
 "https://convoca.dev/dev-day-4-women-cdmx-2026/cfp" "registro_cerrado" true) }}
 
+{{- /* perfil de ponente -> slug de su sesión, derivado de la agenda para no
+     duplicar el dato. Alimenta el botón "Ver sesión" del modal, tanto en la
+     rejilla de ponentes como en la de talleres patrocinados (perfiles "tp-"). */ -}}
+{{- $sesionPorPerfil := dict -}}
+{{- range $sala := site.Data.agenda.cdmx.salas -}}
+  {{- range $ses := $sala.sesiones -}}
+    {{- with $ses.sesion -}}
+      {{- $slugSesion := . -}}
+      {{- range $p := $ses.ponentes -}}
+        {{- with $p.perfil -}}
+          {{- $sesionPorPerfil = merge $sesionPorPerfil (dict . $slugSesion) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
 {{ with .Site.Data.speakers.cdmx.ponentes }}
 {{ $all := . }}
 <section>
@@ -81,7 +98,7 @@
             <div class="spk-cat-head">
                 <h3>{{ $c.label }}</h3>{{ with $c.meta }}<span class="spk-cat-meta">{{ . }}</span>{{ end }}
             </div>
-            {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" (sort . "name")) }}
+            {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" (sort . "name") "sesiones" $sesionPorPerfil) }}
         </div>
         {{ end }}
         {{ end }}
@@ -107,7 +124,8 @@
                     {{- if or .bio .linkedin }}
                     <button type="button" class="spk-trigger" aria-haspopup="dialog"
                         data-spk="tp-{{ $slug }}" data-name="{{ .name }}" data-role="{{ .role }}" data-org="{{ .org }}"
-                        data-linkedin="{{ .linkedin }}">
+                        data-linkedin="{{ .linkedin }}"
+                        {{- with index $sesionPorPerfil (printf "tp-%s" $slug) }} data-sesion="{{ . }}"{{ end }}>
                         <span class="av"{{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')"{{ end }} role="img" aria-label="{{ .name }}"></span>
                         <b>{{ .name }}</b>
                         {{- with .org }}<span class="org">{{ . }}</span>{{ end }}
@@ -218,7 +236,7 @@
     </div>
 </section>
 
-{{ partial "dd4w2026/gallery.html" . }}
+{{ partial "dd4w2026/gallery.html" (dict "data" site.Data.galeria_cdmx) }}
 
 <section class="final">
     <div class="wrap">
@@ -240,6 +258,7 @@
             </div>
         </div>
         <div class="spk-modal-bio" id="spk-modal-bio"></div>
+        <a class="btn btn-primary" id="spk-modal-sesion" href="#" hidden>Ver sesión →</a>
         <a class="btn btn-primary" id="spk-modal-li" href="#" target="_blank" rel="noopener noreferrer" hidden>Ver
             LinkedIn</a>
     </div>
@@ -258,6 +277,7 @@
     var elBio = document.getElementById('spk-modal-bio');
     var elAv = document.getElementById('spk-modal-av');
     var elLi = document.getElementById('spk-modal-li');
+    var elSes = document.getElementById('spk-modal-sesion');
     var lastFocus = null;
 
     function fill(btn) {
@@ -274,6 +294,11 @@
         elBio.hidden = !bio;
         var li = btn.getAttribute('data-linkedin');
         if (li) { elLi.href = li; elLi.hidden = false; } else { elLi.hidden = true; }
+        var ses = btn.getAttribute('data-sesion');
+        if (ses) {
+            elSes.href = '/sessions/julio-2026/' + ses + '/';
+            elSes.hidden = false;
+        } else { elSes.hidden = true; }
         return slug;
     }
 

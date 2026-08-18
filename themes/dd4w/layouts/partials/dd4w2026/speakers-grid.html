@@ -1,17 +1,23 @@
 {{- /* Rejilla de ponentes reutilizable.
-Uso: {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" $lista) }}
+Uso: {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" $lista "sesiones" $mapa) }}
 Cada item: name, role, org, photo (archivo en /preview/images/speakers/), bio?, linkedin?.
 Si hay bio o linkedin, la tarjeta se vuelve un botón que abre el modal de perfil
-(ver #spk-modal y el script en sede.html). */ -}}
+(ver #spk-modal y el script en sede.html).
+"sesiones" (opcional): dict slug-de-perfil -> slug de sesión. Si la ponente está
+ahí, el modal ofrece el enlace a su landing en /sessions/julio-2026/. */ -}}
 {{- $ponentes := .ponentes -}}
+{{- $sesiones := .sesiones | default dict -}}
 <div class="spk">
   {{- range $ponentes }}
   {{- $slug := partial "dd4w2026/slug.html" .name -}}
   {{- $tiene := or .bio .linkedin -}}
+  {{- /* el `sesion` propio gana sobre el derivado de la agenda */ -}}
+  {{- $sesion := .sesion | default (index $sesiones $slug) -}}
   <div class="p">
     {{- if $tiene }}
     <button type="button" class="spk-trigger" aria-haspopup="dialog" data-spk="{{ $slug }}" data-name="{{ .name }}"
-      data-role="{{ .role }}" data-org="{{ .org }}" data-linkedin="{{ .linkedin }}">
+      data-role="{{ .role }}" data-org="{{ .org }}" data-linkedin="{{ .linkedin }}"
+      {{- with $sesion }} data-sesion="{{ . }}"{{ end }}>
       <span class="av" {{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')" {{ end }}
         role="img" aria-label="{{ .name }}"></span>
       <b>{{ .name }}</b>

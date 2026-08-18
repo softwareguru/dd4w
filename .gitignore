@@ -9,3 +9,4 @@ oldlayouts/
 .DS_Store
 tmp
 insumos/
+.gstack/

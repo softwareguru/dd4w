@@ -4,6 +4,9 @@
 # Los abstractos se editaron para corregir ortografía, limpiar artefactos de
 # codificación del export y unificar la redacción.
 # tipo: sesion | workshop | logistica   (controla estilo de la fila)
+# sesion: slug de la landing en /sessions/julio-2026/<slug>/ (campo `slug` del
+#   archivo en content/sessions/julio-2026/). Si existe, la fila muestra el
+#   enlace "Ver sesión" y el modal de la ponente ofrece el mismo destino.
 # destacado: fila en morado sólido (panel) · resaltar: realce secundario
 # abstracto: si existe, la fila se vuelve un desplegable (<details>)
 salas:
@@ -17,6 +20,7 @@ salas:
         tipo: "logistica"
       - horario: "09:15 – 09:35"
         titulo: "Cuando la IA se equivoca: errores, alucinaciones y cómo construir sistemas confiables"
+        sesion: "cuando-la-ia-se-equivoca-errores-alucinaciones-y-como-construir-sistemas-confiables"
         ponentes:
           - nombre: "Irais Serrano"
             perfil: "irais-serrano"
@@ -32,6 +36,7 @@ salas:
           La charla busca mostrar que el valor de la inteligencia artificial no está solamente en la capacidad del modelo, sino en la forma en que las ingenieras diseñamos los sistemas a su alrededor. Mantener el criterio técnico, la responsabilidad y la confianza será clave para crear tecnología que realmente genere impacto.
       - horario: "09:35 – 09:55"
         titulo: "Inteligencia geoespacial en la era de la IA"
+        sesion: "ubicando-la-ia-en-el-mundo-real-contextualizando-llms-con-inteligencia-geoespacial"
         ponentes:
           - nombre: "Martha Villanueva"
             perfil: "martha-villanueva-sanchez"
@@ -45,6 +50,7 @@ salas:
           Diseñada para desarrolladoras y entusiastas de la tecnología, esta sesión desmitificará la integración de APIs geoespaciales con modelos de IA. Las asistentes se llevarán una visión clara de cómo el grounding mitiga los errores de los LLM, abre nuevas posibilidades para el desarrollo de aplicaciones inteligentes y redefine la forma en que el software interactúa con nuestro espacio físico.
       - horario: "10:15 – 11:00"
         titulo: "Tu mayor ventaja no es técnica. Y la IA te va a ayudar a encontrarla."
+        sesion: "tu-mayor-ventaja-no-es-tecnica-y-la-ia-te-va-a-ayudar-a-encontrarla"
         ponentes:
           - nombre: "Marian Suárez"
             perfil: "marian-suarez"
@@ -63,6 +69,7 @@ salas:
         tipo: "logistica"
       - horario: "11:20 – 12:05"
         titulo: "Spec Driven Development: liderando con claridad desde la especificación"
+        sesion: "spec-driven-development-liderando-con-claridad-desde-la-especificacion"
         ponentes:
           - nombre: "Joselyn Ramos"
             perfil: "tp-joselyn-jassel-ramos-lorenzo"
@@ -77,6 +84,7 @@ salas:
           En esta sesión hablaremos de Spec Driven Development (SDD), una metodología que coloca la especificación en el corazón de la construcción de producto. No es un trámite ni un documento más: es una herramienta de poder que nos permite alinear equipos, decidir con intención y liderar con confianza incluso cuando todo alrededor es incertidumbre.
       - horario: "12:05 – 12:50"
         titulo: "Kit de supervivencia: Soft Skills que marcan la diferencia"
+        sesion: "kit-de-supervivencia-soft-skills-que-marcan-la-diferencia"
         ponentes:
           - nombre: "Elena Pérez"
             perfil: "tp-elena-perez"
@@ -93,6 +101,7 @@ salas:
           Al finalizar, las participantes contarán con una base que les permitirá desenvolverse con mayor seguridad y avanzar en su carrera profesional.
       - horario: "12:50 – 13:00"
         titulo: "Hasta aquí llegas: el techo del sector tech mexicano"
+        sesion: "hasta-aqui-llegas-el-techo-del-sector-tech-mexicano"
         ponentes:
           - nombre: "Laura Figueroa"
             perfil: "laura-figueroa"
@@ -105,6 +114,7 @@ salas:
         tipo: "logistica"
       - horario: "13:10 – 13:55"
         titulo: "She Leads: Shaping STEM's Future with AI"
+        sesion: "she-leads-shaping-stem-s-future-with-ai"
         ponentes:
           - nombre: "Gabriela Guevara"
             perfil: "gabriela-guevara"
@@ -135,6 +145,7 @@ salas:
         resaltar: true
       - horario: "14:15 – 14:35"
         titulo: "De la información al conocimiento: minería de datos como herramienta para transformar realidades"
+        sesion: "de-la-informacion-al-conocimiento-mineria-de-datos-como-herramienta-para-transformar-realidades"
         ponentes:
           - nombre: "Doricela Gutiérrez"
             perfil: "doricela-gutierrez-cruz"
@@ -150,6 +161,7 @@ salas:
           Como mujer en STEM, esta experiencia evidencia que la participación femenina en ingeniería y tecnología fortalece la construcción de soluciones más incluyentes y vinculadas con los retos sociales. La minería de datos no debe entenderse únicamente como un recurso técnico, sino como una herramienta para impulsar la investigación aplicada, formar nuevas generaciones y promover decisiones que contribuyan a mejorar la vida de las comunidades.
       - horario: "14:35 – 14:55"
         titulo: "MLOps vs DevOps: el siguiente paso en la evolución tech"
+        sesion: "mlops-vs-devops-el-siguiente-paso-en-la-evolucion-tech"
         ponentes:
           - nombre: "Daniela Cortés"
             perfil: "daniela-cortes"
@@ -165,6 +177,7 @@ salas:
         tipo: "logistica"
       - horario: "15:35 – 15:55"
         titulo: "Datos contra el olvido: cómo construí un mapa de organizaciones que documentan feminicidios en México con herramientas gratuitas"
+        sesion: "datos-contra-el-olvido-como-construi-un-mapa-de-organizaciones"
         ponentes:
           - nombre: "Nydia Mejía"
             perfil: "nydia-mejia-zavala"
@@ -182,6 +195,7 @@ salas:
           El mensaje central es simple: no necesitas infraestructura costosa ni un equipo grande para construir algo significativo. Necesitas identificar un problema real, las herramientas correctas y la claridad de que los datos nunca son neutrales.
       - horario: "15:55 – 16:15"
         titulo: "Cómo los modelos de crédito heredan sesgos históricos de género: Begini como caso de estudio en inclusión financiera"
+        sesion: "como-los-modelos-de-credito-heredan"
         ponentes:
           - nombre: "Francys Lanza"
             perfil: "francys-lanza"
@@ -195,6 +209,7 @@ salas:
           Además, las métricas psicométricas se generan bajo condiciones controladas y pueden auditarse y recalibrarse para evitar que penalicen de forma injustificada a un género o grupo específico, reduciendo la herencia de sesgos históricos. Al complementar el buró con este perfil de carácter, las entidades financieras pueden distinguir entre quienes tienen poco historial por exclusión previa y quienes muestran patrones de riesgo genuinamente problemáticos, abriendo espacio a decisiones de crédito más explicables, personalizadas y alineadas con una inclusión financiera más justa.
       - horario: "16:15 – 16:35"
         titulo: "Liderando con neurodivergencia: herramientas reales para mujeres en tecnología"
+        sesion: "liderando-con-neurodivergencia-herramientas-reales-para-mujeres-en-tecnologia"
         ponentes:
           - nombre: "Ana Cifuentes"
             perfil: "ana-guadalupe-cifuentes-sanchez"
@@ -213,6 +228,7 @@ salas:
         tipo: "logistica"
       - horario: "16:50 – 17:10"
         titulo: "AI-Ready Data: por qué no hay IA sin una estrategia de datos"
+        sesion: "ai-ready-data-por-que-no-hay-ia-sin-una-estrategia-de-datos"
         ponentes:
           - nombre: "Valery Calderón"
             perfil: "valery-calderon-briz"
@@ -224,6 +240,7 @@ salas:
           Veremos estrategias prácticas de gobernanza de datos para garantizar la disponibilidad, seguridad, consistencia y fiabilidad de la información, asegurando que tus modelos de IA operen sobre una base sólida y escalable, alineada con las exigencias del mercado actual.
       - horario: "17:10 – 17:30"
         titulo: "DETECTA: ¿me hackearon o me están manipulando? Aprende a investigar riesgos digitales en la era de la IA"
+        sesion: "detecta-me-hackearon-o-me-estan-manipulando-aprende-a-investigar-riesgos-digitales-en-la-era-de-la-ia"
         ponentes:
           - nombre: "Amizaday Hernández"
             perfil: "amizaday-hernandez"
@@ -239,6 +256,7 @@ salas:
           Al finalizar, las participantes contarán con un proceso claro para investigar incidentes digitales, fortalecer su seguridad personal y acompañar a otras personas en la protección de su identidad digital. Porque en la era de la IA, la mejor defensa no es el miedo: es aprender a detectar, analizar y actuar.
       - horario: "17:30 – 17:45"
         titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
+        sesion: "cuando-diseno-y-desarrollo-hablan-el-mismo-idioma-ia-para-escalar-un-design-system-multimarca"
         ponentes:
           - nombre: "Antonieta Carrasco"
             perfil: "antonieta-carrasco"
@@ -248,6 +266,7 @@ salas:
           Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
       - horario: "17:45 – 17:50"
         titulo: "Quemar las naves"
+        sesion: "quemar-las-naves"
         ponentes:
           - nombre: "Sol Estrada"
             perfil: "sol-estrada"
@@ -258,6 +277,7 @@ salas:
           Hay momentos en los que la vida te invita —o te exige— volver a empezar: cambiar de carrera, de trabajo, de lugar, de personas. Hoy quiero compartirles lo que ha significado para mí «quemar las naves» y tener el valor de comenzar otra vez.
       - horario: "17:50 – 17:55"
         titulo: "La mejor decisión de mi carrera fue aprender a aprender: cómo Internet cambió mi vida y por qué hoy cualquiera puede construir el futuro que imagina"
+        sesion: "la-mejor-decision-de-mi-carrera-fue-aprender-a-aprender"
         ponentes:
           - nombre: "Jaqueline Razo"
             perfil: "jaqueline-razo"
@@ -274,6 +294,7 @@ salas:
           Mi objetivo es que cada asistente salga convencida de que su punto de partida no determina su futuro. La tecnología evoluciona constantemente, pero la capacidad de aprender y atreverse a dar el siguiente paso sigue siendo la habilidad más poderosa de todas.
       - horario: "17:55 – 18:00"
         titulo: "IA generativa: impacto colaborativo y enfoque ético multidisciplinario"
+        sesion: "ia-generativa-impacto-colaborativo-y-enfoque-etico-multidisciplinario"
         ponentes:
           - nombre: "Marisela Cadena"
             perfil: "marisela-cadena-cosmes"
@@ -288,6 +309,7 @@ salas:
           En estos cinco minutos quiero bajar a la tierra el debate ético desde la realidad del código. Analizaremos por qué la IA no es la culpable de sus impactos negativos y por qué urge un enfoque multidisciplinario real, donde la presencia de mujeres técnicas sea el contrapeso necesario para cuestionar lo que hoy se da por sentado.
       - horario: "18:00 – 18:05"
         titulo: "No esperé a sentirme lista... aunque la verdad es que casi lo hago"
+        sesion: "no-espere-a-sentirme-lista-aunque-la-verdad-es-que-casi-lo-hago"
         ponentes:
           - nombre: "Paola Flores"
             perfil: "paola-karina-flores-martinez"
@@ -304,6 +326,7 @@ salas:
           Más que una charla sobre convocatorias, es una invitación a dejar de esperar el momento perfecto para empezar. Porque, a veces, todo cambia cuando dejamos de preguntarnos si somos suficientes y simplemente nos atrevemos a decir: «¿y si sí aplicamos?».
       - horario: "18:05 – 18:10"
         titulo: "La IA no vino a reemplazarme, vino a quitarme el trabajo aburrido"
+        sesion: "la-ia-no-vino-a-reemplazarme-vino-a-quitarme-el-trabajo-aburrido"
         ponentes:
           - nombre: "Gabriela Tejadilla"
             perfil: "martha-gabriela-tejadilla-jaime"
@@ -329,6 +352,7 @@ salas:
     sesiones:
       - horario: "14:15 – 14:55"
         titulo: "PoC en minutos… ¿y ahora qué? De prototipo a producto real con AI"
+        sesion: "poc-en-minutos-y-ahora-que-de-prototipo-a-producto-real-con-ai"
         ponentes:
           - nombre: "Viridiana Romero"
             perfil: "tp-viridiana-romero"
@@ -346,6 +370,7 @@ salas:
           Exploraremos cómo pasar de una idea a una solución viable considerando lo que realmente importa en el mundo real: valor de negocio, riesgos, arquitectura, data governance, seguridad, escalabilidad y costos. Porque en la era de la inteligencia artificial, la ventaja no está en quién construye más rápido, sino en quién decide mejor.
       - horario: "15:35 – 16:15"
         titulo: "Guardrails de Bedrock: construye IA responsable que proteja a tus usuarias"
+        sesion: "guardrails-de-bedrock-construye-ia-responsable-que-proteja-a-tus-usuarias"
         ponentes:
           - nombre: "Fernanda Osorio"
             perfil: "fernanda-osorio"
@@ -358,6 +383,7 @@ salas:
           Veremos en tiempo real cómo un modelo sin protecciones puede generar respuestas problemáticas —y cómo nosotras, como desarrolladoras, tenemos el poder de definir los límites éticos de la IA que construimos.
       - horario: "16:50 – 17:30"
         titulo: "Strategy: The hidden knowledge"
+        sesion: "strategy-the-hidden-knowledge-for-women-in-tech"
         ponentes:
           - nombre: "Sandra Márquez"
             perfil: "sandra-marquez"
