@@ -1,4 +1,14 @@
+{{/*
+    Carrusel de galería.
+    Uso: {{ partial "dd4w2026/gallery.html" (dict "data" site.Data.galeria_cdmx) }}
+    Sin parámetro usa la galería general (site.Data.galeria).
+*/}}
 {{ $gallery := site.Data.galeria }}
+{{ if reflect.IsMap . }}
+    {{ with .data }}{{ $gallery = . }}{{ end }}
+{{ end }}
+
+{{ $alt := $gallery.alt | default "Galería de fotografías de ediciones pasadas" }}
 
 <section>
     <div class="wrap">
@@ -10,9 +20,10 @@
 
         <div class="gal-c"
              role="img"
-             aria-label="Galería de fotografías de ediciones pasadas">
+             aria-label="{{ $alt }}">
 
-            <div class="gal-track">
+            {{/* ~6s por foto para que la velocidad no dependa de cuántas haya */}}
+            <div class="gal-track" style="--gal-dur:{{ mul (len $gallery.images) 6 }}s">
 
                 {{/* Primera pasada */}}
                 {{ range $gallery.images }}

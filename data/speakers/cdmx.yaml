@@ -5,6 +5,10 @@
 # en tercera persona y limpiar artefactos de codificación del export.
 # cat: charla | taller | lightning | comunidad
 # photo: archivo en /preview/images/speakers/
+# sesion: slug de su landing en /sessions/julio-2026/<slug>/. Solo hace falta
+#   cuando la agenda no puede resolverlo sola (p. ej. las comunidades, que van
+#   agrupadas en una sola fila sin perfil individual). En el resto de los casos
+#   el enlace se deriva del campo `sesion` de data/agenda/cdmx.yaml.
 ponentes:
   - name: "Amizaday Hernández"
     role: "Instructora líder y docente"
@@ -49,6 +53,7 @@ ponentes:
     role: "UX Researcher & Service Designer"
     org: "Más Voces en Diseño México"
     cat: "comunidad"
+    sesion: "comunidad-mas-voces-en-diseno-mexico"
     photo: "berenice-lemus.jpg"
     linkedin: "https://www.linkedin.com/in/berenice-lemus/"
     bio: |-
@@ -205,6 +210,7 @@ ponentes:
     role: "Investigadora"
     org: "UNAM"
     cat: "comunidad"
+    sesion: "no-tienes-que-aprender-ia-sola-comunidad-datos-y-futuro-para-mujeres-en-stem"
     photo: "mirna-vazquez.jpg"
     bio: |-
       Mirna Vázquez Rosas Landa es investigadora en ecología microbiana, metagenómica y bioinformática. Su trabajo integra el análisis de datos, la ciencia abierta y la programación en R para estudiar microbiomas ambientales. También impulsa comunidades de aprendizaje para que más mujeres en STEM desarrollen confianza técnica.
