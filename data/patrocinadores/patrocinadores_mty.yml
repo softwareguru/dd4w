@@ -31,6 +31,9 @@ tiers:
         image: images/logos/ingenia.jpg
         url: https://eic.tec.mx/es/iniciativas-cambio/ingenia-women-in-stem
 
+      - name: EXATEC Mujeres
+        image: images/logos/exatec.jpg
+
   - class: t-orga
     label: Organizado por
     logos:
