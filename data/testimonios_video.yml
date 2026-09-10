@@ -1,0 +1,41 @@
+### Testimonios en video (entrevistas a speakers publicadas en Instagram)
+#
+# Cada entrada genera una tarjeta con la carátula del video que, al hacer clic,
+# abre el reel/post en Instagram en una pestaña nueva. No se carga ningún script
+# de Instagram, así que no hay cookies de terceros ni impacto en la velocidad.
+#
+# Campos:
+#   nombre  (obligatorio) nombre de la speaker entrevistada
+#   cargo   (opcional)    puesto @ empresa, como aparece en la ficha de speakers
+#   url     (obligatorio) permalink del reel o post, p. ej.
+#                         https://www.instagram.com/reel/ABC123xyz/
+#   poster  (opcional)    imagen de carátula dentro de /static, p. ej.
+#                         /images/testimonios/nombre.jpg
+#                         Si se omite, la tarjeta usa el fondo de marca con la
+#                         flor de anacahuita y el nombre de la speaker.
+#   frase   (opcional)    cita corta de la entrevista (máx. ~120 caracteres)
+#
+# Mientras la lista esté vacía, la sección no se muestra en el sitio.
+
+kicker: "Voces de la comunidad"
+titulo: "Ellas lo vivieron y lo cuentan"
+desc: "Entrevistas con speakers de la edición CDMX sobre lo que se llevaron del día."
+
+videos:
+  - nombre: "Gabriela Guevara"
+    cargo: "Directora y fundadora de El Tren de la Tecnología"
+    url: "https://www.instagram.com/p/DcUyteMDn39/"
+    poster: "/images/testimonios/gabriela-guevara.jpg"
+    frase: "El triunfo de una es el triunfo de todas."
+
+  - nombre: "Montserrat Montejo"
+    cargo: "Asistente"
+    url: "https://www.instagram.com/p/DcfGDLkALy_/"
+    poster: "/images/testimonios/montserrat-montejo.jpg"
+    frase: "Apoyarnos unas a otras nos ha ido fortaleciendo."
+
+  - nombre: "Amisaday Hernández"
+    cargo: "Instructora líder en Generation México"
+    url: "https://www.instagram.com/p/DcCxXcZAkse/"
+    poster: "/images/testimonios/amisaday-hernandez.jpg"
+    frase: "A veces el siguiente paso no requiere saberlo todo."

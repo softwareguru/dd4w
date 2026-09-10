@@ -1,23 +1,31 @@
 {{ define "main" }}
+<section class="hero">
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="wrap hero-center">
+    <span class="eyebrow">Comunidad</span>
+    <h1>Reconocimientos <span class="hl">Code 4 DEI</span></h1>
+    <p class="lead" style="margin:18px auto 0">Reconocemos el esfuerzo, liderazgo y participación de las mujeres en
+      las tecnologías de la información.</p>
+  </div>
+</section>
 
-<section class="section">
-      
-      <div class="container mb-4">
-        <p class="text-center">
-            {{ .Content }}
-        </p>
-        <div class="row">         
-            <ul class="event-list">
-              <!--{{ range sort .Data.Pages.ByDate.Reverse }}
-                <li><a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a></li>
-              {{ end }}-->
-              <li><a class="session-title" href="../reconocimientos-2024/">RECONOCIMIENTOS 2024 Code 4 DEI</a></li>
-              <li><a class="session-title" href="../reconocimientos-2022/">RECONOCIMIENTOS 2022 SG4W</a></li>
-              <li><a class="session-title" href="../reconocimientos-2021/">RECONOCIMIENTOS 2021 SG4W</a></li>
-              <li><a class="session-title" href="../reconocimientos-2020/">RECONOCIMIENTOS 2020 SG4W</a></li>
-            </ul>
-        </div>
+<section>
+  <div class="wrap">
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap" style="max-width:820px">
+    <div class="sec-head"><span class="kicker">Histórico</span>
+      <h2>Reconocimientos por edición</h2>
     </div>
-     
+    <div class="ed-list">
+      <a class="ed-row" href="/reconocimientos-2024/"><b>Reconocimientos 2024</b><span>Code 4 DEI</span></a>
+      <a class="ed-row" href="/reconocimientos-2022/"><b>Reconocimientos 2022</b><span>SG 4 Women</span></a>
+      <a class="ed-row" href="/reconocimientos-2021/"><b>Reconocimientos 2021</b><span>SG 4 Women</span></a>
+      <a class="ed-row" href="/reconocimientos-2020/"><b>Reconocimientos 2020</b><span>SG 4 Women</span></a>
+    </div>
+  </div>
 </section>
 {{ end }}

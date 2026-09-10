@@ -51,7 +51,7 @@ Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibid
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="/speakers/hanna-oktaba/">
-              <img src="/images/speakers/hanna-oktaba.png" class="img-fluid rounded-circle shadow">
+              <img src="/images/speakers/hanna-oktaba.jpg" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -64,7 +64,7 @@ Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibid
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="/speakers/mariana-perez-vargas">
-              <img src="/images/speakers/mariana-perez-vargas.png" class="img-fluid rounded-circle shadow">
+              <img src="/images/speakers/mariana-perez-vargas.jpg" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -77,7 +77,7 @@ Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibid
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="/speakers/saiph-savage">
-              <img src="/images/speakers/saiph-savage.png" class="img-fluid rounded-circle shadow">
+              <img src="/images/speakers/saiph-savage.jpg" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -90,7 +90,7 @@ Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibid
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="/speakers/mara-ruvalcaba">
-              <img src="/images/speakers/2023-h1/mara.png" class="img-fluid rounded-circle shadow">
+              <img src="/images/speakers/2023-h1/mara.jpg" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -103,7 +103,7 @@ Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibid
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="/speakers/sagrario-menese/">
-              <img src="/images/speakers/sagrario-menese.png" class="img-fluid rounded-circle shadow">
+              <img src="/images/speakers/sagrario-menese.jpg" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -129,7 +129,7 @@ Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibid
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="/speakers/itzayana-reyes/">
-              <img src="/images/speakers/itzayana-reyes.png" class="img-fluid rounded-circle shadow">
+              <img src="/images/speakers/itzayana-reyes.jpg" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -142,7 +142,7 @@ Como hemos mencionado, el Comité Code 4 DEI se conforma por quienes han recibid
         <div class="speaker-block">
           <div class="headshot-box">
             <a href="/speakers/maria-isabel-florez/">
-              <img src="/images/speakers/maria-isabel-florez.png" class="img-fluid rounded-circle shadow">
+              <img src="/images/speakers/maria-isabel-florez.jpg" class="img-fluid rounded-circle shadow">
             </a>
           </div>
           <div class="speaker-info text-center">

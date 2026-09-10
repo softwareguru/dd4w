@@ -1,12 +1,20 @@
-footer{background:var(--ink);color:rgba(255,255,255,.78);padding:64px 0 40px}
+footer{background:var(--ink);color:rgba(243,231,215,.78);padding:64px 0 40px}
 .fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr 1fr;gap:32px}
-footer .logo{color:#fff}
+footer .logo{color:var(--arena)}
 footer p{font-size:15px;margin-top:14px;max-width:30ch}
-footer h4{color:#fff;font-family:var(--body);font-weight:600;font-size:14px;letter-spacing:.04em;margin-bottom:14px}
+footer h4{color:var(--arena);font-family:var(--body);font-weight:600;font-size:14px;letter-spacing:.04em;margin-bottom:14px}
 footer ul{list-style:none}footer li{margin-bottom:10px}
 footer li a{font-size:15px}footer li a:hover{color:var(--lime)}
 .social{display:flex;gap:12px;margin-top:16px}
-.social a{width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;color:#fff}
+.social a{width:40px;height:40px;border-radius:50%;border:1px solid rgba(243,231,215,.25);display:flex;align-items:center;justify-content:center;color:var(--arena)}
 .social a:hover{background:var(--lime);color:var(--ink-cta);border-color:var(--lime)}
 .social svg{width:18px;height:18px}
-.fbar{margin-top:44px;padding-top:22px;border-top:1px solid rgba(255,255,255,.14);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:rgba(255,255,255,.6)}
+.fbar{margin-top:44px;padding-top:22px;border-top:1px solid rgba(243,231,215,.14);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:rgba(243,231,215,.6)}
+/* Firma de marca del brandbook (Montserrat italica) */
+.fbar .slogan-mark{font-style:italic;color:var(--calendula);font-weight:500;font-size:13px}
+/* Sobre los colores oscuros de la paleta el logo va en arena (brandbook):
+   se recolorea con mask-image a partir del PNG morado. */
+.footer-logo{display:inline-block}
+.footer-logo .logo-mark{display:block;width:168px;height:78px;background:var(--arena);
+  -webkit-mask:url("/images/brand/dd4w-logo-2026.png") no-repeat left center/contain;
+  mask:url("/images/brand/dd4w-logo-2026.png") no-repeat left center/contain}

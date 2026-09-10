@@ -1,37 +1,32 @@
 {{ define "main" }}
+<section class="hero">
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="wrap hero-center">
+    <span class="eyebrow">Comunidad</span>
+    <h1>Sedes <span class="hl">participantes</span></h1>
+    <p class="lead" style="margin:18px auto 0">Universidades y comunidades aliadas que abren sus espacios para que
+      más mujeres en STEM se sumen a Dev Day 4 Women.</p>
+  </div>
+</section>
 
-<section class="section {{ .Type }}">
-    
-    <div class="container">
-    
-        <div class="row">
-            {{ range .Data.Pages.ByTitle }}
-          <div class="col-md-4 px-3 mb-4">
-            <div class="card h-100 shadow">
-                <img src="{{ .Params.Image }}" class="card-img-top img-fluid" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">{{ .Title }}</h5>   
-                <br> 
-
-                <h6 class="card-subtitle mb-4 text-muted">Coordinador: {{ .Params.coordinator }}</h6>
-
-                <h6 class="card-subtitle mb-4 text-muted">Úbicación: {{ .Params.location }}</h6>
-                
-                </div>
-                <center>
-                  <a href="{{ .Params.Link }}" target="_blank">
-                    <button type="button" style="align-items: center; border-radius: 25px;" class="btn btn-success col-md-10 px-3">Conocer más</button>
-                 </a>
-            </center>
-            <br>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-
+<section>
+  <div class="wrap">
+    {{ with .Content }}<div class="sec-head" style="max-width:70ch">{{ . }}</div>{{ end }}
+    <div class="grid cols-3">
+      {{ range .Data.Pages.ByTitle }}
+      <article class="card sede-part">
+        {{ with .Params.Image }}
+        <div class="sede-part-logo"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"></div>
+        {{ end }}
+        <h3>{{ .Title }}</h3>
+        {{ with .Params.coordinator }}<p><b>Coordinación:</b> {{ . }}</p>{{ end }}
+        {{ with .Params.location }}<p><b>Ubicación:</b> {{ . }}</p>{{ end }}
+        {{ with .Params.Link }}
+        <a class="btn btn-ghost btn-sm" href="{{ . }}" target="_blank" rel="noopener noreferrer">Conocer más</a>
+        {{ end }}
+      </article>
+      {{ end }}
     </div>
-
-
-
-  </section>
+  </div>
+</section>
 {{ end }}

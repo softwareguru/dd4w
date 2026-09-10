@@ -1,6 +1,6 @@
 @media (max-width:900px){
   .hero-grid{grid-template-columns:1fr;gap:30px;padding-block:54px 60px}
-  .hero-scrim{background:linear-gradient(180deg,rgba(20,8,52,.5),rgba(20,8,52,.2))}
+  .hero-scrim{background:linear-gradient(180deg,rgba(45,41,48,.55),rgba(45,41,48,.25))}
   .split,.venue,.audience{grid-template-columns:1fr;gap:26px}
   .cols-3,.metrics,.spk,.logos,.routes,.social-grid{grid-template-columns:repeat(2,1fr)}
   .gal-track .g{width:300px;height:210px}.fgrid{grid-template-columns:1fr 1fr}
@@ -36,7 +36,7 @@
         left:0;
         right:0;
 
-        background:#fff;
+        background:var(--surface);
 
         display:flex;
         flex-direction:column;
@@ -74,3 +74,27 @@
   .track .slide{flex-basis:88%}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
+
+/* En pantallas chicas los atajos MTY/CDMX desbordan la barra: el menú "Sedes"
+   ya los contiene, así que se ocultan para evitar scroll horizontal. */
+@media (max-width:700px){
+  .sede-btns.desktop{display:none}
+  .menu-btn{font-size:1.6rem;margin-left:auto}
+}
+
+/* Fraunces es más ancha que la tipografía anterior: en móvil se baja la escala
+   de los titulares para que respiren. */
+@media (max-width:560px){
+  h1{font-size:clamp(29px,8.2vw,38px)}
+  h2{font-size:clamp(25px,6.6vw,32px)}
+  h1,h2,h3{overflow-wrap:break-word}
+  .hero h1 .hl{white-space:normal}
+  .lead{max-width:none}
+}
+
+/* Los items de grid/flex tienen min-width:auto (= min-content) por defecto: con
+   palabras largas eso puede ensanchar la pista más allá del contenedor. */
+.hero-grid>*,.split>*,.venue>*,.audience>*,.grid>*,.routes>*,.metrics>*,.datos>*{min-width:0}
+@media (max-width:560px){
+  .eyebrow{max-width:100%;white-space:normal}
+}

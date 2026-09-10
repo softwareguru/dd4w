@@ -3,18 +3,20 @@
     <div class="hero-scrim" aria-hidden="true"></div>
     <div class="wrap hero-grid">
         <div>
-            <span class="eyebrow">Sede MTY</span>
-            <h1>Dev Day 4 Women · Monterrey</h1>
-            <p class="lead">Un día para aprender, conectar y crecer en comunidad. Entrada gratuita.</p>
-            <p class="hero-note" style="font-size:16px;margin-top:18px">31 de octubre · Tecnológico de Monterrey</p>
+            <span class="eyebrow">Sede Monterrey · 31 de octubre de 2026</span>
+            <h1>Aprende, conversa y <span class="hl">conecta</span> en Monterrey</h1>
+            <p class="lead">Un día para llevarte herramientas que puedes aplicar, conversaciones que amplían tu
+                perspectiva y mujeres que fortalecen tu camino en STEM. Entrada gratuita, cupo limitado.</p>
+            <p class="hero-note" style="font-size:16px;margin-top:18px">Tecnológico de Monterrey · Distrito Tec ·
+                Presencial</p>
             <div class="hero-cta"><a class="btn btn-primary" href="https://luma.com/tg59b5q8" target="_blank"
-                    rel="noopener noreferrer">Regístrate</a><a class="btn btn-on-dark"
+                    rel="noopener noreferrer">Regístrate gratis</a><a class="btn btn-on-dark"
                     href="https://convoca.dev/dev-day-4-women-monterrey-2026/cfp" target="_blank"
                     rel="noopener noreferrer">Quiero ser ponente</a></div>
             <div style="margin-top:26px"><span
-                    style="display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.8);margin-bottom:10px">Sede
+                    style="display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(243,231,215,.8);margin-bottom:10px">Sede
                     anfitriona</span><span
-                    style="display:inline-flex;align-items:center;justify-content:center;background:#fff;border-radius:10px;padding:8px 14px;height:56px"><img
+                    style="display:inline-flex;align-items:center;justify-content:center;background:var(--surface);border-radius:10px;padding:8px 14px;height:56px"><img
                         src="/preview/images/logos/tecnologico-de-monterrey.png" alt="Tecnológico de Monterrey"
                         style="max-height:100%;width:auto;object-fit:contain"></span></div>
         </div>
@@ -29,7 +31,7 @@
     <div class="wrap">
         <div class="datos">
             <div class="dato">
-                <div class="ic" aria-hidden="true">📅</div><b>Fecha</b><span>31 de octubre</span>
+                <div class="ic" aria-hidden="true">📅</div><b>Fecha</b><span>31 de octubre de 2026</span>
             </div>
             <div class="dato">
                 <div class="ic" aria-hidden="true">📍</div><b>Lugar</b><span>Tecnológico de Monterrey</span>
@@ -38,7 +40,7 @@
                 <div class="ic" aria-hidden="true">🎟️</div><b>Acceso</b><span>Gratuito · presencial</span>
             </div>
             <div class="dato">
-                <div class="ic" aria-hidden="true">👥</div><b>Cupo</b><span>Cupo limitado</span>
+                <div class="ic" aria-hidden="true">👥</div><b>Cupo</b><span>200 lugares</span>
             </div>
         </div>
     </div>
@@ -46,22 +48,53 @@
 
 <section class="alt">
     <div class="wrap">
+        {{ partial "dd4w2026/section-head.html" (dict "kicker" "Qué te llevas" "title" "Un día pensado para que salgas con algo concreto" "desc" "Cada actividad busca dejarte una conexión, una decisión, una herramienta o un entregable.") }}
+        <div class="grid cols-3">
+            {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-lime" "title" "Charlas con tiempo real" "text" "Sesiones con espacio suficiente para desarrollar una idea y responder preguntas, no cápsulas de relleno." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="3" width="6" height="11" rx="3" />
+                <path d="M5 11a7 7 0 0 0 14 0M12 18v3" />
+            </svg>`) }}
+            {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-pink" "title" "Talleres con entregable" "text" "Cada taller declara prerrequisitos, materiales y qué vas a producir o decidir al terminar. Práctica, no conferencia extendida." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 7l3 3L8 19l-4 1 1-4z" />
+                <path d="M16 3l5 5" />
+            </svg>`) }}
+            {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-blue" "title" "Convivencia y networking" "text" "Descansos protegidos, brunch y dinámicas simples para conversar, intercambiar referencias y construir relaciones." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="8" r="3" />
+                <circle cx="17" cy="10" r="2.5" />
+                <path d="M3 20c0-3 3-5 6-5s6 2 6 5" />
+            </svg>`) }}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="wrap">
         <div class="sec-head"><span class="kicker">Programa</span>
             <h2>Así será el día</h2>
         </div>
         <div class="agenda" style="text-align:center;padding:56px 26px">
             <span
-                style="display:inline-block;background:var(--purple-deep);color:#fff;font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:8px 16px;border-radius:999px">Próximamente</span>
+                style="display:inline-block;background:var(--morado);color:var(--arena);font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:8px 16px;border-radius:999px">Próximamente</span>
             <h3 style="font-size:26px;margin:18px 0 10px">Estamos afinando cada detalle</h3>
-            <p style="color:var(--ink-soft);max-width:60ch;margin:0 auto 24px">La llegada de la IA a nuestras rutinas ha
-                sido un catalizador clave para el crecimiento profesional. En los próximos años nos esperan
-                transformaciones que, de saber aprovecharlas, impulsarán nuestro futuro profesional. Por ello, para la
-                agenda 2026 estamos preparando contenidos que nos permitan entender los distintos modelos, buenas
-                prácticas a través del vibe coding, principios de seguridad —aún más relevantes—, gestión de equipos y
-                transformación de culturas que nos preparen para ser resilientes ante los cambios tan fugaces.</p>
+            <p style="color:var(--ink-soft);max-width:62ch;margin:0 auto 24px">La agenda 2026 girará en torno a cómo la
+                IA está transformando nuestras carreras: entender los distintos modelos, buenas prácticas de desarrollo
+                asistido, principios de seguridad, gestión de equipos y transformación de culturas de trabajo. Iremos
+                revelando charlas, talleres y ponentes conforme queden confirmados.</p>
             <p style="color:var(--ink-soft);margin:0 auto 16px">¿Te interesa participar como ponente o tallerista?</p><a
                 class="btn btn-primary" href="https://convoca.dev/dev-day-4-women-monterrey-2026/cfp" target="_blank"
-                rel="noopener noreferrer">Postula tu plática</a>
+                rel="noopener noreferrer">Postula tu plática o taller</a>
+        </div>
+    </div>
+</section>
+
+<section class="alt">
+    <div class="wrap">
+        {{ partial "dd4w2026/section-head.html" (dict "kicker" "Para quién es" "title" "Estés donde estés en tu carrera, hay algo para ti" "desc" "No es un evento para un solo perfil ni para una sola disciplina: ingeniería, desarrollo, datos, IA, cloud, ciberseguridad, producto técnico, investigación y ciencias.") }}
+        <div class="grid cols-4">
+            {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-soft" "title" "Profesionales en crecimiento" "text" "Quieres ganar autoridad, mejorar tu posición, negociar mejor o dar el siguiente paso hacia liderazgo." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 17l6-6 4 4 7-7"/><path d="M14 8h6v6"/></svg>`) }}
+            {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-soft" "title" "En transición o actualización" "text" "Cambias de área, te reconviertes o regresas al mercado y buscas actualización, referentes y una red relevante." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9h12l-3-3M20 15H8l3 3"/></svg>`) }}
+            {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-soft" "title" "Estudiantes y perfiles junior" "text" "Buscas referentes reales, orientación sobre el mercado y tus primeras conexiones profesionales." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4l9 5-9 5-9-5z"/><path d="M7 11v5c0 1.5 2.5 3 5 3s5-1.5 5-3v-5"/></svg>`) }}
+            {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-soft" "title" "Líderes y fundadoras" "text" "Contratas, mentorizas, abres redes o amplificas la conversación. Aquí eres audiencia y multiplicadora." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 18l2-9 4 4 2-7 2 7 4-4 2 9z"/></svg>`) }}
         </div>
     </div>
 </section>
@@ -104,7 +137,10 @@
                     onerror="this.style.display='none'"></div>
             <div>
                 <p class="lead" style="color:var(--ink-soft)">Av. Eugenio Garza Sada 2501 Sur, Tecnológico, Distrito
-                    Tec, 64700 Monterrey, N.L.</p><a class="btn btn-ghost" href="https://share.google/cEJXvyz3isVL9zRug"
+                    Tec, 64700 Monterrey, N.L.</p>
+                <p style="color:var(--ink-soft);margin-top:12px">En la guía para asistentes encontrarás
+                    estacionamiento, transporte público, accesibilidad y qué llevar.</p>
+                <a class="btn btn-ghost" href="https://share.google/cEJXvyz3isVL9zRug"
                     target="_blank" rel="noopener noreferrer" style="margin-top:18px">Ver en mapas</a>
             </div>
         </div>
@@ -123,7 +159,8 @@
                 </svg></div>
             <div style="flex:1;min-width:200px">
                 <h3>Guía para asistentes</h3>
-                <p>Cómo llegar, dónde estacionarte, qué hacer, dónde comer y dónde hospedarte en Monterrey.</p>
+                <p>Cómo llegar, dónde estacionarte, qué llevar, dónde comer y qué hacer en Monterrey el fin de semana
+                    de Halloween y Día de Muertos.</p>
             </div><a class="btn btn-primary" href="/guia-asistentes-monterrey/">Ver la guía</a>
         </div>
     </div>
@@ -132,7 +169,9 @@
 <section>
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Patrocinadores</span>
-            <h2>Patrocinadores de esta sede</h2>
+            <h2>Ellos hacen posible el acceso gratuito</h2>
+            <p>Dev Day 4 Women es una iniciativa sin fines de lucro. Esta edición es gratuita gracias a estas empresas
+                y aliados, y los recursos se destinan a producir una experiencia segura, accesible y de alto valor.</p>
         </div>
 
         {{ range site.Data.patrocinadores.patrocinadores_mty.tiers }}
@@ -166,16 +205,44 @@
         </div>
         <details class="faq">
             <summary>¿El evento tiene costo?</summary>
-            <p>No. Dev Day 4 Women es un evento gratuito; solo necesitas registrarte porque el cupo es limitado.</p>
+            <p>No. Esta edición es gratuita. Dev Day 4 Women es una iniciativa sin fines de lucro y el acceso libre es
+                posible gracias a nuestros patrocinadores y aliados. Solo necesitas registrarte porque el cupo es
+                limitado.</p>
         </details>
         <details class="faq">
             <summary>¿Necesito experiencia técnica para asistir?</summary>
             <p>No es indispensable. Hay contenido para distintos perfiles y etapas de carrera, desde estudiantes hasta
-                líderes técnicas.</p>
+                líderes técnicas, y para distintas disciplinas dentro de STEM.</p>
+        </details>
+        <details class="faq">
+            <summary>Me registré, ¿ya tengo mi lugar asegurado?</summary>
+            <p>El registro es el primer paso. Como el cupo es limitado, te pediremos confirmar tu asistencia por correo
+                antes del evento. Si no confirmas, tu lugar puede liberarse para alguien en lista de espera.</p>
+        </details>
+        <details class="faq">
+            <summary>¿Qué incluye la entrada?</summary>
+            <p>Acceso a todas las charlas y talleres según disponibilidad, brunch y los espacios de convivencia y
+                networking del día.</p>
+        </details>
+        <details class="faq">
+            <summary>¿Puedo asistir si no soy mujer?</summary>
+            <p>Sí. Dev Day 4 Women es un espacio creado para impulsar a las mujeres en STEM y está abierto a todas las
+                personas que compartan ese propósito y respeten nuestro código de conducta.</p>
+        </details>
+        <details class="faq">
+            <summary>¿Hay estacionamiento y transporte?</summary>
+            <p>Sí. En la <a href="/guia-asistentes-monterrey/" style="color:var(--morado);font-weight:600">guía para
+                    asistentes</a> encontrarás las opciones de estacionamiento, transporte público y accesibilidad del
+                campus.</p>
         </details>
         <details class="faq">
             <summary>¿Habrá certificado de asistencia?</summary>
             <p>Sí, podrás solicitar tu constancia de participación después del evento.</p>
+        </details>
+        <details class="faq">
+            <summary>¿Hay código de conducta?</summary>
+            <p>Sí, y aplica para todas las personas participantes. Puedes leerlo en
+                <a href="/coc/" style="color:var(--morado);font-weight:600">nuestro código de conducta</a>.</p>
         </details>
     </div>
 </section>
@@ -185,6 +252,7 @@
 <section class="final">
     <div class="wrap">
         <h2>Nos vemos en Monterrey</h2>
+        <p style="font-weight:600;margin-top:14px">31 de octubre de 2026 · Tec de Monterrey · Gratis, cupo limitado</p>
         <div class="btns"><a class="btn btn-ink" href="https://luma.com/tg59b5q8" target="_blank"
                 rel="noopener noreferrer">Regístrate gratis</a></div>
     </div>
