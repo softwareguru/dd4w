@@ -1,20 +1,71 @@
-/* Tipografias autohospedadas DD4W (subsets latin + latin-ext, variable) */@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:500 800;font-stretch:100%;font-display:swap;src:url(/preview/fonts/bricolage-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:500 800;font-stretch:100%;font-display:swap;src:url(/preview/fonts/bricolage-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 600;font-display:swap;src:url(/preview/fonts/hanken-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Hanken Grotesk';font-style:normal;font-weight:400 600;font-display:swap;src:url(/preview/fonts/hanken-latinext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}:root{
-  --purple:#7F68EF; --purple-deep:#4623B7; --lime:#EEFFA1; --pink:#E5B8EE; --blue:#98DCF1;
-  --ink:#1A1033; --ink-soft:#4a4163; --paper:#fff; --paper-2:#F6F3FF; --plum:#3A1E6E; --ink-cta:#21215c;
-  --grad:linear-gradient(135deg,#E5B8EE 0%,#C9BEF2 28%,#98DCF1 62%,#7F68EF 100%);
-  --grad-deep:linear-gradient(135deg,#4623B7 0%,#5a39c9 45%,#7F68EF 100%);
-  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
-  --body:"Hanken Grotesk",ui-sans-serif,system-ui,-apple-system,sans-serif;
-  --maxw:1180px; --r:16px; --r-sm:12px;
+/* Tipografias autohospedadas DD4W 2026 — Brandbook: Fraunces (titulos) + Montserrat (texto).
+   Subsets latin + latin-ext, variable. */
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:600 800;font-display:swap;src:url(/preview/fonts/fraunces-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:600 800;font-display:swap;src:url(/preview/fonts/fraunces-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400 700;font-display:swap;src:url(/preview/fonts/montserrat-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:400 700;font-display:swap;src:url(/preview/fonts/montserrat-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400 600;font-display:swap;src:url(/preview/fonts/montserrat-italic-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Montserrat';font-style:italic;font-weight:400 600;font-display:swap;src:url(/preview/fonts/montserrat-italic-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+
+:root{
+  /* ── Paleta Brandbook DD4W 2026 ─────────────────────────────── */
+  --morado:#68539C;        /* color principal de marca */
+  --morado-deep:#4E3D79;   /* superficies oscuras y hover */
+  --terracota:#D76A4C;     /* acento: palabra clave de los titulos */
+  --terracota-deep:#B0492C;/* mismo acento con contraste para texto chico */
+  --salvia:#7EA296;
+  --salvia-deep:#4B6F61;   /* version legible sobre arena */
+  --calendula:#F2C34B;
+  --arena:#F3E7D7;         /* fondo base de la marca */
+  --carbon:#2D2930;
+
+  /* ── Roles semanticos ───────────────────────────────────────────
+     El fondo base es blanco; la arena se reserva como color de acento
+     para destacar secciones y componentes, no como lienzo general. */
+  --paper:#FFFFFF;         /* fondo base */
+  --paper-2:var(--arena);  /* secciones y componentes destacados */
+  --surface:#FFFFFF;       /* tarjetas */
+  --ink:var(--carbon);
+  --ink-soft:#5C555F;
+  --line:rgba(45,41,48,.14);
+
+  /* ── Alias heredados del sistema anterior ───────────────────────
+     Se conservan para que los componentes y estilos en linea que aun
+     los usan queden dentro de la paleta del brandbook. Al tocar un
+     componente, migrar al nombre nuevo. */
+  --purple:var(--morado);
+  --purple-deep:var(--morado-deep);
+  --plum:var(--morado-deep);
+  --ink-cta:var(--carbon);
+  --lime:var(--calendula);
+  --pink:var(--terracota);
+  --blue:var(--salvia);
+  /* El brandbook no usa degradados: los alias quedan en color plano. */
+  --grad:var(--morado);
+  --grad-deep:var(--morado-deep);
+
+  --display:"Fraunces",ui-serif,Georgia,"Times New Roman",serif;
+  --body:"Montserrat",ui-sans-serif,system-ui,-apple-system,sans-serif;
+  --maxw:1180px; --r:20px; --r-sm:14px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased}
-h1,h2,h3{font-family:var(--display);line-height:1.05;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);line-height:1.08;font-weight:700;letter-spacing:-.015em;color:var(--ink)}
+/* Palabra clave acentuada en terracota, como indica el brandbook.
+   Sobre blanco la terracota da 3.47:1, suficiente solo para texto grande
+   (AA large), por eso se limita a h1/h2. Sobre arena baja a 2.84:1, asi que
+   ahi se usa la variante profunda (4.49:1). Para textos chicos, --terracota-deep. */
+h1 .hl,h2 .hl{color:var(--terracota)}
+h3 .hl,.alt h1 .hl,.alt h2 .hl,.alt h3 .hl{color:var(--terracota-deep)}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
-.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:12px 18px;border-radius:0 0 12px 0;z-index:200}
+.skip{position:absolute;left:-999px;top:0;background:var(--carbon);color:var(--arena);padding:12px 18px;border-radius:0 0 12px 0;z-index:200}
 .skip:focus{left:0}
-:focus-visible{outline:3px solid var(--ink);outline-offset:2px;box-shadow:0 0 0 6px var(--lime);border-radius:6px}
-.kicker{font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--purple)}
+:focus-visible{outline:3px solid var(--carbon);outline-offset:2px;box-shadow:0 0 0 6px var(--calendula);border-radius:6px}
+/* La salvia del brandbook da 2.8:1 sobre blanco: nunca para texto.
+   El kicker usa la variante profunda (5.61:1). */
+.kicker{font-weight:600;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--salvia-deep)}
+/* Bajadas y slogan en Montserrat italica, como indica el brandbook */
+.slogan{font-style:italic;font-weight:500;color:var(--morado)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}

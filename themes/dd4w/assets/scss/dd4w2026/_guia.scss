@@ -1,7 +1,7 @@
 /* ===== Guía de patrocinador (página privada) ===== */
 
 /* Aviso de confidencialidad */
-.priv-note{display:flex;align-items:flex-start;gap:12px;background:var(--paper-2);border:1px solid rgba(58,30,110,.2);border-radius:var(--r);padding:16px 20px;color:var(--ink-soft);font-size:14px;margin-top:22px}
+.priv-note{display:flex;align-items:flex-start;gap:12px;background:var(--paper-2);border:1px solid rgba(78,61,121,.2);border-radius:var(--r);padding:16px 20px;color:var(--ink-soft);font-size:14px;margin-top:22px}
 .priv-note svg{width:20px;height:20px;flex:0 0 auto;color:var(--purple-deep);margin-top:1px}
 .priv-note b{color:var(--ink)}
 
@@ -14,17 +14,17 @@
 
 /* Lista de checklist con palomita (reusa el patrón de .tier) */
 .checklist{list-style:none;margin:0}
-.checklist li{position:relative;padding:10px 0 10px 30px;border-top:1px solid rgba(26,16,51,.08);color:var(--ink-soft)}
+.checklist li{position:relative;padding:10px 0 10px 30px;border-top:1px solid rgba(45,41,48,.08);color:var(--ink-soft)}
 .checklist li:first-child{border-top:0}
 .checklist li::before{content:"\2713";position:absolute;left:0;top:10px;color:var(--purple-deep);font-weight:700}
 .checklist li b{color:var(--ink)}
 .checklist li a{color:var(--purple-deep);text-decoration:underline;text-underline-offset:3px}
 
 /* Tabla (hoteles) */
-.gtable-wrap{overflow-x:auto;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);background:#fff}
+.gtable-wrap{overflow-x:auto;border:1px solid rgba(45,41,48,.12);border-radius:var(--r);background:var(--surface)}
 table.gtable{width:100%;border-collapse:collapse;min-width:720px;font-size:14px}
-table.gtable th,table.gtable td{text-align:left;padding:14px 16px;vertical-align:top;border-top:1px solid rgba(26,16,51,.08)}
-table.gtable thead th{background:var(--purple-deep);color:#fff;font-family:var(--body);font-weight:600;border:0;font-size:13px;letter-spacing:.02em}
+table.gtable th,table.gtable td{text-align:left;padding:14px 16px;vertical-align:top;border-top:1px solid rgba(45,41,48,.08)}
+table.gtable thead th{background:var(--purple-deep);color:var(--arena);font-family:var(--body);font-weight:600;border:0;font-size:13px;letter-spacing:.02em}
 table.gtable tbody tr:nth-child(even){background:var(--paper-2)}
 table.gtable .hotel{font-weight:600;color:var(--ink)}
 table.gtable .rate{font-family:var(--display);font-weight:800;color:var(--purple-deep);white-space:nowrap}
@@ -49,9 +49,9 @@ table.gtable .rate{font-family:var(--display);font-weight:800;color:var(--purple
 
 /* Etiquetas de ejemplo (Correcto / Evítalo) */
 .ex-label{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding:5px 12px;border-radius:999px;border:1px solid transparent}
-.ex-label.ok{background:var(--lime);color:var(--ink-cta);border-color:rgba(33,33,92,.35)}
+.ex-label.ok{background:var(--lime);color:var(--ink-cta);border-color:rgba(45,41,48,.35)}
 .ex-label.ok::before{content:"✓"}
-.ex-label.no{background:var(--pink);color:var(--plum);border-color:rgba(58,30,110,.2)}
+.ex-label.no{background:var(--pink);color:var(--plum);border-color:rgba(78,61,121,.2)}
 .ex-label.no::before{content:"✕"}
 
 /* Tablas .gtable -> tarjetas apiladas en móvil (sin scroll horizontal)
@@ -61,8 +61,8 @@ table.gtable .rate{font-family:var(--display);font-weight:800;color:var(--purple
   .gtable-wrap{overflow:visible;border:0;background:transparent;border-radius:0}
   table.gtable{min-width:0;width:100%}
   table.gtable thead{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
-  table.gtable tbody tr{display:block;background:#fff;border:1px solid rgba(26,16,51,.12);border-radius:var(--r);padding:18px 18px 8px;margin-bottom:14px}
-  table.gtable tbody tr:nth-child(even){background:#fff}
+  table.gtable tbody tr{display:block;background:var(--surface);border:1px solid rgba(45,41,48,.12);border-radius:var(--r);padding:18px 18px 8px;margin-bottom:14px}
+  table.gtable tbody tr:nth-child(even){background:var(--surface)}
   table.gtable td{display:block;border:0;padding:0 0 12px;text-align:left}
   table.gtable td.t-hide{display:none}
   table.gtable td::before{content:attr(data-label);display:block;font-weight:600;color:var(--purple);font-size:11px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:2px}

@@ -1,40 +1,49 @@
 {{ define "main" }}
-
-<section class="section">
-  <div class="container">
-      <article>
-        {{ .Content }}
-      </article>
-
-
-      
-      <div class="row">
-        {{ range .Data.Pages.ByTitle }}
-
-      <div class="col-12 col-md-4 px-3 mb-3">
-      
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="{{ .Params.Image }}" class="card-img-top" alt="...">
-          </div>
-        </div>
-       
-      </div>
-      {{ end }} 
-    </div>
-
-
-      <h2 style="color:black;">Reconocimientos anteriores:</h2>
-
-   <div>
-    <a href="../reconocimientos-2020/"><p>Reconocimientos 2020 SG4 Women</p></a>
-    <a href="../reconocimientos-2021/"><p>Reconocimientos 2021 SG4 Women</p></a>
-   </div>
-    
+<section class="hero">
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="wrap hero-center">
+    <span class="eyebrow">Comunidad</span>
+    <h1>Reconocimientos <span class="hl">Code 4 DEI</span></h1>
+    <p class="lead" style="margin:18px auto 0">Celebramos a las mujeres y organizaciones que impulsan a otras
+      mujeres en las tecnologías de la información.</p>
   </div>
+</section>
 
+<section>
+  <div class="wrap" style="max-width:820px">
+    <div class="prose">{{ .Content }}</div>
+  </div>
+</section>
 
+{{ with .Data.Pages.ByTitle }}
+<section class="alt">
+  <div class="wrap">
+    <div class="sec-head"><span class="kicker">Reconocidas</span>
+      <h2>Ellas han recibido el reconocimiento</h2>
+    </div>
+    <div class="grid cols-3">
+      {{ range . }}
+      <article class="card">
+        {{ with .Params.Image }}
+        <div class="sede-part-logo"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"></div>
+        {{ end }}
+        <h3>{{ .Title }}</h3>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
 
-
+<section>
+  <div class="wrap" style="max-width:820px">
+    <div class="sec-head"><span class="kicker">Histórico</span>
+      <h2>Ediciones anteriores</h2>
+    </div>
+    <div style="display:flex;gap:12px;flex-wrap:wrap">
+      <a class="btn btn-ghost btn-sm" href="/reconocimientos-2020/">Reconocimientos 2020</a>
+      <a class="btn btn-ghost btn-sm" href="/reconocimientos-2021/">Reconocimientos 2021</a>
+    </div>
+  </div>
 </section>
 {{ end }}

@@ -29,8 +29,9 @@
 {{ end }}
 
 
-<link rel="preload" href="/preview/fonts/hanken-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/preview/fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/preview/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/preview/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#F3E7D7">
 
 {{- $styles := resources.Get "scss/dd4w2026.scss" | toCSS | minify | fingerprint -}}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}">

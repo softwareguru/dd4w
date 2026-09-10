@@ -6,11 +6,9 @@
             <div>
                 {{ with .Site.Data.footer.brand }}
 
-                <a class="logo" href="{{ .url | relURL }}">
-                    {{ if .showDot }}
-                    <span class="dot" aria-hidden="true"></span>
-                    {{ end }}
-                    {{ .title }}
+                <a class="logo footer-logo" href="{{ .url | relURL }}">
+                    <span class="logo-mark" aria-hidden="true"></span>
+                    <span class="sr">{{ .title }}</span>
                 </a>
 
                 <p>{{ .description }}</p>
@@ -74,7 +72,7 @@
         </div>
 
         <div class="fbar">
-            <span>© 2026 Dev Day 4 Women</span>
+            <span><i class="slogan-mark">Shaping your future in STEM AI</i> · © 2026 Dev Day 4 Women</span>
             <span>
                 <a href="/faq/">FAQ</a> · <a href="/coc/">Código de conducta</a> · <a href="/dei/">DEI</a> · <a
                     href="/privacidad/">Aviso de privacidad</a>
