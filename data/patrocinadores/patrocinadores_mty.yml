@@ -13,6 +13,14 @@ tiers:
         url: https://www.contpaqi.com/
 
   - class: t-silver
+    label: Silver
+    logos:
+      - name: ICA
+        image: images/logos/ica.jpg
+        url: https://www.icamex.net/
+
+
+  - class: t-silver
     label: Community partner
     logos:
       - name: Ardan-labs
@@ -33,10 +41,6 @@ tiers:
 
       - name: EXATEC Mujeres
         image: images/logos/exatec.jpg
-
-      - name: ICA
-        image: images/logos/ica.jpg
-        url: https://www.icamex.net/
 
   - class: t-orga
     label: Organizado por
