@@ -34,6 +34,10 @@ tiers:
       - name: EXATEC Mujeres
         image: images/logos/exatec.jpg
 
+      - name: ICA
+        image: images/logos/ica.jpg
+        url: https://www.icamex.net/
+
   - class: t-orga
     label: Organizado por
     logos:
