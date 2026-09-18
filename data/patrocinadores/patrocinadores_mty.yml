@@ -42,6 +42,14 @@ tiers:
       - name: EXATEC Mujeres
         image: images/logos/exatec.jpg
 
+      - name: ITF
+        image: images/logos/itf.jpg
+        url: https://iberotech.org/
+
+      - name: Women in
+        image: images/logos/women-in.jpg
+        url: https://win.iberotech.org/
+
   - class: t-orga
     label: Organizado por
     logos:
