@@ -170,8 +170,6 @@
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Patrocinadores</span>
             <h2>Ellos hacen posible el acceso gratuito</h2>
-            <p>Dev Day 4 Women es una iniciativa sin fines de lucro. Esta edición es gratuita gracias a estas empresas
-                y aliados, y los recursos se destinan a producir una experiencia segura, accesible y de alto valor.</p>
         </div>
 
         {{ range site.Data.patrocinadores.patrocinadores_mty.tiers }}
@@ -197,6 +195,8 @@
 
     </div>
 </section>
+
+{{ partial "dd4w2026/apoya.html" (dict "sede" "Monterrey 2026") }}
 
 <section class="alt">
     <div class="wrap" style="max-width:820px">

@@ -1,0 +1,42 @@
+{{- /* Apartado "Cómo se sostiene el evento": patrocinios de empresas y donaciones
+     de personas. Params opcionales:
+       alt   (bool)   fondo de acento arena
+       sede  (string) nombre de la sede, para el asunto del correo de donación */ -}}
+{{- $sede := .sede | default "" -}}
+{{- $asunto := cond (ne $sede "") (printf "Quiero donar a Dev Day 4 Women %s" $sede) "Quiero donar a Dev Day 4 Women" -}}
+{{- /* RFC 6068: en un mailto los espacios del asunto van como %20. El asunto solo
+     tiene letras, digitos y espacios, asi que basta con sustituirlos. */ -}}
+{{- $mailto := printf "mailto:yolo@sg.com.mx?subject=%s" (replace $asunto " " "%20") -}}
+<section{{ if .alt }} class="alt"{{ end }}>
+    <div class="wrap">
+        {{ partial "dd4w2026/section-head.html" (dict
+            "kicker" "Cómo se sostiene"
+            "title" "Este evento existe gracias a quienes lo hacen posible"
+            "desc" "Dev Day 4 Women es una iniciativa sin fines de lucro y la entrada es gratuita. Cada edición se sostiene con el patrocinio de empresas y con donaciones de personas que creen en el proyecto. Los recursos se destinan íntegramente a producir una experiencia segura, accesible y de alto valor para la comunidad.") }}
+        <div class="grid cols-2 apoya">
+            <article class="card">
+                <div class="feat-ic bg-lime" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 9l1-5h14l1 5M5 9v11h14V9M5 9h14" />
+                    </svg>
+                </div>
+                <h3>Si representas a una empresa</h3>
+                <p>Participa de forma responsable y medible en una experiencia de alto valor para mujeres en STEM.
+                    Hay distintos niveles de patrocinio según lo que busques lograr.</p>
+                <a class="btn btn-primary btn-sm" href="/patrocinadores/">Ver paquetes de patrocinio</a>
+            </article>
+            <article class="card">
+                <div class="feat-ic bg-pink" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 20s-7-4.35-7-9a4 4 0 0 1 7-2.65A4 4 0 0 1 19 11c0 4.65-7 9-7 9z" />
+                    </svg>
+                </div>
+                <h3>Si quieres donar a título personal</h3>
+                <p>Cualquier aportación ayuda a cubrir sede, alimentos, accesibilidad y producción. Escríbenos a
+                    <a class="apoya-mail" href="{{ $mailto | safeURL }}">yolo@sg.com.mx</a> y te compartimos los datos
+                    de transferencia; no hay monto mínimo.</p>
+                <a class="btn btn-primary btn-sm" href="{{ $mailto | safeURL }}">Quiero donar</a>
+            </article>
+        </div>
+    </div>
+</section>

@@ -102,3 +102,12 @@
   .vtesti{flex-direction:row;align-items:center}
   .vtesti-media{width:130px;flex:0 0 130px;aspect-ratio:9/14}
   .vtesti-play{width:44px;height:44px}.vtesti-play svg{width:20px;height:20px}}
+
+/* Apartado "Cómo se sostiene": patrocinios y donaciones */
+.apoya .card{display:flex;flex-direction:column;align-items:flex-start}
+.apoya .card p{margin-bottom:18px}
+/* La descripcion absorbe el alto sobrante para que los dos CTA queden a la
+   misma altura aunque una tarjeta lleve nota al pie y la otra no. */
+.apoya .card>p:first-of-type{flex:1}
+.apoya-mail{color:var(--morado-deep);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.apoya-mail:hover{color:var(--terracota-deep)}
