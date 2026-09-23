@@ -12,7 +12,8 @@
                     rel="noopener noreferrer">Regístrate gratis</a><a class="btn btn-on-dark"
                     href="/sede-monterrey/">Conoce la sede Monterrey</a></div>
             <div class="proof"><span class="avs"><i></i><i></i><i></i></span><span>Entrada <b>gratuita</b> gracias a
-                    nuestros patrocinadores · Cupo limitado</span></div>
+                    nuestros patrocinadores. Si puedes, aporta una donación al registrarte y ayuda a hacer posible el
+                    evento · Cupo limitado</span></div>
         </div>
         <div class="hero-visual"><img src="/preview/imagenes-nuevas/38531701526_428eb52ec6_k.jpg"
                 alt="Comunidad de Dev Day 4 Women: más de 100 mujeres reunidas en una edición pasada"
@@ -66,6 +67,8 @@
     </div>
 </section>
 
+{{ partial "dd4w2026/apoya.html" (dict "alt" false "luma" "https://luma.com/tg59b5q8") }}
+
 <section class="alt">
     <div class="wrap">
         {{ partial "dd4w2026/section-head.html" (dict "kicker" "Impacto" "title" "Una comunidad que crece") }}
@@ -98,8 +101,6 @@
                 onerror="this.style.display='none'"></div>
     </div>
 </section>
-
-{{ partial "dd4w2026/apoya.html" (dict "alt" false) }}
 
 <section>
     <div class="wrap">
@@ -183,13 +184,10 @@
                     Nistor</b><span>Directora de Operaciones @ TESTCo</span>
             </div>
         </div>
-        <div style="text-align:center;margin-top:14px">
-            <p style="color:var(--ink-soft);margin-bottom:16px">¿Quieres compartir lo que sabes con la comunidad?
-                Postula tu charla o taller para Monterrey.</p>
-            <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-                <!--<a class="btn btn-primary" href="https://convoca.dev/dev-day-4-women-cdmx-2026/cfp" target="_blank" rel="noopener noreferrer">Ser ponente en CDMX</a>-->
-                    <a class="btn btn-ink" href="https://convoca.dev/dev-day-4-women-monterrey-2026/cfp" target="_blank" rel="noopener noreferrer">Postula tu plática o taller</a>
-                </div>
+        <div style="margin-top:34px">
+            <p style="color:var(--ink-soft);margin-bottom:20px;text-align:center">¿Quieres compartir lo que sabes con la
+                comunidad? Postula tu charla o taller para Monterrey antes de que cierre la convocatoria.</p>
+            {{ partial "dd4w2026/cfp-fechas.html" (dict "cfp" "https://convoca.dev/dev-day-4-women-monterrey-2026/cfp") }}
         </div>
     </div>
 </section>
@@ -223,6 +221,9 @@
     <div class="wrap">
         <h2>No te quedes fuera. Te esperamos en Monterrey.</h2>
         <p style="color:var(--plum);font-weight:600;margin-top:14px">31 de octubre de 2026 · Gratis · Cupo limitado</p>
+        <p style="color:var(--carbon);margin-top:10px;max-width:56ch;margin-left:auto;margin-right:auto">Asistir no
+            cuesta nada. Al registrarte puedes sumar una donación voluntaria: con eso sostenemos sede, alimentos y
+            accesibilidad para que la entrada siga siendo gratuita para todas.</p>
         <div class="btns"><a class="btn btn-ink" href="https://luma.com/tg59b5q8" target="_blank"
                 rel="noopener noreferrer">Regístrate gratis</a></div>
         <p style="margin-top:18px"><a class="hero-link" style="color:var(--purple-deep)"

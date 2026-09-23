@@ -315,3 +315,13 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
   .agx-cell.is-feature .agx-m{background:rgba(243,231,215,.2);color:var(--arena)}
   .agx-log{padding:10px}
 }
+
+/* Fechas clave de la convocatoria de ponencias (CFP) */
+.cfp-dates{background:var(--purple-deep);color:var(--arena);border-radius:var(--r);padding:34px;text-align:left}
+.cfp-dates-head .tag{display:inline-block;background:var(--lime);color:var(--ink-cta);font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px;border:1px solid rgba(45,41,48,.35)}
+.cfp-dates-head h3{color:var(--arena);font-size:26px;max-width:26ch;margin:14px 0 0}
+.cfp-dates-list{list-style:none;margin:24px 0 26px;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.cfp-dates-list li{background:rgba(243,231,215,.1);border:1px solid rgba(243,231,215,.22);border-radius:14px;padding:18px 20px}
+.cfp-dates-list .d{display:block;font-family:var(--display);font-size:20px;line-height:1.25}
+.cfp-dates-list .l{display:block;margin-top:6px;font-size:14px;color:rgba(243,231,215,.85)}
+@media (max-width:560px){.cfp-dates{padding:26px 22px}.cfp-dates-list{grid-template-columns:1fr}}

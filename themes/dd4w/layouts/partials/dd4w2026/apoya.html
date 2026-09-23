@@ -1,7 +1,9 @@
 {{- /* Apartado "Cómo se sostiene el evento": patrocinios de empresas y donaciones
      de personas. Params opcionales:
        alt   (bool)   fondo de acento arena
-       sede  (string) nombre de la sede, para el asunto del correo de donación */ -}}
+       sede  (string) nombre de la sede, para el asunto del correo de donación
+       luma  (string) URL de registro; si viene, se muestra la banda de registro
+                      con la invitación a aportar al reservar tu lugar */ -}}
 {{- $sede := .sede | default "" -}}
 {{- $asunto := cond (ne $sede "") (printf "Quiero donar a Dev Day 4 Women %s" $sede) "Quiero donar a Dev Day 4 Women" -}}
 {{- /* RFC 6068: en un mailto los espacios del asunto van como %20. El asunto solo
@@ -38,5 +40,16 @@
                 <a class="btn btn-primary btn-sm" href="{{ $mailto | safeURL }}">Quiero donar</a>
             </article>
         </div>
+        {{- with .luma }}
+        <div class="apoya-registro">
+            <div>
+                <h3>Reserva tu lugar</h3>
+                <p>Tu entrada es gratuita: no necesitas pagar nada para asistir. Si está en tus posibilidades, puedes
+                    aportar una donación al registrarte y ayudarnos a cubrir el costo real de tu lugar. Aportes desde
+                    cualquier monto, siempre voluntarios.</p>
+            </div>
+            <a class="btn btn-primary" href="{{ . }}" target="_blank" rel="noopener noreferrer">Regístrate gratis o con donación</a>
+        </div>
+        {{- end }}
     </div>
 </section>
