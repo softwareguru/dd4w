@@ -4,9 +4,6 @@ tiers:
   - class: t-platinum
     label: Platinum
     logos:
-      - name: Mobiik
-        image: images/logos/mobik.png
-        url: https://www.mobiik.com/jobs
 
       - name: ContPAQi
         image: images/logos/contpaqi-logo.png
