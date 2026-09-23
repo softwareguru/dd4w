@@ -6,7 +6,8 @@
             <span class="eyebrow">Sede Monterrey · 31 de octubre de 2026</span>
             <h1>Aprende, conversa y <span class="hl">conecta</span> en Monterrey</h1>
             <p class="lead">Un día para llevarte herramientas que puedes aplicar, conversaciones que amplían tu
-                perspectiva y mujeres que fortalecen tu camino en STEM. Entrada gratuita, cupo limitado.</p>
+                perspectiva y mujeres que fortalecen tu camino en STEM. Entrada gratuita y, si puedes, aporta una
+                donación al registrarte para ayudar a hacer posible el evento. Cupo limitado.</p>
             <p class="hero-note" style="font-size:16px;margin-top:18px">Tecnológico de Monterrey · Distrito Tec ·
                 Presencial</p>
             <div class="hero-cta"><a class="btn btn-primary" href="https://luma.com/tg59b5q8" target="_blank"
@@ -37,7 +38,8 @@
                 <div class="ic" aria-hidden="true">📍</div><b>Lugar</b><span>Tecnológico de Monterrey</span>
             </div>
             <div class="dato">
-                <div class="ic" aria-hidden="true">🎟️</div><b>Acceso</b><span>Gratuito · presencial</span>
+                <div class="ic" aria-hidden="true">🎟️</div><b>Acceso</b><span>Gratuito · donación
+                    voluntaria</span>
             </div>
             <div class="dato">
                 <div class="ic" aria-hidden="true">👥</div><b>Cupo</b><span>200 lugares</span>
@@ -80,9 +82,11 @@
                 IA está transformando nuestras carreras: entender los distintos modelos, buenas prácticas de desarrollo
                 asistido, principios de seguridad, gestión de equipos y transformación de culturas de trabajo. Iremos
                 revelando charlas, talleres y ponentes conforme queden confirmados.</p>
-            <p style="color:var(--ink-soft);margin:0 auto 16px">¿Te interesa participar como ponente o tallerista?</p><a
-                class="btn btn-primary" href="https://convoca.dev/dev-day-4-women-monterrey-2026/cfp" target="_blank"
-                rel="noopener noreferrer">Postula tu plática o taller</a>
+            <p style="color:var(--ink-soft);margin:0 auto">¿Te interesa participar como ponente o tallerista? Estas son
+                las fechas que debes tener en cuenta.</p>
+        </div>
+        <div style="margin-top:26px">
+            {{ partial "dd4w2026/cfp-fechas.html" (dict "cfp" "https://convoca.dev/dev-day-4-women-monterrey-2026/cfp" "title" "Fechas clave de la convocatoria") }}
         </div>
     </div>
 </section>
@@ -170,8 +174,6 @@
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Patrocinadores</span>
             <h2>Ellos hacen posible el acceso gratuito</h2>
-            <p>Dev Day 4 Women es una iniciativa sin fines de lucro. Esta edición es gratuita gracias a estas empresas
-                y aliados, y los recursos se destinan a producir una experiencia segura, accesible y de alto valor.</p>
         </div>
 
         {{ range site.Data.patrocinadores.patrocinadores_mty.tiers }}
@@ -197,6 +199,8 @@
 
     </div>
 </section>
+
+{{ partial "dd4w2026/apoya.html" (dict "sede" "Monterrey 2026" "luma" "https://luma.com/tg59b5q8") }}
 
 <section class="alt">
     <div class="wrap" style="max-width:820px">
@@ -253,6 +257,9 @@
     <div class="wrap">
         <h2>Nos vemos en Monterrey</h2>
         <p style="font-weight:600;margin-top:14px">31 de octubre de 2026 · Tec de Monterrey · Gratis, cupo limitado</p>
+        <p style="color:var(--carbon);margin-top:10px;max-width:56ch;margin-left:auto;margin-right:auto">Asistir no
+            cuesta nada. Al registrarte puedes sumar una donación voluntaria: con eso sostenemos sede, alimentos y
+            accesibilidad para que la entrada siga siendo gratuita para todas.</p>
         <div class="btns"><a class="btn btn-ink" href="https://luma.com/tg59b5q8" target="_blank"
                 rel="noopener noreferrer">Regístrate gratis</a></div>
     </div>

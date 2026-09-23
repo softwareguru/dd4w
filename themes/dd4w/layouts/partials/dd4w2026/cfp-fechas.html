@@ -1,0 +1,23 @@
+{{- /* Fechas clave de la convocatoria de ponencias (CFP). Params: cfp (URL de la convocatoria),
+title (opcional), cerrada (bool: apaga el CTA cuando ya cerró la recepción). */ -}}
+<div class="cfp-dates">
+    <div class="cfp-dates-head">
+        <span class="tag">Convocatoria de ponencias · Monterrey 2026</span>
+        <h3>{{ with .title }}{{ . }}{{ else }}Fechas clave si quieres ser ponente{{ end }}</h3>
+    </div>
+    <ul class="cfp-dates-list">
+        <li>
+            <span class="d">Miércoles 30 de septiembre de 2026</span>
+            <span class="l">Límite de recepción de propuestas</span>
+        </li>
+        <li>
+            <span class="d">Viernes 9 de octubre de 2026</span>
+            <span class="l">Notificación de propuestas aprobadas</span>
+        </li>
+    </ul>
+    {{- if .cerrada }}
+    <span class="btn btn-sm is-off" aria-disabled="true">Convocatoria cerrada</span>
+    {{- else }}
+    <a class="btn btn-primary" href="{{ .cfp }}" target="_blank" rel="noopener noreferrer">Postula tu plática o taller</a>
+    {{- end }}
+</div>
