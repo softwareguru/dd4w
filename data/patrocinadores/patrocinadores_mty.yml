@@ -47,6 +47,10 @@ tiers:
         image: images/logos/women-in.jpg
         url: https://win.iberotech.org/
 
+      - name: csoftmty
+        image: images/logos/csoftmty.jpg
+        url: http://www.csoftmty.org/
+
   - class: t-orga
     label: Organizado por
     logos:
