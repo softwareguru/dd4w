@@ -1,0 +1,25 @@
+{{- /* Fila de logos. Recibe directamente la lista de logos (name, image, url).
+     Un logo sin url se dibuja sin enlace. Los SVG se sirven tal cual, porque
+     no se pueden convertir a webp. */ -}}
+<div class="tier-logos">
+    {{- range . }}
+    {{- $img := resources.Get .image }}
+    {{- if $img }}
+    {{- $src := "" }}{{ $w := 0 }}{{ $h := 0 }}
+    {{- if eq $img.MediaType.SubType "svg" }}
+    {{- $src = $img.RelPermalink }}
+    {{- else }}
+    {{- $webp := $img.Process "webp q90" }}
+    {{- $src = $webp.RelPermalink }}{{ $w = $webp.Width }}{{ $h = $webp.Height }}
+    {{- end }}
+    {{- $tag := printf `<img src="%s"%s alt="%s" loading="lazy">` $src (cond (gt $w 0) (printf ` width="%d" height="%d"` $w $h) "") .name | safeHTML }}
+    {{- if .url }}
+    <a class="lg" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ $tag }}</a>
+    {{- else }}
+    <div class="lg">{{ $tag }}</div>
+    {{- end }}
+    {{- else }}
+    {{- warnf "logo-row: no se encontró la imagen %q (logo %q)" .image .name }}
+    {{- end }}
+    {{- end }}
+</div>

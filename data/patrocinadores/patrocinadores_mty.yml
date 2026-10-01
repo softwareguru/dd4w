@@ -1,6 +1,18 @@
-### Patrocinadores en home y CDMX ###
+### Aliados y patrocinadores de la sede Monterrey ###
+#
+# Cada grupo tiene un significado propio, para que quede claro quién aporta
+# recursos, quién difunde, quién acompaña y quién es comunidad:
+#
+#   patrocinio   empresas que aportan recursos, agrupadas por paquete
+#   difusion     media partners: amplifican la convocatoria en sus canales
+#   aliados      organizaciones aliadas que suman contenido y beneficios
+#   comunidades  comunidades que convocan a sus miembros
+#   organiza     quién produce el evento
+#
+# Cada grupo se puede dejar vacío (o quitar) y su bloque no se dibuja.
+# Un logo sin `url` se dibuja sin enlace.
 
-tiers:
+patrocinio:
   - class: t-platinum
     label: Platinum
     logos:
@@ -19,44 +31,61 @@ tiers:
         image: images/logos/ica.jpg
         url: https://www.icamex.net/
 
+difusion:
+  label: Aliados de difusión
+  logos:
+    - name: Secretaría de Economía de Nuevo León
+      image: images/logos/economia-nuevo-leon.jpg
 
-  - class: t-silver
-    label: Community partner
-    logos:
-      - name: Ardan-labs
-        image: images/logos/ardan-labs-logo-badge.jpg
-        url: https://www.ardanlabs.com/community/
+    - name: Gobierno de Nuevo León
+      image: images/logos/gobierno-nuevo-leon.jpg
 
-      - name: GetOnBoard
-        image: images/logos/getonboard.png
-        url: https://www.getonbrd.com/
+    - name: Venture Café Monterrey
+      image: images/logos/venture-cafe-monterrey.svg
 
-      - name: Packt
-        image: images/logos/pack.png
-        url: https://www.packtpub.com/
+aliados:
+  label: Aliados
+  logos:
+    - name: Ardan Labs
+      image: images/logos/ardan-labs-logo-badge.jpg
+      url: https://www.ardanlabs.com/community/
 
-      - name: Ingenia
-        image: images/logos/ingenia.jpg
-        url: https://eic.tec.mx/es/iniciativas-cambio/ingenia-women-in-stem
+    - name: GetOnBoard
+      image: images/logos/getonboard.png
+      url: https://www.getonbrd.com/
 
-      - name: EXATEC Mujeres
-        image: images/logos/exatec.jpg
+    - name: Packt
+      image: images/logos/pack.png
+      url: https://www.packtpub.com/
 
-      - name: ITF
-        image: images/logos/itf.jpg
-        url: https://iberotech.org/
+comunidades:
+  label: Comunidades aliadas
+  logos:
+    - name: Ingenia
+      image: images/logos/ingenia.jpg
+      url: https://eic.tec.mx/es/iniciativas-cambio/ingenia-women-in-stem
 
-      - name: Women in
-        image: images/logos/women-in.jpg
-        url: https://win.iberotech.org/
+    - name: EXATEC Mujeres
+      image: images/logos/exatec.jpg
 
-  - class: t-orga
-    label: Organizado por
-    logos:
-      - name: Code4DEI
-        image: images/logos/code4dei-logo.png
-        url: https://code4dei.com/
+    - name: Women in
+      image: images/logos/women-in.jpg
+      url: https://win.iberotech.org/
 
-      - name: Software Guru
-        image: images/logos/sg.jpg
-        url: https://sg.com.mx/
+    - name: Csoftmty
+      image: images/logos/csoftmty.png
+
+    - name: Iberoamerican Technology Foundation
+      image: images/logos/itf.jpg
+      url: https://iberotech.org/
+
+organiza:
+  label: Organizado por
+  logos:
+    - name: Code4DEI
+      image: images/logos/code4dei-logo.png
+      url: https://code4dei.com/
+
+    - name: Software Guru
+      image: images/logos/sg.jpg
+      url: https://sg.com.mx/

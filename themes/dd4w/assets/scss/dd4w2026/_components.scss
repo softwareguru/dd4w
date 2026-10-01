@@ -325,3 +325,22 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .cfp-dates-list .d{display:block;font-family:var(--display);font-size:20px;line-height:1.25}
 .cfp-dates-list .l{display:block;margin-top:6px;font-size:14px;color:rgba(243,231,215,.85)}
 @media (max-width:560px){.cfp-dates{padding:26px 22px}.cfp-dates-list{grid-template-columns:1fr}}
+
+/* Aliados y patrocinadores: tres grupos con peso visual descendente, para que
+   se distinga quién patrocina, quién difunde y quién es comunidad aliada. */
+.aliados-grupo{margin-bottom:38px}
+.aliados-grupo+.aliados-grupo{padding-top:34px;border-top:1px solid rgba(45,41,48,.12)}
+.aliados-grupo-head{text-align:center;margin:0 auto 18px}
+.aliados-grupo-label{display:block;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--purple-deep)}
+/* El tier dentro de un grupo ya no repite el margen inferior del grupo */
+.aliados-grupo .tier{margin-bottom:22px}
+.aliados-grupo .tier:last-child{margin-bottom:0}
+/* Difusión y aliados: logos medianos */
+.ag-difusion .lg,.ag-aliados .lg{width:170px;height:78px}
+/* Comunidades: logos chicos y rejilla más densa */
+.ag-comunidades .tier-logos{gap:14px}
+.ag-comunidades .lg{width:140px;height:66px;padding:12px}
+@media (max-width:560px){
+  .ag-difusion .lg,.ag-aliados .lg,.ag-comunidades .lg{width:46%}
+  .ag-comunidades .lg{height:66px}
+}

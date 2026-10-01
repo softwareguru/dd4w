@@ -1,24 +1,72 @@
-<div class="tiers">
+{{- /* Aliados y patrocinadores de una sede, en grupos con significado propio para
+     distinguir quién patrocina, quién difunde, quién acompaña y quién es comunidad.
+     Params:
+       sede (string) sufijo del archivo de datos: "mty" lee patrocinadores_mty.yml
 
-        {{ range site.Data.patrocinadores.patrocinadores_mty.tiers }}
-        <div class="tier {{ .class }}">
-            <span class="tier-label">{{ .label }}</span>
+     Los datos viven en data/patrocinadores/patrocinadores_<sede>.yml con las
+     claves patrocinio, difusion, aliados, comunidades y organiza. Un grupo
+     vacío o ausente no dibuja su bloque. */ -}}
+{{- $sede := .sede | default "mty" -}}
+{{- $d := index site.Data.patrocinadores (printf "patrocinadores_%s" $sede) -}}
+{{- if not $d }}{{ warnf "patrocinadores: no hay datos para la sede %q" $sede }}{{ end -}}
+<div class="aliados">
 
-            <div class="tier-logos">
-                {{ range .logos }}
-
-                {{ $img := resources.Get .image }}
-                {{ $webp := $img.Process "webp q90" }}
-
-                <a class="lg" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-
-                    <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .name }}" loading="lazy">
-
-                </a>
-
-                {{ end }}
-            </div>
+    {{- with $d.patrocinio }}
+    <div class="aliados-grupo ag-patrocinio">
+        <div class="aliados-grupo-head">
+            <span class="aliados-grupo-label">Patrocinan</span>
         </div>
-        {{ end }}
+        {{- range . }}
+        <div class="tier {{ .class }}">
+            {{- with .label }}<span class="tier-label">{{ . }}</span>{{ end }}
+            {{ partial "dd4w2026/logo-row.html" .logos }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end }}
+
+    {{- with $d.difusion }}
+    {{- if .logos }}
+    <div class="aliados-grupo ag-difusion">
+        <div class="aliados-grupo-head">
+            <span class="aliados-grupo-label">{{ .label | default "Aliados de difusión" }}</span>
+        </div>
+        {{ partial "dd4w2026/logo-row.html" .logos }}
+    </div>
+    {{- end }}
+    {{- end }}
+
+    {{- with $d.aliados }}
+    {{- if .logos }}
+    <div class="aliados-grupo ag-aliados">
+        <div class="aliados-grupo-head">
+            <span class="aliados-grupo-label">{{ .label | default "Aliados" }}</span>
+        </div>
+        {{ partial "dd4w2026/logo-row.html" .logos }}
+    </div>
+    {{- end }}
+    {{- end }}
+
+    {{- with $d.comunidades }}
+    {{- if .logos }}
+    <div class="aliados-grupo ag-comunidades">
+        <div class="aliados-grupo-head">
+            <span class="aliados-grupo-label">{{ .label | default "Comunidades aliadas" }}</span>
+        </div>
+        {{ partial "dd4w2026/logo-row.html" .logos }}
+    </div>
+    {{- end }}
+    {{- end }}
+
+    {{- with $d.organiza }}
+    {{- if .logos }}
+    <div class="aliados-grupo ag-organiza">
+        <div class="tier t-orga">
+            <span class="tier-label">{{ .label | default "Organizado por" }}</span>
+            {{ partial "dd4w2026/logo-row.html" .logos }}
+        </div>
+    </div>
+    {{- end }}
+    {{- end }}
 
 </div>
