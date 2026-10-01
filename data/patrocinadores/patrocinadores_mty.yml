@@ -16,10 +16,6 @@ patrocinio:
   - class: t-platinum
     label: Platinum
     logos:
-      - name: Mobiik
-        image: images/logos/mobik.png
-        url: https://www.mobiik.com/jobs
-
       - name: ContPAQi
         image: images/logos/contpaqi-logo.png
         url: https://www.contpaqi.com/
@@ -72,8 +68,9 @@ comunidades:
       image: images/logos/women-in.jpg
       url: https://win.iberotech.org/
 
-    - name: Csoftmty
-      image: images/logos/csoftmty.png
+    - name: csoftmty
+      image: images/logos/csoftmty.jpg
+      url: http://www.csoftmty.org/
 
     - name: Iberoamerican Technology Foundation
       image: images/logos/itf.jpg
