@@ -187,30 +187,11 @@
 
 <section>
     <div class="wrap">
-        <div class="sec-head"><span class="kicker">Patrocinadores</span>
-            <h2>Patrocinadores de esta sede</h2>
+        <div class="sec-head"><span class="kicker">Patrocinadores y aliados</span>
+            <h2>Quiénes hicieron posible esta sede</h2>
         </div>
 
-        {{ range site.Data.patrocinadores.patrocinadores_cdmx.tiers }}
-        <div class="tier {{ .class }}">
-            <span class="tier-label">{{ .label }}</span>
-
-            <div class="tier-logos">
-                {{ range .logos }}
-
-                {{ $img := resources.Get .image }}
-                {{ $webp := $img.Process "webp q90" }}
-
-                <a class="lg" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-
-                    <img src="{{ $webp.RelPermalink }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" alt="{{ .name }}" loading="lazy">
-
-                </a>
-
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}
+        {{ partial "dd4w2026/patrocinadores.html" (dict "sede" "cdmx") }}
 
     </div>
 </section>

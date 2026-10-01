@@ -1,7 +1,14 @@
-### Patrocinadores en home y CDMX ###
+### Aliados y patrocinadores de la sede CDMX ###
+#
+# Misma estructura que patrocinadores_mty.yml:
+#
+#   patrocinio   empresas que aportan recursos, agrupadas por paquete
+#   difusion     media partners: amplifican la convocatoria en sus canales
+#   aliados      organizaciones aliadas que suman contenido y beneficios
+#   comunidades  comunidades que convocan a sus miembros
+#   organiza     quién produce el evento
 
-tiers:
-
+patrocinio:
   - class: t-platinum
     label: Platinum
     logos:
@@ -23,32 +30,42 @@ tiers:
       - name: Qualtop
         image: images/logos/qualtop.png
         url: https://qualtop.com/
+
       - name: Impactclick
         image: images/logos/impact-click.png
         url: https://www.impactclick.org/
 
-  - class: t-silver
-    label: Community partner
-    logos:
-      - name: Ardan-labs
-        image: images/logos/ardan-labs-logo-badge.jpg
-        url: https://www.ardanlabs.com/community/
+# CDMX no tuvo aliados de difusión; el bloque queda vacío y no se dibuja.
+difusion:
+  label: Aliados de difusión
+  logos: []
 
-      - name: GetOnBoard
-        image: images/logos/getonboard.png
-        url: https://www.getonbrd.com/
+aliados:
+  label: Aliados
+  logos:
+    - name: Ardan Labs
+      image: images/logos/ardan-labs-logo-badge.jpg
+      url: https://www.ardanlabs.com/community/
 
-      - name: Packt
-        image: images/logos/pack.png
-        url: https://www.packtpub.com/
+    - name: GetOnBoard
+      image: images/logos/getonboard.png
+      url: https://www.getonbrd.com/
 
-  - class: t-orga
-    label: Organizado por
-    logos:
-      - name: Code4DEI
-        image: images/logos/code4dei-logo.png
-        url: https://code4dei.com/
+    - name: Packt
+      image: images/logos/pack.png
+      url: https://www.packtpub.com/
 
-      - name: Software Guru
-        image: images/logos/sg.jpg
-        url: https://sg.com.mx/
+comunidades:
+  label: Comunidades aliadas
+  logos: []
+
+organiza:
+  label: Organizado por
+  logos:
+    - name: Code4DEI
+      image: images/logos/code4dei-logo.png
+      url: https://code4dei.com/
+
+    - name: Software Guru
+      image: images/logos/sg.jpg
+      url: https://sg.com.mx/
