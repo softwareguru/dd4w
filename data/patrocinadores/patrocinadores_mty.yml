@@ -30,14 +30,14 @@ patrocinio:
 difusion:
   label: Aliados de difusión
   logos:
+    - name: Venture Café Monterrey
+      image: images/logos/venture-cafe-monterrey.svg
+
     - name: Secretaría de Economía de Nuevo León
       image: images/logos/economia-nuevo-leon.jpg
 
     - name: Gobierno de Nuevo León
       image: images/logos/gobierno-nuevo-leon.jpg
-
-    - name: Venture Café Monterrey
-      image: images/logos/venture-cafe-monterrey.svg
 
 aliados:
   label: Aliados
