@@ -82,6 +82,10 @@ comunidades:
     - name: Women in Tech (WIT)
       image: images/logos/women-in-tech-wit.png
 
+    - name: Generation México
+      image: images/logos/generation-mx.jpg
+      url: http://www.mexico.generation.org
+
 organiza:
   label: Organizado por
   logos:
