@@ -76,9 +76,6 @@ comunidades:
       image: images/logos/itf.jpg
       url: https://iberotech.org/
 
-    - name: Global4Her
-      image: images/logos/global4her.png
-
 organiza:
   label: Organizado por
   logos:
@@ -89,3 +86,6 @@ organiza:
     - name: Software Guru
       image: images/logos/sg.jpg
       url: https://sg.com.mx/
+
+    - name: Global4Her
+      image: images/logos/global4her.png
