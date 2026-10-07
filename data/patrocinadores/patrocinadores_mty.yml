@@ -76,6 +76,9 @@ comunidades:
       image: images/logos/itf.jpg
       url: https://iberotech.org/
 
+    - name: AIESEC
+      image: images/logos/aiesec.png
+
 organiza:
   label: Organizado por
   logos:
