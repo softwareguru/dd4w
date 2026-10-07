@@ -3,6 +3,10 @@ title: "CONVOCATORIA DE PONENCIAS"
 url: "/convocatoria-de-ponencias"
 ---
 
+<div class="alert alert-warning text-center" role="status" style="margin-bottom:24px">
+<b>La convocatoria de ponencias está cerrada.</b> Ya no es posible enviar propuestas. Consulta la <a href="/sede-monterrey/">página del evento de Monterrey (31 de octubre de 2026)</a> para conocer el programa y registrarte.
+</div>
+
 <h2 class="text-center" style="color: black;">Convocatoria de Ponencias para Dev Day 4 Women: <br>¡Comparte tu conocimiento, inspira y empodera a la comunidad!</h2>
 
 <br>

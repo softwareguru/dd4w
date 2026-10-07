@@ -1,9 +1,10 @@
 {{- /* Fechas clave de la convocatoria de ponencias (CFP). Params: cfp (URL de la convocatoria),
-title (opcional), cerrada (bool: apaga el CTA cuando ya cerró la recepción). */ -}}
+title (opcional), cerrada (bool: apaga el CTA cuando ya cerró la recepción),
+cta_url y cta_label (a dónde mandar a quien llega con la convocatoria ya cerrada). */ -}}
 <div class="cfp-dates">
     <div class="cfp-dates-head">
         <span class="tag">Convocatoria de ponencias · Monterrey 2026</span>
-        <h3>{{ with .title }}{{ . }}{{ else }}Fechas clave si quieres ser ponente{{ end }}</h3>
+        <h3>{{ with .title }}{{ . }}{{ else }}{{ if $.cerrada }}La convocatoria ya cerró{{ else }}Fechas clave si quieres ser ponente{{ end }}{{ end }}</h3>
     </div>
     <ul class="cfp-dates-list">
         <li>
@@ -16,7 +17,9 @@ title (opcional), cerrada (bool: apaga el CTA cuando ya cerró la recepción). *
         </li>
     </ul>
     {{- if .cerrada }}
-    <span class="btn btn-sm is-off" aria-disabled="true">Convocatoria cerrada</span>
+    <p class="cfp-dates-cerrada">La recepción de propuestas ya cerró. Gracias a todas las que postularon: estamos
+        afinando el programa y lo iremos publicando en la página del evento.</p>
+    <a class="btn btn-primary" href="{{ .cta_url | default "/sede-monterrey/" }}">{{ .cta_label | default "Conoce el evento en Monterrey" }}</a>
     {{- else }}
     <a class="btn btn-primary" href="{{ .cfp }}" target="_blank" rel="noopener noreferrer">Postula tu plática o taller</a>
     {{- end }}

@@ -5,7 +5,7 @@
 <span class="eyebrow">Media kit</span>
 <h1>Difunde <span class="hl">Dev Day 4 Women</span></h1>
 <p class="lead" style="margin:18px auto 0">Todo lo que necesitas para comunicar el evento: datos oficiales y accesos a los assets digitales para redes y comunidades.</p>
-<p class="hero-note">31 de octubre de 2026 · Tecnológico de Monterrey</p>
+<p class="hero-note">Sede Monterrey · 31 de octubre de 2026 · Tecnológico de Monterrey, Distrito Tec</p>
 </div></section>
 
 <section><div class="wrap">
@@ -13,11 +13,14 @@
 <p>Dev Day 4 Women es un evento de Code 4 DEI dirigido a mujeres en la industria tecnológica de México. Usa estos datos oficiales al comunicar el evento.</p></div>
 <div class="kv">
 <div class="card"><div class="k">Fecha</div><div class="v big">31 de octubre de 2026</div><div class="v" style="color:var(--ink-soft)">Sábado · un día</div></div>
-<div class="card"><div class="k">Sede</div><div class="v"><b>Tecnológico de Monterrey</b></div><div class="v" style="color:var(--ink-soft)"><a class="maplink" href="https://www.google.com/maps/search/?api=1&query={{ "Tecnológico de Monterrey, Av. Eugenio Garza Sada 2501 Sur, Distrito Tec, 64700 Monterrey, N.L." | urlquery }}" target="_blank" rel="noopener noreferrer">Av. Eugenio Garza Sada 2501 Sur, Distrito Tec, 64700 Monterrey, N.L.</a></div></div>
-<div class="card"><div class="k">Acceso</div><div class="v big">Gratuito</div><div class="v" style="color:var(--ink-soft)">Presencial · 200 lugares con registro previo. Iniciativa sin fines de lucro: el acceso libre es posible gracias a patrocinadores y aliados.</div></div>
-<div class="card"><div class="k">Formato</div><div class="v">Paneles, talleres, charlas y presentaciones de comunidades.</div></div>
+<div class="card"><div class="k">Sede</div><div class="v"><b>Tecnológico de Monterrey</b></div><div class="v" style="color:var(--ink-soft)"><a class="maplink" href="https://share.google/cEJXvyz3isVL9zRug" target="_blank" rel="noopener noreferrer">Av. Eugenio Garza Sada 2501 Sur, Tecnológico, Distrito Tec, 64700 Monterrey, N.L.</a></div></div>
+<div class="card"><div class="k">Acceso</div><div class="v big">Gratuito</div><div class="v" style="color:var(--ink-soft)">Presencial · 200 lugares con registro previo. Iniciativa sin fines de lucro: el acceso libre es posible gracias a patrocinadores y aliados. Al registrarse se puede aportar un donativo opcional.</div></div>
+<div class="card"><div class="k">Formato</div><div class="v">Paneles, talleres, charlas y presentaciones de comunidades.</div><div class="v" style="color:var(--ink-soft)">Un día completo, en una sola sede.</div></div>
+<div class="card"><div class="k">Tema de la edición 2026</div><div class="v">Cómo la IA está transformando nuestras carreras: modelos, desarrollo asistido, seguridad, gestión de equipos y cultura de trabajo.</div></div>
+<div class="card"><div class="k">Para quién es</div><div class="v">Mujeres en STEM de cualquier etapa: profesionales en crecimiento, perfiles en transición, estudiantes y juniors, líderes y fundadoras.</div><div class="v" style="color:var(--ink-soft)">Ingeniería, desarrollo, datos, IA, cloud, ciberseguridad, producto técnico, investigación y ciencias.</div></div>
 <div class="card"><div class="k">Registro</div><div class="v"><a class="maplink" href="https://luma.com/tg59b5q8" target="_blank" rel="noopener noreferrer">luma.com/tg59b5q8</a></div><div class="v" style="color:var(--ink-soft)">Comparte este enlace para fomentar el registro.</div></div>
 <div class="card"><div class="k">Hashtag oficial</div><div class="v big">#DevDay4Women26</div><div class="v" style="color:var(--ink-soft)">Úsalo en todas tus publicaciones.</div></div>
+<div class="card"><div class="k">Páginas para enlazar</div><div class="v"><a class="maplink" href="/sede-monterrey/">Sede Monterrey</a> · <a class="maplink" href="/guia-asistentes-monterrey/">Guía para asistentes</a></div><div class="v" style="color:var(--ink-soft)">Enlaza estas páginas cuando necesites dar más contexto del evento.</div></div>
 </div>
 </div></section>
 
@@ -33,6 +36,7 @@
 <div style="flex:1;min-width:200px"><h3>Artes generales del evento</h3><p>Contenido general de difusión para anunciar Dev Day 4 Women y fomentar el registro.</p></div>
 <a class="btn btn-primary" href="{{ .Params.assets_generales }}" target="_blank" rel="noopener noreferrer">Abrir assets</a></div>
 
+{{- if .Params.assets_speakers_show }}
 <div class="tool" style="margin-top:16px"><div class="ti" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/><path d="M4 20c0-3.3 3.6-6 8-6s8 2.7 8 6"/></svg></div>
 <div style="flex:1;min-width:200px"><h3>Artes para speakers</h3>
 {{- if .Params.assets_speakers }}
@@ -41,6 +45,7 @@
 {{- else }}
 <p>Postales personalizadas para que las ponentes anuncien su participación. <b>Disponibles próximamente.</b></p></div>
 <span class="btn btn-primary" aria-disabled="true" style="opacity:.5;pointer-events:none">Próximamente</span></div>
+{{- end }}
 {{- end }}
 
 </div></section>

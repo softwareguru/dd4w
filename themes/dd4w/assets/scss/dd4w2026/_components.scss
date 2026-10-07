@@ -324,6 +324,7 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .cfp-dates-list li{background:rgba(243,231,215,.1);border:1px solid rgba(243,231,215,.22);border-radius:14px;padding:18px 20px}
 .cfp-dates-list .d{display:block;font-family:var(--display);font-size:20px;line-height:1.25}
 .cfp-dates-list .l{display:block;margin-top:6px;font-size:14px;color:rgba(243,231,215,.85)}
+.cfp-dates-cerrada{margin:0 0 22px;max-width:62ch;color:rgba(243,231,215,.9)}
 @media (max-width:560px){.cfp-dates{padding:26px 22px}.cfp-dates-list{grid-template-columns:1fr}}
 
 /* Aliados y patrocinadores: tres grupos con peso visual descendente, para que
