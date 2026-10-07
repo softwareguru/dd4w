@@ -76,8 +76,11 @@ comunidades:
       image: images/logos/itf.jpg
       url: https://iberotech.org/
 
-    - name: Global4Her
-      image: images/logos/global4her.png
+    - name: AIESEC
+      image: images/logos/aiesec.png
+
+    - name: Women in Tech (WIT)
+      image: images/logos/women-in-tech-wit.png
 
 organiza:
   label: Organizado por
@@ -89,3 +92,6 @@ organiza:
     - name: Software Guru
       image: images/logos/sg.jpg
       url: https://sg.com.mx/
+
+    - name: Global4Her
+      image: images/logos/global4her.png
