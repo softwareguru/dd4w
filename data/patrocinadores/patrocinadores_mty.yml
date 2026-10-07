@@ -76,6 +76,9 @@ comunidades:
       image: images/logos/itf.jpg
       url: https://iberotech.org/
 
+    - name: Global4Her
+      image: images/logos/global4her.png
+
 organiza:
   label: Organizado por
   logos:
