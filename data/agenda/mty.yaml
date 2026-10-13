@@ -14,7 +14,7 @@
 #   - "Presentación de comunidades" y el workshop patrocinado de CONTPAQi
 #     están sin ponente porque el CFP no los incluye.
 salas:
-  - nombre: "Sala plenaria"
+  - nombre: "Aulas 6-206 | Sala plenaria"
     sesiones:
       - horario: "08:00 – 09:00"
         titulo: "Registro"
