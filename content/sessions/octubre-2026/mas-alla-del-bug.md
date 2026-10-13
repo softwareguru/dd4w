@@ -1,6 +1,6 @@
 ---
 title: "Más allá del bug: por qué la IA no puede reemplazar el criterio humano en sistemas críticos"
-slug: mas-alla-del-bug-por-que-la-ia-no-puede-reemplazar-el-criterio-humano-en-sistemas-criticos
+slug: mas-alla-del-bug
 speakers:
  - Alicia Pravia
 time_start: 2026-10-31T14:15:00-06:00

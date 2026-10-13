@@ -1,6 +1,6 @@
 ---
 title: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
-slug: cuando-diseno-y-desarrollo-hablan-el-mismo-idioma-ia-para-escalar-un-design-system-multimarca
+slug: cuando-diseno-y-desarrollo-hablan-el-mismo-idioma
 speakers:
  - Antonieta Carrasco
 time_start: 2026-10-31T12:55:00-06:00

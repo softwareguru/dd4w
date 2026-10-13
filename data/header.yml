@@ -19,6 +19,10 @@ menu:
     url: "/vacantes/"
     identifier: "vacantes"
 
+  - name: "Sesiones confirmadas"
+    url: "/sessions/octubre-2026"
+    identifier: "sesiones"
+
 buttons:
   - label: "MTY"
     url: "/sede-monterrey/"

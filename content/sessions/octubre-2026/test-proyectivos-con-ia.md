@@ -2,7 +2,7 @@
 title: "Test proyectivos con IA"
 slug: test-proyectivos-con-ia
 speakers:
- - Consuelo Jiménez
+ - Dra Maria Del Consuelo Jimenez Fernandez
 time_start: 2026-10-31T13:55:00-06:00
 time_end: 2026-10-31T14:15:00-06:00
 ---

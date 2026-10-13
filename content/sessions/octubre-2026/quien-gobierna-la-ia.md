@@ -1,6 +1,6 @@
 ---
 title: "¿Quién gobierna la IA? El rol de GRC en el futuro de las organizaciones"
-slug: quien-gobierna-la-ia-el-rol-de-grc-en-el-futuro-de-las-organizaciones
+slug: quien-gobierna-la-ia
 speakers:
  - Marian Aranda
 time_start: 2026-10-31T09:15:00-06:00

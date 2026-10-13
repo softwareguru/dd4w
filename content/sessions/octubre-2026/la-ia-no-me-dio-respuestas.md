@@ -1,8 +1,8 @@
 ---
 title: "La IA no me dio respuestas. Me dio criterio."
-slug: la-ia-no-me-dio-respuestas-me-dio-criterio
+slug: la-ia-no-me-dio-respuestas
 speakers:
- - Reyna Méndez
+ - Reyna Mendez
 time_start: 2026-10-31T14:35:00-06:00
 time_end: 2026-10-31T14:55:00-06:00
 ---

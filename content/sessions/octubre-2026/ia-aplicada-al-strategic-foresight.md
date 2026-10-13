@@ -1,8 +1,8 @@
 ---
 title: "IA aplicada al Strategic Foresight: herramientas para anticipar y transformar"
-slug: ia-aplicada-al-strategic-foresight-herramientas-para-anticipar-y-transformar
+slug: ia-aplicada-al-strategic-foresight
 speakers:
- - Rocío Vane Farías
+ - Rocio Vane Farias
 time_start: 2026-10-31T09:35:00-06:00
 time_end: 2026-10-31T09:55:00-06:00
 ---

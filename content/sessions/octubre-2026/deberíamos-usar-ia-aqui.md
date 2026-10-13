@@ -1,6 +1,6 @@
 ---
 title: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
-slug: deberiamos-usar-ia-aqui-como-decidir-cuando-realmente-vale-la-pena
+slug: deberíamos-usar-ia-aqui
 speakers:
  - Fernanda Alanis
 time_start: 2026-10-31T09:55:00-06:00
