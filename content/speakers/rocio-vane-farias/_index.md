@@ -9,7 +9,7 @@ twitter: ""
 linkedin: ""
 github: ""
 events: 
- - octubre-2025
+ - octubre-2026
 ---
 
 Maestra en Prospectiva Estratégica por la Escuela de Gobierno y Transformación Pública y 

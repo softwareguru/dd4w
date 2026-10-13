@@ -1,0 +1,250 @@
+# Ponentes · Sede Monterrey (31 de octubre)
+# Rol, organización, biografía y LinkedIn tomados de "DD4WMTY 26 - CFP 2026"
+# (propuestas aceptadas y confirmadas).
+# Las biografías se editaron para corregir ortografía, unificar la redacción y
+# limpiar artefactos de codificación del export. Donde el CFP no traía el dato
+# (rol, organización, LinkedIn, foto o biografía) el campo queda vacío.
+# cat: panel | charla | taller | lightning
+# photo: archivo en /preview/images/speakers/
+# El enlace "Ver sesión" del modal se deriva del campo `sesion` de
+# data/agenda/mty.yaml; aquí solo hace falta para quienes no aparecen en el grid.
+ponentes:
+  - name: "Alicia Pravia"
+    role: "Senior QC Analyst y QA Lead"
+    org: "Globant"
+    cat: "charla"
+    photo: "alicia-pravia.jpg"
+    linkedin: "https://mx.linkedin.com/in/bpravia"
+    bio: |-
+      Senior QC Analyst y QA Lead con más de 10 años de experiencia garantizando la calidad del software, desde comercio electrónico hasta dispositivos médicos que requieren regulación de la FDA.
+
+      Certificada por ISTQB y con una destacada trayectoria en proyectos globales en Globant, ha integrado herramientas de inteligencia artificial en ciclos de pruebas funcionales complejos.
+
+      Es apasionada por la calidad, la mejora de los procesos de pruebas y por compartir conocimiento sobre las mejores prácticas de calidad.
+
+  - name: "Ana Pinilla"
+    role: "Mentora estudiantil"
+    org: "Tecnológico de Monterrey"
+    cat: "taller"
+    photo: "ana-pinilla.jpeg"
+    linkedin: "https://www.linkedin.com/in/anapinillat/"
+    bio: |-
+      Química y Maestra en Química por la Universidad Industrial de Santander (Colombia), y Doctora en Ciencia de Materiales por el Centro de Investigación en Materiales Avanzados (CIMAV), subsede Monterrey.
+
+      Actualmente se desempeña como mentora estudiantil en el Tecnológico de Monterrey, Campus Monterrey. Además de su labor de acompañamiento a los estudiantes, ha participado en diversos proyectos enfocados en el desarrollo de estrategias de mentoría innovadoras, algunas de ellas con un enfoque STEAM (ciencia, tecnología, ingeniería, artes y matemáticas).
+
+  - name: "Andra Nuta"
+    role: "Career & founder coach"
+    org: "Andra Nuta Coaching"
+    cat: "taller"
+    photo: "andra-nuta.jpg"
+    linkedin: "https://www.linkedin.com/in/andra-nuta/"
+    bio: ""
+
+  - name: "Andrea Monsanto"
+    role: "Escritora, conferencista y consultora"
+    org: "Instituto YOSOY"
+    cat: "charla"
+    photo: "andrea-monsanto.jpg"
+    linkedin: "https://www.linkedin.com/in/andrea-monsanto-15bbb667/"
+    bio: |-
+      Andrea Monsanto es conferencista y consultora internacional en bienestar socioemocional y financiero, resiliencia y liderazgo colaborativo. Fue gerente nacional de Programas de Bienestar Integral del Tecnológico de Monterrey.
+
+      Es licenciada en Bioquímica por SUNY Stony Brook, estudió en la Escuela de Filosofía Práctica de Nueva York y cuenta con una maestría en Psicología Positiva por Life University.
+
+      Colaboró con Life University y la UNESCO para llevar a Latinoamérica el Entrenamiento en Compasión Integral, implementado con miles de personas. Ha participado en encuentros internacionales como Wellbeing 360, World Happiness Fest y Compassionate Action, y ha sido facilitadora invitada de la UNESCO en su programa SEEK.
+
+  - name: "Antonieta Carrasco"
+    role: "Lead Product Designer"
+    org: "Lottus Education"
+    cat: "charla"
+    photo: "antonieta-carrasco.jpg"
+    linkedin: "https://www.linkedin.com/in/antonietacarrasco/"
+    bio: |-
+      Antonieta Carrasco es Lead Product Designer en Lottus Education, con más de diez años de experiencia creando productos digitales para medios, banca y educación. Ha liderado proyectos reconocidos en El Financiero | Bloomberg y desarrollado soluciones para BBVA México y startups tecnológicas.
+
+      Concibe el diseño de producto como una herramienta estratégica para generar impacto real, alineando negocio, tecnología y personas.
+
+      Actualmente es docente en Impact Click, donde imparte Diseño de Interfaz (UI) y acompaña a sus estudiantes a transformar ideas en experiencias digitales claras, funcionales y con intención estratégica.
+
+  - name: "Brenda Hernández"
+    role: "Instructora de Habilidades Digitales"
+    org: "Generation"
+    cat: "taller"
+    photo: "brenda-hernandez.jpg"
+    linkedin: "https://www.linkedin.com/in/brenda-hernandez-rodr%C3%ADguez/"
+    bio: |-
+      Brenda Hernández es Licenciada en Comercio Internacional y especialista en Propiedad Intelectual, con más de 15 años de experiencia en comunicación, desarrollo creativo y capacitación, incluyendo creación de contenido para marcas y redes sociales. Actualmente colabora con Taravy, impulsando el desarrollo de habilidades digitales y el uso de la inteligencia artificial.
+
+      A través de la capacitación encontró su propósito: compartir conocimiento, conectar con las personas e impulsar nuevas oportunidades, especialmente para mujeres y jóvenes. Creativa, adaptable y apasionada por aprender, disfruta ayudar a otros a reconocer su potencial y atreverse a construir nuevas posibilidades para su futuro.
+
+  - name: "Consuelo Jiménez"
+    role: "Docente investigadora y consultora"
+    org: "UDEM"
+    cat: "charla"
+    photo: "consuelo-jimenez.jpeg"
+    linkedin: "https://www.linkedin.com/in/mar%C3%ADa-del-consuelo-jim%C3%A9nez-fern%C3%A1ndez-482815b2/"
+    bio: |-
+      Docente investigadora y consultora en desarrollo y calidad de software. Cuenta con 18 registros de obra y diversos artículos, libros y capítulos de libro asociados a temas de software, proyectos de internacionalización y estrategias de aprendizaje.
+
+      Ha obtenido más de 170 reconocimientos a nivel local, nacional e internacional y ha asesorado más de 400 proyectos de software, varios de ellos premiados. Es mentora y jurado para proyectos de innovación, y conductora y productora del programa de radio Mujer Digital.
+
+  - name: "Cristina González Córdova"
+    role: "Profesora Docente"
+    org: "Tecnológico de Monterrey"
+    cat: "lightning"
+    photo: "cristina-gonzalez-cordova.jpg"
+    linkedin: "https://www.linkedin.com/in/cristinagonzalezcordova10/"
+    bio: |-
+      Cristina González es ingeniera de software y educadora apasionada por la tecnología. Con más de 15 años de experiencia en la industria, ha participado en el diseño y desarrollo de soluciones tecnológicas para empresas internacionales como Hewlett-Packard, Procter & Gamble y Nokia, especializándose en desarrollo web y móvil, experiencia de usuario (UX) y calidad del software.
+
+      Es Ingeniera en Sistemas Computacionales y Maestra en Ciencias de la Tecnología Informática.
+
+  - name: "Cristina Nistor"
+    role: "Directora de Operaciones"
+    org: "TESTCo"
+    cat: "lightning"
+    photo: "cristina-nistor.png"
+    linkedin: "https://www.linkedin.com/in/nistorcristina/"
+    bio: |-
+      Cristina Nistor es ejecutiva, mentora y líder de equipos globales con más de 20 años de experiencia en liderazgo, operaciones y desarrollo de talento. Como Directora de Operaciones de TESTCo, ha liderado equipos internacionales, impulsado la rentabilidad del negocio y construido culturas de alto desempeño.
+
+      Como mentora y conferencista, acompaña a líderes emergentes a desarrollar claridad, confianza y habilidades para generar resultados. Es una apasionada promotora del liderazgo femenino y participa activamente en iniciativas como Dev Day 4 Women, impulsando un mundo donde las mujeres no tengan que hacerse pequeñas para encajar, sino que puedan desarrollar todo su potencial.
+
+  - name: "Elvia Rosas Herrera"
+    role: "Directora de programa de ITC"
+    org: "Tecnológico de Monterrey"
+    cat: "panel"
+    photo: ""
+    linkedin: ""
+    bio: ""
+
+  - name: "Fernanda Alanis"
+    role: "Subdirectora de Riesgos de Inteligencia Artificial"
+    org: "Santander México"
+    cat: "charla"
+    photo: "fernanda-alanis.png"
+    linkedin: "https://www.linkedin.com/in/fernanda-alanis-montfort/"
+    bio: |-
+      Actualmente es Subdirectora de Riesgos de Inteligencia Artificial en Santander México, donde trabaja en la supervisión de iniciativas de IA, la incorporación de principios de riesgo operacional a su adopción, la implementación de una política de IA y el desarrollo de herramientas para su gobierno y monitorización.
+
+  - name: "Hilda Molina"
+    role: "Recursos Humanos"
+    org: "Softtek"
+    cat: "panel"
+    photo: ""
+    linkedin: ""
+    bio: ""
+
+  - name: "Jennifer Jassely Martínez Eguía"
+    role: "Chief Growth Officer"
+    org: "Fifty AI"
+    cat: "taller"
+    photo: "jennifer-jassely-martinez-eguia.png"
+    linkedin: "https://www.linkedin.com/in/jennifer-jassely-martinez-eguia/"
+    bio: |-
+      Jennifer Jassely Martínez Eguía es cofundadora y Chief Growth Officer de Fifty AI, startup seleccionada en la aceleradora PotencIA MX de Meta y ganadora del Fleet Award en la categoría «Mujer que deja huella: Innovación y Transformación» de El Heraldo de México.
+
+      Desde el Hub de Innovación y Emprendimiento Eduardo Garza T. participa en el desarrollo de agentes autónomos de inteligencia artificial aplicados a logística, cadena de suministro y áreas comerciales. Ha liderado programas de capacitación en IA, ciberseguridad y datos en México, Brasil y Argentina. Es Google Student Ambassador y conferencista internacional.
+
+  - name: "Leslie Helena García López"
+    role: "Ingeniera organizacional, creativa y fundadora"
+    org: "Auténtica"
+    cat: "charla"
+    photo: ""
+    linkedin: ""
+    bio: |-
+      Ingeniera en Negocios y Gestión Empresarial por profesión, pero catalizadora de comunidad por vocación. Es creadora de contenido y fundadora de Auténtica, una comunidad en movimiento cuyos ejes centrales son el amor propio y el empoderamiento femenino. Este espacio está diseñado para que las mujeres exploren su potencial, compartan sus historias y encuentren herramientas de desarrollo personal a través de la creatividad y la colaboración.
+
+      Apasionada por el poder de la voz propia y el impacto de las redes de apoyo, Leslie busca inspirar a más personas a alinearse con su propósito. Fusiona la estructura del pensamiento analítico con dinámicas de autodescubrimiento y conexión humana: a través de sus charlas, talleres y proyectos digitales motiva a profesionales y emprendedoras a adueñarse de su narrativa y construir redes de apoyo.
+
+  - name: "Lizbeth Noriega Gutiérrez"
+    role: "Jefatura de División de Ingenierías"
+    org: "Universidad Tecnológica de la Zona Metropolitana de Guadalajara"
+    cat: "taller"
+    photo: "lizbeth-noriega-gutierrez.jpeg"
+    linkedin: "https://www.linkedin.com/in/lizbeth-noriega-gutierrez-630926396/"
+    bio: |-
+      Jefa de la División de Ingenierías en la UTZMG y docente universitaria con más de 15 años de experiencia en educación superior y tecnología.
+
+      Es Técnico Superior Universitario en Sistemas Informáticos, Ingeniera en Tecnologías de la Información y Maestra en Educación. A lo largo de su trayectoria ha participado en proyectos de desarrollo de software, Internet de las Cosas (IoT), automatización e innovación educativa, promoviendo la adopción de tecnologías emergentes en entornos académicos y profesionales.
+
+      Actualmente impulsa iniciativas relacionadas con Inteligencia Artificial y transformación digital, buscando acercar herramientas tecnológicas accesibles que permitan a estudiantes y profesionistas convertir ideas en soluciones reales.
+
+  - name: "Lupita Garza"
+    role: "Fundadora y CEO"
+    org: "International Assembly"
+    cat: "panel"
+    photo: "lupita-garza.jpg"
+    linkedin: "https://www.linkedin.com/in/ma-guadalupe-garza-9587b116/"
+    bio: |-
+      Lupita Garza Flores es una empresaria regiomontana destacada por su liderazgo empresarial, impulso al liderazgo femenino y compromiso social. Es licenciada en Administración de Empresas por el ITESM y cuenta con una maestría en Liderazgo Positivo por la Universidad Tecmilenio.
+
+      Es fundadora y CEO de International Assembly, empresa del sector electrónico fundada en 1994, reconocida por su excelencia operativa con el Premio Nuevo León a la Competitividad en 2017.
+
+      Ha sido una figura clave en el ecosistema empresarial: marcó un precedente al convertirse en la primera mujer en presidir el Consejo Guadalupe, así como en formar y encabezar la Comisión de Mujeres Industriales. Actualmente participa como consejera en organismos empresariales y financieros, además de coordinar iniciativas de filantropía.
+
+      En el ámbito público fue Secretaria de Desarrollo Económico de Guadalupe (2020–2021) y candidata a diputada local en 2021. También presidió AMMJE Guadalupe (2022–2024).
+
+      Actualmente preside GLOBAL4Her, organización internacional enfocada en el desarrollo de mujeres líderes. Su trayectoria ha sido reconocida con importantes distinciones, como la Medalla al Mérito Ciudadano (2019) y la Presea «María Elena Chapa Hernández» (2023).
+
+  - name: "Marian Aranda"
+    role: "Data Protection Officer & Compliance (GRC)"
+    org: "DeepArmy"
+    cat: "charla"
+    photo: "marian-aranda.png"
+    linkedin: ""
+    bio: |-
+      Marian Aranda es licenciada en Derecho, egresada de la Universidad De La Salle Bajío, y profesional en Gobierno, Riesgo y Cumplimiento (GRC) dentro de la industria de la ciberseguridad. Actualmente se desempeña como Data Protection Officer & Compliance en DeepArmy, empresa líder en servicios de SOC, ciberseguridad y seguridad de la información.
+
+      Su trabajo se enfoca en la protección de datos, privacidad, cumplimiento regulatorio y gobierno de tecnologías emergentes, ayudando a empresas privadas e instituciones públicas a adoptar tecnologías de forma segura y alineada a estándares internacionales.
+
+      Le apasiona la intersección entre derecho, tecnología y ciberseguridad, y promover una mayor participación de perfiles diversos de mujeres en STEM, demostrando que el futuro de la tecnología también se construye desde la gobernanza y el cumplimiento.
+
+  - name: "Reyna Méndez"
+    role: "Líder de Adopción y Automatización con IA"
+    org: "GNC México"
+    cat: "charla"
+    photo: "reyna-mendez.jpg"
+    linkedin: "https://www.linkedin.com/in/reyna-m%C3%A9ndez-contreras"
+    bio: |-
+      Reyna Méndez es Ingeniera Mecatrónica y actualmente lidera iniciativas de adopción y automatización con Inteligencia Artificial en GNC México. Su trabajo consiste en conectar tecnología, negocio y personas para impulsar proyectos de transformación con IA.
+
+      Le apasiona explorar cómo la Inteligencia Artificial puede potenciar no solo la productividad, sino también la forma en que las personas aprenden, toman decisiones y generan valor dentro de las organizaciones.
+
+  - name: "Rocío Vane Farías"
+    role: "Líder fundadora del Centro de Futuros"
+    org: "Met Conecta"
+    cat: "charla"
+    photo: "rocio-vane-farias.jpg"
+    linkedin: ""
+    bio: |-
+      Maestra en Prospectiva Estratégica por la Escuela de Graduados en Administración Pública y Política Pública del Tecnológico de Monterrey y licenciada en Relaciones Internacionales por el Tecnológico de Monterrey, Campus Monterrey. Cuenta con una especialidad en Emprendimiento por el Instituto de Emprendimiento Eugenio Garza Lagüera, en alianza con Babson College, Berkeley University y Explora Internacional Silicon Valley. Actualmente es candidata al grado de Doctora en Administración.
+
+      Es líder fundadora del Centro de Futuros en Met Conecta, empresa consultora en emprendimiento e innovación con enfoque en el diseño de futuros basados en metodologías de Prospectiva Estratégica, para el desarrollo de investigaciones y consultorías en el ámbito privado y público.
+
+      Es miembro de la Constelación de Futuristas del Tecnológico de Monterrey y del Comité Directivo de la Red Mexicana de Futuros, y participante activa en la Red Iberoamericana de Prospectiva y la Red Latinoamericana de Futuros. Es facilitadora de «Futures Literacy Laboratories» bajo la metodología de Futuros de la UNESCO.
+
+  - name: "Ruth Rodríguez Gallegos"
+    role: "Profesora Asociada, Departamento de Ciencias"
+    org: "Tecnológico de Monterrey"
+    cat: "lightning"
+    photo: "ruth-rodriguez-gallegos.jpg"
+    linkedin: ""
+    bio: |-
+      Ruth Rodríguez Gallegos es Doctora en Matemáticas e Informática por la Universidad Joseph Fourier de Grenoble, Francia, y Profesora Asociada del Tecnológico de Monterrey, Campus Monterrey. Su trayectoria se ha desarrollado en la intersección entre educación matemática, ingeniería e innovación educativa, con especial interés en modelación matemática y formación de talento STEM.
+
+      Actualmente coordina la Comisión de Educación de la Sociedad Matemática Mexicana (2026–2028) y el grupo latinoamericano Formación de Ingenieros desde la Matemática Educativa. Ha participado en proyectos de transformación curricular e innovación educativa, así como en iniciativas orientadas a impulsar la participación y desarrollo de mujeres en STEM.
+
+      En los últimos años su trabajo ha incorporado la inteligencia artificial como herramienta para la enseñanza, la creación y el aprendizaje, explorando las posibilidades de colaboración entre las personas y las nuevas tecnologías.
+
+  - name: "Santa Tejeda"
+    role: "Profesora investigadora de tiempo completo"
+    org: "Tecnológico de Monterrey"
+    cat: "charla"
+    photo: ""
+    linkedin: ""
+    bio: |-
+      Santa Tejeda es Doctora en Innovación Educativa por el Tecnológico de Monterrey, Maestra en Ciencias en Física Educativa con mención honorífica por el Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada del Instituto Politécnico Nacional (CICATA del IPN) e Ingeniera Física Industrial por el Tecnológico de Monterrey.
+
+      Sus líneas de investigación son las dificultades conceptuales en física mediante la construcción de significados a partir de la socialización del conocimiento, el uso efectivo de tecnologías educativas para el aprendizaje de ingeniería y ciencias, y las aproximaciones con inteligencia artificial al aprendizaje de la física, STEM y perspectiva de género.

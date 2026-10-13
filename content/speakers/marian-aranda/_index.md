@@ -9,7 +9,7 @@ twitter: ""
 linkedin: ""
 github: ""
 events: 
- - octubre-2025
+ - octubre-2026
 ---
 
 Soy Marian Aranda, Lic. en Derecho egresada de la Universidad De La Salle Bajío y profesional en Gobierno, Riesgo y Cumplimiento (GRC) dentro de la industria de la ciberseguridad. Actualmente me desempeño como Data Protection Officer & Compliance en Deeparmy, empresa líder en servicios de SOC, ciberseguridad y seguridad de la información.

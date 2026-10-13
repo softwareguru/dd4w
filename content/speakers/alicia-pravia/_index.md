@@ -9,7 +9,7 @@ twitter: ""
 linkedin: "https://www.linkedin.com/in/bpravia/?isSelfProfile=false"
 github: ""
 events: 
- - octubre-2025
+ - octubre-2026
 ---
 
 QA Lead en Globant con +11 añs de trayectoria en calidad de software y liderazgo de equipos de QA. Experiencia en diferentes tipos de industrias como healthcare, retail, automotive, education, entertainment, actualmente colaborando con la industria en AI, etc.

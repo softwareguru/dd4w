@@ -72,21 +72,12 @@
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Programa</span>
             <h2>Así será el día</h2>
+            <p>Esta es la agenda preliminar del 31 de octubre: un día completo de charlas, talleres, panel y
+                espacios de networking. Puede ajustarse conforme confirmemos los últimos detalles.</p>
         </div>
-        <div class="agenda" style="text-align:center;padding:56px 26px">
-            <span
-                style="display:inline-block;background:var(--morado);color:var(--arena);font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;padding:8px 16px;border-radius:999px">Próximamente</span>
-            <h3 style="font-size:26px;margin:18px 0 10px">Estamos afinando cada detalle</h3>
-            <p style="color:var(--ink-soft);max-width:62ch;margin:0 auto 24px">La agenda 2026 girará en torno a cómo la
-                IA está transformando nuestras carreras: entender los distintos modelos, buenas prácticas de desarrollo
-                asistido, principios de seguridad, gestión de equipos y transformación de culturas de trabajo. Iremos
-                revelando charlas, talleres y ponentes conforme queden confirmados.</p>
-            <p style="color:var(--ink-soft);margin:0 auto">La convocatoria de ponencias ya cerró. Estas fueron sus
-                fechas clave.</p>
-        </div>
-        <div style="margin-top:26px">
-            {{ partial "dd4w2026/cfp-fechas.html" (dict "cfp" "https://convoca.dev/dev-day-4-women-monterrey-2026/cfp" "title" "Fechas clave de la convocatoria" "cerrada" true "cta_url" "https://luma.com/tg59b5q8" "cta_label" "Regístrate gratis") }}
-        </div>
+        {{ with .Site.Data.agenda.mty }}
+        {{ partial "dd4w2026/agenda-grid.html" . }}
+        {{ end }}
     </div>
 </section>
 
@@ -105,27 +96,48 @@
 {{ partial "dd4w2026/participate.html" (dict "luma" "https://luma.com/tg59b5q8" "cfp"
 "https://convoca.dev/dev-day-4-women-monterrey-2026/cfp") }}
 
-<section style="display:none">
+{{- /* perfil de ponente -> slug de su sesión, derivado de la agenda para no
+     duplicar el dato. Alimenta el botón "Ver sesión" del modal. */ -}}
+{{- $sesionPorPerfil := dict -}}
+{{- range $sala := site.Data.agenda.mty.salas -}}
+  {{- range $ses := $sala.sesiones -}}
+    {{- with $ses.sesion -}}
+      {{- $slugSesion := . -}}
+      {{- range $p := $ses.ponentes -}}
+        {{- with $p.perfil -}}
+          {{- $sesionPorPerfil = merge $sesionPorPerfil (dict . $slugSesion) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{ with .Site.Data.speakers.mty.ponentes }}
+{{ $all := . }}
+<section>
     <div class="wrap">
         <div class="sec-head"><span class="kicker">Ponentes</span>
             <h2>Ponentes en Monterrey</h2>
+            <p>Conoce al line-up de la sede Monterrey: mujeres que compartirán su experiencia y conocimiento,
+                organizadas por tipo de sesión.</p>
         </div>
-        <div class="spk">
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
+        {{ range $c := slice
+            (dict "key" "panel" "label" "Panel · Unleash the power within" "meta" "Panel" "feat" true)
+            (dict "key" "charla" "label" "Charlas" "meta" "20 min")
+            (dict "key" "taller" "label" "Talleres" "meta" "")
+            (dict "key" "lightning" "label" "Lightning talks" "meta" "5 min") }}
+        {{ with where $all "cat" $c.key }}
+        <div class="spk-cat{{ if $c.feat }} spk-cat--feature{{ end }}">
+            <div class="spk-cat-head">
+                <h3>{{ $c.label }}</h3>{{ with $c.meta }}<span class="spk-cat-meta">{{ . }}</span>{{ end }}
             </div>
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
-            </div>
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
-            </div>
-            <div class="p">
-                <div class="av" aria-hidden="true"></div><b>Nombre</b><span>Cargo</span>
-            </div>
+            {{ partial "dd4w2026/speakers-grid.html" (dict "ponentes" (sort . "name") "sesiones" $sesionPorPerfil) }}
         </div>
+        {{ end }}
+        {{ end }}
     </div>
 </section>
+{{ end }}
 
 <section class="alt">
     <div class="wrap">
@@ -244,4 +256,107 @@
                 rel="noopener noreferrer">Regístrate gratis</a></div>
     </div>
 </section>
+
+<div class="spk-modal" id="spk-modal" hidden>
+    <div class="spk-modal-backdrop" data-close></div>
+    <div class="spk-modal-card" role="dialog" aria-modal="true" aria-labelledby="spk-modal-name">
+        <button type="button" class="spk-modal-x" data-close aria-label="Cerrar">&times;</button>
+        <div class="spk-modal-head">
+            <span class="av" id="spk-modal-av" role="img" aria-hidden="true"></span>
+            <div>
+                <h3 id="spk-modal-name"></h3>
+                <p id="spk-modal-role"></p>
+                <p class="org" id="spk-modal-org"></p>
+            </div>
+        </div>
+        <div class="spk-modal-bio" id="spk-modal-bio"></div>
+        <a class="btn btn-primary" id="spk-modal-sesion" href="#" hidden>Ver sesión →</a>
+        <a class="btn btn-primary" id="spk-modal-li" href="#" target="_blank" rel="noopener noreferrer" hidden>Ver
+            LinkedIn</a>
+    </div>
+</div>
+{{ end }}
+
+{{ define "extra_body" }}
+<script>
+(function () {
+    var modal = document.getElementById('spk-modal');
+    if (!modal) return;
+    var card = modal.querySelector('.spk-modal-card');
+    var elName = document.getElementById('spk-modal-name');
+    var elRole = document.getElementById('spk-modal-role');
+    var elOrg = document.getElementById('spk-modal-org');
+    var elBio = document.getElementById('spk-modal-bio');
+    var elAv = document.getElementById('spk-modal-av');
+    var elLi = document.getElementById('spk-modal-li');
+    var elSes = document.getElementById('spk-modal-sesion');
+    var lastFocus = null;
+
+    function fill(btn) {
+        var slug = btn.getAttribute('data-spk');
+        elName.textContent = btn.getAttribute('data-name') || '';
+        var role = btn.getAttribute('data-role') || '';
+        var org = btn.getAttribute('data-org') || '';
+        elRole.textContent = role; elRole.hidden = !role;
+        elOrg.textContent = org; elOrg.hidden = !org;
+        var av = btn.querySelector('.av');
+        elAv.style.backgroundImage = av ? av.style.backgroundImage : '';
+        var bio = document.getElementById('spk-bio-' + slug);
+        elBio.innerHTML = bio ? bio.innerHTML : '';
+        elBio.hidden = !bio;
+        var li = btn.getAttribute('data-linkedin');
+        if (li) { elLi.href = li; elLi.hidden = false; } else { elLi.hidden = true; }
+        var ses = btn.getAttribute('data-sesion');
+        if (ses) {
+            elSes.href = '/sessions/octubre-2026/' + ses + '/';
+            elSes.hidden = false;
+        } else { elSes.hidden = true; }
+        return slug;
+    }
+
+    function open(btn, push) {
+        lastFocus = btn;
+        var slug = fill(btn);
+        modal.hidden = false;
+        document.body.style.overflow = 'hidden';
+        card.focus();
+        if (push) history.replaceState(null, '', '#ponente-' + slug);
+    }
+
+    function close() {
+        modal.hidden = true;
+        document.body.style.overflow = '';
+        if (location.hash.indexOf('#ponente-') === 0) {
+            history.replaceState(null, '', location.pathname);
+        }
+        if (lastFocus) lastFocus.focus();
+    }
+
+    document.querySelectorAll('.spk-trigger').forEach(function (btn) {
+        btn.addEventListener('click', function () { open(btn, true); });
+    });
+    // Nombres en la agenda -> abren el modal de la ponente (mismo de Ponentes)
+    document.querySelectorAll('.ag-spk').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var t = document.querySelector('.spk-trigger[data-spk="' + btn.getAttribute('data-perfil') + '"]');
+            if (t) open(t, true);
+        });
+    });
+    modal.querySelectorAll('[data-close]').forEach(function (el) {
+        el.addEventListener('click', close);
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && !modal.hidden) close();
+    });
+
+    // Enlace directo: /sede-monterrey/#ponente-<slug>
+    if (location.hash.indexOf('#ponente-') === 0) {
+        var s = location.hash.slice('#ponente-'.length);
+        var t = document.querySelector('.spk-trigger[data-spk="' + s + '"]');
+        if (t) open(t, false);
+    }
+})();
+</script>
 {{ end }}

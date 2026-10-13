@@ -54,6 +54,9 @@ aliados:
       image: images/logos/pack.png
       url: https://www.packtpub.com/
 
+    - name: San Roque Rescue Society
+      image: images/logos/san-roque-rescue-society.png
+
 comunidades:
   label: Comunidades aliadas
   logos:
