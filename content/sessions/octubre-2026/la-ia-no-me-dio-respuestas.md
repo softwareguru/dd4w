@@ -3,8 +3,8 @@ title: "La IA no me dio respuestas. Me dio criterio."
 slug: la-ia-no-me-dio-respuestas
 speakers:
  - Reyna Mendez
-time_start: 2026-10-31T14:35:00-06:00
-time_end: 2026-10-31T14:55:00-06:00
+time_start: 2026-10-31T14:50:00-06:00
+time_end: 2026-10-31T15:10:00-06:00
 ---
 
 Cuando comencé a trabajar con Inteligencia Artificial, pensé que el mayor reto sería aprender nuevas herramientas. Me equivoqué.

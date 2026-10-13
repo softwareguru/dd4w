@@ -2,7 +2,8 @@
      Uso: {{ partial "dd4w2026/agenda-grid.html" .Site.Data.agenda.cdmx }}
      La primera sala define las filas del grid (una por sesión). Las sesiones de la
      segunda sala se colocan por hora de inicio y abarcan tantas filas como franjas
-     de la primera cubran. Las franjas sin sesión paralela muestran un estado vacío
+     de la primera cubran. Una sesión con `ambas: true` ocupa las dos columnas
+     (p. ej. un panel que se da en las dos salas). Las franjas sin sesión paralela muestran un estado vacío
      (tramos contiguos fusionados). Las filas logísticas cruzan ambas columnas. */ -}}
 {{- $salas := .salas -}}
 {{- $plen := index $salas 0 -}}
@@ -33,7 +34,8 @@
 {{- $covered := $s.Get "covered" | default dict -}}
 {{- range $i, $slot := $slots -}}
   {{- $row := add $i 2 -}}
-  {{- $libre := and (ne $slot.tipo "logistica") (not (isset $covered (printf "%d" $row))) -}}
+  {{- /* `ambas: true` -> la sesión ocupa las dos salas, no deja hueco en la sala 2 */ -}}
+  {{- $libre := and (and (ne $slot.tipo "logistica") (not $slot.ambas)) (not (isset $covered (printf "%d" $row))) -}}
   {{- if $libre -}}
     {{- if not ($s.Get "segStart") -}}
       {{- $s.Set "segStart" $row -}}{{- $s.Set "segLen" 0 -}}{{- $s.Set "segWs" true -}}
@@ -62,8 +64,8 @@
         {{- if eq $slot.tipo "logistica" }}
         <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:2/4">{{ $slot.titulo }}</div>
         {{- else }}
-        <div class="agx-cell{{ if $slot.destacado }} is-feature{{ end }}{{ if $slot.resaltar }} is-highlight{{ end }}" style="grid-row:{{ $row }};grid-column:2">
-            <span class="agx-m">{{ $plen.nombre }} · {{ $slot.horario }}</span>
+        <div class="agx-cell{{ if $slot.destacado }} is-feature{{ end }}{{ if $slot.resaltar }} is-highlight{{ end }}" style="grid-row:{{ $row }};grid-column:{{ if $slot.ambas }}2/4{{ else }}2{{ end }}">
+            <span class="agx-m">{{ if $slot.ambas }}{{ $plen.nombre }} y {{ $quet.nombre }}{{ else }}{{ $plen.nombre }}{{ end }} · {{ $slot.horario }}</span>
             {{ partial "dd4w2026/agenda-cell.html" $slot }}
         </div>
         {{- end }}
