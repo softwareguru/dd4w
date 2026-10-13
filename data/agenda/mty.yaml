@@ -1,0 +1,282 @@
+# Agenda preliminar Sede Monterrey (31 de octubre)
+# Fuente: "DD4WMTY 26 - CFP - Agenda" (horarios, opción "Día completo") y
+# "DD4WMTY 26 - CFP - CFP 2026" (ponentes y abstractos de las propuestas
+# aceptadas/confirmadas).
+# Los abstractos se editaron para corregir ortografía, limpiar artefactos de
+# codificación del export y unificar la redacción.
+# tipo: sesion | workshop | logistica   (controla estilo de la fila)
+# evento: carpeta de las landings de sesión (/sessions/<evento>/<slug>/).
+# destacado: fila en morado sólido (panel) · resaltar: realce secundario
+# abstracto: si existe, la fila se vuelve un desplegable (<details>)
+#
+# PENDIENTES (ver notas al equipo):
+#   - "Presentación de comunidades" y el workshop patrocinado de CONTPAQi
+#     están sin ponente porque el CFP no los incluye.
+salas:
+  - nombre: "Sala plenaria"
+    sesiones:
+      - horario: "08:00 – 09:00"
+        titulo: "Registro"
+        tipo: "logistica"
+      - horario: "09:00 – 09:15"
+        titulo: "Apertura y bienvenida"
+        tipo: "logistica"
+      - horario: "09:15 – 09:35"
+        titulo: "¿Quién gobierna la IA? El rol de GRC en el futuro de las organizaciones"
+        sesion: "quien-gobierna-la-ia-el-rol-de-grc-en-el-futuro-de-las-organizaciones"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Marian Aranda"
+            perfil: "marian-aranda"
+        tipo: "sesion"
+        abstracto: |-
+          Cuando hablamos sobre Inteligencia Artificial, la conversación suele centrarse en qué son los modelos, agentes, automatización y productividad; sin embargo, a medida que las empresas y organizaciones integran sistemas de IA en procesos e infraestructura crítica, surge una pregunta mucho más importante: ¿cómo aseguramos que esta herramienta sea segura y alineada con los objetivos del negocio?
+
+          En la charla se busca abordar el papel estratégico que desempeña el área de Gobierno, Riesgos y Cumplimiento (GRC) para adoptar sistemas de IA y que las empresas puedan innovar y aumentar su productividad y conexión global sin perder el control de su uso, de acuerdo con análisis y gestión de riesgos, ciberseguridad, privacidad y gobernanza.
+
+          También se planea reflexionar sobre las nuevas oportunidades profesionales que están surgiendo alrededor de la gobernanza y la gestión de la IA, y cómo perfiles «no tradicionales» en el mundo de la tecnología y cyber, incluyendo mujeres profesionistas en el ámbito jurídico, pueden desempeñar un papel clave en la construcción de un ecosistema digital más seguro, confiable y alineado con las necesidades de los negocios.
+      - horario: "09:35 – 09:55"
+        titulo: "IA aplicada al Strategic Foresight: herramientas para anticipar y transformar"
+        sesion: "ia-aplicada-al-strategic-foresight-herramientas-para-anticipar-y-transformar"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Rocío Vane Farías"
+            perfil: "rocio-vane-farias"
+        tipo: "sesion"
+        abstracto: |-
+          La inteligencia artificial está revolucionando la manera en que realizamos Strategic Foresight. Si antes el análisis de tendencias, señales de cambio y construcción de escenarios requería meses de trabajo, hoy la IA nos permite procesar grandes volúmenes de información en tiempo real, identificar patrones emergentes y explorar futuros posibles con una velocidad sin precedentes.
+      - horario: "09:55 – 10:15"
+        titulo: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
+        sesion: "deberiamos-usar-ia-aqui-como-decidir-cuando-realmente-vale-la-pena"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Fernanda Alanis"
+            perfil: "fernanda-alanis"
+        tipo: "sesion"
+        abstracto: |-
+          En estos tiempos en los que parece que todos quieren usar IA, el reto no es encontrar dónde implementarla, sino identificar dónde genera valor. En esta plática exploraremos cómo evaluar una iniciativa de IA considerando no solo sus beneficios y valor, sino también sus costos, riesgos, alternativas y el costo de no implementarla.
+
+          La idea es ayudar a la audiencia a desarrollar el criterio para tomar mejores decisiones y aprovechar la IA donde realmente tiene sentido.
+      - horario: "10:15 – 11:15"
+        titulo: "Workshop patrocinado"
+        ponentes:
+          - nombre: "CONTPAQi"
+        etiqueta: "Workshop patrocinado"
+        tipo: "workshop"
+      - horario: "11:15 – 12:15"
+        titulo: "Panel: Unleash the power within"
+        ponentes:
+          - nombre: "Lupita Garza"
+          - nombre: "Elvia Rosas Herrera"
+          - nombre: "Hilda Molina"
+        etiqueta: "Panel"
+        tipo: "sesion"
+        destacado: true
+      - horario: "12:15 – 12:55"
+        titulo: "Presentación de comunidades"
+        etiqueta: "Comunidades"
+        tipo: "sesion"
+      - horario: "12:55 – 13:15"
+        titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
+        sesion: "cuando-diseno-y-desarrollo-hablan-el-mismo-idioma-ia-para-escalar-un-design-system-multimarca"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Antonieta Carrasco"
+            perfil: "antonieta-carrasco"
+        tipo: "sesion"
+        abstracto: |-
+          Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
+      - horario: "13:15 – 13:55"
+        titulo: "Lunch & networking"
+        tipo: "logistica"
+      - horario: "13:55 – 14:15"
+        titulo: "Test proyectivos con IA"
+        sesion: "test-proyectivos-con-ia"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Consuelo Jiménez"
+            perfil: "consuelo-jimenez"
+        tipo: "sesion"
+        abstracto: |-
+          Los test proyectivos como el dibujo de la figura humana y el hombre bajo la lluvia han sido utilizados de forma manual por muchos años. Hoy, gracias a la IA, se pueden automatizar reduciendo tiempos, estandarizando los resultados de los prediagnósticos y extendiendo la capacidad de los psicólogos: a través de visión computacional, los resultados se generan en menos de un minuto.
+
+          Los resultados tienen impactos en toda la población en aspectos cognitivos y emocionales, donde de manera temprana se definen acciones para cada evaluado según sus resultados de prediagnóstico.
+      - horario: "14:15 – 14:35"
+        titulo: "Más allá del bug: por qué la IA no puede reemplazar el criterio humano en sistemas críticos"
+        sesion: "mas-alla-del-bug-por-que-la-ia-no-puede-reemplazar-el-criterio-humano-en-sistemas-criticos"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Alicia Pravia"
+            perfil: "alicia-pravia"
+        tipo: "sesion"
+        abstracto: |-
+          Tras más de 10 años en QA y liderando equipos en Globant, esta charla aborda cómo transformar la calidad del software en un pilar estratégico ante el avance de la inteligencia artificial y los entornos de alta exigencia, como la industria de Healthcare.
+
+          A través de una perspectiva práctica y reflexiva, se presentan tres aprendizajes clave. **Intención vs. automatización:** mientras la IA acelera la ejecución de pruebas, el verdadero valor humano radica en cuestionar requerimientos, detectar supuestos no documentados y entender el contexto real del negocio. **Cultura de feedback:** construir confianza con desarrolladores y clientes reconociendo primero lo que funciona bien, para pasar de ser un «QA bloqueador» a un socio estratégico. **Mentalidad QA:** aplicar el control de respuesta y la serenidad bajo presión ante cambios de último minuto y fallos en producción, donde no hay margen de error.
+
+          Una charla sobre cómo combinar criterio analítico, empatía y resiliencia para liderar la calidad cuando el software simplemente no puede fallar.
+      - horario: "14:35 – 14:55"
+        titulo: "La IA no me dio respuestas. Me dio criterio."
+        sesion: "la-ia-no-me-dio-respuestas-me-dio-criterio"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Reyna Méndez"
+            perfil: "reyna-mendez"
+        tipo: "sesion"
+        abstracto: |-
+          Cuando comencé a trabajar con Inteligencia Artificial, pensé que el mayor reto sería aprender nuevas herramientas. Me equivoqué.
+
+          Con el tiempo descubrí que el cambio más importante no fue aprender a usar plataformas de IA, sino desarrollar una nueva forma de pensar.
+
+          La IA se convirtió en un espacio para cuestionar ideas, estructurar mejor problemas, comunicar con mayor claridad y construir estrategias con más confianza. También me ayudó a dejar de depender de que alguien quisiera enseñarme, reduciendo la distancia entre mi curiosidad y el conocimiento.
+
+          Ese cambio transformó la manera en que aporto valor dentro de mi organización. Hoy participo en conversaciones estratégicas con líderes de distintas áreas y detecto oportunidades donde antes veía únicamente tareas.
+      - horario: "14:55 – 15:15"
+        titulo: "Mirada a 3 chatbots educativos como impulsores del razonamiento humano"
+        sesion: "mirada-a-3-chatbots-educativos-como-impulsores-del-razonamiento-humano"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Santa Tejeda"
+            perfil: "santa-tejeda"
+        tipo: "sesion"
+        abstracto: |-
+          Se presenta un breve recorrido sobre 3 productos científicos arbitrados asociados a chatbots educativos, con la finalidad de apreciar sus ventajas y áreas de oportunidad como herramienta para la enseñanza de la física. El enfoque de la charla es de divulgación científica, con apertura a preguntas del público.
+      - horario: "15:15 – 15:35"
+        titulo: "Hackear tu mente. Tu propósito como el código más poderoso."
+        sesion: "hackear-tu-mente-tu-proposito-como-el-codigo-mas-poderoso"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Leslie Helena García López"
+            perfil: "leslie-helena-garcia-lopez"
+        tipo: "sesion"
+        abstracto: |-
+          En un entorno tecnológico enfocado en la lógica y los algoritmos, esta conferencia propone que el software más crítico que debemos programar es nuestra propia mente. Un espacio diseñado para cuestionar patrones ajenos, superar el síndrome de la impostora y reescribir nuestra narrativa desde la autenticidad.
+
+          A través de herramientas prácticas de mentalidad y posicionamiento, descubriremos cómo el propósito no solo inspira, sino que se convierte en la ventaja estratégica más potente para liderar, hacer oír nuestra voz y reclamar nuestro espacio en la industria tech.
+      - horario: "15:35 – 15:55"
+        titulo: "Inteligencia emocional en la era de la inteligencia artificial"
+        sesion: "inteligencia-emocional-en-la-era-de-la-inteligencia-artificial"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Andrea Monsanto"
+            perfil: "andrea-monsanto"
+        tipo: "sesion"
+        abstracto: |-
+          La inteligencia artificial está transformando rápidamente nuestra manera de vivir y trabajar. Pero mientras aceleramos nuestro desarrollo tecnológico, surge una pregunta fundamental: ¿estamos desarrollando nuestras capacidades humanas al mismo ritmo?
+
+          En esta charla exploraremos cómo fortalecer nuestra adaptabilidad y resiliencia, llevar a la par el desarrollo tecnológico y humano, y utilizar la tecnología de una manera más consciente, saludable y humana.
+      - horario: "15:55 – 16:10"
+        titulo: "Networking break"
+        tipo: "logistica"
+      - horario: "16:10 – 16:15"
+        titulo: "Volver a ser principiante: aprender, crear y reinventarse con IA"
+        sesion: "volver-a-ser-principiante-aprender-crear-y-reinventarse-con-ia"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Ruth Rodríguez Gallegos"
+            perfil: "ruth-rodriguez-gallegos"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          Después de años de experiencia como profesora de matemáticas, la inteligencia artificial me colocó nuevamente en una posición inesperada: la de principiante. Comencé a explorar herramientas y formas de crear que antes consideraba fuera de mi ámbito profesional y descubrí que la IA podía reducir la distancia entre una idea y mi capacidad para materializarla.
+
+          En esta charla compartiré experiencias reales sobre cómo he utilizado la IA para aprender nuevas habilidades, diseñar recursos, analizar información y experimentar con nuevas formas de trabajo. Pero volver a ser principiante también me enseñó que poder delegar más no significa dejar de pensar: nuestro conocimiento y experiencia siguen siendo fundamentales para preguntar, evaluar, corregir y decidir.
+
+          Más que una charla sobre herramientas, es una invitación a otras mujeres en STEM a atreverse a aprender nuevamente, explorar fuera de su especialidad y ampliar lo que pueden crear sin renunciar al criterio que ya han construido.
+      - horario: "16:15 – 16:20"
+        titulo: "I Didn't Leave Tech. I Changed Where I Build."
+        sesion: "i-didnt-leave-tech-i-changed-where-i-build"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Cristina González Córdova"
+            perfil: "cristina-gonzalez-cordova"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          Durante más de 15 años trabajé en la industria de desarrollo de software, construyendo sistemas, aplicaciones y soluciones tecnológicas. Después, mi carrera tomó un camino diferente: llegué a la docencia.
+
+          Al principio podía parecer que estaba dejando atrás la industria tecnológica, pero con el tiempo entendí algo distinto: no dejé de construir, simplemente cambió lo que construyo.
+
+          Hoy, en lugar de desarrollar únicamente software, ayudo a desarrollar a las personas que crearán la tecnología del futuro.
+      - horario: "16:20 – 16:25"
+        titulo: "¿Sé hacer visible mi valor para poder llegar hasta allá?"
+        sesion: "se-hacer-visible-mi-valor-para-poder-llegar-hasta-alla"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Cristina Nistor"
+            perfil: "cristina-nistor"
+        etiqueta: "Lightning talk"
+        tipo: "sesion"
+        abstracto: |-
+          El buen trabajo no habla por sí solo: alguien tiene que saber venderlo. La transformación que buscamos es que las participantes dejen de ver las ventas como una profesión ajena y comiencen a reconocerlas como una habilidad esencial para impulsar su carrera.
+
+          La clave de los cinco minutos será provocar una reflexión, cambiar una creencia y dejar una acción concreta que puedan aplicar al día siguiente.
+      - horario: "16:25 – 17:00"
+        titulo: "Clausura del evento"
+        tipo: "logistica"
+
+  - nombre: "Sala de workshops"
+    sesiones:
+      - horario: "09:15 – 10:15"
+        titulo: "Crea un producto con IA usando Antigravity: de la idea al primer prototipo"
+        sesion: "crea-un-producto-con-ia-usando-antigravity-de-la-idea-al-primer-prototipo"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Jennifer Jassely Martínez Eguía"
+            perfil: "jennifer-jassely-martinez-eguia"
+        etiqueta: "Taller técnico"
+        tipo: "workshop"
+        abstracto: |-
+          ¿Tienes una idea, pero no sabes cómo convertirla en un producto? En este taller aprenderás a utilizar Antigravity para transformar un problema en una oportunidad de negocio, definir una propuesta de valor y construir un primer prototipo con apoyo de IA. Al finalizar, tendrás una metodología práctica que podrás aplicar para crear productos, servicios o soluciones digitales de forma más rápida.
+
+          Las participantes aprenderán a identificar problemas con potencial de convertirse en productos, utilizar Antigravity para estructurar ideas y definir usuarios, necesidades y propuesta de valor.
+      - horario: "10:15 – 11:15"
+        titulo: "Desarrolla con IA: de la idea a una Web App"
+        sesion: "desarrolla-con-ia-de-la-idea-a-una-web-app"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Lizbeth Noriega Gutiérrez"
+            perfil: "lizbeth-noriega-gutierrez"
+        etiqueta: "Taller técnico"
+        tipo: "workshop"
+        abstracto: |-
+          La Inteligencia Artificial está redefiniendo la forma en que desarrollamos software, permitiendo crear soluciones funcionales con mayor rapidez, calidad y confianza. En este taller práctico, las participantes descubrirán cómo aprovechar Cursor como asistente de desarrollo para construir una aplicación web utilizando Google Apps Script, una plataforma que permite crear y publicar soluciones sin necesidad de administrar servidores o infraestructura adicional.
+
+          A lo largo de la sesión exploraremos cómo la IA puede apoyar tareas como la generación de código, explicación de funciones, refactorización, resolución de errores y mejora continua del desarrollo, mientras construimos una aplicación completamente funcional.
+
+          El objetivo es que las asistentes conozcan un flujo de trabajo moderno donde la IA se convierte en una aliada para acelerar el desarrollo de software, reducir la curva de aprendizaje y facilitar la creación de soluciones reales con herramientas accesibles. Al finalizar, cada participante habrá publicado una aplicación web y contará con una base práctica para incorporar este tipo de asistentes inteligentes en sus propios proyectos.
+      - horario: "12:15 – 13:15"
+        titulo: "Encuentra empleo en tech con IA: de la vacante a la entrevista con ChatGPT, Gemini y Claude"
+        sesion: "encuentra-empleo-en-tech-con-ia-de-la-vacante-a-la-entrevista-con-chatgpt-gemini-y-claude"
+        evento: "octubre-2026"
+        ponentes:
+          # sin `perfil`: el CFP no trae bio ni LinkedIn, así que no hay modal
+          - nombre: "Brenda Hernández"
+        etiqueta: "Taller técnico"
+        tipo: "workshop"
+      - horario: "13:55 – 14:55"
+        titulo: "Plan Odisea: una herramienta para descubrir nuevas perspectivas para lograr tus metas y encontrar aliadas en el camino"
+        sesion: "plan-odisea-una-herramienta-para-descubrir-nuevas-perspectivas-para-lograr-tus-metas-y-encontrar-aliadas-en-el-camino"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Ana Pinilla"
+            perfil: "ana-pinilla"
+        etiqueta: "Taller de habilidades"
+        tipo: "workshop"
+        abstracto: |-
+          El «Plan Odisea» es una herramienta pedagógica que ayuda a visualizar y definir metas personales y profesionales, así como el mapeo de los diferentes caminos posibles para alcanzarlas. Esto a través de la evaluación de 4 criterios: recursos disponibles, grado de interés, nivel de confianza y coherencia con su propósito de vida.
+
+          Este taller propone una experiencia práctica en la que las participantes harán uso de la herramienta «Plan Odisea».
+      - horario: "14:55 – 15:55"
+        titulo: "Círculo de mentoría: Despierta tu poder interior"
+        sesion: "circulo-de-mentoria-despierta-tu-poder-interior"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Andra Nuta"
+            perfil: "andra-nuta"
+        etiqueta: "Mentorías"
+        tipo: "workshop"
+        abstracto: |-
+          Crear un espacio dinámico de conexión, reflexión y apoyo entre participantes, donde cada mujer pueda poner sobre la mesa un reto, necesidad o siguiente paso, recibir nuevas perspectivas de su círculo y transformar los aprendizajes del Dev Day 4 Women en 3 acciones concretas para llevar a su realidad.
+
+          El taller busca que las participantes no solo se lleven inspiración del evento, sino también claridad, red de apoyo y movimiento: saber qué quieren activar, con quién pueden apoyarse y cuál será su primer paso.

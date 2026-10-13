@@ -8,6 +8,7 @@ linkedin: https://www.linkedin.com/in/antonietacarrasco/
 instagram: https://www.instagram.com/antonietacarrascoe/
 events:
  - julio-2026
+ - octubre-2026
 ---
 
 Antonieta Carrasco es Lead Product Designer en Lottus Education, con más de diez años de experiencia creando productos digitales para medios, banca y educación. Ha liderado proyectos reconocidos como Nación321 de El Financiero | Bloomberg y desarrollado soluciones para BBVA México y startups tecnológicas.
