@@ -235,7 +235,7 @@ salas:
 
   - nombre: "Aulas 6-306 | Sala de workshops"
     sesiones:
-      - horario: "09:15 – 10:15"
+      - horario: "09:40 – 10:30"
         titulo: "Crea un producto con IA usando Antigravity: de la idea al primer prototipo"
         sesion: "crea-un-producto-con-ia-usando-antigravity-de-la-idea-al-primer-prototipo"
         evento: "octubre-2026"
