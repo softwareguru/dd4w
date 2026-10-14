@@ -37,8 +37,7 @@
                 <div class="ic" aria-hidden="true">📍</div><b>Lugar</b><span>Tecnológico de Monterrey</span>
             </div>
             <div class="dato">
-                <div class="ic" aria-hidden="true">🎟️</div><b>Acceso</b><span>Gratuito · donación
-                    voluntaria</span>
+                <div class="ic" aria-hidden="true">🎟️</div><b>Acceso</b><span>Gratuito</span>
             </div>
             <div class="dato">
                 <div class="ic" aria-hidden="true">👥</div><b>Cupo</b><span>200 lugares</span>
@@ -89,6 +88,27 @@
             {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-soft" "title" "En transición o actualización" "text" "Cambias de área, te reconviertes o regresas al mercado y buscas actualización, referentes y una red relevante." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9h12l-3-3M20 15H8l3 3"/></svg>`) }}
             {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-soft" "title" "Estudiantes y perfiles junior" "text" "Buscas referentes reales, orientación sobre el mercado y tus primeras conexiones profesionales." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4l9 5-9 5-9-5z"/><path d="M7 11v5c0 1.5 2.5 3 5 3s5-1.5 5-3v-5"/></svg>`) }}
             {{ partial "dd4w2026/feature-card.html" (dict "bg" "bg-soft" "title" "Líderes y fundadoras" "text" "Contratas, mentorizas, abres redes o amplificas la conversación. Aquí eres audiencia y multiplicadora." "icon" `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 18l2-9 4 4 2-7 2 7 4-4 2 9z"/></svg>`) }}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="wrap">
+        {{ partial "dd4w2026/section-head.html" (dict "kicker" "En paralelo" "title" "GLOBAL4Her, el mismo día y la misma sede" "desc" "Dev Day 4 Women no es lo único que pasa ese sábado en el Distrito Tec.") }}
+        <div class="tool">
+            <span
+                style="display:inline-flex;align-items:center;justify-content:center;background:var(--surface);border-radius:14px;padding:10px 16px;height:76px;flex:0 0 auto">
+                {{- with resources.Get "images/logos/global4her.png" }}
+                {{- $g := .Resize "240x webp q85" }}
+                <img src="{{ $g.RelPermalink }}" width="{{ $g.Width }}" height="{{ $g.Height }}" alt="GLOBAL4Her"
+                    style="max-height:100%;width:auto;object-fit:contain" loading="lazy">
+                {{- end }}
+            </span>
+            <div style="flex:1;min-width:220px">
+                <p>GLOBAL4Her estará con nosotras el 31 de octubre en el Tecnológico de Monterrey, con su propio
+                    programa en paralelo. A las <strong>11:30 nos reunimos todas</strong> en el panel de la Sala
+                    plenaria.</p>
+            </div>
         </div>
     </div>
 </section>
