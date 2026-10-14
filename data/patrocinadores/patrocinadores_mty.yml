@@ -26,6 +26,9 @@ patrocinio:
       - name: ICA
         image: images/logos/ica.jpg
         url: https://www.icamex.net/
+      - name: Impactclick
+        image: images/logos/impact-click.png
+        url: http://impactclick.org
 
 difusion:
   label: Aliados de difusión
