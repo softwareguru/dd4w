@@ -3,8 +3,8 @@ title: "Desarrolla con IA: de la idea a una Web App"
 slug: desarrolla-con-ia-de-la-idea-a-una-web-app
 speakers:
  - Lizbeth Noriega Gutiérrez
-time_start: 2026-10-31T10:15:00-06:00
-time_end: 2026-10-31T11:15:00-06:00
+time_start: 2026-10-31T10:30:00-06:00
+time_end: 2026-10-31T11:30:00-06:00
 ---
 
 La Inteligencia Artificial está redefiniendo la forma en que desarrollamos software, permitiendo crear soluciones funcionales con mayor rapidez, calidad y confianza. En este taller práctico, las participantes descubrirán cómo aprovechar Cursor como asistente de desarrollo para construir una aplicación web utilizando Google Apps Script, una plataforma que permite crear y publicar soluciones sin necesidad de administrar servidores o infraestructura adicional.

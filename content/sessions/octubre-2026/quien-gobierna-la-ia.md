@@ -4,7 +4,7 @@ slug: quien-gobierna-la-ia
 speakers:
  - Marian Aranda
 time_start: 2026-10-31T09:15:00-06:00
-time_end: 2026-10-31T09:35:00-06:00
+time_end: 2026-10-31T09:40:00-06:00
 ---
 
 Cuando hablamos sobre Inteligencia Artificial, la conversación suele centrarse en qué son los modelos, agentes, automatización y productividad; sin embargo, a medida que las empresas y organizaciones integran sistemas de IA en procesos e infraestructura crítica, surge una pregunta mucho más importante: ¿cómo aseguramos que esta herramienta sea segura y alineada con los objetivos del negocio?
