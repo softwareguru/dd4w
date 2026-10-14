@@ -1,6 +1,8 @@
 ---
 title: "Leslie Helena García López"
 designation: "Ingeniera organizacional, creativa y fundadora Auténtica"
+images:
+ - /images/speakers/leslie-helena-garcia-lopez.jpg
 events:
  - octubre-2026
 ---

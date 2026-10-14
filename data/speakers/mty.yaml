@@ -33,12 +33,12 @@ ponentes:
 
       Actualmente se desempeña como mentora estudiantil en el Tecnológico de Monterrey, Campus Monterrey. Además de su labor de acompañamiento a los estudiantes, ha participado en diversos proyectos enfocados en el desarrollo de estrategias de mentoría innovadoras, algunas de ellas con un enfoque STEAM (ciencia, tecnología, ingeniería, artes y matemáticas).
 
-  - name: "Andra Nuta"
-    role: "Career & founder coach"
-    org: "Andra Nuta Coaching"
+  - name: "Andra Anuta"
+    role: "CEO & Senior Leadership Coach · Keynote Speaker"
+    org: ""
     cat: "taller"
-    photo: "andra-nuta.jpg"
-    linkedin: "https://www.linkedin.com/in/andra-nuta/"
+    photo: "andra-anuta.jpg"
+    linkedin: "https://www.linkedin.com/in/andra-anuta/"
     bio: ""
 
   - name: "Andrea Monsanto"
@@ -115,8 +115,8 @@ ponentes:
     role: "Directora de programa de ITC"
     org: "Tecnológico de Monterrey"
     cat: "panel"
-    photo: ""
-    linkedin: ""
+    photo: "elvia-rosas-herrera.jpg"
+    linkedin: "https://www.linkedin.com/in/elviarosasherrera/"
     bio: ""
 
   - name: "Fabiola Mero Ramírez"
@@ -140,11 +140,11 @@ ponentes:
       Actualmente es Subdirectora de Riesgos de Inteligencia Artificial en Santander México, donde trabaja en la supervisión de iniciativas de IA, la incorporación de principios de riesgo operacional a su adopción, la implementación de una política de IA y el desarrollo de herramientas para su gobierno y monitorización.
 
   - name: "Hilda Molina"
-    role: "Recursos Humanos"
+    role: "Learning and Capability Development Director"
     org: "Softtek"
     cat: "panel"
-    photo: ""
-    linkedin: ""
+    photo: "hilda-molina.jpg"
+    linkedin: "https://www.linkedin.com/in/hilda-molina-25b55322/"
     bio: ""
 
   - name: "Jennifer Jassely Martínez Eguía"
@@ -162,7 +162,7 @@ ponentes:
     role: "Ingeniera organizacional, creativa y fundadora"
     org: "Auténtica"
     cat: "charla"
-    photo: ""
+    photo: "leslie-helena-garcia-lopez.jpg"
     linkedin: ""
     bio: |-
       Ingeniera en Negocios y Gestión Empresarial por profesión, pero catalizadora de comunidad por vocación. Es creadora de contenido y fundadora de Auténtica, una comunidad en movimiento cuyos ejes centrales son el amor propio y el empoderamiento femenino. Este espacio está diseñado para que las mujeres exploren su potencial, compartan sus historias y encuentren herramientas de desarrollo personal a través de la creatividad y la colaboración.
