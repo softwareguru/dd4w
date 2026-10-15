@@ -77,6 +77,7 @@ salas:
           - nombre: "Lupita Garza"
           - nombre: "Elvia Rosas Herrera"
           - nombre: "Hilda Molina"
+          - nombre: "Patricia Mora Castro"
         etiqueta: "Panel"
         tipo: "sesion"
         destacado: true
@@ -138,6 +139,10 @@ salas:
         ponentes:
           - nombre: "Andra Anuta"
             perfil: "andra-anuta"
+          - nombre: "Grecia Castaldi"
+            perfil: "grecia-castaldi"
+          - nombre: "Alejandra Meléndez Reyes"
+            perfil: "alejandra-melendez-reyes"
         etiqueta: "Mentorías"
         tipo: "workshop"
         abstracto: |-
