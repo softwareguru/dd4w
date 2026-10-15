@@ -2,7 +2,9 @@
 title: "Círculo de mentoría: Despierta tu poder interior"
 slug: circulo-de-mentoria-despierta-tu-poder-interior
 speakers:
- - Andra Anuta
+ - Camelia Andra Anuta
+ - Grecia Castaldi
+ - Alejandra Meléndez Reyes
 time_start: 2026-10-31T14:50:00-06:00
 time_end: 2026-10-31T15:50:00-06:00
 ---

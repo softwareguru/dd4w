@@ -9,6 +9,14 @@
 # El enlace "Ver sesión" del modal se deriva del campo `sesion` de
 # data/agenda/mty.yaml; aquí solo hace falta para quienes no aparecen en el grid.
 ponentes:
+  - name: "Alejandra Meléndez Reyes"
+    role: "Software Developer · Co-Leader de TechFem"
+    org: "Mindsurf LATAM"
+    cat: "taller"
+    photo: "alejandra-melendez-reyes.jpg"
+    linkedin: "https://www.linkedin.com/in/alejandra-mlndz/"
+    bio: ""
+
   - name: "Alicia Pravia"
     role: "Senior QC Analyst y QA Lead"
     org: "Globant"
@@ -35,11 +43,18 @@ ponentes:
 
   - name: "Andra Anuta"
     role: "CEO & Senior Leadership Coach · Keynote Speaker"
-    org: ""
+    org: "Efata Consulting"
     cat: "taller"
     photo: "andra-anuta.jpg"
     linkedin: "https://www.linkedin.com/in/andra-anuta/"
-    bio: ""
+    bio: |-
+      Consultora europea, coach ejecutiva, conferencista y psicoterapeuta organizacional con dominio nativo del español, especializada en liderazgo consciente, ventas y gestión del talento. Con más de 10 años de experiencia internacional, ha facilitado más de 250 programas y conferencias, impactando a más de 10,500 personas.
+
+      Es licenciada en Psicología por la Universidad de Bucarest (Rumania) y está certificada internacionalmente en Programación Neurolingüística (PNL), coaching no directivo de negocios, coaching de vida, coaching de equipos y, recientemente, en psicoterapia del trauma.
+
+      Su enfoque se centra en el entendimiento profundo del ser humano en entornos de alta exigencia y cambio constante, formando equipos empresariales de alto rendimiento en más de 10 países. También posee acreditaciones en la Unión Europea, Norteamérica y Latinoamérica.
+
+      Actualmente reside en México, donde ha fundado un grupo de especialistas de alto calibre enfocados en generar soluciones integrales.
 
   - name: "Andrea Monsanto"
     role: "Escritora, conferencista y consultora"
@@ -139,6 +154,17 @@ ponentes:
     bio: |-
       Actualmente es Subdirectora de Riesgos de Inteligencia Artificial en Santander México, donde trabaja en la supervisión de iniciativas de IA, la incorporación de principios de riesgo operacional a su adopción, la implementación de una política de IA y el desarrollo de herramientas para su gobierno y monitorización.
 
+  - name: "Grecia Castaldi"
+    role: "Project Manager · Líder de TechFem"
+    org: "Arthur J. Gallagher & Co."
+    cat: "taller"
+    photo: "grecia-castaldi.jpg"
+    linkedin: "https://www.linkedin.com/in/grecia-castaldi/"
+    bio: |-
+      Grecia Castaldi es una profesional en tecnología con formación en Ingeniería en Diseño Gráfico Digital por la UDEM e Ingeniería en Sistemas de Información por la Nagaoka University of Technology. Con más de 13 años de experiencia, ha enfocado su carrera en liderar iniciativas, proyectos y comunidades tecnológicas, especialmente aquellas que impulsan la participación de mujeres y grupos subrepresentados en la industria.
+
+      Actualmente se desempeña como Project Manager en Arthur J. Gallagher & Co., a través de su rol como consultora para HCLTech. Además, lidera TechFem, una comunidad que empodera a mujeres en tecnología con presencia en Latinoamérica.
+
   - name: "Hilda Molina"
     role: "Learning and Capability Development Director"
     org: "Softtek"
@@ -211,6 +237,17 @@ ponentes:
       Su trabajo se enfoca en la protección de datos, privacidad, cumplimiento regulatorio y gobierno de tecnologías emergentes, ayudando a empresas privadas e instituciones públicas a adoptar tecnologías de forma segura y alineada a estándares internacionales.
 
       Le apasiona la intersección entre derecho, tecnología y ciberseguridad, y promover una mayor participación de perfiles diversos de mujeres en STEM, demostrando que el futuro de la tecnología también se construye desde la gobernanza y el cumplimiento.
+
+  - name: "Patricia Mora Castro"
+    role: "Directora de Vinculación y Fondos"
+    org: "Tecnológico de Monterrey"
+    cat: "panel"
+    photo: "patricia-mora-castro.jpg"
+    linkedin: "https://www.linkedin.com/in/silvia-patricia-mora-castro-09155938/"
+    bio: |-
+      Líder orientada a resultados con más de 28 años de experiencia en el Tecnológico de Monterrey. Es experta en Propiedad Intelectual (PI), transferencia de tecnología y Emprendimiento de Base Científico-Tecnológica (EBCT).
+
+      Cuenta con una trayectoria comprobada en la formalización de alianzas estratégicas, la captación de fondos internacionales y la construcción de ecosistemas de innovación en México, China y Europa.
 
   - name: "Reyna Méndez"
     role: "Líder de Adopción y Automatización con IA"

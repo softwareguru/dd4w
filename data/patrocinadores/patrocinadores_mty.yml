@@ -92,6 +92,12 @@ comunidades:
       image: images/logos/generation-mx.jpg
       url: http://www.mexico.generation.org
 
+    - name: TechFem
+      image: images/logos/techfem.png
+
+    - name: SEITD
+      image: images/logos/seitd.png
+
 organiza:
   label: Organizado por
   logos:

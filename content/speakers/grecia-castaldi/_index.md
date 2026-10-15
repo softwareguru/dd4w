@@ -11,6 +11,9 @@ instagram: https://www.instagram.com/greciacastaldi
 github: 
 events: 
  - octubre-2025
+ - octubre-2026
 ---
 
-Grecia Castaldi es Project Manager en el sector tecnológico y Co-fundadora de TechFem, una comunidad que impulsa el desarrollo profesional de mujeres en tecnología. Apasionada por la colaboración, la equidad y el aprendizaje continuo, promueve iniciativas que acercan a más mujeres al mundo tech y fortalecen su crecimiento profesional.
+Grecia Castaldi es una profesional en tecnología con formación en Ingeniería en Diseño Gráfico Digital por la UDEM e Ingeniería en Sistemas de Información por la Nagaoka University of Technology. Con más de 13 años de experiencia, ha enfocado su carrera en liderar iniciativas, proyectos y comunidades tecnológicas, especialmente aquellas que impulsan la participación de mujeres y grupos subrepresentados en la industria.
+
+Actualmente se desempeña como Project Manager en Arthur J. Gallagher & Co., a través de su rol como consultora para HCLTech. Además, lidera TechFem, una comunidad que empodera a mujeres en tecnología con presencia en Latinoamérica.
