@@ -3,6 +3,7 @@ title: "Plan Odisea: una herramienta para descubrir nuevas perspectivas para log
 slug: plan-odisea-una-herramienta-para-descubrir-nuevas-perspectivas-para-lograr-tus-metas-y-encontrar-aliadas-en-el-camino
 speakers:
  - Ana Pinilla
+ - Andrea Herrera
 time_start: 2026-10-31T15:50:00-06:00
 time_end: 2026-10-31T16:50:00-06:00
 ---

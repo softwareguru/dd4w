@@ -283,6 +283,8 @@ salas:
         ponentes:
           - nombre: "Ana Pinilla"
             perfil: "ana-pinilla"
+          - nombre: "Andrea Herrera"
+            perfil: "andrea-herrera"
         etiqueta: "Taller de habilidades"
         tipo: "workshop"
         abstracto: |-
