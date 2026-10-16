@@ -42,17 +42,17 @@ salas:
         abstracto: |-
           La inteligencia artificial está revolucionando la manera en que realizamos Strategic Foresight. Si antes el análisis de tendencias, señales de cambio y construcción de escenarios requería meses de trabajo, hoy la IA nos permite procesar grandes volúmenes de información en tiempo real, identificar patrones emergentes y explorar futuros posibles con una velocidad sin precedentes.
       - horario: "10:05 – 10:30"
-        titulo: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
-        sesion: "deberíamos-usar-ia-aqui"
+        titulo: "Test proyectivos con IA"
+        sesion: "test-proyectivos-con-ia"
         evento: "octubre-2026"
         ponentes:
-          - nombre: "Fernanda Alanis"
-            perfil: "fernanda-alanis"
+          - nombre: "Consuelo Jiménez"
+            perfil: "consuelo-jimenez"
         tipo: "sesion"
         abstracto: |-
-          En estos tiempos en los que parece que todos quieren usar IA, el reto no es encontrar dónde implementarla, sino identificar dónde genera valor. En esta plática exploraremos cómo evaluar una iniciativa de IA considerando no solo sus beneficios y valor, sino también sus costos, riesgos, alternativas y el costo de no implementarla.
+          Los test proyectivos como el dibujo de la figura humana y el hombre bajo la lluvia han sido utilizados de forma manual por muchos años. Hoy, gracias a la IA, se pueden automatizar reduciendo tiempos, estandarizando los resultados de los prediagnósticos y extendiendo la capacidad de los psicólogos: a través de visión computacional, los resultados se generan en menos de un minuto.
 
-          La idea es ayudar a la audiencia a desarrollar el criterio para tomar mejores decisiones y aprovechar la IA donde realmente tiene sentido.
+          Los resultados tienen impactos en toda la población en aspectos cognitivos y emocionales, donde de manera temprana se definen acciones para cada evaluado según sus resultados de prediagnóstico.
       - horario: "10:30 – 11:30"
         titulo: "Menos prompts, más estrategia: el verdadero reto de la inteligencia artificial"
         sesion: "menos-prompts-mas-estrategia-el-verdadero-reto-de-la-inteligencia-artificial"
@@ -150,17 +150,17 @@ salas:
 
           El taller busca que las participantes no solo se lleven inspiración del evento, sino también claridad, red de apoyo y movimiento: saber qué quieren activar, con quién pueden apoyarse y cuál será su primer paso.
       - horario: "15:50 – 16:15"
-        titulo: "Test proyectivos con IA"
-        sesion: "test-proyectivos-con-ia"
+        titulo: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
+        sesion: "deberíamos-usar-ia-aqui"
         evento: "octubre-2026"
         ponentes:
-          - nombre: "Consuelo Jiménez"
-            perfil: "consuelo-jimenez"
+          - nombre: "Fernanda Alanis"
+            perfil: "fernanda-alanis"
         tipo: "sesion"
         abstracto: |-
-          Los test proyectivos como el dibujo de la figura humana y el hombre bajo la lluvia han sido utilizados de forma manual por muchos años. Hoy, gracias a la IA, se pueden automatizar reduciendo tiempos, estandarizando los resultados de los prediagnósticos y extendiendo la capacidad de los psicólogos: a través de visión computacional, los resultados se generan en menos de un minuto.
+          En estos tiempos en los que parece que todos quieren usar IA, el reto no es encontrar dónde implementarla, sino identificar dónde genera valor. En esta plática exploraremos cómo evaluar una iniciativa de IA considerando no solo sus beneficios y valor, sino también sus costos, riesgos, alternativas y el costo de no implementarla.
 
-          Los resultados tienen impactos en toda la población en aspectos cognitivos y emocionales, donde de manera temprana se definen acciones para cada evaluado según sus resultados de prediagnóstico.
+          La idea es ayudar a la audiencia a desarrollar el criterio para tomar mejores decisiones y aprovechar la IA donde realmente tiene sentido.
       - horario: "16:15 – 16:40"
         titulo: "Más allá del bug: por qué la IA no puede reemplazar el criterio humano en sistemas críticos"
         sesion: "mas-alla-del-bug"
