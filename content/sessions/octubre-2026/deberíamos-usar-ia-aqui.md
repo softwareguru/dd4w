@@ -1,5 +1,5 @@
 ---
-title: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
+title: "IA con criterio: el factor humano detrás de cada decisión"
 slug: deberíamos-usar-ia-aqui
 speakers:
  - Fernanda Alanis

@@ -142,6 +142,7 @@
                 organizadas por tipo de sesión.</p>
         </div>
         {{ range $c := slice
+            (dict "key" "apertura" "label" "Apertura y bienvenida" "meta" "")
             (dict "key" "panel" "label" "Panel · Unleash the power within" "meta" "Panel" "feat" true)
             (dict "key" "charla" "label" "Charlas" "meta" "20 min")
             (dict "key" "taller" "label" "Talleres" "meta" "")
