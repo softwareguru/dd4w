@@ -1,6 +1,8 @@
 ---
 title: "Aimed Pimentel"
 designation: "Líder de Hispanoamérica Womcy"
+images:
+ - /images/speakers/aimed-pimentel.jpeg
 linkedin: https://www.linkedin.com/in/aimed-pimentel-9662b9191/
 events:
  - octubre-2026

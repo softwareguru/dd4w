@@ -1,6 +1,8 @@
 ---
 title: "Aleida Pérez"
 designation: "Founder & Global Executive Director Hacker Women Council"
+images:
+ - /images/speakers/aleida-perez.jpeg
 linkedin: https://www.linkedin.com/in/perezaleida/
 events:
  - octubre-2026

@@ -1,6 +1,8 @@
 ---
 title: "Cateryn Farfán"
 designation: "Fundadora Nuvol Cybersecurity y WoSEC México"
+images:
+ - /images/speakers/cateryn-farfan.jpeg
 linkedin: https://www.linkedin.com/in/caterynfarfan/
 events:
  - octubre-2026
