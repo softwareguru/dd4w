@@ -3,13 +3,14 @@ title: "Alejandra Meza"
 date: 2024-09-18T17:28:47-06:00
 images: 
  - "/images/speakers/alejandra-meza.png"
-designation : "Academic & Cultural Link/Lider de coordinación @ Women in Gamex"
+designation : "Head of Coordination and Partnerships @ Women In Gamex"
 country: "mx"
 twitter: ""
-linkedin: "http://linkedin.com/in/alejandra-meza/"
+linkedin: "https://www.linkedin.com/in/alejandra-m-al/"
 github: ""
 events: 
  - oct-2024
+ - octubre-2026
 ---
 
 Tengo más de 6 años de experiencia en el desarrollo de videojuegos y una trayectoria exitosa en gestión de proyectos, además de 3 años de voluntariado para ayudar a mejorar la industria de los videojuegos en América Latina para grupos marginados.

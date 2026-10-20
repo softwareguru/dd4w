@@ -86,17 +86,19 @@ salas:
         titulo: "Coffee break"
         tipo: "logistica"
       - horario: "12:45 – 13:10"
-        titulo: "Inteligencia emocional en la era de la inteligencia artificial"
-        sesion: "inteligencia-emocional-en-la-era-de-la-inteligencia-artificial"
+        titulo: "Más allá del bug: por qué la IA no puede reemplazar el criterio humano en sistemas críticos"
+        sesion: "mas-alla-del-bug"
         evento: "octubre-2026"
         ponentes:
-          - nombre: "Andrea Monsanto"
-            perfil: "andrea-monsanto"
+          - nombre: "Alicia Pravia"
+            perfil: "alicia-pravia"
         tipo: "sesion"
         abstracto: |-
-          La inteligencia artificial está transformando rápidamente nuestra manera de vivir y trabajar. Pero mientras aceleramos nuestro desarrollo tecnológico, surge una pregunta fundamental: ¿estamos desarrollando nuestras capacidades humanas al mismo ritmo?
+          Tras más de 10 años en QA y liderando equipos en Globant, esta charla aborda cómo transformar la calidad del software en un pilar estratégico ante el avance de la inteligencia artificial y los entornos de alta exigencia, como la industria de Healthcare.
 
-          En esta charla exploraremos cómo fortalecer nuestra adaptabilidad y resiliencia, llevar a la par el desarrollo tecnológico y humano, y utilizar la tecnología de una manera más consciente, saludable y humana.
+          A través de una perspectiva práctica y reflexiva, se presentan tres aprendizajes clave. **Intención vs. automatización:** mientras la IA acelera la ejecución de pruebas, el verdadero valor humano radica en cuestionar requerimientos, detectar supuestos no documentados y entender el contexto real del negocio. **Cultura de feedback:** construir confianza con desarrolladores y clientes reconociendo primero lo que funciona bien, para pasar de ser un «QA bloqueador» a un socio estratégico. **Mentalidad QA:** aplicar el control de respuesta y la serenidad bajo presión ante cambios de último minuto y fallos en producción, donde no hay margen de error.
+
+          Una charla sobre cómo combinar criterio analítico, empatía y resiliencia para liderar la calidad cuando el software simplemente no puede fallar.
       - horario: "13:10 – 13:35"
         titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
         sesion: "cuando-diseno-y-desarrollo-hablan-el-mismo-idioma"
@@ -162,19 +164,20 @@ salas:
 
           La idea es ayudar a la audiencia a desarrollar el criterio para tomar mejores decisiones y aprovechar la IA donde realmente tiene sentido.
       - horario: "16:15 – 16:40"
-        titulo: "Más allá del bug: por qué la IA no puede reemplazar el criterio humano en sistemas críticos"
-        sesion: "mas-alla-del-bug"
+        titulo: "Presentación de comunidades"
+        sesion: "presentacion-de-comunidades"
         evento: "octubre-2026"
         ponentes:
-          - nombre: "Alicia Pravia"
-            perfil: "alicia-pravia"
+          - nombre: "Cateryn Farfán"
+            perfil: "cateryn-farfan"
+          - nombre: "Aleida Pérez"
+            perfil: "aleida-perez"
+          - nombre: "Aimed Pimentel"
+            perfil: "aimed-pimentel"
+          - nombre: "Alejandra Meza"
+            perfil: "alejandra-meza"
+        etiqueta: "Comunidades"
         tipo: "sesion"
-        abstracto: |-
-          Tras más de 10 años en QA y liderando equipos en Globant, esta charla aborda cómo transformar la calidad del software en un pilar estratégico ante el avance de la inteligencia artificial y los entornos de alta exigencia, como la industria de Healthcare.
-
-          A través de una perspectiva práctica y reflexiva, se presentan tres aprendizajes clave. **Intención vs. automatización:** mientras la IA acelera la ejecución de pruebas, el verdadero valor humano radica en cuestionar requerimientos, detectar supuestos no documentados y entender el contexto real del negocio. **Cultura de feedback:** construir confianza con desarrolladores y clientes reconociendo primero lo que funciona bien, para pasar de ser un «QA bloqueador» a un socio estratégico. **Mentalidad QA:** aplicar el control de respuesta y la serenidad bajo presión ante cambios de último minuto y fallos en producción, donde no hay margen de error.
-
-          Una charla sobre cómo combinar criterio analítico, empatía y resiliencia para liderar la calidad cuando el software simplemente no puede fallar.
       - horario: "16:40 – 17:00"
         titulo: "La IA no me dio respuestas. Me dio criterio."
         sesion: "la-ia-no-me-dio-respuestas"
