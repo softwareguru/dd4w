@@ -100,15 +100,17 @@ salas:
 
           Una charla sobre cómo combinar criterio analítico, empatía y resiliencia para liderar la calidad cuando el software simplemente no puede fallar.
       - horario: "13:10 – 13:35"
-        titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
-        sesion: "cuando-diseno-y-desarrollo-hablan-el-mismo-idioma"
+        titulo: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
+        sesion: "deberíamos-usar-ia-aqui"
         evento: "octubre-2026"
         ponentes:
-          - nombre: "Antonieta Carrasco"
-            perfil: "antonieta-carrasco"
+          - nombre: "Fernanda Alanis"
+            perfil: "fernanda-alanis"
         tipo: "sesion"
         abstracto: |-
-          Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
+          En estos tiempos en los que parece que todos quieren usar IA, el reto no es encontrar dónde implementarla, sino identificar dónde genera valor. En esta plática exploraremos cómo evaluar una iniciativa de IA considerando no solo sus beneficios y valor, sino también sus costos, riesgos, alternativas y el costo de no implementarla.
+
+          La idea es ayudar a la audiencia a desarrollar el criterio para tomar mejores decisiones y aprovechar la IA donde realmente tiene sentido.
       - horario: "13:35 – 14:00"
         titulo: "Mirada a 3 chatbots educativos como impulsores del razonamiento humano"
         sesion: "mirada-a-3-chatbots-educativos-como-impulsores-del-razonamiento-humano"
@@ -152,17 +154,15 @@ salas:
 
           El taller busca que las participantes no solo se lleven inspiración del evento, sino también claridad, red de apoyo y movimiento: saber qué quieren activar, con quién pueden apoyarse y cuál será su primer paso.
       - horario: "15:50 – 16:15"
-        titulo: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
-        sesion: "deberíamos-usar-ia-aqui"
+        titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
+        sesion: "cuando-diseno-y-desarrollo-hablan-el-mismo-idioma"
         evento: "octubre-2026"
         ponentes:
-          - nombre: "Fernanda Alanis"
-            perfil: "fernanda-alanis"
+          - nombre: "Antonieta Carrasco"
+            perfil: "antonieta-carrasco"
         tipo: "sesion"
         abstracto: |-
-          En estos tiempos en los que parece que todos quieren usar IA, el reto no es encontrar dónde implementarla, sino identificar dónde genera valor. En esta plática exploraremos cómo evaluar una iniciativa de IA considerando no solo sus beneficios y valor, sino también sus costos, riesgos, alternativas y el costo de no implementarla.
-
-          La idea es ayudar a la audiencia a desarrollar el criterio para tomar mejores decisiones y aprovechar la IA donde realmente tiene sentido.
+          Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
       - horario: "16:15 – 16:40"
         titulo: "Presentación de comunidades"
         sesion: "presentacion-de-comunidades"
