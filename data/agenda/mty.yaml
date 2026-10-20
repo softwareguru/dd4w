@@ -17,6 +17,11 @@ salas:
       - horario: "09:00 – 09:15"
         titulo: "Apertura y bienvenida"
         tipo: "logistica"
+        ponentes:
+          - nombre: "Mara Ruvalcaba"
+            perfil: "mara-ruvalcaba"
+          - nombre: "Sabrina Ortiz Martínez"
+            perfil: "sabrina-ortiz"
       - horario: "09:15 – 09:40"
         titulo: "¿Quién gobierna la IA? El rol de GRC en el futuro de las organizaciones"
         sesion: "quien-gobierna-la-ia"
@@ -100,7 +105,7 @@ salas:
 
           Una charla sobre cómo combinar criterio analítico, empatía y resiliencia para liderar la calidad cuando el software simplemente no puede fallar.
       - horario: "13:10 – 13:35"
-        titulo: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la pena?"
+        titulo: "IA con criterio: el factor humano detrás de cada decisión"
         sesion: "deberíamos-usar-ia-aqui"
         evento: "octubre-2026"
         ponentes:

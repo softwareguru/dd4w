@@ -280,7 +280,10 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .agx-cell .ag-title{display:block;font-weight:650;line-height:1.35;color:var(--ink)}
 .agx-cell .ag-speaker{display:block;color:var(--ink-soft);font-size:13px;margin-top:3px}
 .agx-log{background:var(--paper-2);border:0;color:var(--ink-soft);font-weight:600;
-  display:flex;align-items:center;justify-content:center;text-align:center}
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  flex-wrap:wrap;gap:4px 10px}
+/* Quien abre el evento, cuando la fila logística lleva ponentes. */
+.agx-log-spk{font-weight:500}
 .agx-cell.is-feature{background:var(--purple-deep);border:0}
 .agx-cell.is-feature .ag-title{color:var(--arena);font-size:15.5px}
 .agx-cell.is-feature .ag-speaker{color:rgba(243,231,215,.85)}

@@ -62,7 +62,21 @@
         {{- $row := add $i 2 }}
         <div class="agx-t" style="grid-row:{{ $row }}">{{ $slot.horario }}</div>
         {{- if eq $slot.tipo "logistica" }}
-        <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:2/4">{{ $slot.titulo }}</div>
+        {{- /* Las filas logísticas cruzan las dos columnas. Pueden llevar
+             ponentes: la apertura la dan personas, y conviene que se sepa
+             quiénes son. */ -}}
+        <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:2/4">{{ $slot.titulo }}
+            {{- with $slot.ponentes }}
+            <span class="ag-speaker agx-log-spk">
+                {{- range $i, $sp := . }}
+                {{- if gt $i 0 }} · {{ end }}
+                {{- if $sp.perfil }}
+                <button type="button" class="ag-spk" data-perfil="{{ $sp.perfil }}" aria-haspopup="dialog">{{ $sp.nombre }}</button>
+                {{- else }}{{ $sp.nombre }}{{ end }}
+                {{- end }}
+            </span>
+            {{- end }}
+        </div>
         {{- else }}
         <div class="agx-cell{{ if $slot.destacado }} is-feature{{ end }}{{ if $slot.resaltar }} is-highlight{{ end }}" style="grid-row:{{ $row }};grid-column:{{ if $slot.ambas }}2/4{{ else }}2{{ end }}">
             <span class="agx-m">{{ if $slot.ambas }}{{ $plen.nombre }} y {{ $quet.nombre }}{{ else }}{{ $plen.nombre }}{{ end }} · {{ $slot.horario }}</span>

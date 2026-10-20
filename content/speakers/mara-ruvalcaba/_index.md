@@ -11,6 +11,7 @@ github:
 events: 
  - 2023-h1
  - 2023-h2
+ - octubre-2026
 ---
 
 Mara Ruvalcaba es COO y socia fundadora de SG. Orgullosa Ingeniera de software y artista del corazón.

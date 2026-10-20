@@ -315,6 +315,32 @@ ponentes:
   # Comunidades que se presentan en el bloque de las 16:15. Los datos salen del
   # CFP (hoja «CFP 2026», propuesta NZVJ3E). Las fotos llegaron como enlaces de
   # Drive, así que `photo` queda fuera hasta tener los archivos.
+  # Quienes abren el evento. Están aquí, y no solo en la fila de la agenda,
+  # porque es lo que hace que su nombre abra el perfil al pulsarlo.
+  - name: "Mara Ruvalcaba"
+    role: "COO y socia fundadora"
+    org: "Software Guru"
+    cat: "apertura"
+    photo: "mara-ruvalcaba.jpeg"
+    linkedin: "https://www.linkedin.com/in/marayve/"
+    bio: |-
+      COO y socia fundadora de SG. Orgullosa ingeniera de software y artista del corazón.
+
+      Es coautora de MoProSoft e incansable innovadora de soluciones que permitan a los profesionistas desarrollar mejor software. Tiene a su cargo la definición y operación de las líneas de negocio de SG a nivel global: Developer Relations, Eventos, SG Talento, SG 4 Women y los diversos servicios de publicidad.
+
+  - name: "Sabrina Ortiz Martínez"
+    role: "Directora de Fomento a la Mujer"
+    org: "Secretaría de Economía de Nuevo León"
+    cat: "apertura"
+    photo: "sabrina-ortiz.jpeg"
+    linkedin: "https://www.linkedin.com/in/sabrina-ortiz-0238691a0/"
+    bio: |-
+      Licenciada en Publicidad y Comunicación de Mercados por el Tecnológico de Monterrey, con estudios de Maestría en Ciencias Políticas y Gobierno por la Universidad Autónoma de Nuevo León.
+
+      Actualmente es Directora de Fomento a la Mujer en la Secretaría de Economía de Nuevo León, donde impulsa iniciativas para fortalecer el emprendimiento, el liderazgo y la independencia económica de las mujeres.
+
+      Cuenta con experiencia en el servicio público, particularmente en temas de igualdad de oportunidades y desarrollo de las mujeres. Su trayectoria refleja su compromiso con la participación ciudadana, el desarrollo económico y la construcción de más oportunidades para las mujeres de Nuevo León.
+
   - name: "Aimed Pimentel"
     role: "Líder de Hispanoamérica"
     org: "Womcy"
