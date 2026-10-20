@@ -3,8 +3,8 @@ title: "¿Deberíamos usar IA aquí? ¿Cómo decidir cuándo realmente vale la p
 slug: deberíamos-usar-ia-aqui
 speakers:
  - Fernanda Alanis
-time_start: 2026-10-31T15:50:00-06:00
-time_end: 2026-10-31T16:15:00-06:00
+time_start: 2026-10-31T13:10:00-06:00
+time_end: 2026-10-31T13:35:00-06:00
 ---
 
 En estos tiempos en los que parece que todos quieren usar IA, el reto no es encontrar dónde implementarla, sino identificar dónde genera valor. En esta plática exploraremos cómo evaluar una iniciativa de IA considerando no solo sus beneficios y valor, sino también sus costos, riesgos, alternativas y el costo de no implementarla.

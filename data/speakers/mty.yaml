@@ -34,7 +34,7 @@ ponentes:
     role: "Mentora estudiantil"
     org: "Tecnológico de Monterrey"
     cat: "taller"
-    # photo: pendiente de su LinkedIn; mientras tanto la tarjeta usa la silueta
+    photo: "andrea-herrera.jpeg"
     linkedin: "https://www.linkedin.com/in/andreaherreramorales/"
     bio: |-
       Maestra en Mercadotecnia y Licenciada en Administración de Empresas por el Tecnológico de Monterrey, con más de 15 años de experiencia en formación y desarrollo estudiantil. Se ha especializado en mentoría, liderazgo, propósito de vida, establecimiento de metas y desarrollo de habilidades para la vida.
@@ -68,19 +68,6 @@ ponentes:
       Su enfoque se centra en el entendimiento profundo del ser humano en entornos de alta exigencia y cambio constante, formando equipos empresariales de alto rendimiento en más de 10 países. También posee acreditaciones en la Unión Europea, Norteamérica y Latinoamérica.
 
       Actualmente reside en México, donde ha fundado un grupo de especialistas de alto calibre enfocados en generar soluciones integrales.
-
-  - name: "Andrea Monsanto"
-    role: "Escritora, conferencista y consultora"
-    org: "Instituto YOSOY"
-    cat: "charla"
-    photo: "andrea-monsanto.jpg"
-    linkedin: "https://www.linkedin.com/in/andrea-monsanto-15bbb667/"
-    bio: |-
-      Andrea Monsanto es conferencista y consultora internacional en bienestar socioemocional y financiero, resiliencia y liderazgo colaborativo. Fue gerente nacional de Programas de Bienestar Integral del Tecnológico de Monterrey.
-
-      Es licenciada en Bioquímica por SUNY Stony Brook, estudió en la Escuela de Filosofía Práctica de Nueva York y cuenta con una maestría en Psicología Positiva por Life University.
-
-      Colaboró con Life University y la UNESCO para llevar a Latinoamérica el Entrenamiento en Compasión Integral, implementado con miles de personas. Ha participado en encuentros internacionales como Wellbeing 360, World Happiness Fest y Compassionate Action, y ha sido facilitadora invitada de la UNESCO en su programa SEEK.
 
   - name: "Antonieta Carrasco"
     role: "Lead Product Designer"
@@ -311,3 +298,54 @@ ponentes:
       Sus líneas de investigación son: dificultades conceptuales en física mediante la construcción de significados a partir de la socialización del conocimiento, uso efectivo de tecnologías educativas para el aprendizaje de ingeniería y ciencias, y aproximaciones con inteligencia artificial al aprendizaje de la física, STEM y perspectiva de género. Es directora de tesis de maestría de la Escuela de Humanidades y Educación del ITESM y enseña Física mediante aprendizaje basado en retos y evaluación por subcompetencias.
 
       Santa enseña física de primer año, investiga en educación de la ingeniería y las ciencias y STEM, y es SNI 1. Disfruta jugar con la IA, organizar vivencias STEM con impacto social y perspectiva de género, cantar, ir al cine, la comida vegetariana y jugar con su perrito Jack.
+
+  # Comunidades que se presentan en el bloque de las 16:15. Los datos salen del
+  # CFP (hoja «CFP 2026», propuesta NZVJ3E). Las fotos llegaron como enlaces de
+  # Drive, así que `photo` queda fuera hasta tener los archivos.
+  - name: "Aimed Pimentel"
+    role: "Líder de Hispanoamérica"
+    org: "Womcy"
+    cat: "comunidad"
+    photo: "aimed-pimentel.jpeg"
+    linkedin: "https://www.linkedin.com/in/aimed-pimentel-9662b9191/"
+    bio: |-
+      Cuenta con más de veinticinco años de experiencia en la gestión e implementación de proyectos de tecnología, mejora de procesos, planeación estratégica corporativa, ética y cumplimiento, con una gran capacidad de integración de equipos de alto desempeño y grupos multidisciplinarios a nivel internacional.
+
+      Promueve un liderazgo con enfoque humano. Es mentora, conferencista internacional y coautora del primer libro escrito por mujeres en México sobre «Equidad e Igualdad de Género en el Ámbito del Compliance». Es presidenta de Women On Strategy (WONSTRATEGY), consejera de la Alianza México Ciber Seguro, miembro del Industrial Legacy Council y líder de los países de habla hispana en WOMCY, Latam Women in Cybersecurity.
+
+  - name: "Aleida Pérez"
+    role: "Founder & Global Executive Director"
+    org: "Hacker Women Council"
+    cat: "comunidad"
+    photo: "aleida-perez.jpeg"
+    linkedin: "https://www.linkedin.com/in/perezaleida/"
+    bio: |-
+      Especialista en ciberseguridad, empresaria y conferencista internacional, con más de 13 años de trayectoria en seguridad de la información, gestión de riesgos, gobernanza y transformación digital.
+
+      Es fundadora y CEO de Ikigai Tech Consulting, así como fundadora y directora ejecutiva de Hacker Women Council y Nación Hacker, iniciativas dedicadas al fortalecimiento del ecosistema de ciberseguridad y al desarrollo de talento tecnológico.
+
+      Reconocida entre las Top 25 Mujeres Líderes en Ciberseguridad de Latinoamérica, colabora con iniciativas internacionales como la Organización de los Estados Americanos y Junior Achievement.
+
+  # Ya tenía perfil en el sitio desde la edición 2024: se reutiliza en vez de
+  # abrir uno nuevo, y por eso lleva su foto.
+  - name: "Alejandra Meza"
+    role: "Head of Coordination and Partnerships"
+    org: "Women In Gamex"
+    cat: "comunidad"
+    photo: "alejandra-meza.png"
+    linkedin: "https://www.linkedin.com/in/alejandra-m-al/"
+    bio: |-
+      Más de 6 años de experiencia en el desarrollo de videojuegos y una trayectoria en gestión de proyectos, además de 3 años de voluntariado para mejorar la industria de los videojuegos en América Latina para grupos marginados.
+
+      Actualmente en Palabras Clave Studios como enlace académico y cultural. Más de 3 años en Women in Gamex como líder de coordinación y 1 año en IGDA México Norte.
+
+  - name: "Cateryn Farfán"
+    role: "Fundadora"
+    org: "Nuvol Cybersecurity y WoSEC México"
+    cat: "comunidad"
+    photo: "cateryn-farfan.jpeg"
+    linkedin: "https://www.linkedin.com/in/caterynfarfan/"
+    bio: |-
+      Fundadora y Directora de Marketing y Ventas de Nuvol Cybersecurity, firma boutique de ciberseguridad con presencia en México, Panamá y Colombia.
+
+      Es fundadora de WoSEC México, comunidad que impulsa la visibilidad y el reconocimiento profesional de las mujeres en ciberseguridad, y coordina Hack The Road, la Caravana de Ciberseguridad que recorre distintas ciudades del país.
