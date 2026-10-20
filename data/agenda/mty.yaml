@@ -279,6 +279,19 @@ salas:
           - nombre: "Brenda Hernández"
         etiqueta: "Taller técnico"
         tipo: "workshop"
+      - horario: "14:50 – 15:50"
+        titulo: "Inteligencia emocional en la era de la inteligencia artificial"
+        sesion: "inteligencia-emocional-en-la-era-de-la-inteligencia-artificial"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Andrea Monsanto"
+            perfil: "andrea-monsanto"
+        etiqueta: "Taller de habilidades"
+        tipo: "workshop"
+        abstracto: |-
+          La inteligencia artificial está transformando rápidamente nuestra manera de vivir y trabajar. Pero mientras aceleramos nuestro desarrollo tecnológico, surge una pregunta fundamental: ¿estamos desarrollando nuestras capacidades humanas al mismo ritmo?
+
+          En esta charla exploraremos cómo fortalecer nuestra adaptabilidad y resiliencia, llevar a la par el desarrollo tecnológico y humano, y utilizar la tecnología de una manera más consciente, saludable y humana.
       - horario: "15:50 – 16:50"
         titulo: "Plan Odisea: una herramienta para descubrir nuevas perspectivas para lograr tus metas y encontrar aliadas en el camino"
         sesion: "plan-odisea-una-herramienta-para-descubrir-nuevas-perspectivas-para-lograr-tus-metas-y-encontrar-aliadas-en-el-camino"
