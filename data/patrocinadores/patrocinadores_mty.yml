@@ -94,6 +94,22 @@ comunidades:
     - name: SEITD
       image: images/logos/seitd.png
 
+    - name: WoSEC México
+      image: images/logos/wosec-mexico.png
+      url: https://wosecmexico.com/
+
+    - name: WOMCY, LATAM Women in Cybersecurity
+      image: images/logos/womcy.png
+      url: https://womcy.org/
+
+    - name: Hacker Women Council
+      image: images/logos/hacker-women-council.png
+      url: https://hackerwomen.org/
+
+    - name: Women In Gamex
+      image: images/logos/women-in-gamex.png
+      url: https://www.womeningamex.com/
+
 organiza:
   label: Organizado por
   logos:
