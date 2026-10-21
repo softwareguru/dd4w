@@ -63,10 +63,6 @@ aliados:
 comunidades:
   label: Comunidades aliadas
   logos:
-    - name: Ingenia
-      image: images/logos/ingenia.jpg
-      url: https://eic.tec.mx/es/iniciativas-cambio/ingenia-women-in-stem
-
     - name: EXATEC Mujeres
       image: images/logos/exatec.jpg
 
@@ -111,3 +107,7 @@ organiza:
 
     - name: Global4Her
       image: images/logos/global4her.png
+
+    - name: Ingenia
+      image: images/logos/ingenia.jpg
+      url: https://eic.tec.mx/es/iniciativas-cambio/ingenia-women-in-stem
