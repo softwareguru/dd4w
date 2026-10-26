@@ -3,8 +3,8 @@ title: "Más allá del bug: por qué la IA no puede reemplazar el criterio human
 slug: mas-alla-del-bug
 speakers:
  - Alicia Pravia
-time_start: 2026-10-31T16:15:00-06:00
-time_end: 2026-10-31T16:40:00-06:00
+time_start: 2026-10-31T12:45:00-06:00
+time_end: 2026-10-31T13:10:00-06:00
 ---
 
 Tras más de 10 años en QA y liderando equipos en Globant, esta charla aborda cómo transformar la calidad del software en un pilar estratégico ante el avance de la inteligencia artificial y los entornos de alta exigencia, como la industria de Healthcare.

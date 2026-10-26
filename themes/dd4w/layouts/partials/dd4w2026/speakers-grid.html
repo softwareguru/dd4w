@@ -21,6 +21,9 @@ ahí, el modal ofrece el enlace a su landing en /sessions/julio-2026/. */ -}}
       <span class="av" {{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')" {{ end }}
         role="img" aria-label="{{ .name }}"></span>
       <b>{{ .name }}</b>
+      {{- /* `nota` dice qué hace en ESTE bloque: la misma persona puede salir
+           en dos, como quien modera un panel y además da su propia charla. */ -}}
+      {{- with .nota }}<span class="spk-nota">{{ . }}</span>{{ end }}
       {{- with .role }}<span>{{ . }}</span>{{ end }}
       {{- with .org }}<span class="org">{{ . }}</span>{{ end }}
       <span class="spk-more">Ver perfil</span>
@@ -30,6 +33,7 @@ ahí, el modal ofrece el enlace a su landing en /sessions/julio-2026/. */ -}}
     <span class="av" {{ with .photo }} style="background-image:url('/preview/images/speakers/{{ . }}')" {{ end }}
       role="img" aria-label="{{ .name }}"></span>
     <b>{{ .name }}</b>
+    {{- with .nota }}<span class="spk-nota">{{ . }}</span>{{ end }}
     {{- with .role }}<span>{{ . }}</span>{{ end }}
     {{- with .org }}<span class="org">{{ . }}</span>{{ end }}
     {{- end }}

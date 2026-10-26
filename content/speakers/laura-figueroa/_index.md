@@ -11,6 +11,7 @@ github: ""
 events: 
  - oct-2024
  - julio-2026
+ - octubre-2026
 ---
 
 Soy Laura Figueroa, Directora General de Impact Click. Tras una carrera en gestión de proyectos socioculturales con organizaciones internacionales, en 2017 orienté mi enfoque hacia la industria EdTech en Latinoamérica. He trabajado con equipos de producto e ingeniería de la región en la construcción de Plataformas Educativas para la región. 

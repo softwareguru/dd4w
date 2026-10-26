@@ -4,7 +4,7 @@
      segunda sala se colocan por hora de inicio y abarcan tantas filas como franjas
      de la primera cubran. Una sesión con `ambas: true` ocupa las dos columnas
      (p. ej. un panel que se da en las dos salas). Las franjas sin sesión paralela muestran un estado vacío
-     (tramos contiguos fusionados). Las filas logísticas cruzan ambas columnas. */ -}}
+     (tramos contiguos fusionados), sin anunciar retransmisión: no la hay. Las filas logísticas cruzan ambas columnas. */ -}}
 {{- $salas := .salas -}}
 {{- $plen := index $salas 0 -}}
 {{- $quet := index $salas 1 -}}
@@ -66,6 +66,9 @@
              ponentes: la apertura la dan personas, y conviene que se sepa
              quiénes son. */ -}}
         <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:2/4">{{ $slot.titulo }}
+            {{- /* Lo que ocurre durante la franja: p. ej. las grabaciones de las
+                 comunidades que se transmiten mientras se come. */ -}}
+            {{- with $slot.nota }}<span class="agx-log-nota">{{ . }}</span>{{ end }}
             {{- with $slot.ponentes }}
             <span class="ag-speaker agx-log-spk">
                 {{- range $i, $sp := . }}
@@ -86,12 +89,19 @@
         {{- range $qc := ($s.Get "qcells") }}{{ if eq $qc.row $row }}
         <div class="agx-cell" style="grid-row:{{ $qc.row }}{{ if gt $qc.span 1 }} / span {{ $qc.span }}{{ end }};grid-column:3">
             <span class="agx-m">{{ $quet.nombre }} · {{ $qc.ses.horario }}</span>
+            {{- /* La sala de workshops no comparte las franjas de la plenaria: sus
+                 sesiones empiezan y acaban a sus propias horas, y la columna de
+                 la izquierda no las dice. Por eso cada celda lleva la suya. */ -}}
+            <span class="agx-hora">{{ $qc.ses.horario }}</span>
             {{ partial "dd4w2026/agenda-cell.html" $qc.ses }}
         </div>
         {{- end }}{{ end }}
         {{- range $e := ($s.Get "empties") }}{{ if eq $e.row $row }}
+        {{- /* Hueco de la sala de workshops: en esa franja no hay nada
+             programado ahí. Antes decía que se retransmitía la plenaria, y no
+             es así. Se deja el estado vacío, sin anunciar algo que no pasa. */ -}}
         <div class="agx-empty" style="grid-row:{{ $e.row }}{{ if gt $e.span 1 }} / span {{ $e.span }}{{ end }};grid-column:3">
-            Retransmisión Sala Plenaria
+            Sin sesión en esta sala
         </div>
         {{- end }}{{ end }}
         {{- end }}
