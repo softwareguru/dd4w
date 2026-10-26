@@ -78,8 +78,14 @@
             {{ partial "dd4w2026/metric.html" (dict "n" "+300" "l" "Mujeres en la comunidad") }}
             {{ partial "dd4w2026/metric.html" (dict "n" "+30" "l" "Ponentes") }}
         </div>
-        <div class="meta-band"><span class="tag">Monterrey 2026</span><b>200 asistentes presenciales</b><span>31 de
-                octubre · Tecnológico de Monterrey · Entrada gratuita</span></div>
+        {{- /* Lo que la gente necesita saber de la próxima sede va en primer plano:
+             cuándo, dónde y que no cuesta. El número de asistentes no ayuda a
+             decidir, y el enlace a la sede sí. */ -}}
+        <div class="meta-band">
+            <span class="tag">Monterrey 2026</span>
+            <b>31 de octubre · Tecnológico de Monterrey · Entrada gratuita</b>
+            <a class="btn btn-light btn-sm meta-band-cta" href="/sede-monterrey/">Ver la sede Monterrey</a>
+        </div>
     </div>
 </section>
 

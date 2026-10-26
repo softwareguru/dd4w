@@ -83,6 +83,9 @@ salas:
           - nombre: "Elvia Rosas Herrera"
           - nombre: "Hilda Molina"
           - nombre: "Patricia Mora Castro"
+        moderadora:
+          nombre: "Cristina Nistor"
+          perfil: "cristina-nistor"
         etiqueta: "Panel"
         tipo: "sesion"
         destacado: true

@@ -1,5 +1,6 @@
 {{- /* Contenido de una celda de sesión de la agenda.
-Campos: titulo, etiqueta?, ponente?, ponente_extra?, perfil?, abstracto?, sesion?.
+Campos: titulo, etiqueta?, ponente?, ponente_extra?, perfil?, abstracto?, sesion?,
+    moderadora? (nombre, perfil?) para los paneles.
 Con abstracto -> <details> desplegable. Con perfil -> el nombre abre el
     modal de la ponente (mismo de la sección Ponentes; ver JS en sede.html).
 Con sesion -> se añade el enlace a /sessions/<evento>/<slug>/, donde `evento`
@@ -12,6 +13,18 @@ Con sesion -> se añade el enlace a /sessions/<evento>/<slug>/, donde `evento`
     {{- $ev := .evento | default "julio-2026" -}}
     {{- with .sesion }}
     <a class="ag-link" href="/sessions/{{ $ev }}/{{ . }}/">Ver sesión →</a>
+    {{- end }}
+    {{- end }}
+
+    {{- /* Quien modera va aparte de quienes participan: en un panel no es lo
+         mismo, y la lista plana lo borraba. */ -}}
+    {{- define "moderadora" -}}
+    {{- with .moderadora }}
+    <span class="ag-mod">Modera:
+        {{- if .perfil }}
+        <button type="button" class="ag-spk" data-perfil="{{ .perfil }}" aria-haspopup="dialog">{{ .nombre }}</button>
+        {{- else }} {{ .nombre }}{{ end }}
+    </span>
     {{- end }}
     {{- end }}
 
@@ -51,6 +64,7 @@ Con sesion -> se añade el enlace a /sessions/<evento>/<slug>/, donde `evento`
             </span>
 
             {{ template "speakerList" $ses }}
+            {{ template "moderadora" $ses }}
 
         </summary>
 
@@ -71,6 +85,7 @@ Con sesion -> se añade el enlace a /sessions/<evento>/<slug>/, donde `evento`
     </span>
 
     {{ template "speakerList" $ses }}
+    {{ template "moderadora" $ses }}
     {{ template "sessionLink" $ses }}
 
     {{- end }}
