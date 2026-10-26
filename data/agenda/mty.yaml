@@ -144,7 +144,10 @@ salas:
       - horario: "14:20 – 14:50"
         titulo: "Lunch & networking"
         tipo: "logistica"
-      - horario: "14:50 – 15:50"
+      - horario: "14:50 – 14:53"
+        titulo: "CSOFTMTY"
+        tipo: "logistica"
+      - horario: "14:53 – 15:53"
         titulo: "Círculo de mentoría: Despierta tu poder interior"
         sesion: "circulo-de-mentoria-despierta-tu-poder-interior"
         evento: "octubre-2026"
@@ -161,7 +164,7 @@ salas:
           Crear un espacio dinámico de conexión, reflexión y apoyo entre participantes, donde cada mujer pueda poner sobre la mesa un reto, necesidad o siguiente paso, recibir nuevas perspectivas de su círculo y transformar los aprendizajes del Dev Day 4 Women en 3 acciones concretas para llevar a su realidad.
 
           El taller busca que las participantes no solo se lleven inspiración del evento, sino también claridad, red de apoyo y movimiento: saber qué quieren activar, con quién pueden apoyarse y cuál será su primer paso.
-      - horario: "15:50 – 16:15"
+      - horario: "15:53 – 16:18"
         titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
         sesion: "cuando-diseno-y-desarrollo-hablan-el-mismo-idioma"
         evento: "octubre-2026"
@@ -171,22 +174,7 @@ salas:
         tipo: "sesion"
         abstracto: |-
           Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
-      - horario: "16:15 – 16:40"
-        titulo: "Presentación de comunidades"
-        sesion: "presentacion-de-comunidades"
-        evento: "octubre-2026"
-        ponentes:
-          - nombre: "Cateryn Farfán"
-            perfil: "cateryn-farfan"
-          - nombre: "Aleida Pérez"
-            perfil: "aleida-perez"
-          - nombre: "Aimed Pimentel"
-            perfil: "aimed-pimentel"
-          - nombre: "Alejandra Meza"
-            perfil: "alejandra-meza"
-        etiqueta: "Comunidades"
-        tipo: "sesion"
-      - horario: "16:40 – 17:00"
+      - horario: "16:18 – 16:43"
         titulo: "La IA no me dio respuestas. Me dio criterio."
         sesion: "la-ia-no-me-dio-respuestas"
         evento: "octubre-2026"
@@ -202,7 +190,22 @@ salas:
           La IA se convirtió en un espacio para cuestionar ideas, estructurar mejor problemas, comunicar con mayor claridad y construir estrategias con más confianza. También me ayudó a dejar de depender de que alguien quisiera enseñarme, reduciendo la distancia entre mi curiosidad y el conocimiento.
 
           Ese cambio transformó la manera en que aporto valor dentro de mi organización. Hoy participo en conversaciones estratégicas con líderes de distintas áreas y detecto oportunidades donde antes veía únicamente tareas.
-      - horario: "17:00 – 17:05"
+      - horario: "16:43 – 17:08"
+        titulo: "Presentación de comunidades"
+        sesion: "presentacion-de-comunidades"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Cateryn Farfán"
+            perfil: "cateryn-farfan"
+          - nombre: "Aleida Pérez"
+            perfil: "aleida-perez"
+          - nombre: "Aimed Pimentel"
+            perfil: "aimed-pimentel"
+          - nombre: "Alejandra Meza"
+            perfil: "alejandra-meza"
+        etiqueta: "Comunidades"
+        tipo: "sesion"
+      - horario: "17:08 – 17:18"
         titulo: "Volver a ser principiante: aprender, crear y reinventarse con IA"
         sesion: "volver-a-ser-principiante-aprender-crear-y-reinventarse-con-ia"
         evento: "octubre-2026"
@@ -217,7 +220,7 @@ salas:
           En esta charla compartiré experiencias reales sobre cómo he utilizado la IA para aprender nuevas habilidades, diseñar recursos, analizar información y experimentar con nuevas formas de trabajo. Pero volver a ser principiante también me enseñó que poder delegar más no significa dejar de pensar: nuestro conocimiento y experiencia siguen siendo fundamentales para preguntar, evaluar, corregir y decidir.
 
           Más que una charla sobre herramientas, es una invitación a otras mujeres en STEM a atreverse a aprender nuevamente, explorar fuera de su especialidad y ampliar lo que pueden crear sin renunciar al criterio que ya han construido.
-      - horario: "17:05 – 17:10"
+      - horario: "17:18 – 17:28"
         titulo: "I Didn't Leave Tech. I Changed Where I Build."
         sesion: "i-didnt-leave-tech-i-changed-where-i-build"
         evento: "octubre-2026"
@@ -232,7 +235,7 @@ salas:
           Al principio podía parecer que estaba dejando atrás la industria tecnológica, pero con el tiempo entendí algo distinto: no dejé de construir, simplemente cambió lo que construyo.
 
           Hoy, en lugar de desarrollar únicamente software, ayudo a desarrollar a las personas que crearán la tecnología del futuro.
-      - horario: "17:10 – 17:15"
+      - horario: "17:28 – 17:38"
         titulo: "¿Sé hacer visible mi valor para poder llegar hasta allá?"
         sesion: "se-hacer-visible-mi-valor-para-poder-llegar-hasta-alla"
         evento: "octubre-2026"
@@ -245,7 +248,7 @@ salas:
           El buen trabajo no habla por sí solo: alguien tiene que saber venderlo. La transformación que buscamos es que las participantes dejen de ver las ventas como una profesión ajena y comiencen a reconocerlas como una habilidad esencial para impulsar su carrera.
 
           La clave de los cinco minutos será provocar una reflexión, cambiar una creencia y dejar una acción concreta que puedan aplicar al día siguiente.
-      - horario: "17:15 – 17:30"
+      - horario: "17:38 – 17:48"
         titulo: "Cierre de evento"
         tipo: "logistica"
 
@@ -300,7 +303,7 @@ salas:
           La inteligencia artificial está transformando rápidamente nuestra manera de vivir y trabajar. Pero mientras aceleramos nuestro desarrollo tecnológico, surge una pregunta fundamental: ¿estamos desarrollando nuestras capacidades humanas al mismo ritmo?
 
           En esta charla exploraremos cómo fortalecer nuestra adaptabilidad y resiliencia, llevar a la par el desarrollo tecnológico y humano, y utilizar la tecnología de una manera más consciente, saludable y humana.
-      - horario: "15:50 – 16:50"
+      - horario: "16:18 – 17:18"
         titulo: "Plan Odisea: una herramienta para descubrir nuevas perspectivas para lograr tus metas y encontrar aliadas en el camino"
         sesion: "plan-odisea-una-herramienta-para-descubrir-nuevas-perspectivas-para-lograr-tus-metas-y-encontrar-aliadas-en-el-camino"
         evento: "octubre-2026"

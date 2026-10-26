@@ -86,6 +86,10 @@
         {{- range $qc := ($s.Get "qcells") }}{{ if eq $qc.row $row }}
         <div class="agx-cell" style="grid-row:{{ $qc.row }}{{ if gt $qc.span 1 }} / span {{ $qc.span }}{{ end }};grid-column:3">
             <span class="agx-m">{{ $quet.nombre }} · {{ $qc.ses.horario }}</span>
+            {{- /* La sala de workshops no comparte las franjas de la plenaria: sus
+                 sesiones empiezan y acaban a sus propias horas, y la columna de
+                 la izquierda no las dice. Por eso cada celda lleva la suya. */ -}}
+            <span class="agx-hora">{{ $qc.ses.horario }}</span>
             {{ partial "dd4w2026/agenda-cell.html" $qc.ses }}
         </div>
         {{- end }}{{ end }}

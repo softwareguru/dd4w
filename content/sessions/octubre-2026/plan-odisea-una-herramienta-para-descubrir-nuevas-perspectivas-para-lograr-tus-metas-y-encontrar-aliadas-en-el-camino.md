@@ -4,8 +4,8 @@ slug: plan-odisea-una-herramienta-para-descubrir-nuevas-perspectivas-para-lograr
 speakers:
  - Ana Pinilla
  - Andrea Herrera
-time_start: 2026-10-31T15:50:00-06:00
-time_end: 2026-10-31T16:50:00-06:00
+time_start: 2026-10-31T16:18:00-06:00
+time_end: 2026-10-31T17:18:00-06:00
 ---
 
 El «Plan Odisea» es una herramienta pedagógica que ayuda a visualizar y definir metas personales y profesionales, así como el mapeo de los diferentes caminos posibles para alcanzarlas. Esto a través de la evaluación de 4 criterios: recursos disponibles, grado de interés, nivel de confianza y coherencia con su propósito de vida.
