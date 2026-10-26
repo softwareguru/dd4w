@@ -12,8 +12,7 @@
                     rel="noopener noreferrer">Regístrate gratis</a><a class="btn btn-on-dark"
                     href="/sede-monterrey/">Conoce la sede Monterrey</a></div>
             <div class="proof"><span class="avs"><i></i><i></i><i></i></span><span>Entrada <b>gratuita</b> gracias a
-                    nuestros patrocinadores. Si puedes, aporta una donación al registrarte y ayuda a hacer posible el
-                    evento · Cupo limitado</span></div>
+                    nuestros patrocinadores. Solo necesitas registrarte</span></div>
         </div>
         <div class="hero-visual"><img src="/preview/imagenes-nuevas/38531701526_428eb52ec6_k.jpg"
                 alt="Comunidad de Dev Day 4 Women: más de 100 mujeres reunidas en una edición pasada"
@@ -78,8 +77,14 @@
             {{ partial "dd4w2026/metric.html" (dict "n" "+300" "l" "Mujeres en la comunidad") }}
             {{ partial "dd4w2026/metric.html" (dict "n" "+30" "l" "Ponentes") }}
         </div>
-        <div class="meta-band"><span class="tag">Monterrey 2026</span><b>200 asistentes presenciales</b><span>31 de
-                octubre · Tecnológico de Monterrey · Entrada gratuita</span></div>
+        {{- /* Lo que la gente necesita saber de la próxima sede va en primer plano:
+             cuándo, dónde y que no cuesta. El número de asistentes no ayuda a
+             decidir, y el enlace a la sede sí. */ -}}
+        <div class="meta-band">
+            <span class="tag">Monterrey 2026</span>
+            <b>31 de octubre · Tecnológico de Monterrey · Entrada gratuita</b>
+            <a class="btn btn-light btn-sm meta-band-cta" href="/sede-monterrey/">Ver la sede Monterrey</a>
+        </div>
     </div>
 </section>
 
@@ -221,10 +226,9 @@
 <section class="final">
     <div class="wrap">
         <h2>No te quedes fuera. Te esperamos en Monterrey.</h2>
-        <p style="color:var(--plum);font-weight:600;margin-top:14px">31 de octubre de 2026 · Gratis · Cupo limitado</p>
+        <p style="color:var(--plum);font-weight:600;margin-top:14px">31 de octubre de 2026 · Entrada gratuita</p>
         <p style="color:var(--carbon);margin-top:10px;max-width:56ch;margin-left:auto;margin-right:auto">Asistir no
-            cuesta nada. Al registrarte puedes sumar una donación voluntaria: con eso sostenemos sede, alimentos y
-            accesibilidad para que la entrada siga siendo gratuita para todas.</p>
+            cuesta nada: el evento se sostiene con el patrocinio de empresas y aliados. Solo necesitas registrarte.</p>
         <div class="btns"><a class="btn btn-ink" href="https://luma.com/tg59b5q8" target="_blank"
                 rel="noopener noreferrer">Regístrate gratis</a></div>
         <p style="margin-top:18px"><a class="hero-link" style="color:var(--purple-deep)"

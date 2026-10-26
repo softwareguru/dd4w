@@ -31,6 +31,10 @@ restaurantes:
   - {name: "Catrinas Chilaquiles TEC", query: "Catrinas Chilaquiles, Distrito Tec, Monterrey", ubicacion: "Distrito Tec", tipo: "Mexicana (desayunos y brunch)", precio: "$150–$250"}
 
 eventos:
+  # El Festival Internacional Santa Lucía cae justo en esas fechas: su agenda
+  # oficial (festivalsantalucia.gob.mx) programa del 23 de octubre al 2 de
+  # noviembre de 2026, y sus funciones son de entrada libre.
+  - {evento: "Festival Internacional Santa Lucía", fecha: "30 oct – 1 nov", lugar: "Macroplaza, Paseo Santa Lucía y Parque Fundidora", precio: "Entrada libre"}
   - {evento: "Exposiciones del Museo de Arte Contemporáneo (MARCO)", fecha: "30 oct – 1 nov", lugar: "MARCO", precio: "$90–$100"}
   - {evento: "Museo de Historia Mexicana y Museo del Noreste (MUNE)", fecha: "30 oct – 1 nov", lugar: "Paseo Santa Lucía", precio: "$40–$90"}
   - {evento: "Paseo Santa Lucía (recorrido nocturno)", fecha: "30 oct – 1 nov", lugar: "Parque Fundidora – Macroplaza", precio: "Gratuito (a pie) o $120"}

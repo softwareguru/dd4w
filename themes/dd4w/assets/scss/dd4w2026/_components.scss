@@ -15,6 +15,9 @@
 .meta-band{margin-top:22px;background:var(--purple-deep);color:var(--arena);border-radius:var(--r);padding:24px 28px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 .meta-band .tag{background:var(--lime);color:var(--ink-cta);font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px;border:1px solid rgba(45,41,48,.35)}
 .meta-band b{font-family:var(--display);font-size:22px}.meta-band span{color:rgba(243,231,215,.85)}
+/* El enlace a la sede se va a la derecha; en móvil cae debajo a lo ancho. */
+.meta-band-cta{margin-left:auto}
+@media (max-width:640px){.meta-band-cta{margin-left:0;width:100%;justify-content:center}}
 
 .split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
 .media{border-radius:24px;background:var(--grad);aspect-ratio:5/4;position:relative;overflow:hidden;border:1px solid rgba(45,41,48,.08)}
@@ -165,6 +168,8 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .ag-body{display:flex;flex-direction:column;gap:3px}
 .ag-title{color:var(--ink);font-weight:600;line-height:1.4}
 .ag-speaker{color:var(--ink-soft);font-size:14px}
+/* Quien modera un panel: misma voz que las panelistas, pero en su renglón. */
+.ag-mod{display:block;margin-top:2px;color:var(--ink-soft);font-size:13.5px}
 .ag-badge{display:inline-block;vertical-align:middle;margin-left:8px;background:var(--paper-2);color:var(--purple-deep);font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:999px}
 .ag-row.is-logistica{background:var(--paper-2)}
 .ag-row.is-logistica .ag-title{color:var(--ink-soft);font-weight:600}
@@ -178,6 +183,7 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .ag-row.is-feature .ag-time{color:var(--lime)}
 .ag-row.is-feature .ag-title{color:var(--arena);font-size:17px}
 .ag-row.is-feature .ag-speaker{color:rgba(243,231,215,.85)}
+.ag-row.is-feature .ag-mod{color:rgba(243,231,215,.75)}
 .ag-row.is-feature .ag-badge{background:var(--lime);color:var(--purple-deep)}
 
 /* Fila resaltada secundaria de la agenda (comunidades) — menor jerarquía que el panel */
@@ -287,6 +293,7 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
 .agx-cell.is-feature{background:var(--purple-deep);border:0}
 .agx-cell.is-feature .ag-title{color:var(--arena);font-size:15.5px}
 .agx-cell.is-feature .ag-speaker{color:rgba(243,231,215,.85)}
+.agx-cell.is-feature .ag-mod{color:rgba(243,231,215,.75)}
 .agx-cell.is-feature .ag-badge{background:var(--lime);color:var(--purple-deep)}
 .agx-cell.is-highlight{background:rgba(242,195,75,.35);border:0;border-left:4px solid var(--purple)}
 .agx-cell.is-highlight .ag-badge{background:var(--purple-deep);color:var(--arena)}
