@@ -290,6 +290,8 @@ details.faq p{padding:0 0 20px;color:var(--ink-soft)}
   flex-wrap:wrap;gap:4px 10px}
 /* Quien abre el evento, cuando la fila logística lleva ponentes. */
 .agx-log-spk{font-weight:500}
+/* Lo que ocurre durante una franja logística, en segunda línea. */
+.agx-log-nota{display:block;width:100%;margin-top:2px;font-weight:500;font-size:13px;opacity:.85}
 .agx-cell.is-feature{background:var(--purple-deep);border:0}
 .agx-cell.is-feature .ag-title{color:var(--arena);font-size:15.5px}
 .agx-cell.is-feature .ag-speaker{color:rgba(243,231,215,.85)}

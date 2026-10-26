@@ -3,7 +3,7 @@ title: "Inteligencia emocional en la era de la inteligencia artificial"
 slug: inteligencia-emocional-en-la-era-de-la-inteligencia-artificial
 speakers:
  - Andrea Monsanto
-time_start: 2026-10-31T13:30:00-06:00
+time_start: 2026-10-31T13:45:00-06:00
 time_end: 2026-10-31T14:30:00-06:00
 ---
 

@@ -66,6 +66,9 @@
              ponentes: la apertura la dan personas, y conviene que se sepa
              quiénes son. */ -}}
         <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:2/4">{{ $slot.titulo }}
+            {{- /* Lo que ocurre durante la franja: p. ej. las grabaciones de las
+                 comunidades que se transmiten mientras se come. */ -}}
+            {{- with $slot.nota }}<span class="agx-log-nota">{{ . }}</span>{{ end }}
             {{- with $slot.ponentes }}
             <span class="ag-speaker agx-log-spk">
                 {{- range $i, $sp := . }}
