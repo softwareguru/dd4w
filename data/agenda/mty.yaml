@@ -22,6 +22,10 @@ salas:
             perfil: "mara-ruvalcaba"
           - nombre: "Sabrina Ortiz Martínez"
             perfil: "sabrina-ortiz"
+          - nombre: "Elena Mitilene Rodríguez"
+            perfil: "elena-mitilene-rodriguez"
+          - nombre: "Tere Lucio"
+            perfil: "tere-lucio"
       - horario: "09:15 – 09:40"
         titulo: "¿Quién gobierna la IA? El rol de GRC en el futuro de las organizaciones"
         sesion: "quien-gobierna-la-ia"
@@ -90,7 +94,17 @@ salas:
         tipo: "sesion"
         destacado: true
         ambas: true
-      - horario: "12:30 – 12:45"
+      - horario: "12:30 – 12:35"
+        titulo: "Hasta aquí llegas: el techo del sector tech mexicano"
+        sesion: "hasta-aqui-llegas-el-techo-del-sector-tech-mexicano"
+        evento: "octubre-2026"
+        ponentes:
+          - nombre: "Laura Figueroa"
+            perfil: "laura-figueroa"
+        tipo: "sesion"
+        abstracto: |-
+          ¿Por qué hay tan pocas mujeres en puestos de liderazgo en tecnología? La respuesta habitual apunta a la entrada al sector. Los datos preliminares de la Encuesta de Salarios 2026 dicen otra cosa: las mujeres son mayoría en el nivel medio (62%) y ahí se les paga igual o mejor. El problema aparece al subir: 37% menos en senior y liderazgo, y apenas una de cada cuatro llega. La mitad de esa brecha no la explica la experiencia ni el rol. En esta charla presentamos los hallazgos y qué puede hacer la industria.
+      - horario: "12:35 – 12:45"
         titulo: "Coffee break"
         tipo: "logistica"
       - horario: "12:45 – 13:10"

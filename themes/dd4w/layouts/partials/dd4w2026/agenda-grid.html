@@ -4,7 +4,7 @@
      segunda sala se colocan por hora de inicio y abarcan tantas filas como franjas
      de la primera cubran. Una sesión con `ambas: true` ocupa las dos columnas
      (p. ej. un panel que se da en las dos salas). Las franjas sin sesión paralela muestran un estado vacío
-     (tramos contiguos fusionados). Las filas logísticas cruzan ambas columnas. */ -}}
+     (tramos contiguos fusionados), sin anunciar retransmisión: no la hay. Las filas logísticas cruzan ambas columnas. */ -}}
 {{- $salas := .salas -}}
 {{- $plen := index $salas 0 -}}
 {{- $quet := index $salas 1 -}}
@@ -97,8 +97,11 @@
         </div>
         {{- end }}{{ end }}
         {{- range $e := ($s.Get "empties") }}{{ if eq $e.row $row }}
+        {{- /* Hueco de la sala de workshops: en esa franja no hay nada
+             programado ahí. Antes decía que se retransmitía la plenaria, y no
+             es así. Se deja el estado vacío, sin anunciar algo que no pasa. */ -}}
         <div class="agx-empty" style="grid-row:{{ $e.row }}{{ if gt $e.span 1 }} / span {{ $e.span }}{{ end }};grid-column:3">
-            Retransmisión Sala Plenaria
+            Sin sesión en esta sala
         </div>
         {{- end }}{{ end }}
         {{- end }}

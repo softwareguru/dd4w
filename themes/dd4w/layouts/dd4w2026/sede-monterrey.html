@@ -145,7 +145,20 @@
             (dict "key" "taller" "label" "Talleres" "meta" "")
             (dict "key" "lightning" "label" "Lightning talks" "meta" "5 min")
             (dict "key" "comunidad" "label" "Comunidades" "meta" "Presentación") }}
-        {{ with where $all "cat" $c.key }}
+        {{- /* Al bloque del panel se le suma quien lo modera, que en los datos
+             está en otra categoría porque además da su propia charla. Se marca
+             con `nota` para que su tarjeta diga qué hace aquí. */ -}}
+        {{- $lista := where $all "cat" $c.key -}}
+        {{- if eq $c.key "panel" -}}
+          {{- range site.Data.agenda.mty.salas }}{{ range .sesiones }}
+            {{- with .moderadora }}
+              {{- with (index (where $all "name" .nombre) 0) }}
+                {{- $lista = $lista | append (merge . (dict "nota" "Modera el panel")) -}}
+              {{- end }}
+            {{- end }}
+          {{- end }}{{ end -}}
+        {{- end -}}
+        {{ with $lista }}
         <div class="spk-cat{{ if $c.feat }} spk-cat--feature{{ end }}">
             <div class="spk-cat-head">
                 <h3>{{ $c.label }}</h3>{{ with $c.meta }}<span class="spk-cat-meta">{{ . }}</span>{{ end }}
