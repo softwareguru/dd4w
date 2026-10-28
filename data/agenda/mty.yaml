@@ -161,6 +161,9 @@ salas:
         tipo: "logistica"
       - horario: "14:50 – 14:53"
         titulo: "Presentación CSOFT MTY"
+        ponentes:
+          - nombre: "Ángeles Vela"
+            perfil: "angeles-vela"
         tipo: "sesion"
       - horario: "14:53 – 15:53"
         titulo: "Círculo de mentoría: Despierta tu poder interior"
