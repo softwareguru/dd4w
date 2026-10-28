@@ -11,6 +11,7 @@ github: ""
 events: 
  - 2023-h1
  - octubre-2025
+ - octubre-2026
 ---
 
 Ingeniera Industrial y de Sistemas por la Universidad Iberoamericana y Maestra en Administración por el Tecnológico de Monterrey. Actualmente es directora general del Clúster TIC de Nuevo León (Csoftmty), donde impulsa la innovación, el emprendimiento y el desarrollo de talento en Tecnologías de la Información.

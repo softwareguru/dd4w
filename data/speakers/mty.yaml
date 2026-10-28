@@ -145,7 +145,12 @@ ponentes:
     cat: "panel"
     photo: "elvia-rosas-herrera.jpg"
     linkedin: "https://www.linkedin.com/in/elviarosasherrera/"
-    bio: ""
+    bio: |-
+      Directora del programa de Ingeniería en Tecnologías Computacionales (ITC) y profesora del Departamento de Computación en el Tecnológico de Monterrey, Campus Monterrey. Se especializa en el desarrollo de aplicaciones móviles y web con inteligencia artificial aplicada centrada en el usuario, y en Challenge Based Learning (CBL).
+
+      Ingeniera en Sistemas Computacionales y Maestra en Administración de Tecnologías de Información por el Tec de Monterrey, suma 14 años de experiencia en desarrollo de sistemas en las industrias de Internet, manufactura y consultoría, en proyectos locales y globales.
+
+      Reconocida por Apple entre los 50 líderes a nivel mundial de su comunidad de desarrolladores, es Apple Distinguished Educator (Clase 2023), Premio Mujer Tec 2025 en Transformación Tecnológica y Profesor Inspirador 2023. Su trabajo ha sido destacado en el sitio de Apple y en Wired.
 
   - name: "Fabiola Mero Ramírez"
     role: "Directora de Calidad y Competitividad · Consultora de Negocios para la Transformación Organizacional"
@@ -184,7 +189,12 @@ ponentes:
     cat: "panel"
     photo: "hilda-molina.jpg"
     linkedin: "https://www.linkedin.com/in/hilda-molina-25b55322/"
-    bio: ""
+    bio: |-
+      Directora Global de Learning & Capability Development en Softtek y miembro del comité de ética de Softtek para Sudamérica.
+
+      Durante los últimos 18 años ha trabajado en transformar la incipiente área de entrenamiento en lo que hoy representa el área global de Learning & Capability Development para Softtek, que empuja el desarrollo profesional —upskilling y reskilling— de sus 15 mil colaboradores, generando las capacidades de talento que le exige la industria de tecnologías de información.
+
+      Es egresada de la U.A.N.L. en Ciencias Computacionales, instructora certificada The Human Element y Direct Leadership.
 
   - name: "Jennifer Jassely Martínez Eguía"
     role: "Chief Growth Officer"
@@ -389,6 +399,17 @@ ponentes:
       Más de 6 años de experiencia en el desarrollo de videojuegos y una trayectoria en gestión de proyectos, además de 3 años de voluntariado para mejorar la industria de los videojuegos en América Latina para grupos marginados.
 
       Actualmente en Palabras Clave Studios como enlace académico y cultural. Más de 3 años en Women in Gamex como líder de coordinación y 1 año en IGDA México Norte.
+
+  - name: "Ángeles Vela"
+    role: "Directora general"
+    org: "Csoftmty · Clúster TIC de Nuevo León"
+    cat: "comunidad"
+    photo: "angeles-vela.png"
+    linkedin: "https://www.linkedin.com/in/angeles-vela-del-r%C3%ADo-66ab1339/"
+    bio: |-
+      Ingeniera Industrial y de Sistemas por la Universidad Iberoamericana y Maestra en Administración por el Tecnológico de Monterrey. Actualmente es directora general del Clúster TIC de Nuevo León (Csoftmty), donde impulsa la innovación, el emprendimiento y el desarrollo de talento en Tecnologías de la Información.
+
+      Ha liderado proyectos de alcance nacional e internacional, siendo una firme promotora de la participación femenina en la industria y de programas STEM para niños y jóvenes.
 
   - name: "Cateryn Farfán"
     role: "Fundadora"
