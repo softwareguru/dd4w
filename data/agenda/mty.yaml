@@ -104,10 +104,11 @@ salas:
         tipo: "sesion"
         abstracto: |-
           ¿Por qué hay tan pocas mujeres en puestos de liderazgo en tecnología? La respuesta habitual apunta a la entrada al sector. Los datos preliminares de la Encuesta de Salarios 2026 dicen otra cosa: las mujeres son mayoría en el nivel medio (62%) y ahí se les paga igual o mejor. El problema aparece al subir: 37% menos en senior y liderazgo, y apenas una de cada cuatro llega. La mitad de esa brecha no la explica la experiencia ni el rol. En esta charla presentamos los hallazgos y qué puede hacer la industria.
-      - horario: "12:35 – 12:45"
+      - horario: "12:35 – 12:50"
         titulo: "Coffee break"
+        nota: "Transmisión de presentación de comunidades"
         tipo: "logistica"
-      - horario: "12:45 – 13:10"
+      - horario: "12:50 – 13:15"
         titulo: "Más allá del bug: por qué la IA no puede reemplazar el criterio humano en sistemas críticos"
         sesion: "mas-alla-del-bug"
         evento: "octubre-2026"
@@ -121,7 +122,7 @@ salas:
           A través de una perspectiva práctica y reflexiva, se presentan tres aprendizajes clave. **Intención vs. automatización:** mientras la IA acelera la ejecución de pruebas, el verdadero valor humano radica en cuestionar requerimientos, detectar supuestos no documentados y entender el contexto real del negocio. **Cultura de feedback:** construir confianza con desarrolladores y clientes reconociendo primero lo que funciona bien, para pasar de ser un «QA bloqueador» a un socio estratégico. **Mentalidad QA:** aplicar el control de respuesta y la serenidad bajo presión ante cambios de último minuto y fallos en producción, donde no hay margen de error.
 
           Una charla sobre cómo combinar criterio analítico, empatía y resiliencia para liderar la calidad cuando el software simplemente no puede fallar.
-      - horario: "13:10 – 13:35"
+      - horario: "13:15 – 13:40"
         titulo: "IA con criterio: el factor humano detrás de cada decisión"
         sesion: "deberíamos-usar-ia-aqui"
         evento: "octubre-2026"
@@ -133,7 +134,7 @@ salas:
           En estos tiempos en los que parece que todos quieren usar IA, el reto no es encontrar dónde implementarla, sino identificar dónde genera valor. En esta plática exploraremos cómo evaluar una iniciativa de IA considerando no solo sus beneficios y valor, sino también sus costos, riesgos, alternativas y el costo de no implementarla.
 
           La idea es ayudar a la audiencia a desarrollar el criterio para tomar mejores decisiones y aprovechar la IA donde realmente tiene sentido.
-      - horario: "13:35 – 14:00"
+      - horario: "13:40 – 14:05"
         titulo: "Mirada a 3 chatbots educativos como impulsores del razonamiento humano"
         sesion: "mirada-a-3-chatbots-educativos-como-impulsores-del-razonamiento-humano"
         evento: "octubre-2026"
@@ -143,7 +144,7 @@ salas:
         tipo: "sesion"
         abstracto: |-
           Se presenta un breve recorrido sobre 3 productos científicos arbitrados asociados a chatbots educativos, con la finalidad de apreciar sus ventajas y áreas de oportunidad como herramienta para la enseñanza de la física. El enfoque de la charla es de divulgación científica, con apertura a preguntas del público.
-      - horario: "14:00 – 14:20"
+      - horario: "14:05 – 14:25"
         titulo: "Hackear tu mente. Tu propósito como el código más poderoso."
         sesion: "hackear-tu-mente-tu-proposito-como-el-codigo-mas-poderoso"
         evento: "octubre-2026"
@@ -155,17 +156,17 @@ salas:
           En un entorno tecnológico enfocado en la lógica y los algoritmos, esta conferencia propone que el software más crítico que debemos programar es nuestra propia mente. Un espacio diseñado para cuestionar patrones ajenos, superar el síndrome de la impostora y reescribir nuestra narrativa desde la autenticidad.
 
           A través de herramientas prácticas de mentalidad y posicionamiento, descubriremos cómo el propósito no solo inspira, sino que se convierte en la ventaja estratégica más potente para liderar, hacer oír nuestra voz y reclamar nuestro espacio en la industria tech.
-      - horario: "14:20 – 14:50"
+      - horario: "14:25 – 14:55"
         titulo: "Lunch & networking"
         nota: "Transmisión de presentación de comunidades"
         tipo: "logistica"
-      - horario: "14:50 – 14:53"
+      - horario: "14:55 – 15:00"
         titulo: "Presentación CSOFT MTY"
         ponentes:
           - nombre: "Ángeles Vela"
             perfil: "angeles-vela"
         tipo: "sesion"
-      - horario: "14:53 – 15:53"
+      - horario: "15:00 – 16:00"
         titulo: "Círculo de mentoría: Despierta tu poder interior"
         sesion: "circulo-de-mentoria-despierta-tu-poder-interior"
         evento: "octubre-2026"
@@ -182,7 +183,7 @@ salas:
           Crear un espacio dinámico de conexión, reflexión y apoyo entre participantes, donde cada mujer pueda poner sobre la mesa un reto, necesidad o siguiente paso, recibir nuevas perspectivas de su círculo y transformar los aprendizajes del Dev Day 4 Women en 3 acciones concretas para llevar a su realidad.
 
           El taller busca que las participantes no solo se lleven inspiración del evento, sino también claridad, red de apoyo y movimiento: saber qué quieren activar, con quién pueden apoyarse y cuál será su primer paso.
-      - horario: "15:53 – 16:18"
+      - horario: "16:00 – 16:25"
         titulo: "Cuando diseño y desarrollo hablan el mismo idioma. IA para escalar un Design System multimarca"
         sesion: "cuando-diseno-y-desarrollo-hablan-el-mismo-idioma"
         evento: "octubre-2026"
@@ -192,7 +193,7 @@ salas:
         tipo: "sesion"
         abstracto: |-
           Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
-      - horario: "16:18 – 16:43"
+      - horario: "16:25 – 16:50"
         titulo: "La IA no me dio respuestas. Me dio criterio."
         sesion: "la-ia-no-me-dio-respuestas"
         evento: "octubre-2026"
@@ -208,22 +209,7 @@ salas:
           La IA se convirtió en un espacio para cuestionar ideas, estructurar mejor problemas, comunicar con mayor claridad y construir estrategias con más confianza. También me ayudó a dejar de depender de que alguien quisiera enseñarme, reduciendo la distancia entre mi curiosidad y el conocimiento.
 
           Ese cambio transformó la manera en que aporto valor dentro de mi organización. Hoy participo en conversaciones estratégicas con líderes de distintas áreas y detecto oportunidades donde antes veía únicamente tareas.
-      - horario: "16:43 – 17:08"
-        titulo: "Presentación de comunidades"
-        sesion: "presentacion-de-comunidades"
-        evento: "octubre-2026"
-        ponentes:
-          - nombre: "Cateryn Farfán"
-            perfil: "cateryn-farfan"
-          - nombre: "Aleida Pérez"
-            perfil: "aleida-perez"
-          - nombre: "Aimed Pimentel"
-            perfil: "aimed-pimentel"
-          - nombre: "Alejandra Meza"
-            perfil: "alejandra-meza"
-        etiqueta: "Comunidades"
-        tipo: "sesion"
-      - horario: "17:08 – 17:13"
+      - horario: "16:50 – 16:55"
         titulo: "Volver a ser principiante: aprender, crear y reinventarse con IA"
         sesion: "volver-a-ser-principiante-aprender-crear-y-reinventarse-con-ia"
         evento: "octubre-2026"
@@ -238,7 +224,7 @@ salas:
           En esta charla compartiré experiencias reales sobre cómo he utilizado la IA para aprender nuevas habilidades, diseñar recursos, analizar información y experimentar con nuevas formas de trabajo. Pero volver a ser principiante también me enseñó que poder delegar más no significa dejar de pensar: nuestro conocimiento y experiencia siguen siendo fundamentales para preguntar, evaluar, corregir y decidir.
 
           Más que una charla sobre herramientas, es una invitación a otras mujeres en STEM a atreverse a aprender nuevamente, explorar fuera de su especialidad y ampliar lo que pueden crear sin renunciar al criterio que ya han construido.
-      - horario: "17:13 – 17:18"
+      - horario: "16:55 – 17:00"
         titulo: "I Didn't Leave Tech. I Changed Where I Build."
         sesion: "i-didnt-leave-tech-i-changed-where-i-build"
         evento: "octubre-2026"
@@ -253,7 +239,7 @@ salas:
           Al principio podía parecer que estaba dejando atrás la industria tecnológica, pero con el tiempo entendí algo distinto: no dejé de construir, simplemente cambió lo que construyo.
 
           Hoy, en lugar de desarrollar únicamente software, ayudo a desarrollar a las personas que crearán la tecnología del futuro.
-      - horario: "17:18 – 17:23"
+      - horario: "17:00 – 17:05"
         titulo: "¿Sé hacer visible mi valor para poder llegar hasta allá?"
         sesion: "se-hacer-visible-mi-valor-para-poder-llegar-hasta-alla"
         evento: "octubre-2026"
@@ -266,7 +252,7 @@ salas:
           El buen trabajo no habla por sí solo: alguien tiene que saber venderlo. La transformación que buscamos es que las participantes dejen de ver las ventas como una profesión ajena y comiencen a reconocerlas como una habilidad esencial para impulsar su carrera.
 
           La clave de los cinco minutos será provocar una reflexión, cambiar una creencia y dejar una acción concreta que puedan aplicar al día siguiente.
-      - horario: "17:23 – 17:33"
+      - horario: "17:05 – 17:15"
         titulo: "Cierre de evento"
         tipo: "logistica"
 
