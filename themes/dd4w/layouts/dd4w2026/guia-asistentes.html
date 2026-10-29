@@ -19,6 +19,11 @@
 <section><div class="wrap">
 <div class="sec-head" style="max-width:none"><span class="kicker">Cómo llegar</span><h2>Llega a la sede y muévete</h2>
 <p>El evento se realiza en <b>{{ $g.venueName }}</b>: <a class="maplink" href="https://www.google.com/maps/search/?api=1&query={{ $g.venueQuery | urlquery }}" target="_blank" rel="noopener noreferrer">{{ $g.venueAddress }} {{ $pin }}</a></p></div>
+
+
+<img src="/images/mapa-2026.jpeg" style=" max-width: 100%; height: auto; margin-bottom: 15px;">
+
+
 <div class="grid cols-3">
 <article class="card"><div class="feat-ic bg-blue" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 16l1.5-5h11L19 16M5 16h14M5 16v3M19 16v3M7 12V8h10v4"/><circle cx="7.5" cy="16.5" r="1"/><circle cx="16.5" cy="16.5" r="1"/></svg></div><h3>En auto</h3><p>Disponible en <a href="https://www.google.com/maps/search/?api=1&query={{ $g.venueQuery | urlquery }}" target="_blank" rel="noopener noreferrer">Google Maps</a> y <a href="https://waze.com/ul?q={{ $g.wazeQuery | urlquery }}" target="_blank" rel="noopener noreferrer">Waze</a>.</p></article>
 <article class="card"><div class="feat-ic bg-lime" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 16V8h3.5a2.5 2.5 0 0 1 0 5H9"/></svg></div><h3>Estacionamiento</h3><p>{{ $g.parkingText | safeHTML }}</p></article>
