@@ -110,6 +110,10 @@ comunidades:
       image: images/logos/women-in-gamex.png
       url: https://www.womeningamex.com/
 
+    - name: Amitiwit
+      image: images/logos/logo-amitiwit.jpg
+      url: https://amiti.org.mx/wit/
+
 organiza:
   label: Organizado por
   logos:
