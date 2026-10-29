@@ -5,8 +5,8 @@ speakers:
  - Camelia Andra Anuta
  - Grecia Castaldi
  - Alejandra Meléndez Reyes
-time_start: 2026-10-31T14:53:00-06:00
-time_end: 2026-10-31T15:53:00-06:00
+time_start: 2026-10-31T15:00:00-06:00
+time_end: 2026-10-31T16:00:00-06:00
 ---
 
 Crear un espacio dinámico de conexión, reflexión y apoyo entre participantes, donde cada mujer pueda poner sobre la mesa un reto, necesidad o siguiente paso, recibir nuevas perspectivas de su círculo y transformar los aprendizajes del Dev Day 4 Women en 3 acciones concretas para llevar a su realidad.

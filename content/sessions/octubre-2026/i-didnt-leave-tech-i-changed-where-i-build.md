@@ -3,8 +3,8 @@ title: "I Didn't Leave Tech. I Changed Where I Build."
 slug: i-didnt-leave-tech-i-changed-where-i-build
 speakers:
  - Cristina González Córdova
-time_start: 2026-10-31T17:13:00-06:00
-time_end: 2026-10-31T17:18:00-06:00
+time_start: 2026-10-31T16:55:00-06:00
+time_end: 2026-10-31T17:00:00-06:00
 ---
 
 Durante más de 15 años trabajé en la industria de desarrollo de software, construyendo sistemas, aplicaciones y soluciones tecnológicas. Después, mi carrera tomó un camino diferente: llegué a la docencia.
