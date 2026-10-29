@@ -223,7 +223,7 @@ salas:
             perfil: "alejandra-meza"
         etiqueta: "Comunidades"
         tipo: "sesion"
-      - horario: "17:08 – 17:18"
+      - horario: "17:08 – 17:13"
         titulo: "Volver a ser principiante: aprender, crear y reinventarse con IA"
         sesion: "volver-a-ser-principiante-aprender-crear-y-reinventarse-con-ia"
         evento: "octubre-2026"
@@ -238,7 +238,7 @@ salas:
           En esta charla compartiré experiencias reales sobre cómo he utilizado la IA para aprender nuevas habilidades, diseñar recursos, analizar información y experimentar con nuevas formas de trabajo. Pero volver a ser principiante también me enseñó que poder delegar más no significa dejar de pensar: nuestro conocimiento y experiencia siguen siendo fundamentales para preguntar, evaluar, corregir y decidir.
 
           Más que una charla sobre herramientas, es una invitación a otras mujeres en STEM a atreverse a aprender nuevamente, explorar fuera de su especialidad y ampliar lo que pueden crear sin renunciar al criterio que ya han construido.
-      - horario: "17:18 – 17:28"
+      - horario: "17:13 – 17:18"
         titulo: "I Didn't Leave Tech. I Changed Where I Build."
         sesion: "i-didnt-leave-tech-i-changed-where-i-build"
         evento: "octubre-2026"
@@ -253,7 +253,7 @@ salas:
           Al principio podía parecer que estaba dejando atrás la industria tecnológica, pero con el tiempo entendí algo distinto: no dejé de construir, simplemente cambió lo que construyo.
 
           Hoy, en lugar de desarrollar únicamente software, ayudo a desarrollar a las personas que crearán la tecnología del futuro.
-      - horario: "17:28 – 17:38"
+      - horario: "17:18 – 17:23"
         titulo: "¿Sé hacer visible mi valor para poder llegar hasta allá?"
         sesion: "se-hacer-visible-mi-valor-para-poder-llegar-hasta-alla"
         evento: "octubre-2026"
@@ -266,13 +266,13 @@ salas:
           El buen trabajo no habla por sí solo: alguien tiene que saber venderlo. La transformación que buscamos es que las participantes dejen de ver las ventas como una profesión ajena y comiencen a reconocerlas como una habilidad esencial para impulsar su carrera.
 
           La clave de los cinco minutos será provocar una reflexión, cambiar una creencia y dejar una acción concreta que puedan aplicar al día siguiente.
-      - horario: "17:38 – 17:48"
+      - horario: "17:23 – 17:33"
         titulo: "Cierre de evento"
         tipo: "logistica"
 
   - nombre: "Aulas 6-306 | Sala de workshops"
     sesiones:
-      - horario: "09:40 – 10:30"
+      - horario: "09:30 – 10:30"
         titulo: "Crea un producto con IA usando Antigravity: de la idea al primer prototipo"
         sesion: "crea-un-producto-con-ia-usando-antigravity-de-la-idea-al-primer-prototipo"
         evento: "octubre-2026"
