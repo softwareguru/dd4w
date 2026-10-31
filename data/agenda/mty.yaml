@@ -256,7 +256,7 @@ salas:
         titulo: "Cierre de evento"
         tipo: "logistica"
 
-  - nombre: "Aulas 6-306 | Sala de workshops"
+  - nombre: "Aulas 6-406 | Sala de workshops"
     sesiones:
       - horario: "09:30 – 10:30"
         titulo: "Crea un producto con IA usando Antigravity: de la idea al primer prototipo"
