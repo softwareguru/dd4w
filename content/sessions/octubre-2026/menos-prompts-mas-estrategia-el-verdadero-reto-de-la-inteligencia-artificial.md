@@ -4,8 +4,8 @@ slug: menos-prompts-mas-estrategia-el-verdadero-reto-de-la-inteligencia-artifici
 speakers:
  - Fabiola Mero Ramírez
  - CONTPAQi
-time_start: 2026-10-31T10:30:00-06:00
-time_end: 2026-10-31T11:30:00-06:00
+time_start: 2026-10-31T15:15:00-06:00
+time_end: 2026-10-31T16:15:00-06:00
 ---
 
 La Inteligencia Artificial ya está transformando la manera en que trabajamos, desarrollamos software y hacemos negocios. Sin embargo, entre nuevas herramientas, licencias y experimentos, muchas organizaciones enfrentan una pregunta clave: ¿estamos generando una transformación real o simplemente siguiendo una tendencia?

@@ -27,6 +27,21 @@
       {{- $s.SetInMap "covered" (printf "%d" (add $i 2)) true -}}
     {{- end -}}
   {{- end -}}
+  {{- /* Si ninguna franja de la plenaria cae completa dentro del taller (p. ej. un
+       taller de 15:15 a 16:15 frente a franjas de 15:00 y 16:00), el taller se
+       ancla a la primera franja con la que se traslapa. Sin esto la celda salia
+       con grid-row 0 y no se pintaba. */ -}}
+  {{- if eq $span 0 -}}
+    {{- range $i, $slot := $slots -}}
+      {{- $ss := index (split $slot.horario $sep) 0 -}}
+      {{- $se := index (split $slot.horario $sep) 1 -}}
+      {{- if and (eq $span 0) (and (lt $ss $qe) (gt $se $qs)) -}}
+        {{- $row = add $i 2 -}}
+        {{- $span = 1 -}}
+        {{- $s.SetInMap "covered" (printf "%d" (add $i 2)) true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
   {{- $s.Add "qcells" (slice (dict "row" $row "span" $span "ses" $q)) -}}
 {{- end -}}
 
@@ -65,7 +80,10 @@
         {{- /* Las filas logísticas cruzan las dos columnas. Pueden llevar
              ponentes: la apertura la dan personas, y conviene que se sepa
              quiénes son. */ -}}
-        <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:2/4">{{ $slot.titulo }}
+        {{- /* Cruza las dos columnas solo si la sala 2 esta libre en esa franja. Si
+             alli corre un taller (p. ej. el break de 11:25 dentro del taller de
+             10:30 a 11:30), la fila se queda en su columna y no lo tapa. */ -}}
+        <div class="agx-cell agx-log" style="grid-row:{{ $row }};grid-column:{{ if isset $covered (printf "%d" $row) }}2{{ else }}2/4{{ end }}">{{ $slot.titulo }}
             {{- /* Lo que ocurre durante la franja: p. ej. las grabaciones de las
                  comunidades que se transmiten mientras se come. */ -}}
             {{- with $slot.nota }}<span class="agx-log-nota">{{ . }}</span>{{ end }}
