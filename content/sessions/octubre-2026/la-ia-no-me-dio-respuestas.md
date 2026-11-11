@@ -5,6 +5,8 @@ speakers:
  - Reyna Mendez
 time_start: 2026-10-31T16:25:00-06:00
 time_end: 2026-10-31T16:50:00-06:00
+video: 
+slides: octubre-2026/la-ia-no-me-dio-respuestas.pdf
 ---
 
 Cuando comencé a trabajar con Inteligencia Artificial, pensé que el mayor reto sería aprender nuevas herramientas. Me equivoqué.

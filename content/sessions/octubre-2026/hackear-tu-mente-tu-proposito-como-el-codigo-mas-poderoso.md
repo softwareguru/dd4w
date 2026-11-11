@@ -5,6 +5,8 @@ speakers:
  - Leslie Helena García López
 time_start: 2026-10-31T14:05:00-06:00
 time_end: 2026-10-31T14:25:00-06:00
+video: 
+slides: octubre-2026/hackear-tu-mente-tu-proposito-como-el-codigo-mas-poderoso.pdf
 ---
 
 En un entorno tecnológico enfocado en la lógica y los algoritmos, esta conferencia propone que el software más crítico que debemos programar es nuestra propia mente. Un espacio diseñado para cuestionar patrones ajenos, superar el síndrome de la impostora y reescribir nuestra narrativa desde la autenticidad.

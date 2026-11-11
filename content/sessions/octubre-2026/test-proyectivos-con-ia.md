@@ -5,6 +5,8 @@ speakers:
  - Dra Maria Del Consuelo Jimenez Fernandez
 time_start: 2026-10-31T10:05:00-06:00
 time_end: 2026-10-31T10:30:00-06:00
+video:
+slides: octubre-2026/test-proyectivos-con-ia.pdf
 ---
 
 Los test proyectivos como el dibujo de la figura humana y el hombre bajo la lluvia han sido utilizados de forma manual por muchos años. Hoy, gracias a la IA, se pueden automatizar reduciendo tiempos, estandarizando los resultados de los prediagnósticos y extendiendo la capacidad de los psicólogos: a través de visión computacional, los resultados se generan en menos de un minuto.

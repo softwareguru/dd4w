@@ -5,6 +5,8 @@ speakers:
  - Ruth Rodríguez Gallegos
 time_start: 2026-10-31T16:50:00-06:00
 time_end: 2026-10-31T16:55:00-06:00
+video: 
+slides: octubre-2026/volver-a-ser-principiante-aprender-crear-y-reinventarse-con-ia.pdf
 ---
 
 Después de años de experiencia como profesora de matemáticas, la inteligencia artificial me colocó nuevamente en una posición inesperada: la de principiante. Comencé a explorar herramientas y formas de crear que antes consideraba fuera de mi ámbito profesional y descubrí que la IA podía reducir la distancia entre una idea y mi capacidad para materializarla.

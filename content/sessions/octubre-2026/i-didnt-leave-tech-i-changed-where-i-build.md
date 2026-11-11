@@ -5,6 +5,8 @@ speakers:
  - Cristina González Córdova
 time_start: 2026-10-31T16:55:00-06:00
 time_end: 2026-10-31T17:00:00-06:00
+video: 
+slides: octubre-2026/i-didnt-leave-tech-i-changed-where-i-build.pdf
 ---
 
 Durante más de 15 años trabajé en la industria de desarrollo de software, construyendo sistemas, aplicaciones y soluciones tecnológicas. Después, mi carrera tomó un camino diferente: llegué a la docencia.

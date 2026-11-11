@@ -5,6 +5,8 @@ speakers:
  - Alicia Pravia
 time_start: 2026-10-31T12:50:00-06:00
 time_end: 2026-10-31T13:15:00-06:00
+video: 
+slides: octubre-2026/mas-alla-del-bug.pdf
 ---
 
 Tras más de 10 años en QA y liderando equipos en Globant, esta charla aborda cómo transformar la calidad del software en un pilar estratégico ante el avance de la inteligencia artificial y los entornos de alta exigencia, como la industria de Healthcare.

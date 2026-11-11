@@ -5,6 +5,8 @@ speakers:
  - Antonieta Carrasco
 time_start: 2026-10-31T16:00:00-06:00
 time_end: 2026-10-31T16:25:00-06:00
+video: 
+slides: octubre-2026/cuando-diseno-y-desarrollo-hablan-el-mismo-idioma.pdf
 ---
 
 Esta no es una charla sobre Kiro. Tampoco es una charla sobre Figma. Es la historia de cómo descubrimos que el verdadero valor de un Design System no estaba en sus componentes, sino en convertirse en un lenguaje compartido entre diseño y desarrollo.
