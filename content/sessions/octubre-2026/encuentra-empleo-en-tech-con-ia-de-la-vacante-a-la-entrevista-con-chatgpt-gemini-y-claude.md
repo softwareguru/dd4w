@@ -5,6 +5,8 @@ speakers:
  - Brenda Hernández
 time_start: 2026-10-31T12:45:00-06:00
 time_end: 2026-10-31T13:45:00-06:00
+video: 
+slides: octubre-2026/encuentra-empleo-en-tech-con-ia-de-la-vacante-a-la-entrevista-con-chatgpt-gemini-y-claude.pdf
 ---
 
 
