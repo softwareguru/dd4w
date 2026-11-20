@@ -3,7 +3,7 @@ title: "Lan Díaz"
 date: 2025-09-23T13:08:21-06:00
 images: 
  - "/images/speakers/lan-diaz.png"
-designation : "Woman Diversity"
+designation : ""
 country: "mx"
 twitter: ""
 linkedin: "https://www.linkedin.com/in/diazlan/"
